@@ -50,11 +50,6 @@ def load_tidal_session() -> tidalapi.Session:
     session = tidalapi.Session()
     session_file = Path("/tmp/tidal_session.json")
 
-    # Normaliseer {"key": {"data": value}} naar {"key": value}
-    raw = json.loads(session_file.read_text())
-    normalized = {k: (v["data"] if isinstance(v, dict) and "data" in v else v) for k, v in raw.items()}
-    session_file.write_text(json.dumps(normalized))
-
     session.load_session_from_file(session_file)
     return session
 
