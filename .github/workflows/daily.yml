@@ -2,11 +2,7 @@ name: Dagelijkse Playlist Update
 
 on:
   schedule:
-    # Elke dag om 06:00 Belgische tijd (= 05:00 UTC zomer / 06:00 UTC winter)
-    # Zo staat de playlist klaar als je je dag begint
     - cron: "0 5 * * *"
-
-  # Handmatig triggeren via GitHub UI (handig om te testen)
   workflow_dispatch:
 
 jobs:
@@ -26,10 +22,10 @@ jobs:
       - name: Dependencies installeren
         run: pip install -r requirements.txt
 
-      - name: Tidal sessie herstellen
+      - name: Tidal sessie herstellen en normaliseren
         env:
           TIDAL_SESSION_JSON: ${{ secrets.TIDAL_SESSION_JSON }}
-        run: python -c "import os, pathlib; pathlib.Path('/tmp/tidal_session.json').write_text(os.environ['TIDAL_SESSION_JSON'])"
+        run: python normalize_session.py
 
       - name: Playlist updaten
         env:
