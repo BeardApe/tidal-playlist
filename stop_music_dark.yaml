@@ -1,0 +1,28 @@
+alias: Systeem - Muziek uit als alles donker
+description: >
+  Stopt alle muziek zodra er geen enkel licht meer aan is.
+  Gebruikt state-triggers op individuele lichten voor directe respons,
+  gecombineerd met een conditie die controleert of werkelijk alle lichten uit zijn.
+triggers:
+  - trigger: state
+    entity_id: light
+    to: "off"
+conditions:
+  - condition: template
+    value_template: >
+      {{ states.light | selectattr('state', 'eq', 'on') | list | count == 0 }}
+actions:
+  - action: media_player.media_stop
+    target:
+      entity_id:
+        - media_player.music_assistant_syncgroup_m2e4mmht
+        - media_player.bathroom
+        - media_player.bedroom_2
+        - media_player.hallway_2
+        - media_player.kitchen_2
+        - media_player.living_room_3
+        - media_player.office_2
+        - media_player.sonos_roam_sl
+        - media_player.tv
+    data: {}
+mode: single
