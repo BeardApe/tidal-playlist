@@ -23,9 +23,6 @@ LASTFM_API_SECRET = os.environ["LASTFM_API_SECRET"]
 LASTFM_USERNAME   = os.environ["LASTFM_USERNAME"]
 LASTFM_PASSWORD_HASH = pylast.md5(os.environ["LASTFM_PASSWORD"])
 
-# Tidal sessie JSON (opgeslagen als GitHub secret)
-TIDAL_SESSION_JSON = os.environ["TIDAL_SESSION_JSON"]
-
 # Hoeveel tracks per dag toevoegen
 TRACKS_PER_DAY     = 12   # ~2 uur muziek
 MAX_PLAYLIST_SIZE  = 300  # playlist cap — oudste tracks vallen eraf
