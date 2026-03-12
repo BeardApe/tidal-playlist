@@ -32,8 +32,7 @@ LASTFM_PASSWORD_HASH  = pylast.md5(os.environ["LASTFM_PASSWORD"])
 SPOTIFY_CLIENT_ID     = os.environ["SPOTIFY_CLIENT_ID"]
 SPOTIFY_CLIENT_SECRET = os.environ["SPOTIFY_CLIENT_SECRET"]
 
-TRACKS_PER_DAY = 12
-MAX_AGE_DAYS   = 90   # tracks ouder dan dit worden uit de Tidal playlist verwijderd
+MAX_AGE_DAYS   = 30   # tracks ouder dan dit worden uit de Tidal playlist verwijderd
 NEW_TRACK_DAYS = 21   # Nummers-2026: alleen tracks toegevoegd in de afgelopen N dagen
 
 STATE_FILE = Path("state.json")
@@ -304,9 +303,6 @@ def main():
     added = []
 
     for candidate in candidates:
-        if len(added) >= TRACKS_PER_DAY:
-            break
-
         artist = candidate["artist"]
         title  = candidate["title"]
         source = candidate["source"]
