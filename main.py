@@ -48,15 +48,11 @@ SEED_ARTISTS = [
 # ─────────────────────────────────────────────
 
 def load_tidal_session() -> tidalapi.Session:
-    """Laad Tidal sessie vanuit JSON secret."""
+    """Laad Tidal sessie vanuit JSON bestand (aangemaakt door workflow)."""
+    from pathlib import Path
     session = tidalapi.Session()
-    session_data = json.loads(TIDAL_SESSION_JSON)
-
-    # Schrijf tijdelijk naar bestand (tidalapi verwacht een path)
-    with open("/tmp/tidal_session.json", "w") as f:
-        json.dump(session_data, f)
-
-    session.load_session_from_file("/tmp/tidal_session.json")
+    session_file = Path("/tmp/tidal_session.json")
+    session.load_session_from_file(session_file)
 
     if not session.check_login():
         raise RuntimeError("Tidal sessie verlopen — voer setup.py opnieuw uit.")
