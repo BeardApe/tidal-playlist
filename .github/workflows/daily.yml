@@ -2,7 +2,7 @@ name: Dagelijkse Tidal Playlist Update
 
 on:
   schedule:
-    - cron: "0 5 * * *"   # elke dag om 05:00 UTC
+    - cron: "0 5 * * 1"   # elke maandag om 05:00 UTC
   workflow_dispatch:        # ook handmatig te starten
 
 permissions:
