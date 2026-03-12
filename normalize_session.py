@@ -6,7 +6,7 @@ import os
 import json
 import pathlib
 
-raw = json.loads(os.environ["TIDAL_SESSION_JSON"])
+raw = json.loads(os.environ["TIDAL_SESSION_JSON"].strip().strip('"'))
 normalized = {
     k: (v["data"] if isinstance(v, dict) and "data" in v else v)
     for k, v in raw.items()
