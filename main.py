@@ -50,10 +50,6 @@ def load_tidal_session() -> tidalapi.Session:
     session = tidalapi.Session()
     session_file = Path("/tmp/tidal_session.json")
     session.load_session_from_file(session_file)
-
-    if not session.check_login():
-        raise RuntimeError("Tidal sessie verlopen — voer setup.py opnieuw uit.")
-
     return session
 
 
