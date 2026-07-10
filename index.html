@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nachtradio — playlist dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Space+Grotesk:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #14161d;
+  --surface: #1c1f28;
+  --surface-2: #232733;
+  --border: #2e3342;
+  --text: #e8e4d8;
+  --text-dim: #9a97a8;
+  --text-faint: #5f5d6e;
+  --amber: #e8a04c;
+  --amber-dim: #a06f34;
+  --teal: #6fb5a5;
+  --red: #d4685e;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { background: var(--bg); }
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  min-height: 100vh;
+  font-size: 15px;
+  line-height: 1.6;
+}
+.container { max-width: 960px; margin: 0 auto; padding: 0 20px 80px; }
+
+header { padding: 48px 0 32px; border-bottom: 1px solid var(--border); }
+.eyebrow {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--amber);
+  margin-bottom: 8px;
+}
+.eyebrow .dot {
+  display: inline-block; width: 8px; height: 8px; border-radius: 50%;
+  background: var(--amber); margin-right: 8px;
+  animation: pulse 2.5s ease-in-out infinite;
+}
+@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
+@media (prefers-reduced-motion: reduce) { .eyebrow .dot { animation: none; } }
+h1 {
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
+  font-size: clamp(32px, 6vw, 48px);
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+}
+.sub { color: var(--text-dim); margin-top: 8px; font-size: 15px; }
+.sub a { color: var(--teal); text-decoration: none; }
+.sub a:hover { text-decoration: underline; }
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 32px 0;
+}
+.stat { background: var(--surface); padding: 20px; }
+.stat-n {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 32px; font-weight: 500;
+  color: var(--amber);
+}
+.stat-l { font-size: 13px; color: var(--text-dim); margin-top: 2px; }
+
+.next-run {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px; color: var(--text-dim);
+  padding: 12px 16px;
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+  margin-bottom: 32px;
+}
+.next-run strong { color: var(--teal); font-weight: 500; }
+
+nav { display: flex; gap: 4px; border-bottom: 1px solid var(--border); margin-bottom: 24px; flex-wrap: wrap; }
+.tab {
+  background: none; border: none; cursor: pointer;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 14px; color: var(--text-dim);
+  padding: 10px 18px;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+}
+.tab:hover { color: var(--text); }
+.tab.active { color: var(--amber); border-bottom-color: var(--amber); }
+.tab:focus-visible { outline: 2px solid var(--amber); outline-offset: 2px; border-radius: 4px; }
+
+.panel { display: none; }
+.panel.active { display: block; }
+
+.controls { display: flex; gap: 10px; margin-bottom: 16px; flex-wrap: wrap; }
+input[type="search"], select {
+  background: var(--surface); border: 1px solid var(--border);
+  color: var(--text); border-radius: 6px;
+  padding: 8px 12px; font-size: 14px;
+  font-family: 'Space Grotesk', sans-serif;
+}
+input[type="search"] { flex: 1; min-width: 200px; }
+input[type="search"]:focus, select:focus { outline: none; border-color: var(--amber-dim); }
+
+table { width: 100%; border-collapse: collapse; }
+th {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--text-faint); text-align: left;
+  padding: 10px 12px; border-bottom: 1px solid var(--border);
+  font-weight: 400;
+}
+td { padding: 10px 12px; border-bottom: 1px solid var(--border); font-size: 14px; vertical-align: middle; }
+tr:hover td { background: var(--surface); }
+td.artist { font-weight: 500; }
+td.title { color: var(--text-dim); }
+td.date { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--text-faint); white-space: nowrap; }
+
+.badge {
+  display: inline-block;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  padding: 3px 8px;
+  border-radius: 4px;
+  background: var(--surface-2);
+  color: var(--teal);
+  white-space: nowrap;
+}
+.badge.lastfm { color: var(--amber); }
+
+.age-cell { min-width: 110px; }
+.age-label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px; color: var(--text-faint); margin-bottom: 4px;
+}
+.age-track { height: 4px; background: var(--surface-2); border-radius: 2px; overflow: hidden; }
+.age-fill { height: 4px; border-radius: 2px; background: var(--teal); }
+.age-fill.warn { background: var(--amber); }
+.age-fill.danger { background: var(--red); }
+
+.src-bar-wrap { display: flex; align-items: center; gap: 12px; }
+.src-bar { height: 8px; background: var(--amber-dim); border-radius: 4px; min-width: 2px; }
+.src-count { font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: var(--text-dim); min-width: 60px; }
+
+.msg { text-align: center; color: var(--text-faint); padding: 48px 0; }
+.spin {
+  width: 24px; height: 24px; margin: 0 auto 12px;
+  border: 2px solid var(--border); border-top-color: var(--amber);
+  border-radius: 50%;
+  animation: rot 0.8s linear infinite;
+}
+@keyframes rot { to { transform: rotate(360deg); } }
+
+.more { text-align: center; padding: 16px; color: var(--text-faint); font-size: 13px; }
+
+footer {
+  margin-top: 64px; padding-top: 24px;
+  border-top: 1px solid var(--border);
+  font-size: 13px; color: var(--text-faint);
+  font-family: 'IBM Plex Mono', monospace;
+}
+@media (max-width: 600px) {
+  th:nth-child(4), td:nth-child(4) { display: none; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<header>
+  <div class="eyebrow"><span class="dot"></span>on air — wekelijkse rotatie</div>
+  <h1>Nachtradio</h1>
+  <p class="sub">Automatisch samengesteld uit Vuurland, KEXP, BBC, NPR en Last.fm-ontdekkingen · <a href="https://github.com/BeardApe/tidal-playlist" rel="noopener">broncode</a></p>
+</header>
+
+<div class="stats" id="stats">
+  <div class="stat"><div class="stat-n">—</div><div class="stat-l">Nu in playlist</div></div>
+  <div class="stat"><div class="stat-n">—</div><div class="stat-l">Ooit toegevoegd</div></div>
+  <div class="stat"><div class="stat-n">—</div><div class="stat-l">Uitgerouleerd</div></div>
+  <div class="stat"><div class="stat-n">—</div><div class="stat-l">Bronnen</div></div>
+</div>
+
+<div class="next-run" id="next-run">volgende run wordt berekend…</div>
+
+<nav role="tablist">
+  <button class="tab active" role="tab" data-tab="current">Huidige playlist</button>
+  <button class="tab" role="tab" data-tab="removed">Uitgerouleerd</button>
+  <button class="tab" role="tab" data-tab="sources">Bronnen</button>
+</nav>
+
+<div class="panel active" id="panel-current">
+  <div class="controls">
+    <input type="search" id="q-current" placeholder="Zoek artiest of titel">
+    <select id="f-source"><option value="">Alle bronnen</option></select>
+    <select id="f-sort">
+      <option value="new">Nieuwste eerst</option>
+      <option value="old">Oudste eerst</option>
+      <option value="artist">Artiest A–Z</option>
+    </select>
+  </div>
+  <div id="t-current"><div class="msg"><div class="spin"></div>Laden…</div></div>
+</div>
+
+<div class="panel" id="panel-removed">
+  <div class="controls">
+    <input type="search" id="q-removed" placeholder="Zoek artiest of titel">
+  </div>
+  <div id="t-removed"></div>
+</div>
+
+<div class="panel" id="panel-sources">
+  <div id="t-sources"></div>
+</div>
+
+<footer>
+  <div>rotatie: tracks verdwijnen na 30 dagen · dedupe: eenmaal gedraaid komt niet terug</div>
+  <div id="last-update"></div>
+</footer>
+
+</div>
+
+<script>
+const STATE_URL = "https://raw.githubusercontent.com/BeardApe/tidal-playlist/main/state.json";
+const MAX_AGE = 30;
+
+let state = null;
+
+const getDate   = e => typeof e === 'string' ? e : (e && e.date)   || '';
+const getSource = e => typeof e === 'string' ? '' : (e && e.source) || '';
+const getArtist = e => typeof e === 'string' ? '' : (e && e.artist) || '';
+const getTitle  = e => typeof e === 'string' ? '' : (e && e.title)  || '';
+
+function daysAgo(d) { return Math.floor((Date.now() - new Date(d + "T00:00:00").getTime()) / 86400000); }
+function cutoffStr() {
+  const d = new Date(); d.setDate(d.getDate() - MAX_AGE);
+  return d.toISOString().slice(0, 10);
+}
+function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+function shortSrc(s) {
+  if (!s) return '?';
+  return s.replace('LastFM~', '♪ ').replace('-latest','').replace('-Official','').replace('-JustAdded','');
+}
+
+function nextMonday() {
+  const now = new Date();
+  const next = new Date(now);
+  const day = now.getUTCDay();
+  let add = (1 - day + 7) % 7;
+  if (add === 0 && (now.getUTCHours() > 5 || (now.getUTCHours() === 5 && now.getUTCMinutes() > 0))) add = 7;
+  if (add === 0) add = 0;
+  next.setUTCDate(now.getUTCDate() + add);
+  next.setUTCHours(5, 0, 0, 0);
+  if (next <= now) next.setUTCDate(next.getUTCDate() + 7);
+  return next;
+}
+
+function currentTracks() {
+  const log = state.playlist_log || {};
+  const cut = cutoffStr();
+  return Object.entries(log)
+    .filter(([, e]) => getDate(e) >= cut)
+    .map(([id, e]) => ({
+      id, artist: getArtist(e), title: getTitle(e),
+      source: getSource(e), date: getDate(e), age: daysAgo(getDate(e))
+    }));
+}
+
+function removedTracks() {
+  const seen = state.seen || {};
+  const log = state.playlist_log || {};
+  const cut = cutoffStr();
+  const active = new Set(
+    Object.values(log)
+      .filter(e => getDate(e) >= cut)
+      .map(e => (getArtist(e) + '|' + getTitle(e)).toLowerCase())
+  );
+  return Object.entries(seen)
+    .filter(([k]) => !active.has(k))
+    .map(([k, e]) => {
+      const [ka = '', kt = ''] = k.split('|');
+      return {
+        artist: getArtist(e) || ka, title: getTitle(e) || kt,
+        source: getSource(e), date: getDate(e), age: daysAgo(getDate(e) || new Date().toISOString())
+      };
+    })
+    .sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+}
+
+function renderStats() {
+  const cur = currentTracks().length;
+  const total = Object.keys(state.seen || {}).length;
+  const sources = new Set(Object.values(state.seen || {}).map(getSource).filter(Boolean));
+  const s = document.getElementById('stats');
+  s.innerHTML = `
+    <div class="stat"><div class="stat-n">${cur}</div><div class="stat-l">Nu in playlist</div></div>
+    <div class="stat"><div class="stat-n">${total}</div><div class="stat-l">Ooit toegevoegd</div></div>
+    <div class="stat"><div class="stat-n">${Math.max(0, total - cur)}</div><div class="stat-l">Uitgerouleerd</div></div>
+    <div class="stat"><div class="stat-n">${sources.size}</div><div class="stat-l">Bronnen</div></div>`;
+
+  const nm = nextMonday();
+  const fmt = nm.toLocaleDateString('nl-BE', { weekday: 'long', day: 'numeric', month: 'long', timeZone: 'Europe/Brussels' });
+  const time = nm.toLocaleTimeString('nl-BE', { hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Brussels' });
+  document.getElementById('next-run').innerHTML =
+    `volgende run: <strong>${fmt} om ${time}</strong> · tracks ouder dan ${MAX_AGE} dagen worden dan verwijderd`;
+}
+
+function renderCurrent() {
+  const q = document.getElementById('q-current').value.toLowerCase();
+  const fs = document.getElementById('f-source').value;
+  const sort = document.getElementById('f-sort').value;
+  let tracks = currentTracks();
+  if (q) tracks = tracks.filter(t => t.artist.toLowerCase().includes(q) || t.title.toLowerCase().includes(q));
+  if (fs) tracks = tracks.filter(t => t.source === fs);
+  if (sort === 'new') tracks.sort((a, b) => b.date.localeCompare(a.date) || a.artist.localeCompare(b.artist));
+  if (sort === 'old') tracks.sort((a, b) => a.date.localeCompare(b.date) || a.artist.localeCompare(b.artist));
+  if (sort === 'artist') tracks.sort((a, b) => a.artist.localeCompare(b.artist));
+
+  const el = document.getElementById('t-current');
+  if (!tracks.length) { el.innerHTML = '<div class="msg">Geen tracks gevonden</div>'; return; }
+  el.innerHTML = `<table>
+    <thead><tr><th>Artiest</th><th>Titel</th><th>Bron</th><th>Sinds</th><th>Rotatie</th></tr></thead>
+    <tbody>` + tracks.map(t => {
+      const pct = Math.min(100, Math.round(t.age / MAX_AGE * 100));
+      const cls = t.age > 25 ? 'danger' : t.age > 15 ? 'warn' : '';
+      const badgeCls = t.source.startsWith('LastFM') ? 'badge lastfm' : 'badge';
+      return `<tr>
+        <td class="artist">${esc(t.artist) || '—'}</td>
+        <td class="title">${esc(t.title) || '—'}</td>
+        <td><span class="${badgeCls}">${esc(shortSrc(t.source))}</span></td>
+        <td class="date">${t.date}</td>
+        <td class="age-cell">
+          <div class="age-label">dag ${t.age} van ${MAX_AGE}</div>
+          <div class="age-track"><div class="age-fill ${cls}" style="width:${pct}%"></div></div>
+        </td>
+      </tr>`;
+    }).join('') + '</tbody></table>';
+}
+
+function renderRemoved() {
+  const q = document.getElementById('q-removed').value.toLowerCase();
+  let tracks = removedTracks();
+  if (q) tracks = tracks.filter(t => t.artist.toLowerCase().includes(q) || t.title.toLowerCase().includes(q));
+  const el = document.getElementById('t-removed');
+  if (!tracks.length) { el.innerHTML = '<div class="msg">Nog niets uitgerouleerd</div>'; return; }
+  const LIMIT = 300;
+  el.innerHTML = `<table>
+    <thead><tr><th>Artiest</th><th>Titel</th><th>Bron</th><th>Toegevoegd</th></tr></thead>
+    <tbody>` + tracks.slice(0, LIMIT).map(t => `<tr>
+      <td class="artist">${esc(t.artist) || '—'}</td>
+      <td class="title">${esc(t.title) || '—'}</td>
+      <td><span class="badge">${esc(shortSrc(t.source))}</span></td>
+      <td class="date">${t.date || '—'}</td>
+    </tr>`).join('') + '</tbody></table>' +
+    (tracks.length > LIMIT ? `<div class="more">nog ${tracks.length - LIMIT} oudere tracks niet getoond</div>` : '');
+}
+
+function renderSources() {
+  const seen = state.seen || {};
+  const cut = cutoffStr();
+  const log = state.playlist_log || {};
+  const all = {}, cur = {};
+  Object.values(seen).forEach(e => {
+    const s = getSource(e) || 'onbekend';
+    all[s] = (all[s] || 0) + 1;
+  });
+  Object.values(log).filter(e => getDate(e) >= cut).forEach(e => {
+    const s = getSource(e) || 'onbekend';
+    cur[s] = (cur[s] || 0) + 1;
+  });
+  const rows = Object.entries(all).sort((a, b) => b[1] - a[1]);
+  const max = Math.max(1, ...rows.map(r => r[1]));
+  document.getElementById('t-sources').innerHTML = `<table>
+    <thead><tr><th>Bron</th><th>Actief</th><th>Totaal</th><th>Aandeel</th></tr></thead>
+    <tbody>` + rows.map(([s, n]) => `<tr>
+      <td class="artist">${esc(shortSrc(s))}</td>
+      <td class="date">${cur[s] || 0}</td>
+      <td class="date">${n}</td>
+      <td><div class="src-bar-wrap"><div class="src-bar" style="width:${Math.round(n / max * 100)}%"></div></div></td>
+    </tr>`).join('') + '</tbody></table>';
+}
+
+function populateSourceFilter() {
+  const sources = [...new Set(Object.values(state.seen || {}).map(getSource).filter(Boolean))].sort();
+  const sel = document.getElementById('f-source');
+  sources.forEach(s => {
+    const o = document.createElement('option');
+    o.value = s; o.textContent = shortSrc(s);
+    sel.appendChild(o);
+  });
+}
+
+document.querySelectorAll('.tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+    tab.classList.add('active');
+    document.getElementById('panel-' + tab.dataset.tab).classList.add('active');
+  });
+});
+document.getElementById('q-current').addEventListener('input', renderCurrent);
+document.getElementById('f-source').addEventListener('change', renderCurrent);
+document.getElementById('f-sort').addEventListener('change', renderCurrent);
+document.getElementById('q-removed').addEventListener('input', renderRemoved);
+
+async function init() {
+  try {
+    const r = await fetch(STATE_URL + '?t=' + Date.now());
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    state = await r.json();
+    renderStats();
+    populateSourceFilter();
+    renderCurrent();
+    renderRemoved();
+    renderSources();
+    document.getElementById('last-update').textContent =
+      'data geladen op ' + new Date().toLocaleString('nl-BE', { timeZone: 'Europe/Brussels' });
+  } catch (e) {
+    document.getElementById('t-current').innerHTML =
+      `<div class="msg">Kon state.json niet laden (${esc(e.message)}).<br>Is de repo publiek?</div>`;
+  }
+}
+init();
+</script>
+</body>
+</html>
