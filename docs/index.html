@@ -127,6 +127,7 @@ tr:hover td { background: var(--surface); }
 td.artist { font-weight: 500; }
 td.title { color: var(--text-dim); }
 td.date { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--text-faint); white-space: nowrap; }
+.genres { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: var(--text-faint); margin-top: 2px; }
 
 .badge {
   display: inline-block;
@@ -204,6 +205,7 @@ footer {
   <div class="controls">
     <input type="search" id="q-current" placeholder="Zoek artiest of titel">
     <select id="f-source"><option value="">Alle bronnen</option></select>
+    <select id="f-genre"><option value="">Alle genres</option></select>
     <select id="f-sort">
       <option value="new">Nieuwste eerst</option>
       <option value="old">Oudste eerst</option>
@@ -241,6 +243,7 @@ const getDate   = e => typeof e === 'string' ? e : (e && e.date)   || '';
 const getSource = e => typeof e === 'string' ? '' : (e && e.source) || '';
 const getArtist = e => typeof e === 'string' ? '' : (e && e.artist) || '';
 const getTitle  = e => typeof e === 'string' ? '' : (e && e.title)  || '';
+const getGenres = e => typeof e === 'string' ? [] : (e && e.genres) || [];
 
 function daysAgo(d) { return Math.floor((Date.now() - new Date(d + "T00:00:00").getTime()) / 86400000); }
 function cutoffStr() {
@@ -273,7 +276,8 @@ function currentTracks() {
     .filter(([, e]) => getDate(e) >= cut)
     .map(([id, e]) => ({
       id, artist: getArtist(e), title: getTitle(e),
-      source: getSource(e), date: getDate(e), age: daysAgo(getDate(e))
+      source: getSource(e), date: getDate(e), age: daysAgo(getDate(e)),
+      genres: getGenres(e)
     }));
 }
 
@@ -319,10 +323,12 @@ function renderStats() {
 function renderCurrent() {
   const q = document.getElementById('q-current').value.toLowerCase();
   const fs = document.getElementById('f-source').value;
+  const fg = document.getElementById('f-genre').value;
   const sort = document.getElementById('f-sort').value;
   let tracks = currentTracks();
   if (q) tracks = tracks.filter(t => t.artist.toLowerCase().includes(q) || t.title.toLowerCase().includes(q));
   if (fs) tracks = tracks.filter(t => t.source === fs);
+  if (fg) tracks = tracks.filter(t => t.genres.includes(fg));
   if (sort === 'new') tracks.sort((a, b) => b.date.localeCompare(a.date) || a.artist.localeCompare(b.artist));
   if (sort === 'old') tracks.sort((a, b) => a.date.localeCompare(b.date) || a.artist.localeCompare(b.artist));
   if (sort === 'artist') tracks.sort((a, b) => a.artist.localeCompare(b.artist));
@@ -335,9 +341,11 @@ function renderCurrent() {
       const pct = Math.min(100, Math.round(t.age / MAX_AGE * 100));
       const cls = t.age > 25 ? 'danger' : t.age > 15 ? 'warn' : '';
       const badgeCls = t.source.startsWith('LastFM') ? 'badge lastfm' : 'badge';
+      const genreLine = t.genres.length
+        ? `<div class="genres">${t.genres.map(esc).join(' · ')}</div>` : '';
       return `<tr>
         <td class="artist">${esc(t.artist) || '—'}</td>
-        <td class="title">${esc(t.title) || '—'}</td>
+        <td class="title">${esc(t.title) || '—'}${genreLine}</td>
         <td><span class="${badgeCls}">${esc(shortSrc(t.source))}</span></td>
         <td class="date">${t.date}</td>
         <td class="age-cell">
@@ -399,6 +407,13 @@ function populateSourceFilter() {
     o.value = s; o.textContent = shortSrc(s);
     sel.appendChild(o);
   });
+  const genres = [...new Set(currentTracks().flatMap(t => t.genres))].sort();
+  const gsel = document.getElementById('f-genre');
+  genres.forEach(g => {
+    const o = document.createElement('option');
+    o.value = g; o.textContent = g;
+    gsel.appendChild(o);
+  });
 }
 
 document.querySelectorAll('.tab').forEach(tab => {
@@ -411,6 +426,7 @@ document.querySelectorAll('.tab').forEach(tab => {
 });
 document.getElementById('q-current').addEventListener('input', renderCurrent);
 document.getElementById('f-source').addEventListener('change', renderCurrent);
+document.getElementById('f-genre').addEventListener('change', renderCurrent);
 document.getElementById('f-sort').addEventListener('change', renderCurrent);
 document.getElementById('q-removed').addEventListener('input', renderRemoved);
 
