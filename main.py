@@ -247,6 +247,33 @@ def remove_old_tracks(session: tidalapi.Session, playlist_id: str, playlist_log:
     return playlist_log
 
 
+def backfill_playlist_log(session: tidalapi.Session, playlist_id: str, playlist_log: dict) -> dict:
+    """
+    Vult ontbrekende artiest/titel aan voor oude entries (van vóór het rijke formaat).
+    Leest de gegevens rechtstreeks uit de Tidal playlist.
+    """
+    try:
+        enriched = 0
+        for track in session.playlist(playlist_id).tracks():
+            tid   = str(track.id)
+            entry = playlist_log.get(tid)
+            if entry is None:
+                continue
+            if isinstance(entry, str):
+                entry = {"date": entry}
+            if not entry.get("artist") or not entry.get("title"):
+                entry["artist"] = entry.get("artist") or track.artist.name
+                entry["title"]  = entry.get("title")  or track.name
+                entry.setdefault("source", "onbekend")
+                enriched += 1
+            playlist_log[tid] = entry
+        if enriched:
+            print(f"[Backfill] {enriched} oude entries aangevuld met artiest/titel")
+    except Exception as e:
+        print(f"[Backfill] Mislukt: {e}")
+    return playlist_log
+
+
 def main():
     print(f"\n{'='*50}")
     print(f"  Playlist update — {datetime.now().strftime('%Y-%m-%d %H:%M')}")
@@ -260,6 +287,7 @@ def main():
     print("[Tidal] Ingelogd ✓\n")
 
     playlist_log = remove_old_tracks(session, TIDAL_PLAYLIST_ID, playlist_log)
+    playlist_log = backfill_playlist_log(session, TIDAL_PLAYLIST_ID, playlist_log)
 
     try:
         token = get_spotify_token()
@@ -272,7 +300,8 @@ def main():
     lastfm_candidates  = get_lastfm_discoveries()
 
     # Genre-filter op Spotify-kandidaten
-    if token and BLOCKED_GENRES and spotify_candidates:
+    genre_map = {}
+    if token and spotify_candidates:
         artist_ids = list({c["artist_id"] for c in spotify_candidates if c.get("artist_id")})
         genre_map  = fetch_artist_genres(token, artist_ids)
         before     = len(spotify_candidates)
@@ -299,7 +328,14 @@ def main():
 
         seen_entry = seen.get(key)
         if seen_entry:
-            date_seen = seen_entry if isinstance(seen_entry, str) else seen_entry.get("date", "")
+            if isinstance(seen_entry, str):
+                # Heel oude entries: bewaar oorspronkelijke datum, vul bron aan
+                seen[key] = {"date": seen_entry, "source": source}
+                date_seen = seen_entry
+            else:
+                if seen_entry.get("source") in (None, "", "onbekend"):
+                    seen_entry["source"] = source
+                date_seen = seen_entry.get("date", "")
             print(f"  – [{source}] {artist} — {title} (al toegevoegd op {date_seen})")
             continue
 
@@ -312,12 +348,21 @@ def main():
         if tidal_id in existing_tidal_ids:
             print(f"  – [{source}] {artist} — {title} (staat al in playlist)")
             seen[key] = {"date": today, "source": source}
+            # Heel oude entries: vul ontbrekende bron en genres aan
+            log_entry = playlist_log.get(tidal_id)
+            if isinstance(log_entry, dict):
+                if log_entry.get("source") in (None, "", "onbekend"):
+                    log_entry["source"] = source
+                if not log_entry.get("genres"):
+                    log_entry["genres"] = genre_map.get(candidate.get("artist_id", ""), [])[:4]
             continue
 
         added.append(tidal_track)
         existing_tidal_ids.add(tidal_id)
+        genres = genre_map.get(candidate.get("artist_id", ""), [])[:4]
         seen[key]              = {"date": today, "source": source}
-        playlist_log[tidal_id] = {"date": today, "artist": artist, "title": title, "source": source}
+        playlist_log[tidal_id] = {"date": today, "artist": artist, "title": title,
+                                  "source": source, "genres": genres}
         print(f"  ✓ [{source}] {artist} — {title}")
 
     if added:
