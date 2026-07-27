@@ -32,7 +32,10 @@
       "source": "LaurenLaverne-JustAdded"
     },
     "bonnie prince billy|why is the lion?": "2026-03-12",
-    "foxtrott|wait": "2026-03-12",
+    "foxtrott|wait": {
+      "date": "2026-03-12",
+      "source": "LaurenLaverne-JustAdded"
+    },
     "marsmobil|magnetizing": {
       "date": "2026-03-12",
       "source": "LastFM~Air"
@@ -53,7 +56,10 @@
       "date": "2026-03-12",
       "source": "GuyGarvey-FinestHour"
     },
-    "neil young|till the morning comes": "2026-03-12",
+    "neil young|till the morning comes": {
+      "date": "2026-03-12",
+      "source": "GuyGarvey-FinestHour"
+    },
     "'t hof van commerce|ben ier weg": "2026-03-12",
     "john martyn|the man in the station": {
       "date": "2026-03-12",
@@ -94,7 +100,10 @@
       "date": "2026-03-12",
       "source": "Radio1-Wonderland"
     },
-    "gorillaz|the manifesto (feat. trueno and proof)": "2026-03-12",
+    "gorillaz|the manifesto (feat. trueno and proof)": {
+      "date": "2026-03-12",
+      "source": "Radio1-Wonderland"
+    },
     "the national|space invader": {
       "date": "2026-03-12",
       "source": "Vuurland-latest"
@@ -120,7 +129,10 @@
       "source": "Vuurland-latest"
     },
     "rosalía|la perla": "2026-03-12",
-    "roufaida|ken ness": "2026-03-12",
+    "roufaida|ken ness": {
+      "date": "2026-03-12",
+      "source": "Radio1-Wonderland"
+    },
     "bat for lashes|what's a girl to do?": "2026-03-12",
     "rival consoles|3 chords": {
       "date": "2026-03-12",
@@ -136,7 +148,10 @@
       "source": "LaurenLaverne-JustAdded"
     },
     "pati yang|reverse the day": "2026-03-12",
-    "nakhane|clairvoyant": "2026-03-12",
+    "nakhane|clairvoyant": {
+      "date": "2026-03-12",
+      "source": "LaurenLaverne-JustAdded"
+    },
     "marsmobil|mangia amore": "2026-03-12",
     "the haunted youth|coming home": {
       "date": "2026-03-12",
@@ -144,7 +159,10 @@
     },
     "lava la rue|scratches": "2026-03-12",
     "leon thomas|friends again": "2026-03-12",
-    "sean kiely|this is the year": "2026-03-12",
+    "sean kiely|this is the year": {
+      "date": "2026-03-12",
+      "source": "WFUV-NYSlice2026"
+    },
     "sufjan stevens|redford (for yia-yia and pappou)": {
       "date": "2026-03-12",
       "source": "Vuurland-latest"
@@ -198,7 +216,10 @@
       "date": "2026-03-12",
       "source": "Vuurland-latest"
     },
-    "joe levi|mary": "2026-03-12",
+    "joe levi|mary": {
+      "date": "2026-03-12",
+      "source": "WFUV-NYSlice2026"
+    },
     "kamasi washington|street fighter mas": {
       "date": "2026-03-12",
       "source": "LaurenLaverne-JustAdded"
@@ -253,7 +274,10 @@
       "source": "Radio1-Wonderland"
     },
     "michelle david & the true-tones|speak to me": "2026-03-12",
-    "yota : youth of the apocalypse|drop the bomb": "2026-03-12",
+    "yota : youth of the apocalypse|drop the bomb": {
+      "date": "2026-03-12",
+      "source": "LaurenLaverne-JustAdded"
+    },
     "olivia dean|so easy (to fall in love)": "2026-03-12",
     "hania rani|sentimental value": "2026-03-12",
     "scott mccloud|down through the stars": "2026-03-12",
@@ -340,8 +364,14 @@
       "source": "WFUV-NYSlice2026"
     },
     "father john misty|just dumb enough to try": "2026-03-12",
-    "amiina|hilli - lighthouse version": "2026-03-12",
-    "sun kil moon|among the leaves": "2026-03-12",
+    "amiina|hilli - lighthouse version": {
+      "date": "2026-03-12",
+      "source": "GuyGarvey-FinestHour"
+    },
+    "sun kil moon|among the leaves": {
+      "date": "2026-03-12",
+      "source": "Vuurland-latest"
+    },
     "the wild life band ny|a love song": "2026-03-12",
     "pati yang|soul for me": "2026-03-12",
     "arlo parks|heaven": "2026-03-12",
@@ -352,7 +382,10 @@
     },
     "black sea dahu|one day will be all i have": "2026-03-12",
     "pinkpantheress|illegal + anitta": "2026-03-12",
-    "ceylon sailor|the tiny wave": "2026-03-12",
+    "ceylon sailor|the tiny wave": {
+      "date": "2026-03-12",
+      "source": "WFUV-NYSlice2026"
+    },
     "punk mafia|rock 'n roll disco": "2026-03-12",
     "ratboys|open up": {
       "date": "2026-03-12",
@@ -390,7 +423,10 @@
       "source": "Radio1-Wonderland"
     },
     "link wray & his ray men|rumble": "2026-03-12",
-    "badly drawn boy|the shining": "2026-03-12",
+    "badly drawn boy|the shining": {
+      "date": "2026-03-12",
+      "source": "Vuurland-latest"
+    },
     "kings of leon|closer": {
       "date": "2026-03-12",
       "source": "Vuurland-latest"
@@ -436,7 +472,10 @@
     "camille yembe|je ne l'ai jamais dit à personne": "2026-03-12",
     "mandy, indiana|try saying": "2026-03-12",
     "adrian younge|visual assault": "2026-03-12",
-    "borokov borokov|the gist": "2026-03-12",
+    "borokov borokov|the gist": {
+      "date": "2026-03-12",
+      "source": "Radio1-Wonderland"
+    },
     "bill withers|grandma's hands": {
       "date": "2026-03-12",
       "source": "LateJunction-Official"
@@ -465,9 +504,15 @@
     "robyn|talk to me": "2026-03-16",
     "angel olsen|shut up kiss me": "2026-03-16",
     "a forest mighty black|fresh in my mind": "2026-03-16",
-    "jonny drop|the looking glass": "2026-03-16",
+    "jonny drop|the looking glass": {
+      "date": "2026-03-16",
+      "source": "LaurenLaverne-JustAdded"
+    },
     "friko|seven degrees": "2026-03-16",
-    "beverly glenn-copeland|laughter in summer": "2026-03-16",
+    "beverly glenn-copeland|laughter in summer": {
+      "date": "2026-03-16",
+      "source": "NPR-AllSongsConsidered"
+    },
     "het zesde metaal|service": "2026-03-16",
     "bibio|petals": {
       "date": "2026-03-16",
@@ -489,7 +534,10 @@
       "source": "Vuurland-latest"
     },
     "angel olsen|lark": "2026-03-16",
-    "childish gambino|this is america": "2026-03-16",
+    "childish gambino|this is america": {
+      "date": "2026-03-16",
+      "source": "LaurenLaverne-JustAdded"
+    },
     "pigeon|mirror test": "2026-03-16",
     "mikaela davis|(looking through) rose colored glasses": "2026-03-16",
     "odd places|the confused octopus and the enchanted penguin": "2026-03-16",
@@ -511,7 +559,10 @@
       "date": "2026-03-16",
       "source": "GuyGarvey-FinestHour"
     },
-    "gia margaret|everyone around me dancing": "2026-03-16",
+    "gia margaret|everyone around me dancing": {
+      "date": "2026-03-16",
+      "source": "NPR-AllSongsConsidered"
+    },
     "salvia palth|(dream)": "2026-03-16",
     "clara la san|old me": {
       "date": "2026-03-16",
@@ -565,7 +616,10 @@
       "date": "2026-03-16",
       "source": "NPR-AllSongsConsidered"
     },
-    "bryan master|state of the union": "2026-03-16",
+    "bryan master|state of the union": {
+      "date": "2026-03-16",
+      "source": "WFUV-NYSlice2026"
+    },
     "james blake|i had a dream she took my hand": {
       "date": "2026-03-16",
       "source": "NPR-AllSongsConsidered"
@@ -612,7 +666,10 @@
       "date": "2026-03-16",
       "source": "Vuurland-latest"
     },
-    "this is the kit|earthquake": "2026-03-16",
+    "this is the kit|earthquake": {
+      "date": "2026-03-16",
+      "source": "GuyGarvey-FinestHour"
+    },
     "hemlocke springs|head, shoulders, knees and ankles": {
       "date": "2026-03-16",
       "source": "Radio1-Wonderland"
@@ -641,7 +698,10 @@
     "the black heart procession|blue water - black heart": "2026-03-16",
     "ronboy|i am only playing": "2026-03-16",
     "a forest mighty black|the 9 to 5 (is killing me)": "2026-03-16",
-    "david sylvian|i surrender": "2026-03-16",
+    "david sylvian|i surrender": {
+      "date": "2026-03-16",
+      "source": "GuyGarvey-FinestHour"
+    },
     "65daysofstatic|radio protector": {
       "date": "2026-03-16",
       "source": "Vuurland-latest"
@@ -684,7 +744,10 @@
     },
     "beach house|zebra": "2026-03-16",
     "evil twin|kudzu": "2026-03-16",
-    "skinny pelembe|i just wanna be your prisoner": "2026-03-16",
+    "skinny pelembe|i just wanna be your prisoner": {
+      "date": "2026-03-16",
+      "source": "LaurenLaverne-JustAdded"
+    },
     "amber arcades|simple song": {
       "date": "2026-03-16",
       "source": "LaurenLaverne-JustAdded"
@@ -749,7 +812,10 @@
     "vansire|eleven weeks": "2026-03-23",
     "junip|the ghost of tom joad": "2026-03-23",
     "james blake|days go by": "2026-03-23",
-    "cherch|song for tamar": "2026-03-23",
+    "cherch|song for tamar": {
+      "date": "2026-03-23",
+      "source": "WFUV-NYSlice2026"
+    },
     "jawny|strawberry chainsaw": "2026-03-23",
     "ulrika spacek|square root of none": {
       "date": "2026-03-23",
@@ -760,11 +826,17 @@
       "source": "GuyGarvey-FinestHour"
     },
     "midori jaeger|dark green": "2026-03-23",
-    "pj harvey|c'mon billy": "2026-03-23",
+    "pj harvey|c'mon billy": {
+      "date": "2026-03-23",
+      "source": "GuyGarvey-FinestHour"
+    },
     "oscar key sung|club mate": "2026-03-23",
     "martin luke brown|back of my mind": "2026-03-23",
     "def nettle|mohawk": "2026-03-23",
-    "susobrino|tres": "2026-03-23",
+    "susobrino|tres": {
+      "date": "2026-03-23",
+      "source": "Radio1-Wonderland"
+    },
     "a winged victory for the sullen|atomos vii": "2026-03-23",
     "kiss facility|flux": "2026-03-23",
     "alban|trees never lie": {
@@ -774,8 +846,14 @@
     "junip|don't let it pass": "2026-03-23",
     "ben howard|the fear": "2026-03-23",
     "aphex twin|flim": "2026-03-23",
-    "laura veirs|sun is king": "2026-03-23",
-    "buck meek|gasoline": "2026-03-23",
+    "laura veirs|sun is king": {
+      "date": "2026-03-23",
+      "source": "GuyGarvey-FinestHour"
+    },
+    "buck meek|gasoline": {
+      "date": "2026-03-23",
+      "source": "NPR-AllSongsConsidered"
+    },
     "caspar auwerkerken|woodland": "2026-03-23",
     "affaire|dance dance": "2026-03-23",
     "rosa walton|sorry anyway": "2026-03-23",
@@ -800,7 +878,10 @@
     },
     "phantastic ferniture|gap year": "2026-03-23",
     "sun spots|rocket": "2026-03-23",
-    "aldous harding|lawn": "2026-03-23",
+    "aldous harding|lawn": {
+      "date": "2026-03-23",
+      "source": "Vuurland-latest"
+    },
     "f.s. blumm & nils frahm|as if": "2026-03-23",
     "thom yorke|dawn chorus": "2026-03-23",
     "broken social scene|sweetest kill": "2026-03-23",
@@ -817,7 +898,10 @@
     },
     "chalk|i.d.c.": "2026-03-23",
     "a winged victory for the sullen|a symphony pathetique": "2026-03-23",
-    "haiku salut|cold to crack the stones": "2026-03-23",
+    "haiku salut|cold to crack the stones": {
+      "date": "2026-03-23",
+      "source": "LaurenLaverne-JustAdded"
+    },
     "feist|comfort me": "2026-03-23",
     "vansire|nosebleed seats": "2026-03-23",
     "thundercat|final fight": {
@@ -839,9 +923,15 @@
     "skullcrusher|march (live)": "2026-03-23",
     "endearments|real deal": "2026-03-23",
     "hiding places|one hand": "2026-03-23",
-    "sampa the great|can't hold us [feat. mwanjé]": "2026-03-23",
+    "sampa the great|can't hold us [feat. mwanjé]": {
+      "date": "2026-03-23",
+      "source": "Radio1-Wonderland"
+    },
     "vansire|that i miss you": "2026-03-23",
-    "samsara.|mrs. porter": "2026-03-23",
+    "samsara.|mrs. porter": {
+      "date": "2026-03-23",
+      "source": "WFUV-NYSlice2026"
+    },
     "little dragon|crystalfilm": "2026-03-23",
     "deathcrash|the thing you did": "2026-03-23",
     "robyn|dopamine": {
@@ -849,7 +939,10 @@
       "source": "Radio1-Wonderland"
     },
     "asher white|bushel hyde": "2026-03-23",
-    "movulango|under the dirt": "2026-03-23",
+    "movulango|under the dirt": {
+      "date": "2026-03-23",
+      "source": "Radio1-Wonderland"
+    },
     "where's beth|nothing quite so boring as urgency": "2026-03-23",
     "cemeteries|what did you see": "2026-03-30",
     "the twilight sad|attempt a crash landing - theme": "2026-03-30",
@@ -879,7 +972,10 @@
       "date": "2026-03-30",
       "source": "LaurenLaverne-JustAdded"
     },
-    "tirzah|gladly": "2026-03-30",
+    "tirzah|gladly": {
+      "date": "2026-03-30",
+      "source": "LaurenLaverne-JustAdded"
+    },
     "calexico|woven birds": "2026-03-30",
     "boozoo bajou|second to none": "2026-03-30",
     "boozoo bajou|divers": "2026-03-30",
@@ -900,7 +996,10 @@
     },
     "the orielles|three halves": "2026-03-30",
     "the marías|run your mouth": "2026-03-30",
-    "half moon run|she wants to know": "2026-03-30",
+    "half moon run|she wants to know": {
+      "date": "2026-03-30",
+      "source": "Vuurland-latest"
+    },
     "boozoo bajou|yma": "2026-03-30",
     "hird|i love you my friends": "2026-03-30",
     "m83|wait": "2026-03-30",
@@ -915,7 +1014,10 @@
     "dream, ivory|scorpion": "2026-03-30",
     "anna calvi|is this all there is?": "2026-03-30",
     "the marías|nobody new": "2026-03-30",
-    "oscar peterson trio|night train": "2026-03-30",
+    "oscar peterson trio|night train": {
+      "date": "2026-03-30",
+      "source": "GuyGarvey-FinestHour"
+    },
     "ursula 1000|got cha": "2026-03-30",
     "tauro|crüel to be distant": "2026-03-30",
     "kevin morby|kingdom of broken hearts": {
@@ -1000,7 +1102,10 @@
     "iron & wine|half measures": "2026-04-06",
     "angelo de augustine|empty shell": "2026-04-06",
     "warmduscher|standing on the corner": "2026-04-06",
-    "smerz|feisty - erika de casier edit": "2026-04-06",
+    "smerz|feisty - erika de casier edit": {
+      "date": "2026-04-06",
+      "source": "Radio1-Wonderland"
+    },
     "vashti bunyan|glow worms": "2026-04-06",
     "blu samu|breakfast": "2026-04-06",
     "verito asprilla|diciembre 11": "2026-04-06",
@@ -1019,7 +1124,10 @@
     "king tuff|twisted on a train": "2026-04-06",
     "caribou|found out": "2026-04-06",
     "elliott smith|waltz #2 (xo)": "2026-04-06",
-    "bandits on the run|rough magic": "2026-04-06",
+    "bandits on the run|rough magic": {
+      "date": "2026-04-06",
+      "source": "WFUV-NYSlice2026"
+    },
     "bon iver|heavenly father - mediolanum, milan, it. nov 05 2022": "2026-04-06",
     "rachel lime|nacrée": "2026-04-06",
     "jennylee|never": {
@@ -1077,7 +1185,10 @@
     "selah sue|another way": "2026-04-06",
     "ritt momney|young adult": "2026-04-06",
     "the me in you|knieper": "2026-04-06",
-    "amanda d’amico|love spectator": "2026-04-06",
+    "amanda d’amico|love spectator": {
+      "date": "2026-04-06",
+      "source": "WFUV-NYSlice2026"
+    },
     "ritt momney|command v": "2026-04-06",
     "teen idle|ghosts": {
       "date": "2026-04-13",
@@ -1195,7 +1306,10 @@
       "source": "WFUV-NYSlice2026"
     },
     "soap&skin|mr. gaunt pt 1000": "2026-04-20",
-    "tunng|anoraks": "2026-04-20",
+    "tunng|anoraks": {
+      "date": "2026-04-20",
+      "source": "Radio1-Wonderland"
+    },
     "this will destroy you|a three-legged workhorse": "2026-04-20",
     "elliott smith|needle in the hay": "2026-04-20",
     "lex rush|slow down": "2026-04-20",
@@ -1272,7 +1386,10 @@
     "sofa surfers|sofa rockers (richard dorfmeister remix)": "2026-04-27",
     "sola rosa|how do you": "2026-04-27",
     "nerves|n26": "2026-04-27",
-    "monte maybe|3 card": "2026-04-27",
+    "monte maybe|3 card": {
+      "date": "2026-04-27",
+      "source": "WFUV-NYSlice2026"
+    },
     "glass egg|passionate enough": "2026-04-27",
     "quiet light|self tape": "2026-04-27",
     "slowdive|souvlaki space station": "2026-04-27",
@@ -1293,7 +1410,10 @@
       "source": "WFUV-NYSlice2026"
     },
     "muscle memory|conditions of love": "2026-05-04",
-    "charley crockett|kentucky too long": "2026-05-04",
+    "charley crockett|kentucky too long": {
+      "date": "2026-05-04",
+      "source": "NPR-AllSongsConsidered"
+    },
     "gabriele poso|maraviglia": "2026-05-04",
     "79.5|smile again": "2026-05-04",
     "sparklmami|no te vayas": "2026-05-04",
@@ -1337,7 +1457,10 @@
     "christian löffler|like water (feat. mohna)": "2026-05-04",
     "ciska ciska|angel": "2026-05-04",
     "las cruxes|frío": "2026-05-04",
-    "jack white|g.o.d. and the broken ribs": "2026-05-04",
+    "jack white|g.o.d. and the broken ribs": {
+      "date": "2026-05-04",
+      "source": "NPR-AllSongsConsidered"
+    },
     "field commander ali|one kind of forever": "2026-05-04",
     "marsmobil|dark star": "2026-05-04",
     "fightmaster|all or nothing": "2026-05-04",
@@ -1377,7 +1500,10 @@
     "kerala dust|fever": "2026-05-11",
     "julia holter|our sorrows": "2026-05-11",
     "cemeteries|leland": "2026-05-11",
-    "mingjia chen|not even the dead (room 1212)": "2026-05-11",
+    "mingjia chen|not even the dead (room 1212)": {
+      "date": "2026-05-11",
+      "source": "NPR-AllSongsConsidered"
+    },
     "julia cumming|please let me remember this": "2026-05-11",
     "sudan archives|come and find you": {
       "date": "2026-05-11",
@@ -1399,14 +1525,20 @@
     },
     "camille camille|saga's lullaby": "2026-05-11",
     "alan sparhawk|not broken": "2026-05-11",
-    "purity ring|lemonlime": "2026-05-11",
+    "purity ring|lemonlime": {
+      "date": "2026-05-11",
+      "source": "NPR-AllSongsConsidered"
+    },
     "novablood|i used to live in a house": "2026-05-11",
     "the whitest boy alive|don't give up": "2026-05-11",
     "lykke li|no rest for the wicked": "2026-05-11",
     "the me in you|lost wanderer, pt.1": "2026-05-11",
     "silver jews|random rules": "2026-05-11",
     "mono|winter daphne": "2026-05-11",
-    "parks department|money tree": "2026-05-11",
+    "parks department|money tree": {
+      "date": "2026-05-11",
+      "source": "WFUV-NYSlice2026"
+    },
     "låpsley|falling short": "2026-05-11",
     "alvvays|tile by tile": "2026-05-11",
     "foals|spanish sahara - mount kimbie remix": "2026-05-11",
@@ -1474,7 +1606,10 @@
     "broken social scene|hey amanda": "2026-05-18",
     "turnover|i see you and realize": "2026-05-18",
     "ólafur arnalds & nils frahm|a2": "2026-05-18",
-    "boards of canada|prophecy at 1420 mhz": "2026-05-18",
+    "boards of canada|prophecy at 1420 mhz": {
+      "date": "2026-05-18",
+      "source": "NPR-AllSongsConsidered"
+    },
     "ana roxanne|keepsake": "2026-05-18",
     "the karminsky experience inc.|the wayward camel": "2026-05-18",
     "squarepusher|tommib": "2026-05-18",
@@ -1552,7 +1687,10 @@
     "gracie and rachel|how can i": "2026-05-25",
     "rosa walton|heart to heartbreak": "2026-05-25",
     "molly drake|i remember": "2026-05-25",
-    "starflyer 59|i'm disappointed": "2026-05-25",
+    "starflyer 59|i'm disappointed": {
+      "date": "2026-05-25",
+      "source": "NPR-AllSongsConsidered"
+    },
     "goldie scott|blame it on me": "2026-05-25",
     "baby rose|but, nvm": "2026-05-25",
     "aaron frazer|it’s a shame": "2026-05-25",
@@ -1727,7 +1865,10 @@
     "downtown boys|sirena": "2026-06-08",
     "goldfrapp|a&e": "2026-06-08",
     "big freedia|blaze that ass": "2026-06-15",
-    "anand wilder|selkie bride": "2026-06-15",
+    "anand wilder|selkie bride": {
+      "date": "2026-06-15",
+      "source": "WFUV-NYSlice2026"
+    },
     "rainao|gris": "2026-06-15",
     "ed o'brien|incantations": "2026-06-15",
     "blood orange|essex_honey.mp3": "2026-06-15",
@@ -1773,13 +1914,19 @@
     "explosions in the sky|welcome, ghosts": "2026-06-15",
     "kareen lomax|aotw": "2026-06-15",
     "skullcrusher|they quiet the room": "2026-06-15",
-    "rosalía|focu 'ranni": "2026-06-15",
+    "rosalía|focu 'ranni": {
+      "date": "2026-06-15",
+      "source": "Radio1-Top30"
+    },
     "jesse welles|masks off": "2026-06-15",
     "the rolling stones|in the stars": {
       "date": "2026-06-15",
       "source": "Radio1-Top30"
     },
-    "selah sue|movin'": "2026-06-15",
+    "selah sue|movin'": {
+      "date": "2026-06-15",
+      "source": "Radio1-Top30"
+    },
     "the early years|the gift": "2026-06-15",
     "broken social scene|kc accidental": "2026-06-15",
     "chris wills|love live on": "2026-06-15",
@@ -1818,7 +1965,10 @@
       "date": "2026-06-22",
       "source": "Radio1-Top30"
     },
-    "the funky lowlives|irreplaceable": "2026-06-22",
+    "the funky lowlives|irreplaceable": {
+      "date": "2026-06-22",
+      "source": "LastFM~Portishead"
+    },
     "slow pulp|better man": "2026-06-22",
     "hovvdy|blast": "2026-06-22",
     "man/woman/chainsaw|goddamn, lizard man!": "2026-06-22",
@@ -1881,7 +2031,10 @@
     "martin kohlstedt|mem": "2026-06-22",
     "ismay|american flag": "2026-06-22",
     "factory floor|buzz saw": "2026-06-22",
-    "mitchell sigman|memory": "2026-06-22",
+    "mitchell sigman|memory": {
+      "date": "2026-06-22",
+      "source": "WFUV-NYSlice2026"
+    },
     "explosions in the sky|the only moment we were alone": "2026-06-22",
     "karen nyame kg|stay": "2026-06-22",
     "jónsi|tornado": "2026-06-22",
@@ -2408,6 +2561,190 @@
     "tracey nelson|hercules": {
       "date": "2026-07-20",
       "source": "KEXP-NewThisWeek"
+    },
+    "kareen lomax|offline": {
+      "date": "2026-07-27",
+      "source": "KEXP-NewThisWeek"
+    },
+    "this will destroy you|quiet": {
+      "date": "2026-07-27",
+      "source": "LastFM~Sigur Rós"
+    },
+    "michael christmas|vending machine charcuterie board": {
+      "date": "2026-07-27",
+      "source": "KEXP-NewThisWeek"
+    },
+    "geckoboy|commando": {
+      "date": "2026-07-27",
+      "source": "KEXP-NewThisWeek"
+    },
+    "birdy|not about angels": {
+      "date": "2026-07-27",
+      "source": "LastFM~London Grammar"
+    },
+    "overmono|knight in shining prada": {
+      "date": "2026-07-27",
+      "source": "KEXP-NewThisWeek"
+    },
+    "hammock|then the quiet explosion": {
+      "date": "2026-07-27",
+      "source": "LastFM~Sigur Rós"
+    },
+    "meshell ndegeocello|i knew you were waiting (for me) (with cynthia erivo)": {
+      "date": "2026-07-27",
+      "source": "KEXP-NewThisWeek"
+    },
+    "hammock|the air between us": {
+      "date": "2026-07-27",
+      "source": "LastFM~Sigur Rós"
+    },
+    "queens of the stone age|easy street": {
+      "date": "2026-07-27",
+      "source": "KEXP-NewThisWeek"
+    },
+    "catherine moan|no magic": {
+      "date": "2026-07-27",
+      "source": "KEXP-NewThisWeek"
+    },
+    "olana|price of the house": {
+      "date": "2026-07-27",
+      "source": "KEXP-NewThisWeek"
+    },
+    "dido|don't leave home": {
+      "date": "2026-07-27",
+      "source": "LastFM~London Grammar"
+    },
+    "perennial|what's new on the beat scene": {
+      "date": "2026-07-27",
+      "source": "NPR-AllSongsConsidered"
+    },
+    "this will destroy you|the mighty rio grande": {
+      "date": "2026-07-27",
+      "source": "LastFM~Sigur Rós"
+    },
+    "erick the architect|no doubt (i'm in love)": {
+      "date": "2026-07-27",
+      "source": "WFUV-NYSlice2026"
+    },
+    "soma sonic|falling": {
+      "date": "2026-07-27",
+      "source": "LastFM~Portishead"
+    },
+    "ela minus|espiral": {
+      "date": "2026-07-27",
+      "source": "NPR-AllSongsConsidered"
+    },
+    "nick hakim|endlessly waiting": {
+      "date": "2026-07-27",
+      "source": "KEXP-NewThisWeek"
+    },
+    "zola blood|islands": {
+      "date": "2026-07-27",
+      "source": "LastFM~SOHN"
+    },
+    "hammock|maybe they will sing for us tomorrow": {
+      "date": "2026-07-27",
+      "source": "LastFM~Sigur Rós"
+    },
+    "katzin|cowboy": {
+      "date": "2026-07-27",
+      "source": "WFUV-NYSlice2026"
+    },
+    "dido|here with me": {
+      "date": "2026-07-27",
+      "source": "LastFM~London Grammar"
+    },
+    "deep sea diver|teardrop": {
+      "date": "2026-07-27",
+      "source": "KEXP-NewThisWeek"
+    },
+    "soma sonic|the carousel": {
+      "date": "2026-07-27",
+      "source": "LastFM~Portishead"
+    },
+    "beacon|im u": {
+      "date": "2026-07-27",
+      "source": "LastFM~SOHN"
+    },
+    "phoebe bridgers|lost boys - acoustic": {
+      "date": "2026-07-27",
+      "source": "NPR-AllSongsConsidered"
+    },
+    "the funky lowlives|saturn return": {
+      "date": "2026-07-27",
+      "source": "LastFM~Portishead"
+    },
+    "leon bridges|tears of joy": {
+      "date": "2026-07-27",
+      "source": "KEXP-NewThisWeek"
+    },
+    "the funky lowlives|you have to come with me": {
+      "date": "2026-07-27",
+      "source": "LastFM~Portishead"
+    },
+    "jungle|someday, somewhere": {
+      "date": "2026-07-27",
+      "source": "KEXP-NewThisWeek"
+    },
+    "hurry|zoned out": {
+      "date": "2026-07-27",
+      "source": "KEXP-NewThisWeek"
+    },
+    "helado tropical|sensación": {
+      "date": "2026-07-27",
+      "source": "KEXP-NewThisWeek"
+    },
+    "beacon|marion": {
+      "date": "2026-07-27",
+      "source": "LastFM~SOHN"
+    },
+    "beacon|drive": {
+      "date": "2026-07-27",
+      "source": "LastFM~SOHN"
+    },
+    "pain gain|prizefighter": {
+      "date": "2026-07-27",
+      "source": "KEXP-NewThisWeek"
+    },
+    "this will destroy you|threads": {
+      "date": "2026-07-27",
+      "source": "LastFM~Sigur Rós"
+    },
+    "birdy|let it all go": {
+      "date": "2026-07-27",
+      "source": "LastFM~London Grammar"
+    },
+    "nirosta steel|boss trix (benny's song)": {
+      "date": "2026-07-27",
+      "source": "KEXP-NewThisWeek"
+    },
+    "zola blood|good love": {
+      "date": "2026-07-27",
+      "source": "LastFM~SOHN"
+    },
+    "zola blood|meridian": {
+      "date": "2026-07-27",
+      "source": "LastFM~SOHN"
+    },
+    "the rolling stones|ringing hollow": {
+      "date": "2026-07-27",
+      "source": "NPR-AllSongsConsidered"
+    },
+    "birdy|keeping your head up": {
+      "date": "2026-07-27",
+      "source": "LastFM~London Grammar"
+    },
+    "dido|white flag": {
+      "date": "2026-07-27",
+      "source": "LastFM~London Grammar"
+    },
+    "empanadas ilegales|agua e' coco": {
+      "date": "2026-07-27",
+      "source": "KEXP-NewThisWeek"
+    },
+    "soma sonic|crazy moon": {
+      "date": "2026-07-27",
+      "source": "LastFM~Portishead"
     }
   },
   "playlist_log": {
@@ -2433,293 +2770,10 @@
     "506614403": "2026-03-23",
     "503647023": "2026-04-20",
     "505597632": "2026-04-27",
-    "531025272": {
-      "date": "2026-06-22",
-      "artist": "Bonobo",
-      "title": "Me and You",
-      "source": "onbekend"
-    },
-    "525013718": {
-      "date": "2026-06-22",
-      "artist": "Frans Kalf",
-      "title": "Nou En",
-      "source": "onbekend"
-    },
-    "1288228": {
-      "date": "2026-06-22",
-      "artist": "Urban Dance Squad",
-      "title": "Deeper Shade Of Soul",
-      "source": "onbekend"
-    },
-    "524698797": {
-      "date": "2026-06-22",
-      "artist": "Slow Pulp",
-      "title": "Better Man",
-      "source": "onbekend"
-    },
-    "530534073": {
-      "date": "2026-06-22",
-      "artist": "Hovvdy",
-      "title": "Blast",
-      "source": "onbekend"
-    },
-    "521847361": {
-      "date": "2026-06-22",
-      "artist": "Man/Woman/Chainsaw",
-      "title": "Goddamn, Lizard Man!",
-      "source": "onbekend"
-    },
-    "111388434": {
-      "date": "2026-06-22",
-      "artist": "Bill Callahan",
-      "title": "All Thoughts Are Prey To Some Beast",
-      "source": "onbekend"
-    },
-    "526969653": {
-      "date": "2026-06-22",
-      "artist": "Kurt Vile",
-      "title": "Holiday OKV",
-      "source": "onbekend"
-    },
-    "247299719": {
-      "date": "2026-06-22",
-      "artist": "Hird",
-      "title": "Getting Closer",
-      "source": "onbekend"
-    },
-    "111390203": {
-      "date": "2026-06-22",
-      "artist": "Bill Callahan",
-      "title": "Sycamore",
-      "source": "onbekend"
-    },
-    "530300247": {
-      "date": "2026-06-22",
-      "artist": "Desiree",
-      "title": "Macho",
-      "source": "onbekend"
-    },
-    "396103267": {
-      "date": "2026-06-22",
-      "artist": "Cate le Bon",
-      "title": "Harbour",
-      "source": "onbekend"
-    },
-    "524757883": {
-      "date": "2026-06-22",
-      "artist": "Rodrigo y Gabriela",
-      "title": "Monster",
-      "source": "onbekend"
-    },
-    "522471925": {
-      "date": "2026-06-22",
-      "artist": "Late Again",
-      "title": "If You Have A Bridge (I'm Buying)",
-      "source": "onbekend"
-    },
-    "199429883": {
-      "date": "2026-06-22",
-      "artist": "Sofa Surfers",
-      "title": "See the Light",
-      "source": "onbekend"
-    },
-    "516505223": {
-      "date": "2026-06-22",
-      "artist": "Olivia Rodrigo",
-      "title": "drop dead",
-      "source": "onbekend"
-    },
-    "519531719": {
-      "date": "2026-06-22",
-      "artist": "Balming Tiger",
-      "title": "Home",
-      "source": "onbekend"
-    },
-    "11017058": {
-      "date": "2026-06-22",
-      "artist": "Birdy",
-      "title": "People Help the People",
-      "source": "onbekend"
-    },
-    "525457946": {
-      "date": "2026-06-22",
-      "artist": "Klaas",
-      "title": "Zeven tuinen",
-      "source": "onbekend"
-    },
     "532844405": "2026-06-22",
-    "396076703": {
-      "date": "2026-06-22",
-      "artist": "Cate le Bon",
-      "title": "Here It Comes Again",
-      "source": "onbekend"
-    },
-    "95843618": {
-      "date": "2026-06-22",
-      "artist": "Angèle",
-      "title": "Balance ton quoi",
-      "source": "onbekend"
-    },
-    "521479103": {
-      "date": "2026-06-22",
-      "artist": "Wishy",
-      "title": "Lovesick",
-      "source": "onbekend"
-    },
-    "523984579": {
-      "date": "2026-06-22",
-      "artist": "Sports Boyfriend",
-      "title": "Crystal Ball",
-      "source": "onbekend"
-    },
-    "436519263": {
-      "date": "2026-06-22",
-      "artist": "Cate le Bon",
-      "title": "Heaven Is No Feeling",
-      "source": "onbekend"
-    },
-    "61269926": {
-      "date": "2026-06-22",
-      "artist": "Berry Weight",
-      "title": "Heart Shaped Rock",
-      "source": "onbekend"
-    },
     "502805081": "2026-06-22",
-    "516135698": {
-      "date": "2026-06-22",
-      "artist": "Kelsey Lu",
-      "title": "Running To Pain",
-      "source": "onbekend"
-    },
     "523403347": "2026-06-22",
-    "111390293": {
-      "date": "2026-06-22",
-      "artist": "Bill Callahan",
-      "title": "Riding For The Feeling",
-      "source": "onbekend"
-    },
     "77555821": "2026-06-22",
-    "521718562": {
-      "date": "2026-06-22",
-      "artist": "Kids With Buns",
-      "title": "car crash",
-      "source": "onbekend"
-    },
-    "35790746": {
-      "date": "2026-06-22",
-      "artist": "Explosions In The Sky",
-      "title": "So Long, Lonesome",
-      "source": "onbekend"
-    },
-    "381233770": {
-      "date": "2026-06-22",
-      "artist": "Father John Misty",
-      "title": "Screamland",
-      "source": "onbekend"
-    },
-    "521777024": {
-      "date": "2026-06-22",
-      "artist": "Endless Wellness",
-      "title": "Danke für Alles",
-      "source": "onbekend"
-    },
-    "521075671": {
-      "date": "2026-06-22",
-      "artist": "Foamboy",
-      "title": "LOUD BOY",
-      "source": "onbekend"
-    },
-    "134049293": {
-      "date": "2026-06-22",
-      "artist": "Spiritualized",
-      "title": "Ladies and gentlemen we are floating in space",
-      "source": "onbekend"
-    },
-    "244167431": {
-      "date": "2026-06-22",
-      "artist": "Julia Jacklin",
-      "title": "Love, Try Not To Let Go",
-      "source": "onbekend"
-    },
-    "529877311": {
-      "date": "2026-06-22",
-      "artist": "Mike D",
-      "title": "True Colors",
-      "source": "onbekend"
-    },
-    "247299724": {
-      "date": "2026-06-22",
-      "artist": "Hird",
-      "title": "I Love You My Hope",
-      "source": "onbekend"
-    },
-    "19326717": {
-      "date": "2026-06-22",
-      "artist": "Explosions In The Sky",
-      "title": "A Song for Our Fathers",
-      "source": "onbekend"
-    },
-    "521641003": {
-      "date": "2026-06-22",
-      "artist": "Lockimara",
-      "title": "Tastes Like",
-      "source": "onbekend"
-    },
-    "526528046": {
-      "date": "2026-06-22",
-      "artist": "Sibille Attar",
-      "title": "Slow Down",
-      "source": "onbekend"
-    },
-    "88054682": {
-      "date": "2026-06-22",
-      "artist": "Sofa Surfers",
-      "title": "Sofa Rockers",
-      "source": "LastFM~Moloko",
-      "genres": []
-    },
-    "472984366": {
-      "date": "2026-06-22",
-      "artist": "Martin Kohlstedt",
-      "title": "MEM",
-      "source": "onbekend"
-    },
-    "520489994": {
-      "date": "2026-06-22",
-      "artist": "ISMAY",
-      "title": "American Flag",
-      "source": "onbekend"
-    },
-    "521696991": {
-      "date": "2026-06-22",
-      "artist": "Factory Floor",
-      "title": "Buzz Saw",
-      "source": "onbekend"
-    },
-    "8738819": {
-      "date": "2026-06-22",
-      "artist": "Mitchell Sigman",
-      "title": "Wish You Were Here",
-      "source": "onbekend"
-    },
-    "44736398": {
-      "date": "2026-06-22",
-      "artist": "Explosions In The Sky",
-      "title": "The Only Moment We Were Alone",
-      "source": "onbekend"
-    },
-    "510561665": {
-      "date": "2026-06-22",
-      "artist": "Karen Nyame KG",
-      "title": "Stay",
-      "source": "onbekend"
-    },
-    "3561396": {
-      "date": "2026-06-22",
-      "artist": "Jónsi",
-      "title": "Tornado",
-      "source": "onbekend"
-    },
     "531687832": "2026-06-29",
     "525869405": {
       "date": "2026-06-29",
@@ -3974,6 +4028,361 @@
         "bedroom pop",
         "alternative r&b"
       ]
+    },
+    "531101603": {
+      "date": "2026-07-27",
+      "artist": "Kareen Lomax",
+      "title": "OFFLINE",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "4315261": {
+      "date": "2026-07-27",
+      "artist": "This Will Destroy You",
+      "title": "Quiet",
+      "source": "LastFM~Sigur Rós",
+      "genres": []
+    },
+    "531693661": {
+      "date": "2026-07-27",
+      "artist": "Michael Christmas",
+      "title": "Vending Machine Charcuterie Board",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "508388062": {
+      "date": "2026-07-27",
+      "artist": "geckoboy",
+      "title": "COMMANDO",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "bedroom pop",
+        "alternative r&b"
+      ]
+    },
+    "28540780": {
+      "date": "2026-07-27",
+      "artist": "Birdy",
+      "title": "Not About Angels",
+      "source": "LastFM~London Grammar",
+      "genres": []
+    },
+    "535832815": {
+      "date": "2026-07-27",
+      "artist": "Overmono",
+      "title": "Knight In Shining Prada",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "uk garage",
+        "breakbeat"
+      ]
+    },
+    "191464268": {
+      "date": "2026-07-27",
+      "artist": "Hammock",
+      "title": "Then The Quiet Explosion",
+      "source": "LastFM~Sigur Rós",
+      "genres": []
+    },
+    "541230526": {
+      "date": "2026-07-27",
+      "artist": "Meshell Ndegeocello",
+      "title": "I Knew You Were Waiting (For Me) (with Cynthia Erivo)",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "neo soul",
+        "indie jazz"
+      ]
+    },
+    "191470933": {
+      "date": "2026-07-27",
+      "artist": "Hammock",
+      "title": "The Air Between Us",
+      "source": "LastFM~Sigur Rós",
+      "genres": []
+    },
+    "535663452": {
+      "date": "2026-07-27",
+      "artist": "Queens of the Stone Age",
+      "title": "Easy Street",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "stoner rock",
+        "alternative rock"
+      ]
+    },
+    "507391566": {
+      "date": "2026-07-27",
+      "artist": "Catherine Moan",
+      "title": "No Magic",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "synthpop",
+        "darkwave",
+        "cold wave",
+        "synthwave"
+      ]
+    },
+    "530268956": {
+      "date": "2026-07-27",
+      "artist": "Olana",
+      "title": "Price Of The House",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "23324606": {
+      "date": "2026-07-27",
+      "artist": "Dido",
+      "title": "Don't Leave Home",
+      "source": "LastFM~London Grammar",
+      "genres": []
+    },
+    "530390455": {
+      "date": "2026-07-27",
+      "artist": "Perennial",
+      "title": "What's New On The Beat Scene",
+      "source": "NPR-AllSongsConsidered",
+      "genres": []
+    },
+    "8281639": {
+      "date": "2026-07-27",
+      "artist": "This Will Destroy You",
+      "title": "The Mighty Rio Grande",
+      "source": "LastFM~Sigur Rós",
+      "genres": []
+    },
+    "526549113": {
+      "date": "2026-07-27",
+      "artist": "Erick the Architect",
+      "title": "No Doubt (I'm In Love)",
+      "source": "WFUV-NYSlice2026",
+      "genres": []
+    },
+    "32964616": {
+      "date": "2026-07-27",
+      "artist": "Soma Sonic",
+      "title": "Falling",
+      "source": "LastFM~Portishead",
+      "genres": []
+    },
+    "531028799": {
+      "date": "2026-07-27",
+      "artist": "Ela Minus",
+      "title": "espiral",
+      "source": "NPR-AllSongsConsidered",
+      "genres": [
+        "indie electronic",
+        "electropop"
+      ]
+    },
+    "524401091": {
+      "date": "2026-07-27",
+      "artist": "Nick Hakim",
+      "title": "Endlessly Waiting",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "indie soul"
+      ]
+    },
+    "376643080": {
+      "date": "2026-07-27",
+      "artist": "Zola Blood",
+      "title": "Islands",
+      "source": "LastFM~SOHN",
+      "genres": []
+    },
+    "191470750": {
+      "date": "2026-07-27",
+      "artist": "Hammock",
+      "title": "Maybe They Will Sing for Us Tomorrow",
+      "source": "LastFM~Sigur Rós",
+      "genres": []
+    },
+    "460060806": {
+      "date": "2026-07-27",
+      "artist": "Katzin",
+      "title": "Cowboy",
+      "source": "WFUV-NYSlice2026",
+      "genres": [
+        "bedroom pop",
+        "alternative r&b"
+      ]
+    },
+    "23324601": {
+      "date": "2026-07-27",
+      "artist": "Dido",
+      "title": "Here with Me",
+      "source": "LastFM~London Grammar",
+      "genres": []
+    },
+    "531221076": {
+      "date": "2026-07-27",
+      "artist": "Deep Sea Diver",
+      "title": "Teardrop",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "32964615": {
+      "date": "2026-07-27",
+      "artist": "Soma Sonic",
+      "title": "The Carousel",
+      "source": "LastFM~Portishead",
+      "genres": []
+    },
+    "55918101": {
+      "date": "2026-07-27",
+      "artist": "Beacon",
+      "title": "IM U",
+      "source": "LastFM~SOHN",
+      "genres": []
+    },
+    "542097414": {
+      "date": "2026-07-27",
+      "artist": "Phoebe Bridgers",
+      "title": "Lost Boys - Acoustic",
+      "source": "NPR-AllSongsConsidered",
+      "genres": []
+    },
+    "1910660": {
+      "date": "2026-07-27",
+      "artist": "The Funky Lowlives",
+      "title": "Saturn Return",
+      "source": "LastFM~Portishead",
+      "genres": []
+    },
+    "542750833": {
+      "date": "2026-07-27",
+      "artist": "Leon Bridges",
+      "title": "Tears of Joy",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "retro soul"
+      ]
+    },
+    "18280507": {
+      "date": "2026-07-27",
+      "artist": "The Funky Lowlives",
+      "title": "You Have To Come With Me",
+      "source": "LastFM~Portishead",
+      "genres": []
+    },
+    "539558353": {
+      "date": "2026-07-27",
+      "artist": "Jungle",
+      "title": "Someday, Somewhere",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "512979271": {
+      "date": "2026-07-27",
+      "artist": "Hurry",
+      "title": "Zoned Out",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "power pop",
+        "jangle pop"
+      ]
+    },
+    "514846599": {
+      "date": "2026-07-27",
+      "artist": "Helado Tropical",
+      "title": "Sensación",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "72944166": {
+      "date": "2026-07-27",
+      "artist": "Beacon",
+      "title": "Marion",
+      "source": "LastFM~SOHN",
+      "genres": []
+    },
+    "171007406": {
+      "date": "2026-07-27",
+      "artist": "Beacon",
+      "title": "Drive",
+      "source": "LastFM~SOHN",
+      "genres": []
+    },
+    "540174502": {
+      "date": "2026-07-27",
+      "artist": "Pain Gain",
+      "title": "Prizefighter",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "8281637": {
+      "date": "2026-07-27",
+      "artist": "This Will Destroy You",
+      "title": "Threads",
+      "source": "LastFM~Sigur Rós",
+      "genres": []
+    },
+    "49211588": {
+      "date": "2026-07-27",
+      "artist": "Birdy",
+      "title": "Let It All Go",
+      "source": "LastFM~London Grammar",
+      "genres": []
+    },
+    "524452893": {
+      "date": "2026-07-27",
+      "artist": "Nirosta Steel",
+      "title": "BOSS TRIX (BENNY'S SONG)",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "376643079": {
+      "date": "2026-07-27",
+      "artist": "Zola Blood",
+      "title": "Good Love",
+      "source": "LastFM~SOHN",
+      "genres": []
+    },
+    "376653835": {
+      "date": "2026-07-27",
+      "artist": "Zola Blood",
+      "title": "Meridian",
+      "source": "LastFM~SOHN",
+      "genres": []
+    },
+    "540168586": {
+      "date": "2026-07-27",
+      "artist": "The Rolling Stones",
+      "title": "Ringing Hollow",
+      "source": "NPR-AllSongsConsidered",
+      "genres": [
+        "classic rock",
+        "rock"
+      ]
+    },
+    "55455298": {
+      "date": "2026-07-27",
+      "artist": "Birdy",
+      "title": "Keeping Your Head Up",
+      "source": "LastFM~London Grammar",
+      "genres": []
+    },
+    "23324604": {
+      "date": "2026-07-27",
+      "artist": "Dido",
+      "title": "White Flag",
+      "source": "LastFM~London Grammar",
+      "genres": []
+    },
+    "535541677": {
+      "date": "2026-07-27",
+      "artist": "Empanadas Ilegales",
+      "title": "Agua e' Coco",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "116436504": {
+      "date": "2026-07-27",
+      "artist": "Soma Sonic",
+      "title": "Crazy Moon",
+      "source": "LastFM~Portishead",
+      "genres": []
     }
   }
 }
