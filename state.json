@@ -856,7 +856,10 @@
       "date": "2026-03-16",
       "source": "Radio1-Wonderland"
     },
-    "beach house|zebra": "2026-03-16",
+    "beach house|zebra": {
+      "date": "2026-03-16",
+      "source": "GuyGarvey-FinestHour"
+    },
     "evil twin|kudzu": {
       "date": "2026-03-16",
       "source": "WFUV-NYSlice2026"
@@ -997,7 +1000,10 @@
       "date": "2026-03-23",
       "source": "Radio1-Wonderland"
     },
-    "noah kahan|porch light": "2026-03-23",
+    "noah kahan|porch light": {
+      "date": "2026-03-23",
+      "source": "NPR-AllSongsConsidered"
+    },
     "oliver sim|telephone games": {
       "date": "2026-03-23",
       "source": "Radio1-Wonderland"
@@ -1147,7 +1153,10 @@
       "source": "GuyGarvey-FinestHour"
     },
     "amy gadiaga|babygoated": "2026-03-30",
-    "dream, ivory|bite your tongue": "2026-03-30",
+    "dream, ivory|bite your tongue": {
+      "date": "2026-03-30",
+      "source": "LastFM~Cigarettes After Sex"
+    },
     "iceage|star": "2026-03-30",
     "daniel caesar|moon (feat. bon iver)": {
       "date": "2026-03-30",
@@ -1221,7 +1230,10 @@
     "ladylike|fresh linen": "2026-03-30",
     "cocteau twins|pitch the baby": "2026-03-30",
     "charif megarbane|pekojan funk": "2026-03-30",
-    "dream, ivory|blue": "2026-03-30",
+    "dream, ivory|blue": {
+      "date": "2026-03-30",
+      "source": "LastFM~Cigarettes After Sex"
+    },
     "valerie and the rain|river o": "2026-03-30",
     "tori amos|stronger together": {
       "date": "2026-03-30",
@@ -1631,7 +1643,10 @@
     "faulter|my new name": "2026-05-04",
     "gia margaret|alive inside": "2026-05-04",
     "múm|now there's that fear again": "2026-05-04",
-    "kira metcalf|good": "2026-05-04",
+    "kira metcalf|good": {
+      "date": "2026-05-04",
+      "source": "WFUV-NYSlice2026"
+    },
     "múm|green grass of tunnel": "2026-05-04",
     "sam scriven|attachment issues": {
       "date": "2026-05-04",
@@ -1944,7 +1959,10 @@
     "keaton henson|you": "2026-05-25",
     "arooj aftab|diya hai": "2026-05-25",
     "keaton henson|small hands": "2026-05-25",
-    "luca benedetti|okapi": "2026-05-25",
+    "luca benedetti|okapi": {
+      "date": "2026-05-25",
+      "source": "WFUV-NYSlice2026"
+    },
     "gracie and rachel|how can i": {
       "date": "2026-05-25",
       "source": "WFUV-NYSlice2026"
@@ -2330,7 +2348,10 @@
     },
     "foamboy|loud boy": "2026-06-22",
     "the funky lowlives|float through stars": "2026-06-22",
-    "julia jacklin|love, try not to let go": "2026-06-22",
+    "julia jacklin|love, try not to let go": {
+      "date": "2026-06-22",
+      "source": "LastFM~Angel Olsen"
+    },
     "mike d|true colors": "2026-06-22",
     "hird|i love you my hope": "2026-06-22",
     "explosions in the sky|a song for our fathers": {
@@ -3913,6 +3934,158 @@
     "j.bernardt|four in the morning": {
       "date": "2026-08-24",
       "source": "Radio1-Top30"
+    },
+    "juliette armanet|qu'importe": {
+      "date": "2026-08-24",
+      "source": "LastFM~Christine and the Queens"
+    },
+    "juliette armanet|cool cat": {
+      "date": "2026-08-24",
+      "source": "LastFM~Christine and the Queens"
+    },
+    "kevin morby|100,000": {
+      "date": "2026-08-24",
+      "source": "Radio1-Top30"
+    },
+    "heathers|drive/park": {
+      "date": "2026-08-24",
+      "source": "KEXP-NewThisWeek"
+    },
+    "nilüfer yanya|method actor": {
+      "date": "2026-08-24",
+      "source": "LastFM~Perfume Genius"
+    },
+    "hazy waters|blue": {
+      "date": "2026-08-24",
+      "source": "KEXP-NewThisWeek"
+    },
+    "mazzy star|give you my lovin": {
+      "date": "2026-08-24",
+      "source": "LastFM~Cigarettes After Sex"
+    },
+    "cornelius|twisting & glistening": {
+      "date": "2026-08-24",
+      "source": "KEXP-NewThisWeek"
+    },
+    "aldous harding|blend": {
+      "date": "2026-08-24",
+      "source": "LastFM~Angel Olsen"
+    },
+    "sharon van etten|tarifa": {
+      "date": "2026-08-24",
+      "source": "LastFM~Perfume Genius"
+    },
+    "julia jacklin|pressure to party": {
+      "date": "2026-08-24",
+      "source": "LastFM~Angel Olsen"
+    },
+    "dream, ivory|as i say": {
+      "date": "2026-08-24",
+      "source": "LastFM~Cigarettes After Sex"
+    },
+    "kokoroko|da du dah (aleh remix)": {
+      "date": "2026-08-24",
+      "source": "KEXP-NewThisWeek"
+    },
+    "nilüfer yanya|like i say (i runaway)": {
+      "date": "2026-08-24",
+      "source": "LastFM~Perfume Genius"
+    },
+    "hey, nothing|black bear": {
+      "date": "2026-08-24",
+      "source": "KEXP-NewThisWeek"
+    },
+    "nilüfer yanya|just a western": {
+      "date": "2026-08-24",
+      "source": "LastFM~Perfume Genius"
+    },
+    "aldous harding|stop your tears": {
+      "date": "2026-08-24",
+      "source": "LastFM~Angel Olsen"
+    },
+    "aldous harding|the barrel": {
+      "date": "2026-08-24",
+      "source": "LastFM~Angel Olsen"
+    },
+    "sharon van etten|our love": {
+      "date": "2026-08-24",
+      "source": "LastFM~Perfume Genius"
+    },
+    "clara luciani|le reste": {
+      "date": "2026-08-24",
+      "source": "LastFM~Christine and the Queens"
+    },
+    "julia jacklin|someday - triple j like a version": {
+      "date": "2026-08-24",
+      "source": "LastFM~Angel Olsen"
+    },
+    "sharon van etten|jupiter 4": {
+      "date": "2026-08-24",
+      "source": "LastFM~Perfume Genius"
+    },
+    "hudson freeman|i-40": {
+      "date": "2026-08-24",
+      "source": "KEXP-NewThisWeek"
+    },
+    "ruby & sasha|hay fever": {
+      "date": "2026-08-24",
+      "source": "WFUV-NYSlice2026"
+    },
+    "bonobo|fire on the water": {
+      "date": "2026-08-24",
+      "source": "NPR-AllSongsConsidered"
+    },
+    "clara luciani|eddy": {
+      "date": "2026-08-24",
+      "source": "LastFM~Christine and the Queens"
+    },
+    "denzel curry|difference [feat. yebba]": {
+      "date": "2026-08-24",
+      "source": "KEXP-NewThisWeek"
+    },
+    "clara luciani|respire encore": {
+      "date": "2026-08-24",
+      "source": "LastFM~Christine and the Queens"
+    },
+    "gollylagging|comet": {
+      "date": "2026-08-24",
+      "source": "KEXP-NewThisWeek"
+    },
+    "chaotic symphony|i need a vacay": {
+      "date": "2026-08-24",
+      "source": "WFUV-NYSlice2026"
+    },
+    "cleo sol|force of love": {
+      "date": "2026-08-24",
+      "source": "KEXP-NewThisWeek"
+    },
+    "mazzy star|halah": {
+      "date": "2026-08-24",
+      "source": "LastFM~Cigarettes After Sex"
+    },
+    "rochelle jordan|get it off - klsh remix": {
+      "date": "2026-08-24",
+      "source": "KEXP-NewThisWeek"
+    },
+    "clara hill|better": {
+      "date": "2026-08-24",
+      "source": "KEXP-NewThisWeek"
+    },
+    "juliette armanet|flamme": {
+      "date": "2026-08-24",
+      "source": "LastFM~Christine and the Queens"
+    },
+    "fatales|voices": {
+      "date": "2026-08-24",
+      "source": "WFUV-NYSlice2026"
+    },
+    "mike herz|you don't have to worry": {
+      "date": "2026-08-24",
+      "source": "WFUV-NYSlice2026"
+    },
+    "tasha|clarion": {
+      "date": "2026-08-24",
+      "source": "WFUV-NYSlice2026"
     }
   },
   "playlist_log": {
@@ -4096,13 +4269,6 @@
       "source": "KEXP-NewThisWeek",
       "genres": []
     },
-    "23324606": {
-      "date": "2026-07-27",
-      "artist": "Dido",
-      "title": "Don't Leave Home",
-      "source": "LastFM~London Grammar",
-      "genres": []
-    },
     "530390455": {
       "date": "2026-07-27",
       "artist": "Perennial",
@@ -4157,13 +4323,6 @@
         "bedroom pop",
         "alternative r&b"
       ]
-    },
-    "23324601": {
-      "date": "2026-07-27",
-      "artist": "Dido",
-      "title": "Here with Me",
-      "source": "LastFM~London Grammar",
-      "genres": []
     },
     "531221076": {
       "date": "2026-07-27",
@@ -4303,13 +4462,6 @@
       "date": "2026-07-27",
       "artist": "Birdy",
       "title": "Keeping Your Head Up",
-      "source": "LastFM~London Grammar",
-      "genres": []
-    },
-    "23324604": {
-      "date": "2026-07-27",
-      "artist": "Dido",
-      "title": "White Flag",
       "source": "LastFM~London Grammar",
       "genres": []
     },
@@ -4751,13 +4903,6 @@
       "source": "LastFM~Nils Frahm",
       "genres": []
     },
-    "22663571": {
-      "date": "2026-08-10",
-      "artist": "Apparat",
-      "title": "Black Water",
-      "source": "LastFM~Moderat",
-      "genres": []
-    },
     "545585007": {
       "date": "2026-08-10",
       "artist": "HAAi",
@@ -4952,13 +5097,6 @@
       "artist": "Kiasmos",
       "title": "Lit",
       "source": "LastFM~Moderat",
-      "genres": []
-    },
-    "541191919": {
-      "date": "2026-08-17",
-      "artist": "Perfect Person",
-      "title": "Here & Now",
-      "source": "KEXP-NewThisWeek",
       "genres": []
     },
     "533286826": {
@@ -5341,13 +5479,6 @@
       "genres": [
         "retro soul"
       ]
-    },
-    "32620801": {
-      "date": "2026-08-24",
-      "artist": "Apparat",
-      "title": "Limelight",
-      "source": "LastFM~Moderat",
-      "genres": []
     },
     "543744481": {
       "date": "2026-08-24",
@@ -5931,6 +6062,437 @@
       "artist": "J.Bernardt",
       "title": "Four In The Morning",
       "source": "Radio1-Top30",
+      "genres": []
+    },
+    "270386432": {
+      "genres": []
+    },
+    "17433741": {
+      "genres": [
+        "indie folk"
+      ]
+    },
+    "90119049": {
+      "genres": []
+    },
+    "45473108": {
+      "genres": [
+        "folk pop"
+      ]
+    },
+    "270386425": {
+      "genres": []
+    },
+    "14367900": {
+      "genres": [
+        "folk pop"
+      ]
+    },
+    "3623986": {
+      "genres": [
+        "trip hop",
+        "downtempo",
+        "acid jazz"
+      ]
+    },
+    "502808728": {
+      "genres": []
+    },
+    "480499803": {
+      "genres": [
+        "retro soul"
+      ]
+    },
+    "488274996": {
+      "genres": [
+        "alternative pop",
+        "jangle pop"
+      ]
+    },
+    "519996363": {
+      "genres": []
+    },
+    "528872023": {
+      "genres": []
+    },
+    "544769215": {
+      "genres": [
+        "dream pop",
+        "chillwave"
+      ]
+    },
+    "544764664": {
+      "genres": [
+        "dream pop",
+        "chillwave"
+      ]
+    },
+    "544769212": {
+      "genres": [
+        "dream pop",
+        "chillwave"
+      ]
+    },
+    "544769211": {
+      "genres": [
+        "dream pop",
+        "chillwave"
+      ]
+    },
+    "544769210": {
+      "genres": [
+        "dream pop",
+        "chillwave"
+      ]
+    },
+    "544767782": {
+      "genres": [
+        "shoegaze",
+        "dream pop"
+      ]
+    },
+    "544766055": {
+      "genres": [
+        "shoegaze",
+        "dream pop"
+      ]
+    },
+    "544764226": {
+      "genres": [
+        "shoegaze",
+        "dream pop"
+      ]
+    },
+    "204855979": {
+      "date": "2026-08-24",
+      "artist": "Juliette Armanet",
+      "title": "Qu'importe",
+      "source": "LastFM~Christine and the Queens",
+      "genres": [
+        "french pop",
+        "variété française",
+        "chanson",
+        "french house"
+      ]
+    },
+    "100784252": {
+      "date": "2026-08-24",
+      "artist": "Juliette Armanet",
+      "title": "Cool Cat",
+      "source": "LastFM~Christine and the Queens",
+      "genres": [
+        "french pop",
+        "variété française",
+        "chanson",
+        "french house"
+      ]
+    },
+    "491243842": {
+      "date": "2026-08-24",
+      "artist": "Kevin Morby",
+      "title": "100,000",
+      "source": "Radio1-Top30",
+      "genres": []
+    },
+    "535789644": {
+      "date": "2026-08-24",
+      "artist": "Heathers",
+      "title": "Drive/Park",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "368529998": {
+      "date": "2026-08-24",
+      "artist": "Nilüfer Yanya",
+      "title": "Method Actor",
+      "source": "LastFM~Perfume Genius",
+      "genres": []
+    },
+    "535036004": {
+      "date": "2026-08-24",
+      "artist": "hazy waters",
+      "title": "blue",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "shoegaze"
+      ]
+    },
+    "147285": {
+      "date": "2026-08-24",
+      "artist": "Mazzy Star",
+      "title": "Give You My Lovin",
+      "source": "LastFM~Cigarettes After Sex",
+      "genres": [
+        "dream pop",
+        "shoegaze",
+        "slowcore"
+      ]
+    },
+    "551650537": {
+      "date": "2026-08-24",
+      "artist": "Cornelius",
+      "title": "Twisting & Glistening",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "shibuya-kei",
+        "plunderphonics"
+      ]
+    },
+    "73634173": {
+      "date": "2026-08-24",
+      "artist": "Aldous Harding",
+      "title": "Blend",
+      "source": "LastFM~Angel Olsen",
+      "genres": [
+        "ambient folk"
+      ]
+    },
+    "29512894": {
+      "date": "2026-08-24",
+      "artist": "Sharon Van Etten",
+      "title": "Tarifa",
+      "source": "LastFM~Perfume Genius",
+      "genres": []
+    },
+    "103463457": {
+      "date": "2026-08-24",
+      "artist": "Julia Jacklin",
+      "title": "Pressure To Party",
+      "source": "LastFM~Angel Olsen",
+      "genres": []
+    },
+    "246584362": {
+      "date": "2026-08-24",
+      "artist": "Dream, Ivory",
+      "title": "as i say",
+      "source": "LastFM~Cigarettes After Sex",
+      "genres": []
+    },
+    "534307313": {
+      "date": "2026-08-24",
+      "artist": "Kokoroko",
+      "title": "Da Du Dah (Aleh Remix)",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "368529997": {
+      "date": "2026-08-24",
+      "artist": "Nilüfer Yanya",
+      "title": "Like I Say (I Runaway)",
+      "source": "LastFM~Perfume Genius",
+      "genres": []
+    },
+    "449964805": {
+      "date": "2026-08-24",
+      "artist": "hey, nothing",
+      "title": "Black Bear",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "midwest emo"
+      ]
+    },
+    "390383630": {
+      "date": "2026-08-24",
+      "artist": "Nilüfer Yanya",
+      "title": "Just A Western",
+      "source": "LastFM~Perfume Genius",
+      "genres": []
+    },
+    "164532894": {
+      "date": "2026-08-24",
+      "artist": "Aldous Harding",
+      "title": "Stop Your Tears",
+      "source": "LastFM~Angel Olsen",
+      "genres": [
+        "ambient folk"
+      ]
+    },
+    "103984756": {
+      "date": "2026-08-24",
+      "artist": "Aldous Harding",
+      "title": "The Barrel",
+      "source": "LastFM~Angel Olsen",
+      "genres": [
+        "ambient folk"
+      ]
+    },
+    "29512893": {
+      "date": "2026-08-24",
+      "artist": "Sharon Van Etten",
+      "title": "Our Love",
+      "source": "LastFM~Perfume Genius",
+      "genres": []
+    },
+    "186511327": {
+      "date": "2026-08-24",
+      "artist": "Clara Luciani",
+      "title": "Le reste",
+      "source": "LastFM~Christine and the Queens",
+      "genres": [
+        "french pop",
+        "variété française",
+        "chanson",
+        "french indie pop"
+      ]
+    },
+    "535965821": {
+      "date": "2026-08-24",
+      "artist": "Julia Jacklin",
+      "title": "Someday - triple j Like A Version",
+      "source": "LastFM~Angel Olsen",
+      "genres": []
+    },
+    "100786873": {
+      "date": "2026-08-24",
+      "artist": "Sharon Van Etten",
+      "title": "Jupiter 4",
+      "source": "LastFM~Perfume Genius",
+      "genres": []
+    },
+    "550757235": {
+      "date": "2026-08-24",
+      "artist": "Hudson Freeman",
+      "title": "I-40",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "533563502": {
+      "date": "2026-08-24",
+      "artist": "Ruby & Sasha",
+      "title": "Hay Fever",
+      "source": "WFUV-NYSlice2026",
+      "genres": []
+    },
+    "534919439": {
+      "date": "2026-08-24",
+      "artist": "Bonobo",
+      "title": "Fire on the Water",
+      "source": "NPR-AllSongsConsidered",
+      "genres": [
+        "trip hop",
+        "downtempo",
+        "nu jazz",
+        "electronic"
+      ]
+    },
+    "86681059": {
+      "date": "2026-08-24",
+      "artist": "Clara Luciani",
+      "title": "Eddy",
+      "source": "LastFM~Christine and the Queens",
+      "genres": [
+        "french pop",
+        "variété française",
+        "chanson",
+        "french indie pop"
+      ]
+    },
+    "186335129": {
+      "date": "2026-08-24",
+      "artist": "Denzel Curry",
+      "title": "DIFFERENCE [Feat. Yebba]",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "186511330": {
+      "date": "2026-08-24",
+      "artist": "Clara Luciani",
+      "title": "Respire encore",
+      "source": "LastFM~Christine and the Queens",
+      "genres": [
+        "french pop",
+        "variété française",
+        "chanson",
+        "french indie pop"
+      ]
+    },
+    "545604823": {
+      "date": "2026-08-24",
+      "artist": "Gollylagging",
+      "title": "Comet",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "521917291": {
+      "date": "2026-08-24",
+      "artist": "Chaotic Symphony",
+      "title": "I Need A Vacay",
+      "source": "WFUV-NYSlice2026",
+      "genres": []
+    },
+    "550712246": {
+      "date": "2026-08-24",
+      "artist": "Cleo Sol",
+      "title": "Force of Love",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "neo soul",
+        "alternative r&b",
+        "uk r&b"
+      ]
+    },
+    "147280": {
+      "date": "2026-08-24",
+      "artist": "Mazzy Star",
+      "title": "Halah",
+      "source": "LastFM~Cigarettes After Sex",
+      "genres": [
+        "dream pop",
+        "shoegaze",
+        "slowcore"
+      ]
+    },
+    "552275978": {
+      "date": "2026-08-24",
+      "artist": "Rochelle Jordan",
+      "title": "Get It Off - KLSH Remix",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "alternative r&b"
+      ]
+    },
+    "535912089": {
+      "date": "2026-08-24",
+      "artist": "Clara Hill",
+      "title": "Better",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "nu jazz",
+        "downtempo",
+        "acid jazz"
+      ]
+    },
+    "245812161": {
+      "date": "2026-08-24",
+      "artist": "Juliette Armanet",
+      "title": "Flamme",
+      "source": "LastFM~Christine and the Queens",
+      "genres": [
+        "french pop",
+        "variété française",
+        "chanson",
+        "french house"
+      ]
+    },
+    "531234683": {
+      "date": "2026-08-24",
+      "artist": "Fatales",
+      "title": "Voices",
+      "source": "WFUV-NYSlice2026",
+      "genres": []
+    },
+    "528083373": {
+      "date": "2026-08-24",
+      "artist": "Mike Herz",
+      "title": "You Don't Have To Worry",
+      "source": "WFUV-NYSlice2026",
+      "genres": []
+    },
+    "509725486": {
+      "date": "2026-08-24",
+      "artist": "Tasha",
+      "title": "Clarion",
+      "source": "WFUV-NYSlice2026",
       "genres": []
     }
   }
