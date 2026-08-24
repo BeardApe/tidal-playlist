@@ -202,7 +202,10 @@
       "source": "Vuurland-latest"
     },
     "madison cunningham|wake (feat. fleet foxes)": "2026-03-12",
-    "marsmobil|sometimes i don't regret": "2026-03-12",
+    "marsmobil|sometimes i don't regret": {
+      "date": "2026-03-12",
+      "source": "LastFM~Parov Stelar"
+    },
     "bat for lashes|siren song": "2026-03-12",
     "de la soul|the package": "2026-03-12",
     "pileup|lying in the road": "2026-03-12",
@@ -238,7 +241,10 @@
       "date": "2026-03-12",
       "source": "WFUV-NYSlice2026"
     },
-    "aure|dans la plaine": "2026-03-12",
+    "aure|dans la plaine": {
+      "date": "2026-03-12",
+      "source": "Vuurland-latest"
+    },
     "sault|fight for love": {
       "date": "2026-03-12",
       "source": "Vuurland-latest"
@@ -377,7 +383,10 @@
       "date": "2026-03-12",
       "source": "GuyGarvey-FinestHour"
     },
-    "julianna barwick|perpetual adoration": "2026-03-12",
+    "julianna barwick|perpetual adoration": {
+      "date": "2026-03-12",
+      "source": "NPR-AllSongsConsidered"
+    },
     "space|magic fly": {
       "date": "2026-03-12",
       "source": "GuyGarvey-FinestHour"
@@ -422,7 +431,10 @@
     },
     "the wild life band ny|a love song": "2026-03-12",
     "pati yang|soul for me": "2026-03-12",
-    "arlo parks|heaven": "2026-03-12",
+    "arlo parks|heaven": {
+      "date": "2026-03-12",
+      "source": "NPR-AllSongsConsidered"
+    },
     "the besnard lakes|calling ghostly nations - ghost mix": "2026-03-12",
     "kaat van stralen|ik weet hoe het werkt": {
       "date": "2026-03-12",
@@ -894,7 +906,10 @@
       "source": "Vuurland-latest"
     },
     "mira lora|nyctophilia": "2026-03-23",
-    "talk talk|after the flood": "2026-03-23",
+    "talk talk|after the flood": {
+      "date": "2026-03-23",
+      "source": "GuyGarvey-FinestHour"
+    },
     "laura veirs and saltbreakers|to the country": {
       "date": "2026-03-23",
       "source": "GuyGarvey-FinestHour"
@@ -1601,7 +1616,10 @@
       "source": "WFUV-NYSlice2026"
     },
     "glass egg|passionate enough": "2026-04-27",
-    "quiet light|self tape": "2026-04-27",
+    "quiet light|self tape": {
+      "date": "2026-04-27",
+      "source": "NPR-AllSongsConsidered"
+    },
     "slowdive|souvlaki space station": "2026-04-27",
     "daphni|sizzling": "2026-04-27",
     "zaz|mon sourire": "2026-04-27",
@@ -2009,7 +2027,10 @@
     "greg surmacz|brick by brick": "2026-06-01",
     "berry weight|yeti's lament": "2026-06-01",
     "the avalanches|together (feat. nikki nair, jessy lanza & prentiss)": "2026-06-01",
-    "shearwater|daydream unbeliever": "2026-06-01",
+    "shearwater|daydream unbeliever": {
+      "date": "2026-06-01",
+      "source": "NPR-AllSongsConsidered"
+    },
     "rival consoles|helios": "2026-06-01",
     "berry weight|magician's assistant": "2026-06-01",
     "the head and the heart|rivers and roads - live at neumos": "2026-06-01",
@@ -3704,6 +3725,194 @@
     "overmono|even angels ghost": {
       "date": "2026-08-24",
       "source": "KEXP-NewThisWeek"
+    },
+    "iron & wine and calexico|a history of lovers": {
+      "date": "2026-08-24",
+      "source": "LastFM~M. Ward"
+    },
+    "weezer|c.e.o.": {
+      "date": "2026-08-24",
+      "source": "NPR-AllSongsConsidered"
+    },
+    "daniel rossen|silent song": {
+      "date": "2026-08-24",
+      "source": "LastFM~Grizzly Bear"
+    },
+    "jorja smith|make it your home": {
+      "date": "2026-08-24",
+      "source": "KEXP-NewThisWeek"
+    },
+    "andrew bird|fiery crash": {
+      "date": "2026-08-24",
+      "source": "LastFM~M. Ward"
+    },
+    "tim vanhamel|saviour": {
+      "date": "2026-08-24",
+      "source": "LastFM~An Pierlé"
+    },
+    "iron & wine and calexico|sixteen, maybe less": {
+      "date": "2026-08-24",
+      "source": "LastFM~M. Ward"
+    },
+    "andrew bird|plasticities": {
+      "date": "2026-08-24",
+      "source": "LastFM~M. Ward"
+    },
+    "fleet foxes|blue ridge mountains": {
+      "date": "2026-08-24",
+      "source": "LastFM~Grizzly Bear"
+    },
+    "colin stetson|dirt dance": {
+      "date": "2026-08-24",
+      "source": "NPR-AllSongsConsidered"
+    },
+    "mintzkov luna|i take notes": {
+      "date": "2026-08-24",
+      "source": "LastFM~An Pierlé"
+    },
+    "exploding flowers|spinning carousel": {
+      "date": "2026-08-24",
+      "source": "KEXP-NewThisWeek"
+    },
+    "andrew bird|oh no": {
+      "date": "2026-08-24",
+      "source": "LastFM~M. Ward"
+    },
+    "briskey|baton jaune": {
+      "date": "2026-08-24",
+      "source": "LastFM~Parov Stelar"
+    },
+    "jamie she|kiss me while you can": {
+      "date": "2026-08-24",
+      "source": "KEXP-NewThisWeek"
+    },
+    "chanpan|driving away - salami rose joe louis remix": {
+      "date": "2026-08-24",
+      "source": "KEXP-NewThisWeek"
+    },
+    "planta industrial|barra payan": {
+      "date": "2026-08-24",
+      "source": "WFUV-NYSlice2026"
+    },
+    "hermanos gutiérrez|los andes": {
+      "date": "2026-08-24",
+      "source": "KEXP-NewThisWeek"
+    },
+    "222|now 8": {
+      "date": "2026-08-24",
+      "source": "KEXP-NewThisWeek"
+    },
+    "samantha crain|tvshki cha foha": {
+      "date": "2026-08-24",
+      "source": "KEXP-NewThisWeek"
+    },
+    "froukje|ik wou dat ik jou was": {
+      "date": "2026-08-24",
+      "source": "Radio1-Top30"
+    },
+    "briskey|galactic jack": {
+      "date": "2026-08-24",
+      "source": "LastFM~Parov Stelar"
+    },
+    "tim vanhamel|tell me": {
+      "date": "2026-08-24",
+      "source": "LastFM~An Pierlé"
+    },
+    "new age healers|moored": {
+      "date": "2026-08-24",
+      "source": "KEXP-NewThisWeek"
+    },
+    "iron & wine and calexico|red dust": {
+      "date": "2026-08-24",
+      "source": "LastFM~M. Ward"
+    },
+    "matt berninger|martini me fatso": {
+      "date": "2026-08-24",
+      "source": "Radio1-Top30"
+    },
+    "mintzkov luna|sleep until noon": {
+      "date": "2026-08-24",
+      "source": "LastFM~An Pierlé"
+    },
+    "rachel chinouriri|one song away from crying": {
+      "date": "2026-08-24",
+      "source": "KEXP-NewThisWeek"
+    },
+    "fleet foxes|ragged wood": {
+      "date": "2026-08-24",
+      "source": "LastFM~Grizzly Bear"
+    },
+    "jam city|my world": {
+      "date": "2026-08-24",
+      "source": "KEXP-NewThisWeek"
+    },
+    "daisy's room|addicted": {
+      "date": "2026-08-24",
+      "source": "WFUV-NYSlice2026"
+    },
+    "hazy waters|high": {
+      "date": "2026-08-24",
+      "source": "KEXP-NewThisWeek"
+    },
+    "mintzkov luna|act real cool": {
+      "date": "2026-08-24",
+      "source": "LastFM~An Pierlé"
+    },
+    "lo! peninsula|song for the undead": {
+      "date": "2026-08-24",
+      "source": "KEXP-NewThisWeek"
+    },
+    "aghogho|i want you to feel it": {
+      "date": "2026-08-24",
+      "source": "Radio1-Top30"
+    },
+    "fleet foxes|sun it rises": {
+      "date": "2026-08-24",
+      "source": "LastFM~Grizzly Bear"
+    },
+    "daniel rossen|waterfall": {
+      "date": "2026-08-24",
+      "source": "LastFM~Grizzly Bear"
+    },
+    "yeemz|brace for impact": {
+      "date": "2026-08-24",
+      "source": "NPR-AllSongsConsidered"
+    },
+    "briskey|galactic jack (buscemi's beat to beatnik remix)": {
+      "date": "2026-08-24",
+      "source": "LastFM~Parov Stelar"
+    },
+    "the drums|it didn't matter": {
+      "date": "2026-08-24",
+      "source": "KEXP-NewThisWeek"
+    },
+    "pitschouse|cool 93": {
+      "date": "2026-08-24",
+      "source": "KEXP-NewThisWeek"
+    },
+    "tim vanhamel|until i find you": {
+      "date": "2026-08-24",
+      "source": "LastFM~An Pierlé"
+    },
+    "the watergirls|the whole of the moon - radio edit": {
+      "date": "2026-08-24",
+      "source": "KEXP-NewThisWeek"
+    },
+    "erykah badu|witch doctor": {
+      "date": "2026-08-24",
+      "source": "KEXP-NewThisWeek"
+    },
+    "daniel rossen|shadow in the frame": {
+      "date": "2026-08-24",
+      "source": "LastFM~Grizzly Bear"
+    },
+    "antony szmierek|decoding birdsong": {
+      "date": "2026-08-24",
+      "source": "KEXP-NewThisWeek"
+    },
+    "j.bernardt|four in the morning": {
+      "date": "2026-08-24",
+      "source": "Radio1-Top30"
     }
   },
   "playlist_log": {
@@ -3937,15 +4146,6 @@
       "genres": [
         "indie electronic",
         "electropop"
-      ]
-    },
-    "524401091": {
-      "date": "2026-07-27",
-      "artist": "Nick Hakim",
-      "title": "Endlessly Waiting",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "indie soul"
       ]
     },
     "376643080": {
@@ -4507,13 +4707,6 @@
       "source": "KEXP-NewThisWeek",
       "genres": []
     },
-    "52182793": {
-      "date": "2026-08-10",
-      "artist": "Slag Boom Van Loon",
-      "title": "spc-ch-pn (µ-Ziq remix)",
-      "source": "LastFM~Boards of Canada",
-      "genres": []
-    },
     "261312116": {
       "date": "2026-08-10",
       "artist": "Coin",
@@ -4526,13 +4719,6 @@
       "artist": "Kiasmos",
       "title": "Orgoned",
       "source": "LastFM~Moderat",
-      "genres": []
-    },
-    "291291321": {
-      "date": "2026-08-10",
-      "artist": "Christ.",
-      "title": "Breathe Between Sleep",
-      "source": "LastFM~Boards of Canada",
       "genres": []
     },
     "72552874": {
@@ -4739,13 +4925,6 @@
         "indie soul"
       ]
     },
-    "291291316": {
-      "date": "2026-08-10",
-      "artist": "Christ.",
-      "title": "Ganky",
-      "source": "LastFM~Boards of Canada",
-      "genres": []
-    },
     "103317417": {
       "date": "2026-08-10",
       "artist": "Peter Broderick",
@@ -4769,13 +4948,6 @@
       "artist": "Portraits Of Tracy",
       "title": "Caught In A Jam",
       "source": "KEXP-NewThisWeek",
-      "genres": []
-    },
-    "291291315": {
-      "date": "2026-08-10",
-      "artist": "Christ.",
-      "title": "Making a Snow Angel",
-      "source": "LastFM~Boards of Canada",
       "genres": []
     },
     "530716703": {
@@ -4860,18 +5032,6 @@
       "title": "That Rose",
       "source": "KEXP-NewThisWeek",
       "genres": []
-    },
-    "545900360": {
-      "date": "2026-08-17",
-      "artist": "Adam Wiltzie",
-      "title": "White Gloves and Turtlenecks",
-      "source": "NPR-AllSongsConsidered",
-      "genres": [
-        "ambient",
-        "drone",
-        "neoclassical",
-        "minimalism"
-      ]
     },
     "215722189": {
       "date": "2026-08-17",
@@ -5397,6 +5557,419 @@
         "uk garage",
         "breakbeat"
       ]
+    },
+    "245553583": {
+      "date": "2026-08-24",
+      "artist": "Iron & Wine and Calexico",
+      "title": "A History of Lovers",
+      "source": "LastFM~M. Ward",
+      "genres": []
+    },
+    "542083740": {
+      "date": "2026-08-24",
+      "artist": "Weezer",
+      "title": "C.E.O.",
+      "source": "NPR-AllSongsConsidered",
+      "genres": [
+        "alternative rock"
+      ]
+    },
+    "16024506": {
+      "date": "2026-08-24",
+      "artist": "Daniel Rossen",
+      "title": "Silent Song",
+      "source": "LastFM~Grizzly Bear",
+      "genres": [
+        "baroque pop"
+      ]
+    },
+    "553117040": {
+      "date": "2026-08-24",
+      "artist": "Jorja Smith",
+      "title": "Make It Your Home",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "uk r&b"
+      ]
+    },
+    "393989323": {
+      "date": "2026-08-24",
+      "artist": "Andrew Bird",
+      "title": "Fiery Crash",
+      "source": "LastFM~M. Ward",
+      "genres": [
+        "baroque pop",
+        "indie folk"
+      ]
+    },
+    "2371127": {
+      "date": "2026-08-24",
+      "artist": "Tim Vanhamel",
+      "title": "Saviour",
+      "source": "LastFM~An Pierlé",
+      "genres": [
+        "anti-folk"
+      ]
+    },
+    "2768023": {
+      "date": "2026-08-24",
+      "artist": "Iron & Wine and Calexico",
+      "title": "Sixteen, Maybe Less",
+      "source": "LastFM~M. Ward",
+      "genres": []
+    },
+    "393989325": {
+      "date": "2026-08-24",
+      "artist": "Andrew Bird",
+      "title": "Plasticities",
+      "source": "LastFM~M. Ward",
+      "genres": [
+        "baroque pop",
+        "indie folk"
+      ]
+    },
+    "71087745": {
+      "date": "2026-08-24",
+      "artist": "Fleet Foxes",
+      "title": "Blue Ridge Mountains",
+      "source": "LastFM~Grizzly Bear",
+      "genres": [
+        "indie folk",
+        "folk",
+        "indie"
+      ]
+    },
+    "535707378": {
+      "date": "2026-08-24",
+      "artist": "Colin Stetson",
+      "title": "Dirt dance",
+      "source": "NPR-AllSongsConsidered",
+      "genres": []
+    },
+    "18738518": {
+      "date": "2026-08-24",
+      "artist": "Mintzkov Luna",
+      "title": "I Take Notes",
+      "source": "LastFM~An Pierlé",
+      "genres": []
+    },
+    "542969728": {
+      "date": "2026-08-24",
+      "artist": "Exploding Flowers",
+      "title": "Spinning Carousel",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "jangle pop",
+        "power pop"
+      ]
+    },
+    "21408144": {
+      "date": "2026-08-24",
+      "artist": "Andrew Bird",
+      "title": "Oh No",
+      "source": "LastFM~M. Ward",
+      "genres": [
+        "baroque pop",
+        "indie folk"
+      ]
+    },
+    "458325070": {
+      "date": "2026-08-24",
+      "artist": "Briskey",
+      "title": "Baton Jaune",
+      "source": "LastFM~Parov Stelar",
+      "genres": [
+        "nu jazz",
+        "acid jazz",
+        "trip hop"
+      ]
+    },
+    "541095995": {
+      "date": "2026-08-24",
+      "artist": "Jamie She",
+      "title": "Kiss Me While You Can",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "549633292": {
+      "date": "2026-08-24",
+      "artist": "Chanpan",
+      "title": "driving away - Salami Rose Joe Louis Remix",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "483588828": {
+      "date": "2026-08-24",
+      "artist": "Planta Industrial",
+      "title": "Barra Payan",
+      "source": "WFUV-NYSlice2026",
+      "genres": [
+        "bedroom pop",
+        "alternative r&b",
+        "latin indie"
+      ]
+    },
+    "551940967": {
+      "date": "2026-08-24",
+      "artist": "Hermanos Gutiérrez",
+      "title": "Los Andes",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "543398221": {
+      "date": "2026-08-24",
+      "artist": "222",
+      "title": "Now 8",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "549668264": {
+      "date": "2026-08-24",
+      "artist": "Samantha Crain",
+      "title": "Tvshki cha foha",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "indie folk"
+      ]
+    },
+    "538298761": {
+      "date": "2026-08-24",
+      "artist": "Froukje",
+      "title": "Ik Wou Dat Ik Jou Was",
+      "source": "Radio1-Top30",
+      "genres": [
+        "nederpop"
+      ]
+    },
+    "458335092": {
+      "date": "2026-08-24",
+      "artist": "Briskey",
+      "title": "Galactic Jack",
+      "source": "LastFM~Parov Stelar",
+      "genres": [
+        "nu jazz",
+        "acid jazz",
+        "trip hop"
+      ]
+    },
+    "2371122": {
+      "date": "2026-08-24",
+      "artist": "Tim Vanhamel",
+      "title": "Tell Me",
+      "source": "LastFM~An Pierlé",
+      "genres": [
+        "anti-folk"
+      ]
+    },
+    "530249847": {
+      "date": "2026-08-24",
+      "artist": "New Age Healers",
+      "title": "Moored",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "shoegaze"
+      ]
+    },
+    "227621596": {
+      "date": "2026-08-24",
+      "artist": "Iron & Wine and Calexico",
+      "title": "Red Dust",
+      "source": "LastFM~M. Ward",
+      "genres": []
+    },
+    "541799051": {
+      "date": "2026-08-24",
+      "artist": "Matt Berninger",
+      "title": "Martini Me Fatso",
+      "source": "Radio1-Top30",
+      "genres": []
+    },
+    "333004418": {
+      "date": "2026-08-24",
+      "artist": "Mintzkov Luna",
+      "title": "Sleep Until Noon",
+      "source": "LastFM~An Pierlé",
+      "genres": []
+    },
+    "543723522": {
+      "date": "2026-08-24",
+      "artist": "Rachel Chinouriri",
+      "title": "One song away from crying",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "71087738": {
+      "date": "2026-08-24",
+      "artist": "Fleet Foxes",
+      "title": "Ragged Wood",
+      "source": "LastFM~Grizzly Bear",
+      "genres": [
+        "indie folk",
+        "folk",
+        "indie"
+      ]
+    },
+    "541387695": {
+      "date": "2026-08-24",
+      "artist": "Jam City",
+      "title": "My World",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "uk funky"
+      ]
+    },
+    "528852090": {
+      "date": "2026-08-24",
+      "artist": "Daisy's Room",
+      "title": "Addicted",
+      "source": "WFUV-NYSlice2026",
+      "genres": [
+        "surf rock"
+      ]
+    },
+    "521865155": {
+      "date": "2026-08-24",
+      "artist": "hazy waters",
+      "title": "high",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "shoegaze"
+      ]
+    },
+    "333004408": {
+      "date": "2026-08-24",
+      "artist": "Mintzkov Luna",
+      "title": "Act Real Cool",
+      "source": "LastFM~An Pierlé",
+      "genres": []
+    },
+    "541600074": {
+      "date": "2026-08-24",
+      "artist": "Lo! Peninsula",
+      "title": "Song For The Undead",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "shoegaze",
+        "indian indie"
+      ]
+    },
+    "529038830": {
+      "date": "2026-08-24",
+      "artist": "Aghogho",
+      "title": "I Want You To Feel It",
+      "source": "Radio1-Top30",
+      "genres": []
+    },
+    "71087736": {
+      "date": "2026-08-24",
+      "artist": "Fleet Foxes",
+      "title": "Sun It Rises",
+      "source": "LastFM~Grizzly Bear",
+      "genres": [
+        "indie folk",
+        "folk",
+        "indie"
+      ]
+    },
+    "60315092": {
+      "date": "2026-08-24",
+      "artist": "Daniel Rossen",
+      "title": "Waterfall",
+      "source": "LastFM~Grizzly Bear",
+      "genres": [
+        "baroque pop"
+      ]
+    },
+    "547237325": {
+      "date": "2026-08-24",
+      "artist": "yeemz",
+      "title": "Brace for Impact",
+      "source": "NPR-AllSongsConsidered",
+      "genres": [
+        "alternative pop"
+      ]
+    },
+    "458335111": {
+      "date": "2026-08-24",
+      "artist": "Briskey",
+      "title": "Galactic Jack (Buscemi's Beat To Beatnik Remix)",
+      "source": "LastFM~Parov Stelar",
+      "genres": [
+        "nu jazz",
+        "acid jazz",
+        "trip hop"
+      ]
+    },
+    "541972432": {
+      "date": "2026-08-24",
+      "artist": "The Drums",
+      "title": "It Didn't Matter",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "indie"
+      ]
+    },
+    "552792335": {
+      "date": "2026-08-24",
+      "artist": "pitschouse",
+      "title": "Cool 93",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "2371116": {
+      "date": "2026-08-24",
+      "artist": "Tim Vanhamel",
+      "title": "Until I Find You",
+      "source": "LastFM~An Pierlé",
+      "genres": [
+        "anti-folk"
+      ]
+    },
+    "14976140": {
+      "date": "2026-08-24",
+      "artist": "The Watergirls",
+      "title": "The Whole Of The Moon - Radio Edit",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "indie electronic"
+      ]
+    },
+    "548162256": {
+      "date": "2026-08-24",
+      "artist": "Erykah Badu",
+      "title": "Witch Doctor",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "neo soul",
+        "r&b"
+      ]
+    },
+    "223596951": {
+      "date": "2026-08-24",
+      "artist": "Daniel Rossen",
+      "title": "Shadow in the Frame",
+      "source": "LastFM~Grizzly Bear",
+      "genres": [
+        "baroque pop"
+      ]
+    },
+    "514468650": {
+      "date": "2026-08-24",
+      "artist": "Antony Szmierek",
+      "title": "Decoding Birdsong",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "stutter house",
+        "spoken word",
+        "indie dance"
+      ]
+    },
+    "531233016": {
+      "date": "2026-08-24",
+      "artist": "J.Bernardt",
+      "title": "Four In The Morning",
+      "source": "Radio1-Top30",
+      "genres": []
     }
   }
 }
