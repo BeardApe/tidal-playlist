@@ -38,6 +38,7 @@ BLOCKED_GENRES = {
 # Artiesten die nooit in de playlist mogen komen (kleine letters)
 BLOCKED_ARTISTS = {
     "christ.", "slag boom van loon", "slagboom van loon", "nick hakim",
+    "dido", "pati yang", "apparat", "perfect person",
 }
 
 RECENCY_FILTER_PLAYLISTS = {"Nummers-2026"}
@@ -103,19 +104,32 @@ def normalize_key(artist: str, title: str) -> str:
     return f"{artist.strip().lower()}|{title.strip().lower()}"
 
 
-def purge_unwanted(session: tidalapi.Session, playlist_id: str, playlist_log: dict) -> dict:
+def purge_unwanted(session: tidalapi.Session, playlist_id: str, playlist_log: dict,
+                   token: str | None = None) -> dict:
     """
     Verwijdert tracks uit de playlist die inmiddels op de blokkeerlijst staan:
-    geblokkeerde artiesten, of een geblokkeerd genre in de opgeslagen genredata.
+    geblokkeerde artiesten, of een geblokkeerd genre.
+    Tracks zonder opgeslagen genres worden eenmalig opgezocht via Spotify.
     """
     try:
         tracks = list(session.playlist(playlist_id).tracks())
+        genre_cache = {}
         to_remove = []
         for idx, track in enumerate(tracks):
             tid    = str(track.id)
-            entry  = playlist_log.get(tid, {})
-            genres = entry.get("genres", []) if isinstance(entry, dict) else []
+            entry  = playlist_log.get(tid)
+            if not isinstance(entry, dict):
+                entry = {"date": entry} if isinstance(entry, str) else {}
+                playlist_log[tid] = entry
             artist_name = track.artist.name.strip().lower()
+
+            # Genres eenmalig opzoeken als ze nog niet zijn opgeslagen
+            if "genres" not in entry and token:
+                if artist_name not in genre_cache:
+                    genre_cache[artist_name] = lookup_genres_by_name(token, track.artist.name)[:4]
+                entry["genres"] = genre_cache[artist_name]
+
+            genres = entry.get("genres", [])
             if artist_name in BLOCKED_ARTISTS or genres_blocked(genres):
                 to_remove.append((idx, tid, track.artist.name, track.name))
 
@@ -362,7 +376,6 @@ def main():
 
     playlist_log = remove_old_tracks(session, TIDAL_PLAYLIST_ID, playlist_log)
     playlist_log = backfill_playlist_log(session, TIDAL_PLAYLIST_ID, playlist_log)
-    playlist_log = purge_unwanted(session, TIDAL_PLAYLIST_ID, playlist_log)
 
     try:
         token = get_spotify_token()
@@ -370,6 +383,8 @@ def main():
     except Exception as e:
         print(f"[Spotify] Token mislukt: {e}")
         token = None
+
+    playlist_log = purge_unwanted(session, TIDAL_PLAYLIST_ID, playlist_log, token)
 
     spotify_candidates = get_all_spotify_tracks(token) if token else []
     lastfm_candidates  = get_lastfm_discoveries()
