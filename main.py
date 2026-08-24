@@ -32,6 +32,12 @@ BLOCKED_GENRES = {
     "hard rock", "heavy metal", "metal", "punk",
     "hardcore", "noise rock", "death metal", "thrash metal",
     "edm", "electro house", "big room",
+    "minimal techno", "minimal", "idm", "glitch", "microhouse",
+}
+
+# Artiesten die nooit in de playlist mogen komen (kleine letters)
+BLOCKED_ARTISTS = {
+    "christ.", "slag boom van loon", "slagboom van loon", "nick hakim",
 }
 
 RECENCY_FILTER_PLAYLISTS = {"Nummers-2026"}
@@ -50,14 +56,31 @@ SPOTIFY_PLAYLISTS = [
 ]
 
 SEED_ARTISTS = [
-    "Zero 7", "Moloko", "Air", "Beach House", "SOHN",
-    "Portishead", "Massive Attack", "Bonobo", "Röyksopp",
-    "Thievery Corporation", "The XX", "London Grammar",
-    "Daughter", "Sigur Rós", "Boards of Canada",
-    "Nick Drake", "Feist", "Jose Gonzalez",
-    "Four Tet", "Moderat", "Nils Frahm",
-    "Agnes Obel", "Warpaint", "Cigarettes After Sex",
-    "Still Woozy", "Novo Amor", "Aldous Harding",
+    # Trip-hop & downtempo
+    "Portishead", "Massive Attack", "Zero 7", "Moloko", "Air",
+    "Lamb", "Morcheeba", "Kruder & Dorfmeister", "The Cinematic Orchestra", "Bonobo",
+    "Thievery Corporation", "Parov Stelar",
+    # Soulvol & jazzy
+    "Sade", "Rhye", "Khruangbin", "Cleo Sol",
+    "Lianne La Havas", "Jordan Rakei",
+    # Warme folk & singer-songwriters
+    "Jose Gonzalez", "Iron & Wine", "Sufjan Stevens", "Bon Iver",
+    "Fleet Foxes", "Novo Amor", "Aldous Harding", "Feist", "Laura Marling",
+    "Phoebe Bridgers", "S. Carey", "James Vincent McMorrow", "Ben Howard",
+    "Bill Callahan", "Cat Power", "M. Ward",
+    # Indie
+    "Local Natives", "Volcano Choir", "Camera Obscura", "Grizzly Bear",
+    "Arcade Fire", "Friendly Fires",
+    # Dream pop & warme indie
+    "Beach House", "Mazzy Star", "Cigarettes After Sex", "London Grammar", "Agnes Obel",
+    # Queer stemmen
+    "Dressed Like Boys", "Perfume Genius", "Moses Sumney", "Adrianne Lenker",
+    "Lucy Dacus", "Arlo Parks", "Angel Olsen", "Rufus Wainwright",
+    "Christine and the Queens",
+    # Nostalgie 90s/00s, rustig en licht melancholisch
+    "Everything But The Girl", "Kings of Convenience", "Beth Orton", "Texas",
+    # Belgisch
+    "Hooverphonic", "Balthazar", "An Pierlé", "Warhaus", "Isbells", "Marble Sounds",
 ]
 
 
@@ -78,6 +101,35 @@ def save_state(state: dict):
 
 def normalize_key(artist: str, title: str) -> str:
     return f"{artist.strip().lower()}|{title.strip().lower()}"
+
+
+def purge_unwanted(session: tidalapi.Session, playlist_id: str, playlist_log: dict) -> dict:
+    """
+    Verwijdert tracks uit de playlist die inmiddels op de blokkeerlijst staan:
+    geblokkeerde artiesten, of een geblokkeerd genre in de opgeslagen genredata.
+    """
+    try:
+        tracks = list(session.playlist(playlist_id).tracks())
+        to_remove = []
+        for idx, track in enumerate(tracks):
+            tid    = str(track.id)
+            entry  = playlist_log.get(tid, {})
+            genres = entry.get("genres", []) if isinstance(entry, dict) else []
+            artist_name = track.artist.name.strip().lower()
+            if artist_name in BLOCKED_ARTISTS or genres_blocked(genres):
+                to_remove.append((idx, tid, track.artist.name, track.name))
+
+        if to_remove:
+            for idx, tid, a, t in sorted(to_remove, reverse=True):
+                session.playlist(playlist_id).remove_by_index(idx)
+                playlist_log.pop(tid, None)
+                print(f"  [Purge] {a} — {t}")
+            print(f"[Purge] {len(to_remove)} ongewenste tracks verwijderd")
+        else:
+            print("[Purge] Geen ongewenste tracks gevonden")
+    except Exception as e:
+        print(f"[Purge] Mislukt: {e}")
+    return playlist_log
 
 
 def load_tidal_session() -> tidalapi.Session:
@@ -121,6 +173,28 @@ def is_blocked(artist_id: str, genre_map: dict) -> bool:
         for genre in genre_map.get(artist_id, [])
         for blocked in BLOCKED_GENRES
     )
+
+
+def lookup_genres_by_name(token: str, artist_name: str) -> list[str]:
+    """Zoekt een artiest op naam in Spotify en geeft de genres terug (voor Last.fm-kandidaten)."""
+    try:
+        resp = requests.get(
+            "https://api.spotify.com/v1/search",
+            headers={"Authorization": f"Bearer {token}"},
+            params={"q": artist_name, "type": "artist", "limit": 1},
+            timeout=10,
+        )
+        if resp.status_code == 200:
+            items = resp.json().get("artists", {}).get("items", [])
+            if items and items[0]["name"].lower() == artist_name.lower():
+                return items[0].get("genres", [])
+    except Exception:
+        pass
+    return []
+
+
+def genres_blocked(genres: list[str]) -> bool:
+    return any(blocked in g for g in genres for blocked in BLOCKED_GENRES)
 
 
 def get_spotify_playlist_tracks(
@@ -288,6 +362,7 @@ def main():
 
     playlist_log = remove_old_tracks(session, TIDAL_PLAYLIST_ID, playlist_log)
     playlist_log = backfill_playlist_log(session, TIDAL_PLAYLIST_ID, playlist_log)
+    playlist_log = purge_unwanted(session, TIDAL_PLAYLIST_ID, playlist_log)
 
     try:
         token = get_spotify_token()
@@ -308,9 +383,30 @@ def main():
         spotify_candidates = [c for c in spotify_candidates if not is_blocked(c.get("artist_id", ""), genre_map)]
         blocked_n  = before - len(spotify_candidates)
         if blocked_n:
-            print(f"[Genre] {blocked_n} tracks geblokkeerd op genre")
+            print(f"[Genre] {blocked_n} Spotify-tracks geblokkeerd op genre")
 
+    # Genre-filter op Last.fm-kandidaten (opzoeken via Spotify search)
+    if token and lastfm_candidates:
+        lastfm_genre_cache = {}
+        kept = []
+        for c in lastfm_candidates:
+            name = c["artist"]
+            if name not in lastfm_genre_cache:
+                lastfm_genre_cache[name] = lookup_genres_by_name(token, name)
+            c["genres"] = lastfm_genre_cache[name]
+            if genres_blocked(c["genres"]):
+                print(f"  [Genre] Last.fm-artiest geblokkeerd: {name} ({', '.join(c['genres'][:3])})")
+            else:
+                kept.append(c)
+        lastfm_candidates = kept
+
+    # Geblokkeerde artiesten (overal)
     candidates = spotify_candidates + lastfm_candidates
+    before = len(candidates)
+    candidates = [c for c in candidates if c["artist"].strip().lower() not in BLOCKED_ARTISTS]
+    if before - len(candidates):
+        print(f"[Artiest] {before - len(candidates)} tracks van geblokkeerde artiesten overgeslagen")
+
     random.shuffle(candidates)
     print(f"\nTotaal kandidaten na filtering: {len(candidates)}")
 
@@ -359,7 +455,7 @@ def main():
 
         added.append(tidal_track)
         existing_tidal_ids.add(tidal_id)
-        genres = genre_map.get(candidate.get("artist_id", ""), [])[:4]
+        genres = (genre_map.get(candidate.get("artist_id", ""), []) or candidate.get("genres", []))[:4]
         seen[key]              = {"date": today, "source": source}
         playlist_log[tidal_id] = {"date": today, "artist": artist, "title": title,
                                   "source": source, "genres": genres}
