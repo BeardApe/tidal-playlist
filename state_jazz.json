@@ -1,0 +1,381 @@
+{
+  "seen": {
+    "deacon blue|town to be blamed": {
+      "date": "2026-08-26",
+      "source": "Tag~torch song"
+    },
+    "antônio carlos jobim|the red blouse": {
+      "date": "2026-08-26",
+      "source": "Tag~bossa nova"
+    },
+    "helen merrill|i remember you": {
+      "date": "2026-08-26",
+      "source": "LastFM~Blossom Dearie"
+    },
+    "jimmy scott|when did you leave heaven?": {
+      "date": "2026-08-26",
+      "source": "Tag~jazz ballad"
+    },
+    "stan getz|só danço samba": {
+      "date": "2026-08-26",
+      "source": "Tag~bossa nova"
+    },
+    "helen merrill|summertime": {
+      "date": "2026-08-26",
+      "source": "LastFM~Blossom Dearie"
+    },
+    "stan getz|the girl from ipanema": {
+      "date": "2026-08-26",
+      "source": "Tag~bossa nova"
+    },
+    "etta jones|solitude": {
+      "date": "2026-08-26",
+      "source": "LastFM~Blossom Dearie"
+    },
+    "sérgio mendes & brasil '66|mas que nada": {
+      "date": "2026-08-26",
+      "source": "Tag~bossa nova"
+    },
+    "nat king cole|deck the hall": {
+      "date": "2026-08-26",
+      "source": "Seed~Nat King Cole"
+    },
+    "etta jones|i love paris": {
+      "date": "2026-08-26",
+      "source": "LastFM~Blossom Dearie"
+    },
+    "cécile mclorin salvant|thunderclouds": {
+      "date": "2026-08-26",
+      "source": "Seed~Cécile McLorin Salvant"
+    },
+    "cécile mclorin salvant|until": {
+      "date": "2026-08-26",
+      "source": "Seed~Cécile McLorin Salvant"
+    },
+    "chantal chamberland|beautiful life": {
+      "date": "2026-08-26",
+      "source": "LastFM~Madeleine Peyroux"
+    },
+    "jimmy scott|you don't know what love is": {
+      "date": "2026-08-26",
+      "source": "Tag~jazz ballad"
+    },
+    "julian & roman wasserfuhr quartet|you are a friend of mine": {
+      "date": "2026-08-26",
+      "source": "Tag~jazz ballad"
+    },
+    "elis regina|triste": {
+      "date": "2026-08-26",
+      "source": "Tag~bossa nova"
+    },
+    "patricia barber|she's a lady": {
+      "date": "2026-08-26",
+      "source": "LastFM~Madeleine Peyroux"
+    },
+    "cassandra jenkins|hard drive": {
+      "date": "2026-08-26",
+      "source": "Tag~chamber jazz"
+    },
+    "patricia barber|you're the top": {
+      "date": "2026-08-26",
+      "source": "LastFM~Madeleine Peyroux"
+    },
+    "helen merrill|anything goes": {
+      "date": "2026-08-26",
+      "source": "LastFM~Blossom Dearie"
+    },
+    "etta jones|don't go to strangers": {
+      "date": "2026-08-26",
+      "source": "LastFM~Blossom Dearie"
+    },
+    "wolfgang muthspiel|ride": {
+      "date": "2026-08-26",
+      "source": "LastFM~Bobo Stenson"
+    },
+    "cassandra wilson|harvest moon": {
+      "date": "2026-08-26",
+      "source": "LastFM~Jimmy Scott"
+    },
+    "cécile mclorin salvant|and yet": {
+      "date": "2026-08-26",
+      "source": "Seed~Cécile McLorin Salvant"
+    },
+    "chico buarque|essa moça tá diferente": {
+      "date": "2026-08-26",
+      "source": "Tag~bossa nova"
+    },
+    "nat king cole|the happiest christmas tree": {
+      "date": "2026-08-26",
+      "source": "Seed~Nat King Cole"
+    },
+    "joshua redman|body & soul": {
+      "date": "2026-08-26",
+      "source": "Tag~jazz ballad"
+    },
+    "nat king cole|mona lisa": {
+      "date": "2026-08-26",
+      "source": "Seed~Nat King Cole"
+    }
+  },
+  "playlist_log": {
+    "673370": {
+      "date": "2026-08-26",
+      "artist": "Deacon Blue",
+      "title": "Town To Be Blamed",
+      "source": "Tag~torch song",
+      "genres": []
+    },
+    "94395190": {
+      "date": "2026-08-26",
+      "artist": "Antônio Carlos Jobim",
+      "title": "The Red Blouse",
+      "source": "Tag~bossa nova",
+      "genres": [
+        "bossa nova",
+        "brazilian jazz",
+        "mpb",
+        "latin jazz"
+      ]
+    },
+    "1286398": {
+      "date": "2026-08-26",
+      "artist": "Jimmy Scott",
+      "title": "When Did You Leave Heaven?",
+      "source": "Tag~jazz ballad",
+      "genres": [
+        "vocal jazz"
+      ]
+    },
+    "121091859": {
+      "date": "2026-08-26",
+      "artist": "Stan Getz",
+      "title": "Só Danço Samba",
+      "source": "Tag~bossa nova",
+      "genres": [
+        "bossa nova",
+        "jazz",
+        "brazilian jazz",
+        "cool jazz"
+      ]
+    },
+    "5907349": {
+      "date": "2026-08-26",
+      "artist": "Helen Merrill",
+      "title": "Summertime",
+      "source": "LastFM~Blossom Dearie",
+      "genres": [
+        "vocal jazz",
+        "jazz ballads",
+        "jazz"
+      ]
+    },
+    "121091854": {
+      "date": "2026-08-26",
+      "artist": "Stan Getz",
+      "title": "The Girl From Ipanema",
+      "source": "Tag~bossa nova",
+      "genres": [
+        "bossa nova",
+        "jazz",
+        "brazilian jazz",
+        "cool jazz"
+      ]
+    },
+    "11959544": {
+      "date": "2026-08-26",
+      "artist": "Etta Jones",
+      "title": "Solitude",
+      "source": "LastFM~Blossom Dearie",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "2032836": {
+      "date": "2026-08-26",
+      "artist": "Sérgio Mendes & Brasil '66",
+      "title": "Mas que nada",
+      "source": "Tag~bossa nova",
+      "genres": [
+        "bossa nova",
+        "brazilian jazz",
+        "latin jazz"
+      ]
+    },
+    "92096920": {
+      "date": "2026-08-26",
+      "artist": "Etta Jones",
+      "title": "I Love Paris",
+      "source": "LastFM~Blossom Dearie",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "207326951": {
+      "date": "2026-08-26",
+      "artist": "Cécile McLorin Salvant",
+      "title": "Thunderclouds",
+      "source": "Seed~Cécile McLorin Salvant",
+      "genres": [
+        "vocal jazz",
+        "french jazz",
+        "jazz",
+        "jazz pop"
+      ]
+    },
+    "208378934": {
+      "date": "2026-08-26",
+      "artist": "Cécile McLorin Salvant",
+      "title": "Until",
+      "source": "Seed~Cécile McLorin Salvant",
+      "genres": [
+        "vocal jazz",
+        "french jazz",
+        "jazz",
+        "jazz pop"
+      ]
+    },
+    "117059389": {
+      "date": "2026-08-26",
+      "artist": "Chantal Chamberland",
+      "title": "Beautiful Life",
+      "source": "LastFM~Madeleine Peyroux",
+      "genres": [
+        "french jazz",
+        "vocal jazz"
+      ]
+    },
+    "93980224": {
+      "date": "2026-08-26",
+      "artist": "Jimmy Scott",
+      "title": "You Don't Know What Love Is",
+      "source": "Tag~jazz ballad",
+      "genres": [
+        "vocal jazz"
+      ]
+    },
+    "94380517": {
+      "date": "2026-08-26",
+      "artist": "Julian & Roman Wasserfuhr Quartet",
+      "title": "You Are A Friend Of Mine",
+      "source": "Tag~jazz ballad",
+      "genres": [
+        "jazz"
+      ]
+    },
+    "96341223": {
+      "date": "2026-08-26",
+      "artist": "Elis Regina",
+      "title": "Triste",
+      "source": "Tag~bossa nova",
+      "genres": [
+        "mpb",
+        "bossa nova",
+        "brazilian jazz"
+      ]
+    },
+    "352894763": {
+      "date": "2026-08-26",
+      "artist": "Patricia Barber",
+      "title": "She's a Lady",
+      "source": "LastFM~Madeleine Peyroux",
+      "genres": [
+        "vocal jazz",
+        "french jazz",
+        "jazz"
+      ]
+    },
+    "161829951": {
+      "date": "2026-08-26",
+      "artist": "Cassandra Jenkins",
+      "title": "Hard Drive",
+      "source": "Tag~chamber jazz",
+      "genres": []
+    },
+    "2522290": {
+      "date": "2026-08-26",
+      "artist": "Patricia Barber",
+      "title": "You're The Top",
+      "source": "LastFM~Madeleine Peyroux",
+      "genres": [
+        "vocal jazz",
+        "french jazz",
+        "jazz"
+      ]
+    },
+    "36134748": {
+      "date": "2026-08-26",
+      "artist": "Helen Merrill",
+      "title": "Anything Goes",
+      "source": "LastFM~Blossom Dearie",
+      "genres": [
+        "vocal jazz",
+        "jazz ballads",
+        "jazz"
+      ]
+    },
+    "92096919": {
+      "date": "2026-08-26",
+      "artist": "Etta Jones",
+      "title": "Don't Go to Strangers",
+      "source": "LastFM~Blossom Dearie",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "134186882": {
+      "date": "2026-08-26",
+      "artist": "Wolfgang Muthspiel",
+      "title": "ride",
+      "source": "LastFM~Bobo Stenson",
+      "genres": [
+        "jazz",
+        "ambient jazz"
+      ]
+    },
+    "77630465": {
+      "date": "2026-08-26",
+      "artist": "Cassandra Wilson",
+      "title": "Harvest Moon",
+      "source": "LastFM~Jimmy Scott",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "31237773": {
+      "date": "2026-08-26",
+      "artist": "Chico Buarque",
+      "title": "Essa Moça Tá Diferente",
+      "source": "Tag~bossa nova",
+      "genres": [
+        "mpb",
+        "bossa nova",
+        "samba"
+      ]
+    },
+    "10915565": {
+      "date": "2026-08-26",
+      "artist": "Joshua Redman",
+      "title": "Body & Soul",
+      "source": "Tag~jazz ballad",
+      "genres": [
+        "jazz",
+        "jazz ballads"
+      ]
+    },
+    "147111": {
+      "date": "2026-08-26",
+      "artist": "Nat King Cole",
+      "title": "Mona Lisa",
+      "source": "Seed~Nat King Cole",
+      "genres": [
+        "christmas",
+        "adult standards",
+        "vocal jazz"
+      ]
+    }
+  }
+}
