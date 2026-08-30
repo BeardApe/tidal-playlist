@@ -115,6 +115,130 @@
     "nat king cole|mona lisa": {
       "date": "2026-08-26",
       "source": "Seed~Nat King Cole"
+    },
+    "mathias eick|ravensburg": {
+      "date": "2026-08-30",
+      "source": "LastFM~Tord Gustavsen"
+    },
+    "cécile mclorin salvant|you're my thrill": {
+      "date": "2026-08-30",
+      "source": "Seed~Cécile McLorin Salvant"
+    },
+    "jakob bro|to stanko": {
+      "date": "2026-08-30",
+      "source": "LastFM~Tord Gustavsen"
+    },
+    "jeri southern|it's delovely": {
+      "date": "2026-08-30",
+      "source": "Seed~Jeri Southern"
+    },
+    "samara joy|the christmas song": {
+      "date": "2026-08-30",
+      "source": "LastFM~Cécile McLorin Salvant"
+    },
+    "astrud gilberto|o morro (não tem vez)": {
+      "date": "2026-08-30",
+      "source": "Seed~Astrud Gilberto"
+    },
+    "marcos valle|nova bossa nova": {
+      "date": "2026-08-30",
+      "source": "Tag~bossa nova"
+    },
+    "paul desmond|take ten": {
+      "date": "2026-08-30",
+      "source": "LastFM~Stan Getz"
+    },
+    "julie london|say it isn't so": {
+      "date": "2026-08-30",
+      "source": "Seed~Julie London"
+    },
+    "wendy & lisa|jonathan": {
+      "date": "2026-08-30",
+      "source": "Tag~torch song"
+    },
+    "madison beer|dangerous": {
+      "date": "2026-08-30",
+      "source": "Tag~traditional pop"
+    },
+    "julie london|warm december": {
+      "date": "2026-08-30",
+      "source": "Seed~Julie London"
+    },
+    "laufey|trouble": {
+      "date": "2026-08-30",
+      "source": "Tag~traditional pop"
+    },
+    "ute lemper|lili marlene": {
+      "date": "2026-08-30",
+      "source": "Tag~torch song"
+    },
+    "laufey|beautiful stranger": {
+      "date": "2026-08-30",
+      "source": "Tag~traditional pop"
+    },
+    "jeri southern|i thought of you last night": {
+      "date": "2026-08-30",
+      "source": "Seed~Jeri Southern"
+    },
+    "astrud gilberto|beach samba": {
+      "date": "2026-08-30",
+      "source": "Seed~Astrud Gilberto"
+    },
+    "astrud gilberto|summer samba (so nice)": {
+      "date": "2026-08-30",
+      "source": "Seed~Astrud Gilberto"
+    },
+    "julie london|the end of the world": {
+      "date": "2026-08-30",
+      "source": "Seed~Julie London"
+    },
+    "mathias eick|october": {
+      "date": "2026-08-30",
+      "source": "LastFM~Tord Gustavsen"
+    },
+    "chico buarque|valsinha": {
+      "date": "2026-08-30",
+      "source": "Tag~bossa nova"
+    },
+    "chet baker|let's get lost": {
+      "date": "2026-08-30",
+      "source": "Tag~cool jazz"
+    },
+    "chet baker|like someone in love": {
+      "date": "2026-08-30",
+      "source": "Tag~cool jazz"
+    },
+    "jakob bro|strands": {
+      "date": "2026-08-30",
+      "source": "LastFM~Tord Gustavsen"
+    },
+    "mitski|my love mine all mine": {
+      "date": "2026-08-30",
+      "source": "Tag~traditional pop"
+    },
+    "joão gilberto|chega de saudade": {
+      "date": "2026-08-30",
+      "source": "Tag~bossa nova"
+    },
+    "the dave brubeck quartet|kathy's waltz": {
+      "date": "2026-08-30",
+      "source": "Tag~cool jazz"
+    },
+    "samara joy|misty": {
+      "date": "2026-08-30",
+      "source": "LastFM~Cécile McLorin Salvant"
+    },
+    "mathias eick|children": {
+      "date": "2026-08-30",
+      "source": "LastFM~Tord Gustavsen"
+    },
+    "father john misty|summer’s gone": {
+      "date": "2026-08-30",
+      "source": "Tag~traditional pop"
+    },
+    "jo stafford & gordon macrae|my darling, my darling": {
+      "date": "2026-08-30",
+      "source": "Tag~torch song"
     }
   },
   "playlist_log": {
@@ -375,6 +499,252 @@
         "christmas",
         "adult standards",
         "vocal jazz"
+      ]
+    },
+    "85376066": {
+      "date": "2026-08-30",
+      "artist": "Mathias Eick",
+      "title": "Ravensburg",
+      "source": "LastFM~Tord Gustavsen",
+      "genres": [
+        "ambient jazz",
+        "jazz"
+      ]
+    },
+    "470851516": {
+      "date": "2026-08-30",
+      "artist": "Cécile McLorin Salvant",
+      "title": "You're My Thrill",
+      "source": "Seed~Cécile McLorin Salvant",
+      "genres": [
+        "vocal jazz",
+        "french jazz",
+        "jazz",
+        "jazz pop"
+      ]
+    },
+    "172588739": {
+      "date": "2026-08-30",
+      "artist": "Jakob Bro",
+      "title": "To Stanko",
+      "source": "LastFM~Tord Gustavsen",
+      "genres": [
+        "ambient jazz",
+        "jazz"
+      ]
+    },
+    "322915159": {
+      "date": "2026-08-30",
+      "artist": "Samara Joy",
+      "title": "The Christmas Song",
+      "source": "LastFM~Cécile McLorin Salvant",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "119987673": {
+      "date": "2026-08-30",
+      "artist": "Astrud Gilberto",
+      "title": "O Morro (Não Tem Vez)",
+      "source": "Seed~Astrud Gilberto",
+      "genres": [
+        "bossa nova",
+        "brazilian jazz",
+        "latin jazz",
+        "vocal jazz"
+      ]
+    },
+    "51872171": {
+      "date": "2026-08-30",
+      "artist": "Marcos Valle",
+      "title": "Nova Bossa Nova",
+      "source": "Tag~bossa nova",
+      "genres": [
+        "bossa nova",
+        "brazilian jazz"
+      ]
+    },
+    "2993268": {
+      "date": "2026-08-30",
+      "artist": "Paul Desmond",
+      "title": "Take Ten",
+      "source": "LastFM~Stan Getz",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "bossa nova",
+        "jazz ballads"
+      ]
+    },
+    "52218024": {
+      "date": "2026-08-30",
+      "artist": "Wendy & Lisa",
+      "title": "Jonathan",
+      "source": "Tag~torch song",
+      "genres": []
+    },
+    "244404282": {
+      "date": "2026-08-30",
+      "artist": "Madison Beer",
+      "title": "Dangerous",
+      "source": "Tag~traditional pop",
+      "genres": []
+    },
+    "341442084": {
+      "date": "2026-08-30",
+      "artist": "Laufey",
+      "title": "Trouble",
+      "source": "Tag~traditional pop",
+      "genres": []
+    },
+    "332662298": {
+      "date": "2026-08-30",
+      "artist": "Ute Lemper",
+      "title": "Lili Marlene",
+      "source": "Tag~torch song",
+      "genres": []
+    },
+    "246439319": {
+      "date": "2026-08-30",
+      "artist": "Laufey",
+      "title": "Beautiful Stranger",
+      "source": "Tag~traditional pop",
+      "genres": []
+    },
+    "96199675": {
+      "date": "2026-08-30",
+      "artist": "Jeri Southern",
+      "title": "I Thought of You Last Night",
+      "source": "Seed~Jeri Southern",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "77660787": {
+      "date": "2026-08-30",
+      "artist": "Astrud Gilberto",
+      "title": "Beach Samba",
+      "source": "Seed~Astrud Gilberto",
+      "genres": [
+        "bossa nova",
+        "brazilian jazz",
+        "latin jazz",
+        "vocal jazz"
+      ]
+    },
+    "93429370": {
+      "date": "2026-08-30",
+      "artist": "Astrud Gilberto",
+      "title": "Summer Samba (So Nice)",
+      "source": "Seed~Astrud Gilberto",
+      "genres": [
+        "bossa nova",
+        "brazilian jazz",
+        "latin jazz",
+        "vocal jazz"
+      ]
+    },
+    "11654494": {
+      "date": "2026-08-30",
+      "artist": "Julie London",
+      "title": "The End of the World",
+      "source": "Seed~Julie London",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "adult standards"
+      ]
+    },
+    "77623038": {
+      "date": "2026-08-30",
+      "artist": "Mathias Eick",
+      "title": "October",
+      "source": "LastFM~Tord Gustavsen",
+      "genres": [
+        "ambient jazz",
+        "jazz"
+      ]
+    },
+    "158155": {
+      "date": "2026-08-30",
+      "artist": "Chet Baker",
+      "title": "Like Someone in Love",
+      "source": "Tag~cool jazz",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "vocal jazz",
+        "jazz ballads"
+      ]
+    },
+    "86316447": {
+      "date": "2026-08-30",
+      "artist": "Jakob Bro",
+      "title": "Strands",
+      "source": "LastFM~Tord Gustavsen",
+      "genres": [
+        "ambient jazz",
+        "jazz"
+      ]
+    },
+    "113627710": {
+      "date": "2026-08-30",
+      "artist": "João Gilberto",
+      "title": "Chega de Saudade",
+      "source": "Tag~bossa nova",
+      "genres": [
+        "bossa nova",
+        "brazilian jazz",
+        "samba",
+        "latin jazz"
+      ]
+    },
+    "2809490": {
+      "date": "2026-08-30",
+      "artist": "The Dave Brubeck Quartet",
+      "title": "Kathy's Waltz",
+      "source": "Tag~cool jazz",
+      "genres": [
+        "jazz",
+        "cool jazz"
+      ]
+    },
+    "247470698": {
+      "date": "2026-08-30",
+      "artist": "Samara Joy",
+      "title": "Misty",
+      "source": "LastFM~Cécile McLorin Salvant",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "85376061": {
+      "date": "2026-08-30",
+      "artist": "Mathias Eick",
+      "title": "Children",
+      "source": "LastFM~Tord Gustavsen",
+      "genres": [
+        "ambient jazz",
+        "jazz"
+      ]
+    },
+    "381007669": {
+      "date": "2026-08-30",
+      "artist": "Father John Misty",
+      "title": "Summer’s Gone",
+      "source": "Tag~traditional pop",
+      "genres": []
+    },
+    "23175151": {
+      "date": "2026-08-30",
+      "artist": "Jo Stafford & Gordon Macrae",
+      "title": "My Darling, My Darling",
+      "source": "Tag~torch song",
+      "genres": [
+        "adult standards"
       ]
     }
   }
