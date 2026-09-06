@@ -239,6 +239,122 @@
     "jo stafford & gordon macrae|my darling, my darling": {
       "date": "2026-08-30",
       "source": "Tag~torch song"
+    },
+    "nat king cole|nature boy": {
+      "date": "2026-09-06",
+      "source": "Tag~vocal jazz"
+    },
+    "dave brubeck|there'll be some changes made": {
+      "date": "2026-09-06",
+      "source": "Tag~west coast jazz"
+    },
+    "etta jones|what ev'ry woman knows": {
+      "date": "2026-09-06",
+      "source": "Seed~Etta Jones"
+    },
+    "astrud gilberto|dindi": {
+      "date": "2026-09-06",
+      "source": "LastFM~Stan Getz"
+    },
+    "tord gustavsen|being there": {
+      "date": "2026-09-06",
+      "source": "Seed~Tord Gustavsen"
+    },
+    "etta jones|till there was you": {
+      "date": "2026-09-06",
+      "source": "Seed~Etta Jones"
+    },
+    "astrud gilberto|photograph": {
+      "date": "2026-09-06",
+      "source": "Tag~bossa nova"
+    },
+    "chet baker|my funny valentine": {
+      "date": "2026-09-06",
+      "source": "Tag~cool jazz"
+    },
+    "joão gilberto|tin tin por tin tin": {
+      "date": "2026-09-06",
+      "source": "Seed~João Gilberto"
+    },
+    "abbey lincoln|straight ahead": {
+      "date": "2026-09-06",
+      "source": "LastFM~Carmen McRae"
+    },
+    "the dave brubeck quartet|blue rondo a la turk": {
+      "date": "2026-09-06",
+      "source": "Tag~cool jazz"
+    },
+    "betty carter|this is always": {
+      "date": "2026-09-06",
+      "source": "LastFM~Abbey Lincoln"
+    },
+    "jacky terrasson|la part des anges": {
+      "date": "2026-09-06",
+      "source": "LastFM~Bill Charlap"
+    },
+    "tord gustavsen|one day": {
+      "date": "2026-09-06",
+      "source": "Seed~Tord Gustavsen"
+    },
+    "astrud gilberto|my foolish heart": {
+      "date": "2026-09-06",
+      "source": "Seed~Astrud Gilberto"
+    },
+    "sarah vaughan|broken hearted melody": {
+      "date": "2026-09-06",
+      "source": "LastFM~Billie Holiday"
+    },
+    "billie eilish|billie bossa nova": {
+      "date": "2026-09-06",
+      "source": "Tag~bossa nova"
+    },
+    "chico buarque|construção": {
+      "date": "2026-09-06",
+      "source": "Tag~bossa nova"
+    },
+    "tord gustavsen|better so": {
+      "date": "2026-09-06",
+      "source": "Seed~Tord Gustavsen"
+    },
+    "melody gardot|baby i'm a fool": {
+      "date": "2026-09-06",
+      "source": "Tag~vocal jazz"
+    },
+    "astrud gilberto|maria quiet": {
+      "date": "2026-09-06",
+      "source": "Seed~Astrud Gilberto"
+    },
+    "astrud gilberto|the girl from ipanema": {
+      "date": "2026-09-06",
+      "source": "LastFM~Stan Getz"
+    },
+    "etta james|i'd rather go blind": {
+      "date": "2026-09-06",
+      "source": "LastFM~Billie Holiday"
+    },
+    "tord gustavsen|rull": {
+      "date": "2026-09-06",
+      "source": "Seed~Tord Gustavsen"
+    },
+    "marcos valle|so nice (summer samba)": {
+      "date": "2026-09-06",
+      "source": "Tag~bossa nova"
+    },
+    "the dave brubeck quartet|pick up sticks": {
+      "date": "2026-09-06",
+      "source": "Tag~west coast jazz"
+    },
+    "joão gilberto|desafinado": {
+      "date": "2026-09-06",
+      "source": "Seed~João Gilberto"
+    },
+    "laufey|lover girl": {
+      "date": "2026-09-06",
+      "source": "Tag~bossa nova"
+    },
+    "abbey lincoln|when malindy sings": {
+      "date": "2026-09-06",
+      "source": "LastFM~Carmen McRae"
     }
   },
   "playlist_log": {
@@ -745,6 +861,257 @@
       "source": "Tag~torch song",
       "genres": [
         "adult standards"
+      ]
+    },
+    "147105": {
+      "date": "2026-09-06",
+      "artist": "Nat King Cole",
+      "title": "Nature Boy",
+      "source": "Tag~vocal jazz",
+      "genres": [
+        "christmas",
+        "adult standards",
+        "vocal jazz"
+      ]
+    },
+    "15609506": {
+      "date": "2026-09-06",
+      "artist": "Etta Jones",
+      "title": "What Ev'ry Woman Knows",
+      "source": "Seed~Etta Jones",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "119987715": {
+      "date": "2026-09-06",
+      "artist": "Astrud Gilberto",
+      "title": "Dindi",
+      "source": "LastFM~Stan Getz",
+      "genres": [
+        "bossa nova",
+        "brazilian jazz",
+        "latin jazz",
+        "vocal jazz"
+      ]
+    },
+    "77622761": {
+      "date": "2026-09-06",
+      "artist": "Tord Gustavsen",
+      "title": "Being There",
+      "source": "Seed~Tord Gustavsen",
+      "genres": []
+    },
+    "158162": {
+      "date": "2026-09-06",
+      "artist": "Chet Baker",
+      "title": "My Funny Valentine",
+      "source": "Tag~cool jazz",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "vocal jazz",
+        "jazz ballads"
+      ]
+    },
+    "4977306": {
+      "date": "2026-09-06",
+      "artist": "João Gilberto",
+      "title": "Tin Tin Por Tin Tin",
+      "source": "Seed~João Gilberto",
+      "genres": [
+        "bossa nova",
+        "brazilian jazz",
+        "samba",
+        "latin jazz"
+      ]
+    },
+    "117795187": {
+      "date": "2026-09-06",
+      "artist": "Abbey Lincoln",
+      "title": "Straight Ahead",
+      "source": "LastFM~Carmen McRae",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "2809486": {
+      "date": "2026-09-06",
+      "artist": "The Dave Brubeck Quartet",
+      "title": "Blue Rondo a La Turk",
+      "source": "Tag~cool jazz",
+      "genres": [
+        "jazz",
+        "cool jazz"
+      ]
+    },
+    "238526414": {
+      "date": "2026-09-06",
+      "artist": "Betty Carter",
+      "title": "This Is Always",
+      "source": "LastFM~Abbey Lincoln",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "jazz ballads"
+      ]
+    },
+    "118420417": {
+      "date": "2026-09-06",
+      "artist": "Jacky Terrasson",
+      "title": "La Part des Anges",
+      "source": "LastFM~Bill Charlap",
+      "genres": [
+        "jazz",
+        "french jazz",
+        "jazz ballads"
+      ]
+    },
+    "423938": {
+      "date": "2026-09-06",
+      "artist": "Tord Gustavsen",
+      "title": "One Day",
+      "source": "Seed~Tord Gustavsen",
+      "genres": []
+    },
+    "77660788": {
+      "date": "2026-09-06",
+      "artist": "Astrud Gilberto",
+      "title": "My Foolish Heart",
+      "source": "Seed~Astrud Gilberto",
+      "genres": [
+        "bossa nova",
+        "brazilian jazz",
+        "latin jazz",
+        "vocal jazz"
+      ]
+    },
+    "94367667": {
+      "date": "2026-09-06",
+      "artist": "Sarah Vaughan",
+      "title": "Broken Hearted Melody",
+      "source": "LastFM~Billie Holiday",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "jazz ballads"
+      ]
+    },
+    "192576408": {
+      "date": "2026-09-06",
+      "artist": "Billie Eilish",
+      "title": "Billie Bossa Nova",
+      "source": "Tag~bossa nova",
+      "genres": []
+    },
+    "3765068": {
+      "date": "2026-09-06",
+      "artist": "Chico Buarque",
+      "title": "Construção",
+      "source": "Tag~bossa nova",
+      "genres": [
+        "mpb",
+        "bossa nova",
+        "samba"
+      ]
+    },
+    "13369584": {
+      "date": "2026-09-06",
+      "artist": "Tord Gustavsen",
+      "title": "Better So",
+      "source": "Seed~Tord Gustavsen",
+      "genres": []
+    },
+    "3164751": {
+      "date": "2026-09-06",
+      "artist": "Melody Gardot",
+      "title": "Baby I'm A Fool",
+      "source": "Tag~vocal jazz",
+      "genres": [
+        "vocal jazz",
+        "french jazz",
+        "jazz"
+      ]
+    },
+    "63831523": {
+      "date": "2026-09-06",
+      "artist": "Astrud Gilberto",
+      "title": "The Girl From Ipanema",
+      "source": "LastFM~Stan Getz",
+      "genres": [
+        "bossa nova",
+        "brazilian jazz",
+        "latin jazz",
+        "vocal jazz"
+      ]
+    },
+    "94437281": {
+      "date": "2026-09-06",
+      "artist": "Etta James",
+      "title": "I'd Rather Go Blind",
+      "source": "LastFM~Billie Holiday",
+      "genres": [
+        "soul",
+        "soul blues",
+        "vocal jazz"
+      ]
+    },
+    "77637276": {
+      "date": "2026-09-06",
+      "artist": "Tord Gustavsen",
+      "title": "Rull",
+      "source": "Seed~Tord Gustavsen",
+      "genres": []
+    },
+    "94441985": {
+      "date": "2026-09-06",
+      "artist": "Marcos Valle",
+      "title": "So Nice (Summer Samba)",
+      "source": "Tag~bossa nova",
+      "genres": [
+        "bossa nova",
+        "brazilian jazz"
+      ]
+    },
+    "2809492": {
+      "date": "2026-09-06",
+      "artist": "The Dave Brubeck Quartet",
+      "title": "Pick Up Sticks",
+      "source": "Tag~west coast jazz",
+      "genres": [
+        "jazz",
+        "cool jazz"
+      ]
+    },
+    "121091857": {
+      "date": "2026-09-06",
+      "artist": "João Gilberto",
+      "title": "Desafinado",
+      "source": "Seed~João Gilberto",
+      "genres": [
+        "bossa nova",
+        "brazilian jazz",
+        "samba",
+        "latin jazz"
+      ]
+    },
+    "440393159": {
+      "date": "2026-09-06",
+      "artist": "Laufey",
+      "title": "Lover Girl",
+      "source": "Tag~bossa nova",
+      "genres": []
+    },
+    "96262780": {
+      "date": "2026-09-06",
+      "artist": "Abbey Lincoln",
+      "title": "When Malindy Sings",
+      "source": "LastFM~Carmen McRae",
+      "genres": [
+        "vocal jazz",
+        "jazz"
       ]
     }
   }
