@@ -358,7 +358,10 @@
       "date": "2026-03-12",
       "source": "LastFM~Air"
     },
-    "thin lear|silver bridge": "2026-03-12",
+    "thin lear|silver bridge": {
+      "date": "2026-03-12",
+      "source": "WFUV-NYSlice2026"
+    },
     "the heaven|sight of you": {
       "date": "2026-03-12",
       "source": "WFUV-NYSlice2026"
@@ -737,7 +740,10 @@
       "source": "GuyGarvey-FinestHour"
     },
     "tomora|somewhere else": "2026-03-16",
-    "hird|fading blues": "2026-03-16",
+    "hird|fading blues": {
+      "date": "2026-03-16",
+      "source": "LastFM~Bonobo"
+    },
     "telenova|in the name of your love": "2026-03-16",
     "carrie zazz band|ghost in my bed": {
       "date": "2026-03-16",
@@ -1031,7 +1037,10 @@
     "olive jones|end of time": "2026-03-23",
     "melodi ghazal|in my room": "2026-03-23",
     "this is the kit|careful of your keepers": "2026-03-23",
-    "ben howard|promise": "2026-03-23",
+    "ben howard|promise": {
+      "date": "2026-03-23",
+      "source": "LastFM~Jose Gonzalez"
+    },
     "kisses|candy flip": "2026-03-23",
     "a winged victory for the sullen|the haunted victorian pencil": "2026-03-23",
     "nouvelle vague|all my colours": {
@@ -1161,7 +1170,10 @@
     "boozoo bajou|divers": "2026-03-30",
     "ages and ages|feel amazing": "2026-03-30",
     "the lemon twigs|i just can't get over losing you": "2026-03-30",
-    "hird|moving on": "2026-03-30",
+    "hird|moving on": {
+      "date": "2026-03-30",
+      "source": "LastFM~Bonobo"
+    },
     "tess parks|grunewald": {
       "date": "2026-03-30",
       "source": "LaurenLaverne-JustAdded"
@@ -1398,7 +1410,10 @@
     "fatoumata diawara|djanne": "2026-04-06",
     "indigo de souza|come to god": "2026-04-06",
     "vashti bunyan|swallow song": "2026-04-06",
-    "bat for lashes|laura": "2026-04-06",
+    "bat for lashes|laura": {
+      "date": "2026-04-06",
+      "source": "LastFM~Feist"
+    },
     "other lives|tamer animals": "2026-04-06",
     "jens lekman|the cold swedish winter": "2026-04-06",
     "charlotte cornfield|number": "2026-04-06",
@@ -1925,7 +1940,10 @@
       "date": "2026-05-18",
       "source": "NPR-AllSongsConsidered"
     },
-    "black swan network|the shell": "2026-05-18",
+    "black swan network|the shell": {
+      "date": "2026-05-18",
+      "source": "NPR-AllSongsConsidered"
+    },
     "ok cowgirl|prepared to lose": "2026-05-25",
     "hird|keep you kimi": "2026-05-25",
     "dominic fike|misses": "2026-05-25",
@@ -2525,7 +2543,10 @@
       "source": "Nummers-2026"
     },
     "shannon lay|horizons": "2026-07-06",
-    "bat for lashes|pearl's dream": "2026-07-06",
+    "bat for lashes|pearl's dream": {
+      "date": "2026-07-06",
+      "source": "LastFM~Feist"
+    },
     "grace cummings|i'm not crazy": "2026-07-06",
     "monsune|cloud [explicit]": "2026-07-06",
     "grace robinson|harder than you think": "2026-07-06",
@@ -4274,6 +4295,166 @@
     "moses sumney|cut me": {
       "date": "2026-08-31",
       "source": "LastFM~Lianne La Havas"
+    },
+    "gregory alan isakov|that moon song": {
+      "date": "2026-09-07",
+      "source": "LastFM~Novo Amor"
+    },
+    "kate neckel|wait": {
+      "date": "2026-09-07",
+      "source": "WFUV-NYSlice2026"
+    },
+    "hazlett|queen of the season": {
+      "date": "2026-09-07",
+      "source": "LastFM~Novo Amor"
+    },
+    "surprise chef|leg day": {
+      "date": "2026-09-07",
+      "source": "KEXP-NewThisWeek"
+    },
+    "alabama shakes|i feel hope coming": {
+      "date": "2026-09-07",
+      "source": "KEXP-NewThisWeek"
+    },
+    "jim wolf|end of our rope": {
+      "date": "2026-09-07",
+      "source": "WFUV-NYSlice2026"
+    },
+    "ben howard|keep your head up": {
+      "date": "2026-09-07",
+      "source": "LastFM~Jose Gonzalez"
+    },
+    "soma sonic|the well (original)": {
+      "date": "2026-09-07",
+      "source": "LastFM~Bonobo"
+    },
+    "adelide|upstream": {
+      "date": "2026-09-07",
+      "source": "WFUV-NYSlice2026"
+    },
+    "dammy|plane": {
+      "date": "2026-09-07",
+      "source": "WFUV-NYSlice2026"
+    },
+    "iron & wine|boy with a coin": {
+      "date": "2026-09-07",
+      "source": "LastFM~Jose Gonzalez"
+    },
+    "moonvine|catch me if you can": {
+      "date": "2026-09-07",
+      "source": "KEXP-NewThisWeek"
+    },
+    "outer shapes|aftermath": {
+      "date": "2026-09-07",
+      "source": "WFUV-NYSlice2026"
+    },
+    "hazlett|doing my best": {
+      "date": "2026-09-07",
+      "source": "LastFM~Novo Amor"
+    },
+    "iron & wine|california sober": {
+      "date": "2026-09-07",
+      "source": "KEXP-NewThisWeek"
+    },
+    "bat for lashes|prescilla": {
+      "date": "2026-09-07",
+      "source": "LastFM~Feist"
+    },
+    "mike d|back to start": {
+      "date": "2026-09-07",
+      "source": "KEXP-NewThisWeek"
+    },
+    "gregory alan isakov|dandelion wine": {
+      "date": "2026-09-07",
+      "source": "LastFM~Novo Amor"
+    },
+    "emily a. sprague|noon liquid ore": {
+      "date": "2026-09-07",
+      "source": "NPR-AllSongsConsidered"
+    },
+    "mass of the fermenting dregs|let it go": {
+      "date": "2026-09-07",
+      "source": "KEXP-NewThisWeek"
+    },
+    "thavoron|blurry tattoos": {
+      "date": "2026-09-07",
+      "source": "KEXP-NewThisWeek"
+    },
+    "soma sonic|blueskies": {
+      "date": "2026-09-07",
+      "source": "LastFM~Bonobo"
+    },
+    "ty segall|chrome": {
+      "date": "2026-09-07",
+      "source": "KEXP-NewThisWeek"
+    },
+    "brittany davis|behind the door - single edit": {
+      "date": "2026-09-07",
+      "source": "KEXP-NewThisWeek"
+    },
+    "ben howard|i forget where we were": {
+      "date": "2026-09-07",
+      "source": "LastFM~Jose Gonzalez"
+    },
+    "dead gowns|vegas dream": {
+      "date": "2026-09-07",
+      "source": "KEXP-NewThisWeek"
+    },
+    "cat power|lived in bars": {
+      "date": "2026-09-07",
+      "source": "LastFM~Feist"
+    },
+    "ista|megawatt": {
+      "date": "2026-09-07",
+      "source": "WFUV-NYSlice2026"
+    },
+    "iron & wine|flightless bird, american mouth": {
+      "date": "2026-09-07",
+      "source": "LastFM~Jose Gonzalez"
+    },
+    "john vanderslice|from the life of the marionettes": {
+      "date": "2026-09-07",
+      "source": "KEXP-NewThisWeek"
+    },
+    "jordan rakei|promise": {
+      "date": "2026-09-07",
+      "source": "KEXP-NewThisWeek"
+    },
+    "rodrigo y gabriela|akatsuki": {
+      "date": "2026-09-07",
+      "source": "KEXP-NewThisWeek"
+    },
+    "stephanie babirak|lakeside": {
+      "date": "2026-09-07",
+      "source": "WFUV-NYSlice2026"
+    },
+    "tiana major9|more": {
+      "date": "2026-09-07",
+      "source": "KEXP-NewThisWeek"
+    },
+    "dominic fike|wallflower": {
+      "date": "2026-09-07",
+      "source": "NPR-AllSongsConsidered"
+    },
+    "hazlett|my skin": {
+      "date": "2026-09-07",
+      "source": "LastFM~Novo Amor"
+    },
+    "uche yara|diva club": {
+      "date": "2026-09-07",
+      "source": "KEXP-NewThisWeek"
+    },
+    "cat power|he war": {
+      "date": "2026-09-07",
+      "source": "LastFM~Feist"
+    },
+    "iron & wine|such great heights": {
+      "date": "2026-09-07",
+      "source": "LastFM~Jose Gonzalez"
+    },
+    "ohma|ever expanding": {
+      "date": "2026-09-07",
+      "source": "NPR-AllSongsConsidered"
     }
   },
   "playlist_log": {
@@ -4361,328 +4542,6 @@
       "artist": "DIIV",
       "title": "Air Conditioning",
       "source": "LastFM~Warpaint",
-      "genres": []
-    },
-    "539173345": {
-      "date": "2026-08-03",
-      "artist": "The Olivia Tremor Control",
-      "title": "Garden of Light",
-      "source": "NPR-AllSongsConsidered",
-      "genres": [
-        "neo-psychedelic",
-        "psychedelic rock"
-      ]
-    },
-    "65749634": {
-      "date": "2026-08-03",
-      "artist": "Trentemøller",
-      "title": "While The Cold Winter Waiting",
-      "source": "LastFM~Röyksopp",
-      "genres": []
-    },
-    "402947136": {
-      "date": "2026-08-03",
-      "artist": "Cameron Winter",
-      "title": "Nina + Field of Cops",
-      "source": "LastFM~Nick Drake",
-      "genres": []
-    },
-    "541782573": {
-      "date": "2026-08-03",
-      "artist": "Nouvelle Vague",
-      "title": "Never Let Me Down Again",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "lounge"
-      ]
-    },
-    "376643076": {
-      "date": "2026-08-03",
-      "artist": "Zola Blood",
-      "title": "Infinite Games",
-      "source": "LastFM~SOHN",
-      "genres": []
-    },
-    "2891142": {
-      "date": "2026-08-03",
-      "artist": "Bert Jansch",
-      "title": "Needle of Death",
-      "source": "LastFM~Nick Drake",
-      "genres": []
-    },
-    "524739741": {
-      "date": "2026-08-03",
-      "artist": "Mitski",
-      "title": "Fireproof",
-      "source": "NPR-AllSongsConsidered",
-      "genres": []
-    },
-    "6043233": {
-      "date": "2026-08-03",
-      "artist": "Jamie Woon",
-      "title": "Street",
-      "source": "LastFM~SOHN",
-      "genres": []
-    },
-    "560440": {
-      "date": "2026-08-03",
-      "artist": "Faithless",
-      "title": "Tarantula",
-      "source": "LastFM~Röyksopp",
-      "genres": []
-    },
-    "518489060": {
-      "date": "2026-08-03",
-      "artist": "Golden Alphabet",
-      "title": "BOY UP",
-      "source": "WFUV-NYSlice2026",
-      "genres": []
-    },
-    "536095523": {
-      "date": "2026-08-03",
-      "artist": "Sailor Honeymoon",
-      "title": "I Wanna Leave You",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "k-rock"
-      ]
-    },
-    "487949447": {
-      "date": "2026-08-03",
-      "artist": "Bert Jansch",
-      "title": "Courting Blues",
-      "source": "LastFM~Nick Drake",
-      "genres": []
-    },
-    "536253211": {
-      "date": "2026-08-03",
-      "artist": "Stef Chura",
-      "title": "Danny",
-      "source": "KEXP-NewThisWeek",
-      "genres": []
-    },
-    "402947137": {
-      "date": "2026-08-03",
-      "artist": "Cameron Winter",
-      "title": "$0",
-      "source": "LastFM~Nick Drake",
-      "genres": []
-    },
-    "532538121": {
-      "date": "2026-08-03",
-      "artist": "Odette",
-      "title": "AAAH!",
-      "source": "KEXP-NewThisWeek",
-      "genres": []
-    },
-    "522564319": {
-      "date": "2026-08-03",
-      "artist": "Jazmin Bean",
-      "title": "Darling",
-      "source": "NPR-AllSongsConsidered",
-      "genres": []
-    },
-    "402947138": {
-      "date": "2026-08-03",
-      "artist": "Cameron Winter",
-      "title": "Can't Keep Anything",
-      "source": "LastFM~Nick Drake",
-      "genres": []
-    },
-    "524034721": {
-      "date": "2026-08-03",
-      "artist": "L'Rain",
-      "title": "borderline",
-      "source": "NPR-AllSongsConsidered",
-      "genres": [
-        "neo-psychedelic"
-      ]
-    },
-    "49157180": {
-      "date": "2026-08-03",
-      "artist": "Faithless",
-      "title": "Insomnia - Radio edit",
-      "source": "LastFM~Röyksopp",
-      "genres": []
-    },
-    "544696245": {
-      "date": "2026-08-03",
-      "artist": "Darlynn",
-      "title": "Make Yr Move",
-      "source": "KEXP-NewThisWeek",
-      "genres": []
-    },
-    "539366563": {
-      "date": "2026-08-03",
-      "artist": "beabadoobee",
-      "title": "Switchblade",
-      "source": "NPR-AllSongsConsidered",
-      "genres": [
-        "bedroom pop"
-      ]
-    },
-    "509530741": {
-      "date": "2026-08-03",
-      "artist": "Frankie Sunswept",
-      "title": "Windswept",
-      "source": "WFUV-NYSlice2026",
-      "genres": [
-        "anti-folk",
-        "psychedelic rock",
-        "neo-psychedelic"
-      ]
-    },
-    "532497480": {
-      "date": "2026-08-03",
-      "artist": "anaiis",
-      "title": "Sunshine",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "alternative r&b",
-        "uk r&b"
-      ]
-    },
-    "542878839": {
-      "date": "2026-08-03",
-      "artist": "Suki Waterhouse",
-      "title": "Back in Love",
-      "source": "KEXP-NewThisWeek",
-      "genres": []
-    },
-    "459601952": {
-      "date": "2026-08-03",
-      "artist": "Tess Elena",
-      "title": "Little did I know I",
-      "source": "WFUV-NYSlice2026",
-      "genres": [
-        "blues",
-        "vocal jazz"
-      ]
-    },
-    "6043236": {
-      "date": "2026-08-03",
-      "artist": "Jamie Woon",
-      "title": "Middle",
-      "source": "LastFM~SOHN",
-      "genres": []
-    },
-    "545405289": {
-      "date": "2026-08-03",
-      "artist": "The Avalanches",
-      "title": "Blue Shadows (feat. Karen O)",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "plunderphonics"
-      ]
-    },
-    "516165383": {
-      "date": "2026-08-03",
-      "artist": "kelz",
-      "title": "Falling Behind",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "indie electronic"
-      ]
-    },
-    "534229508": {
-      "date": "2026-08-03",
-      "artist": "Jesse Carrey",
-      "title": "Saddle Up",
-      "source": "WFUV-NYSlice2026",
-      "genres": []
-    },
-    "65749632": {
-      "date": "2026-08-03",
-      "artist": "Trentemøller",
-      "title": "Evil Dub",
-      "source": "LastFM~Röyksopp",
-      "genres": []
-    },
-    "524048343": {
-      "date": "2026-08-03",
-      "artist": "Edgar",
-      "title": "La Tez",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "ebm"
-      ]
-    },
-    "515723006": {
-      "date": "2026-08-03",
-      "artist": "Bad Humors",
-      "title": "Rats In A Pit",
-      "source": "WFUV-NYSlice2026",
-      "genres": []
-    },
-    "534942367": {
-      "date": "2026-08-03",
-      "artist": "Cassius",
-      "title": "Feeling For You - Fcukers & Junior Sanchez Remix",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "french house"
-      ]
-    },
-    "543215808": {
-      "date": "2026-08-03",
-      "artist": "Militarie Gun",
-      "title": "World's Always Burning [Feat. Mannequin Pussy]",
-      "source": "KEXP-NewThisWeek",
-      "genres": []
-    },
-    "534857187": {
-      "date": "2026-08-03",
-      "artist": "Poolside",
-      "title": "Bedroom Eyes",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "nu disco"
-      ]
-    },
-    "512641011": {
-      "date": "2026-08-03",
-      "artist": "Aria Mai",
-      "title": "All We Never Wanted",
-      "source": "KEXP-NewThisWeek",
-      "genres": []
-    },
-    "487949446": {
-      "date": "2026-08-03",
-      "artist": "Bert Jansch",
-      "title": "Running from Home - 2015 Remaster",
-      "source": "LastFM~Nick Drake",
-      "genres": []
-    },
-    "513919645": {
-      "date": "2026-08-03",
-      "artist": "Son Rompe Pera",
-      "title": "Reptilio",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "electrocumbia",
-        "cumbia",
-        "cumbia sonidera"
-      ]
-    },
-    "509540676": {
-      "date": "2026-08-03",
-      "artist": "IAN SWEET",
-      "title": "Criminal Kissing",
-      "source": "KEXP-NewThisWeek",
-      "genres": []
-    },
-    "544806054": {
-      "date": "2026-08-03",
-      "artist": "Love Spells",
-      "title": "Don't Touch",
-      "source": "KEXP-NewThisWeek",
-      "genres": []
-    },
-    "6043239": {
-      "date": "2026-08-03",
-      "artist": "Jamie Woon",
-      "title": "Spiral",
-      "source": "LastFM~SOHN",
       "genres": []
     },
     "541111641": {
@@ -6442,7 +6301,10 @@
     "552248379": {
       "genres": [
         "midwest emo"
-      ]
+      ],
+      "artist": "hey, nothing",
+      "title": "Black Bear",
+      "source": "onbekend"
     },
     "77731669": {
       "date": "2026-08-31",
@@ -6747,6 +6609,358 @@
       "genres": [
         "art pop",
         "indie soul"
+      ]
+    },
+    "60081795": {
+      "date": "2026-09-07",
+      "artist": "Gregory Alan Isakov",
+      "title": "That Moon Song",
+      "source": "LastFM~Novo Amor",
+      "genres": [
+        "indie folk",
+        "folk",
+        "folk pop"
+      ]
+    },
+    "537722847": {
+      "date": "2026-09-07",
+      "artist": "Kate Neckel",
+      "title": "Wait",
+      "source": "WFUV-NYSlice2026",
+      "genres": []
+    },
+    "433645362": {
+      "date": "2026-09-07",
+      "artist": "Hazlett",
+      "title": "queen of the season",
+      "source": "LastFM~Novo Amor",
+      "genres": [
+        "indie folk"
+      ]
+    },
+    "552261868": {
+      "date": "2026-09-07",
+      "artist": "Surprise Chef",
+      "title": "Leg Day",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "indie jazz",
+        "jazz funk",
+        "jazz house"
+      ]
+    },
+    "554261111": {
+      "date": "2026-09-07",
+      "artist": "Alabama Shakes",
+      "title": "I Feel Hope Coming",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "537194260": {
+      "date": "2026-09-07",
+      "artist": "Jim Wolf",
+      "title": "End of Our Rope",
+      "source": "WFUV-NYSlice2026",
+      "genres": []
+    },
+    "18720963": {
+      "date": "2026-09-07",
+      "artist": "Ben Howard",
+      "title": "Keep Your Head Up",
+      "source": "LastFM~Jose Gonzalez",
+      "genres": [
+        "indie folk",
+        "folk pop"
+      ]
+    },
+    "32964624": {
+      "date": "2026-09-07",
+      "artist": "Soma Sonic",
+      "title": "The Well (Original)",
+      "source": "LastFM~Bonobo",
+      "genres": [
+        "trip hop",
+        "downtempo"
+      ]
+    },
+    "532107909": {
+      "date": "2026-09-07",
+      "artist": "Adelide",
+      "title": "Upstream",
+      "source": "WFUV-NYSlice2026",
+      "genres": []
+    },
+    "548708461": {
+      "date": "2026-09-07",
+      "artist": "dammy",
+      "title": "Plane",
+      "source": "WFUV-NYSlice2026",
+      "genres": []
+    },
+    "1131619": {
+      "date": "2026-09-07",
+      "artist": "Iron & Wine",
+      "title": "Boy With a Coin",
+      "source": "LastFM~Jose Gonzalez",
+      "genres": [
+        "indie folk"
+      ]
+    },
+    "542040043": {
+      "date": "2026-09-07",
+      "artist": "moonvine",
+      "title": "catch me if you can",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "549016998": {
+      "date": "2026-09-07",
+      "artist": "Outer Shapes",
+      "title": "AFTERMATH",
+      "source": "WFUV-NYSlice2026",
+      "genres": []
+    },
+    "410661374": {
+      "date": "2026-09-07",
+      "artist": "Hazlett",
+      "title": "doing my best",
+      "source": "LastFM~Novo Amor",
+      "genres": [
+        "indie folk"
+      ]
+    },
+    "547913162": {
+      "date": "2026-09-07",
+      "artist": "Iron & Wine",
+      "title": "California Sober",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "indie folk"
+      ]
+    },
+    "493937269": {
+      "date": "2026-09-07",
+      "artist": "Bat for Lashes",
+      "title": "Prescilla",
+      "source": "LastFM~Feist",
+      "genres": [
+        "art pop",
+        "dream pop"
+      ]
+    },
+    "554283069": {
+      "date": "2026-09-07",
+      "artist": "Mike D",
+      "title": "Back To Start",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "arena rock"
+      ]
+    },
+    "60081793": {
+      "date": "2026-09-07",
+      "artist": "Gregory Alan Isakov",
+      "title": "Dandelion Wine",
+      "source": "LastFM~Novo Amor",
+      "genres": [
+        "indie folk",
+        "folk",
+        "folk pop"
+      ]
+    },
+    "530142485": {
+      "date": "2026-09-07",
+      "artist": "Emily A. Sprague",
+      "title": "Noon Liquid Ore",
+      "source": "NPR-AllSongsConsidered",
+      "genres": [
+        "ambient",
+        "drone"
+      ]
+    },
+    "546009394": {
+      "date": "2026-09-07",
+      "artist": "MASS OF THE FERMENTING DREGS",
+      "title": "Let It Go",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "j-rock",
+        "shoegaze",
+        "japanese indie",
+        "math rock"
+      ]
+    },
+    "543973119": {
+      "date": "2026-09-07",
+      "artist": "Thavoron",
+      "title": "Blurry tattoos",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "32964616": {
+      "date": "2026-09-07",
+      "artist": "Soma Sonic",
+      "title": "Blueskies",
+      "source": "LastFM~Bonobo",
+      "genres": [
+        "trip hop",
+        "downtempo"
+      ]
+    },
+    "519924744": {
+      "date": "2026-09-07",
+      "artist": "Ty Segall",
+      "title": "Chrome",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "garage rock",
+        "neo-psychedelic",
+        "psychedelic rock"
+      ]
+    },
+    "551660401": {
+      "date": "2026-09-07",
+      "artist": "Brittany Davis",
+      "title": "Behind The Door - Single Edit",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "soul jazz",
+        "soul blues"
+      ]
+    },
+    "101125271": {
+      "date": "2026-09-07",
+      "artist": "Ben Howard",
+      "title": "I Forget Where We Were",
+      "source": "LastFM~Jose Gonzalez",
+      "genres": [
+        "indie folk",
+        "folk pop"
+      ]
+    },
+    "543702520": {
+      "date": "2026-09-07",
+      "artist": "Dead Gowns",
+      "title": "Vegas Dream",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "153858106": {
+      "date": "2026-09-07",
+      "artist": "Cat Power",
+      "title": "Lived in Bars",
+      "source": "LastFM~Feist",
+      "genres": [
+        "slowcore",
+        "singer-songwriter"
+      ]
+    },
+    "387495195": {
+      "date": "2026-09-07",
+      "artist": "ISTA",
+      "title": "Megawatt",
+      "source": "WFUV-NYSlice2026",
+      "genres": []
+    },
+    "1131622": {
+      "date": "2026-09-07",
+      "artist": "Iron & Wine",
+      "title": "Flightless Bird, American Mouth",
+      "source": "LastFM~Jose Gonzalez",
+      "genres": [
+        "indie folk"
+      ]
+    },
+    "533401399": {
+      "date": "2026-09-07",
+      "artist": "John Vanderslice",
+      "title": "From the Life of the Marionettes",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "549973896": {
+      "date": "2026-09-07",
+      "artist": "Jordan Rakei",
+      "title": "Promise",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "indie soul",
+        "neo soul"
+      ]
+    },
+    "543135225": {
+      "date": "2026-09-07",
+      "artist": "Rodrigo y Gabriela",
+      "title": "Akatsuki",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "530227791": {
+      "date": "2026-09-07",
+      "artist": "Stephanie Babirak",
+      "title": "Lakeside",
+      "source": "WFUV-NYSlice2026",
+      "genres": []
+    },
+    "549196846": {
+      "date": "2026-09-07",
+      "artist": "Tiana Major9",
+      "title": "MORE",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "uk r&b",
+        "alternative r&b"
+      ]
+    },
+    "555944413": {
+      "date": "2026-09-07",
+      "artist": "Dominic Fike",
+      "title": "Wallflower",
+      "source": "NPR-AllSongsConsidered",
+      "genres": []
+    },
+    "263112964": {
+      "date": "2026-09-07",
+      "artist": "Hazlett",
+      "title": "My Skin",
+      "source": "LastFM~Novo Amor",
+      "genres": [
+        "indie folk"
+      ]
+    },
+    "549729853": {
+      "date": "2026-09-07",
+      "artist": "UCHE YARA",
+      "title": "DIVA CLUB",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "49793797": {
+      "date": "2026-09-07",
+      "artist": "Cat Power",
+      "title": "He War",
+      "source": "LastFM~Feist",
+      "genres": [
+        "slowcore",
+        "singer-songwriter"
+      ]
+    },
+    "2768022": {
+      "date": "2026-09-07",
+      "artist": "Iron & Wine",
+      "title": "Such Great Heights",
+      "source": "LastFM~Jose Gonzalez",
+      "genres": [
+        "indie folk"
+      ]
+    },
+    "546843744": {
+      "date": "2026-09-07",
+      "artist": "OHMA",
+      "title": "Ever Expanding",
+      "source": "NPR-AllSongsConsidered",
+      "genres": [
+        "ambient jazz"
       ]
     }
   }
