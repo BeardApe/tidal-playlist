@@ -355,6 +355,118 @@
     "abbey lincoln|when malindy sings": {
       "date": "2026-09-06",
       "source": "LastFM~Carmen McRae"
+    },
+    "melody gardot|your heart is as black as night": {
+      "date": "2026-09-13",
+      "source": "Seed~Melody Gardot"
+    },
+    "carmen mcrae|all the things you are": {
+      "date": "2026-09-13",
+      "source": "LastFM~Johnny Hartman"
+    },
+    "cassandra wilson|just another parade": {
+      "date": "2026-09-13",
+      "source": "LastFM~Madeleine Peyroux"
+    },
+    "melody gardot|sweet memory": {
+      "date": "2026-09-13",
+      "source": "Seed~Melody Gardot"
+    },
+    "betty carter|'round midnight": {
+      "date": "2026-09-13",
+      "source": "LastFM~Johnny Hartman"
+    },
+    "carmen mcrae|nice work if you can get it": {
+      "date": "2026-09-13",
+      "source": "LastFM~Johnny Hartman"
+    },
+    "gregory porter|revival": {
+      "date": "2026-09-13",
+      "source": "Seed~Gregory Porter"
+    },
+    "julie london|fly me to the moon": {
+      "date": "2026-09-13",
+      "source": "Seed~Julie London"
+    },
+    "joão gilberto|'s wonderful": {
+      "date": "2026-09-13",
+      "source": "Seed~João Gilberto"
+    },
+    "gregory porter|christmas wish": {
+      "date": "2026-09-13",
+      "source": "Seed~Gregory Porter"
+    },
+    "paul kelly|my love for you won't die": {
+      "date": "2026-09-13",
+      "source": "Tag~torch song"
+    },
+    "scott hamilton|bésame mucho": {
+      "date": "2026-09-13",
+      "source": "LastFM~Paul Desmond"
+    },
+    "cyrille aimée|again again": {
+      "date": "2026-09-13",
+      "source": "Seed~Cyrille Aimée"
+    },
+    "spence hood|so you wanna marry daisy": {
+      "date": "2026-09-13",
+      "source": "Tag~jazz ballad"
+    },
+    "cassandra wilson|love is blindness": {
+      "date": "2026-09-13",
+      "source": "LastFM~Madeleine Peyroux"
+    },
+    "betty carter|beware my heart": {
+      "date": "2026-09-13",
+      "source": "LastFM~Johnny Hartman"
+    },
+    "julie london|cry me a river": {
+      "date": "2026-09-13",
+      "source": "Seed~Julie London"
+    },
+    "andreas schnermann|funeral blues": {
+      "date": "2026-09-13",
+      "source": "Tag~jazz ballad"
+    },
+    "cyrille aimée|how deep is the ocean": {
+      "date": "2026-09-13",
+      "source": "Seed~Cyrille Aimée"
+    },
+    "julian & roman wasserfuhr quartet|if i should loose you": {
+      "date": "2026-09-13",
+      "source": "Tag~jazz ballad"
+    },
+    "gregory porter|holding on": {
+      "date": "2026-09-13",
+      "source": "Seed~Gregory Porter"
+    },
+    "tuck & patti|dream": {
+      "date": "2026-09-13",
+      "source": "Tag~jazz ballad"
+    },
+    "chet baker|time after time": {
+      "date": "2026-09-13",
+      "source": "Tag~cool jazz"
+    },
+    "joão gilberto|wave": {
+      "date": "2026-09-13",
+      "source": "Seed~João Gilberto"
+    },
+    "cyrille aimée|beautiful way": {
+      "date": "2026-09-13",
+      "source": "Seed~Cyrille Aimée"
+    },
+    "julie london|go slow": {
+      "date": "2026-09-13",
+      "source": "Seed~Julie London"
+    },
+    "carmen mcrae|when i fall in love": {
+      "date": "2026-09-13",
+      "source": "LastFM~Johnny Hartman"
+    },
+    "betty carter|my favourite things": {
+      "date": "2026-09-13",
+      "source": "LastFM~Johnny Hartman"
     }
   },
   "playlist_log": {
@@ -1112,6 +1224,267 @@
       "genres": [
         "vocal jazz",
         "jazz"
+      ]
+    },
+    "3164757": {
+      "date": "2026-09-13",
+      "artist": "Melody Gardot",
+      "title": "Your Heart Is As Black As Night",
+      "source": "Seed~Melody Gardot",
+      "genres": [
+        "vocal jazz",
+        "french jazz",
+        "jazz"
+      ]
+    },
+    "105048050": {
+      "date": "2026-09-13",
+      "artist": "Carmen McRae",
+      "title": "All the Things You Are",
+      "source": "LastFM~Johnny Hartman",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "1385231": {
+      "date": "2026-09-13",
+      "artist": "Cassandra Wilson",
+      "title": "Just Another Parade",
+      "source": "LastFM~Madeleine Peyroux",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "1657193": {
+      "date": "2026-09-13",
+      "artist": "Melody Gardot",
+      "title": "Sweet Memory",
+      "source": "Seed~Melody Gardot",
+      "genres": [
+        "vocal jazz",
+        "french jazz",
+        "jazz"
+      ]
+    },
+    "245975291": {
+      "date": "2026-09-13",
+      "artist": "Betty Carter",
+      "title": "'round Midnight",
+      "source": "LastFM~Johnny Hartman",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "jazz ballads"
+      ]
+    },
+    "13355566": {
+      "date": "2026-09-13",
+      "artist": "Carmen McRae",
+      "title": "Nice Work If You Can Get It",
+      "source": "LastFM~Johnny Hartman",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "127807926": {
+      "date": "2026-09-13",
+      "artist": "Gregory Porter",
+      "title": "Revival",
+      "source": "Seed~Gregory Porter",
+      "genres": [
+        "vocal jazz",
+        "jazz pop",
+        "jazz"
+      ]
+    },
+    "11654499": {
+      "date": "2026-09-13",
+      "artist": "Julie London",
+      "title": "Fly Me to the Moon",
+      "source": "Seed~Julie London",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "adult standards"
+      ]
+    },
+    "4977304": {
+      "date": "2026-09-13",
+      "artist": "João Gilberto",
+      "title": "'S Wonderful",
+      "source": "Seed~João Gilberto",
+      "genres": [
+        "bossa nova",
+        "brazilian jazz",
+        "samba",
+        "latin jazz"
+      ]
+    },
+    "320188457": {
+      "date": "2026-09-13",
+      "artist": "Gregory Porter",
+      "title": "Christmas Wish",
+      "source": "Seed~Gregory Porter",
+      "genres": [
+        "vocal jazz",
+        "jazz pop",
+        "jazz"
+      ]
+    },
+    "37483436": {
+      "date": "2026-09-13",
+      "artist": "Paul Kelly",
+      "title": "My Love For You Won't Die",
+      "source": "Tag~torch song",
+      "genres": []
+    },
+    "98870202": {
+      "date": "2026-09-13",
+      "artist": "Scott Hamilton",
+      "title": "Bésame Mucho",
+      "source": "LastFM~Paul Desmond",
+      "genres": [
+        "jazz ballads",
+        "jazz",
+        "cool jazz"
+      ]
+    },
+    "331012073": {
+      "date": "2026-09-13",
+      "artist": "Cyrille Aimée",
+      "title": "again again",
+      "source": "Seed~Cyrille Aimée",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz",
+        "jazz pop"
+      ]
+    },
+    "424704174": {
+      "date": "2026-09-13",
+      "artist": "Spence Hood",
+      "title": "So You Wanna Marry Daisy",
+      "source": "Tag~jazz ballad",
+      "genres": []
+    },
+    "77630455": {
+      "date": "2026-09-13",
+      "artist": "Cassandra Wilson",
+      "title": "Love Is Blindness",
+      "source": "LastFM~Madeleine Peyroux",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "238526416": {
+      "date": "2026-09-13",
+      "artist": "Betty Carter",
+      "title": "Beware My Heart",
+      "source": "LastFM~Johnny Hartman",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "jazz ballads"
+      ]
+    },
+    "5605121": {
+      "date": "2026-09-13",
+      "artist": "Andreas Schnermann",
+      "title": "Funeral Blues",
+      "source": "Tag~jazz ballad",
+      "genres": [
+        "vocal jazz"
+      ]
+    },
+    "185958812": {
+      "date": "2026-09-13",
+      "artist": "Cyrille Aimée",
+      "title": "How Deep Is the Ocean",
+      "source": "Seed~Cyrille Aimée",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz",
+        "jazz pop"
+      ]
+    },
+    "4437544": {
+      "date": "2026-09-13",
+      "artist": "Julian & Roman Wasserfuhr Quartet",
+      "title": "If I Should Loose You",
+      "source": "Tag~jazz ballad",
+      "genres": [
+        "jazz"
+      ]
+    },
+    "60030926": {
+      "date": "2026-09-13",
+      "artist": "Gregory Porter",
+      "title": "Holding On",
+      "source": "Seed~Gregory Porter",
+      "genres": [
+        "vocal jazz",
+        "jazz pop",
+        "jazz"
+      ]
+    },
+    "13167037": {
+      "date": "2026-09-13",
+      "artist": "Tuck & Patti",
+      "title": "Dream",
+      "source": "Tag~jazz ballad",
+      "genres": [
+        "vocal jazz"
+      ]
+    },
+    "4977308": {
+      "date": "2026-09-13",
+      "artist": "João Gilberto",
+      "title": "Wave",
+      "source": "Seed~João Gilberto",
+      "genres": [
+        "bossa nova",
+        "brazilian jazz",
+        "samba",
+        "latin jazz"
+      ]
+    },
+    "436924442": {
+      "date": "2026-09-13",
+      "artist": "Cyrille Aimée",
+      "title": "Beautiful Way",
+      "source": "Seed~Cyrille Aimée",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz",
+        "jazz pop"
+      ]
+    },
+    "531954": {
+      "date": "2026-09-13",
+      "artist": "Carmen McRae",
+      "title": "When I Fall In Love",
+      "source": "LastFM~Johnny Hartman",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "77573631": {
+      "date": "2026-09-13",
+      "artist": "Betty Carter",
+      "title": "My Favourite Things",
+      "source": "LastFM~Johnny Hartman",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "jazz ballads"
       ]
     }
   }
