@@ -1362,7 +1362,10 @@
       "date": "2026-04-06",
       "source": "WFUV-NYSlice2026"
     },
-    "bon iver|heavenly father - mediolanum, milan, it. nov 05 2022": "2026-04-06",
+    "bon iver|heavenly father - mediolanum, milan, it. nov 05 2022": {
+      "date": "2026-04-06",
+      "source": "NPR-AllSongsConsidered"
+    },
     "rachel lime|nacrée": "2026-04-06",
     "jennylee|never": {
       "date": "2026-04-06",
@@ -1545,7 +1548,10 @@
     "antonio carlos & jocafi|rala-bucho": "2026-04-20",
     "elliott smith|between the bars": "2026-04-20",
     "blessing jolie|growing pains": "2026-04-20",
-    "truman flyer|smoke + mirrors": "2026-04-20",
+    "truman flyer|smoke + mirrors": {
+      "date": "2026-04-20",
+      "source": "WFUV-NYSlice2026"
+    },
     "empress of|dream house": "2026-04-20",
     "war pigs|these boots are made for walkin'": "2026-04-20",
     "kareem ali|let the light in": "2026-04-20",
@@ -1584,7 +1590,10 @@
       "source": "WFUV-NYSlice2026"
     },
     "pond|two hands": "2026-04-20",
-    "marsmobil|je suis lache": "2026-04-20",
+    "marsmobil|je suis lache": {
+      "date": "2026-04-20",
+      "source": "LastFM~Hooverphonic"
+    },
     "rachel lime|jangdan": "2026-04-20",
     "ayk|demon in the mirror": "2026-04-20",
     "sofa surfers|can i get a witness": "2026-04-20",
@@ -1756,7 +1765,10 @@
       "source": "NPR-AllSongsConsidered"
     },
     "field commander ali|one kind of forever": "2026-05-04",
-    "marsmobil|dark star": "2026-05-04",
+    "marsmobil|dark star": {
+      "date": "2026-05-04",
+      "source": "LastFM~Hooverphonic"
+    },
     "fightmaster|all or nothing": "2026-05-04",
     "beck|ride lonesome": "2026-05-04",
     "glazyhaze|do you?": "2026-05-04",
@@ -1991,7 +2003,10 @@
     "buscabulla|el camino - buscabulla rework": "2026-05-25",
     "dominic fike|she wants my money": "2026-05-25",
     "dustin o'halloran|fragile n.1": "2026-05-25",
-    "gracie abrams|hit the wall": "2026-05-25",
+    "gracie abrams|hit the wall": {
+      "date": "2026-05-25",
+      "source": "NPR-AllSongsConsidered"
+    },
     "gus dapperton|first aid": "2026-05-25",
     "khun narin|poet wong pt. 1": "2026-05-25",
     "ex:re|new york": "2026-05-25",
@@ -2104,7 +2119,10 @@
     "berry weight|magician's assistant": "2026-06-01",
     "the head and the heart|rivers and roads - live at neumos": "2026-06-01",
     "rival consoles|haunt": "2026-06-01",
-    "ear|ne plus ultra": "2026-06-08",
+    "ear|ne plus ultra": {
+      "date": "2026-06-08",
+      "source": "NPR-AllSongsConsidered"
+    },
     "alewya|maktoub": "2026-06-08",
     "villagerrr|roadstar": "2026-06-08",
     "taylor swift|elizabeth taylor": "2026-06-08",
@@ -4455,6 +4473,166 @@
     "ohma|ever expanding": {
       "date": "2026-09-07",
       "source": "NPR-AllSongsConsidered"
+    },
+    "kareen lomax|warfare": {
+      "date": "2026-09-14",
+      "source": "KEXP-NewThisWeek"
+    },
+    "cruel santino|oz. (feat. jeriq)": {
+      "date": "2026-09-14",
+      "source": "KEXP-NewThisWeek"
+    },
+    "aimee mann|you could make a killing": {
+      "date": "2026-09-14",
+      "source": "LastFM~Beth Orton"
+    },
+    "nouvelle vague|only when i lose myself": {
+      "date": "2026-09-14",
+      "source": "KEXP-NewThisWeek"
+    },
+    "the whitest boy alive|burning": {
+      "date": "2026-09-14",
+      "source": "LastFM~Kings of Convenience"
+    },
+    "billboard style|meloxicam": {
+      "date": "2026-09-14",
+      "source": "KEXP-NewThisWeek"
+    },
+    "the whitest boy alive|figures": {
+      "date": "2026-09-14",
+      "source": "LastFM~Kings of Convenience"
+    },
+    "blind yeo|memory to the soil": {
+      "date": "2026-09-14",
+      "source": "KEXP-NewThisWeek"
+    },
+    "turin brakes|pain killer": {
+      "date": "2026-09-14",
+      "source": "LastFM~Kings of Convenience"
+    },
+    "girl ultra|te caigo": {
+      "date": "2026-09-14",
+      "source": "KEXP-NewThisWeek"
+    },
+    "hird|buddy rich": {
+      "date": "2026-09-14",
+      "source": "LastFM~Parov Stelar"
+    },
+    "strange majik|nyc animal": {
+      "date": "2026-09-14",
+      "source": "WFUV-NYSlice2026"
+    },
+    "logic1000|the only one (feat. christine and the queens)": {
+      "date": "2026-09-14",
+      "source": "KEXP-NewThisWeek"
+    },
+    "meitz|my love": {
+      "date": "2026-09-14",
+      "source": "LastFM~Parov Stelar"
+    },
+    "odd beholder|thank you for shopping with us": {
+      "date": "2026-09-14",
+      "source": "KEXP-NewThisWeek"
+    },
+    "moses boyd|criticise": {
+      "date": "2026-09-14",
+      "source": "KEXP-NewThisWeek"
+    },
+    "turin brakes|self help": {
+      "date": "2026-09-14",
+      "source": "LastFM~Kings of Convenience"
+    },
+    "aaron frazer|paint the picture": {
+      "date": "2026-09-14",
+      "source": "KEXP-NewThisWeek"
+    },
+    "aimee mann|driving sideways": {
+      "date": "2026-09-14",
+      "source": "LastFM~Beth Orton"
+    },
+    "sean kiely|long live the low": {
+      "date": "2026-09-14",
+      "source": "WFUV-NYSlice2026"
+    },
+    "meitz|mayibuye i africa - edit": {
+      "date": "2026-09-14",
+      "source": "LastFM~Parov Stelar"
+    },
+    "soft science|spinning": {
+      "date": "2026-09-14",
+      "source": "KEXP-NewThisWeek"
+    },
+    "st. yuma|alone the walrus": {
+      "date": "2026-09-14",
+      "source": "KEXP-NewThisWeek"
+    },
+    "handycam|泰克十一 take 11": {
+      "date": "2026-09-14",
+      "source": "KEXP-NewThisWeek"
+    },
+    "alabama shakes|garden": {
+      "date": "2026-09-14",
+      "source": "Radio1-Top30"
+    },
+    "the whitest boy alive|done with you": {
+      "date": "2026-09-14",
+      "source": "LastFM~Kings of Convenience"
+    },
+    "virg|thisworldisyours": {
+      "date": "2026-09-14",
+      "source": "KEXP-NewThisWeek"
+    },
+    "abbie ozard|backbone": {
+      "date": "2026-09-14",
+      "source": "KEXP-NewThisWeek"
+    },
+    "tiana major9|heaven": {
+      "date": "2026-09-14",
+      "source": "KEXP-NewThisWeek"
+    },
+    "claudia isaki|origami": {
+      "date": "2026-09-14",
+      "source": "NPR-AllSongsConsidered"
+    },
+    "meitz|africa": {
+      "date": "2026-09-14",
+      "source": "LastFM~Parov Stelar"
+    },
+    "rén with the mane|shame": {
+      "date": "2026-09-14",
+      "source": "WFUV-NYSlice2026"
+    },
+    "tinsley|more alive": {
+      "date": "2026-09-14",
+      "source": "KEXP-NewThisWeek"
+    },
+    "aldous harding|horizon": {
+      "date": "2026-09-14",
+      "source": "LastFM~Beth Orton"
+    },
+    "dylan pham|idols": {
+      "date": "2026-09-14",
+      "source": "WFUV-NYSlice2026"
+    },
+    "dahi|how to pray": {
+      "date": "2026-09-14",
+      "source": "NPR-AllSongsConsidered"
+    },
+    "aurora ave.|sweet treat": {
+      "date": "2026-09-14",
+      "source": "KEXP-NewThisWeek"
+    },
+    "la priest|ever no": {
+      "date": "2026-09-14",
+      "source": "KEXP-NewThisWeek"
+    },
+    "aimee mann|save me": {
+      "date": "2026-09-14",
+      "source": "LastFM~Beth Orton"
+    },
+    "turin brakes|underdog (save me)": {
+      "date": "2026-09-14",
+      "source": "LastFM~Kings of Convenience"
     }
   },
   "playlist_log": {
@@ -4543,290 +4721,6 @@
       "title": "Air Conditioning",
       "source": "LastFM~Warpaint",
       "genres": []
-    },
-    "541111641": {
-      "date": "2026-08-10",
-      "artist": "Noname",
-      "title": "Squatter",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "alternative r&b"
-      ]
-    },
-    "103318518": {
-      "date": "2026-08-10",
-      "artist": "Kiasmos",
-      "title": "Looped",
-      "source": "LastFM~Moderat",
-      "genres": []
-    },
-    "102853074": {
-      "date": "2026-08-10",
-      "artist": "Goth Babe",
-      "title": "Weekend Friend",
-      "source": "LastFM~Still Woozy",
-      "genres": []
-    },
-    "541726539": {
-      "date": "2026-08-10",
-      "artist": "THAO",
-      "title": "Sick of the Times",
-      "source": "KEXP-NewThisWeek",
-      "genres": []
-    },
-    "261312116": {
-      "date": "2026-08-10",
-      "artist": "Coin",
-      "title": "Let It All Out (10:05)",
-      "source": "LastFM~Still Woozy",
-      "genres": []
-    },
-    "87551496": {
-      "date": "2026-08-10",
-      "artist": "Kiasmos",
-      "title": "Orgoned",
-      "source": "LastFM~Moderat",
-      "genres": []
-    },
-    "72552874": {
-      "date": "2026-08-10",
-      "artist": "Coin",
-      "title": "Malibu 1992",
-      "source": "LastFM~Still Woozy",
-      "genres": []
-    },
-    "541644544": {
-      "date": "2026-08-10",
-      "artist": "Absolutely Yours",
-      "title": "Margaret",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "dream pop",
-        "jangle pop"
-      ]
-    },
-    "529586798": {
-      "date": "2026-08-10",
-      "artist": "Tricky FM",
-      "title": "Sugar in my Drink",
-      "source": "KEXP-NewThisWeek",
-      "genres": []
-    },
-    "534111277": {
-      "date": "2026-08-10",
-      "artist": "Merman",
-      "title": "Splash",
-      "source": "WFUV-NYSlice2026",
-      "genres": []
-    },
-    "514937105": {
-      "date": "2026-08-10",
-      "artist": "Mopar Stars",
-      "title": "Lifetime Of Pain",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "power pop"
-      ]
-    },
-    "519924749": {
-      "date": "2026-08-10",
-      "artist": "Ty Segall",
-      "title": "Running to Nowhere",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "garage rock",
-        "neo-psychedelic",
-        "psychedelic rock"
-      ]
-    },
-    "205364628": {
-      "date": "2026-08-10",
-      "artist": "Niklas Paschburg",
-      "title": "Wing Rowing (K08)",
-      "source": "LastFM~Nils Frahm",
-      "genres": []
-    },
-    "545585007": {
-      "date": "2026-08-10",
-      "artist": "HAAi",
-      "title": "Ignition",
-      "source": "KEXP-NewThisWeek",
-      "genres": []
-    },
-    "538688646": {
-      "date": "2026-08-10",
-      "artist": "Caroline Strickland",
-      "title": "Super Tender (single)",
-      "source": "KEXP-NewThisWeek",
-      "genres": []
-    },
-    "46215961": {
-      "date": "2026-08-10",
-      "artist": "Coin",
-      "title": "Run",
-      "source": "LastFM~Still Woozy",
-      "genres": []
-    },
-    "539122410": {
-      "date": "2026-08-10",
-      "artist": "Andrea Bejar",
-      "title": "Te Vas A Arrepentir (Don't Hurt Him)",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "latin folk",
-        "latin indie"
-      ]
-    },
-    "530466185": {
-      "date": "2026-08-10",
-      "artist": "@",
-      "title": "Autosmile",
-      "source": "NPR-AllSongsConsidered",
-      "genres": []
-    },
-    "103318517": {
-      "date": "2026-08-10",
-      "artist": "Kiasmos",
-      "title": "Held",
-      "source": "LastFM~Moderat",
-      "genres": []
-    },
-    "531735742": {
-      "date": "2026-08-10",
-      "artist": "tommy oeffling",
-      "title": "Daily on Eggshells",
-      "source": "KEXP-NewThisWeek",
-      "genres": []
-    },
-    "510347499": {
-      "date": "2026-08-10",
-      "artist": "Shearwater",
-      "title": "Slugs in the Marigolds",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "slowcore"
-      ]
-    },
-    "538906603": {
-      "date": "2026-08-10",
-      "artist": "Blonde Redhead",
-      "title": "Blood Spilled",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "shoegaze",
-        "dream pop",
-        "indie rock"
-      ]
-    },
-    "184797429": {
-      "date": "2026-08-10",
-      "artist": "Niklas Paschburg",
-      "title": "Little Orc",
-      "source": "LastFM~Nils Frahm",
-      "genres": []
-    },
-    "537257263": {
-      "date": "2026-08-10",
-      "artist": "Spike Fuck",
-      "title": "ALL BY MYSELF",
-      "source": "KEXP-NewThisWeek",
-      "genres": []
-    },
-    "87545233": {
-      "date": "2026-08-10",
-      "artist": "Peter Broderick",
-      "title": "And It's Alright",
-      "source": "LastFM~Nils Frahm",
-      "genres": []
-    },
-    "248407342": {
-      "date": "2026-08-10",
-      "artist": "Peter Broderick",
-      "title": "Eyes Closed And Traveling",
-      "source": "LastFM~Nils Frahm",
-      "genres": []
-    },
-    "526857390": {
-      "date": "2026-08-10",
-      "artist": "Pearly",
-      "title": "Not Another Day",
-      "source": "WFUV-NYSlice2026",
-      "genres": []
-    },
-    "184797432": {
-      "date": "2026-08-10",
-      "artist": "Niklas Paschburg",
-      "title": "Duvet",
-      "source": "LastFM~Nils Frahm",
-      "genres": []
-    },
-    "149634663": {
-      "date": "2026-08-10",
-      "artist": "Goth Babe",
-      "title": "Moments / Tides",
-      "source": "LastFM~Still Woozy",
-      "genres": []
-    },
-    "195948301": {
-      "date": "2026-08-10",
-      "artist": "Goth Babe",
-      "title": "Casita",
-      "source": "LastFM~Still Woozy",
-      "genres": []
-    },
-    "503916100": {
-      "date": "2026-08-10",
-      "artist": "MADELEINE",
-      "title": "Meet My Soul in the Water",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "soul jazz",
-        "uk r&b",
-        "indie soul"
-      ]
-    },
-    "103317417": {
-      "date": "2026-08-10",
-      "artist": "Peter Broderick",
-      "title": "A Snowflake",
-      "source": "LastFM~Nils Frahm",
-      "genres": []
-    },
-    "534591299": {
-      "date": "2026-08-10",
-      "artist": "Ben Hauke",
-      "title": "Under The Moon",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "jazz house",
-        "lo-fi house",
-        "nu jazz"
-      ]
-    },
-    "535625110": {
-      "date": "2026-08-10",
-      "artist": "Portraits Of Tracy",
-      "title": "Caught In A Jam",
-      "source": "KEXP-NewThisWeek",
-      "genres": []
-    },
-    "530716703": {
-      "date": "2026-08-10",
-      "artist": "Seun Kuti",
-      "title": "Problems",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "afrobeat"
-      ]
-    },
-    "533956311": {
-      "date": "2026-08-10",
-      "artist": "D'Swing",
-      "title": "Searching",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "nu disco"
-      ]
     },
     "215722245": {
       "date": "2026-08-17",
@@ -6962,6 +6856,326 @@
       "genres": [
         "ambient jazz"
       ]
+    },
+    "530876877": {
+      "date": "2026-09-14",
+      "artist": "Kareen Lomax",
+      "title": "WARFARE",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "545912267": {
+      "date": "2026-09-14",
+      "artist": "Cruel Santino",
+      "title": "Oz. (feat. Jeriq)",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "alté",
+        "afrobeats",
+        "afroswing",
+        "afrobeat"
+      ]
+    },
+    "3203262": {
+      "date": "2026-09-14",
+      "artist": "Aimee Mann",
+      "title": "You Could Make A Killing",
+      "source": "LastFM~Beth Orton",
+      "genres": []
+    },
+    "554270353": {
+      "date": "2026-09-14",
+      "artist": "Nouvelle Vague",
+      "title": "Only When I Lose Myself",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "lounge"
+      ]
+    },
+    "185038845": {
+      "date": "2026-09-14",
+      "artist": "The Whitest Boy Alive",
+      "title": "Burning",
+      "source": "LastFM~Kings of Convenience",
+      "genres": []
+    },
+    "550969854": {
+      "date": "2026-09-14",
+      "artist": "Billboard Style",
+      "title": "Meloxicam",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "185038853": {
+      "date": "2026-09-14",
+      "artist": "The Whitest Boy Alive",
+      "title": "Figures",
+      "source": "LastFM~Kings of Convenience",
+      "genres": []
+    },
+    "519841314": {
+      "date": "2026-09-14",
+      "artist": "Blind Yeo",
+      "title": "Memory to the soil",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "66422918": {
+      "date": "2026-09-14",
+      "artist": "Turin Brakes",
+      "title": "Pain Killer",
+      "source": "LastFM~Kings of Convenience",
+      "genres": []
+    },
+    "555771877": {
+      "date": "2026-09-14",
+      "artist": "Girl Ultra",
+      "title": "Te Caigo",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "latin indie",
+        "latin r&b",
+        "mexican indie",
+        "latin alternative"
+      ]
+    },
+    "247299722": {
+      "date": "2026-09-14",
+      "artist": "Hird",
+      "title": "Buddy Rich",
+      "source": "LastFM~Parov Stelar",
+      "genres": []
+    },
+    "274293257": {
+      "date": "2026-09-14",
+      "artist": "Strange Majik",
+      "title": "NYC Animal",
+      "source": "WFUV-NYSlice2026",
+      "genres": []
+    },
+    "536536767": {
+      "date": "2026-09-14",
+      "artist": "Logic1000",
+      "title": "The Only One (feat. Christine and the Queens)",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "lo-fi house"
+      ]
+    },
+    "32131514": {
+      "date": "2026-09-14",
+      "artist": "Meitz",
+      "title": "My Love",
+      "source": "LastFM~Parov Stelar",
+      "genres": []
+    },
+    "547845148": {
+      "date": "2026-09-14",
+      "artist": "Odd Beholder",
+      "title": "Thank You For Shopping With Us",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "541969981": {
+      "date": "2026-09-14",
+      "artist": "Moses Boyd",
+      "title": "Criticise",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "nu jazz",
+        "indie jazz",
+        "jazz"
+      ]
+    },
+    "270386286": {
+      "date": "2026-09-14",
+      "artist": "Turin Brakes",
+      "title": "Self Help",
+      "source": "LastFM~Kings of Convenience",
+      "genres": []
+    },
+    "551752104": {
+      "date": "2026-09-14",
+      "artist": "Aaron Frazer",
+      "title": "Paint The Picture",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "retro soul"
+      ]
+    },
+    "7841112": {
+      "date": "2026-09-14",
+      "artist": "Aimee Mann",
+      "title": "Driving Sideways",
+      "source": "LastFM~Beth Orton",
+      "genres": []
+    },
+    "553910289": {
+      "date": "2026-09-14",
+      "artist": "Sean Kiely",
+      "title": "Long Live The Low",
+      "source": "WFUV-NYSlice2026",
+      "genres": []
+    },
+    "32131515": {
+      "date": "2026-09-14",
+      "artist": "Meitz",
+      "title": "Mayibuye I Africa - Edit",
+      "source": "LastFM~Parov Stelar",
+      "genres": []
+    },
+    "550107892": {
+      "date": "2026-09-14",
+      "artist": "Soft Science",
+      "title": "Spinning",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "shoegaze",
+        "jangle pop",
+        "dream pop"
+      ]
+    },
+    "548794347": {
+      "date": "2026-09-14",
+      "artist": "St. Yuma",
+      "title": "Alone the Walrus",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "indie folk"
+      ]
+    },
+    "526239936": {
+      "date": "2026-09-14",
+      "artist": "Handycam",
+      "title": "泰克十一 Take 11",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "chinese indie"
+      ]
+    },
+    "547190698": {
+      "date": "2026-09-14",
+      "artist": "Alabama Shakes",
+      "title": "Garden",
+      "source": "Radio1-Top30",
+      "genres": []
+    },
+    "185038848": {
+      "date": "2026-09-14",
+      "artist": "The Whitest Boy Alive",
+      "title": "Done With You",
+      "source": "LastFM~Kings of Convenience",
+      "genres": []
+    },
+    "521706141": {
+      "date": "2026-09-14",
+      "artist": "Virg",
+      "title": "Thisworldisyours",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "536813060": {
+      "date": "2026-09-14",
+      "artist": "Abbie Ozard",
+      "title": "Backbone",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "lo-fi indie"
+      ]
+    },
+    "549196845": {
+      "date": "2026-09-14",
+      "artist": "Tiana Major9",
+      "title": "Heaven",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "uk r&b",
+        "alternative r&b"
+      ]
+    },
+    "556257800": {
+      "date": "2026-09-14",
+      "artist": "Claudia Isaki",
+      "title": "Origami",
+      "source": "NPR-AllSongsConsidered",
+      "genres": [
+        "christian r&b",
+        "christian jazz",
+        "christian lo-fi",
+        "christian"
+      ]
+    },
+    "184854089": {
+      "date": "2026-09-14",
+      "artist": "Meitz",
+      "title": "Africa",
+      "source": "LastFM~Parov Stelar",
+      "genres": []
+    },
+    "526789578": {
+      "date": "2026-09-14",
+      "artist": "Rén with the Mane",
+      "title": "Shame",
+      "source": "WFUV-NYSlice2026",
+      "genres": []
+    },
+    "546101739": {
+      "date": "2026-09-14",
+      "artist": "Tinsley",
+      "title": "More Alive",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "73634178": {
+      "date": "2026-09-14",
+      "artist": "Aldous Harding",
+      "title": "Horizon",
+      "source": "LastFM~Beth Orton",
+      "genres": [
+        "ambient folk"
+      ]
+    },
+    "447155955": {
+      "date": "2026-09-14",
+      "artist": "Dylan Pham",
+      "title": "Idols",
+      "source": "WFUV-NYSlice2026",
+      "genres": []
+    },
+    "536071633": {
+      "date": "2026-09-14",
+      "artist": "Dahi",
+      "title": "How To Pray",
+      "source": "NPR-AllSongsConsidered",
+      "genres": []
+    },
+    "545956261": {
+      "date": "2026-09-14",
+      "artist": "Aurora Ave.",
+      "title": "SWEET TREAT",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "530309181": {
+      "date": "2026-09-14",
+      "artist": "LA Priest",
+      "title": "Ever No",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "7841116": {
+      "date": "2026-09-14",
+      "artist": "Aimee Mann",
+      "title": "Save Me",
+      "source": "LastFM~Beth Orton",
+      "genres": []
+    },
+    "270394837": {
+      "date": "2026-09-14",
+      "artist": "Turin Brakes",
+      "title": "Underdog (Save Me)",
+      "source": "LastFM~Kings of Convenience",
+      "genres": []
     }
   }
 }
