@@ -2,7 +2,7 @@
 youtube_naar_tidal.py — Zet de tracklist uit een YouTube-beschrijving om naar een Tidal-playlist.
 
 Wat dit doet:
-1. Haalt titel en beschrijving van de YouTube-video op (via yt-dlp, geen API-sleutel nodig)
+1. Haalt titel en beschrijving van de YouTube-video op via de YouTube Data API (gratis sleutel, zie hieronder)
 2. Pikt de tracklist eruit, op twee manieren:
    - de "Muziek in deze video"-strook (de horizontale kaartjes onder de beschrijving)
    - regels in de beschrijving zoals "00:00 Artiest - Titel", "1. Artiest – Titel" of "Artiest - Titel [Label]"
@@ -10,9 +10,12 @@ Wat dit doet:
 4. Maakt een nieuwe Tidal-playlist met de naam van de video, of vult een bestaande aan (zonder dubbels)
 5. Print op het einde wat niet gevonden werd
 
+Nodig: een YouTube Data API-sleutel in de omgevingsvariabele YOUTUBE_API_KEY
+(in GitHub Actions: secret YOUTUBE_API_KEY). Zonder sleutel probeert het script de
+pagina zelf te lezen, maar dat blokkeert YouTube soms op servers.
+
 Lokaal uitvoeren (Windows):
-    pip install yt-dlp
-    python setup.py                      (eenmalig, maakt session.json — heb je al)
+    set YOUTUBE_API_KEY=jouw_sleutel
     python youtube_naar_tidal.py https://www.youtube.com/watch?v=XXXX
 
 Wil je de tracks in een bestaande playlist zetten? Geef het Tidal-ID mee als tweede argument:
@@ -23,7 +26,6 @@ Via GitHub Actions: zie youtube_naar_tidal.yml (handmatig starten, link invullen
 
 import os
 import re
-import subprocess
 import sys
 import time
 from pathlib import Path
@@ -46,21 +48,63 @@ def video_id(url: str) -> str:
     return m.group(1)
 
 
+_html_cache: dict[str, str] = {}
+
+
+def fetch_watch_html(vid: str) -> str:
+    """Haalt de HTML van de videopagina op (één keer, daarna uit cache). Leeg als het mislukt."""
+    if vid not in _html_cache:
+        try:
+            resp = requests.get(
+                f"https://www.youtube.com/watch?v={vid}&hl=en",
+                headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                                       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+                         "Accept-Language": "en"},
+                cookies={"CONSENT": "YES+1", "SOCS": "CAI"},   # anders krijg je in Europa de cookiemuur
+                timeout=15,
+            )
+            _html_cache[vid] = resp.text if resp.ok else ""
+        except requests.RequestException:
+            _html_cache[vid] = ""
+    return _html_cache[vid]
+
+
+def _json_var(html: str, name: str) -> dict:
+    """Vist een JSON-blok als 'ytInitialData = {...};' uit de pagina."""
+    m = re.search(name + r"\s*=\s*(\{.*?\});\s*(?:</script>|var )", html, re.S)
+    if not m:
+        return {}
+    try:
+        return json.loads(m.group(1))
+    except json.JSONDecodeError:
+        return {}
+
+
+def get_youtube_info(vid: str) -> tuple[str, str]:
+    """Titel en beschrijving. Eerst via de YouTube Data API (betrouwbaar), anders uit de pagina."""
+    api_key = os.environ.get("YOUTUBE_API_KEY", "").strip()
+    if api_key:
+        r = requests.get("https://www.googleapis.com/youtube/v3/videos",
+                         params={"part": "snippet", "id": vid, "key": api_key}, timeout=15)
+        if r.status_code != 200:
+            raise RuntimeError(f"YouTube API gaf fout {r.status_code}: {r.text[:300]}")
+        items = r.json().get("items", [])
+        if not items:
+            raise RuntimeError(f"YouTube API kent video {vid} niet (privé, verwijderd of fout ID?)")
+        s = items[0]["snippet"]
+        return s.get("title", vid), s.get("description", "")
+
+    details = _json_var(fetch_watch_html(vid), "ytInitialPlayerResponse").get("videoDetails", {})
+    if not details.get("title"):
+        raise RuntimeError("Kon de video niet lezen zonder API-sleutel. Zet YOUTUBE_API_KEY (zie bovenaan dit script).")
+    return details["title"], details.get("shortDescription", "")
+
+
 def get_music_section(vid: str) -> list[dict]:
     """Leest de 'Muziek in deze video'-kaartjes uit de pagina (de horizontale strook).
-    Die staan niet in de gewone beschrijving maar in de paginadata (ytInitialData)."""
-    resp = requests.get(
-        f"https://www.youtube.com/watch?v={vid}&hl=en",
-        headers={"User-Agent": "Mozilla/5.0", "Accept-Language": "en"},
-        cookies={"CONSENT": "YES+1", "SOCS": "CAI"},   # anders krijg je in Europa de cookiemuur
-        timeout=15,
-    )
-    m = re.search(r"ytInitialData\s*=\s*(\{.*?\});\s*</script>", resp.text, re.S)
-    if not m:
-        return []
-    try:
-        data = json.loads(m.group(1))
-    except json.JSONDecodeError:
+    Die staan niet in de gewone beschrijving en ook niet in de API, alleen in de paginadata."""
+    data = _json_var(fetch_watch_html(vid), "ytInitialData")
+    if not data:
         return []
 
     tracks = []
@@ -98,17 +142,6 @@ def get_music_section(vid: str) -> list[dict]:
 
     walk(data)
     return tracks
-
-
-def get_youtube_info(url: str) -> tuple[str, str]:
-    """Haalt titel en beschrijving op met yt-dlp. Geeft (titel, beschrijving)."""
-    cmd = [sys.executable, "-m", "yt_dlp", "--skip-download", "--no-warnings",
-           "--print", "%(title)s", "--print", "%(description)s", url]
-    result = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8")
-    if result.returncode != 0:
-        raise RuntimeError(f"yt-dlp kon de video niet lezen:\n{result.stderr.strip()}")
-    title, _, description = result.stdout.partition("\n")
-    return title.strip(), description
 
 
 # Wat vooraan een regel mag staan en genegeerd wordt: tijdcodes, nummering, streepjes, bullets
@@ -201,7 +234,7 @@ def main():
     youtube_url = f"https://www.youtube.com/watch?v={vid}"
 
     print("YouTube lezen...")
-    video_title, description = get_youtube_info(youtube_url)
+    video_title, description = get_youtube_info(vid)
     from_cards = get_music_section(vid)
     from_text  = parse_tracklist(description)
     print(f"  '{video_title}': {len(from_cards)} tracks in de muziekstrook, {len(from_text)} in de beschrijving\n")
