@@ -1,5 +1,6 @@
 """
-youtube_naar_tidal.py — Zet de tracklist uit een YouTube-beschrijving om naar een Tidal-playlist.
+youtube_naar_tidal.py — Zet de tracklist van een YouTube-video, of van alle video's in een
+YouTube-playlist, om naar één Tidal-playlist zonder dubbels.
 
 Wat dit doet:
 1. Haalt titel en beschrijving van de YouTube-video op via de YouTube Data API (gratis sleutel, zie hieronder)
@@ -17,6 +18,7 @@ pagina zelf te lezen, maar dat blokkeert YouTube soms op servers.
 Lokaal uitvoeren (Windows):
     set YOUTUBE_API_KEY=jouw_sleutel
     python youtube_naar_tidal.py https://www.youtube.com/watch?v=XXXX
+    python youtube_naar_tidal.py https://www.youtube.com/playlist?list=PLXXXX     (alle video's ineens)
 
 Wil je de tracks in een bestaande playlist zetten? Geef het Tidal-ID mee als tweede argument:
     python youtube_naar_tidal.py https://www.youtube.com/watch?v=XXXX efc92d5f-7912-453b-9576-8a63bde1dd29
@@ -78,6 +80,36 @@ def _json_var(html: str, name: str) -> dict:
         return json.loads(m.group(1))
     except json.JSONDecodeError:
         return {}
+
+
+def _api(endpoint: str, **params) -> dict:
+    api_key = os.environ.get("YOUTUBE_API_KEY", "").strip()
+    if not api_key:
+        raise RuntimeError("Voor een YouTube-playlist is een API-sleutel nodig. Zet YOUTUBE_API_KEY (zie bovenaan dit script).")
+    r = requests.get(f"https://www.googleapis.com/youtube/v3/{endpoint}", params={**params, "key": api_key}, timeout=15)
+    if r.status_code != 200:
+        raise RuntimeError(f"YouTube API gaf fout {r.status_code}: {r.text[:300]}")
+    return r.json()
+
+
+def playlist_id(url: str) -> str:
+    """Geeft het playlist-ID als de link een echte YouTube-playlist is (PL..., niet een 'Mix' RD...)."""
+    m = re.search(r"[?&]list=(PL[A-Za-z0-9_-]+|UU[A-Za-z0-9_-]+|OL[A-Za-z0-9_-]+)", url)
+    return m.group(1) if m and "playlist?" in url else ""
+
+
+def get_playlist_videos(plid: str) -> tuple[str, list[str]]:
+    """Titel van de YouTube-playlist en alle video-ID's erin, in volgorde."""
+    info = _api("playlists", part="snippet", id=plid).get("items", [])
+    title = info[0]["snippet"]["title"] if info else plid
+    vids, token = [], None
+    while True:
+        page = _api("playlistItems", part="contentDetails", playlistId=plid, maxResults=50, pageToken=token)
+        vids += [it["contentDetails"]["videoId"] for it in page.get("items", [])]
+        token = page.get("nextPageToken")
+        if not token:
+            break
+    return title, vids
 
 
 def get_youtube_info(vid: str) -> tuple[str, str]:
@@ -246,22 +278,39 @@ def main():
     if not youtube_url:
         sys.exit("Geef een YouTube-link mee: python youtube_naar_tidal.py https://www.youtube.com/watch?v=XXXX")
 
-    vid = video_id(youtube_url)
-    youtube_url = f"https://www.youtube.com/watch?v={vid}"
+    plid = playlist_id(youtube_url)
+    if plid:
+        print("YouTube-playlist lezen...")
+        playlist_name, vids = get_playlist_videos(plid)
+        print(f"  '{playlist_name}': {len(vids)} video's\n")
+    else:
+        vids = [video_id(youtube_url)]
+        playlist_name = ""
 
-    print("YouTube lezen...")
-    video_title, description = get_youtube_info(vid)
-    from_cards = get_music_section(vid)
-    from_text  = parse_tracklist(description)
-    print(f"  '{video_title}': {len(from_cards)} tracks in de muziekstrook, {len(from_text)} in de beschrijving\n")
-
-    # samenvoegen zonder dubbels: eerst de kaartjes (die zijn het betrouwbaarst), dan de tekst
+    # tracks van alle video's verzamelen, zonder dubbels
     yt_tracks, seen = [], set()
-    for tr in from_cards + from_text:
-        key = clean(tr["artist"]) + "|" + clean(tr["title"])
-        if key not in seen:
-            seen.add(key)
-            yt_tracks.append(tr)
+    for n, vid in enumerate(vids, 1):
+        try:
+            video_title, description = get_youtube_info(vid)
+        except RuntimeError as e:
+            print(f"  [{n}/{len(vids)}] overgeslagen: {e}")
+            continue
+        from_cards = get_music_section(vid)
+        from_text  = parse_tracklist(description)
+        nieuw = 0
+        # eerst de kaartjes (die zijn het betrouwbaarst), dan de tekst
+        for tr in from_cards + from_text:
+            key = clean(tr["artist"]) + "|" + clean(tr["title"])
+            if key not in seen:
+                seen.add(key)
+                yt_tracks.append(tr)
+                nieuw += 1
+        print(f"  [{n}/{len(vids)}] '{video_title}': {len(from_cards)} in de muziekstrook, "
+              f"{len(from_text)} in de beschrijving, {nieuw} nieuw")
+        if not playlist_name:
+            playlist_name = video_title
+        time.sleep(0.5)
+    print(f"\n{len(yt_tracks)} unieke tracks gevonden\n")
     if not yt_tracks:
         sys.exit("Geen tracklist gevonden, niet in de muziekstrook en niet in de beschrijving.")
 
@@ -272,7 +321,7 @@ def main():
         existing = {str(t.id) for t in playlist.tracks()}
         print(f"  Playlist '{playlist.name}' heeft al {len(existing)} tracks\n")
     else:
-        playlist = session.user.create_playlist(video_title[:100], f"Tracklist uit {youtube_url}")
+        playlist = session.user.create_playlist(playlist_name[:100], f"Tracklist uit {youtube_url}")
         existing = set()
         print(f"  Nieuwe playlist gemaakt: '{playlist.name}'\n")
 
