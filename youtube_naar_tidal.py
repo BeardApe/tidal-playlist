@@ -102,9 +102,15 @@ def get_youtube_info(vid: str) -> tuple[str, str]:
 
 def get_music_section(vid: str) -> list[dict]:
     """Leest de 'Muziek in deze video'-kaartjes uit de pagina (de horizontale strook).
-    Die staan niet in de gewone beschrijving en ook niet in de API, alleen in de paginadata."""
-    data = _json_var(fetch_watch_html(vid), "ytInitialData")
+    Die staan niet in de gewone beschrijving en ook niet in de API, alleen in de paginadata.
+    YouTube gebruikt twee opmaken voor die kaartjes; allebei worden hier herkend."""
+    html = fetch_watch_html(vid)
+    if not html:
+        print("  (kon de videopagina niet ophalen, muziekstrook overgeslagen)")
+        return []
+    data = _json_var(html, "ytInitialData")
     if not data:
+        print(f"  (geen paginadata gevonden in {len(html)} tekens HTML, muziekstrook overgeslagen)")
         return []
 
     tracks = []
@@ -117,11 +123,21 @@ def get_music_section(vid: str) -> list[dict]:
                 return node["simpleText"]
             if "runs" in node:
                 return "".join(r.get("text", "") for r in node["runs"])
+            if "content" in node:
+                return text(node["content"])
         return ""
 
     def walk(node):
         if isinstance(node, dict):
-            if "infoRows" in node:            # één muziekkaartje
+            # nieuwe opmaak: kaartje met titel (nummer), subtitel (artiest), tweede subtitel (album)
+            if "videoAttributeViewModel" in node:
+                vm = node["videoAttributeViewModel"]
+                song, artist = text(vm.get("title")).strip(), text(vm.get("subtitle")).strip()
+                if song and artist:
+                    tracks.append({"artist": artist.split(",")[0].strip(), "title": song})
+                return
+            # oude opmaak: rijen met SONG / ARTIST / ALBUM
+            if "infoRows" in node:
                 song = artist = ""
                 for row in node["infoRows"]:
                     r = row.get("infoRowRenderer", {})
