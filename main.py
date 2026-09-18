@@ -38,7 +38,13 @@ BLOCKED_GENRES = {
 # Artiesten die nooit in de playlist mogen komen (kleine letters)
 BLOCKED_ARTISTS = {
     "christ.", "slag boom van loon", "slagboom van loon", "nick hakim",
-    "dido", "pati yang", "apparat", "perfect person",
+    "dido", "pati yang", "apparat", "perfect person", "zwangere guy",
+}
+
+# Genres die alleen voor een specifieke bron geblokkeerd zijn.
+# Rock via Studio Brussel of Radio 1 blijft welkom; alleen KEXP levert te rauw.
+SOURCE_BLOCKED_GENRES = {
+    "KEXP-NewThisWeek": {"rock", "punk", "garage", "grunge", "metal", "hardcore"},
 }
 
 RECENCY_FILTER_PLAYLISTS = {"Nummers-2026"}
@@ -54,6 +60,10 @@ SPOTIFY_PLAYLISTS = [
     ("3hFEXeWLaMQdBvdd32KwXR", "LaurenLaverne-JustAdded"),
     ("60VayqPuLXaftoj2Wrqpti", "KEXP-NewThisWeek"),
     ("4t9mOf6WlfO8oK1PcVzPRM", "WFUV-NYSlice2026"),
+    ("2udv9AERTo3Um2WIPZpwBi", "KCRW-MorningBecomesEclectic"),
+    ("15sEKis3r03h8lBnOIbO5x", "FIP-Live"),
+    ("3hg5HCEvit4oqMDuBuHh4C", "WXPN-BestNewMusic"),
+    ("3VTPnIL7NTNOFgpoOu23c7", "GillesPeterson-Saturdays"),
 ]
 
 SEED_ARTISTS = [
@@ -114,6 +124,7 @@ def purge_unwanted(session: tidalapi.Session, playlist_id: str, playlist_log: di
     try:
         tracks = list(session.playlist(playlist_id).tracks())
         genre_cache = {}
+        genre_cache_tags = {}
         to_remove = []
         for idx, track in enumerate(tracks):
             tid    = str(track.id)
@@ -124,13 +135,16 @@ def purge_unwanted(session: tidalapi.Session, playlist_id: str, playlist_log: di
             artist_name = track.artist.name.strip().lower()
 
             # Genres eenmalig opzoeken als ze nog niet zijn opgeslagen
-            if "genres" not in entry and token:
+            if "genres" not in entry or not entry.get("genres"):
                 if artist_name not in genre_cache:
-                    genre_cache[artist_name] = lookup_genres_by_name(token, track.artist.name)[:4]
+                    spotify_g = lookup_genres_by_name(token, track.artist.name)[:4] if token else []
+                    genre_cache[artist_name] = resolve_genres(spotify_g, track.artist.name, genre_cache_tags)[:4]
                 entry["genres"] = genre_cache[artist_name]
 
             genres = entry.get("genres", [])
-            if artist_name in BLOCKED_ARTISTS or genres_blocked(genres):
+            src    = entry.get("source", "")
+            if (artist_name in BLOCKED_ARTISTS or genres_blocked(genres)
+                    or genres_blocked_for_source(genres, src)):
                 to_remove.append((idx, tid, track.artist.name, track.name))
 
         if to_remove:
@@ -181,14 +195,6 @@ def fetch_artist_genres(token: str, artist_ids: list[str]) -> dict[str, list[str
     return genres
 
 
-def is_blocked(artist_id: str, genre_map: dict) -> bool:
-    return any(
-        blocked in genre
-        for genre in genre_map.get(artist_id, [])
-        for blocked in BLOCKED_GENRES
-    )
-
-
 def lookup_genres_by_name(token: str, artist_name: str) -> list[str]:
     """Zoekt een artiest op naam in Spotify en geeft de genres terug (voor Last.fm-kandidaten)."""
     try:
@@ -207,8 +213,43 @@ def lookup_genres_by_name(token: str, artist_name: str) -> list[str]:
     return []
 
 
+_lastfm_network = None
+
+def get_lastfm_network() -> pylast.LastFMNetwork:
+    global _lastfm_network
+    if _lastfm_network is None:
+        _lastfm_network = pylast.LastFMNetwork(
+            api_key=LASTFM_API_KEY, api_secret=LASTFM_API_SECRET,
+            username=LASTFM_USERNAME, password_hash=LASTFM_PASSWORD_HASH,
+        )
+    return _lastfm_network
+
+
+def lastfm_tags(artist_name: str) -> list[str]:
+    """Fallback als Spotify geen genres kent: Last.fm-tags van de artiest."""
+    try:
+        tags = get_lastfm_network().get_artist(artist_name).get_top_tags(limit=6)
+        return [str(t.item.get_name()).lower().replace("-", " ") for t in tags]
+    except Exception:
+        return []
+
+
+def resolve_genres(spotify_genres: list[str], artist_name: str, cache: dict) -> list[str]:
+    """Spotify-genres, of anders Last.fm-tags (gecached per artiest)."""
+    if spotify_genres:
+        return spotify_genres
+    if artist_name not in cache:
+        cache[artist_name] = lastfm_tags(artist_name)
+    return cache[artist_name]
+
+
 def genres_blocked(genres: list[str]) -> bool:
     return any(blocked in g for g in genres for blocked in BLOCKED_GENRES)
+
+
+def genres_blocked_for_source(genres: list[str], source: str) -> bool:
+    blocked = SOURCE_BLOCKED_GENRES.get(source, set())
+    return any(b in g for g in genres for b in blocked)
 
 
 def get_spotify_playlist_tracks(
@@ -389,25 +430,34 @@ def main():
     spotify_candidates = get_all_spotify_tracks(token) if token else []
     lastfm_candidates  = get_lastfm_discoveries()
 
-    # Genre-filter op Spotify-kandidaten
+    # Genres bepalen per kandidaat: Spotify eerst, Last.fm-tags als fallback
     genre_map = {}
+    tag_cache = {}
     if token and spotify_candidates:
         artist_ids = list({c["artist_id"] for c in spotify_candidates if c.get("artist_id")})
         genre_map  = fetch_artist_genres(token, artist_ids)
         before     = len(spotify_candidates)
-        spotify_candidates = [c for c in spotify_candidates if not is_blocked(c.get("artist_id", ""), genre_map)]
-        blocked_n  = before - len(spotify_candidates)
+        kept = []
+        for c in spotify_candidates:
+            c["genres"] = resolve_genres(
+                genre_map.get(c.get("artist_id", ""), []), c["artist"], tag_cache)
+            if genres_blocked(c["genres"]) or genres_blocked_for_source(c["genres"], c["source"]):
+                continue
+            kept.append(c)
+        spotify_candidates = kept
+        blocked_n = before - len(spotify_candidates)
         if blocked_n:
             print(f"[Genre] {blocked_n} Spotify-tracks geblokkeerd op genre")
 
-    # Genre-filter op Last.fm-kandidaten (opzoeken via Spotify search)
-    if token and lastfm_candidates:
+    # Genre-filter op Last.fm-kandidaten (Spotify search, dan tag-fallback)
+    if lastfm_candidates:
         lastfm_genre_cache = {}
         kept = []
         for c in lastfm_candidates:
             name = c["artist"]
             if name not in lastfm_genre_cache:
-                lastfm_genre_cache[name] = lookup_genres_by_name(token, name)
+                spotify_g = lookup_genres_by_name(token, name) if token else []
+                lastfm_genre_cache[name] = resolve_genres(spotify_g, name, tag_cache)
             c["genres"] = lastfm_genre_cache[name]
             if genres_blocked(c["genres"]):
                 print(f"  [Genre] Last.fm-artiest geblokkeerd: {name} ({', '.join(c['genres'][:3])})")
@@ -470,7 +520,7 @@ def main():
 
         added.append(tidal_track)
         existing_tidal_ids.add(tidal_id)
-        genres = (genre_map.get(candidate.get("artist_id", ""), []) or candidate.get("genres", []))[:4]
+        genres = candidate.get("genres", [])[:4]
         seen[key]              = {"date": today, "source": source}
         playlist_log[tidal_id] = {"date": today, "artist": artist, "title": title,
                                   "source": source, "genres": genres}
