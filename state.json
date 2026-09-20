@@ -1430,7 +1430,10 @@
     "jens lekman|the cold swedish winter": "2026-04-06",
     "charlotte cornfield|number": "2026-04-06",
     "yard sale|stopping in": "2026-04-06",
-    "aldous harding|one stop": "2026-04-06",
+    "aldous harding|one stop": {
+      "date": "2026-04-06",
+      "source": "NPR-AllSongsConsidered"
+    },
     "jawny|take it back (feat. beck)": "2026-04-06",
     "chartreuse|enough to make you laugh": "2026-04-06",
     "jessie ware|i could get used to this": "2026-04-06",
@@ -2630,7 +2633,10 @@
       "source": "WFUV-NYSlice2026"
     },
     "widowspeak|gun shy": "2026-07-06",
-    "beabadoobee|sun has set": "2026-07-06",
+    "beabadoobee|sun has set": {
+      "date": "2026-07-06",
+      "source": "WXPN-BestNewMusic"
+    },
     "alex vs alex|garden": "2026-07-06",
     "sun kil moon|gentle moon": {
       "date": "2026-07-06",
@@ -5032,6 +5038,202 @@
     "kids with buns|best friend": {
       "date": "2026-09-18",
       "source": "Radio1-Top30"
+    },
+    "julio bashmore|au seve": {
+      "date": "2026-09-20",
+      "source": "GillesPeterson-Saturdays"
+    },
+    "slayyyter|brand new chanel$": {
+      "date": "2026-09-20",
+      "source": "NPR-AllSongsConsidered"
+    },
+    "soma sonic|could it be real (remix)": {
+      "date": "2026-09-20",
+      "source": "LastFM~Zero 7"
+    },
+    "lost in lona|now i feel it": {
+      "date": "2026-09-20",
+      "source": "KEXP-NewThisWeek"
+    },
+    "buck meek|halo light": {
+      "date": "2026-09-20",
+      "source": "LastFM~Adrianne Lenker"
+    },
+    "flora from kansas|the end": {
+      "date": "2026-09-20",
+      "source": "KCRW-MorningBecomesEclectic"
+    },
+    "phoebe bridgers|moon song": {
+      "date": "2026-09-20",
+      "source": "LastFM~Adrianne Lenker"
+    },
+    "phoebe bridgers|punisher": {
+      "date": "2026-09-20",
+      "source": "LastFM~Adrianne Lenker"
+    },
+    "vanishing twin|oral tradition": {
+      "date": "2026-09-20",
+      "source": "KEXP-NewThisWeek"
+    },
+    "kieran hebden|darkness, darkness": {
+      "date": "2026-09-20",
+      "source": "GillesPeterson-Saturdays"
+    },
+    "nuevos rios|la vida es un baile": {
+      "date": "2026-09-20",
+      "source": "KCRW-MorningBecomesEclectic"
+    },
+    "baths|wrecker": {
+      "date": "2026-09-20",
+      "source": "KEXP-NewThisWeek"
+    },
+    "gemma|see me (max tundra remix)": {
+      "date": "2026-09-20",
+      "source": "KCRW-MorningBecomesEclectic"
+    },
+    "king kooba|indian summer": {
+      "date": "2026-09-20",
+      "source": "LastFM~Zero 7"
+    },
+    "the war on drugs|who's that": {
+      "date": "2026-09-20",
+      "source": "Radio1-Top30"
+    },
+    "julio bashmore|bubblin": {
+      "date": "2026-09-20",
+      "source": "GillesPeterson-Saturdays"
+    },
+    "blondshell|heart has to work so hard": {
+      "date": "2026-09-20",
+      "source": "WXPN-BestNewMusic"
+    },
+    "phoebe bridgers|i know the end": {
+      "date": "2026-09-20",
+      "source": "LastFM~Adrianne Lenker"
+    },
+    "omasta|in your face": {
+      "date": "2026-09-20",
+      "source": "KEXP-NewThisWeek"
+    },
+    "dressed like boys|and then i woke up": {
+      "date": "2026-09-20",
+      "source": "Radio1-Top30"
+    },
+    "capyac|\"big crush en3rgy\"": {
+      "date": "2026-09-20",
+      "source": "KEXP-NewThisWeek"
+    },
+    "do amor|nossa bossa": {
+      "date": "2026-09-20",
+      "source": "GillesPeterson-Saturdays"
+    },
+    "low cut connie|can't be wrong": {
+      "date": "2026-09-20",
+      "source": "WXPN-BestNewMusic"
+    },
+    "thandii|my angel": {
+      "date": "2026-09-20",
+      "source": "KEXP-NewThisWeek"
+    },
+    "steve lacy|oh yeah?": {
+      "date": "2026-09-20",
+      "source": "WXPN-BestNewMusic"
+    },
+    "unkle|rabbit in your headlights": {
+      "date": "2026-09-20",
+      "source": "LastFM~Lamb"
+    },
+    "sault|free": {
+      "date": "2026-09-20",
+      "source": "LastFM~Cleo Sol"
+    },
+    "unkle|lonely soul": {
+      "date": "2026-09-20",
+      "source": "LastFM~Lamb"
+    },
+    "fkj|little little voice": {
+      "date": "2026-09-20",
+      "source": "NPR-AllSongsConsidered"
+    },
+    "flunk|everything is ending here": {
+      "date": "2026-09-20",
+      "source": "LastFM~Lamb"
+    },
+    "sault|masterpiece": {
+      "date": "2026-09-20",
+      "source": "LastFM~Cleo Sol"
+    },
+    "sault|wildfires": {
+      "date": "2026-09-20",
+      "source": "LastFM~Cleo Sol"
+    },
+    "michigander|freaking out": {
+      "date": "2026-09-20",
+      "source": "WXPN-BestNewMusic"
+    },
+    "sylvan esso|sledge": {
+      "date": "2026-09-20",
+      "source": "WXPN-BestNewMusic"
+    },
+    "valerie june|trouble in mind": {
+      "date": "2026-09-20",
+      "source": "KEXP-NewThisWeek"
+    },
+    "ibibio sound machine|chopping mountain": {
+      "date": "2026-09-20",
+      "source": "KEXP-NewThisWeek"
+    },
+    "flunk|on my balcony": {
+      "date": "2026-09-20",
+      "source": "LastFM~Lamb"
+    },
+    "king kooba|feel the colour": {
+      "date": "2026-09-20",
+      "source": "LastFM~Zero 7"
+    },
+    "la pirámide|pirámide": {
+      "date": "2026-09-20",
+      "source": "KCRW-MorningBecomesEclectic"
+    },
+    "caroline rose|yip yip yow": {
+      "date": "2026-09-20",
+      "source": "WXPN-BestNewMusic"
+    },
+    "flunk|play": {
+      "date": "2026-09-20",
+      "source": "LastFM~Lamb"
+    },
+    "o terno|bielzinho / bielzinho": {
+      "date": "2026-09-20",
+      "source": "GillesPeterson-Saturdays"
+    },
+    "buck meek|candle": {
+      "date": "2026-09-20",
+      "source": "LastFM~Adrianne Lenker"
+    },
+    "the youth play|cdmx": {
+      "date": "2026-09-20",
+      "source": "KEXP-NewThisWeek"
+    },
+    "buck meek|cannonball!": {
+      "date": "2026-09-20",
+      "source": "LastFM~Adrianne Lenker"
+    },
+    "thee sacred souls|any old fool": {
+      "date": "2026-09-20",
+      "source": "WXPN-BestNewMusic"
+    },
+    "telemakus|2054": {
+      "date": "2026-09-20",
+      "source": "KCRW-MorningBecomesEclectic"
+    },
+    "unkle|chemistry": {
+      "date": "2026-09-20",
+      "source": "LastFM~Lamb"
+    },
+    "bonobo|talk to me": {
+      "date": "2026-09-20",
+      "source": "KEXP-NewThisWeek"
     }
   },
   "playlist_log": {
@@ -5202,16 +5404,6 @@
         "acoustic"
       ]
     },
-    "103318320": {
-      "date": "2026-08-24",
-      "artist": "Ben Lukas Boysen",
-      "title": "Nocturne 4",
-      "source": "LastFM~Nils Frahm",
-      "genres": [
-        "neoclassical",
-        "ambient"
-      ]
-    },
     "6847435": {
       "date": "2026-08-24",
       "artist": "King Kooba",
@@ -5230,28 +5422,6 @@
       "source": "Radio1-Top30",
       "genres": [
         "nederpop"
-      ]
-    },
-    "530076990": {
-      "date": "2026-08-24",
-      "artist": "moonvine",
-      "title": "cherry spice",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "ambient",
-        "electronic",
-        "german",
-        "dance"
-      ]
-    },
-    "103317636": {
-      "date": "2026-08-24",
-      "artist": "Ben Lukas Boysen",
-      "title": "Only In The Dark",
-      "source": "LastFM~Nils Frahm",
-      "genres": [
-        "neoclassical",
-        "ambient"
       ]
     },
     "534290378": {
@@ -5414,16 +5584,6 @@
         "anti-folk"
       ]
     },
-    "240833303": {
-      "date": "2026-08-24",
-      "artist": "Ben Lukas Boysen",
-      "title": "Clarion - Kiasmos Remix",
-      "source": "LastFM~Nils Frahm",
-      "genres": [
-        "neoclassical",
-        "ambient"
-      ]
-    },
     "534642471": {
       "date": "2026-08-24",
       "artist": "Roosbeef",
@@ -5506,15 +5666,6 @@
       "source": "LastFM~Grizzly Bear",
       "genres": [
         "baroque pop"
-      ]
-    },
-    "553117040": {
-      "date": "2026-08-24",
-      "artist": "Jorja Smith",
-      "title": "Make It Your Home",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "uk r&b"
       ]
     },
     "393989323": {
@@ -5627,17 +5778,6 @@
       "title": "Kiss Me While You Can",
       "source": "KEXP-NewThisWeek",
       "genres": []
-    },
-    "483588828": {
-      "date": "2026-08-24",
-      "artist": "Planta Industrial",
-      "title": "Barra Payan",
-      "source": "WFUV-NYSlice2026",
-      "genres": [
-        "bedroom pop",
-        "alternative r&b",
-        "latin indie"
-      ]
     },
     "551940967": {
       "date": "2026-08-24",
@@ -5950,17 +6090,6 @@
       ],
       "artist": "Fink",
       "title": "Trouble's What You're In",
-      "source": "onbekend"
-    },
-    "90119049": {
-      "genres": [
-        "electronic",
-        "ambient",
-        "future garage",
-        "dubstep"
-      ],
-      "artist": "Maribou State",
-      "title": "Beginner's Luck",
       "source": "onbekend"
     },
     "45473108": {
@@ -6427,15 +6556,6 @@
         "slowcore"
       ]
     },
-    "552275978": {
-      "date": "2026-08-24",
-      "artist": "Rochelle Jordan",
-      "title": "Get It Off - KLSH Remix",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "alternative r&b"
-      ]
-    },
     "535912089": {
       "date": "2026-08-24",
       "artist": "Clara Hill",
@@ -6520,16 +6640,6 @@
         "singer songwriter"
       ]
     },
-    "532252605": {
-      "date": "2026-08-31",
-      "artist": "Sweetbreads",
-      "title": "Open Mic",
-      "source": "WFUV-NYSlice2026",
-      "genres": [
-        "ambient",
-        "electronic"
-      ]
-    },
     "534307311": {
       "date": "2026-08-31",
       "artist": "Kokoroko",
@@ -6550,16 +6660,6 @@
       "genres": [
         "art pop",
         "indie soul"
-      ]
-    },
-    "546054379": {
-      "date": "2026-08-31",
-      "artist": "Ojerime",
-      "title": "TOPDOWN",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "alternative r&b",
-        "uk r&b"
       ]
     },
     "583718": {
@@ -6914,18 +7014,6 @@
         "indie folk"
       ]
     },
-    "542040043": {
-      "date": "2026-09-07",
-      "artist": "moonvine",
-      "title": "catch me if you can",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "ambient",
-        "electronic",
-        "german",
-        "dance"
-      ]
-    },
     "549016998": {
       "date": "2026-09-07",
       "artist": "Outer Shapes",
@@ -6974,16 +7062,6 @@
         "indie folk",
         "folk",
         "folk pop"
-      ]
-    },
-    "530142485": {
-      "date": "2026-09-07",
-      "artist": "Emily A. Sprague",
-      "title": "Noon Liquid Ore",
-      "source": "NPR-AllSongsConsidered",
-      "genres": [
-        "ambient",
-        "drone"
       ]
     },
     "543973119": {
@@ -7095,16 +7173,6 @@
       "source": "WFUV-NYSlice2026",
       "genres": []
     },
-    "549196846": {
-      "date": "2026-09-07",
-      "artist": "Tiana Major9",
-      "title": "MORE",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "uk r&b",
-        "alternative r&b"
-      ]
-    },
     "555944413": {
       "date": "2026-09-07",
       "artist": "Dominic Fike",
@@ -7155,15 +7223,6 @@
       "source": "LastFM~Jose Gonzalez",
       "genres": [
         "indie folk"
-      ]
-    },
-    "546843744": {
-      "date": "2026-09-07",
-      "artist": "OHMA",
-      "title": "Ever Expanding",
-      "source": "NPR-AllSongsConsidered",
-      "genres": [
-        "ambient jazz"
       ]
     },
     "530876877": {
@@ -7465,28 +7524,6 @@
         "lo-fi indie"
       ]
     },
-    "549196845": {
-      "date": "2026-09-14",
-      "artist": "Tiana Major9",
-      "title": "Heaven",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "uk r&b",
-        "alternative r&b"
-      ]
-    },
-    "556257800": {
-      "date": "2026-09-14",
-      "artist": "Claudia Isaki",
-      "title": "Origami",
-      "source": "NPR-AllSongsConsidered",
-      "genres": [
-        "christian r&b",
-        "christian jazz",
-        "christian lo-fi",
-        "christian"
-      ]
-    },
     "184854089": {
       "date": "2026-09-14",
       "artist": "Meitz",
@@ -7567,27 +7604,6 @@
         "bossa nova"
       ]
     },
-    "298827991": {
-      "date": "2026-09-18",
-      "artist": "Teddy Swims",
-      "title": "The Door",
-      "source": "FIP-Live",
-      "genres": [
-        "soul",
-        "singer songwriter",
-        "pop",
-        "rnb"
-      ]
-    },
-    "356158448": {
-      "date": "2026-09-18",
-      "artist": "Kygo",
-      "title": "For Life (feat. Nile Rodgers)",
-      "source": "FIP-Live",
-      "genres": [
-        "tropical house"
-      ]
-    },
     "270379635": {
       "date": "2026-09-18",
       "artist": "Kings of Convenience",
@@ -7617,42 +7633,6 @@
         "alternative rock",
         "country",
         "indie"
-      ]
-    },
-    "552419462": {
-      "date": "2026-09-18",
-      "artist": "Space Afrika",
-      "title": "MLN",
-      "source": "KCRW-MorningBecomesEclectic",
-      "genres": [
-        "dub techno",
-        "ambient",
-        "space music",
-        "experimental"
-      ]
-    },
-    "235068470": {
-      "date": "2026-09-18",
-      "artist": "Sia",
-      "title": "Unstoppable - R3HAB Remix",
-      "source": "FIP-Live",
-      "genres": [
-        "female vocalists",
-        "indie",
-        "chillout",
-        "trip hop"
-      ]
-    },
-    "338598779": {
-      "date": "2026-09-18",
-      "artist": "Ella Henderson",
-      "title": "Alibi (feat. Rudimental)",
-      "source": "FIP-Live",
-      "genres": [
-        "pop",
-        "british",
-        "soul",
-        "singer songwriter"
       ]
     },
     "551592479": {
@@ -7717,13 +7697,6 @@
         "americana"
       ]
     },
-    "483813651": {
-      "date": "2026-09-18",
-      "artist": "Greesha",
-      "title": "MY TEAM MY DREAM",
-      "source": "FIP-Live",
-      "genres": []
-    },
     "552416637": {
       "date": "2026-09-18",
       "artist": "Shygirl",
@@ -7741,24 +7714,6 @@
       "genres": [
         "indie folk",
         "folk"
-      ]
-    },
-    "290540438": {
-      "date": "2026-09-18",
-      "artist": "Secret Night Gang",
-      "title": "Out of My Head",
-      "source": "GillesPeterson-Saturdays",
-      "genres": [
-        "uk r&b"
-      ]
-    },
-    "550840129": {
-      "date": "2026-09-18",
-      "artist": "Jorja Smith",
-      "title": "I Lied, You Lied",
-      "source": "NPR-AllSongsConsidered",
-      "genres": [
-        "uk r&b"
       ]
     },
     "559192058": {
@@ -7791,18 +7746,6 @@
         "singer songwriter"
       ]
     },
-    "21636749": {
-      "date": "2026-09-18",
-      "artist": "Lana Del Rey",
-      "title": "Summertime - Imanbek Remix",
-      "source": "FIP-Live",
-      "genres": [
-        "indie",
-        "female vocalists",
-        "indie pop",
-        "pop"
-      ]
-    },
     "551650531": {
       "date": "2026-09-18",
       "artist": "Cornelius",
@@ -7820,15 +7763,6 @@
       "source": "LastFM~Agnes Obel",
       "genres": [
         "indie folk"
-      ]
-    },
-    "292983167": {
-      "date": "2026-09-18",
-      "artist": "Phil Moffa",
-      "title": "Alma Del Mundo - Photay Remix",
-      "source": "GillesPeterson-Saturdays",
-      "genres": [
-        "dub techno"
       ]
     },
     "497937120": {
@@ -7892,16 +7826,6 @@
         "indie folk"
       ]
     },
-    "519949128": {
-      "date": "2026-09-18",
-      "artist": "Asher White",
-      "title": "My day at the casino",
-      "source": "NPR-AllSongsConsidered",
-      "genres": [
-        "bedroom pop",
-        "alternative r&b"
-      ]
-    },
     "216685225": {
       "date": "2026-09-18",
       "artist": "Saya Gray",
@@ -7923,40 +7847,6 @@
         "synthpop",
         "electronic",
         "usa"
-      ]
-    },
-    "538853122": {
-      "date": "2026-09-18",
-      "artist": "sofii",
-      "title": "God",
-      "source": "KCRW-MorningBecomesEclectic",
-      "genres": [
-        "bedroom pop",
-        "alternative r&b"
-      ]
-    },
-    "356889602": {
-      "date": "2026-09-18",
-      "artist": "Teddy Swims",
-      "title": "Lose Control - Radio Edit",
-      "source": "FIP-Live",
-      "genres": [
-        "soul",
-        "singer songwriter",
-        "pop",
-        "rnb"
-      ]
-    },
-    "218953140": {
-      "date": "2026-09-18",
-      "artist": "Imagine Dragons",
-      "title": "Bones",
-      "source": "FIP-Live",
-      "genres": [
-        "indie",
-        "indie rock",
-        "alternative",
-        "rock"
       ]
     },
     "521479126": {
@@ -7997,15 +7887,6 @@
         "neo soul",
         "alternative r&b",
         "uk r&b"
-      ]
-    },
-    "339259701": {
-      "date": "2026-09-18",
-      "artist": "Kygo",
-      "title": "Whatever",
-      "source": "FIP-Live",
-      "genres": [
-        "tropical house"
       ]
     },
     "547171567": {
@@ -8090,15 +7971,6 @@
         "folk"
       ]
     },
-    "356276483": {
-      "date": "2026-09-18",
-      "artist": "Sabrina Carpenter",
-      "title": "Espresso",
-      "source": "FIP-Live",
-      "genres": [
-        "pop"
-      ]
-    },
     "6696115": {
       "date": "2026-09-18",
       "artist": "Fink",
@@ -8131,13 +8003,6 @@
         "singer songwriter",
         "folk"
       ]
-    },
-    "422780639": {
-      "date": "2026-09-18",
-      "artist": "Greesha",
-      "title": "Down For The Ride",
-      "source": "FIP-Live",
-      "genres": []
     },
     "270734604": {
       "date": "2026-09-18",
@@ -8254,15 +8119,6 @@
         "alternative rock"
       ]
     },
-    "401859809": {
-      "date": "2026-09-18",
-      "artist": "MOLIY",
-      "title": "SHAKE IT TO THE MAX (FLY) - REMIX",
-      "source": "FIP-Live",
-      "genres": [
-        "alté"
-      ]
-    },
     "504336157": {
       "date": "2026-09-18",
       "artist": "Josh da Costa",
@@ -8296,18 +8152,6 @@
         "jazz"
       ]
     },
-    "358436395": {
-      "date": "2026-09-18",
-      "artist": "Myles Smith",
-      "title": "Stargazing",
-      "source": "FIP-Live",
-      "genres": [
-        "folk",
-        "british",
-        "pop",
-        "americana"
-      ]
-    },
     "545696077": {
       "date": "2026-09-18",
       "artist": "The Strokes",
@@ -8329,18 +8173,6 @@
         "pop",
         "soul",
         "dutch"
-      ]
-    },
-    "393536993": {
-      "date": "2026-09-18",
-      "artist": "Gracie Abrams",
-      "title": "That’s So True",
-      "source": "FIP-Live",
-      "genres": [
-        "pop",
-        "indie pop",
-        "my top songs",
-        "singer songwriter"
       ]
     },
     "534788195": {
@@ -8367,16 +8199,6 @@
         "rock"
       ]
     },
-    "541272736": {
-      "date": "2026-09-18",
-      "artist": "Normal Pleasure",
-      "title": "Overstimulation",
-      "source": "KCRW-MorningBecomesEclectic",
-      "genres": [
-        "wonky techno",
-        "house"
-      ]
-    },
     "556379877": {
       "date": "2026-09-18",
       "artist": "49th & Main",
@@ -8398,13 +8220,6 @@
         "indie folk",
         "folk pop"
       ]
-    },
-    "293707178": {
-      "date": "2026-09-18",
-      "artist": "Greesha",
-      "title": "Baila",
-      "source": "FIP-Live",
-      "genres": []
     },
     "62202771": {
       "date": "2026-09-18",
@@ -8475,16 +8290,6 @@
         "uk r&b"
       ]
     },
-    "381265487": {
-      "date": "2026-09-18",
-      "artist": "Lady Gaga",
-      "title": "Die With A Smile",
-      "source": "FIP-Live",
-      "genres": [
-        "art pop",
-        "pop"
-      ]
-    },
     "556818088": {
       "date": "2026-09-18",
       "artist": "Arab Strap",
@@ -8515,6 +8320,531 @@
         "indie rock",
         "indie",
         "female vocalists"
+      ]
+    },
+    "251633366": {
+      "date": "2026-09-20",
+      "artist": "Julio Bashmore",
+      "title": "Au Seve",
+      "source": "GillesPeterson-Saturdays",
+      "genres": [
+        "house",
+        "electronic",
+        "uk funky",
+        "experimental"
+      ]
+    },
+    "546849001": {
+      "date": "2026-09-20",
+      "artist": "Slayyyter",
+      "title": "brand new chanel$",
+      "source": "NPR-AllSongsConsidered",
+      "genres": [
+        "hyperpop"
+      ]
+    },
+    "32964611": {
+      "date": "2026-09-20",
+      "artist": "Soma Sonic",
+      "title": "Could It Be Real (Remix)",
+      "source": "LastFM~Zero 7",
+      "genres": [
+        "trip hop",
+        "downtempo"
+      ]
+    },
+    "540953507": {
+      "date": "2026-09-20",
+      "artist": "Lost in Lona",
+      "title": "Now I Feel It",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "indie pop",
+        "folk",
+        "switzerland",
+        "basel"
+      ]
+    },
+    "156379457": {
+      "date": "2026-09-20",
+      "artist": "Buck Meek",
+      "title": "Halo Light",
+      "source": "LastFM~Adrianne Lenker",
+      "genres": [
+        "folk",
+        "indie",
+        "singer songwriter",
+        "americana"
+      ]
+    },
+    "533920729": {
+      "date": "2026-09-20",
+      "artist": "Flora from Kansas",
+      "title": "The End",
+      "source": "KCRW-MorningBecomesEclectic",
+      "genres": [
+        "singer songwriter",
+        "indie",
+        "dream pop",
+        "alternative"
+      ]
+    },
+    "135629251": {
+      "date": "2026-09-20",
+      "artist": "Phoebe Bridgers",
+      "title": "Moon Song",
+      "source": "LastFM~Adrianne Lenker",
+      "genres": [
+        "singer songwriter",
+        "indie folk",
+        "folk",
+        "indie rock"
+      ]
+    },
+    "135629248": {
+      "date": "2026-09-20",
+      "artist": "Phoebe Bridgers",
+      "title": "Punisher",
+      "source": "LastFM~Adrianne Lenker",
+      "genres": [
+        "singer songwriter",
+        "indie folk",
+        "folk",
+        "indie rock"
+      ]
+    },
+    "528694054": {
+      "date": "2026-09-20",
+      "artist": "Vanishing Twin",
+      "title": "Oral Tradition",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "neo-psychedelic"
+      ]
+    },
+    "287303007": {
+      "date": "2026-09-20",
+      "artist": "Kieran Hebden",
+      "title": "Darkness, Darkness",
+      "source": "GillesPeterson-Saturdays",
+      "genres": [
+        "free jazz"
+      ]
+    },
+    "486555003": {
+      "date": "2026-09-20",
+      "artist": "Nuevos Rios",
+      "title": "La Vida es un Baile",
+      "source": "KCRW-MorningBecomesEclectic",
+      "genres": [
+        "latin alternative",
+        "mexican indie"
+      ]
+    },
+    "542738172": {
+      "date": "2026-09-20",
+      "artist": "Baths",
+      "title": "Wrecker",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "chillwave"
+      ]
+    },
+    "529769755": {
+      "date": "2026-09-20",
+      "artist": "Gemma",
+      "title": "See Me (Max Tundra Remix)",
+      "source": "KCRW-MorningBecomesEclectic",
+      "genres": [
+        "pop",
+        "indie pop",
+        "rnb",
+        "alternative"
+      ]
+    },
+    "6847476": {
+      "date": "2026-09-20",
+      "artist": "King Kooba",
+      "title": "Indian Summer",
+      "source": "LastFM~Zero 7",
+      "genres": [
+        "downtempo",
+        "acid jazz",
+        "trip hop"
+      ]
+    },
+    "555883302": {
+      "date": "2026-09-20",
+      "artist": "The War On Drugs",
+      "title": "Who's That",
+      "source": "Radio1-Top30",
+      "genres": [
+        "indie rock"
+      ]
+    },
+    "291996069": {
+      "date": "2026-09-20",
+      "artist": "Julio Bashmore",
+      "title": "Bubblin",
+      "source": "GillesPeterson-Saturdays",
+      "genres": [
+        "house",
+        "electronic",
+        "uk funky",
+        "experimental"
+      ]
+    },
+    "520634710": {
+      "date": "2026-09-20",
+      "artist": "Blondshell",
+      "title": "Heart Has To Work So Hard",
+      "source": "WXPN-BestNewMusic",
+      "genres": [
+        "indie rock",
+        "indie",
+        "dream pop",
+        "grunge"
+      ]
+    },
+    "135629255": {
+      "date": "2026-09-20",
+      "artist": "Phoebe Bridgers",
+      "title": "I Know the End",
+      "source": "LastFM~Adrianne Lenker",
+      "genres": [
+        "singer songwriter",
+        "indie folk",
+        "folk",
+        "indie rock"
+      ]
+    },
+    "544108462": {
+      "date": "2026-09-20",
+      "artist": "Omasta",
+      "title": "In Your Face",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "nu jazz",
+        "experimental jazz",
+        "jazz"
+      ]
+    },
+    "548907836": {
+      "date": "2026-09-20",
+      "artist": "Dressed Like Boys",
+      "title": "And Then I Woke Up",
+      "source": "Radio1-Top30",
+      "genres": [
+        "indie pop",
+        "indie",
+        "singer songwriter",
+        "indie rock"
+      ]
+    },
+    "551506002": {
+      "date": "2026-09-20",
+      "artist": "CAPYAC",
+      "title": "\"Big CrUsh En3rgY\"",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "nu disco"
+      ]
+    },
+    "282058627": {
+      "date": "2026-09-20",
+      "artist": "Do Amor",
+      "title": "Nossa Bossa",
+      "source": "GillesPeterson-Saturdays",
+      "genres": [
+        "new mpb",
+        "tecnobrega"
+      ]
+    },
+    "493236771": {
+      "date": "2026-09-20",
+      "artist": "Low Cut Connie",
+      "title": "Can't Be Wrong",
+      "source": "WXPN-BestNewMusic",
+      "genres": [
+        "rock and roll",
+        "rock",
+        "boogie",
+        "americana"
+      ]
+    },
+    "534485379": {
+      "date": "2026-09-20",
+      "artist": "Thandii",
+      "title": "My Angel",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "indie jazz"
+      ]
+    },
+    "542734708": {
+      "date": "2026-09-20",
+      "artist": "Steve Lacy",
+      "title": "oh yeah?",
+      "source": "WXPN-BestNewMusic",
+      "genres": [
+        "free jazz",
+        "jazz",
+        "saxophone",
+        "rnb"
+      ]
+    },
+    "273876794": {
+      "date": "2026-09-20",
+      "artist": "UNKLE",
+      "title": "Rabbit in Your Headlights",
+      "source": "LastFM~Lamb",
+      "genres": [
+        "trip hop",
+        "downtempo"
+      ]
+    },
+    "154877783": {
+      "date": "2026-09-20",
+      "artist": "Sault",
+      "title": "Free",
+      "source": "LastFM~Cleo Sol",
+      "genres": [
+        "soul",
+        "rnb",
+        "neo soul",
+        "indie"
+      ]
+    },
+    "273876785": {
+      "date": "2026-09-20",
+      "artist": "UNKLE",
+      "title": "Lonely Soul",
+      "source": "LastFM~Lamb",
+      "genres": [
+        "trip hop",
+        "downtempo"
+      ]
+    },
+    "526023936": {
+      "date": "2026-09-20",
+      "artist": "FKJ",
+      "title": "Little Little Voice",
+      "source": "NPR-AllSongsConsidered",
+      "genres": [
+        "electronic",
+        "funk",
+        "downtempo",
+        "nu jazz"
+      ]
+    },
+    "435565": {
+      "date": "2026-09-20",
+      "artist": "Flunk",
+      "title": "Everything Is Ending Here",
+      "source": "LastFM~Lamb",
+      "genres": [
+        "trip hop",
+        "downtempo"
+      ]
+    },
+    "117812384": {
+      "date": "2026-09-20",
+      "artist": "Sault",
+      "title": "Masterpiece",
+      "source": "LastFM~Cleo Sol",
+      "genres": [
+        "soul",
+        "rnb",
+        "neo soul",
+        "indie"
+      ]
+    },
+    "145480575": {
+      "date": "2026-09-20",
+      "artist": "Sault",
+      "title": "Wildfires",
+      "source": "LastFM~Cleo Sol",
+      "genres": [
+        "soul",
+        "rnb",
+        "neo soul",
+        "indie"
+      ]
+    },
+    "516597043": {
+      "date": "2026-09-20",
+      "artist": "Michigander",
+      "title": "Freaking Out",
+      "source": "WXPN-BestNewMusic",
+      "genres": [
+        "indie rock",
+        "indie pop",
+        "alternative",
+        "indie"
+      ]
+    },
+    "524392565": {
+      "date": "2026-09-20",
+      "artist": "Sylvan Esso",
+      "title": "Sledge",
+      "source": "WXPN-BestNewMusic",
+      "genres": [
+        "electronic",
+        "electropop",
+        "synthpop",
+        "indie"
+      ]
+    },
+    "557600039": {
+      "date": "2026-09-20",
+      "artist": "Valerie June",
+      "title": "Trouble In Mind",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "folk",
+        "americana"
+      ]
+    },
+    "543996382": {
+      "date": "2026-09-20",
+      "artist": "Ibibio Sound Machine",
+      "title": "Chopping Mountain",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "afrobeat"
+      ]
+    },
+    "435559": {
+      "date": "2026-09-20",
+      "artist": "Flunk",
+      "title": "On My Balcony",
+      "source": "LastFM~Lamb",
+      "genres": [
+        "trip hop",
+        "downtempo"
+      ]
+    },
+    "6847434": {
+      "date": "2026-09-20",
+      "artist": "King Kooba",
+      "title": "Feel The Colour",
+      "source": "LastFM~Zero 7",
+      "genres": [
+        "downtempo",
+        "acid jazz",
+        "trip hop"
+      ]
+    },
+    "552489157": {
+      "date": "2026-09-20",
+      "artist": "La Pirámide",
+      "title": "Pirámide",
+      "source": "KCRW-MorningBecomesEclectic",
+      "genres": []
+    },
+    "539612709": {
+      "date": "2026-09-20",
+      "artist": "Caroline Rose",
+      "title": "Yip Yip Yow",
+      "source": "WXPN-BestNewMusic",
+      "genres": [
+        "indie pop"
+      ]
+    },
+    "301668": {
+      "date": "2026-09-20",
+      "artist": "Flunk",
+      "title": "Play",
+      "source": "LastFM~Lamb",
+      "genres": [
+        "trip hop",
+        "downtempo"
+      ]
+    },
+    "250518510": {
+      "date": "2026-09-20",
+      "artist": "O Terno",
+      "title": "Bielzinho / Bielzinho",
+      "source": "GillesPeterson-Saturdays",
+      "genres": [
+        "new mpb",
+        "mpb"
+      ]
+    },
+    "156379448": {
+      "date": "2026-09-20",
+      "artist": "Buck Meek",
+      "title": "Candle",
+      "source": "LastFM~Adrianne Lenker",
+      "genres": [
+        "folk",
+        "indie",
+        "singer songwriter",
+        "americana"
+      ]
+    },
+    "550779067": {
+      "date": "2026-09-20",
+      "artist": "The Youth Play",
+      "title": "CDMX",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "shoegaze"
+      ]
+    },
+    "102307874": {
+      "date": "2026-09-20",
+      "artist": "Buck Meek",
+      "title": "Cannonball!",
+      "source": "LastFM~Adrianne Lenker",
+      "genres": [
+        "folk",
+        "indie",
+        "singer songwriter",
+        "americana"
+      ]
+    },
+    "498676661": {
+      "date": "2026-09-20",
+      "artist": "Thee Sacred Souls",
+      "title": "Any Old Fool",
+      "source": "WXPN-BestNewMusic",
+      "genres": [
+        "retro soul"
+      ]
+    },
+    "539280140": {
+      "date": "2026-09-20",
+      "artist": "Telemakus",
+      "title": "2054",
+      "source": "KCRW-MorningBecomesEclectic",
+      "genres": [
+        "nu jazz",
+        "jazz fusion",
+        "jazz funk",
+        "experimental jazz"
+      ]
+    },
+    "42754273": {
+      "date": "2026-09-20",
+      "artist": "UNKLE",
+      "title": "Chemistry",
+      "source": "LastFM~Lamb",
+      "genres": [
+        "trip hop",
+        "downtempo"
+      ]
+    },
+    "532092082": {
+      "date": "2026-09-20",
+      "artist": "Bonobo",
+      "title": "Talk to Me",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "trip hop",
+        "downtempo",
+        "nu jazz",
+        "electronic"
       ]
     }
   }
