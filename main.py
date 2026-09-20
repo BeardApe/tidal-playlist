@@ -32,8 +32,13 @@ BLOCKED_GENRES = {
     "hard rock", "heavy metal", "metal", "punk",
     "hardcore", "noise rock", "death metal", "thrash metal",
     "edm", "electro house", "big room",
-    "minimal techno", "minimal", "idm", "glitch", "microhouse",
+    "minimal", "idm", "glitch", "microhouse",
+    "techno", "ambient", "christian",
+    "alternative r&b", "uk r&b",
 }
+
+# Bronnen die zijn stopgezet: bestaande tracks hiervan worden gepurged
+BLOCKED_SOURCES = {"FIP-Live"}
 
 # Artiesten die nooit in de playlist mogen komen (kleine letters)
 BLOCKED_ARTISTS = {
@@ -61,7 +66,6 @@ SPOTIFY_PLAYLISTS = [
     ("60VayqPuLXaftoj2Wrqpti", "KEXP-NewThisWeek"),
     ("4t9mOf6WlfO8oK1PcVzPRM", "WFUV-NYSlice2026"),
     ("2udv9AERTo3Um2WIPZpwBi", "KCRW-MorningBecomesEclectic"),
-    ("15sEKis3r03h8lBnOIbO5x", "FIP-Live"),
     ("3hg5HCEvit4oqMDuBuHh4C", "WXPN-BestNewMusic"),
     ("3VTPnIL7NTNOFgpoOu23c7", "GillesPeterson-Saturdays"),
 ]
@@ -143,8 +147,9 @@ def purge_unwanted(session: tidalapi.Session, playlist_id: str, playlist_log: di
 
             genres = entry.get("genres", [])
             src    = entry.get("source", "")
-            if (artist_name in BLOCKED_ARTISTS or genres_blocked(genres)
-                    or genres_blocked_for_source(genres, src)):
+            genre_hit = (genres_blocked(genres) or genres_blocked_for_source(genres, src)) \
+                        and not is_seed(track.artist.name)
+            if artist_name in BLOCKED_ARTISTS or genre_hit or src in BLOCKED_SOURCES:
                 to_remove.append((idx, tid, track.artist.name, track.name))
 
         if to_remove:
@@ -245,6 +250,13 @@ def resolve_genres(spotify_genres: list[str], artist_name: str, cache: dict) -> 
 
 def genres_blocked(genres: list[str]) -> bool:
     return any(blocked in g for g in genres for blocked in BLOCKED_GENRES)
+
+
+# Seed-artiesten zijn immuun voor genre-blokkades (niet voor BLOCKED_ARTISTS)
+SEED_WHITELIST = {a.strip().lower() for a in SEED_ARTISTS}
+
+def is_seed(artist_name: str) -> bool:
+    return artist_name.strip().lower() in SEED_WHITELIST
 
 
 def genres_blocked_for_source(genres: list[str], source: str) -> bool:
@@ -441,7 +453,8 @@ def main():
         for c in spotify_candidates:
             c["genres"] = resolve_genres(
                 genre_map.get(c.get("artist_id", ""), []), c["artist"], tag_cache)
-            if genres_blocked(c["genres"]) or genres_blocked_for_source(c["genres"], c["source"]):
+            if (genres_blocked(c["genres"]) or genres_blocked_for_source(c["genres"], c["source"])) \
+                    and not is_seed(c["artist"]):
                 continue
             kept.append(c)
         spotify_candidates = kept
@@ -459,7 +472,7 @@ def main():
                 spotify_g = lookup_genres_by_name(token, name) if token else []
                 lastfm_genre_cache[name] = resolve_genres(spotify_g, name, tag_cache)
             c["genres"] = lastfm_genre_cache[name]
-            if genres_blocked(c["genres"]):
+            if genres_blocked(c["genres"]) and not is_seed(name):
                 print(f"  [Genre] Last.fm-artiest geblokkeerd: {name} ({', '.join(c['genres'][:3])})")
             else:
                 kept.append(c)
