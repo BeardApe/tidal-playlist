@@ -467,6 +467,110 @@
     "betty carter|my favourite things": {
       "date": "2026-09-13",
       "source": "LastFM~Johnny Hartman"
+    },
+    "jazzmeia horn|tight": {
+      "date": "2026-09-20",
+      "source": "LastFM~Cyrille Aimée"
+    },
+    "lars danielsson|asta": {
+      "date": "2026-09-20",
+      "source": "LastFM~Ibrahim Maalouf"
+    },
+    "abbey lincoln|being me": {
+      "date": "2026-09-20",
+      "source": "Seed~Abbey Lincoln"
+    },
+    "karrin allyson|i wish i knew": {
+      "date": "2026-09-20",
+      "source": "LastFM~Sara Gazarek"
+    },
+    "antônio carlos jobim|garota de ipanema": {
+      "date": "2026-09-20",
+      "source": "Tag~bossa nova"
+    },
+    "lars danielsson|lviv": {
+      "date": "2026-09-20",
+      "source": "LastFM~Ibrahim Maalouf"
+    },
+    "jane monheit|in the still of the night": {
+      "date": "2026-09-20",
+      "source": "LastFM~Sara Gazarek"
+    },
+    "ibrahim maalouf|free spirit": {
+      "date": "2026-09-20",
+      "source": "Seed~Ibrahim Maalouf"
+    },
+    "father john misty|mental health": {
+      "date": "2026-09-20",
+      "source": "Tag~traditional pop"
+    },
+    "gabi hartmann|people tell me / les gens me disent (feat. julian lage)": {
+      "date": "2026-09-20",
+      "source": "LastFM~Cyrille Aimée"
+    },
+    "abbey lincoln|bird alone": {
+      "date": "2026-09-20",
+      "source": "LastFM~Jimmy Scott"
+    },
+    "jazzmeia horn|no more": {
+      "date": "2026-09-20",
+      "source": "LastFM~Cyrille Aimée"
+    },
+    "jane monheit|honeysuckle rose": {
+      "date": "2026-09-20",
+      "source": "LastFM~Sara Gazarek"
+    },
+    "ibrahim maalouf|illusions": {
+      "date": "2026-09-20",
+      "source": "Seed~Ibrahim Maalouf"
+    },
+    "abbey lincoln|and it's supposed to be love": {
+      "date": "2026-09-20",
+      "source": "LastFM~Jimmy Scott"
+    },
+    "laufey|goddess": {
+      "date": "2026-09-20",
+      "source": "Tag~traditional pop"
+    },
+    "lars danielsson|passacaglia": {
+      "date": "2026-09-20",
+      "source": "LastFM~Ibrahim Maalouf"
+    },
+    "astrud gilberto|fly me to the moon": {
+      "date": "2026-09-20",
+      "source": "Tag~bossa nova"
+    },
+    "jazzmeia horn|i remember you": {
+      "date": "2026-09-20",
+      "source": "LastFM~Cyrille Aimée"
+    },
+    "vincent peirani|night walker": {
+      "date": "2026-09-20",
+      "source": "LastFM~Ibrahim Maalouf"
+    },
+    "chet baker|i fall in love too easily": {
+      "date": "2026-09-20",
+      "source": "Tag~cool jazz"
+    },
+    "abbey lincoln|left alone": {
+      "date": "2026-09-20",
+      "source": "LastFM~Jimmy Scott"
+    },
+    "jorge ben|mas, que nada!": {
+      "date": "2026-09-20",
+      "source": "Tag~bossa nova"
+    },
+    "jane monheit|cheek to cheek": {
+      "date": "2026-09-20",
+      "source": "LastFM~Sara Gazarek"
+    },
+    "vincent peirani|army dreamers": {
+      "date": "2026-09-20",
+      "source": "LastFM~Ibrahim Maalouf"
+    },
+    "gabi hartmann|drink the ocean (feat. oracle sisters)": {
+      "date": "2026-09-20",
+      "source": "LastFM~Cyrille Aimée"
     }
   },
   "playlist_log": {
@@ -1485,6 +1589,260 @@
         "vocal jazz",
         "jazz",
         "jazz ballads"
+      ]
+    },
+    "77696755": {
+      "date": "2026-09-20",
+      "artist": "Jazzmeia Horn",
+      "title": "Tight",
+      "source": "LastFM~Cyrille Aimée",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "4436891": {
+      "date": "2026-09-20",
+      "artist": "Lars Danielsson",
+      "title": "Asta",
+      "source": "LastFM~Ibrahim Maalouf",
+      "genres": [
+        "jazz",
+        "cool jazz"
+      ]
+    },
+    "530292": {
+      "date": "2026-09-20",
+      "artist": "Abbey Lincoln",
+      "title": "Being Me",
+      "source": "Seed~Abbey Lincoln",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "2937886": {
+      "date": "2026-09-20",
+      "artist": "Karrin Allyson",
+      "title": "I Wish I Knew",
+      "source": "LastFM~Sara Gazarek",
+      "genres": [
+        "vocal jazz",
+        "french jazz",
+        "jazz",
+        "bossa nova"
+      ]
+    },
+    "63831525": {
+      "date": "2026-09-20",
+      "artist": "Antônio Carlos Jobim",
+      "title": "Garota de Ipanema",
+      "source": "Tag~bossa nova",
+      "genres": [
+        "bossa nova",
+        "brazilian jazz",
+        "mpb",
+        "latin jazz"
+      ]
+    },
+    "73523414": {
+      "date": "2026-09-20",
+      "artist": "Lars Danielsson",
+      "title": "Lviv",
+      "source": "LastFM~Ibrahim Maalouf",
+      "genres": [
+        "jazz",
+        "cool jazz"
+      ]
+    },
+    "1745262": {
+      "date": "2026-09-20",
+      "artist": "Jane Monheit",
+      "title": "In The Still Of The Night",
+      "source": "LastFM~Sara Gazarek",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "155555184": {
+      "date": "2026-09-20",
+      "artist": "Ibrahim Maalouf",
+      "title": "Free Spirit",
+      "source": "Seed~Ibrahim Maalouf",
+      "genres": [
+        "french jazz",
+        "jazz"
+      ]
+    },
+    "381007660": {
+      "date": "2026-09-20",
+      "artist": "Father John Misty",
+      "title": "Mental Health",
+      "source": "Tag~traditional pop",
+      "genres": []
+    },
+    "267676266": {
+      "date": "2026-09-20",
+      "artist": "Gabi Hartmann",
+      "title": "People Tell Me / Les gens me disent (feat. Julian Lage)",
+      "source": "LastFM~Cyrille Aimée",
+      "genres": [
+        "french jazz",
+        "vocal jazz"
+      ]
+    },
+    "3616798": {
+      "date": "2026-09-20",
+      "artist": "Abbey Lincoln",
+      "title": "Bird Alone",
+      "source": "LastFM~Jimmy Scott",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "115579872": {
+      "date": "2026-09-20",
+      "artist": "Jazzmeia Horn",
+      "title": "No More",
+      "source": "LastFM~Cyrille Aimée",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "1745261": {
+      "date": "2026-09-20",
+      "artist": "Jane Monheit",
+      "title": "Honeysuckle Rose",
+      "source": "LastFM~Sara Gazarek",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "23258912": {
+      "date": "2026-09-20",
+      "artist": "Ibrahim Maalouf",
+      "title": "Illusions",
+      "source": "Seed~Ibrahim Maalouf",
+      "genres": [
+        "french jazz",
+        "jazz"
+      ]
+    },
+    "3993210": {
+      "date": "2026-09-20",
+      "artist": "Abbey Lincoln",
+      "title": "And It's Supposed To Be Love",
+      "source": "LastFM~Jimmy Scott",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "347827777": {
+      "date": "2026-09-20",
+      "artist": "Laufey",
+      "title": "Goddess",
+      "source": "Tag~traditional pop",
+      "genres": []
+    },
+    "32829449": {
+      "date": "2026-09-20",
+      "artist": "Lars Danielsson",
+      "title": "Passacaglia",
+      "source": "LastFM~Ibrahim Maalouf",
+      "genres": [
+        "jazz",
+        "cool jazz"
+      ]
+    },
+    "93226437": {
+      "date": "2026-09-20",
+      "artist": "Astrud Gilberto",
+      "title": "Fly Me To The Moon",
+      "source": "Tag~bossa nova",
+      "genres": [
+        "bossa nova",
+        "brazilian jazz",
+        "latin jazz",
+        "vocal jazz"
+      ]
+    },
+    "91536757": {
+      "date": "2026-09-20",
+      "artist": "Vincent Peirani",
+      "title": "Night Walker",
+      "source": "LastFM~Ibrahim Maalouf",
+      "genres": [
+        "french jazz",
+        "jazz"
+      ]
+    },
+    "158165": {
+      "date": "2026-09-20",
+      "artist": "Chet Baker",
+      "title": "I Fall in Love Too Easily",
+      "source": "Tag~cool jazz",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "vocal jazz",
+        "jazz ballads"
+      ]
+    },
+    "117795174": {
+      "date": "2026-09-20",
+      "artist": "Abbey Lincoln",
+      "title": "Left Alone",
+      "source": "LastFM~Jimmy Scott",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "53737525": {
+      "date": "2026-09-20",
+      "artist": "Jorge Ben",
+      "title": "Mas, Que Nada!",
+      "source": "Tag~bossa nova",
+      "genres": [
+        "mpb",
+        "bossa nova",
+        "samba",
+        "brazilian jazz"
+      ]
+    },
+    "42734560": {
+      "date": "2026-09-20",
+      "artist": "Jane Monheit",
+      "title": "Cheek To Cheek",
+      "source": "LastFM~Sara Gazarek",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "138543804": {
+      "date": "2026-09-20",
+      "artist": "Vincent Peirani",
+      "title": "Army Dreamers",
+      "source": "LastFM~Ibrahim Maalouf",
+      "genres": [
+        "french jazz",
+        "jazz"
+      ]
+    },
+    "421457014": {
+      "date": "2026-09-20",
+      "artist": "Gabi Hartmann",
+      "title": "Drink the Ocean (feat. Oracle Sisters)",
+      "source": "LastFM~Cyrille Aimée",
+      "genres": [
+        "french jazz",
+        "vocal jazz"
       ]
     }
   }
