@@ -183,7 +183,7 @@ footer {
 <header>
   <div class="eyebrow"><span class="dot"></span>on air — wekelijkse rotatie</div>
   <h1>Ochtendjazz</h1>
-  <p class="sub">Automatisch samengesteld uit Vuurland, KEXP, BBC, NPR en Last.fm-ontdekkingen · <a href="https://github.com/BeardApe/tidal-playlist" rel="noopener">broncode</a></p>
+  <p class="sub">Zachte cocktailbarjazz uit een vaste lijst albums, afwisselend zang en instrumentaal · <a href="https://github.com/BeardApe/tidal-playlist" rel="noopener">broncode</a></p>
 </header>
 
 <div class="stats" id="stats">
@@ -199,6 +199,7 @@ footer {
   <button class="tab active" role="tab" data-tab="current">Huidige playlist</button>
   <button class="tab" role="tab" data-tab="removed">Uitgerouleerd</button>
   <button class="tab" role="tab" data-tab="sources">Bronnen</button>
+  <button class="tab" role="tab" data-tab="genres">Genres</button>
 </nav>
 
 <div class="panel active" id="panel-current">
@@ -226,8 +227,12 @@ footer {
   <div id="t-sources"></div>
 </div>
 
+<div class="panel" id="panel-genres">
+  <div id="t-genres"></div>
+</div>
+
 <footer>
-  <div>rotatie: tracks verdwijnen na 30 dagen · dedupe: eenmaal gedraaid komt niet terug</div>
+  <div>rotatie: tracks verdwijnen na 30 dagen · een nummer mag na 120 dagen terugkomen</div>
   <div id="last-update"></div>
 </footer>
 
@@ -244,6 +249,7 @@ const getSource = e => typeof e === 'string' ? '' : (e && e.source) || '';
 const getArtist = e => typeof e === 'string' ? '' : (e && e.artist) || '';
 const getTitle  = e => typeof e === 'string' ? '' : (e && e.title)  || '';
 const getGenres = e => typeof e === 'string' ? [] : (e && e.genres) || [];
+const getKind   = e => typeof e === 'string' ? '' : (e && e.kind)   || '';
 
 function daysAgo(d) { return Math.floor((Date.now() - new Date(d + "T00:00:00").getTime()) / 86400000); }
 function cutoffStr() {
@@ -251,9 +257,15 @@ function cutoffStr() {
   return d.toISOString().slice(0, 10);
 }
 function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+function genreLine(t) {
+  const parts = [];
+  if (t.kind) parts.push(t.kind);
+  (t.genres || []).forEach(g => parts.push(g));
+  return parts.length ? `<div class="genres">${parts.map(esc).join(' · ')}</div>` : '';
+}
 function shortSrc(s) {
   if (!s) return '?';
-  return s.replace('LastFM~', '♪ ').replace('-latest','').replace('-Official','').replace('-JustAdded','');
+  return s.replace('Album~', '').replace('Pick~', '♪ ').replace('LastFM~', '♪ ').replace('-latest','').replace('-Official','').replace('-JustAdded','');
 }
 
 function nextMonday() {
@@ -277,7 +289,7 @@ function currentTracks() {
     .map(([id, e]) => ({
       id, artist: getArtist(e), title: getTitle(e),
       source: getSource(e), date: getDate(e), age: daysAgo(getDate(e)),
-      genres: getGenres(e)
+      genres: getGenres(e), kind: getKind(e)
     }));
 }
 
@@ -296,7 +308,8 @@ function removedTracks() {
       const [ka = '', kt = ''] = k.split('|');
       return {
         artist: getArtist(e) || ka, title: getTitle(e) || kt,
-        source: getSource(e), date: getDate(e), age: daysAgo(getDate(e) || new Date().toISOString())
+        source: getSource(e), date: getDate(e), age: daysAgo(getDate(e) || new Date().toISOString()),
+        genres: getGenres(e), kind: getKind(e)
       };
     })
     .sort((a, b) => (b.date || '').localeCompare(a.date || ''));
@@ -340,12 +353,10 @@ function renderCurrent() {
     <tbody>` + tracks.map(t => {
       const pct = Math.min(100, Math.round(t.age / MAX_AGE * 100));
       const cls = t.age > 25 ? 'danger' : t.age > 15 ? 'warn' : '';
-      const badgeCls = t.source.startsWith('LastFM') ? 'badge lastfm' : 'badge';
-      const genreLine = t.genres.length
-        ? `<div class="genres">${t.genres.map(esc).join(' · ')}</div>` : '';
+      const badgeCls = t.source.startsWith('Pick') ? 'badge lastfm' : 'badge';
       return `<tr>
         <td class="artist">${esc(t.artist) || '—'}</td>
-        <td class="title">${esc(t.title) || '—'}${genreLine}</td>
+        <td class="title">${esc(t.title) || '—'}${genreLine(t)}</td>
         <td><span class="${badgeCls}">${esc(shortSrc(t.source))}</span></td>
         <td class="date">${t.date}</td>
         <td class="age-cell">
@@ -359,7 +370,7 @@ function renderCurrent() {
 function renderRemoved() {
   const q = document.getElementById('q-removed').value.toLowerCase();
   let tracks = removedTracks();
-  if (q) tracks = tracks.filter(t => t.artist.toLowerCase().includes(q) || t.title.toLowerCase().includes(q));
+  if (q) tracks = tracks.filter(t => t.artist.toLowerCase().includes(q) || t.title.toLowerCase().includes(q) || t.genres.join(' ').includes(q));
   const el = document.getElementById('t-removed');
   if (!tracks.length) { el.innerHTML = '<div class="msg">Nog niets uitgerouleerd</div>'; return; }
   const LIMIT = 300;
@@ -367,7 +378,7 @@ function renderRemoved() {
     <thead><tr><th>Artiest</th><th>Titel</th><th>Bron</th><th>Toegevoegd</th></tr></thead>
     <tbody>` + tracks.slice(0, LIMIT).map(t => `<tr>
       <td class="artist">${esc(t.artist) || '—'}</td>
-      <td class="title">${esc(t.title) || '—'}</td>
+      <td class="title">${esc(t.title) || '—'}${genreLine(t)}</td>
       <td><span class="badge">${esc(shortSrc(t.source))}</span></td>
       <td class="date">${t.date || '—'}</td>
     </tr>`).join('') + '</tbody></table>' +
@@ -394,6 +405,27 @@ function renderSources() {
     <tbody>` + rows.map(([s, n]) => `<tr>
       <td class="artist">${esc(shortSrc(s))}</td>
       <td class="date">${cur[s] || 0}</td>
+      <td class="date">${n}</td>
+      <td><div class="src-bar-wrap"><div class="src-bar" style="width:${Math.round(n / max * 100)}%"></div></div></td>
+    </tr>`).join('') + '</tbody></table>';
+}
+
+function renderGenres() {
+  const seen = state.seen || {};
+  const cut = cutoffStr();
+  const all = {}, cur = {};
+  Object.values(seen).forEach(e => getGenres(e).forEach(g => { all[g] = (all[g] || 0) + 1; }));
+  Object.values(state.playlist_log || {}).filter(e => getDate(e) >= cut)
+    .forEach(e => getGenres(e).forEach(g => { cur[g] = (cur[g] || 0) + 1; }));
+  const rows = Object.entries(all).sort((a, b) => b[1] - a[1]);
+  const el = document.getElementById('t-genres');
+  if (!rows.length) { el.innerHTML = '<div class="msg">Nog geen genres bekend</div>'; return; }
+  const max = Math.max(1, ...rows.map(r => r[1]));
+  el.innerHTML = `<table>
+    <thead><tr><th>Genre</th><th>Actief</th><th>Totaal</th><th>Aandeel</th></tr></thead>
+    <tbody>` + rows.map(([g, n]) => `<tr>
+      <td class="artist">${esc(g)}</td>
+      <td class="date">${cur[g] || 0}</td>
       <td class="date">${n}</td>
       <td><div class="src-bar-wrap"><div class="src-bar" style="width:${Math.round(n / max * 100)}%"></div></div></td>
     </tr>`).join('') + '</tbody></table>';
@@ -440,6 +472,7 @@ async function init() {
     renderCurrent();
     renderRemoved();
     renderSources();
+    renderGenres();
     document.getElementById('last-update').textContent =
       'data geladen op ' + new Date().toLocaleString('nl-BE', { timeZone: 'Europe/Brussels' });
   } catch (e) {
