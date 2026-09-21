@@ -98,7 +98,8 @@ INSTRUMENTAL_PICKS = [
 # Nummers die op een verder zacht album toch te veel swingen.
 SKIP_TITLES = {
     "who's got rhythm", "the cat walk", "no problem", "day in day out",
-    "why shouldn't i", "festival minor",
+    "why shouldn't i", "festival minor", "jordu", "cheek to cheek",
+    "i won't dance",
 }
 
 
