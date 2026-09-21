@@ -1895,6 +1895,310 @@
         "bebop",
         "cool jazz"
       ]
+    },
+    "chris connor|spring is here": {
+      "date": "2026-09-21",
+      "source": "Album~Sings Lullabys of Birdland",
+      "artist": "Chris Connor",
+      "title": "Spring Is Here",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "cool jazz"
+      ]
+    },
+    "duke jordan|glad i met pat, take 3": {
+      "date": "2026-09-21",
+      "source": "Album~Flight to Denmark",
+      "artist": "Duke Jordan",
+      "title": "Glad I Met Pat, Take 3",
+      "kind": "instrumentaal",
+      "genres": [
+        "hard bop",
+        "jazz",
+        "bebop",
+        "jazz ballads"
+      ]
+    },
+    "madeleine peyroux|between the bars": {
+      "date": "2026-09-21",
+      "source": "Album~Careless Love",
+      "artist": "Madeleine Peyroux",
+      "title": "Between The Bars",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz",
+        "jazz pop"
+      ]
+    },
+    "duke jordan|if i did - would you?, take 1": {
+      "date": "2026-09-21",
+      "source": "Album~Flight to Denmark",
+      "artist": "Duke Jordan",
+      "title": "If I Did - Would You?, Take 1",
+      "kind": "instrumentaal",
+      "genres": [
+        "hard bop",
+        "jazz",
+        "bebop",
+        "jazz ballads"
+      ]
+    },
+    "peggy lee|why don't you do right": {
+      "date": "2026-09-21",
+      "source": "Album~Black Coffee",
+      "artist": "Peggy Lee",
+      "title": "Why Don't You Do Right",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "swing music",
+        "big band",
+        "jazz"
+      ]
+    },
+    "charlie haden|steal away": {
+      "date": "2026-09-21",
+      "source": "Album~Steal Away",
+      "artist": "Charlie Haden",
+      "title": "Steal Away",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "free jazz",
+        "cool jazz"
+      ]
+    },
+    "blossom dearie|a fine spring morning": {
+      "date": "2026-09-21",
+      "source": "Album~Blossom Dearie",
+      "artist": "Blossom Dearie",
+      "title": "A Fine Spring Morning",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "john coltrane|it's easy to remember": {
+      "date": "2026-09-21",
+      "source": "Album~Ballads",
+      "artist": "John Coltrane",
+      "title": "It's Easy To Remember",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "hard bop",
+        "free jazz",
+        "bebop"
+      ]
+    },
+    "chet baker|i've never been in love before": {
+      "date": "2026-09-21",
+      "source": "Album~Chet Baker Sings",
+      "artist": "Chet Baker",
+      "title": "I've Never Been In Love Before",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "vocal jazz",
+        "jazz ballads"
+      ]
+    },
+    "ben webster|sunday": {
+      "date": "2026-09-21",
+      "source": "Album~Ben Webster Meets Oscar Peterson",
+      "artist": "Ben Webster",
+      "title": "Sunday",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "cool jazz",
+        "bebop"
+      ]
+    },
+    "blossom dearie|lover man (oh where can you be)": {
+      "date": "2026-09-21",
+      "source": "Album~Blossom Dearie",
+      "artist": "Blossom Dearie",
+      "title": "Lover Man (Oh Where Can You Be)",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "stan getz|down by the sycamore tree": {
+      "date": "2026-09-21",
+      "source": "Album~Stan Getz Plays",
+      "artist": "Stan Getz",
+      "title": "Down By The Sycamore Tree",
+      "kind": "instrumentaal",
+      "genres": [
+        "bossa nova",
+        "jazz",
+        "brazilian jazz",
+        "cool jazz"
+      ]
+    },
+    "shirley horn|baby,  baby all the time": {
+      "date": "2026-09-21",
+      "source": "Album~Close Enough for Love",
+      "artist": "Shirley Horn",
+      "title": "Baby,  Baby All The Time",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "jazz ballads"
+      ]
+    },
+    "coleman hawkins|for you, for me, for evermore": {
+      "date": "2026-09-21",
+      "source": "Album~At Ease with Coleman Hawkins",
+      "artist": "Coleman Hawkins",
+      "title": "For You, For Me, For Evermore",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "bebop",
+        "cool jazz"
+      ]
+    },
+    "astrud gilberto|how insensitive": {
+      "date": "2026-09-21",
+      "source": "Album~The Astrud Gilberto Album",
+      "artist": "Astrud Gilberto",
+      "title": "How Insensitive",
+      "kind": "zang",
+      "genres": [
+        "bossa nova",
+        "brazilian jazz",
+        "latin jazz",
+        "vocal jazz"
+      ]
+    },
+    "bill evans|polka dots and moonbeams": {
+      "date": "2026-09-21",
+      "source": "Album~Moon Beams",
+      "artist": "Bill Evans",
+      "title": "Polka Dots And Moonbeams",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "jazz ballads",
+        "hard bop"
+      ]
+    },
+    "jimmy scott|they say it's wonderful": {
+      "date": "2026-09-21",
+      "source": "Album~Falling in Love Is Wonderful",
+      "artist": "JIMMY SCOTT",
+      "title": "They Say It's Wonderful",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz"
+      ]
+    },
+    "gerry mulligan|tell me when": {
+      "date": "2026-09-21",
+      "source": "Album~Gerry Mulligan Meets Ben Webster",
+      "artist": "Gerry Mulligan",
+      "title": "Tell Me When",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "bebop",
+        "jazz ballads"
+      ]
+    },
+    "billie holiday|one for my baby (and one more for the road)": {
+      "date": "2026-09-21",
+      "source": "Album~Songs for Distingue Lovers",
+      "artist": "Billie Holiday",
+      "title": "One For My Baby (And One More For The Road)",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "vocal jazz",
+        "big band",
+        "swing music"
+      ]
+    },
+    "ben webster|bye bye blackbird": {
+      "date": "2026-09-21",
+      "source": "Album~Ben Webster Meets Oscar Peterson",
+      "artist": "Ben Webster",
+      "title": "Bye Bye Blackbird",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "cool jazz",
+        "bebop"
+      ]
+    },
+    "melody gardot|who will comfort me": {
+      "date": "2026-09-21",
+      "source": "Album~My One and Only Thrill",
+      "artist": "Melody Gardot",
+      "title": "Who Will Comfort Me",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "french jazz",
+        "jazz"
+      ]
+    },
+    "coleman hawkins|i’ll get by": {
+      "date": "2026-09-21",
+      "source": "Album~At Ease with Coleman Hawkins",
+      "artist": "Coleman Hawkins",
+      "title": "I’ll Get By",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "bebop",
+        "cool jazz"
+      ]
+    },
+    "madeleine peyroux|careless love": {
+      "date": "2026-09-21",
+      "source": "Album~Careless Love",
+      "artist": "Madeleine Peyroux",
+      "title": "Careless Love",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz",
+        "jazz pop"
+      ]
+    },
+    "chet baker|september song": {
+      "date": "2026-09-21",
+      "source": "Album~Chet",
+      "artist": "Chet Baker",
+      "title": "September Song",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "vocal jazz",
+        "jazz ballads"
+      ]
     }
   },
   "playlist_log": {
@@ -2154,44 +2458,6 @@
         "jazz ballads"
       ]
     },
-    "77658919": {
-      "date": "2026-09-21",
-      "artist": "Blossom Dearie",
-      "title": "I Won't Dance",
-      "source": "Album~Blossom Dearie",
-      "kind": "zang",
-      "genres": [
-        "french jazz",
-        "vocal jazz",
-        "jazz"
-      ]
-    },
-    "56221379": {
-      "date": "2026-09-21",
-      "artist": "Duke Jordan",
-      "title": "Jordu",
-      "source": "Album~Flight to Denmark",
-      "kind": "instrumentaal",
-      "genres": [
-        "hard bop",
-        "jazz",
-        "bebop",
-        "jazz ballads"
-      ]
-    },
-    "93058773": {
-      "date": "2026-09-21",
-      "artist": "Ella Fitzgerald",
-      "title": "Cheek To Cheek",
-      "source": "Album~Ella and Louis",
-      "kind": "zang",
-      "genres": [
-        "jazz",
-        "vocal jazz",
-        "swing music",
-        "big band"
-      ]
-    },
     "4859214": {
       "date": "2026-09-21",
       "artist": "Charlie Haden",
@@ -2428,6 +2694,310 @@
         "jazz ballads",
         "bebop",
         "cool jazz"
+      ]
+    },
+    "111970538": {
+      "date": "2026-09-21",
+      "artist": "Chris Connor",
+      "title": "Spring Is Here",
+      "source": "Album~Sings Lullabys of Birdland",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "cool jazz"
+      ]
+    },
+    "56221371": {
+      "date": "2026-09-21",
+      "artist": "Duke Jordan",
+      "title": "Glad I Met Pat, Take 3",
+      "source": "Album~Flight to Denmark",
+      "kind": "instrumentaal",
+      "genres": [
+        "hard bop",
+        "jazz",
+        "bebop",
+        "jazz ballads"
+      ]
+    },
+    "1629787": {
+      "date": "2026-09-21",
+      "artist": "Madeleine Peyroux",
+      "title": "Between The Bars",
+      "source": "Album~Careless Love",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz",
+        "jazz pop"
+      ]
+    },
+    "56221375": {
+      "date": "2026-09-21",
+      "artist": "Duke Jordan",
+      "title": "If I Did - Would You?, Take 1",
+      "source": "Album~Flight to Denmark",
+      "kind": "instrumentaal",
+      "genres": [
+        "hard bop",
+        "jazz",
+        "bebop",
+        "jazz ballads"
+      ]
+    },
+    "155503989": {
+      "date": "2026-09-21",
+      "artist": "Peggy Lee",
+      "title": "Why Don't You Do Right",
+      "source": "Album~Black Coffee",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "swing music",
+        "big band",
+        "jazz"
+      ]
+    },
+    "4859222": {
+      "date": "2026-09-21",
+      "artist": "Charlie Haden",
+      "title": "Steal Away",
+      "source": "Album~Steal Away",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "free jazz",
+        "cool jazz"
+      ]
+    },
+    "77658920": {
+      "date": "2026-09-21",
+      "artist": "Blossom Dearie",
+      "title": "A Fine Spring Morning",
+      "source": "Album~Blossom Dearie",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "77576251": {
+      "date": "2026-09-21",
+      "artist": "John Coltrane",
+      "title": "It's Easy To Remember",
+      "source": "Album~Ballads",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "hard bop",
+        "free jazz",
+        "bebop"
+      ]
+    },
+    "158157": {
+      "date": "2026-09-21",
+      "artist": "Chet Baker",
+      "title": "I've Never Been In Love Before",
+      "source": "Album~Chet Baker Sings",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "vocal jazz",
+        "jazz ballads"
+      ]
+    },
+    "77611559": {
+      "date": "2026-09-21",
+      "artist": "Ben Webster",
+      "title": "Sunday",
+      "source": "Album~Ben Webster Meets Oscar Peterson",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "cool jazz",
+        "bebop"
+      ]
+    },
+    "77658908": {
+      "date": "2026-09-21",
+      "artist": "Blossom Dearie",
+      "title": "Lover Man (Oh Where Can You Be)",
+      "source": "Album~Blossom Dearie",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "13345175": {
+      "date": "2026-09-21",
+      "artist": "Stan Getz",
+      "title": "Down By The Sycamore Tree",
+      "source": "Album~Stan Getz Plays",
+      "kind": "instrumentaal",
+      "genres": [
+        "bossa nova",
+        "jazz",
+        "brazilian jazz",
+        "cool jazz"
+      ]
+    },
+    "13372617": {
+      "date": "2026-09-21",
+      "artist": "Shirley Horn",
+      "title": "Baby,  Baby All The Time",
+      "source": "Album~Close Enough for Love",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "jazz ballads"
+      ]
+    },
+    "143265772": {
+      "date": "2026-09-21",
+      "artist": "Coleman Hawkins",
+      "title": "For You, For Me, For Evermore",
+      "source": "Album~At Ease with Coleman Hawkins",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "bebop",
+        "cool jazz"
+      ]
+    },
+    "119987714": {
+      "date": "2026-09-21",
+      "artist": "Astrud Gilberto",
+      "title": "How Insensitive",
+      "source": "Album~The Astrud Gilberto Album",
+      "kind": "zang",
+      "genres": [
+        "bossa nova",
+        "brazilian jazz",
+        "latin jazz",
+        "vocal jazz"
+      ]
+    },
+    "437617032": {
+      "date": "2026-09-21",
+      "artist": "Bill Evans",
+      "title": "Polka Dots And Moonbeams",
+      "source": "Album~Moon Beams",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "jazz ballads",
+        "hard bop"
+      ]
+    },
+    "150158146": {
+      "date": "2026-09-21",
+      "artist": "JIMMY SCOTT",
+      "title": "They Say It's Wonderful",
+      "source": "Album~Falling in Love Is Wonderful",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz"
+      ]
+    },
+    "58993641": {
+      "date": "2026-09-21",
+      "artist": "Gerry Mulligan",
+      "title": "Tell Me When",
+      "source": "Album~Gerry Mulligan Meets Ben Webster",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "bebop",
+        "jazz ballads"
+      ]
+    },
+    "108022855": {
+      "date": "2026-09-21",
+      "artist": "Billie Holiday",
+      "title": "One For My Baby (And One More For The Road)",
+      "source": "Album~Songs for Distingue Lovers",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "vocal jazz",
+        "big band",
+        "swing music"
+      ]
+    },
+    "77611556": {
+      "date": "2026-09-21",
+      "artist": "Ben Webster",
+      "title": "Bye Bye Blackbird",
+      "source": "Album~Ben Webster Meets Oscar Peterson",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "cool jazz",
+        "bebop"
+      ]
+    },
+    "3164755": {
+      "date": "2026-09-21",
+      "artist": "Melody Gardot",
+      "title": "Who Will Comfort Me",
+      "source": "Album~My One and Only Thrill",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "french jazz",
+        "jazz"
+      ]
+    },
+    "143265765": {
+      "date": "2026-09-21",
+      "artist": "Coleman Hawkins",
+      "title": "I’ll Get By",
+      "source": "Album~At Ease with Coleman Hawkins",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "bebop",
+        "cool jazz"
+      ]
+    },
+    "1629793": {
+      "date": "2026-09-21",
+      "artist": "Madeleine Peyroux",
+      "title": "Careless Love",
+      "source": "Album~Careless Love",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz",
+        "jazz pop"
+      ]
+    },
+    "175014921": {
+      "date": "2026-09-21",
+      "artist": "Chet Baker",
+      "title": "September Song",
+      "source": "Album~Chet",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "vocal jazz",
+        "jazz ballads"
       ]
     }
   }
