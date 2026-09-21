@@ -95,6 +95,18 @@ INSTRUMENTAL_PICKS = [
     ("Coleman Hawkins", "Body and Soul"),
 ]
 
+# Nummers die op een verder zacht album toch te veel swingen.
+SKIP_TITLES = {
+    "who's got rhythm", "the cat walk", "no problem", "day in day out",
+    "why shouldn't i", "festival minor",
+}
+
+
+def is_skipped(title: str) -> bool:
+    t = title.lower().replace("\u2019", "'")
+    return any(t.startswith(x) for x in SKIP_TITLES)
+
+
 # Last.fm-tags die op tempo, uithalen of dissonantie wijzen. Meer van deze
 # tags dan zachte tags, en het nummer valt af. Vangt de uitschieter op een
 # verder zacht album.
@@ -310,6 +322,8 @@ def cleanup_playlist(session, playlist_id: str, playlist_log: dict) -> dict:
             source = entry.get("source", "")
             if not (source.startswith("Album~") or source.startswith("Pick~")):
                 to_remove.append(i)
+            elif is_skipped(entry.get("title", "")):
+                to_remove.append(i)
             elif entry.get("date", "9999-12-31") < cutoff:
                 to_remove.append(i)
         for idx in sorted(to_remove, reverse=True):
@@ -336,7 +350,7 @@ def next_ok(pool, network, seen, existing_ids, per_group):
         key = normalize_key(c["artist"], c["title"])
         tid = str(track.id)
         duration = getattr(track, "duration", 0) or 0
-        if key in seen or tid in existing_ids:
+        if key in seen or tid in existing_ids or is_skipped(c["title"]):
             continue
         if per_group.get(c["group"], 0) >= MAX_PER_ALBUM:
             continue
