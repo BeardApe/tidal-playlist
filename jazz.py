@@ -1,17 +1,15 @@
 """
-Wekelijkse Tidal Jazz Playlist Builder — "Ochtendjazz"
+Wekelijkse Tidal Jazz Playlist Builder: "Ochtendjazz"
 
-Zelfde opzet als main.py, maar afgestemd op zachte, trage, nostalgische jazz.
-Drie verschillen met de indie-versie, allemaal omdat het repertoire historisch is
-in plaats van nieuw:
+Doel: slaperig wakker worden. Zachte, trage cocktailbarjazz, afwisselend
+zang en instrumentaal.
 
-  1. Bronnen zijn Last.fm-tags en seed-artiesten, niet de radio-playlists van
-     Spotify. Er verschijnt geen nieuwe Billie Holiday meer, dus zoeken we in
-     het bestaande repertoire in plaats van in wekelijkse nieuwe releases.
-  2. Genres worden op een toelatingslijst getoetst, niet alleen op een
-     blokkeerlijst. Alles wat niet als zachte jazz herkend wordt, valt af.
-  3. Tracks mogen na SEEN_EXPIRY_DAYS terugkeren. Klassiekers wil je opnieuw
-     horen; dat is bij nieuwe indie niet zo.
+Deze versie zoekt niet meer vrij rond via tags en vergelijkbare artiesten.
+Dat bracht big band, orkestrale uithalen en atonale piano binnen. In plaats
+daarvan kiest het script elke week nummers uit een vaste lijst albums die
+van begin tot eind zacht zijn, plus een handvol losse nummers.
+
+Volgorde in de playlist: zang, instrumentaal, zang, instrumentaal, ...
 
 State (state_jazz.json in repo):
   - seen:         {normalized_key: {date, source}}
@@ -33,96 +31,83 @@ LASTFM_API_KEY        = os.environ["LASTFM_API_KEY"]
 LASTFM_API_SECRET     = os.environ["LASTFM_API_SECRET"]
 LASTFM_USERNAME       = os.environ["LASTFM_USERNAME"]
 LASTFM_PASSWORD_HASH  = pylast.md5(os.environ["LASTFM_PASSWORD"])
-SPOTIFY_CLIENT_ID     = os.environ["SPOTIFY_CLIENT_ID"]
-SPOTIFY_CLIENT_SECRET = os.environ["SPOTIFY_CLIENT_SECRET"]
+SPOTIFY_CLIENT_ID     = os.environ.get("SPOTIFY_CLIENT_ID", "")
+SPOTIFY_CLIENT_SECRET = os.environ.get("SPOTIFY_CLIENT_SECRET", "")
 
 MAX_AGE_DAYS      = 30    # hoe lang een track in de playlist blijft
-SEEN_EXPIRY_DAYS  = 180   # daarna mag een track opnieuw gekozen worden
-TARGET_ADDITIONS  = 25    # hoeveel nieuwe tracks per run maximaal
-MIN_DURATION      = 140   # seconden; korter is meestal een snel 78-toeren nummer
-MAX_DURATION      = 720   # seconden; langer is meestal een live-uitgesponnen solo
+SEEN_EXPIRY_DAYS  = 120   # daarna mag een track opnieuw gekozen worden
+TARGET_ADDITIONS  = 24    # per run: 12 zang + 12 instrumentaal
+MAX_PER_ALBUM     = 2     # per run hoogstens zoveel nummers uit hetzelfde album
+MIN_DURATION      = 140   # seconden
+MAX_DURATION      = 480   # seconden; langer is vaak een uitgesponnen solo
 
 STATE_FILE = Path("state_jazz.json")
 
 # ---------------------------------------------------------------------------
-# Smaakfilters
+# De vaste lijst: albums die van begin tot eind zacht zijn
 # ---------------------------------------------------------------------------
 
-# Een artiest moet minstens één van deze genres hebben, anders valt hij af.
-ALLOWED_GENRES = {
-    "jazz", "vocal jazz", "cool jazz", "west coast jazz", "chamber jazz",
-    "jazz standard", "torch", "traditional pop", "adult standards",
-    "bossa nova", "samba jazz", "lounge", "easy listening", "crooner",
-    "piano jazz", "contemporary post-bop", "ecm",
-}
+VOCAL_ALBUMS = [
+    ("Julie London", "Julie Is Her Name"),
+    ("Chet Baker", "Chet Baker Sings"),
+    ("Billie Holiday", "Songs for Distingue Lovers"),
+    ("Shirley Horn", "Close Enough for Love"),
+    ("John Coltrane", "John Coltrane and Johnny Hartman"),
+    ("Blossom Dearie", "Blossom Dearie"),
+    ("Helen Merrill", "The Nearness of You"),
+    ("Jimmy Scott", "Falling in Love Is Wonderful"),
+    ("Ella Fitzgerald", "Ella and Louis"),
+    ("Peggy Lee", "Black Coffee"),
+    ("Chris Connor", "Sings Lullabys of Birdland"),
+    ("Astrud Gilberto", "The Astrud Gilberto Album"),
+    ("Stacey Kent", "Breakfast on the Morning Tram"),
+    ("Melody Gardot", "My One and Only Thrill"),
+    ("Madeleine Peyroux", "Careless Love"),
+]
 
-# Deze genres vliegen er altijd uit, ook als er "jazz" bij staat.
-BLOCKED_GENRES = {
-    "bebop", "hard bop", "free jazz", "avant-garde jazz", "avant-garde",
-    "free improvisation", "noise", "experimental",
-    "big band", "swing revival", "electro swing", "gypsy jazz",
-    "dixieland", "ragtime", "boogie-woogie",
-    "smooth jazz", "jazz fusion", "fusion", "jazz funk", "acid jazz",
-    "nu jazz", "jazz rap", "afrobeat", "salsa", "mambo",
-    "rap", "hip hop", "edm", "house", "techno", "metal", "punk",
-}
+INSTRUMENTAL_ALBUMS = [
+    ("Bill Evans", "Moon Beams"),
+    ("John Coltrane", "Ballads"),
+    ("Ben Webster", "Soulville"),
+    ("Ben Webster", "Ben Webster Meets Oscar Peterson"),
+    ("Coleman Hawkins", "At Ease with Coleman Hawkins"),
+    ("Gerry Mulligan", "Night Lights"),
+    ("Gerry Mulligan", "Gerry Mulligan Meets Ben Webster"),
+    ("Paul Desmond", "Take Ten"),
+    ("Chet Baker", "Chet"),
+    ("Stan Getz", "Stan Getz Plays"),
+    ("Hank Jones", "Steal Away"),
+    ("Duke Jordan", "Flight to Denmark"),
+]
 
-# Last.fm-tags die op een traag, zacht nummer wijzen (pluspunten).
+# Losse nummers van artiesten van wie niet elk album zacht genoeg is.
+VOCAL_PICKS = [
+    ("Gregory Porter", "Hey Laura"),
+    ("Gregory Porter", "Be Good (Lion's Song)"),
+    ("Gregory Porter", "No Love Dying"),
+    ("Gregory Porter", "Water Under Bridges"),
+    ("Louis Armstrong", "A Kiss to Build a Dream On"),
+]
+
+INSTRUMENTAL_PICKS = [
+    ("Miles Davis", "Blue in Green"),
+    ("Miles Davis", "Flamenco Sketches"),
+    ("Coleman Hawkins", "Body and Soul"),
+]
+
+# Last.fm-tags die op tempo, uithalen of dissonantie wijzen. Meer van deze
+# tags dan zachte tags, en het nummer valt af. Vangt de uitschieter op een
+# verder zacht album.
 SLOW_TAGS = {
     "ballad", "ballads", "slow", "mellow", "smooth", "soft", "quiet",
-    "vocal jazz", "cool jazz", "torch song", "torch songs", "late night",
-    "lounge", "romantic", "melancholy", "melancholic", "sad", "intimate",
-    "relaxing", "chill", "jazz ballad", "bossa nova", "nocturne",
+    "torch song", "late night", "romantic", "melancholy", "relaxing",
+    "chill", "jazz ballad", "bossa nova",
 }
-
-# Last.fm-tags die op tempo of dissonantie wijzen (minpunten).
 FAST_TAGS = {
     "uptempo", "up-tempo", "fast", "swing", "swinging", "bebop", "hard bop",
-    "big band", "jump blues", "boogie", "dance", "party", "energetic",
-    "free jazz", "avant-garde", "atonal", "experimental", "dissonant",
-    "live", "jam", "funky", "groovy", "latin jazz",
+    "big band", "orchestral", "intense", "dramatic", "energetic", "dance",
+    "free jazz", "avant-garde", "atonal", "experimental", "live", "funky",
 }
-
-BLOCKED_ARTISTS = {
-    "kenny g", "dave koz", "boney james", "spyro gyra", "the rippingtons",
-    "michael buble", "michael bublé", "jamie cullum", "postmodern jukebox",
-    "caro emerald", "parov stelar", "avishai cohen", "shai maestro",
-    "omer avital", "anat cohen", "norah jones", "diana krall",
-}
-
-# Artiesten die je hoe dan ook wil, ook als hun genre op de blokkeerlijst staat.
-# De tempotoets op tags blijft wel gelden, dus je krijgt alleen hun trage werk.
-ALLOWED_ARTISTS = {
-    "gregory porter",
-}
-
-# Last.fm-tags die als radiozender dienen: elke week een greep uit de top.
-LASTFM_TAGS = [
-    "vocal jazz", "cool jazz", "jazz ballad", "torch song",
-    "west coast jazz", "bossa nova", "chamber jazz", "traditional pop",
-]
-
-SEED_ARTISTS = [
-    # Zang, de kern van de smaak
-    "Billie Holiday", "Shirley Horn", "Julie London", "Blossom Dearie",
-    "Helen Merrill", "Jimmy Scott", "Johnny Hartman", "Chris Connor",
-    "June Christy", "Jeri Southern", "Peggy Lee", "Carmen McRae",
-    "Nat King Cole", "Dinah Washington", "Sarah Vaughan", "Etta Jones",
-    "Abbey Lincoln", "Nina Simone", "Astrud Gilberto", "João Gilberto",
-    # Hedendaags maar in dezelfde toon
-    "Melody Gardot", "Stacey Kent", "Madeleine Peyroux",
-    "Cécile McLorin Salvant", "Sara Gazarek", "Cyrille Aimée",
-    "Gregory Porter",
-    # Blazers, zacht en lyrisch
-    "Chet Baker", "Stan Getz", "Ben Webster", "Lester Young",
-    "Paul Desmond", "Gerry Mulligan", "Art Pepper", "Lee Konitz",
-    "Coleman Hawkins", "Ibrahim Maalouf", "Erik Truffaz", "Enrico Rava",
-    # Piano en snaren
-    "Bill Evans", "Ahmad Jamal", "Duke Jordan", "Hank Jones",
-    "Tommy Flanagan", "Kenny Barron", "Fred Hersch", "Bill Charlap",
-    "Tord Gustavsen", "Bobo Stenson", "Jim Hall", "Wes Montgomery",
-    "Charlie Haden", "Marc Johnson", "Django Reinhardt",
-]
 
 
 def load_state() -> dict:
@@ -144,17 +129,6 @@ def normalize_key(artist: str, title: str) -> str:
     return f"{artist.strip().lower()}|{title.strip().lower()}"
 
 
-def clean_title(title: str) -> str:
-    """Haalt live- en remasteraanduidingen weg zodat dubbels beter opvallen."""
-    lowered = title.lower()
-    for marker in (" - live", "(live", " - remaster", "(remaster",
-                   " - mono", " - stereo", " - take "):
-        idx = lowered.find(marker)
-        if idx > 0:
-            return title[:idx].strip()
-    return title.strip()
-
-
 def load_tidal_session() -> tidalapi.Session:
     session = tidalapi.Session()
     session.load_session_from_file(Path("/tmp/tidal_session.json"))
@@ -168,19 +142,31 @@ def get_lastfm_network() -> pylast.LastFMNetwork:
     )
 
 
+# ---------------------------------------------------------------------------
+# Genres, zoals bij Nachtradio: eerst Spotify, anders de Last.fm-tags
+# van de artiest. Per artiest één keer opgezocht.
+# ---------------------------------------------------------------------------
+
 def get_spotify_token() -> str:
-    resp = requests.post(
-        "https://accounts.spotify.com/api/token",
-        data={"grant_type": "client_credentials"},
-        auth=(SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET),
-        timeout=10,
-    )
-    resp.raise_for_status()
-    return resp.json()["access_token"]
+    if not SPOTIFY_CLIENT_ID:
+        return ""
+    try:
+        resp = requests.post(
+            "https://accounts.spotify.com/api/token",
+            data={"grant_type": "client_credentials"},
+            auth=(SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET),
+            timeout=10,
+        )
+        resp.raise_for_status()
+        return resp.json()["access_token"]
+    except Exception as e:
+        print(f"[Spotify] Token mislukt: {e}")
+        return ""
 
 
-def lookup_genres_by_name(token: str, artist_name: str) -> list[str]:
-    """Zoekt een artiest op naam in Spotify en geeft de genres terug."""
+def spotify_genres(token: str, artist_name: str) -> list:
+    if not token:
+        return []
     try:
         resp = requests.get(
             "https://api.spotify.com/v1/search",
@@ -190,40 +176,59 @@ def lookup_genres_by_name(token: str, artist_name: str) -> list[str]:
         )
         if resp.status_code == 200:
             items = resp.json().get("artists", {}).get("items", [])
-            if items:
+            if items and items[0]["name"].lower() == artist_name.lower():
                 return items[0].get("genres", [])
     except Exception:
         pass
     return []
 
 
-def genre_verdict(genres: list[str]) -> str:
-    """
-    Geeft 'blocked', 'allowed' of 'onbekend' terug.
-    Onbekend gebeurt bij artiesten die Spotify geen genres geeft; die laten we
-    door en beoordelen we verderop alleen op Last.fm-tags.
-    """
-    lowered = [g.lower() for g in genres]
-    for g in lowered:
-        for blocked in BLOCKED_GENRES:
-            if blocked in g:
-                return "blocked"
-    for g in lowered:
-        for allowed in ALLOWED_GENRES:
-            if allowed in g:
-                return "allowed"
-    return "onbekend" if not lowered else "blocked"
+def lastfm_artist_tags(network, artist_name: str) -> list:
+    try:
+        tags = network.get_artist(artist_name).get_top_tags(limit=6)
+        return [str(t.item.get_name()).lower().replace("-", " ") for t in tags]
+    except Exception:
+        return []
 
 
-def tag_score(network: pylast.LastFMNetwork, artist: str, title: str) -> int:
-    """
-    Telt de Last.fm-tags van één track: +1 per trage tag, -1 per snelle tag.
-    Dit vervangt de tempodata van Spotify, die sinds november 2024 dicht is.
-    """
+class GenreLookup:
+    def __init__(self, network):
+        self.network = network
+        self.token = get_spotify_token()
+        self.cache = {}
+
+    def get(self, artist_name: str) -> list:
+        key = artist_name.strip().lower()
+        if key not in self.cache:
+            genres = spotify_genres(self.token, artist_name)
+            if not genres:
+                genres = lastfm_artist_tags(self.network, artist_name)
+            self.cache[key] = genres[:4]
+        return self.cache[key]
+
+
+def backfill_genres(state: dict, lookup: GenreLookup):
+    """Vult ontbrekende genres aan, ook voor alles wat al eerder binnenkwam."""
+    filled = 0
+    for entry in state["playlist_log"].values():
+        if isinstance(entry, dict) and not entry.get("genres") and entry.get("artist"):
+            entry["genres"] = lookup.get(entry["artist"])
+            filled += 1
+    for key, entry in state["seen"].items():
+        if not isinstance(entry, dict) or entry.get("genres"):
+            continue
+        artist = entry.get("artist") or key.split("|")[0]
+        if artist:
+            entry["genres"] = lookup.get(artist)
+            filled += 1
+    print(f"[Genres] {filled} tracks aangevuld")
+
+
+def too_lively(network: pylast.LastFMNetwork, artist: str, title: str) -> bool:
     try:
         tags = network.get_track(artist, title).get_top_tags(limit=12)
     except Exception:
-        return 0
+        return False
     score = 0
     for item in tags:
         name = str(item.item.name).lower()
@@ -231,134 +236,122 @@ def tag_score(network: pylast.LastFMNetwork, artist: str, title: str) -> int:
             score += 1
         if name in FAST_TAGS:
             score -= 1
-    return score
+    return score < 0
 
 
-def get_tag_radio(network: pylast.LastFMNetwork, per_tag: int = 12) -> list[dict]:
-    """Haalt per Last.fm-tag een willekeurige greep uit de populairste tracks."""
-    tracks = []
-    for tag_name in random.sample(LASTFM_TAGS, min(4, len(LASTFM_TAGS))):
-        try:
-            top = network.get_tag(tag_name).get_top_tracks(limit=60)
-            for item in random.sample(top, min(per_tag, len(top))):
-                tracks.append({
-                    "artist": str(item.item.artist.name),
-                    "title":  str(item.item.title),
-                    "source": f"Tag~{tag_name}",
-                })
-            print(f"[Last.fm] Tag '{tag_name}': {per_tag} gekozen")
-        except Exception as e:
-            print(f"[Last.fm] Fout bij tag {tag_name}: {e}")
-    return tracks
+def find_album(session: tidalapi.Session, artist: str, title: str):
+    try:
+        results = session.search(f"{artist} {title}", models=[tidalapi.album.Album], limit=8)
+        albums = results.get("albums", [])
+        start = title.lower()[:12]
+        for album in albums:
+            if start in album.name.lower() and artist.lower() in album.artist.name.lower():
+                return album
+        for album in albums:
+            if start in album.name.lower():
+                return album
+    except Exception as e:
+        print(f"  [Tidal] Zoekfout album '{artist} {title}': {e}")
+    return None
 
 
-def get_seed_tracks(network: pylast.LastFMNetwork, n_artists: int = 6,
-                    per_artist: int = 4) -> list[dict]:
-    """Populairste tracks van de seed-artiesten zelf: de klassiekers."""
-    tracks = []
-    for name in random.sample(SEED_ARTISTS, min(n_artists, len(SEED_ARTISTS))):
-        try:
-            top = network.get_artist(name).get_top_tracks(limit=25)
-            for item in random.sample(top, min(per_artist, len(top))):
-                tracks.append({
-                    "artist": name,
-                    "title":  str(item.item.title),
-                    "source": f"Seed~{name}",
-                })
-        except Exception as e:
-            print(f"[Last.fm] Fout bij seed {name}: {e}")
-    print(f"[Last.fm] {len(tracks)} tracks van seed-artiesten")
-    return tracks
-
-
-def get_similar_discoveries(network: pylast.LastFMNetwork, n_artists: int = 5,
-                            per_artist: int = 3) -> list[dict]:
-    """Ontdekkingen via vergelijkbare artiesten, zoals in de indie-versie."""
-    tracks = []
-    for seed_name in random.sample(SEED_ARTISTS, min(n_artists, len(SEED_ARTISTS))):
-        try:
-            similar = network.get_artist(seed_name).get_similar(limit=10)
-            for sim_item in random.sample(similar, min(2, len(similar))):
-                sim_artist = sim_item.item
-                top = sim_artist.get_top_tracks(limit=12)
-                for item in random.sample(top, min(per_artist, len(top))):
-                    tracks.append({
-                        "artist": str(sim_artist.name),
-                        "title":  str(item.item.title),
-                        "source": f"LastFM~{seed_name}",
-                    })
-        except Exception as e:
-            print(f"[Last.fm] Fout bij {seed_name}: {e}")
-    print(f"[Last.fm] {len(tracks)} ontdekkingen via vergelijkbare artiesten")
-    return tracks
-
-
-def search_tidal_track(session: tidalapi.Session, artist: str, title: str):
+def find_track(session: tidalapi.Session, artist: str, title: str):
     try:
         results = session.search(f"{artist} {title}", models=[tidalapi.media.Track], limit=5)
-        tracks  = results.get("tracks", [])
-        for track in tracks:
-            if (artist.lower() in track.artist.name.lower() or
-                    track.artist.name.lower() in artist.lower()):
+        for track in results.get("tracks", []):
+            if artist.lower() in track.artist.name.lower():
                 return track
-        return tracks[0] if tracks else None
     except Exception as e:
         print(f"  [Tidal] Zoekfout '{artist} {title}': {e}")
-        return None
+    return None
 
 
-def get_existing_tidal_ids(session: tidalapi.Session, playlist_id: str) -> set:
-    try:
-        return {str(t.id) for t in session.playlist(playlist_id).tracks()}
-    except Exception as e:
-        print(f"[Tidal] Kon bestaande tracks niet ophalen: {e}")
-        return set()
+def build_pool(session, albums, picks, label) -> list:
+    """Alle kandidaat-tracks van één soort (zang of instrumentaal)."""
+    pool = []
+    for artist, album_title in albums:
+        album = find_album(session, artist, album_title)
+        if not album:
+            print(f"  ✗ Album niet gevonden: {artist} / {album_title}")
+            continue
+        try:
+            for track in album.tracks():
+                pool.append({"track": track, "artist": track.artist.name,
+                             "title": track.name, "group": album_title, "kind": label,
+                             "source": f"Album~{album_title}"})
+        except Exception as e:
+            print(f"  [Tidal] Tracks ophalen mislukt voor {album_title}: {e}")
+    for artist, title in picks:
+        track = find_track(session, artist, title)
+        if track:
+            pool.append({"track": track, "artist": track.artist.name,
+                         "title": track.name, "group": f"pick:{artist}", "kind": label,
+                         "source": f"Pick~{artist}"})
+    random.shuffle(pool)
+    print(f"[Pool] {label}: {len(pool)} kandidaten")
+    return pool
 
 
-def remove_old_tracks(session: tidalapi.Session, playlist_id: str, playlist_log: dict) -> dict:
+def cleanup_playlist(session, playlist_id: str, playlist_log: dict) -> dict:
+    """
+    Haalt twee soorten tracks weg:
+      - ouder dan MAX_AGE_DAYS
+      - niet afkomstig uit de vaste lijst (alles van de vorige, vrije versie)
+    """
     cutoff = (datetime.now() - timedelta(days=MAX_AGE_DAYS)).strftime("%Y-%m-%d")
     try:
-        tracks    = list(session.playlist(playlist_id).tracks())
-        tidal_ids = [str(t.id) for t in tracks]
-
-        def get_date(tid):
-            e = playlist_log.get(tid)
-            if isinstance(e, dict):
-                return e.get("date", "9999-12-31")
-            return e or "9999-12-31"
-
-        indices_to_remove = [i for i, tid in enumerate(tidal_ids) if get_date(tid) < cutoff]
-
-        if indices_to_remove:
-            for idx in sorted(indices_to_remove, reverse=True):
-                session.playlist(playlist_id).remove_by_index(idx)
-            for idx in indices_to_remove:
-                playlist_log.pop(tidal_ids[idx], None)
-            print(f"[Tidal] {len(indices_to_remove)} tracks verwijderd (ouder dan {MAX_AGE_DAYS}d)")
-        else:
-            print(f"[Tidal] Geen tracks ouder dan {MAX_AGE_DAYS} dagen")
+        tidal_ids = [str(t.id) for t in session.playlist(playlist_id).tracks()]
+        to_remove = []
+        for i, tid in enumerate(tidal_ids):
+            entry = playlist_log.get(tid)
+            if not isinstance(entry, dict):
+                to_remove.append(i)
+                continue
+            source = entry.get("source", "")
+            if not (source.startswith("Album~") or source.startswith("Pick~")):
+                to_remove.append(i)
+            elif entry.get("date", "9999-12-31") < cutoff:
+                to_remove.append(i)
+        for idx in sorted(to_remove, reverse=True):
+            session.playlist(playlist_id).remove_by_index(idx)
+        for idx in to_remove:
+            playlist_log.pop(tidal_ids[idx], None)
+        print(f"[Tidal] {len(to_remove)} tracks verwijderd")
     except Exception as e:
-        print(f"[Tidal] Rotatie mislukt: {e}")
+        print(f"[Tidal] Opruimen mislukt: {e}")
     return playlist_log
 
 
 def prune_seen(seen: dict) -> dict:
-    """Vergeet tracks die lang genoeg geleden zijn, zodat ze mogen terugkeren."""
     cutoff = (datetime.now() - timedelta(days=SEEN_EXPIRY_DAYS)).strftime("%Y-%m-%d")
-    before = len(seen)
-    kept = {}
-    for key, entry in seen.items():
-        date = entry.get("date", "") if isinstance(entry, dict) else (entry or "")
-        if date >= cutoff:
-            kept[key] = entry
-    if before - len(kept):
-        print(f"[State] {before - len(kept)} tracks vergeten (ouder dan {SEEN_EXPIRY_DAYS}d)")
-    return kept
+    return {k: v for k, v in seen.items()
+            if (v.get("date", "") if isinstance(v, dict) else (v or "")) >= cutoff}
+
+
+def next_ok(pool, network, seen, existing_ids, per_group):
+    """Geeft de volgende bruikbare kandidaat uit de pool terug, of None."""
+    while pool:
+        c = pool.pop()
+        track = c["track"]
+        key = normalize_key(c["artist"], c["title"])
+        tid = str(track.id)
+        duration = getattr(track, "duration", 0) or 0
+        if key in seen or tid in existing_ids:
+            continue
+        if per_group.get(c["group"], 0) >= MAX_PER_ALBUM:
+            continue
+        if duration and not (MIN_DURATION <= duration <= MAX_DURATION):
+            continue
+        if too_lively(network, c["artist"], c["title"]):
+            print(f"  ✗ {c['artist']} / {c['title']} (te levendig volgens tags)")
+            continue
+        return c
+    return None
 
 
 def main():
     print(f"\n{'='*50}")
-    print(f"  Ochtendjazz update — {datetime.now().strftime('%Y-%m-%d %H:%M')}")
+    print(f"  Ochtendjazz update, {datetime.now().strftime('%Y-%m-%d %H:%M')}")
     print(f"{'='*50}\n")
 
     state        = load_state()
@@ -367,96 +360,35 @@ def main():
 
     session = load_tidal_session()
     print("[Tidal] Ingelogd ✓\n")
-
-    playlist_log = remove_old_tracks(session, TIDAL_PLAYLIST_ID, playlist_log)
-
     network = get_lastfm_network()
-    try:
-        token = get_spotify_token()
-        print("[Spotify] Token verkregen ✓ (alleen voor genrecontrole)\n")
-    except Exception as e:
-        print(f"[Spotify] Token mislukt: {e}\n")
-        token = None
+    lookup  = GenreLookup(network)
 
-    candidates = (get_tag_radio(network)
-                  + get_seed_tracks(network)
-                  + get_similar_discoveries(network))
+    playlist_log = cleanup_playlist(session, TIDAL_PLAYLIST_ID, playlist_log)
+    existing_ids = {str(t.id) for t in session.playlist(TIDAL_PLAYLIST_ID).tracks()}
 
-    # Dubbels eruit, blokkeerlijst toepassen
-    unique = {}
-    for c in candidates:
-        c["title"] = clean_title(c["title"])
-        if c["artist"].strip().lower() in BLOCKED_ARTISTS:
-            continue
-        unique.setdefault(normalize_key(c["artist"], c["title"]), c)
-    candidates = list(unique.values())
-    print(f"\nKandidaten na ontdubbelen: {len(candidates)}")
-
-    # Genrecontrole per artiest, één keer opzoeken en onthouden
-    if token:
-        genre_cache = {}
-        kept = []
-        for c in candidates:
-            name = c["artist"]
-            if name not in genre_cache:
-                genre_cache[name] = lookup_genres_by_name(token, name)
-            c["genres"] = genre_cache[name][:4]
-            verdict = genre_verdict(genre_cache[name])
-            if verdict == "blocked" and name.strip().lower() not in ALLOWED_ARTISTS:
-                continue
-            kept.append(c)
-        print(f"Kandidaten na genrecontrole: {len(kept)}")
-        candidates = kept
-
-    random.shuffle(candidates)
-
-    existing_tidal_ids = get_existing_tidal_ids(session, TIDAL_PLAYLIST_ID)
-    print(f"Huidig in playlist: {len(existing_tidal_ids)}\n")
+    vocal = build_pool(session, VOCAL_ALBUMS, VOCAL_PICKS, "zang")
+    instr = build_pool(session, INSTRUMENTAL_ALBUMS, INSTRUMENTAL_PICKS, "instrumentaal")
 
     today = datetime.now().strftime("%Y-%m-%d")
-    added = []
-
-    for candidate in candidates:
-        if len(added) >= TARGET_ADDITIONS:
-            break
-
-        artist = candidate["artist"]
-        title  = candidate["title"]
-        source = candidate["source"]
-        key    = normalize_key(artist, title)
-
-        if key in seen:
+    added, per_group, turn = [], {}, 0
+    while len(added) < TARGET_ADDITIONS and (vocal or instr):
+        pool = vocal if turn % 2 == 0 else instr
+        turn += 1
+        c = next_ok(pool, network, seen, existing_ids, per_group)
+        if not c:
             continue
-
-        # Tempotoets op tags: negatief betekent snel, luid of atonaal
-        score = tag_score(network, artist, title)
-        if score < 0:
-            print(f"  ✗ [{source}] {artist} — {title} (te snel volgens tags)")
-            seen[key] = {"date": today, "source": source}
-            continue
-
-        tidal_track = search_tidal_track(session, artist, title)
-        if not tidal_track:
-            print(f"  ✗ [{source}] {artist} — {title} (niet gevonden op Tidal)")
-            continue
-
-        duration = getattr(tidal_track, "duration", 0) or 0
-        if duration and not (MIN_DURATION <= duration <= MAX_DURATION):
-            print(f"  ✗ [{source}] {artist} — {title} ({duration}s, buiten bereik)")
-            seen[key] = {"date": today, "source": source}
-            continue
-
-        tidal_id = str(tidal_track.id)
-        if tidal_id in existing_tidal_ids:
-            seen[key] = {"date": today, "source": source}
-            continue
-
-        added.append(tidal_track)
-        existing_tidal_ids.add(tidal_id)
-        seen[key]              = {"date": today, "source": source}
-        playlist_log[tidal_id] = {"date": today, "artist": artist, "title": title,
-                                  "source": source, "genres": candidate.get("genres", [])}
-        print(f"  ✓ [{source}] {artist} — {title} (tagscore {score})")
+        track = c["track"]
+        tid = str(track.id)
+        added.append(track)
+        existing_ids.add(tid)
+        per_group[c["group"]] = per_group.get(c["group"], 0) + 1
+        genres = lookup.get(c["artist"])
+        seen[normalize_key(c["artist"], c["title"])] = {
+            "date": today, "source": c["source"], "artist": c["artist"],
+            "title": c["title"], "kind": c["kind"], "genres": genres}
+        playlist_log[tid] = {"date": today, "artist": c["artist"], "title": c["title"],
+                             "source": c["source"], "kind": c["kind"], "genres": genres}
+        print(f"  ✓ [{c['source']}] {c['artist']} / {c['title']}")
 
     if added:
         session.playlist(TIDAL_PLAYLIST_ID).add([t.id for t in added])
@@ -464,10 +396,9 @@ def main():
     else:
         print("\n[Tidal] Geen nieuwe tracks gevonden.")
 
-    state["seen"]         = seen
-    state["playlist_log"] = playlist_log
+    state["seen"], state["playlist_log"] = seen, playlist_log
+    backfill_genres(state, lookup)
     save_state(state)
-    print(f"\nKlaar! {datetime.now().strftime('%H:%M:%S')}\n")
 
 
 if __name__ == "__main__":
