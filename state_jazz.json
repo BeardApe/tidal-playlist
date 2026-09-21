@@ -1593,6 +1593,308 @@
         "jazz",
         "jazz ballads"
       ]
+    },
+    "madeleine peyroux|j'ai deux amours": {
+      "date": "2026-09-21",
+      "source": "Album~Careless Love",
+      "artist": "Madeleine Peyroux",
+      "title": "J'ai Deux Amours",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz",
+        "jazz pop"
+      ]
+    },
+    "chet baker|how high the moon": {
+      "date": "2026-09-21",
+      "source": "Album~Chet",
+      "artist": "Chet Baker",
+      "title": "How High The Moon",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "vocal jazz",
+        "jazz ballads"
+      ]
+    },
+    "blossom dearie|i won't dance": {
+      "date": "2026-09-21",
+      "source": "Album~Blossom Dearie",
+      "artist": "Blossom Dearie",
+      "title": "I Won't Dance",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "duke jordan|jordu": {
+      "date": "2026-09-21",
+      "source": "Album~Flight to Denmark",
+      "artist": "Duke Jordan",
+      "title": "Jordu",
+      "kind": "instrumentaal",
+      "genres": [
+        "hard bop",
+        "jazz",
+        "bebop",
+        "jazz ballads"
+      ]
+    },
+    "ella fitzgerald|cheek to cheek": {
+      "date": "2026-09-21",
+      "source": "Album~Ella and Louis",
+      "artist": "Ella Fitzgerald",
+      "title": "Cheek To Cheek",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "vocal jazz",
+        "swing music",
+        "big band"
+      ]
+    },
+    "charlie haden|nobody knows the trouble i've seen": {
+      "date": "2026-09-21",
+      "source": "Album~Steal Away",
+      "artist": "Charlie Haden",
+      "title": "Nobody Knows The Trouble I've Seen",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "free jazz",
+        "cool jazz"
+      ]
+    },
+    "jimmy scott|why try to change me now": {
+      "date": "2026-09-21",
+      "source": "Album~Falling in Love Is Wonderful",
+      "artist": "JIMMY SCOTT",
+      "title": "Why Try To Change Me Now",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz"
+      ]
+    },
+    "chet baker|'tis autumn": {
+      "date": "2026-09-21",
+      "source": "Album~Chet",
+      "artist": "Chet Baker",
+      "title": "'Tis Autumn",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "vocal jazz",
+        "jazz ballads"
+      ]
+    },
+    "madeleine peyroux|don't wait too long": {
+      "date": "2026-09-21",
+      "source": "Album~Careless Love",
+      "artist": "Madeleine Peyroux",
+      "title": "Don't Wait Too Long",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz",
+        "jazz pop"
+      ]
+    },
+    "bill evans|very early": {
+      "date": "2026-09-21",
+      "source": "Album~Moon Beams",
+      "artist": "Bill Evans",
+      "title": "Very Early",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "jazz ballads",
+        "hard bop"
+      ]
+    },
+    "stacey kent|so romantic": {
+      "date": "2026-09-21",
+      "source": "Album~Breakfast on the Morning Tram",
+      "artist": "Stacey Kent",
+      "title": "So Romantic",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz",
+        "bossa nova"
+      ]
+    },
+    "gerry mulligan sextet|night lights": {
+      "date": "2026-09-21",
+      "source": "Album~Night Lights",
+      "artist": "Gerry Mulligan Sextet",
+      "title": "Night Lights",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "jazz ballads"
+      ]
+    },
+    "melody gardot|love me like a river does": {
+      "date": "2026-09-21",
+      "source": "Album~My One and Only Thrill",
+      "artist": "Melody Gardot",
+      "title": "Love Me Like A River Does",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "french jazz",
+        "jazz"
+      ]
+    },
+    "stan getz|with the wind and the rain in your hair": {
+      "date": "2026-09-21",
+      "source": "Album~Stan Getz Plays",
+      "artist": "Stan Getz",
+      "title": "With The Wind And The Rain In Your Hair",
+      "kind": "instrumentaal",
+      "genres": [
+        "bossa nova",
+        "jazz",
+        "brazilian jazz",
+        "cool jazz"
+      ]
+    },
+    "helen merrill|all of you": {
+      "date": "2026-09-21",
+      "source": "Album~The Nearness of You",
+      "artist": "Helen Merrill",
+      "title": "All Of You",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz ballads",
+        "jazz"
+      ]
+    },
+    "charlie haden|l'amour de moy": {
+      "date": "2026-09-21",
+      "source": "Album~Steal Away",
+      "artist": "Charlie Haden",
+      "title": "L'amour de moy",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "free jazz",
+        "cool jazz"
+      ]
+    },
+    "chris connor|come back to sorrento": {
+      "date": "2026-09-21",
+      "source": "Album~Sings Lullabys of Birdland",
+      "artist": "Chris Connor",
+      "title": "Come Back To Sorrento",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "cool jazz"
+      ]
+    },
+    "gerry mulligan|chelsea bridge": {
+      "date": "2026-09-21",
+      "source": "Album~Gerry Mulligan Meets Ben Webster",
+      "artist": "Gerry Mulligan",
+      "title": "Chelsea Bridge",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "bebop",
+        "jazz ballads"
+      ]
+    },
+    "gregory porter|water under bridges": {
+      "date": "2026-09-21",
+      "source": "Pick~Gregory Porter",
+      "artist": "Gregory Porter",
+      "title": "Water Under Bridges",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz pop",
+        "jazz"
+      ]
+    },
+    "stan getz|stella by starlight": {
+      "date": "2026-09-21",
+      "source": "Album~Stan Getz Plays",
+      "artist": "Stan Getz",
+      "title": "Stella By Starlight",
+      "kind": "instrumentaal",
+      "genres": [
+        "bossa nova",
+        "jazz",
+        "brazilian jazz",
+        "cool jazz"
+      ]
+    },
+    "shirley horn|memories of you": {
+      "date": "2026-09-21",
+      "source": "Album~Close Enough for Love",
+      "artist": "Shirley Horn",
+      "title": "Memories Of You",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "jazz ballads"
+      ]
+    },
+    "duke jordan|glad i met pat, take 4": {
+      "date": "2026-09-21",
+      "source": "Album~Flight to Denmark",
+      "artist": "Duke Jordan",
+      "title": "Glad I Met Pat, Take 4",
+      "kind": "instrumentaal",
+      "genres": [
+        "hard bop",
+        "jazz",
+        "bebop",
+        "jazz ballads"
+      ]
+    },
+    "billie holiday|a foggy day": {
+      "date": "2026-09-21",
+      "source": "Album~Songs for Distingue Lovers",
+      "artist": "Billie Holiday",
+      "title": "A Foggy Day",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "vocal jazz",
+        "big band",
+        "swing music"
+      ]
+    },
+    "coleman hawkins|trouble is a man": {
+      "date": "2026-09-21",
+      "source": "Album~At Ease with Coleman Hawkins",
+      "artist": "Coleman Hawkins",
+      "title": "Trouble Is A Man",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "bebop",
+        "cool jazz"
+      ]
     }
   },
   "playlist_log": {
@@ -1699,30 +2001,6 @@
         "jazz ballads"
       ]
     },
-    "111970534": {
-      "date": "2026-09-21",
-      "artist": "Chris Connor",
-      "title": "Why Shouldn't I?",
-      "source": "Album~Sings Lullabys of Birdland",
-      "kind": "zang",
-      "genres": [
-        "vocal jazz",
-        "jazz",
-        "cool jazz"
-      ]
-    },
-    "101524158": {
-      "date": "2026-09-21",
-      "artist": "Gerry Mulligan Sextet",
-      "title": "Festival Minor",
-      "source": "Album~Night Lights",
-      "kind": "instrumentaal",
-      "genres": [
-        "cool jazz",
-        "jazz",
-        "jazz ballads"
-      ]
-    },
     "93058771": {
       "date": "2026-09-21",
       "artist": "Ella Fitzgerald",
@@ -1736,19 +2014,6 @@
         "big band"
       ]
     },
-    "58993642": {
-      "date": "2026-09-21",
-      "artist": "Gerry Mulligan",
-      "title": "The Cat Walk",
-      "source": "Album~Gerry Mulligan Meets Ben Webster",
-      "kind": "instrumentaal",
-      "genres": [
-        "cool jazz",
-        "jazz",
-        "bebop",
-        "jazz ballads"
-      ]
-    },
     "11169946": {
       "date": "2026-09-21",
       "artist": "Julie London",
@@ -1759,19 +2024,6 @@
         "vocal jazz",
         "jazz",
         "adult standards"
-      ]
-    },
-    "56221378": {
-      "date": "2026-09-21",
-      "artist": "Duke Jordan",
-      "title": "No Problem, Take 2",
-      "source": "Album~Flight to Denmark",
-      "kind": "instrumentaal",
-      "genres": [
-        "hard bop",
-        "jazz",
-        "bebop",
-        "jazz ballads"
       ]
     },
     "158153": {
@@ -1800,19 +2052,6 @@
         "cool jazz"
       ]
     },
-    "108022852": {
-      "date": "2026-09-21",
-      "artist": "Billie Holiday",
-      "title": "Day In Day Out",
-      "source": "Album~Songs for Distingue Lovers",
-      "kind": "zang",
-      "genres": [
-        "jazz",
-        "vocal jazz",
-        "big band",
-        "swing music"
-      ]
-    },
     "77576246": {
       "date": "2026-09-21",
       "artist": "John Coltrane",
@@ -1837,19 +2076,6 @@
         "vocal jazz",
         "jazz",
         "bossa nova"
-      ]
-    },
-    "58993636": {
-      "date": "2026-09-21",
-      "artist": "Gerry Mulligan",
-      "title": "Who's Got Rhythm",
-      "source": "Album~Gerry Mulligan Meets Ben Webster",
-      "kind": "instrumentaal",
-      "genres": [
-        "cool jazz",
-        "jazz",
-        "bebop",
-        "jazz ballads"
       ]
     },
     "77658916": {
@@ -1900,6 +2126,308 @@
         "cool jazz",
         "jazz",
         "jazz ballads"
+      ]
+    },
+    "1629790": {
+      "date": "2026-09-21",
+      "artist": "Madeleine Peyroux",
+      "title": "J'ai Deux Amours",
+      "source": "Album~Careless Love",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz",
+        "jazz pop"
+      ]
+    },
+    "175014909": {
+      "date": "2026-09-21",
+      "artist": "Chet Baker",
+      "title": "How High The Moon",
+      "source": "Album~Chet",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "vocal jazz",
+        "jazz ballads"
+      ]
+    },
+    "77658919": {
+      "date": "2026-09-21",
+      "artist": "Blossom Dearie",
+      "title": "I Won't Dance",
+      "source": "Album~Blossom Dearie",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "56221379": {
+      "date": "2026-09-21",
+      "artist": "Duke Jordan",
+      "title": "Jordu",
+      "source": "Album~Flight to Denmark",
+      "kind": "instrumentaal",
+      "genres": [
+        "hard bop",
+        "jazz",
+        "bebop",
+        "jazz ballads"
+      ]
+    },
+    "93058773": {
+      "date": "2026-09-21",
+      "artist": "Ella Fitzgerald",
+      "title": "Cheek To Cheek",
+      "source": "Album~Ella and Louis",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "vocal jazz",
+        "swing music",
+        "big band"
+      ]
+    },
+    "4859214": {
+      "date": "2026-09-21",
+      "artist": "Charlie Haden",
+      "title": "Nobody Knows The Trouble I've Seen",
+      "source": "Album~Steal Away",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "free jazz",
+        "cool jazz"
+      ]
+    },
+    "150158150": {
+      "date": "2026-09-21",
+      "artist": "JIMMY SCOTT",
+      "title": "Why Try To Change Me Now",
+      "source": "Album~Falling in Love Is Wonderful",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz"
+      ]
+    },
+    "175014917": {
+      "date": "2026-09-21",
+      "artist": "Chet Baker",
+      "title": "'Tis Autumn",
+      "source": "Album~Chet",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "vocal jazz",
+        "jazz ballads"
+      ]
+    },
+    "1629784": {
+      "date": "2026-09-21",
+      "artist": "Madeleine Peyroux",
+      "title": "Don't Wait Too Long",
+      "source": "Album~Careless Love",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz",
+        "jazz pop"
+      ]
+    },
+    "437617038": {
+      "date": "2026-09-21",
+      "artist": "Bill Evans",
+      "title": "Very Early",
+      "source": "Album~Moon Beams",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "jazz ballads",
+        "hard bop"
+      ]
+    },
+    "155719985": {
+      "date": "2026-09-21",
+      "artist": "Stacey Kent",
+      "title": "So Romantic",
+      "source": "Album~Breakfast on the Morning Tram",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz",
+        "bossa nova"
+      ]
+    },
+    "101524154": {
+      "date": "2026-09-21",
+      "artist": "Gerry Mulligan Sextet",
+      "title": "Night Lights",
+      "source": "Album~Night Lights",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "jazz ballads"
+      ]
+    },
+    "3164760": {
+      "date": "2026-09-21",
+      "artist": "Melody Gardot",
+      "title": "Love Me Like A River Does",
+      "source": "Album~My One and Only Thrill",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "french jazz",
+        "jazz"
+      ]
+    },
+    "13345177": {
+      "date": "2026-09-21",
+      "artist": "Stan Getz",
+      "title": "With The Wind And The Rain In Your Hair",
+      "source": "Album~Stan Getz Plays",
+      "kind": "instrumentaal",
+      "genres": [
+        "bossa nova",
+        "jazz",
+        "brazilian jazz",
+        "cool jazz"
+      ]
+    },
+    "103014044": {
+      "date": "2026-09-21",
+      "artist": "Helen Merrill",
+      "title": "All Of You",
+      "source": "Album~The Nearness of You",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz ballads",
+        "jazz"
+      ]
+    },
+    "4859219": {
+      "date": "2026-09-21",
+      "artist": "Charlie Haden",
+      "title": "L'amour de moy",
+      "source": "Album~Steal Away",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "free jazz",
+        "cool jazz"
+      ]
+    },
+    "111970533": {
+      "date": "2026-09-21",
+      "artist": "Chris Connor",
+      "title": "Come Back To Sorrento",
+      "source": "Album~Sings Lullabys of Birdland",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "cool jazz"
+      ]
+    },
+    "58993634": {
+      "date": "2026-09-21",
+      "artist": "Gerry Mulligan",
+      "title": "Chelsea Bridge",
+      "source": "Album~Gerry Mulligan Meets Ben Webster",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "bebop",
+        "jazz ballads"
+      ]
+    },
+    "79178487": {
+      "date": "2026-09-21",
+      "artist": "Gregory Porter",
+      "title": "Water Under Bridges",
+      "source": "Pick~Gregory Porter",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz pop",
+        "jazz"
+      ]
+    },
+    "13345162": {
+      "date": "2026-09-21",
+      "artist": "Stan Getz",
+      "title": "Stella By Starlight",
+      "source": "Album~Stan Getz Plays",
+      "kind": "instrumentaal",
+      "genres": [
+        "bossa nova",
+        "jazz",
+        "brazilian jazz",
+        "cool jazz"
+      ]
+    },
+    "13372625": {
+      "date": "2026-09-21",
+      "artist": "Shirley Horn",
+      "title": "Memories Of You",
+      "source": "Album~Close Enough for Love",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "jazz ballads"
+      ]
+    },
+    "56221372": {
+      "date": "2026-09-21",
+      "artist": "Duke Jordan",
+      "title": "Glad I Met Pat, Take 4",
+      "source": "Album~Flight to Denmark",
+      "kind": "instrumentaal",
+      "genres": [
+        "hard bop",
+        "jazz",
+        "bebop",
+        "jazz ballads"
+      ]
+    },
+    "108022853": {
+      "date": "2026-09-21",
+      "artist": "Billie Holiday",
+      "title": "A Foggy Day",
+      "source": "Album~Songs for Distingue Lovers",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "vocal jazz",
+        "big band",
+        "swing music"
+      ]
+    },
+    "143265767": {
+      "date": "2026-09-21",
+      "artist": "Coleman Hawkins",
+      "title": "Trouble Is A Man",
+      "source": "Album~At Ease with Coleman Hawkins",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "bebop",
+        "cool jazz"
       ]
     }
   }
