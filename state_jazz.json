@@ -2,589 +2,16 @@
   "seen": {
     "deacon blue|town to be blamed": {
       "date": "2026-08-26",
-      "source": "Tag~torch song"
+      "source": "Tag~torch song",
+      "genres": [
+        "80s",
+        "scottish",
+        "pop",
+        "rock"
+      ]
     },
     "antônio carlos jobim|the red blouse": {
       "date": "2026-08-26",
-      "source": "Tag~bossa nova"
-    },
-    "helen merrill|i remember you": {
-      "date": "2026-08-26",
-      "source": "LastFM~Blossom Dearie"
-    },
-    "jimmy scott|when did you leave heaven?": {
-      "date": "2026-08-26",
-      "source": "Tag~jazz ballad"
-    },
-    "stan getz|só danço samba": {
-      "date": "2026-08-26",
-      "source": "Tag~bossa nova"
-    },
-    "helen merrill|summertime": {
-      "date": "2026-08-26",
-      "source": "LastFM~Blossom Dearie"
-    },
-    "stan getz|the girl from ipanema": {
-      "date": "2026-08-26",
-      "source": "Tag~bossa nova"
-    },
-    "etta jones|solitude": {
-      "date": "2026-08-26",
-      "source": "LastFM~Blossom Dearie"
-    },
-    "sérgio mendes & brasil '66|mas que nada": {
-      "date": "2026-08-26",
-      "source": "Tag~bossa nova"
-    },
-    "nat king cole|deck the hall": {
-      "date": "2026-08-26",
-      "source": "Seed~Nat King Cole"
-    },
-    "etta jones|i love paris": {
-      "date": "2026-08-26",
-      "source": "LastFM~Blossom Dearie"
-    },
-    "cécile mclorin salvant|thunderclouds": {
-      "date": "2026-08-26",
-      "source": "Seed~Cécile McLorin Salvant"
-    },
-    "cécile mclorin salvant|until": {
-      "date": "2026-08-26",
-      "source": "Seed~Cécile McLorin Salvant"
-    },
-    "chantal chamberland|beautiful life": {
-      "date": "2026-08-26",
-      "source": "LastFM~Madeleine Peyroux"
-    },
-    "jimmy scott|you don't know what love is": {
-      "date": "2026-08-26",
-      "source": "Tag~jazz ballad"
-    },
-    "julian & roman wasserfuhr quartet|you are a friend of mine": {
-      "date": "2026-08-26",
-      "source": "Tag~jazz ballad"
-    },
-    "elis regina|triste": {
-      "date": "2026-08-26",
-      "source": "Tag~bossa nova"
-    },
-    "patricia barber|she's a lady": {
-      "date": "2026-08-26",
-      "source": "LastFM~Madeleine Peyroux"
-    },
-    "cassandra jenkins|hard drive": {
-      "date": "2026-08-26",
-      "source": "Tag~chamber jazz"
-    },
-    "patricia barber|you're the top": {
-      "date": "2026-08-26",
-      "source": "LastFM~Madeleine Peyroux"
-    },
-    "helen merrill|anything goes": {
-      "date": "2026-08-26",
-      "source": "LastFM~Blossom Dearie"
-    },
-    "etta jones|don't go to strangers": {
-      "date": "2026-08-26",
-      "source": "LastFM~Blossom Dearie"
-    },
-    "wolfgang muthspiel|ride": {
-      "date": "2026-08-26",
-      "source": "LastFM~Bobo Stenson"
-    },
-    "cassandra wilson|harvest moon": {
-      "date": "2026-08-26",
-      "source": "LastFM~Jimmy Scott"
-    },
-    "cécile mclorin salvant|and yet": {
-      "date": "2026-08-26",
-      "source": "Seed~Cécile McLorin Salvant"
-    },
-    "chico buarque|essa moça tá diferente": {
-      "date": "2026-08-26",
-      "source": "Tag~bossa nova"
-    },
-    "nat king cole|the happiest christmas tree": {
-      "date": "2026-08-26",
-      "source": "Seed~Nat King Cole"
-    },
-    "joshua redman|body & soul": {
-      "date": "2026-08-26",
-      "source": "Tag~jazz ballad"
-    },
-    "nat king cole|mona lisa": {
-      "date": "2026-08-26",
-      "source": "Seed~Nat King Cole"
-    },
-    "mathias eick|ravensburg": {
-      "date": "2026-08-30",
-      "source": "LastFM~Tord Gustavsen"
-    },
-    "cécile mclorin salvant|you're my thrill": {
-      "date": "2026-08-30",
-      "source": "Seed~Cécile McLorin Salvant"
-    },
-    "jakob bro|to stanko": {
-      "date": "2026-08-30",
-      "source": "LastFM~Tord Gustavsen"
-    },
-    "jeri southern|it's delovely": {
-      "date": "2026-08-30",
-      "source": "Seed~Jeri Southern"
-    },
-    "samara joy|the christmas song": {
-      "date": "2026-08-30",
-      "source": "LastFM~Cécile McLorin Salvant"
-    },
-    "astrud gilberto|o morro (não tem vez)": {
-      "date": "2026-08-30",
-      "source": "Seed~Astrud Gilberto"
-    },
-    "marcos valle|nova bossa nova": {
-      "date": "2026-08-30",
-      "source": "Tag~bossa nova"
-    },
-    "paul desmond|take ten": {
-      "date": "2026-08-30",
-      "source": "LastFM~Stan Getz"
-    },
-    "julie london|say it isn't so": {
-      "date": "2026-08-30",
-      "source": "Seed~Julie London"
-    },
-    "wendy & lisa|jonathan": {
-      "date": "2026-08-30",
-      "source": "Tag~torch song"
-    },
-    "madison beer|dangerous": {
-      "date": "2026-08-30",
-      "source": "Tag~traditional pop"
-    },
-    "julie london|warm december": {
-      "date": "2026-08-30",
-      "source": "Seed~Julie London"
-    },
-    "laufey|trouble": {
-      "date": "2026-08-30",
-      "source": "Tag~traditional pop"
-    },
-    "ute lemper|lili marlene": {
-      "date": "2026-08-30",
-      "source": "Tag~torch song"
-    },
-    "laufey|beautiful stranger": {
-      "date": "2026-08-30",
-      "source": "Tag~traditional pop"
-    },
-    "jeri southern|i thought of you last night": {
-      "date": "2026-08-30",
-      "source": "Seed~Jeri Southern"
-    },
-    "astrud gilberto|beach samba": {
-      "date": "2026-08-30",
-      "source": "Seed~Astrud Gilberto"
-    },
-    "astrud gilberto|summer samba (so nice)": {
-      "date": "2026-08-30",
-      "source": "Seed~Astrud Gilberto"
-    },
-    "julie london|the end of the world": {
-      "date": "2026-08-30",
-      "source": "Seed~Julie London"
-    },
-    "mathias eick|october": {
-      "date": "2026-08-30",
-      "source": "LastFM~Tord Gustavsen"
-    },
-    "chico buarque|valsinha": {
-      "date": "2026-08-30",
-      "source": "Tag~bossa nova"
-    },
-    "chet baker|let's get lost": {
-      "date": "2026-08-30",
-      "source": "Tag~cool jazz"
-    },
-    "chet baker|like someone in love": {
-      "date": "2026-08-30",
-      "source": "Tag~cool jazz"
-    },
-    "jakob bro|strands": {
-      "date": "2026-08-30",
-      "source": "LastFM~Tord Gustavsen"
-    },
-    "mitski|my love mine all mine": {
-      "date": "2026-08-30",
-      "source": "Tag~traditional pop"
-    },
-    "joão gilberto|chega de saudade": {
-      "date": "2026-08-30",
-      "source": "Tag~bossa nova"
-    },
-    "the dave brubeck quartet|kathy's waltz": {
-      "date": "2026-08-30",
-      "source": "Tag~cool jazz"
-    },
-    "samara joy|misty": {
-      "date": "2026-08-30",
-      "source": "LastFM~Cécile McLorin Salvant"
-    },
-    "mathias eick|children": {
-      "date": "2026-08-30",
-      "source": "LastFM~Tord Gustavsen"
-    },
-    "father john misty|summer’s gone": {
-      "date": "2026-08-30",
-      "source": "Tag~traditional pop"
-    },
-    "jo stafford & gordon macrae|my darling, my darling": {
-      "date": "2026-08-30",
-      "source": "Tag~torch song"
-    },
-    "nat king cole|nature boy": {
-      "date": "2026-09-06",
-      "source": "Tag~vocal jazz"
-    },
-    "dave brubeck|there'll be some changes made": {
-      "date": "2026-09-06",
-      "source": "Tag~west coast jazz"
-    },
-    "etta jones|what ev'ry woman knows": {
-      "date": "2026-09-06",
-      "source": "Seed~Etta Jones"
-    },
-    "astrud gilberto|dindi": {
-      "date": "2026-09-06",
-      "source": "LastFM~Stan Getz"
-    },
-    "tord gustavsen|being there": {
-      "date": "2026-09-06",
-      "source": "Seed~Tord Gustavsen"
-    },
-    "etta jones|till there was you": {
-      "date": "2026-09-06",
-      "source": "Seed~Etta Jones"
-    },
-    "astrud gilberto|photograph": {
-      "date": "2026-09-06",
-      "source": "Tag~bossa nova"
-    },
-    "chet baker|my funny valentine": {
-      "date": "2026-09-06",
-      "source": "Tag~cool jazz"
-    },
-    "joão gilberto|tin tin por tin tin": {
-      "date": "2026-09-06",
-      "source": "Seed~João Gilberto"
-    },
-    "abbey lincoln|straight ahead": {
-      "date": "2026-09-06",
-      "source": "LastFM~Carmen McRae"
-    },
-    "the dave brubeck quartet|blue rondo a la turk": {
-      "date": "2026-09-06",
-      "source": "Tag~cool jazz"
-    },
-    "betty carter|this is always": {
-      "date": "2026-09-06",
-      "source": "LastFM~Abbey Lincoln"
-    },
-    "jacky terrasson|la part des anges": {
-      "date": "2026-09-06",
-      "source": "LastFM~Bill Charlap"
-    },
-    "tord gustavsen|one day": {
-      "date": "2026-09-06",
-      "source": "Seed~Tord Gustavsen"
-    },
-    "astrud gilberto|my foolish heart": {
-      "date": "2026-09-06",
-      "source": "Seed~Astrud Gilberto"
-    },
-    "sarah vaughan|broken hearted melody": {
-      "date": "2026-09-06",
-      "source": "LastFM~Billie Holiday"
-    },
-    "billie eilish|billie bossa nova": {
-      "date": "2026-09-06",
-      "source": "Tag~bossa nova"
-    },
-    "chico buarque|construção": {
-      "date": "2026-09-06",
-      "source": "Tag~bossa nova"
-    },
-    "tord gustavsen|better so": {
-      "date": "2026-09-06",
-      "source": "Seed~Tord Gustavsen"
-    },
-    "melody gardot|baby i'm a fool": {
-      "date": "2026-09-06",
-      "source": "Tag~vocal jazz"
-    },
-    "astrud gilberto|maria quiet": {
-      "date": "2026-09-06",
-      "source": "Seed~Astrud Gilberto"
-    },
-    "astrud gilberto|the girl from ipanema": {
-      "date": "2026-09-06",
-      "source": "LastFM~Stan Getz"
-    },
-    "etta james|i'd rather go blind": {
-      "date": "2026-09-06",
-      "source": "LastFM~Billie Holiday"
-    },
-    "tord gustavsen|rull": {
-      "date": "2026-09-06",
-      "source": "Seed~Tord Gustavsen"
-    },
-    "marcos valle|so nice (summer samba)": {
-      "date": "2026-09-06",
-      "source": "Tag~bossa nova"
-    },
-    "the dave brubeck quartet|pick up sticks": {
-      "date": "2026-09-06",
-      "source": "Tag~west coast jazz"
-    },
-    "joão gilberto|desafinado": {
-      "date": "2026-09-06",
-      "source": "Seed~João Gilberto"
-    },
-    "laufey|lover girl": {
-      "date": "2026-09-06",
-      "source": "Tag~bossa nova"
-    },
-    "abbey lincoln|when malindy sings": {
-      "date": "2026-09-06",
-      "source": "LastFM~Carmen McRae"
-    },
-    "melody gardot|your heart is as black as night": {
-      "date": "2026-09-13",
-      "source": "Seed~Melody Gardot"
-    },
-    "carmen mcrae|all the things you are": {
-      "date": "2026-09-13",
-      "source": "LastFM~Johnny Hartman"
-    },
-    "cassandra wilson|just another parade": {
-      "date": "2026-09-13",
-      "source": "LastFM~Madeleine Peyroux"
-    },
-    "melody gardot|sweet memory": {
-      "date": "2026-09-13",
-      "source": "Seed~Melody Gardot"
-    },
-    "betty carter|'round midnight": {
-      "date": "2026-09-13",
-      "source": "LastFM~Johnny Hartman"
-    },
-    "carmen mcrae|nice work if you can get it": {
-      "date": "2026-09-13",
-      "source": "LastFM~Johnny Hartman"
-    },
-    "gregory porter|revival": {
-      "date": "2026-09-13",
-      "source": "Seed~Gregory Porter"
-    },
-    "julie london|fly me to the moon": {
-      "date": "2026-09-13",
-      "source": "Seed~Julie London"
-    },
-    "joão gilberto|'s wonderful": {
-      "date": "2026-09-13",
-      "source": "Seed~João Gilberto"
-    },
-    "gregory porter|christmas wish": {
-      "date": "2026-09-13",
-      "source": "Seed~Gregory Porter"
-    },
-    "paul kelly|my love for you won't die": {
-      "date": "2026-09-13",
-      "source": "Tag~torch song"
-    },
-    "scott hamilton|bésame mucho": {
-      "date": "2026-09-13",
-      "source": "LastFM~Paul Desmond"
-    },
-    "cyrille aimée|again again": {
-      "date": "2026-09-13",
-      "source": "Seed~Cyrille Aimée"
-    },
-    "spence hood|so you wanna marry daisy": {
-      "date": "2026-09-13",
-      "source": "Tag~jazz ballad"
-    },
-    "cassandra wilson|love is blindness": {
-      "date": "2026-09-13",
-      "source": "LastFM~Madeleine Peyroux"
-    },
-    "betty carter|beware my heart": {
-      "date": "2026-09-13",
-      "source": "LastFM~Johnny Hartman"
-    },
-    "julie london|cry me a river": {
-      "date": "2026-09-13",
-      "source": "Seed~Julie London"
-    },
-    "andreas schnermann|funeral blues": {
-      "date": "2026-09-13",
-      "source": "Tag~jazz ballad"
-    },
-    "cyrille aimée|how deep is the ocean": {
-      "date": "2026-09-13",
-      "source": "Seed~Cyrille Aimée"
-    },
-    "julian & roman wasserfuhr quartet|if i should loose you": {
-      "date": "2026-09-13",
-      "source": "Tag~jazz ballad"
-    },
-    "gregory porter|holding on": {
-      "date": "2026-09-13",
-      "source": "Seed~Gregory Porter"
-    },
-    "tuck & patti|dream": {
-      "date": "2026-09-13",
-      "source": "Tag~jazz ballad"
-    },
-    "chet baker|time after time": {
-      "date": "2026-09-13",
-      "source": "Tag~cool jazz"
-    },
-    "joão gilberto|wave": {
-      "date": "2026-09-13",
-      "source": "Seed~João Gilberto"
-    },
-    "cyrille aimée|beautiful way": {
-      "date": "2026-09-13",
-      "source": "Seed~Cyrille Aimée"
-    },
-    "julie london|go slow": {
-      "date": "2026-09-13",
-      "source": "Seed~Julie London"
-    },
-    "carmen mcrae|when i fall in love": {
-      "date": "2026-09-13",
-      "source": "LastFM~Johnny Hartman"
-    },
-    "betty carter|my favourite things": {
-      "date": "2026-09-13",
-      "source": "LastFM~Johnny Hartman"
-    },
-    "jazzmeia horn|tight": {
-      "date": "2026-09-20",
-      "source": "LastFM~Cyrille Aimée"
-    },
-    "lars danielsson|asta": {
-      "date": "2026-09-20",
-      "source": "LastFM~Ibrahim Maalouf"
-    },
-    "abbey lincoln|being me": {
-      "date": "2026-09-20",
-      "source": "Seed~Abbey Lincoln"
-    },
-    "karrin allyson|i wish i knew": {
-      "date": "2026-09-20",
-      "source": "LastFM~Sara Gazarek"
-    },
-    "antônio carlos jobim|garota de ipanema": {
-      "date": "2026-09-20",
-      "source": "Tag~bossa nova"
-    },
-    "lars danielsson|lviv": {
-      "date": "2026-09-20",
-      "source": "LastFM~Ibrahim Maalouf"
-    },
-    "jane monheit|in the still of the night": {
-      "date": "2026-09-20",
-      "source": "LastFM~Sara Gazarek"
-    },
-    "ibrahim maalouf|free spirit": {
-      "date": "2026-09-20",
-      "source": "Seed~Ibrahim Maalouf"
-    },
-    "father john misty|mental health": {
-      "date": "2026-09-20",
-      "source": "Tag~traditional pop"
-    },
-    "gabi hartmann|people tell me / les gens me disent (feat. julian lage)": {
-      "date": "2026-09-20",
-      "source": "LastFM~Cyrille Aimée"
-    },
-    "abbey lincoln|bird alone": {
-      "date": "2026-09-20",
-      "source": "LastFM~Jimmy Scott"
-    },
-    "jazzmeia horn|no more": {
-      "date": "2026-09-20",
-      "source": "LastFM~Cyrille Aimée"
-    },
-    "jane monheit|honeysuckle rose": {
-      "date": "2026-09-20",
-      "source": "LastFM~Sara Gazarek"
-    },
-    "ibrahim maalouf|illusions": {
-      "date": "2026-09-20",
-      "source": "Seed~Ibrahim Maalouf"
-    },
-    "abbey lincoln|and it's supposed to be love": {
-      "date": "2026-09-20",
-      "source": "LastFM~Jimmy Scott"
-    },
-    "laufey|goddess": {
-      "date": "2026-09-20",
-      "source": "Tag~traditional pop"
-    },
-    "lars danielsson|passacaglia": {
-      "date": "2026-09-20",
-      "source": "LastFM~Ibrahim Maalouf"
-    },
-    "astrud gilberto|fly me to the moon": {
-      "date": "2026-09-20",
-      "source": "Tag~bossa nova"
-    },
-    "jazzmeia horn|i remember you": {
-      "date": "2026-09-20",
-      "source": "LastFM~Cyrille Aimée"
-    },
-    "vincent peirani|night walker": {
-      "date": "2026-09-20",
-      "source": "LastFM~Ibrahim Maalouf"
-    },
-    "chet baker|i fall in love too easily": {
-      "date": "2026-09-20",
-      "source": "Tag~cool jazz"
-    },
-    "abbey lincoln|left alone": {
-      "date": "2026-09-20",
-      "source": "LastFM~Jimmy Scott"
-    },
-    "jorge ben|mas, que nada!": {
-      "date": "2026-09-20",
-      "source": "Tag~bossa nova"
-    },
-    "jane monheit|cheek to cheek": {
-      "date": "2026-09-20",
-      "source": "LastFM~Sara Gazarek"
-    },
-    "vincent peirani|army dreamers": {
-      "date": "2026-09-20",
-      "source": "LastFM~Ibrahim Maalouf"
-    },
-    "gabi hartmann|drink the ocean (feat. oracle sisters)": {
-      "date": "2026-09-20",
-      "source": "LastFM~Cyrille Aimée"
-    }
-  },
-  "playlist_log": {
-    "673370": {
-      "date": "2026-08-26",
-      "artist": "Deacon Blue",
-      "title": "Town To Be Blamed",
-      "source": "Tag~torch song",
-      "genres": []
-    },
-    "94395190": {
-      "date": "2026-08-26",
-      "artist": "Antônio Carlos Jobim",
-      "title": "The Red Blouse",
       "source": "Tag~bossa nova",
       "genres": [
         "bossa nova",
@@ -593,31 +20,8 @@
         "latin jazz"
       ]
     },
-    "1286398": {
+    "helen merrill|i remember you": {
       "date": "2026-08-26",
-      "artist": "Jimmy Scott",
-      "title": "When Did You Leave Heaven?",
-      "source": "Tag~jazz ballad",
-      "genres": [
-        "vocal jazz"
-      ]
-    },
-    "121091859": {
-      "date": "2026-08-26",
-      "artist": "Stan Getz",
-      "title": "Só Danço Samba",
-      "source": "Tag~bossa nova",
-      "genres": [
-        "bossa nova",
-        "jazz",
-        "brazilian jazz",
-        "cool jazz"
-      ]
-    },
-    "5907349": {
-      "date": "2026-08-26",
-      "artist": "Helen Merrill",
-      "title": "Summertime",
       "source": "LastFM~Blossom Dearie",
       "genres": [
         "vocal jazz",
@@ -625,10 +29,15 @@
         "jazz"
       ]
     },
-    "121091854": {
+    "jimmy scott|when did you leave heaven?": {
       "date": "2026-08-26",
-      "artist": "Stan Getz",
-      "title": "The Girl From Ipanema",
+      "source": "Tag~jazz ballad",
+      "genres": [
+        "vocal jazz"
+      ]
+    },
+    "stan getz|só danço samba": {
+      "date": "2026-08-26",
       "source": "Tag~bossa nova",
       "genres": [
         "bossa nova",
@@ -637,41 +46,63 @@
         "cool jazz"
       ]
     },
-    "11959544": {
+    "helen merrill|summertime": {
       "date": "2026-08-26",
-      "artist": "Etta Jones",
-      "title": "Solitude",
       "source": "LastFM~Blossom Dearie",
       "genres": [
         "vocal jazz",
+        "jazz ballads",
         "jazz"
       ]
     },
-    "2032836": {
+    "stan getz|the girl from ipanema": {
       "date": "2026-08-26",
-      "artist": "Sérgio Mendes & Brasil '66",
-      "title": "Mas que nada",
       "source": "Tag~bossa nova",
       "genres": [
         "bossa nova",
+        "jazz",
         "brazilian jazz",
-        "latin jazz"
+        "cool jazz"
       ]
     },
-    "92096920": {
+    "etta jones|solitude": {
       "date": "2026-08-26",
-      "artist": "Etta Jones",
-      "title": "I Love Paris",
       "source": "LastFM~Blossom Dearie",
       "genres": [
         "vocal jazz",
         "jazz"
       ]
     },
-    "207326951": {
+    "sérgio mendes & brasil '66|mas que nada": {
       "date": "2026-08-26",
-      "artist": "Cécile McLorin Salvant",
-      "title": "Thunderclouds",
+      "source": "Tag~bossa nova",
+      "genres": [
+        "bossa nova",
+        "jazz",
+        "brazilian",
+        "latin"
+      ]
+    },
+    "nat king cole|deck the hall": {
+      "date": "2026-08-26",
+      "source": "Seed~Nat King Cole",
+      "genres": [
+        "christmas",
+        "adult standards",
+        "vocal jazz",
+        "big band"
+      ]
+    },
+    "etta jones|i love paris": {
+      "date": "2026-08-26",
+      "source": "LastFM~Blossom Dearie",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "cécile mclorin salvant|thunderclouds": {
+      "date": "2026-08-26",
       "source": "Seed~Cécile McLorin Salvant",
       "genres": [
         "vocal jazz",
@@ -680,10 +111,8 @@
         "jazz pop"
       ]
     },
-    "208378934": {
+    "cécile mclorin salvant|until": {
       "date": "2026-08-26",
-      "artist": "Cécile McLorin Salvant",
-      "title": "Until",
       "source": "Seed~Cécile McLorin Salvant",
       "genres": [
         "vocal jazz",
@@ -692,38 +121,33 @@
         "jazz pop"
       ]
     },
-    "117059389": {
+    "chantal chamberland|beautiful life": {
       "date": "2026-08-26",
-      "artist": "Chantal Chamberland",
-      "title": "Beautiful Life",
       "source": "LastFM~Madeleine Peyroux",
       "genres": [
         "french jazz",
         "vocal jazz"
       ]
     },
-    "93980224": {
+    "jimmy scott|you don't know what love is": {
       "date": "2026-08-26",
-      "artist": "Jimmy Scott",
-      "title": "You Don't Know What Love Is",
       "source": "Tag~jazz ballad",
       "genres": [
         "vocal jazz"
       ]
     },
-    "94380517": {
+    "julian & roman wasserfuhr quartet|you are a friend of mine": {
       "date": "2026-08-26",
-      "artist": "Julian & Roman Wasserfuhr Quartet",
-      "title": "You Are A Friend Of Mine",
       "source": "Tag~jazz ballad",
       "genres": [
-        "jazz"
+        "jazz",
+        "instrumental",
+        "instrumental jazz",
+        "jazz wasserfuhr german chet baker"
       ]
     },
-    "96341223": {
+    "elis regina|triste": {
       "date": "2026-08-26",
-      "artist": "Elis Regina",
-      "title": "Triste",
       "source": "Tag~bossa nova",
       "genres": [
         "mpb",
@@ -731,10 +155,8 @@
         "brazilian jazz"
       ]
     },
-    "352894763": {
+    "patricia barber|she's a lady": {
       "date": "2026-08-26",
-      "artist": "Patricia Barber",
-      "title": "She's a Lady",
       "source": "LastFM~Madeleine Peyroux",
       "genres": [
         "vocal jazz",
@@ -742,17 +164,18 @@
         "jazz"
       ]
     },
-    "161829951": {
+    "cassandra jenkins|hard drive": {
       "date": "2026-08-26",
-      "artist": "Cassandra Jenkins",
-      "title": "Hard Drive",
       "source": "Tag~chamber jazz",
-      "genres": []
+      "genres": [
+        "singer songwriter",
+        "folk",
+        "alternative folk",
+        "indie"
+      ]
     },
-    "2522290": {
+    "patricia barber|you're the top": {
       "date": "2026-08-26",
-      "artist": "Patricia Barber",
-      "title": "You're The Top",
       "source": "LastFM~Madeleine Peyroux",
       "genres": [
         "vocal jazz",
@@ -760,10 +183,8 @@
         "jazz"
       ]
     },
-    "36134748": {
+    "helen merrill|anything goes": {
       "date": "2026-08-26",
-      "artist": "Helen Merrill",
-      "title": "Anything Goes",
       "source": "LastFM~Blossom Dearie",
       "genres": [
         "vocal jazz",
@@ -771,82 +192,32 @@
         "jazz"
       ]
     },
-    "92096919": {
+    "etta jones|don't go to strangers": {
       "date": "2026-08-26",
-      "artist": "Etta Jones",
-      "title": "Don't Go to Strangers",
       "source": "LastFM~Blossom Dearie",
       "genres": [
         "vocal jazz",
         "jazz"
       ]
     },
-    "134186882": {
+    "wolfgang muthspiel|ride": {
       "date": "2026-08-26",
-      "artist": "Wolfgang Muthspiel",
-      "title": "ride",
       "source": "LastFM~Bobo Stenson",
       "genres": [
         "jazz",
         "ambient jazz"
       ]
     },
-    "77630465": {
+    "cassandra wilson|harvest moon": {
       "date": "2026-08-26",
-      "artist": "Cassandra Wilson",
-      "title": "Harvest Moon",
       "source": "LastFM~Jimmy Scott",
       "genres": [
         "vocal jazz",
         "jazz"
       ]
     },
-    "31237773": {
+    "cécile mclorin salvant|and yet": {
       "date": "2026-08-26",
-      "artist": "Chico Buarque",
-      "title": "Essa Moça Tá Diferente",
-      "source": "Tag~bossa nova",
-      "genres": [
-        "mpb",
-        "bossa nova",
-        "samba"
-      ]
-    },
-    "10915565": {
-      "date": "2026-08-26",
-      "artist": "Joshua Redman",
-      "title": "Body & Soul",
-      "source": "Tag~jazz ballad",
-      "genres": [
-        "jazz",
-        "jazz ballads"
-      ]
-    },
-    "147111": {
-      "date": "2026-08-26",
-      "artist": "Nat King Cole",
-      "title": "Mona Lisa",
-      "source": "Seed~Nat King Cole",
-      "genres": [
-        "christmas",
-        "adult standards",
-        "vocal jazz"
-      ]
-    },
-    "85376066": {
-      "date": "2026-08-30",
-      "artist": "Mathias Eick",
-      "title": "Ravensburg",
-      "source": "LastFM~Tord Gustavsen",
-      "genres": [
-        "ambient jazz",
-        "jazz"
-      ]
-    },
-    "470851516": {
-      "date": "2026-08-30",
-      "artist": "Cécile McLorin Salvant",
-      "title": "You're My Thrill",
       "source": "Seed~Cécile McLorin Salvant",
       "genres": [
         "vocal jazz",
@@ -855,30 +226,87 @@
         "jazz pop"
       ]
     },
-    "172588739": {
+    "chico buarque|essa moça tá diferente": {
+      "date": "2026-08-26",
+      "source": "Tag~bossa nova",
+      "genres": [
+        "mpb",
+        "bossa nova",
+        "samba"
+      ]
+    },
+    "nat king cole|the happiest christmas tree": {
+      "date": "2026-08-26",
+      "source": "Seed~Nat King Cole",
+      "genres": [
+        "christmas",
+        "adult standards",
+        "vocal jazz",
+        "big band"
+      ]
+    },
+    "joshua redman|body & soul": {
+      "date": "2026-08-26",
+      "source": "Tag~jazz ballad",
+      "genres": [
+        "jazz",
+        "jazz ballads"
+      ]
+    },
+    "nat king cole|mona lisa": {
+      "date": "2026-08-26",
+      "source": "Seed~Nat King Cole",
+      "genres": [
+        "christmas",
+        "adult standards",
+        "vocal jazz",
+        "big band"
+      ]
+    },
+    "mathias eick|ravensburg": {
       "date": "2026-08-30",
-      "artist": "Jakob Bro",
-      "title": "To Stanko",
       "source": "LastFM~Tord Gustavsen",
       "genres": [
         "ambient jazz",
         "jazz"
       ]
     },
-    "322915159": {
+    "cécile mclorin salvant|you're my thrill": {
       "date": "2026-08-30",
-      "artist": "Samara Joy",
-      "title": "The Christmas Song",
+      "source": "Seed~Cécile McLorin Salvant",
+      "genres": [
+        "vocal jazz",
+        "french jazz",
+        "jazz",
+        "jazz pop"
+      ]
+    },
+    "jakob bro|to stanko": {
+      "date": "2026-08-30",
+      "source": "LastFM~Tord Gustavsen",
+      "genres": [
+        "ambient jazz",
+        "jazz"
+      ]
+    },
+    "jeri southern|it's delovely": {
+      "date": "2026-08-30",
+      "source": "Seed~Jeri Southern",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "samara joy|the christmas song": {
+      "date": "2026-08-30",
       "source": "LastFM~Cécile McLorin Salvant",
       "genres": [
         "vocal jazz",
         "jazz"
       ]
     },
-    "119987673": {
+    "astrud gilberto|o morro (não tem vez)": {
       "date": "2026-08-30",
-      "artist": "Astrud Gilberto",
-      "title": "O Morro (Não Tem Vez)",
       "source": "Seed~Astrud Gilberto",
       "genres": [
         "bossa nova",
@@ -887,20 +315,16 @@
         "vocal jazz"
       ]
     },
-    "51872171": {
+    "marcos valle|nova bossa nova": {
       "date": "2026-08-30",
-      "artist": "Marcos Valle",
-      "title": "Nova Bossa Nova",
       "source": "Tag~bossa nova",
       "genres": [
         "bossa nova",
         "brazilian jazz"
       ]
     },
-    "2993268": {
+    "paul desmond|take ten": {
       "date": "2026-08-30",
-      "artist": "Paul Desmond",
-      "title": "Take Ten",
       "source": "LastFM~Stan Getz",
       "genres": [
         "cool jazz",
@@ -909,79 +333,8 @@
         "jazz ballads"
       ]
     },
-    "52218024": {
+    "julie london|say it isn't so": {
       "date": "2026-08-30",
-      "artist": "Wendy & Lisa",
-      "title": "Jonathan",
-      "source": "Tag~torch song",
-      "genres": []
-    },
-    "244404282": {
-      "date": "2026-08-30",
-      "artist": "Madison Beer",
-      "title": "Dangerous",
-      "source": "Tag~traditional pop",
-      "genres": []
-    },
-    "341442084": {
-      "date": "2026-08-30",
-      "artist": "Laufey",
-      "title": "Trouble",
-      "source": "Tag~traditional pop",
-      "genres": []
-    },
-    "332662298": {
-      "date": "2026-08-30",
-      "artist": "Ute Lemper",
-      "title": "Lili Marlene",
-      "source": "Tag~torch song",
-      "genres": []
-    },
-    "246439319": {
-      "date": "2026-08-30",
-      "artist": "Laufey",
-      "title": "Beautiful Stranger",
-      "source": "Tag~traditional pop",
-      "genres": []
-    },
-    "96199675": {
-      "date": "2026-08-30",
-      "artist": "Jeri Southern",
-      "title": "I Thought of You Last Night",
-      "source": "Seed~Jeri Southern",
-      "genres": [
-        "vocal jazz",
-        "jazz"
-      ]
-    },
-    "77660787": {
-      "date": "2026-08-30",
-      "artist": "Astrud Gilberto",
-      "title": "Beach Samba",
-      "source": "Seed~Astrud Gilberto",
-      "genres": [
-        "bossa nova",
-        "brazilian jazz",
-        "latin jazz",
-        "vocal jazz"
-      ]
-    },
-    "93429370": {
-      "date": "2026-08-30",
-      "artist": "Astrud Gilberto",
-      "title": "Summer Samba (So Nice)",
-      "source": "Seed~Astrud Gilberto",
-      "genres": [
-        "bossa nova",
-        "brazilian jazz",
-        "latin jazz",
-        "vocal jazz"
-      ]
-    },
-    "11654494": {
-      "date": "2026-08-30",
-      "artist": "Julie London",
-      "title": "The End of the World",
       "source": "Seed~Julie London",
       "genres": [
         "vocal jazz",
@@ -989,20 +342,121 @@
         "adult standards"
       ]
     },
-    "77623038": {
+    "wendy & lisa|jonathan": {
       "date": "2026-08-30",
-      "artist": "Mathias Eick",
-      "title": "October",
+      "source": "Tag~torch song",
+      "genres": [
+        "pop",
+        "funk",
+        "female vocalists",
+        "alternative"
+      ]
+    },
+    "madison beer|dangerous": {
+      "date": "2026-08-30",
+      "source": "Tag~traditional pop",
+      "genres": [
+        "pop",
+        "female vocalists",
+        "rnb",
+        "indie"
+      ]
+    },
+    "julie london|warm december": {
+      "date": "2026-08-30",
+      "source": "Seed~Julie London",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "adult standards"
+      ]
+    },
+    "laufey|trouble": {
+      "date": "2026-08-30",
+      "source": "Tag~traditional pop",
+      "genres": [
+        "jazz",
+        "bossa nova",
+        "pop",
+        "jazz pop"
+      ]
+    },
+    "ute lemper|lili marlene": {
+      "date": "2026-08-30",
+      "source": "Tag~torch song",
+      "genres": [
+        "cabaret",
+        "german",
+        "female vocalists",
+        "jazz"
+      ]
+    },
+    "laufey|beautiful stranger": {
+      "date": "2026-08-30",
+      "source": "Tag~traditional pop",
+      "genres": [
+        "jazz",
+        "bossa nova",
+        "pop",
+        "jazz pop"
+      ]
+    },
+    "jeri southern|i thought of you last night": {
+      "date": "2026-08-30",
+      "source": "Seed~Jeri Southern",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "astrud gilberto|beach samba": {
+      "date": "2026-08-30",
+      "source": "Seed~Astrud Gilberto",
+      "genres": [
+        "bossa nova",
+        "brazilian jazz",
+        "latin jazz",
+        "vocal jazz"
+      ]
+    },
+    "astrud gilberto|summer samba (so nice)": {
+      "date": "2026-08-30",
+      "source": "Seed~Astrud Gilberto",
+      "genres": [
+        "bossa nova",
+        "brazilian jazz",
+        "latin jazz",
+        "vocal jazz"
+      ]
+    },
+    "julie london|the end of the world": {
+      "date": "2026-08-30",
+      "source": "Seed~Julie London",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "adult standards"
+      ]
+    },
+    "mathias eick|october": {
+      "date": "2026-08-30",
       "source": "LastFM~Tord Gustavsen",
       "genres": [
         "ambient jazz",
         "jazz"
       ]
     },
-    "158155": {
+    "chico buarque|valsinha": {
       "date": "2026-08-30",
-      "artist": "Chet Baker",
-      "title": "Like Someone in Love",
+      "source": "Tag~bossa nova",
+      "genres": [
+        "mpb",
+        "bossa nova",
+        "samba"
+      ]
+    },
+    "chet baker|let's get lost": {
+      "date": "2026-08-30",
       "source": "Tag~cool jazz",
       "genres": [
         "jazz",
@@ -1011,20 +465,36 @@
         "jazz ballads"
       ]
     },
-    "86316447": {
+    "chet baker|like someone in love": {
       "date": "2026-08-30",
-      "artist": "Jakob Bro",
-      "title": "Strands",
+      "source": "Tag~cool jazz",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "vocal jazz",
+        "jazz ballads"
+      ]
+    },
+    "jakob bro|strands": {
+      "date": "2026-08-30",
       "source": "LastFM~Tord Gustavsen",
       "genres": [
         "ambient jazz",
         "jazz"
       ]
     },
-    "113627710": {
+    "mitski|my love mine all mine": {
       "date": "2026-08-30",
-      "artist": "João Gilberto",
-      "title": "Chega de Saudade",
+      "source": "Tag~traditional pop",
+      "genres": [
+        "indie rock",
+        "indie",
+        "indie pop",
+        "singer songwriter"
+      ]
+    },
+    "joão gilberto|chega de saudade": {
+      "date": "2026-08-30",
       "source": "Tag~bossa nova",
       "genres": [
         "bossa nova",
@@ -1033,77 +503,78 @@
         "latin jazz"
       ]
     },
-    "2809490": {
+    "the dave brubeck quartet|kathy's waltz": {
       "date": "2026-08-30",
-      "artist": "The Dave Brubeck Quartet",
-      "title": "Kathy's Waltz",
       "source": "Tag~cool jazz",
       "genres": [
         "jazz",
         "cool jazz"
       ]
     },
-    "247470698": {
+    "samara joy|misty": {
       "date": "2026-08-30",
-      "artist": "Samara Joy",
-      "title": "Misty",
       "source": "LastFM~Cécile McLorin Salvant",
       "genres": [
         "vocal jazz",
         "jazz"
       ]
     },
-    "85376061": {
+    "mathias eick|children": {
       "date": "2026-08-30",
-      "artist": "Mathias Eick",
-      "title": "Children",
       "source": "LastFM~Tord Gustavsen",
       "genres": [
         "ambient jazz",
         "jazz"
       ]
     },
-    "381007669": {
+    "father john misty|summer’s gone": {
       "date": "2026-08-30",
-      "artist": "Father John Misty",
-      "title": "Summer’s Gone",
       "source": "Tag~traditional pop",
-      "genres": []
-    },
-    "23175151": {
-      "date": "2026-08-30",
-      "artist": "Jo Stafford & Gordon Macrae",
-      "title": "My Darling, My Darling",
-      "source": "Tag~torch song",
       "genres": [
-        "adult standards"
+        "folk",
+        "indie",
+        "indie folk",
+        "alt country"
       ]
     },
-    "147105": {
+    "jo stafford & gordon macrae|my darling, my darling": {
+      "date": "2026-08-30",
+      "source": "Tag~torch song",
+      "genres": [
+        "broadway",
+        "musical",
+        "j stafford",
+        "musikal"
+      ]
+    },
+    "nat king cole|nature boy": {
       "date": "2026-09-06",
-      "artist": "Nat King Cole",
-      "title": "Nature Boy",
       "source": "Tag~vocal jazz",
       "genres": [
         "christmas",
         "adult standards",
-        "vocal jazz"
+        "vocal jazz",
+        "big band"
       ]
     },
-    "15609506": {
+    "dave brubeck|there'll be some changes made": {
       "date": "2026-09-06",
-      "artist": "Etta Jones",
-      "title": "What Ev'ry Woman Knows",
+      "source": "Tag~west coast jazz",
+      "genres": [
+        "jazz",
+        "cool jazz"
+      ]
+    },
+    "etta jones|what ev'ry woman knows": {
+      "date": "2026-09-06",
       "source": "Seed~Etta Jones",
       "genres": [
         "vocal jazz",
         "jazz"
       ]
     },
-    "119987715": {
+    "astrud gilberto|dindi": {
       "date": "2026-09-06",
-      "artist": "Astrud Gilberto",
-      "title": "Dindi",
       "source": "LastFM~Stan Getz",
       "genres": [
         "bossa nova",
@@ -1112,17 +583,36 @@
         "vocal jazz"
       ]
     },
-    "77622761": {
+    "tord gustavsen|being there": {
       "date": "2026-09-06",
-      "artist": "Tord Gustavsen",
-      "title": "Being There",
       "source": "Seed~Tord Gustavsen",
-      "genres": []
+      "genres": [
+        "jazz",
+        "norwegian",
+        "piano",
+        "jazz piano"
+      ]
     },
-    "158162": {
+    "etta jones|till there was you": {
       "date": "2026-09-06",
-      "artist": "Chet Baker",
-      "title": "My Funny Valentine",
+      "source": "Seed~Etta Jones",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "astrud gilberto|photograph": {
+      "date": "2026-09-06",
+      "source": "Tag~bossa nova",
+      "genres": [
+        "bossa nova",
+        "brazilian jazz",
+        "latin jazz",
+        "vocal jazz"
+      ]
+    },
+    "chet baker|my funny valentine": {
+      "date": "2026-09-06",
       "source": "Tag~cool jazz",
       "genres": [
         "jazz",
@@ -1131,10 +621,8 @@
         "jazz ballads"
       ]
     },
-    "4977306": {
+    "joão gilberto|tin tin por tin tin": {
       "date": "2026-09-06",
-      "artist": "João Gilberto",
-      "title": "Tin Tin Por Tin Tin",
       "source": "Seed~João Gilberto",
       "genres": [
         "bossa nova",
@@ -1143,30 +631,24 @@
         "latin jazz"
       ]
     },
-    "117795187": {
+    "abbey lincoln|straight ahead": {
       "date": "2026-09-06",
-      "artist": "Abbey Lincoln",
-      "title": "Straight Ahead",
       "source": "LastFM~Carmen McRae",
       "genres": [
         "vocal jazz",
         "jazz"
       ]
     },
-    "2809486": {
+    "the dave brubeck quartet|blue rondo a la turk": {
       "date": "2026-09-06",
-      "artist": "The Dave Brubeck Quartet",
-      "title": "Blue Rondo a La Turk",
       "source": "Tag~cool jazz",
       "genres": [
         "jazz",
         "cool jazz"
       ]
     },
-    "238526414": {
+    "betty carter|this is always": {
       "date": "2026-09-06",
-      "artist": "Betty Carter",
-      "title": "This Is Always",
       "source": "LastFM~Abbey Lincoln",
       "genres": [
         "vocal jazz",
@@ -1174,10 +656,8 @@
         "jazz ballads"
       ]
     },
-    "118420417": {
+    "jacky terrasson|la part des anges": {
       "date": "2026-09-06",
-      "artist": "Jacky Terrasson",
-      "title": "La Part des Anges",
       "source": "LastFM~Bill Charlap",
       "genres": [
         "jazz",
@@ -1185,17 +665,18 @@
         "jazz ballads"
       ]
     },
-    "423938": {
+    "tord gustavsen|one day": {
       "date": "2026-09-06",
-      "artist": "Tord Gustavsen",
-      "title": "One Day",
       "source": "Seed~Tord Gustavsen",
-      "genres": []
+      "genres": [
+        "jazz",
+        "norwegian",
+        "piano",
+        "jazz piano"
+      ]
     },
-    "77660788": {
+    "astrud gilberto|my foolish heart": {
       "date": "2026-09-06",
-      "artist": "Astrud Gilberto",
-      "title": "My Foolish Heart",
       "source": "Seed~Astrud Gilberto",
       "genres": [
         "bossa nova",
@@ -1204,10 +685,8 @@
         "vocal jazz"
       ]
     },
-    "94367667": {
+    "sarah vaughan|broken hearted melody": {
       "date": "2026-09-06",
-      "artist": "Sarah Vaughan",
-      "title": "Broken Hearted Melody",
       "source": "LastFM~Billie Holiday",
       "genres": [
         "vocal jazz",
@@ -1215,17 +694,18 @@
         "jazz ballads"
       ]
     },
-    "192576408": {
+    "billie eilish|billie bossa nova": {
       "date": "2026-09-06",
-      "artist": "Billie Eilish",
-      "title": "Billie Bossa Nova",
       "source": "Tag~bossa nova",
-      "genres": []
+      "genres": [
+        "pop",
+        "indie pop",
+        "electropop",
+        "art pop"
+      ]
     },
-    "3765068": {
+    "chico buarque|construção": {
       "date": "2026-09-06",
-      "artist": "Chico Buarque",
-      "title": "Construção",
       "source": "Tag~bossa nova",
       "genres": [
         "mpb",
@@ -1233,17 +713,18 @@
         "samba"
       ]
     },
-    "13369584": {
+    "tord gustavsen|better so": {
       "date": "2026-09-06",
-      "artist": "Tord Gustavsen",
-      "title": "Better So",
       "source": "Seed~Tord Gustavsen",
-      "genres": []
+      "genres": [
+        "jazz",
+        "norwegian",
+        "piano",
+        "jazz piano"
+      ]
     },
-    "3164751": {
+    "melody gardot|baby i'm a fool": {
       "date": "2026-09-06",
-      "artist": "Melody Gardot",
-      "title": "Baby I'm A Fool",
       "source": "Tag~vocal jazz",
       "genres": [
         "vocal jazz",
@@ -1251,10 +732,18 @@
         "jazz"
       ]
     },
-    "63831523": {
+    "astrud gilberto|maria quiet": {
       "date": "2026-09-06",
-      "artist": "Astrud Gilberto",
-      "title": "The Girl From Ipanema",
+      "source": "Seed~Astrud Gilberto",
+      "genres": [
+        "bossa nova",
+        "brazilian jazz",
+        "latin jazz",
+        "vocal jazz"
+      ]
+    },
+    "astrud gilberto|the girl from ipanema": {
+      "date": "2026-09-06",
       "source": "LastFM~Stan Getz",
       "genres": [
         "bossa nova",
@@ -1263,10 +752,8 @@
         "vocal jazz"
       ]
     },
-    "94437281": {
+    "etta james|i'd rather go blind": {
       "date": "2026-09-06",
-      "artist": "Etta James",
-      "title": "I'd Rather Go Blind",
       "source": "LastFM~Billie Holiday",
       "genres": [
         "soul",
@@ -1274,37 +761,34 @@
         "vocal jazz"
       ]
     },
-    "77637276": {
+    "tord gustavsen|rull": {
       "date": "2026-09-06",
-      "artist": "Tord Gustavsen",
-      "title": "Rull",
       "source": "Seed~Tord Gustavsen",
-      "genres": []
+      "genres": [
+        "jazz",
+        "norwegian",
+        "piano",
+        "jazz piano"
+      ]
     },
-    "94441985": {
+    "marcos valle|so nice (summer samba)": {
       "date": "2026-09-06",
-      "artist": "Marcos Valle",
-      "title": "So Nice (Summer Samba)",
       "source": "Tag~bossa nova",
       "genres": [
         "bossa nova",
         "brazilian jazz"
       ]
     },
-    "2809492": {
+    "the dave brubeck quartet|pick up sticks": {
       "date": "2026-09-06",
-      "artist": "The Dave Brubeck Quartet",
-      "title": "Pick Up Sticks",
       "source": "Tag~west coast jazz",
       "genres": [
         "jazz",
         "cool jazz"
       ]
     },
-    "121091857": {
+    "joão gilberto|desafinado": {
       "date": "2026-09-06",
-      "artist": "João Gilberto",
-      "title": "Desafinado",
       "source": "Seed~João Gilberto",
       "genres": [
         "bossa nova",
@@ -1313,27 +797,26 @@
         "latin jazz"
       ]
     },
-    "440393159": {
+    "laufey|lover girl": {
       "date": "2026-09-06",
-      "artist": "Laufey",
-      "title": "Lover Girl",
       "source": "Tag~bossa nova",
-      "genres": []
+      "genres": [
+        "jazz",
+        "bossa nova",
+        "pop",
+        "jazz pop"
+      ]
     },
-    "96262780": {
+    "abbey lincoln|when malindy sings": {
       "date": "2026-09-06",
-      "artist": "Abbey Lincoln",
-      "title": "When Malindy Sings",
       "source": "LastFM~Carmen McRae",
       "genres": [
         "vocal jazz",
         "jazz"
       ]
     },
-    "3164757": {
+    "melody gardot|your heart is as black as night": {
       "date": "2026-09-13",
-      "artist": "Melody Gardot",
-      "title": "Your Heart Is As Black As Night",
       "source": "Seed~Melody Gardot",
       "genres": [
         "vocal jazz",
@@ -1341,30 +824,24 @@
         "jazz"
       ]
     },
-    "105048050": {
+    "carmen mcrae|all the things you are": {
       "date": "2026-09-13",
-      "artist": "Carmen McRae",
-      "title": "All the Things You Are",
       "source": "LastFM~Johnny Hartman",
       "genres": [
         "vocal jazz",
         "jazz"
       ]
     },
-    "1385231": {
+    "cassandra wilson|just another parade": {
       "date": "2026-09-13",
-      "artist": "Cassandra Wilson",
-      "title": "Just Another Parade",
       "source": "LastFM~Madeleine Peyroux",
       "genres": [
         "vocal jazz",
         "jazz"
       ]
     },
-    "1657193": {
+    "melody gardot|sweet memory": {
       "date": "2026-09-13",
-      "artist": "Melody Gardot",
-      "title": "Sweet Memory",
       "source": "Seed~Melody Gardot",
       "genres": [
         "vocal jazz",
@@ -1372,10 +849,8 @@
         "jazz"
       ]
     },
-    "245975291": {
+    "betty carter|'round midnight": {
       "date": "2026-09-13",
-      "artist": "Betty Carter",
-      "title": "'round Midnight",
       "source": "LastFM~Johnny Hartman",
       "genres": [
         "vocal jazz",
@@ -1383,20 +858,16 @@
         "jazz ballads"
       ]
     },
-    "13355566": {
+    "carmen mcrae|nice work if you can get it": {
       "date": "2026-09-13",
-      "artist": "Carmen McRae",
-      "title": "Nice Work If You Can Get It",
       "source": "LastFM~Johnny Hartman",
       "genres": [
         "vocal jazz",
         "jazz"
       ]
     },
-    "127807926": {
+    "gregory porter|revival": {
       "date": "2026-09-13",
-      "artist": "Gregory Porter",
-      "title": "Revival",
       "source": "Seed~Gregory Porter",
       "genres": [
         "vocal jazz",
@@ -1404,10 +875,8 @@
         "jazz"
       ]
     },
-    "11654499": {
+    "julie london|fly me to the moon": {
       "date": "2026-09-13",
-      "artist": "Julie London",
-      "title": "Fly Me to the Moon",
       "source": "Seed~Julie London",
       "genres": [
         "vocal jazz",
@@ -1415,10 +884,8 @@
         "adult standards"
       ]
     },
-    "4977304": {
+    "joão gilberto|'s wonderful": {
       "date": "2026-09-13",
-      "artist": "João Gilberto",
-      "title": "'S Wonderful",
       "source": "Seed~João Gilberto",
       "genres": [
         "bossa nova",
@@ -1427,10 +894,8 @@
         "latin jazz"
       ]
     },
-    "320188457": {
+    "gregory porter|christmas wish": {
       "date": "2026-09-13",
-      "artist": "Gregory Porter",
-      "title": "Christmas Wish",
       "source": "Seed~Gregory Porter",
       "genres": [
         "vocal jazz",
@@ -1438,17 +903,18 @@
         "jazz"
       ]
     },
-    "37483436": {
+    "paul kelly|my love for you won't die": {
       "date": "2026-09-13",
-      "artist": "Paul Kelly",
-      "title": "My Love For You Won't Die",
       "source": "Tag~torch song",
-      "genres": []
+      "genres": [
+        "folk",
+        "australian",
+        "singer songwriter",
+        "rock"
+      ]
     },
-    "98870202": {
+    "scott hamilton|bésame mucho": {
       "date": "2026-09-13",
-      "artist": "Scott Hamilton",
-      "title": "Bésame Mucho",
       "source": "LastFM~Paul Desmond",
       "genres": [
         "jazz ballads",
@@ -1456,39 +922,35 @@
         "cool jazz"
       ]
     },
-    "331012073": {
+    "cyrille aimée|again again": {
       "date": "2026-09-13",
-      "artist": "Cyrille Aimée",
-      "title": "again again",
       "source": "Seed~Cyrille Aimée",
       "genres": [
-        "french jazz",
-        "vocal jazz",
         "jazz",
-        "jazz pop"
+        "soul",
+        "female vocalists",
+        "vocal jazz"
       ]
     },
-    "424704174": {
+    "spence hood|so you wanna marry daisy": {
       "date": "2026-09-13",
-      "artist": "Spence Hood",
-      "title": "So You Wanna Marry Daisy",
       "source": "Tag~jazz ballad",
-      "genres": []
+      "genres": [
+        "indie",
+        "usa",
+        "bedroom pop"
+      ]
     },
-    "77630455": {
+    "cassandra wilson|love is blindness": {
       "date": "2026-09-13",
-      "artist": "Cassandra Wilson",
-      "title": "Love Is Blindness",
       "source": "LastFM~Madeleine Peyroux",
       "genres": [
         "vocal jazz",
         "jazz"
       ]
     },
-    "238526416": {
+    "betty carter|beware my heart": {
       "date": "2026-09-13",
-      "artist": "Betty Carter",
-      "title": "Beware My Heart",
       "source": "LastFM~Johnny Hartman",
       "genres": [
         "vocal jazz",
@@ -1496,40 +958,44 @@
         "jazz ballads"
       ]
     },
-    "5605121": {
+    "julie london|cry me a river": {
       "date": "2026-09-13",
-      "artist": "Andreas Schnermann",
-      "title": "Funeral Blues",
+      "source": "Seed~Julie London",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "adult standards"
+      ]
+    },
+    "andreas schnermann|funeral blues": {
+      "date": "2026-09-13",
       "source": "Tag~jazz ballad",
       "genres": [
         "vocal jazz"
       ]
     },
-    "185958812": {
+    "cyrille aimée|how deep is the ocean": {
       "date": "2026-09-13",
-      "artist": "Cyrille Aimée",
-      "title": "How Deep Is the Ocean",
       "source": "Seed~Cyrille Aimée",
       "genres": [
-        "french jazz",
-        "vocal jazz",
         "jazz",
-        "jazz pop"
+        "soul",
+        "female vocalists",
+        "vocal jazz"
       ]
     },
-    "4437544": {
+    "julian & roman wasserfuhr quartet|if i should loose you": {
       "date": "2026-09-13",
-      "artist": "Julian & Roman Wasserfuhr Quartet",
-      "title": "If I Should Loose You",
       "source": "Tag~jazz ballad",
       "genres": [
-        "jazz"
+        "jazz",
+        "instrumental",
+        "instrumental jazz",
+        "jazz wasserfuhr german chet baker"
       ]
     },
-    "60030926": {
+    "gregory porter|holding on": {
       "date": "2026-09-13",
-      "artist": "Gregory Porter",
-      "title": "Holding On",
       "source": "Seed~Gregory Porter",
       "genres": [
         "vocal jazz",
@@ -1537,19 +1003,25 @@
         "jazz"
       ]
     },
-    "13167037": {
+    "tuck & patti|dream": {
       "date": "2026-09-13",
-      "artist": "Tuck & Patti",
-      "title": "Dream",
       "source": "Tag~jazz ballad",
       "genres": [
         "vocal jazz"
       ]
     },
-    "4977308": {
+    "chet baker|time after time": {
       "date": "2026-09-13",
-      "artist": "João Gilberto",
-      "title": "Wave",
+      "source": "Tag~cool jazz",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "vocal jazz",
+        "jazz ballads"
+      ]
+    },
+    "joão gilberto|wave": {
+      "date": "2026-09-13",
       "source": "Seed~João Gilberto",
       "genres": [
         "bossa nova",
@@ -1558,32 +1030,35 @@
         "latin jazz"
       ]
     },
-    "436924442": {
+    "cyrille aimée|beautiful way": {
       "date": "2026-09-13",
-      "artist": "Cyrille Aimée",
-      "title": "Beautiful Way",
       "source": "Seed~Cyrille Aimée",
       "genres": [
-        "french jazz",
-        "vocal jazz",
         "jazz",
-        "jazz pop"
+        "soul",
+        "female vocalists",
+        "vocal jazz"
       ]
     },
-    "531954": {
+    "julie london|go slow": {
       "date": "2026-09-13",
-      "artist": "Carmen McRae",
-      "title": "When I Fall In Love",
+      "source": "Seed~Julie London",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "adult standards"
+      ]
+    },
+    "carmen mcrae|when i fall in love": {
+      "date": "2026-09-13",
       "source": "LastFM~Johnny Hartman",
       "genres": [
         "vocal jazz",
         "jazz"
       ]
     },
-    "77573631": {
+    "betty carter|my favourite things": {
       "date": "2026-09-13",
-      "artist": "Betty Carter",
-      "title": "My Favourite Things",
       "source": "LastFM~Johnny Hartman",
       "genres": [
         "vocal jazz",
@@ -1591,40 +1066,32 @@
         "jazz ballads"
       ]
     },
-    "77696755": {
+    "jazzmeia horn|tight": {
       "date": "2026-09-20",
-      "artist": "Jazzmeia Horn",
-      "title": "Tight",
       "source": "LastFM~Cyrille Aimée",
       "genres": [
         "vocal jazz",
         "jazz"
       ]
     },
-    "4436891": {
+    "lars danielsson|asta": {
       "date": "2026-09-20",
-      "artist": "Lars Danielsson",
-      "title": "Asta",
       "source": "LastFM~Ibrahim Maalouf",
       "genres": [
         "jazz",
         "cool jazz"
       ]
     },
-    "530292": {
+    "abbey lincoln|being me": {
       "date": "2026-09-20",
-      "artist": "Abbey Lincoln",
-      "title": "Being Me",
       "source": "Seed~Abbey Lincoln",
       "genres": [
         "vocal jazz",
         "jazz"
       ]
     },
-    "2937886": {
+    "karrin allyson|i wish i knew": {
       "date": "2026-09-20",
-      "artist": "Karrin Allyson",
-      "title": "I Wish I Knew",
       "source": "LastFM~Sara Gazarek",
       "genres": [
         "vocal jazz",
@@ -1633,10 +1100,8 @@
         "bossa nova"
       ]
     },
-    "63831525": {
+    "antônio carlos jobim|garota de ipanema": {
       "date": "2026-09-20",
-      "artist": "Antônio Carlos Jobim",
-      "title": "Garota de Ipanema",
       "source": "Tag~bossa nova",
       "genres": [
         "bossa nova",
@@ -1645,124 +1110,108 @@
         "latin jazz"
       ]
     },
-    "73523414": {
+    "lars danielsson|lviv": {
       "date": "2026-09-20",
-      "artist": "Lars Danielsson",
-      "title": "Lviv",
       "source": "LastFM~Ibrahim Maalouf",
       "genres": [
         "jazz",
         "cool jazz"
       ]
     },
-    "1745262": {
+    "jane monheit|in the still of the night": {
       "date": "2026-09-20",
-      "artist": "Jane Monheit",
-      "title": "In The Still Of The Night",
       "source": "LastFM~Sara Gazarek",
       "genres": [
         "vocal jazz",
         "jazz"
       ]
     },
-    "155555184": {
+    "ibrahim maalouf|free spirit": {
       "date": "2026-09-20",
-      "artist": "Ibrahim Maalouf",
-      "title": "Free Spirit",
       "source": "Seed~Ibrahim Maalouf",
       "genres": [
         "french jazz",
         "jazz"
       ]
     },
-    "381007660": {
+    "father john misty|mental health": {
       "date": "2026-09-20",
-      "artist": "Father John Misty",
-      "title": "Mental Health",
       "source": "Tag~traditional pop",
-      "genres": []
+      "genres": [
+        "folk",
+        "indie",
+        "indie folk",
+        "alt country"
+      ]
     },
-    "267676266": {
+    "gabi hartmann|people tell me / les gens me disent (feat. julian lage)": {
       "date": "2026-09-20",
-      "artist": "Gabi Hartmann",
-      "title": "People Tell Me / Les gens me disent (feat. Julian Lage)",
       "source": "LastFM~Cyrille Aimée",
       "genres": [
         "french jazz",
         "vocal jazz"
       ]
     },
-    "3616798": {
+    "abbey lincoln|bird alone": {
       "date": "2026-09-20",
-      "artist": "Abbey Lincoln",
-      "title": "Bird Alone",
       "source": "LastFM~Jimmy Scott",
       "genres": [
         "vocal jazz",
         "jazz"
       ]
     },
-    "115579872": {
+    "jazzmeia horn|no more": {
       "date": "2026-09-20",
-      "artist": "Jazzmeia Horn",
-      "title": "No More",
       "source": "LastFM~Cyrille Aimée",
       "genres": [
         "vocal jazz",
         "jazz"
       ]
     },
-    "1745261": {
+    "jane monheit|honeysuckle rose": {
       "date": "2026-09-20",
-      "artist": "Jane Monheit",
-      "title": "Honeysuckle Rose",
       "source": "LastFM~Sara Gazarek",
       "genres": [
         "vocal jazz",
         "jazz"
       ]
     },
-    "23258912": {
+    "ibrahim maalouf|illusions": {
       "date": "2026-09-20",
-      "artist": "Ibrahim Maalouf",
-      "title": "Illusions",
       "source": "Seed~Ibrahim Maalouf",
       "genres": [
         "french jazz",
         "jazz"
       ]
     },
-    "3993210": {
+    "abbey lincoln|and it's supposed to be love": {
       "date": "2026-09-20",
-      "artist": "Abbey Lincoln",
-      "title": "And It's Supposed To Be Love",
       "source": "LastFM~Jimmy Scott",
       "genres": [
         "vocal jazz",
         "jazz"
       ]
     },
-    "347827777": {
+    "laufey|goddess": {
       "date": "2026-09-20",
-      "artist": "Laufey",
-      "title": "Goddess",
       "source": "Tag~traditional pop",
-      "genres": []
+      "genres": [
+        "jazz",
+        "bossa nova",
+        "pop",
+        "jazz pop"
+      ]
     },
-    "32829449": {
+    "lars danielsson|passacaglia": {
       "date": "2026-09-20",
-      "artist": "Lars Danielsson",
-      "title": "Passacaglia",
       "source": "LastFM~Ibrahim Maalouf",
       "genres": [
         "jazz",
         "cool jazz"
       ]
     },
-    "93226437": {
+    "astrud gilberto|fly me to the moon": {
       "date": "2026-09-20",
-      "artist": "Astrud Gilberto",
-      "title": "Fly Me To The Moon",
       "source": "Tag~bossa nova",
       "genres": [
         "bossa nova",
@@ -1771,20 +1220,24 @@
         "vocal jazz"
       ]
     },
-    "91536757": {
+    "jazzmeia horn|i remember you": {
       "date": "2026-09-20",
-      "artist": "Vincent Peirani",
-      "title": "Night Walker",
+      "source": "LastFM~Cyrille Aimée",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "vincent peirani|night walker": {
+      "date": "2026-09-20",
       "source": "LastFM~Ibrahim Maalouf",
       "genres": [
         "french jazz",
         "jazz"
       ]
     },
-    "158165": {
+    "chet baker|i fall in love too easily": {
       "date": "2026-09-20",
-      "artist": "Chet Baker",
-      "title": "I Fall in Love Too Easily",
       "source": "Tag~cool jazz",
       "genres": [
         "jazz",
@@ -1793,56 +1246,660 @@
         "jazz ballads"
       ]
     },
-    "117795174": {
+    "abbey lincoln|left alone": {
       "date": "2026-09-20",
-      "artist": "Abbey Lincoln",
-      "title": "Left Alone",
       "source": "LastFM~Jimmy Scott",
       "genres": [
         "vocal jazz",
         "jazz"
       ]
     },
-    "53737525": {
+    "jorge ben|mas, que nada!": {
       "date": "2026-09-20",
-      "artist": "Jorge Ben",
-      "title": "Mas, Que Nada!",
       "source": "Tag~bossa nova",
       "genres": [
-        "mpb",
-        "bossa nova",
         "samba",
-        "brazilian jazz"
+        "mpb",
+        "brazilian",
+        "bossa nova"
       ]
     },
-    "42734560": {
+    "jane monheit|cheek to cheek": {
       "date": "2026-09-20",
-      "artist": "Jane Monheit",
-      "title": "Cheek To Cheek",
       "source": "LastFM~Sara Gazarek",
       "genres": [
         "vocal jazz",
         "jazz"
       ]
     },
-    "138543804": {
+    "vincent peirani|army dreamers": {
       "date": "2026-09-20",
-      "artist": "Vincent Peirani",
-      "title": "Army Dreamers",
       "source": "LastFM~Ibrahim Maalouf",
       "genres": [
         "french jazz",
         "jazz"
       ]
     },
-    "421457014": {
+    "gabi hartmann|drink the ocean (feat. oracle sisters)": {
       "date": "2026-09-20",
-      "artist": "Gabi Hartmann",
-      "title": "Drink the Ocean (feat. Oracle Sisters)",
       "source": "LastFM~Cyrille Aimée",
       "genres": [
         "french jazz",
         "vocal jazz"
+      ]
+    },
+    "peggy lee|if you go": {
+      "date": "2026-09-21",
+      "source": "Album~Black Coffee",
+      "artist": "Peggy Lee",
+      "title": "If You Go",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "swing music",
+        "big band",
+        "jazz"
+      ]
+    },
+    "coleman hawkins|mighty like a rose": {
+      "date": "2026-09-21",
+      "source": "Album~At Ease with Coleman Hawkins",
+      "artist": "Coleman Hawkins",
+      "title": "Mighty Like A Rose",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "bebop",
+        "cool jazz"
+      ]
+    },
+    "stacey kent|the ice hotel": {
+      "date": "2026-09-21",
+      "source": "Album~Breakfast on the Morning Tram",
+      "artist": "Stacey Kent",
+      "title": "The Ice Hotel",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz",
+        "bossa nova"
+      ]
+    },
+    "paul desmond|embarcadero": {
+      "date": "2026-09-21",
+      "source": "Album~Take Ten",
+      "artist": "Paul Desmond",
+      "title": "Embarcadero",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "bossa nova",
+        "jazz ballads"
+      ]
+    },
+    "ella fitzgerald|moonlight in vermont": {
+      "date": "2026-09-21",
+      "source": "Album~Ella and Louis",
+      "artist": "Ella Fitzgerald",
+      "title": "Moonlight In Vermont",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "vocal jazz",
+        "swing music",
+        "big band"
+      ]
+    },
+    "coleman hawkins|while we’re young": {
+      "date": "2026-09-21",
+      "source": "Album~At Ease with Coleman Hawkins",
+      "artist": "Coleman Hawkins",
+      "title": "While We’re Young",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "bebop",
+        "cool jazz"
+      ]
+    },
+    "chris connor|lullaby of birdland": {
+      "date": "2026-09-21",
+      "source": "Album~Sings Lullabys of Birdland",
+      "artist": "Chris Connor",
+      "title": "Lullaby Of Birdland",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "cool jazz"
+      ]
+    },
+    "paul desmond|the one i love belongs to somebody else": {
+      "date": "2026-09-21",
+      "source": "Album~Take Ten",
+      "artist": "Paul Desmond",
+      "title": "The One I Love Belongs To Somebody Else",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "bossa nova",
+        "jazz ballads"
+      ]
+    },
+    "chris connor|why shouldn't i?": {
+      "date": "2026-09-21",
+      "source": "Album~Sings Lullabys of Birdland",
+      "artist": "Chris Connor",
+      "title": "Why Shouldn't I?",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "cool jazz"
+      ]
+    },
+    "gerry mulligan sextet|festival minor": {
+      "date": "2026-09-21",
+      "source": "Album~Night Lights",
+      "artist": "Gerry Mulligan Sextet",
+      "title": "Festival Minor",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "jazz ballads"
+      ]
+    },
+    "ella fitzgerald|a foggy day": {
+      "date": "2026-09-21",
+      "source": "Album~Ella and Louis",
+      "artist": "Ella Fitzgerald",
+      "title": "A Foggy Day",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "vocal jazz",
+        "swing music",
+        "big band"
+      ]
+    },
+    "gerry mulligan|the cat walk": {
+      "date": "2026-09-21",
+      "source": "Album~Gerry Mulligan Meets Ben Webster",
+      "artist": "Gerry Mulligan",
+      "title": "The Cat Walk",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "bebop",
+        "jazz ballads"
+      ]
+    },
+    "julie london|can't help lovin' that man": {
+      "date": "2026-09-21",
+      "source": "Album~Julie Is Her Name",
+      "artist": "Julie London",
+      "title": "Can't Help Lovin' That Man",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "adult standards"
+      ]
+    },
+    "duke jordan|no problem, take 2": {
+      "date": "2026-09-21",
+      "source": "Album~Flight to Denmark",
+      "artist": "Duke Jordan",
+      "title": "No Problem, Take 2",
+      "kind": "instrumentaal",
+      "genres": [
+        "hard bop",
+        "jazz",
+        "bebop",
+        "jazz ballads"
+      ]
+    },
+    "chet baker|that old feeling": {
+      "date": "2026-09-21",
+      "source": "Album~Chet Baker Sings",
+      "artist": "Chet Baker",
+      "title": "That Old Feeling",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "vocal jazz",
+        "jazz ballads"
+      ]
+    },
+    "stan getz|you turned the tables on me": {
+      "date": "2026-09-21",
+      "source": "Album~Stan Getz Plays",
+      "artist": "Stan Getz",
+      "title": "You Turned The Tables On Me",
+      "kind": "instrumentaal",
+      "genres": [
+        "bossa nova",
+        "jazz",
+        "brazilian jazz",
+        "cool jazz"
+      ]
+    },
+    "billie holiday|day in day out": {
+      "date": "2026-09-21",
+      "source": "Album~Songs for Distingue Lovers",
+      "artist": "Billie Holiday",
+      "title": "Day In Day Out",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "vocal jazz",
+        "big band",
+        "swing music"
+      ]
+    },
+    "john coltrane|you don't know what love is": {
+      "date": "2026-09-21",
+      "source": "Album~Ballads",
+      "artist": "John Coltrane",
+      "title": "You Don't Know What Love Is",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "hard bop",
+        "free jazz",
+        "bebop"
+      ]
+    },
+    "stacey kent|breakfast on the morning tram": {
+      "date": "2026-09-21",
+      "source": "Album~Breakfast on the Morning Tram",
+      "artist": "Stacey Kent",
+      "title": "Breakfast on the Morning Tram",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz",
+        "bossa nova"
+      ]
+    },
+    "gerry mulligan|who's got rhythm": {
+      "date": "2026-09-21",
+      "source": "Album~Gerry Mulligan Meets Ben Webster",
+      "artist": "Gerry Mulligan",
+      "title": "Who's Got Rhythm",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "bebop",
+        "jazz ballads"
+      ]
+    },
+    "blossom dearie|now at last": {
+      "date": "2026-09-21",
+      "source": "Album~Blossom Dearie",
+      "artist": "Blossom Dearie",
+      "title": "Now At Last",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "john coltrane|say it (over and over again)": {
+      "date": "2026-09-21",
+      "source": "Album~Ballads",
+      "artist": "John Coltrane",
+      "title": "Say It (Over And Over Again)",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "hard bop",
+        "free jazz",
+        "bebop"
+      ]
+    },
+    "madeleine peyroux|this is heaven to me": {
+      "date": "2026-09-21",
+      "source": "Album~Careless Love",
+      "artist": "Madeleine Peyroux",
+      "title": "This Is Heaven To Me",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz",
+        "jazz pop"
+      ]
+    },
+    "the ben webster quintet|makin' whoopee": {
+      "date": "2026-09-21",
+      "source": "Album~Soulville",
+      "artist": "The Ben Webster Quintet",
+      "title": "Makin' Whoopee",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "jazz ballads"
+      ]
+    }
+  },
+  "playlist_log": {
+    "155503993": {
+      "date": "2026-09-21",
+      "artist": "Peggy Lee",
+      "title": "If You Go",
+      "source": "Album~Black Coffee",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "swing music",
+        "big band",
+        "jazz"
+      ]
+    },
+    "143265769": {
+      "date": "2026-09-21",
+      "artist": "Coleman Hawkins",
+      "title": "Mighty Like A Rose",
+      "source": "Album~At Ease with Coleman Hawkins",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "bebop",
+        "cool jazz"
+      ]
+    },
+    "155719989": {
+      "date": "2026-09-21",
+      "artist": "Stacey Kent",
+      "title": "The Ice Hotel",
+      "source": "Album~Breakfast on the Morning Tram",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz",
+        "bossa nova"
+      ]
+    },
+    "2993275": {
+      "date": "2026-09-21",
+      "artist": "Paul Desmond",
+      "title": "Embarcadero",
+      "source": "Album~Take Ten",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "bossa nova",
+        "jazz ballads"
+      ]
+    },
+    "93058767": {
+      "date": "2026-09-21",
+      "artist": "Ella Fitzgerald",
+      "title": "Moonlight In Vermont",
+      "source": "Album~Ella and Louis",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "vocal jazz",
+        "swing music",
+        "big band"
+      ]
+    },
+    "143265771": {
+      "date": "2026-09-21",
+      "artist": "Coleman Hawkins",
+      "title": "While We’re Young",
+      "source": "Album~At Ease with Coleman Hawkins",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "bebop",
+        "cool jazz"
+      ]
+    },
+    "111970535": {
+      "date": "2026-09-21",
+      "artist": "Chris Connor",
+      "title": "Lullaby Of Birdland",
+      "source": "Album~Sings Lullabys of Birdland",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "cool jazz"
+      ]
+    },
+    "2993273": {
+      "date": "2026-09-21",
+      "artist": "Paul Desmond",
+      "title": "The One I Love Belongs To Somebody Else",
+      "source": "Album~Take Ten",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "bossa nova",
+        "jazz ballads"
+      ]
+    },
+    "111970534": {
+      "date": "2026-09-21",
+      "artist": "Chris Connor",
+      "title": "Why Shouldn't I?",
+      "source": "Album~Sings Lullabys of Birdland",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "cool jazz"
+      ]
+    },
+    "101524158": {
+      "date": "2026-09-21",
+      "artist": "Gerry Mulligan Sextet",
+      "title": "Festival Minor",
+      "source": "Album~Night Lights",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "jazz ballads"
+      ]
+    },
+    "93058771": {
+      "date": "2026-09-21",
+      "artist": "Ella Fitzgerald",
+      "title": "A Foggy Day",
+      "source": "Album~Ella and Louis",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "vocal jazz",
+        "swing music",
+        "big band"
+      ]
+    },
+    "58993642": {
+      "date": "2026-09-21",
+      "artist": "Gerry Mulligan",
+      "title": "The Cat Walk",
+      "source": "Album~Gerry Mulligan Meets Ben Webster",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "bebop",
+        "jazz ballads"
+      ]
+    },
+    "11169946": {
+      "date": "2026-09-21",
+      "artist": "Julie London",
+      "title": "Can't Help Lovin' That Man",
+      "source": "Album~Julie Is Her Name",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "adult standards"
+      ]
+    },
+    "56221378": {
+      "date": "2026-09-21",
+      "artist": "Duke Jordan",
+      "title": "No Problem, Take 2",
+      "source": "Album~Flight to Denmark",
+      "kind": "instrumentaal",
+      "genres": [
+        "hard bop",
+        "jazz",
+        "bebop",
+        "jazz ballads"
+      ]
+    },
+    "158153": {
+      "date": "2026-09-21",
+      "artist": "Chet Baker",
+      "title": "That Old Feeling",
+      "source": "Album~Chet Baker Sings",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "vocal jazz",
+        "jazz ballads"
+      ]
+    },
+    "13345169": {
+      "date": "2026-09-21",
+      "artist": "Stan Getz",
+      "title": "You Turned The Tables On Me",
+      "source": "Album~Stan Getz Plays",
+      "kind": "instrumentaal",
+      "genres": [
+        "bossa nova",
+        "jazz",
+        "brazilian jazz",
+        "cool jazz"
+      ]
+    },
+    "108022852": {
+      "date": "2026-09-21",
+      "artist": "Billie Holiday",
+      "title": "Day In Day Out",
+      "source": "Album~Songs for Distingue Lovers",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "vocal jazz",
+        "big band",
+        "swing music"
+      ]
+    },
+    "77576246": {
+      "date": "2026-09-21",
+      "artist": "John Coltrane",
+      "title": "You Don't Know What Love Is",
+      "source": "Album~Ballads",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "hard bop",
+        "free jazz",
+        "bebop"
+      ]
+    },
+    "155719983": {
+      "date": "2026-09-21",
+      "artist": "Stacey Kent",
+      "title": "Breakfast on the Morning Tram",
+      "source": "Album~Breakfast on the Morning Tram",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz",
+        "bossa nova"
+      ]
+    },
+    "58993636": {
+      "date": "2026-09-21",
+      "artist": "Gerry Mulligan",
+      "title": "Who's Got Rhythm",
+      "source": "Album~Gerry Mulligan Meets Ben Webster",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "bebop",
+        "jazz ballads"
+      ]
+    },
+    "77658916": {
+      "date": "2026-09-21",
+      "artist": "Blossom Dearie",
+      "title": "Now At Last",
+      "source": "Album~Blossom Dearie",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "77576245": {
+      "date": "2026-09-21",
+      "artist": "John Coltrane",
+      "title": "Say It (Over And Over Again)",
+      "source": "Album~Ballads",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "hard bop",
+        "free jazz",
+        "bebop"
+      ]
+    },
+    "1629794": {
+      "date": "2026-09-21",
+      "artist": "Madeleine Peyroux",
+      "title": "This Is Heaven To Me",
+      "source": "Album~Careless Love",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz",
+        "jazz pop"
+      ]
+    },
+    "108022866": {
+      "date": "2026-09-21",
+      "artist": "The Ben Webster Quintet",
+      "title": "Makin' Whoopee",
+      "source": "Album~Soulville",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "jazz ballads"
       ]
     }
   }
