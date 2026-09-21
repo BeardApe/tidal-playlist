@@ -131,7 +131,10 @@
     "by storm|can i have you for myself?": "2026-03-12",
     "isolde lasoen|my kind of drama": "2026-03-12",
     "florence + the machine|sympathy magic": "2026-03-12",
-    "lapêche|double knotted": "2026-03-12",
+    "lapêche|double knotted": {
+      "date": "2026-03-12",
+      "source": "WFUV-NYSlice2026"
+    },
     "arthur russell|i couldn't say it to your face": {
       "date": "2026-03-12",
       "source": "GuyGarvey-FinestHour"
@@ -547,7 +550,10 @@
       "date": "2026-03-12",
       "source": "LaurenLaverne-JustAdded"
     },
-    "ruemmler|sos": "2026-03-12",
+    "ruemmler|sos": {
+      "date": "2026-03-12",
+      "source": "WFUV-NYSlice2026"
+    },
     "verses gt|your light": {
       "date": "2026-03-12",
       "source": "Radio1-Wonderland"
@@ -1497,7 +1503,10 @@
       "date": "2026-04-13",
       "source": "WFUV-NYSlice2026"
     },
-    "reeya banerjee|upstate rust": "2026-04-13",
+    "reeya banerjee|upstate rust": {
+      "date": "2026-04-13",
+      "source": "WFUV-NYSlice2026"
+    },
     "allah-las|raspberry jam": {
       "date": "2026-04-13",
       "source": "Vuurland-latest"
@@ -1794,7 +1803,10 @@
     "låpsley|cliff": "2026-05-04",
     "låpsley|my love was like the rain": "2026-05-04",
     "april + vista|do what you know": "2026-05-04",
-    "canine wedding|summer moon": "2026-05-04",
+    "canine wedding|summer moon": {
+      "date": "2026-05-04",
+      "source": "WFUV-NYSlice2026"
+    },
     "dermot henry|little rib": "2026-05-04",
     "the chameleons|tears": "2026-05-04",
     "angelo de augustine|the cure": "2026-05-04",
@@ -2571,7 +2583,10 @@
     "the funky lowlives|latazz": "2026-06-29",
     "big freedia|go down": "2026-06-29",
     "emile mosseri|joyful girl": "2026-06-29",
-    "zimpala|doo you bop": "2026-06-29",
+    "zimpala|doo you bop": {
+      "date": "2026-06-29",
+      "source": "LastFM~Parov Stelar"
+    },
     "zimpala|fall in the water": "2026-06-29",
     "julia jacklin|get away from me (i think i'll love you soon)": "2026-06-29",
     "zoon|i was younger": "2026-06-29",
@@ -5234,6 +5249,166 @@
     "bonobo|talk to me": {
       "date": "2026-09-20",
       "source": "KEXP-NewThisWeek"
+    },
+    "porcelain tongue|understanding time": {
+      "date": "2026-09-21",
+      "source": "KEXP-NewThisWeek"
+    },
+    "lucy dacus|no thank you, i love you, goodbye": {
+      "date": "2026-09-21",
+      "source": "KEXP-NewThisWeek"
+    },
+    "james vincent mcmorrow|higher love": {
+      "date": "2026-09-21",
+      "source": "LastFM~Ben Howard"
+    },
+    "pale saints|a thousand stars burst open": {
+      "date": "2026-09-21",
+      "source": "LastFM~Mazzy Star"
+    },
+    "jaime rosso|walk": {
+      "date": "2026-09-21",
+      "source": "KEXP-NewThisWeek"
+    },
+    "megiapa|(smt)": {
+      "date": "2026-09-21",
+      "source": "KCRW-MorningBecomesEclectic"
+    },
+    "alison's halo|jetpacks for julian": {
+      "date": "2026-09-21",
+      "source": "LastFM~Mazzy Star"
+    },
+    "menahan street band|palace of illusions": {
+      "date": "2026-09-21",
+      "source": "KEXP-NewThisWeek"
+    },
+    "the tubs|who's gonna love you now?": {
+      "date": "2026-09-21",
+      "source": "KEXP-NewThisWeek"
+    },
+    "pale saints|way the world is": {
+      "date": "2026-09-21",
+      "source": "LastFM~Mazzy Star"
+    },
+    "saint etienne|only love can break your heart": {
+      "date": "2026-09-21",
+      "source": "LastFM~Everything But The Girl"
+    },
+    "charlie cunningham|you sigh": {
+      "date": "2026-09-21",
+      "source": "LastFM~Ben Howard"
+    },
+    "original koffee|ova so": {
+      "date": "2026-09-21",
+      "source": "KEXP-NewThisWeek"
+    },
+    "this is lorelei|billy came back": {
+      "date": "2026-09-21",
+      "source": "WXPN-BestNewMusic"
+    },
+    "james vincent mcmorrow|sparrow and the wolf": {
+      "date": "2026-09-21",
+      "source": "LastFM~Ben Howard"
+    },
+    "abraham réunion|abraham réunion": {
+      "date": "2026-09-21",
+      "source": "GillesPeterson-Saturdays"
+    },
+    "alison's halo|dozen": {
+      "date": "2026-09-21",
+      "source": "LastFM~Mazzy Star"
+    },
+    "liana flores|silvershoes": {
+      "date": "2026-09-21",
+      "source": "KEXP-NewThisWeek"
+    },
+    "saint etienne|wood cabin": {
+      "date": "2026-09-21",
+      "source": "LastFM~Everything But The Girl"
+    },
+    "haruomi hosono|note of mothership": {
+      "date": "2026-09-21",
+      "source": "KCRW-MorningBecomesEclectic"
+    },
+    "pale saints|hunted": {
+      "date": "2026-09-21",
+      "source": "LastFM~Mazzy Star"
+    },
+    "zimpala|to the bass": {
+      "date": "2026-09-21",
+      "source": "LastFM~Parov Stelar"
+    },
+    "briskey|ready when you are": {
+      "date": "2026-09-21",
+      "source": "LastFM~Parov Stelar"
+    },
+    "angèle|une seule vie": {
+      "date": "2026-09-21",
+      "source": "Radio1-Top30"
+    },
+    "olive|muted": {
+      "date": "2026-09-21",
+      "source": "LastFM~Everything But The Girl"
+    },
+    "charlie cunningham|sink in": {
+      "date": "2026-09-21",
+      "source": "LastFM~Ben Howard"
+    },
+    "saint etienne|girl vii": {
+      "date": "2026-09-21",
+      "source": "LastFM~Everything But The Girl"
+    },
+    "joy oladokun|kind": {
+      "date": "2026-09-21",
+      "source": "KCRW-MorningBecomesEclectic"
+    },
+    "the black tones|bombs": {
+      "date": "2026-09-21",
+      "source": "KEXP-NewThisWeek"
+    },
+    "helen|dead shark ii": {
+      "date": "2026-09-21",
+      "source": "KCRW-MorningBecomesEclectic"
+    },
+    "briskey|la stupenza": {
+      "date": "2026-09-21",
+      "source": "LastFM~Parov Stelar"
+    },
+    "james vincent mcmorrow|follow you down to the red oak tree": {
+      "date": "2026-09-21",
+      "source": "LastFM~Ben Howard"
+    },
+    "muireann bradley|dancing on my grave": {
+      "date": "2026-09-21",
+      "source": "KEXP-NewThisWeek"
+    },
+    "dorothy ashby|thou swell": {
+      "date": "2026-09-21",
+      "source": "GillesPeterson-Saturdays"
+    },
+    "olive|killing": {
+      "date": "2026-09-21",
+      "source": "LastFM~Everything But The Girl"
+    },
+    "ok cowgirl|rock n roll ruined my life": {
+      "date": "2026-09-21",
+      "source": "WFUV-NYSlice2026"
+    },
+    "charlie cunningham|permanent way": {
+      "date": "2026-09-21",
+      "source": "LastFM~Ben Howard"
+    },
+    "alison's halo|raindrop": {
+      "date": "2026-09-21",
+      "source": "LastFM~Mazzy Star"
+    },
+    "zimpala|new home": {
+      "date": "2026-09-21",
+      "source": "LastFM~Parov Stelar"
+    },
+    "olive|you are nothing": {
+      "date": "2026-09-21",
+      "source": "LastFM~Everything But The Girl"
     }
   },
   "playlist_log": {
@@ -8845,6 +9020,432 @@
         "downtempo",
         "nu jazz",
         "electronic"
+      ]
+    },
+    "534691549": {
+      "date": "2026-09-21",
+      "artist": "Porcelain Tongue",
+      "title": "Understanding Time",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "553297428": {
+      "date": "2026-09-21",
+      "artist": "Lucy Dacus",
+      "title": "No Thank You, I Love You, Goodbye",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "indie",
+        "indie rock",
+        "folk",
+        "singer songwriter"
+      ]
+    },
+    "13778922": {
+      "date": "2026-09-21",
+      "artist": "James Vincent McMorrow",
+      "title": "Higher Love",
+      "source": "LastFM~Ben Howard",
+      "genres": [
+        "folk",
+        "singer songwriter",
+        "indie",
+        "irish"
+      ]
+    },
+    "2207162": {
+      "date": "2026-09-21",
+      "artist": "Pale Saints",
+      "title": "A Thousand Stars Burst Open",
+      "source": "LastFM~Mazzy Star",
+      "genres": [
+        "shoegaze",
+        "dream pop"
+      ]
+    },
+    "527142985": {
+      "date": "2026-09-21",
+      "artist": "Jaime Rosso",
+      "title": "Walk",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "535911435": {
+      "date": "2026-09-21",
+      "artist": "megiapa",
+      "title": "(SMT)",
+      "source": "KCRW-MorningBecomesEclectic",
+      "genres": [
+        "trip hop"
+      ]
+    },
+    "462462994": {
+      "date": "2026-09-21",
+      "artist": "Alison's Halo",
+      "title": "Jetpacks For Julian",
+      "source": "LastFM~Mazzy Star",
+      "genres": [
+        "shoegaze",
+        "dream pop",
+        "slowcore"
+      ]
+    },
+    "548944565": {
+      "date": "2026-09-21",
+      "artist": "Menahan Street Band",
+      "title": "Palace of Illusions",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "retro soul"
+      ]
+    },
+    "528473310": {
+      "date": "2026-09-21",
+      "artist": "The Tubs",
+      "title": "Who's Gonna Love You Now?",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "jangle pop",
+        "power pop"
+      ]
+    },
+    "2204870": {
+      "date": "2026-09-21",
+      "artist": "Pale Saints",
+      "title": "Way the World Is",
+      "source": "LastFM~Mazzy Star",
+      "genres": [
+        "shoegaze",
+        "dream pop"
+      ]
+    },
+    "74070626": {
+      "date": "2026-09-21",
+      "artist": "Saint Etienne",
+      "title": "Only Love Can Break Your Heart",
+      "source": "LastFM~Everything But The Girl",
+      "genres": [
+        "madchester",
+        "britpop",
+        "alternative dance"
+      ]
+    },
+    "279223749": {
+      "date": "2026-09-21",
+      "artist": "Charlie Cunningham",
+      "title": "You Sigh",
+      "source": "LastFM~Ben Howard",
+      "genres": [
+        "singer songwriter",
+        "folk",
+        "british",
+        "acoustic"
+      ]
+    },
+    "437327384": {
+      "date": "2026-09-21",
+      "artist": "Original Koffee",
+      "title": "OVA SO",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "dancehall",
+        "afrobeats",
+        "reggae"
+      ]
+    },
+    "554024753": {
+      "date": "2026-09-21",
+      "artist": "This Is Lorelei",
+      "title": "Billy Came Back",
+      "source": "WXPN-BestNewMusic",
+      "genres": [
+        "alt country"
+      ]
+    },
+    "13778913": {
+      "date": "2026-09-21",
+      "artist": "James Vincent McMorrow",
+      "title": "Sparrow and the Wolf",
+      "source": "LastFM~Ben Howard",
+      "genres": [
+        "folk",
+        "singer songwriter",
+        "indie",
+        "irish"
+      ]
+    },
+    "133320363": {
+      "date": "2026-09-21",
+      "artist": "Abraham Réunion",
+      "title": "Abraham Réunion",
+      "source": "GillesPeterson-Saturdays",
+      "genres": [
+        "maloya"
+      ]
+    },
+    "462462978": {
+      "date": "2026-09-21",
+      "artist": "Alison's Halo",
+      "title": "Dozen",
+      "source": "LastFM~Mazzy Star",
+      "genres": [
+        "shoegaze",
+        "dream pop",
+        "slowcore"
+      ]
+    },
+    "556256755": {
+      "date": "2026-09-21",
+      "artist": "Liana Flores",
+      "title": "Silvershoes",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "indie pop",
+        "singer songwriter",
+        "folk pop",
+        "bossa nova"
+      ]
+    },
+    "74070550": {
+      "date": "2026-09-21",
+      "artist": "Saint Etienne",
+      "title": "Wood Cabin",
+      "source": "LastFM~Everything But The Girl",
+      "genres": [
+        "madchester",
+        "britpop",
+        "alternative dance"
+      ]
+    },
+    "534033716": {
+      "date": "2026-09-21",
+      "artist": "Haruomi Hosono",
+      "title": "Note of Mothership",
+      "source": "KCRW-MorningBecomesEclectic",
+      "genres": [
+        "city pop",
+        "shibuya-kei"
+      ]
+    },
+    "2214340": {
+      "date": "2026-09-21",
+      "artist": "Pale Saints",
+      "title": "Hunted",
+      "source": "LastFM~Mazzy Star",
+      "genres": [
+        "shoegaze",
+        "dream pop"
+      ]
+    },
+    "24871053": {
+      "date": "2026-09-21",
+      "artist": "Zimpala",
+      "title": "To the Bass",
+      "source": "LastFM~Parov Stelar",
+      "genres": [
+        "nu jazz",
+        "lounge"
+      ]
+    },
+    "458325072": {
+      "date": "2026-09-21",
+      "artist": "Briskey",
+      "title": "Ready When You Are",
+      "source": "LastFM~Parov Stelar",
+      "genres": [
+        "nu jazz",
+        "acid jazz",
+        "trip hop"
+      ]
+    },
+    "556049160": {
+      "date": "2026-09-21",
+      "artist": "Angèle",
+      "title": "Une seule vie",
+      "source": "Radio1-Top30",
+      "genres": [
+        "french pop",
+        "variété française",
+        "chanson",
+        "french indie pop"
+      ]
+    },
+    "15709": {
+      "date": "2026-09-21",
+      "artist": "Olive",
+      "title": "Muted",
+      "source": "LastFM~Everything But The Girl",
+      "genres": [
+        "trip hop",
+        "electronic",
+        "chillout",
+        "female vocalists"
+      ]
+    },
+    "491706610": {
+      "date": "2026-09-21",
+      "artist": "Charlie Cunningham",
+      "title": "Sink In",
+      "source": "LastFM~Ben Howard",
+      "genres": [
+        "singer songwriter",
+        "folk",
+        "british",
+        "acoustic"
+      ]
+    },
+    "7761315": {
+      "date": "2026-09-21",
+      "artist": "Saint Etienne",
+      "title": "Girl VII",
+      "source": "LastFM~Everything But The Girl",
+      "genres": [
+        "madchester",
+        "britpop",
+        "alternative dance"
+      ]
+    },
+    "543862116": {
+      "date": "2026-09-21",
+      "artist": "Joy Oladokun",
+      "title": "Kind",
+      "source": "KCRW-MorningBecomesEclectic",
+      "genres": [
+        "singer songwriter",
+        "acoustic",
+        "pop",
+        "indie"
+      ]
+    },
+    "553444864": {
+      "date": "2026-09-21",
+      "artist": "The Black Tones",
+      "title": "Bombs",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "riot grrrl",
+        "queercore"
+      ]
+    },
+    "546904105": {
+      "date": "2026-09-21",
+      "artist": "Helen",
+      "title": "Dead shark II",
+      "source": "KCRW-MorningBecomesEclectic",
+      "genres": [
+        "shoegaze",
+        "dream pop",
+        "neo-psychedelic"
+      ]
+    },
+    "391661580": {
+      "date": "2026-09-21",
+      "artist": "Briskey",
+      "title": "La Stupenza",
+      "source": "LastFM~Parov Stelar",
+      "genres": [
+        "nu jazz",
+        "acid jazz",
+        "trip hop"
+      ]
+    },
+    "13779302": {
+      "date": "2026-09-21",
+      "artist": "James Vincent McMorrow",
+      "title": "Follow You Down to the Red Oak Tree",
+      "source": "LastFM~Ben Howard",
+      "genres": [
+        "folk",
+        "singer songwriter",
+        "indie",
+        "irish"
+      ]
+    },
+    "556277286": {
+      "date": "2026-09-21",
+      "artist": "Muireann Bradley",
+      "title": "Dancing On My Grave",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "country blues"
+      ]
+    },
+    "9017643": {
+      "date": "2026-09-21",
+      "artist": "Dorothy Ashby",
+      "title": "Thou Swell",
+      "source": "GillesPeterson-Saturdays",
+      "genres": [
+        "exotica"
+      ]
+    },
+    "2410947": {
+      "date": "2026-09-21",
+      "artist": "Olive",
+      "title": "Killing",
+      "source": "LastFM~Everything But The Girl",
+      "genres": [
+        "trip hop",
+        "electronic",
+        "chillout",
+        "female vocalists"
+      ]
+    },
+    "515961804": {
+      "date": "2026-09-21",
+      "artist": "Ok Cowgirl",
+      "title": "Rock N Roll Ruined My Life",
+      "source": "WFUV-NYSlice2026",
+      "genres": [
+        "indie rock",
+        "indie pop",
+        "alternative",
+        "indie"
+      ]
+    },
+    "491706606": {
+      "date": "2026-09-21",
+      "artist": "Charlie Cunningham",
+      "title": "Permanent Way",
+      "source": "LastFM~Ben Howard",
+      "genres": [
+        "singer songwriter",
+        "folk",
+        "british",
+        "acoustic"
+      ]
+    },
+    "462462980": {
+      "date": "2026-09-21",
+      "artist": "Alison's Halo",
+      "title": "Raindrop",
+      "source": "LastFM~Mazzy Star",
+      "genres": [
+        "shoegaze",
+        "dream pop",
+        "slowcore"
+      ]
+    },
+    "24871063": {
+      "date": "2026-09-21",
+      "artist": "Zimpala",
+      "title": "New Home",
+      "source": "LastFM~Parov Stelar",
+      "genres": [
+        "nu jazz",
+        "lounge"
+      ]
+    },
+    "18073": {
+      "date": "2026-09-21",
+      "artist": "Olive",
+      "title": "You Are Nothing",
+      "source": "LastFM~Everything But The Girl",
+      "genres": [
+        "trip hop",
+        "electronic",
+        "chillout",
+        "female vocalists"
       ]
     }
   }
