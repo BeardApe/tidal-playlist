@@ -379,7 +379,10 @@
       "date": "2026-03-12",
       "source": "GuyGarvey-FinestHour"
     },
-    "bruce cockburn|night train": "2026-03-12",
+    "bruce cockburn|night train": {
+      "date": "2026-03-12",
+      "source": "GuyGarvey-FinestHour"
+    },
     "the internet|roll (burbank funk) - kaytranada remix": {
       "date": "2026-03-12",
       "source": "LaurenLaverne-JustAdded"
@@ -1186,7 +1189,10 @@
     "calexico|woven birds": "2026-03-30",
     "boozoo bajou|second to none": "2026-03-30",
     "boozoo bajou|divers": "2026-03-30",
-    "ages and ages|feel amazing": "2026-03-30",
+    "ages and ages|feel amazing": {
+      "date": "2026-03-30",
+      "source": "NPR-AllSongsConsidered"
+    },
     "the lemon twigs|i just can't get over losing you": "2026-03-30",
     "hird|moving on": {
       "date": "2026-03-30",
@@ -1672,7 +1678,10 @@
     "wild nothing|live in dreams": "2026-04-27",
     "slowdive|altogether": "2026-04-27",
     "slowdive|dagger": "2026-04-27",
-    "the mighty bop|lady": "2026-04-27",
+    "the mighty bop|lady": {
+      "date": "2026-04-27",
+      "source": "LastFM~Bonobo"
+    },
     "ggwendolyn|jock my style": {
       "date": "2026-04-27",
       "source": "KEXP-NewThisWeek"
@@ -1962,7 +1971,10 @@
       "source": "NPR-AllSongsConsidered"
     },
     "ana roxanne|keepsake": "2026-05-18",
-    "the karminsky experience inc.|the wayward camel": "2026-05-18",
+    "the karminsky experience inc.|the wayward camel": {
+      "date": "2026-05-18",
+      "source": "LastFM~Bonobo"
+    },
     "squarepusher|tommib": "2026-05-18",
     "orbit 17|tunnels": "2026-05-18",
     "yard act|redeemer": "2026-05-18",
@@ -1970,7 +1982,10 @@
       "date": "2026-05-18",
       "source": "NPR-AllSongsConsidered"
     },
-    "king nard|king is baqk": "2026-05-18",
+    "king nard|king is baqk": {
+      "date": "2026-05-18",
+      "source": "WFUV-NYSlice2026"
+    },
     "sean solomon|korpo": "2026-05-18",
     "hayden pedigo|smoked": "2026-05-18",
     "funambulist|hatchery": "2026-05-18",
@@ -2006,7 +2021,10 @@
       "date": "2026-05-25",
       "source": "WFUV-NYSlice2026"
     },
-    "streeter pool|orphan": "2026-05-25",
+    "streeter pool|orphan": {
+      "date": "2026-05-25",
+      "source": "WFUV-NYSlice2026"
+    },
     "esa williams|kwanini": "2026-05-25",
     "muscle memory|conditions of love - boys' shorts remix": "2026-05-25",
     "keaton henson|you don't know how lucky you are": {
@@ -5431,21 +5449,9 @@
       "date": "2026-09-27",
       "source": "LastFM~An Pierlé"
     },
-    "noah kahan|doors": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
     "iron & wine|each coming night": {
       "date": "2026-09-27",
       "source": "LastFM~Jose Gonzalez"
-    },
-    "tom smith|leave": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
-    "holly humberstone|die happy": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
     },
     "cleo sol|when i'm in your arms": {
       "date": "2026-09-27",
@@ -5459,33 +5465,13 @@
       "date": "2026-09-27",
       "source": "Duyster"
     },
-    "angus & julia stone|karaoke bar": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
     "midpak|stampede": {
       "date": "2026-09-27",
       "source": "KEXP-NewThisWeek"
     },
-    "band of horses|(biding time is a) boat to row": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
     "st. paul & the broken bones|proxy": {
       "date": "2026-09-27",
       "source": "WXPN-BestNewMusic"
-    },
-    "daniel caesar|who knows": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
-    "tom odell & sydney rose|over": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
-    "rosalia|sauvignon blanc": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
     },
     "tríada|clara": {
       "date": "2026-09-27",
@@ -5499,14 +5485,6 @@
       "date": "2026-09-27",
       "source": "Duyster"
     },
-    "courtney barnett & waxahatchee|site unseen": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
-    "sasami & angie mcmahon|honeycrash": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
     "dead man ray|chemical": {
       "date": "2026-09-27",
       "source": "LastFM~An Pierlé"
@@ -5519,53 +5497,21 @@
       "date": "2026-09-27",
       "source": "LastFM~Aldous Harding"
     },
-    "khruangbin|white gloves ii": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
     "emily king|look at me now": {
       "date": "2026-09-27",
       "source": "LastFM~Lianne La Havas"
-    },
-    "iskander moon|the city": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
     },
     "cinder well|ashes": {
       "date": "2026-09-27",
       "source": "Duyster"
     },
-    "maro|kiss me": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
-    "pale grey|lucie": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
     "spiral xp|blue earth": {
       "date": "2026-09-27",
       "source": "KEXP-NewThisWeek"
     },
-    "sienna spiro|die on this hill": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
     "gift|hand to the flame": {
       "date": "2026-09-27",
       "source": "KEXP-NewThisWeek"
-    },
-    "tyler ballgame|matter of taste": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
-    "eefje de visser|vlijmscherp": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
-    "sasami & soccer mommy|just be friends (soccer mommy version)": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
     },
     "junip|far away": {
       "date": "2026-09-27",
@@ -5575,21 +5521,9 @@
       "date": "2026-09-27",
       "source": "Duyster"
     },
-    "felix hien & k.zia|i wish": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
     "renny conti|leaving the zoo": {
       "date": "2026-09-27",
       "source": "NPR-AllSongsConsidered"
-    },
-    "oakn|lovesick": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
-    "jack johnson feat hermanos gutierrez|hold on to the light": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
     },
     "brandi carlile|life on the run": {
       "date": "2026-09-27",
@@ -5603,10 +5537,6 @@
       "date": "2026-09-27",
       "source": "LastFM~Aldous Harding"
     },
-    "jjerome87|brush me like a horse": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
     "will sheff|double exposure": {
       "date": "2026-09-27",
       "source": "Duyster"
@@ -5619,25 +5549,9 @@
       "date": "2026-09-27",
       "source": "Duyster"
     },
-    "tyler ballgame|got a new car": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
-    "haim & bon iver|tie you down": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
     "russian blue|already dead": {
       "date": "2026-09-27",
       "source": "KEXP-NewThisWeek"
-    },
-    "matt berninger & rosanne cash|who loves the sun": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
-    "nectar woode|rivers end": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
     },
     "junip|in every direction": {
       "date": "2026-09-27",
@@ -5650,22 +5564,6 @@
     "cleo sol|shine": {
       "date": "2026-09-27",
       "source": "LastFM~Lianne La Havas"
-    },
-    "sam fender|i'm always on stage": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
-    "maro|to grieve you": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
-    "kingfishr|the blade": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
-    "wet leg|obvious": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
     },
     "mildred|bird laugh": {
       "date": "2026-09-27",
@@ -5699,18 +5597,6 @@
       "date": "2026-09-27",
       "source": "Duyster"
     },
-    "maya hawke|bring home my man": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
-    "thomas azier|year in a spiral": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
-    "zach bryan|plastic cigarette": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
     "imperial teen|hands all up": {
       "date": "2026-09-27",
       "source": "KEXP-NewThisWeek"
@@ -5727,14 +5613,6 @@
       "date": "2026-09-27",
       "source": "KEXP-NewThisWeek"
     },
-    "ise|suitcase child": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
-    "noa lee|getting up": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
     "osamu fukuzawa|butterflies": {
       "date": "2026-09-27",
       "source": "NPR-AllSongsConsidered"
@@ -5747,25 +5625,9 @@
       "date": "2026-09-27",
       "source": "Duyster"
     },
-    "jjerome87|track and field": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
     "jesca hoop|memories are now": {
       "date": "2026-09-27",
       "source": "LastFM~Aldous Harding"
-    },
-    "lucy dacus|planting tomatoes": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
-    "dotan|let you go": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
-    "man-made sunshine|i have more than one soul": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
     },
     "z3than|manhattan money": {
       "date": "2026-09-27",
@@ -5787,73 +5649,25 @@
       "date": "2026-09-27",
       "source": "KEXP-NewThisWeek"
     },
-    "this is lorelei|holo boy": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
     "the new year|half a day": {
       "date": "2026-09-27",
       "source": "Duyster"
-    },
-    "iskander moon|tear you up": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
     },
     "eartheater|wasp in the fig": {
       "date": "2026-09-27",
       "source": "KCRW-MorningBecomesEclectic"
     },
-    "elis floreen|panther": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
-    "kingfishr feat. matt corby|the blade": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
-    "kurt vile|zoom 97": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
-    "tyler ballgame|i believe in love": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
-    "hermanos gutierrez|canto andino": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
     "now always fades|faithless": {
       "date": "2026-09-27",
       "source": "KEXP-NewThisWeek"
-    },
-    "dermot kennedy|funeral": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
     },
     "this is the kit|keep going": {
       "date": "2026-09-27",
       "source": "Duyster"
     },
-    "dermot kennedy|turnstile": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
-    "aldous harding feat. h. hawkline|venus in the zinnia": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
-    "s10|paris, texas": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
     "empress of|blue light (feat. blood orange)": {
       "date": "2026-09-27",
       "source": "KEXP-NewThisWeek"
-    },
-    "bleachers|you and forever": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
     },
     "u2|silencio": {
       "date": "2026-09-27",
@@ -5867,35 +5681,387 @@
       "date": "2026-09-27",
       "source": "KEXP-NewThisWeek"
     },
-    "snocaps|wasteland": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
-    },
     "phoebe bridgers|other plans": {
       "date": "2026-09-27",
       "source": "Duyster"
-    },
-    "berre|how beautiful this life is": {
-      "date": "2026-09-27",
-      "source": "Vuurland"
     },
     "emily king|can't hold me": {
       "date": "2026-09-27",
       "source": "LastFM~Lianne La Havas"
     },
-    "jordan rakei & tom mcfarland|easy to love": {
+    "bibio & dorian concept|hammock portal": {
+      "date": "2026-09-27",
+      "source": "Duyster"
+    },
+    "angie mcmahon|making it through": {
       "date": "2026-09-27",
       "source": "Vuurland"
     },
-    "alt-j|u&me": {
+    "silver jews|pet politics": {
+      "date": "2026-09-27",
+      "source": "Duyster"
+    },
+    "o slow|times are hard for dreamers": {
+      "date": "2026-09-27",
+      "source": "KEXP-NewThisWeek"
+    },
+    "bill callahan|lonely city": {
+      "date": "2026-09-27",
+      "source": "Duyster"
+    },
+    "balmorhea|days": {
       "date": "2026-09-27",
       "source": "Vuurland"
     },
-    "jordan rakei & jalen n'gonda|what it gave me": {
+    "bon iver|blindsided": {
+      "date": "2026-09-27",
+      "source": "LastFM~S. Carey"
+    },
+    "kevin morby & hamilton leithauser|virginia beach": {
       "date": "2026-09-27",
       "source": "Vuurland"
     },
-    "cate le bon feat st. vincent|always the same": {
+    "ex:re|the dazzler": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "the mighty bop|ride away": {
+      "date": "2026-09-27",
+      "source": "LastFM~Bonobo"
+    },
+    "leif vollebekk|long blue light": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "yukimi|vann du livet?": {
+      "date": "2026-09-27",
+      "source": "KEXP-NewThisWeek"
+    },
+    "roomer|staircase made of rope": {
+      "date": "2026-09-27",
+      "source": "Duyster"
+    },
+    "tríada|manos de sal": {
+      "date": "2026-09-27",
+      "source": "KCRW-MorningBecomesEclectic"
+    },
+    "bon iver|re: stacks": {
+      "date": "2026-09-27",
+      "source": "LastFM~S. Carey"
+    },
+    "the karminsky experience inc.|the power of suggestion": {
+      "date": "2026-09-27",
+      "source": "LastFM~Bonobo"
+    },
+    "ethel cain|dust bowl": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "nick mulvey|meet me there": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "ships of the pharaohs|sun is rising": {
+      "date": "2026-09-27",
+      "source": "KEXP-NewThisWeek"
+    },
+    "real estate|pink sky": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "billie marten|swing": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "hermanos gutierrez|canto andino": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "armlock|half time": {
+      "date": "2026-09-27",
+      "source": "Duyster"
+    },
+    "dark dark dark|daydreaming": {
+      "date": "2026-09-27",
+      "source": "Duyster"
+    },
+    "jack wyllie ft. duncan bellamy|juniper": {
+      "date": "2026-09-27",
+      "source": "Duyster"
+    },
+    "kevin morby|little wide open": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "leisure|sundown": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "brittany howard|he loves me": {
+      "date": "2026-09-27",
+      "source": "LastFM~Moses Sumney"
+    },
+    "wilco|jesus, etc": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "ex:re|radio station": {
+      "date": "2026-09-27",
+      "source": "Duyster"
+    },
+    "kingfishr|someday": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "sufjan stevens|casimir pulaski day": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "arcade fire|age of anxiety ii": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "justin vernon|hazelton": {
+      "date": "2026-09-27",
+      "source": "LastFM~S. Carey"
+    },
+    "half moon run|need it": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "bonnie \"prince\" billy|i see a darkness": {
+      "date": "2026-09-27",
+      "source": "Duyster"
+    },
+    "gregory alan isakov & sylvan esso|fade into you": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "ruby haunt|half light": {
+      "date": "2026-09-27",
+      "source": "Duyster"
+    },
+    "ry x|yayaya": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "bon iver|for emma": {
+      "date": "2026-09-27",
+      "source": "LastFM~S. Carey"
+    },
+    "muriel mwamba|ichalo (the world)": {
+      "date": "2026-09-27",
+      "source": "WFUV-NYSlice2026"
+    },
+    "flora hibberd|silent movie baby": {
+      "date": "2026-09-27",
+      "source": "KCRW-MorningBecomesEclectic"
+    },
+    "feist|graveyard": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "brittany howard|baby": {
+      "date": "2026-09-27",
+      "source": "LastFM~Moses Sumney"
+    },
+    "dana margolin|big beautiful sound": {
+      "date": "2026-09-27",
+      "source": "Duyster"
+    },
+    "the karminsky experience inc.|introducing louis pachini": {
+      "date": "2026-09-27",
+      "source": "LastFM~Bonobo"
+    },
+    "justin vernon|easy": {
+      "date": "2026-09-27",
+      "source": "LastFM~S. Carey"
+    },
+    "zach bryan ft. bon iver|boys of faith": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "songs:ohia|lioness": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "black sea dahu|in case i fall for you": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "fenne lily|thank you sorry": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "matilda mann|inventing": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "eli \"paperboy\" reed|one man’s trash (is another man’s treasure)": {
+      "date": "2026-09-27",
+      "source": "WFUV-NYSlice2026"
+    },
+    "jjerome87|track and field": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "myra lee|ten": {
+      "date": "2026-09-27",
+      "source": "WFUV-NYSlice2026"
+    },
+    "parcels|leaveyourlove": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "ben howard|a boat to an island on the wall": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "oliver symons|remedy": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "krystofer maison|sapphire": {
+      "date": "2026-09-27",
+      "source": "WFUV-NYSlice2026"
+    },
+    "the mighty bop|life": {
+      "date": "2026-09-27",
+      "source": "LastFM~Bonobo"
+    },
+    "beach house|april suzanne": {
+      "date": "2026-09-27",
+      "source": "Duyster"
+    },
+    "skinshape|i didn't know": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "aili & orson|achi kochi": {
+      "date": "2026-09-27",
+      "source": "KEXP-NewThisWeek"
+    },
+    "lucy dacus|planting tomatoes": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "richy mitch & the coal miners|santiago": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "surprise chef|outside voice": {
+      "date": "2026-09-27",
+      "source": "KEXP-NewThisWeek"
+    },
+    "nina winder-lind|street hassle": {
+      "date": "2026-09-27",
+      "source": "Duyster"
+    },
+    "idaho|wandering the fields": {
+      "date": "2026-09-27",
+      "source": "Duyster"
+    },
+    "allah-las|polar onion": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "sufjan stevens|chicago (adult contemporary easy listening version)": {
+      "date": "2026-09-27",
+      "source": "Duyster"
+    },
+    "marlon funaki|wish you well": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "death cab for cutie|lightness": {
+      "date": "2026-09-27",
+      "source": "Duyster"
+    },
+    "beirut|hadsel": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "blanco white|papillon": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "beck|slow canyon": {
+      "date": "2026-09-27",
+      "source": "Duyster"
+    },
+    "babehoven ft. squirrel flower|am i in a dream": {
+      "date": "2026-09-27",
+      "source": "Duyster"
+    },
+    "cory hanson|lou reed": {
+      "date": "2026-09-27",
+      "source": "Duyster"
+    },
+    "junip|your life your call": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "sophia stel|i do": {
+      "date": "2026-09-27",
+      "source": "KEXP-NewThisWeek"
+    },
+    "scayos ft. somni|souvenirs": {
+      "date": "2026-09-27",
+      "source": "Duyster"
+    },
+    "justin vernon|frail sail": {
+      "date": "2026-09-27",
+      "source": "LastFM~S. Carey"
+    },
+    "big thief|incomprehensible": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "brittany howard|i don't": {
+      "date": "2026-09-27",
+      "source": "LastFM~Moses Sumney"
+    },
+    "adrianne lenker|jonathan": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "holy fuck|stay lit": {
+      "date": "2026-09-27",
+      "source": "Duyster"
+    },
+    "villagers|you lucky one": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "evangelos lascos|ten days": {
+      "date": "2026-09-27",
+      "source": "KEXP-NewThisWeek"
+    },
+    "daughter|not enough": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "flipturn & susto|if it is (reimagined)": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "alva noto & ryuichi sakamoto|conversation 6": {
+      "date": "2026-09-27",
+      "source": "Duyster"
+    },
+    "mac demarco|my kind of woman": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "phoebe bridgers|kill me": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "iron & wine|passing afternoon": {
+      "date": "2026-09-27",
+      "source": "LastFM~Jose Gonzalez"
+    },
+    "patrick watson|lost with you": {
       "date": "2026-09-27",
       "source": "Vuurland"
     }
@@ -8858,18 +9024,6 @@
         "indie"
       ]
     },
-    "518490471": {
-      "date": "2026-09-27",
-      "artist": "Noah Kahan",
-      "title": "Doors",
-      "source": "Vuurland",
-      "genres": [
-        "indie",
-        "folk",
-        "singer songwriter",
-        "acoustic"
-      ]
-    },
     "21398052": {
       "date": "2026-09-27",
       "artist": "Iron & Wine",
@@ -8877,30 +9031,6 @@
       "source": "LastFM~Jose Gonzalez",
       "genres": [
         "indie folk"
-      ]
-    },
-    "477807422": {
-      "date": "2026-09-27",
-      "artist": "Tom Smith",
-      "title": "Leave",
-      "source": "Vuurland",
-      "genres": [
-        "filk",
-        "humor",
-        "funny",
-        "humour"
-      ]
-    },
-    "470173716": {
-      "date": "2026-09-27",
-      "artist": "Holly Humberstone",
-      "title": "Die happy",
-      "source": "Vuurland",
-      "genres": [
-        "indie pop",
-        "pop",
-        "my top songs",
-        "british"
       ]
     },
     "135451267": {
@@ -8932,18 +9062,6 @@
         "indie rock"
       ]
     },
-    "516428038": {
-      "date": "2026-09-27",
-      "artist": "Angus & Julia Stone",
-      "title": "Karaoke bar",
-      "source": "Vuurland",
-      "genres": [
-        "folk",
-        "indie",
-        "acoustic",
-        "australian"
-      ]
-    },
     "549665109": {
       "date": "2026-09-27",
       "artist": "Midpak",
@@ -8955,18 +9073,6 @@
         "psych funk"
       ]
     },
-    "484257535": {
-      "date": "2026-09-27",
-      "artist": "Band Of Horses",
-      "title": "(biding time is a) boat to row",
-      "source": "Vuurland",
-      "genres": [
-        "indie",
-        "indie rock",
-        "alternative",
-        "alt country"
-      ]
-    },
     "543440648": {
       "date": "2026-09-27",
       "artist": "St. Paul & The Broken Bones",
@@ -8974,35 +9080,6 @@
       "source": "WXPN-BestNewMusic",
       "genres": [
         "retro soul"
-      ]
-    },
-    "468317921": {
-      "date": "2026-09-27",
-      "artist": "Daniel Caesar",
-      "title": "Who knows",
-      "source": "Vuurland",
-      "genres": [
-        "rnb",
-        "soul",
-        "neo soul",
-        "canadian"
-      ]
-    },
-    "488318449": {
-      "date": "2026-09-27",
-      "artist": "Tom Odell & Sydney Rose",
-      "title": "Over",
-      "source": "Vuurland",
-      "genres": []
-    },
-    "472230545": {
-      "date": "2026-09-27",
-      "artist": "Rosalia",
-      "title": "Sauvignon blanc",
-      "source": "Vuurland",
-      "genres": [
-        "spain",
-        "latin pop"
       ]
     },
     "558299172": {
@@ -9031,20 +9108,6 @@
       "genres": [
         "indie folk"
       ]
-    },
-    "480464277": {
-      "date": "2026-09-27",
-      "artist": "Courtney Barnett & Waxahatchee",
-      "title": "Site unseen",
-      "source": "Vuurland",
-      "genres": []
-    },
-    "498835654": {
-      "date": "2026-09-27",
-      "artist": "Sasami & Angie Mcmahon",
-      "title": "Honeycrash",
-      "source": "Vuurland",
-      "genres": []
     },
     "1480496": {
       "date": "2026-09-27",
@@ -9080,15 +9143,6 @@
         "australian"
       ]
     },
-    "466087999": {
-      "date": "2026-09-27",
-      "artist": "Khruangbin",
-      "title": "White gloves II",
-      "source": "Vuurland",
-      "genres": [
-        "neo-psychedelic"
-      ]
-    },
     "97364049": {
       "date": "2026-09-27",
       "artist": "Emily King",
@@ -9096,18 +9150,6 @@
       "source": "LastFM~Lianne La Havas",
       "genres": [
         "pop soul"
-      ]
-    },
-    "499140866": {
-      "date": "2026-09-27",
-      "artist": "Iskander Moon",
-      "title": "The city",
-      "source": "Vuurland",
-      "genres": [
-        "folk",
-        "singer songwriter",
-        "indie",
-        "indie pop"
       ]
     },
     "517521184": {
@@ -9121,30 +9163,6 @@
         "folk"
       ]
     },
-    "487550815": {
-      "date": "2026-09-27",
-      "artist": "Maro",
-      "title": "Kiss me",
-      "source": "Vuurland",
-      "genres": [
-        "pop",
-        "portuguese",
-        "jazz",
-        "eurovision"
-      ]
-    },
-    "507942130": {
-      "date": "2026-09-27",
-      "artist": "Pale Grey",
-      "title": "Lucie",
-      "source": "Vuurland",
-      "genres": [
-        "indie rock",
-        "belgian",
-        "indietronica",
-        "indie"
-      ]
-    },
     "555949896": {
       "date": "2026-09-27",
       "artist": "Spiral XP",
@@ -9152,18 +9170,6 @@
       "source": "KEXP-NewThisWeek",
       "genres": [
         "shoegaze"
-      ]
-    },
-    "464577540": {
-      "date": "2026-09-27",
-      "artist": "Sienna Spiro",
-      "title": "Die on this hill",
-      "source": "Vuurland",
-      "genres": [
-        "soul",
-        "jazz",
-        "indie",
-        "pop"
       ]
     },
     "552080160": {
@@ -9176,34 +9182,6 @@
         "indie dance",
         "shoegaze"
       ]
-    },
-    "488074005": {
-      "date": "2026-09-27",
-      "artist": "Tyler Ballgame",
-      "title": "Matter of taste",
-      "source": "Vuurland",
-      "genres": [
-        "indie pop",
-        "singer songwriter",
-        "indie",
-        "folk"
-      ]
-    },
-    "462045339": {
-      "date": "2026-09-27",
-      "artist": "Eefje De Visser",
-      "title": "Vlijmscherp",
-      "source": "Vuurland",
-      "genres": [
-        "nederpop"
-      ]
-    },
-    "462640760": {
-      "date": "2026-09-27",
-      "artist": "Sasami & Soccer Mommy",
-      "title": "Just be friends (soccer mommy version)",
-      "source": "Vuurland",
-      "genres": []
     },
     "334913353": {
       "date": "2026-09-27",
@@ -9226,13 +9204,6 @@
         "art rock"
       ]
     },
-    "490570914": {
-      "date": "2026-09-27",
-      "artist": "Felix Hien & K.Zia",
-      "title": "I wish",
-      "source": "Vuurland",
-      "genres": []
-    },
     "554484067": {
       "date": "2026-09-27",
       "artist": "Renny Conti",
@@ -9244,20 +9215,6 @@
         "us",
         "united states"
       ]
-    },
-    "475497281": {
-      "date": "2026-09-27",
-      "artist": "Oakn",
-      "title": "Lovesick",
-      "source": "Vuurland",
-      "genres": []
-    },
-    "469818870": {
-      "date": "2026-09-27",
-      "artist": "JACK JOHNSON feat HERMANOS GUTIERREZ",
-      "title": "Hold on to the light",
-      "source": "Vuurland",
-      "genres": []
     },
     "524841866": {
       "date": "2026-09-27",
@@ -9290,18 +9247,6 @@
         "indie folk"
       ]
     },
-    "491448930": {
-      "date": "2026-09-27",
-      "artist": "Jjerome87",
-      "title": "Brush me like a horse",
-      "source": "Vuurland",
-      "genres": [
-        "rock",
-        "folk",
-        "indie",
-        "alternative"
-      ]
-    },
     "510444832": {
       "date": "2026-09-27",
       "artist": "Will Sheff",
@@ -9331,26 +9276,9 @@
       "artist": "Jack Wyllie & Duncan Bellamy",
       "title": "Juniper",
       "source": "Duyster",
-      "genres": []
-    },
-    "488074008": {
-      "date": "2026-09-27",
-      "artist": "Tyler Ballgame",
-      "title": "Got a new car",
-      "source": "Vuurland",
       "genres": [
-        "indie pop",
-        "singer songwriter",
-        "indie",
-        "folk"
+        "neoclassical"
       ]
-    },
-    "465467268": {
-      "date": "2026-09-27",
-      "artist": "Haim & Bon Iver",
-      "title": "Tie you down",
-      "source": "Vuurland",
-      "genres": []
     },
     "557688221": {
       "date": "2026-09-27",
@@ -9358,25 +9286,6 @@
       "title": "Already Dead",
       "source": "KEXP-NewThisWeek",
       "genres": []
-    },
-    "560222275": {
-      "date": "2026-09-27",
-      "artist": "Matt Berninger & Rosanne Cash",
-      "title": "Who loves the sun",
-      "source": "Vuurland",
-      "genres": []
-    },
-    "516848689": {
-      "date": "2026-09-27",
-      "artist": "Nectar Woode",
-      "title": "Rivers end",
-      "source": "Vuurland",
-      "genres": [
-        "rnb",
-        "soul",
-        "jazz",
-        "pop"
-      ]
     },
     "334913339": {
       "date": "2026-09-27",
@@ -9406,52 +9315,6 @@
         "neo soul",
         "alternative r&b",
         "uk r&b"
-      ]
-    },
-    "473845330": {
-      "date": "2026-09-27",
-      "artist": "Sam Fender",
-      "title": "I'm always on stage",
-      "source": "Vuurland",
-      "genres": [
-        "indie rock",
-        "indie",
-        "my top songs",
-        "rock"
-      ]
-    },
-    "466313431": {
-      "date": "2026-09-27",
-      "artist": "Maro",
-      "title": "To grieve you",
-      "source": "Vuurland",
-      "genres": [
-        "pop",
-        "portuguese",
-        "jazz",
-        "eurovision"
-      ]
-    },
-    "497977875": {
-      "date": "2026-09-27",
-      "artist": "Kingfishr",
-      "title": "The blade",
-      "source": "Vuurland",
-      "genres": [
-        "folk",
-        "irish",
-        "ireland",
-        "rock"
-      ]
-    },
-    "500752124": {
-      "date": "2026-09-27",
-      "artist": "Wet Leg",
-      "title": "Obvious",
-      "source": "Vuurland",
-      "genres": [
-        "indie rock",
-        "indie"
       ]
     },
     "545071518": {
@@ -9533,40 +9396,6 @@
         "slowcore"
       ]
     },
-    "512852833": {
-      "date": "2026-09-27",
-      "artist": "Maya Hawke",
-      "title": "Bring home my man",
-      "source": "Vuurland",
-      "genres": [
-        "indie",
-        "folk",
-        "singer songwriter",
-        "indie pop"
-      ]
-    },
-    "500227439": {
-      "date": "2026-09-27",
-      "artist": "Thomas Azier",
-      "title": "Year in a spiral",
-      "source": "Vuurland",
-      "genres": [
-        "electropop",
-        "synthpop",
-        "electronic",
-        "dutch"
-      ]
-    },
-    "487981178": {
-      "date": "2026-09-27",
-      "artist": "Zach Bryan",
-      "title": "Plastic cigarette",
-      "source": "Vuurland",
-      "genres": [
-        "country",
-        "red dirt"
-      ]
-    },
     "555097040": {
       "date": "2026-09-27",
       "artist": "Imperial Teen",
@@ -9607,30 +9436,6 @@
         "switzerland"
       ]
     },
-    "463859663": {
-      "date": "2026-09-27",
-      "artist": "Ise",
-      "title": "Suitcase child",
-      "source": "Vuurland",
-      "genres": [
-        "trance",
-        "chillout",
-        "house",
-        "indie"
-      ]
-    },
-    "489053606": {
-      "date": "2026-09-27",
-      "artist": "Noa Lee",
-      "title": "Getting up",
-      "source": "Vuurland",
-      "genres": [
-        "indie pop",
-        "synthpop",
-        "indie",
-        "singer songwriter"
-      ]
-    },
     "528449544": {
       "date": "2026-09-27",
       "artist": "Osamu Fukuzawa",
@@ -9664,18 +9469,6 @@
         "indie rock"
       ]
     },
-    "504034615": {
-      "date": "2026-09-27",
-      "artist": "Jjerome87",
-      "title": "Track and field",
-      "source": "Vuurland",
-      "genres": [
-        "rock",
-        "folk",
-        "indie",
-        "alternative"
-      ]
-    },
     "69718470": {
       "date": "2026-09-27",
       "artist": "Jesca Hoop",
@@ -9683,39 +9476,6 @@
       "source": "LastFM~Aldous Harding",
       "genres": [
         "indie folk"
-      ]
-    },
-    "516666001": {
-      "date": "2026-09-27",
-      "artist": "Lucy Dacus",
-      "title": "Planting tomatoes",
-      "source": "Vuurland",
-      "genres": [
-        "indie",
-        "indie rock",
-        "folk",
-        "singer songwriter"
-      ]
-    },
-    "519544463": {
-      "date": "2026-09-27",
-      "artist": "Dotan",
-      "title": "Let you go",
-      "source": "Vuurland",
-      "genres": [
-        "folk pop"
-      ]
-    },
-    "454826083": {
-      "date": "2026-09-27",
-      "artist": "Man-Made Sunshine",
-      "title": "I have more than one soul",
-      "source": "Vuurland",
-      "genres": [
-        "indie",
-        "alt indie",
-        "rock",
-        "alternative rock"
       ]
     },
     "559774482": {
@@ -9762,15 +9522,6 @@
       "source": "KEXP-NewThisWeek",
       "genres": []
     },
-    "450776846": {
-      "date": "2026-09-27",
-      "artist": "This Is Lorelei",
-      "title": "Holo boy",
-      "source": "Vuurland",
-      "genres": [
-        "alt country"
-      ]
-    },
     "61688284": {
       "date": "2026-09-27",
       "artist": "The New Year",
@@ -9778,18 +9529,6 @@
       "source": "Duyster",
       "genres": [
         "slowcore"
-      ]
-    },
-    "499140864": {
-      "date": "2026-09-27",
-      "artist": "Iskander Moon",
-      "title": "Tear you up",
-      "source": "Vuurland",
-      "genres": [
-        "folk",
-        "singer songwriter",
-        "indie",
-        "indie pop"
       ]
     },
     "558171194": {
@@ -9802,56 +9541,6 @@
         "experimental"
       ]
     },
-    "494390928": {
-      "date": "2026-09-27",
-      "artist": "Elis Floreen",
-      "title": "Panther",
-      "source": "Vuurland",
-      "genres": []
-    },
-    "505891586": {
-      "date": "2026-09-27",
-      "artist": "KINGFISHR feat. MATT CORBY",
-      "title": "The blade",
-      "source": "Vuurland",
-      "genres": []
-    },
-    "519979035": {
-      "date": "2026-09-27",
-      "artist": "Kurt Vile",
-      "title": "Zoom 97",
-      "source": "Vuurland",
-      "genres": [
-        "lo fi",
-        "psychedelic",
-        "indie",
-        "singer songwriter"
-      ]
-    },
-    "488074003": {
-      "date": "2026-09-27",
-      "artist": "Tyler Ballgame",
-      "title": "I believe in love",
-      "source": "Vuurland",
-      "genres": [
-        "indie pop",
-        "singer songwriter",
-        "indie",
-        "folk"
-      ]
-    },
-    "528581483": {
-      "date": "2026-09-27",
-      "artist": "Hermanos Gutierrez",
-      "title": "Canto andino",
-      "source": "Vuurland",
-      "genres": [
-        "mexico",
-        "mexican",
-        "easy listening",
-        "mariachi"
-      ]
-    },
     "549245965": {
       "date": "2026-09-27",
       "artist": "Now Always Fades",
@@ -9859,18 +9548,6 @@
       "source": "KEXP-NewThisWeek",
       "genres": [
         "trip hop"
-      ]
-    },
-    "489725216": {
-      "date": "2026-09-27",
-      "artist": "Dermot Kennedy",
-      "title": "Funeral",
-      "source": "Vuurland",
-      "genres": [
-        "singer songwriter",
-        "pop",
-        "folk",
-        "irish"
       ]
     },
     "157089243": {
@@ -9885,34 +9562,6 @@
         "indie"
       ]
     },
-    "510520276": {
-      "date": "2026-09-27",
-      "artist": "Dermot Kennedy",
-      "title": "Turnstile",
-      "source": "Vuurland",
-      "genres": [
-        "singer songwriter",
-        "pop",
-        "folk",
-        "irish"
-      ]
-    },
-    "516381598": {
-      "date": "2026-09-27",
-      "artist": "ALDOUS HARDING feat. H. HAWKLINE",
-      "title": "Venus in the zinnia",
-      "source": "Vuurland",
-      "genres": []
-    },
-    "472243034": {
-      "date": "2026-09-27",
-      "artist": "S10",
-      "title": "Paris, Texas",
-      "source": "Vuurland",
-      "genres": [
-        "nederpop"
-      ]
-    },
     "535577396": {
       "date": "2026-09-27",
       "artist": "Empress Of",
@@ -9923,18 +9572,6 @@
         "dream pop",
         "electropop",
         "art pop"
-      ]
-    },
-    "489149076": {
-      "date": "2026-09-27",
-      "artist": "Bleachers",
-      "title": "You and forever",
-      "source": "Vuurland",
-      "genres": [
-        "indie pop",
-        "indie",
-        "pop",
-        "power pop"
       ]
     },
     "563297636": {
@@ -9965,15 +9602,6 @@
         "usa"
       ]
     },
-    "463997611": {
-      "date": "2026-09-27",
-      "artist": "Snocaps",
-      "title": "Wasteland",
-      "source": "Vuurland",
-      "genres": [
-        "alt country"
-      ]
-    },
     "550858418": {
       "date": "2026-09-27",
       "artist": "Phoebe Bridgers",
@@ -9986,18 +9614,6 @@
         "indie rock"
       ]
     },
-    "462024275": {
-      "date": "2026-09-27",
-      "artist": "Berre",
-      "title": "How beautiful this life is",
-      "source": "Vuurland",
-      "genres": [
-        "pop",
-        "singer songwriter",
-        "belgium",
-        "indie pop"
-      ]
-    },
     "103319444": {
       "date": "2026-09-27",
       "artist": "Emily King",
@@ -10007,985 +9623,957 @@
         "pop soul"
       ]
     },
-    "498251276": {
+    "551869526": {
       "date": "2026-09-27",
-      "artist": "Jordan Rakei & Tom Mcfarland",
-      "title": "Easy to love",
+      "artist": "Bibio & Dorian Concept",
+      "title": "Hammock Portal",
+      "source": "Duyster",
+      "genres": []
+    },
+    "300729315": {
+      "date": "2026-09-27",
+      "artist": "Angie Mcmahon",
+      "title": "Making it through",
+      "source": "Vuurland",
+      "genres": [
+        "folk",
+        "indie",
+        "australian",
+        "singer songwriter"
+      ]
+    },
+    "111772237": {
+      "date": "2026-09-27",
+      "artist": "Silver Jews",
+      "title": "Pet Politics",
+      "source": "Duyster",
+      "genres": [
+        "alt country",
+        "anti-folk"
+      ]
+    },
+    "547261356": {
+      "date": "2026-09-27",
+      "artist": "O Slow",
+      "title": "Times are hard for dreamers",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "dream pop",
+        "shoegaze",
+        "art pop"
+      ]
+    },
+    "468939754": {
+      "date": "2026-09-27",
+      "artist": "Bill Callahan",
+      "title": "Lonely City",
+      "source": "Duyster",
+      "genres": [
+        "alt country"
+      ]
+    },
+    "19328089": {
+      "date": "2026-09-27",
+      "artist": "Balmorhea",
+      "title": "Days",
+      "source": "Vuurland",
+      "genres": [
+        "post-rock",
+        "neoclassical"
+      ]
+    },
+    "25055558": {
+      "date": "2026-09-27",
+      "artist": "Bon Iver",
+      "title": "Blindsided",
+      "source": "LastFM~S. Carey",
+      "genres": [
+        "folk",
+        "indie",
+        "singer songwriter",
+        "acoustic"
+      ]
+    },
+    "198031374": {
+      "date": "2026-09-27",
+      "artist": "Kevin Morby & Hamilton Leithauser",
+      "title": "Virginia Beach",
       "source": "Vuurland",
       "genres": []
     },
-    "491637049": {
+    "99286839": {
       "date": "2026-09-27",
-      "artist": "Alt-J",
-      "title": "U&ME",
+      "artist": "Ex:re",
+      "title": "The dazzler",
       "source": "Vuurland",
       "genres": [
+        "art pop"
+      ]
+    },
+    "87375668": {
+      "date": "2026-09-27",
+      "artist": "The Mighty Bop",
+      "title": "Ride Away",
+      "source": "LastFM~Bonobo",
+      "genres": [
+        "trip hop",
+        "nu jazz",
+        "acid jazz",
+        "downtempo"
+      ]
+    },
+    "157593868": {
+      "date": "2026-09-27",
+      "artist": "Leif Vollebekk",
+      "title": "Long blue light",
+      "source": "Vuurland",
+      "genres": [
+        "folk",
+        "canadian",
+        "singer songwriter",
+        "indie folk"
+      ]
+    },
+    "555088321": {
+      "date": "2026-09-27",
+      "artist": "Yukimi",
+      "title": "Vann du livet?",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
         "indie",
+        "electronic",
+        "rnb",
+        "swedish"
+      ]
+    },
+    "526613317": {
+      "date": "2026-09-27",
+      "artist": "Roomer",
+      "title": "Staircase Made Of Rope",
+      "source": "Duyster",
+      "genres": [
+        "slowcore"
+      ]
+    },
+    "541779651": {
+      "date": "2026-09-27",
+      "artist": "TRÍADA",
+      "title": "Manos de Sal",
+      "source": "KCRW-MorningBecomesEclectic",
+      "genres": [
+        "latin folk"
+      ]
+    },
+    "25055562": {
+      "date": "2026-09-27",
+      "artist": "Bon Iver",
+      "title": "re: stacks",
+      "source": "LastFM~S. Carey",
+      "genres": [
+        "folk",
+        "indie",
+        "singer songwriter",
+        "acoustic"
+      ]
+    },
+    "105052536": {
+      "date": "2026-09-27",
+      "artist": "The Karminsky Experience Inc.",
+      "title": "The Power of Suggestion",
+      "source": "LastFM~Bonobo",
+      "genres": [
+        "trip hop",
+        "acid jazz",
+        "nu jazz",
+        "downtempo"
+      ]
+    },
+    "439908070": {
+      "date": "2026-09-27",
+      "artist": "Ethel Cain",
+      "title": "Dust Bowl",
+      "source": "Vuurland",
+      "genres": [
+        "southern gothic"
+      ]
+    },
+    "29145359": {
+      "date": "2026-09-27",
+      "artist": "Nick Mulvey",
+      "title": "Meet me there",
+      "source": "Vuurland",
+      "genres": [
+        "singer songwriter",
+        "acoustic",
+        "british",
+        "folk"
+      ]
+    },
+    "526296229": {
+      "date": "2026-09-27",
+      "artist": "Ships of the Pharaohs",
+      "title": "Sun Is Rising",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "433065031": {
+      "date": "2026-09-27",
+      "artist": "Real Estate",
+      "title": "Pink Sky",
+      "source": "Vuurland",
+      "genres": [
+        "jangle pop",
+        "dream pop",
+        "surf rock"
+      ]
+    },
+    "417819504": {
+      "date": "2026-09-27",
+      "artist": "Billie Marten",
+      "title": "Swing",
+      "source": "Vuurland",
+      "genres": [
+        "indie pop",
+        "folk",
+        "indie",
+        "british"
+      ]
+    },
+    "528581483": {
+      "date": "2026-09-27",
+      "artist": "Hermanos Gutierrez",
+      "title": "Canto Andino",
+      "source": "Vuurland",
+      "genres": [
+        "mexico",
+        "mexican",
+        "easy listening",
+        "mariachi"
+      ]
+    },
+    "549882571": {
+      "date": "2026-09-27",
+      "artist": "Armlock",
+      "title": "Half Time",
+      "source": "Duyster",
+      "genres": [
+        "lo-fi indie"
+      ]
+    },
+    "212720253": {
+      "date": "2026-09-27",
+      "artist": "Dark Dark Dark",
+      "title": "Daydreaming",
+      "source": "Duyster",
+      "genres": [
+        "folk",
+        "indie",
+        "new weird america",
+        "indie gypsy folk"
+      ]
+    },
+    "491243843": {
+      "date": "2026-09-27",
+      "artist": "Kevin Morby",
+      "title": "Little Wide Open",
+      "source": "Vuurland",
+      "genres": [
+        "folk",
+        "singer songwriter",
+        "lo fi",
+        "indie"
+      ]
+    },
+    "424785523": {
+      "date": "2026-09-27",
+      "artist": "Leisure",
+      "title": "Sundown",
+      "source": "Vuurland",
+      "genres": [
+        "indie soul"
+      ]
+    },
+    "319902445": {
+      "date": "2026-09-27",
+      "artist": "Brittany Howard",
+      "title": "He Loves Me",
+      "source": "LastFM~Moses Sumney",
+      "genres": [
+        "soul",
+        "blues",
+        "blues rock",
+        "singer songwriter"
+      ]
+    },
+    "3756725": {
+      "date": "2026-09-27",
+      "artist": "Wilco",
+      "title": "Jesus, etc",
+      "source": "Vuurland",
+      "genres": [
+        "alt country",
+        "americana",
         "indie rock"
       ]
     },
-    "475633783": {
+    "555431786": {
       "date": "2026-09-27",
-      "artist": "Jordan Rakei & Jalen N'Gonda",
-      "title": "What it gave me",
+      "artist": "Ex:re",
+      "title": "Radio Station",
+      "source": "Duyster",
+      "genres": [
+        "art pop"
+      ]
+    },
+    "441777504": {
+      "date": "2026-09-27",
+      "artist": "Kingfishr",
+      "title": "Someday",
+      "source": "Vuurland",
+      "genres": [
+        "folk",
+        "irish",
+        "ireland",
+        "rock"
+      ]
+    },
+    "19327285": {
+      "date": "2026-09-27",
+      "artist": "Sufjan STEVENS",
+      "title": "Casimir Pulaski Day",
+      "source": "Vuurland",
+      "genres": [
+        "baroque pop"
+      ]
+    },
+    "227479936": {
+      "date": "2026-09-27",
+      "artist": "Arcade Fire",
+      "title": "Age of anxiety II",
+      "source": "Vuurland",
+      "genres": [
+        "indie rock",
+        "baroque pop"
+      ]
+    },
+    "295242034": {
+      "date": "2026-09-27",
+      "artist": "Justin Vernon",
+      "title": "hazelton",
+      "source": "LastFM~S. Carey",
+      "genres": [
+        "indie folk"
+      ]
+    },
+    "390710140": {
+      "date": "2026-09-27",
+      "artist": "Half Moon Run",
+      "title": "Need It",
+      "source": "Vuurland",
+      "genres": [
+        "indie",
+        "indie rock",
+        "canadian",
+        "shoegaze"
+      ]
+    },
+    "507960673": {
+      "date": "2026-09-27",
+      "artist": "Gregory Alan Isakov & Sylvan Esso",
+      "title": "Fade Into You",
       "source": "Vuurland",
       "genres": []
     },
-    "481243721": {
+    "532546252": {
       "date": "2026-09-27",
-      "artist": "CATE LE BON feat ST. VINCENT",
-      "title": "Always the same",
+      "artist": "Ruby Haunt",
+      "title": "Half Light",
+      "source": "Duyster",
+      "genres": [
+        "dream pop",
+        "slowcore"
+      ]
+    },
+    "493208466": {
+      "date": "2026-09-27",
+      "artist": "Ry X",
+      "title": "Yayaya",
+      "source": "Vuurland",
+      "genres": [
+        "indie folk"
+      ]
+    },
+    "25055561": {
+      "date": "2026-09-27",
+      "artist": "Bon Iver",
+      "title": "For Emma",
+      "source": "LastFM~S. Carey",
+      "genres": [
+        "folk",
+        "indie",
+        "singer songwriter",
+        "acoustic"
+      ]
+    },
+    "552075920": {
+      "date": "2026-09-27",
+      "artist": "Muriel Mwamba",
+      "title": "ICHALO (The World)",
+      "source": "WFUV-NYSlice2026",
+      "genres": []
+    },
+    "549886416": {
+      "date": "2026-09-27",
+      "artist": "Flora Hibberd",
+      "title": "Silent Movie Baby",
+      "source": "KCRW-MorningBecomesEclectic",
+      "genres": [
+        "indie dance"
+      ]
+    },
+    "77646930": {
+      "date": "2026-09-27",
+      "artist": "Feist",
+      "title": "Graveyard",
+      "source": "Vuurland",
+      "genres": [
+        "female vocalists",
+        "indie",
+        "singer songwriter",
+        "canadian"
+      ]
+    },
+    "319675502": {
+      "date": "2026-09-27",
+      "artist": "Brittany Howard",
+      "title": "Baby",
+      "source": "LastFM~Moses Sumney",
+      "genres": [
+        "soul",
+        "blues",
+        "blues rock",
+        "singer songwriter"
+      ]
+    },
+    "555551427": {
+      "date": "2026-09-27",
+      "artist": "Dana Margolin",
+      "title": "Big Beautiful Sound",
+      "source": "Duyster",
+      "genres": []
+    },
+    "102065957": {
+      "date": "2026-09-27",
+      "artist": "The Karminsky Experience Inc.",
+      "title": "Introducing Louis Pachini",
+      "source": "LastFM~Bonobo",
+      "genres": [
+        "trip hop",
+        "acid jazz",
+        "nu jazz",
+        "downtempo"
+      ]
+    },
+    "307111817": {
+      "date": "2026-09-27",
+      "artist": "Justin Vernon",
+      "title": "Easy",
+      "source": "LastFM~S. Carey",
+      "genres": [
+        "indie folk"
+      ]
+    },
+    "317222149": {
+      "date": "2026-09-27",
+      "artist": "Zach Bryan Ft. Bon Iver",
+      "title": "Boys of faith",
       "source": "Vuurland",
       "genres": []
+    },
+    "25057017": {
+      "date": "2026-09-27",
+      "artist": "Songs:ohia",
+      "title": "Lioness",
+      "source": "Vuurland",
+      "genres": [
+        "singer songwriter",
+        "folk",
+        "alt country",
+        "indie"
+      ]
+    },
+    "87981596": {
+      "date": "2026-09-27",
+      "artist": "Black Sea Dahu",
+      "title": "In Case I Fall for You",
+      "source": "Vuurland",
+      "genres": [
+        "swiss",
+        "folk",
+        "indie folk",
+        "indie"
+      ]
+    },
+    "533717210": {
+      "date": "2026-09-27",
+      "artist": "Fenne Lily",
+      "title": "Thank You Sorry",
+      "source": "Vuurland",
+      "genres": [
+        "folk",
+        "singer songwriter",
+        "female vocalists",
+        "british"
+      ]
+    },
+    "524713135": {
+      "date": "2026-09-27",
+      "artist": "Matilda Mann",
+      "title": "Inventing",
+      "source": "Vuurland",
+      "genres": [
+        "acoustic",
+        "folk",
+        "indie pop",
+        "singer songwriter"
+      ]
+    },
+    "529501560": {
+      "date": "2026-09-27",
+      "artist": "Eli \"Paperboy\" Reed",
+      "title": "One Man’s Trash (Is Another Man’s Treasure)",
+      "source": "WFUV-NYSlice2026",
+      "genres": [
+        "retro soul",
+        "soul blues",
+        "funk"
+      ]
+    },
+    "504034615": {
+      "date": "2026-09-27",
+      "artist": "Jjerome87",
+      "title": "Track And Field",
+      "source": "Vuurland",
+      "genres": [
+        "rock",
+        "folk",
+        "indie",
+        "alternative"
+      ]
+    },
+    "518038872": {
+      "date": "2026-09-27",
+      "artist": "Myra Lee",
+      "title": "Ten",
+      "source": "WFUV-NYSlice2026",
+      "genres": [
+        "slowcore"
+      ]
+    },
+    "390411243": {
+      "date": "2026-09-27",
+      "artist": "Parcels",
+      "title": "Leaveyourlove",
+      "source": "Vuurland",
+      "genres": [
+        "indie soul"
+      ]
+    },
+    "101125581": {
+      "date": "2026-09-27",
+      "artist": "Ben Howard",
+      "title": "A boat to an island on the wall",
+      "source": "Vuurland",
+      "genres": [
+        "indie folk",
+        "folk pop"
+      ]
+    },
+    "428072376": {
+      "date": "2026-09-27",
+      "artist": "Oliver Symons",
+      "title": "Remedy",
+      "source": "Vuurland",
+      "genres": [
+        "jesc",
+        "belgium",
+        "bazart"
+      ]
+    },
+    "510757400": {
+      "date": "2026-09-27",
+      "artist": "Krystofer Maison",
+      "title": "Sapphire",
+      "source": "WFUV-NYSlice2026",
+      "genres": []
+    },
+    "348967773": {
+      "date": "2026-09-27",
+      "artist": "The Mighty Bop",
+      "title": "Life",
+      "source": "LastFM~Bonobo",
+      "genres": [
+        "trip hop",
+        "nu jazz",
+        "acid jazz",
+        "downtempo"
+      ]
+    },
+    "554453148": {
+      "date": "2026-09-27",
+      "artist": "Beach House",
+      "title": "April Suzanne",
+      "source": "Duyster",
+      "genres": [
+        "dream pop"
+      ]
+    },
+    "427711394": {
+      "date": "2026-09-27",
+      "artist": "Skinshape",
+      "title": "I Didn't Know",
+      "source": "Vuurland",
+      "genres": [
+        "trip hop",
+        "downtempo",
+        "chillout",
+        "electronic"
+      ]
+    },
+    "556224834": {
+      "date": "2026-09-27",
+      "artist": "Aili & Orson",
+      "title": "Achi Kochi",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "indie dance"
+      ]
+    },
+    "516666001": {
+      "date": "2026-09-27",
+      "artist": "Lucy Dacus",
+      "title": "Planting Tomatoes",
+      "source": "Vuurland",
+      "genres": [
+        "indie",
+        "indie rock",
+        "folk",
+        "singer songwriter"
+      ]
+    },
+    "413634126": {
+      "date": "2026-09-27",
+      "artist": "Richy Mitch & The Coal Miners",
+      "title": "Santiago",
+      "source": "Vuurland",
+      "genres": [
+        "folk",
+        "acoustic",
+        "indie folk",
+        "indie"
+      ]
+    },
+    "558321531": {
+      "date": "2026-09-27",
+      "artist": "Surprise Chef",
+      "title": "Outside Voice",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "jazz funk",
+        "indie jazz",
+        "jazz house"
+      ]
+    },
+    "529811266": {
+      "date": "2026-09-27",
+      "artist": "Nina Winder-lind",
+      "title": "Street Hassle",
+      "source": "Duyster",
+      "genres": []
+    },
+    "225560319": {
+      "date": "2026-09-27",
+      "artist": "Idaho",
+      "title": "Wandering the fields",
+      "source": "Duyster",
+      "genres": [
+        "slowcore"
+      ]
+    },
+    "419228814": {
+      "date": "2026-09-27",
+      "artist": "Allah-las",
+      "title": "Polar Onion",
+      "source": "Vuurland",
+      "genres": [
+        "neo-psychedelic",
+        "surf rock",
+        "psychedelic rock"
+      ]
+    },
+    "19265496": {
+      "date": "2026-09-27",
+      "artist": "Sufjan Stevens",
+      "title": "Chicago (adult Contemporary Easy Listening Version)",
+      "source": "Duyster",
+      "genres": [
+        "baroque pop"
+      ]
+    },
+    "502622783": {
+      "date": "2026-09-27",
+      "artist": "Marlon Funaki",
+      "title": "Wish You Well",
+      "source": "Vuurland",
+      "genres": [
+        "neo psychedelia",
+        "psychedelic rock",
+        "psychedelic",
+        "indie"
+      ]
+    },
+    "22951708": {
+      "date": "2026-09-27",
+      "artist": "Death Cab For Cutie",
+      "title": "Lightness",
+      "source": "Duyster",
+      "genres": [
+        "indie",
+        "indie rock",
+        "alternative",
+        "rock"
+      ]
+    },
+    "308321799": {
+      "date": "2026-09-27",
+      "artist": "Beirut",
+      "title": "Hadsel",
+      "source": "Vuurland",
+      "genres": [
+        "baroque pop",
+        "indie folk"
+      ]
+    },
+    "328552157": {
+      "date": "2026-09-27",
+      "artist": "Blanco White",
+      "title": "Papillon",
+      "source": "Vuurland",
+      "genres": [
+        "indie folk"
+      ]
+    },
+    "560201319": {
+      "date": "2026-09-27",
+      "artist": "Beck",
+      "title": "Slow Canyon",
+      "source": "Duyster",
+      "genres": [
+        "anti-folk"
+      ]
+    },
+    "522427669": {
+      "date": "2026-09-27",
+      "artist": "Babehoven Ft. Squirrel Flower",
+      "title": "Am I In A Dream",
+      "source": "Duyster",
+      "genres": []
+    },
+    "429206507": {
+      "date": "2026-09-27",
+      "artist": "Cory Hanson",
+      "title": "Lou Reed",
+      "source": "Duyster",
+      "genres": [
+        "neo-psychedelic"
+      ]
+    },
+    "334913261": {
+      "date": "2026-09-27",
+      "artist": "Junip",
+      "title": "Your Life Your Call",
+      "source": "Vuurland",
+      "genres": [
+        "indie",
+        "folk",
+        "swedish",
+        "acoustic"
+      ]
+    },
+    "548721673": {
+      "date": "2026-09-27",
+      "artist": "Sophia Stel",
+      "title": "I Do",
+      "source": "KEXP-NewThisWeek",
+      "genres": [
+        "electronic",
+        "canadian",
+        "shoegaze",
+        "experimental"
+      ]
+    },
+    "526318511": {
+      "date": "2026-09-27",
+      "artist": "Scayos Ft. Somni",
+      "title": "Souvenirs",
+      "source": "Duyster",
+      "genres": []
+    },
+    "307111815": {
+      "date": "2026-09-27",
+      "artist": "Justin Vernon",
+      "title": "Frail Sail",
+      "source": "LastFM~S. Carey",
+      "genres": [
+        "indie folk"
+      ]
+    },
+    "454086305": {
+      "date": "2026-09-27",
+      "artist": "Big Thief",
+      "title": "Incomprehensible",
+      "source": "Vuurland",
+      "genres": [
+        "indie rock",
+        "indie folk",
+        "folk",
+        "folk rock"
+      ]
+    },
+    "343280224": {
+      "date": "2026-09-27",
+      "artist": "Brittany Howard",
+      "title": "I Don't",
+      "source": "LastFM~Moses Sumney",
+      "genres": [
+        "soul",
+        "blues",
+        "blues rock",
+        "singer songwriter"
+      ]
+    },
+    "473453264": {
+      "date": "2026-09-27",
+      "artist": "Adrianne Lenker",
+      "title": "Jonathan",
+      "source": "Vuurland",
+      "genres": [
+        "singer songwriter",
+        "indie folk",
+        "folk",
+        "female vocalists"
+      ]
+    },
+    "3730264": {
+      "date": "2026-09-27",
+      "artist": "Holy Fuck",
+      "title": "Stay Lit",
+      "source": "Duyster",
+      "genres": [
+        "experimental",
+        "electronic",
+        "post rock",
+        "instrumental"
+      ]
+    },
+    "345433900": {
+      "date": "2026-09-27",
+      "artist": "Villagers",
+      "title": "You Lucky One",
+      "source": "Vuurland",
+      "genres": [
+        "folk",
+        "singer songwriter",
+        "irish",
+        "indie"
+      ]
+    },
+    "554267832": {
+      "date": "2026-09-27",
+      "artist": "Evangelos Lascos",
+      "title": "Ten Days",
+      "source": "KEXP-NewThisWeek",
+      "genres": []
+    },
+    "484580734": {
+      "date": "2026-09-27",
+      "artist": "Daughter",
+      "title": "Not Enough",
+      "source": "Vuurland",
+      "genres": [
+        "indie",
+        "indie folk",
+        "female vocalists",
+        "acoustic"
+      ]
+    },
+    "495394312": {
+      "date": "2026-09-27",
+      "artist": "Flipturn & Susto",
+      "title": "If It Is (reimagined)",
+      "source": "Vuurland",
+      "genres": []
+    },
+    "542666645": {
+      "date": "2026-09-27",
+      "artist": "Alva Noto & Ryuichi Sakamoto",
+      "title": "Conversation 6",
+      "source": "Duyster",
+      "genres": []
+    },
+    "544764301": {
+      "date": "2026-09-27",
+      "artist": "Mac Demarco",
+      "title": "My Kind of Woman",
+      "source": "Vuurland",
+      "genres": [
+        "indie",
+        "lo-fi indie"
+      ]
+    },
+    "550858409": {
+      "date": "2026-09-27",
+      "artist": "Phoebe Bridgers",
+      "title": "Kill Me",
+      "source": "Vuurland",
+      "genres": [
+        "singer songwriter",
+        "indie folk",
+        "folk",
+        "indie rock"
+      ]
+    },
+    "21398056": {
+      "date": "2026-09-27",
+      "artist": "Iron & Wine",
+      "title": "Passing Afternoon",
+      "source": "LastFM~Jose Gonzalez",
+      "genres": [
+        "indie folk"
+      ]
+    },
+    "159426344": {
+      "date": "2026-09-27",
+      "artist": "Patrick Watson",
+      "title": "Lost with you",
+      "source": "Vuurland",
+      "genres": [
+        "indie",
+        "singer songwriter",
+        "folk",
+        "canadian"
+      ]
     }
   },
-  "checked_old": {
-    "kingfishr|21": "2026-09-27",
-    "phoebe bridgers|sidelines": "2026-09-27",
-    "the bony king of nowhere|like lovers do": "2026-09-27",
-    "mayorga|weekend lover": "2026-09-27",
-    "zita swoon|i feel alive in the city": "2026-09-27",
-    "jack johnson|good people": "2026-09-27",
-    "damien rice & lisa hannigan|9 crimes": "2026-09-27",
-    "spinvis|voor ik vergeet": "2026-09-27",
-    "the national|fake empire": "2026-09-27",
-    "half moon run|call me in the afternoon": "2026-09-27",
-    "deus|smokers reflect": "2026-09-27",
-    "elbow|golden slumbers": "2026-09-27",
-    "skinshape|i didn't know": "2026-09-27",
-    "elliott smith|waltz nø2": "2026-09-27",
-    "amen dunes|blue rose": "2026-09-27",
-    "lorde|what was that": "2026-09-27",
-    "whitney|giving up": "2026-09-27",
-    "first aid kit|my silver lining": "2026-09-27",
-    "balthazar|nightclub": "2026-09-27",
-    "the favors|the little mess you made": "2026-09-27",
-    "benjamin clementine|delighted": "2026-09-27",
-    "novastar|lost & blown away": "2026-09-27",
-    "angus & julia stone|down to the sea": "2026-09-27",
-    "lana del rey|video games": "2026-09-27",
-    "widowspeak|the jacket": "2026-09-27",
-    "lady wray|come on in": "2026-09-27",
-    "syml|carry no thing": "2026-09-27",
-    "maggie rogers|alaska": "2026-09-27",
-    "arcade fire|rebellion (lies)": "2026-09-27",
-    "hozier|nobody's soldier": "2026-09-27",
-    "ben howard|a boat to an island on the wall": "2026-09-27",
-    "matt berninger|no love": "2026-09-27",
-    "tamino|tummy": "2026-09-27",
-    "alabama shakes|don't wanna fight": "2026-09-27",
-    "khruangbin|hold me up (thank you)": "2026-09-27",
-    "old sea brigade|cigarette": "2026-09-27",
-    "sufjan stevens|should have known better": "2026-09-27",
-    "mac demarco|all of our yesterdays": "2026-09-27",
-    "royel otis|car": "2026-09-27",
-    "unknown mortal orchestra|hunnybee": "2026-09-27",
-    "rex orange county feat benny sings|loving is easy": "2026-09-27",
-    "london grammar|america": "2026-09-27",
-    "mac demarco|blue boy": "2026-09-27",
-    "kids with buns|waiting room": "2026-09-27",
-    "father john misty|real love baby": "2026-09-27",
-    "faces on tv|traveling blind": "2026-09-27",
-    "strand of oaks|weird ways": "2026-09-27",
-    "tame impala|solitude is bliss": "2026-09-27",
-    "suki waterhouse|on this love": "2026-09-27",
-    "charles bradley|ain't it a sin": "2026-09-27",
-    "this is lorelei|box for buddy, box for star": "2026-09-27",
-    "johnny flynn|wandering aengus": "2026-09-27",
-    "rhye|count to five": "2026-09-27",
-    "alt-j|taro": "2026-09-27",
-    "beirut|no no no": "2026-09-27",
-    "tom odell|heal": "2026-09-27",
-    "the marias|sienna": "2026-09-27",
-    "michael kiwanuka|home again": "2026-09-27",
-    "the radar station|the giant": "2026-09-27",
-    "coldplay|trouble": "2026-09-27",
-    "real estate|crime": "2026-09-27",
-    "sufjan stevens|mystery of love": "2026-09-27",
-    "sylvie kreusch|sweet love (coconut)": "2026-09-27",
-    "michael kiwanuka|love & hate": "2026-09-27",
-    "death cab for cutie|soul meets body": "2026-09-27",
-    "maggie rogers|never going home": "2026-09-27",
-    "sufjan stevens|love yourself": "2026-09-27",
-    "lady wray|guilty": "2026-09-27",
-    "kevin morby|this is a photograph": "2026-09-27",
-    "vampire weekend|capricorn": "2026-09-27",
-    "groove armada|my friend": "2026-09-27",
-    "the handsome family|far from any road": "2026-09-27",
-    "parcels|sorry": "2026-09-27",
-    "dominic fike|king of everything": "2026-09-27",
-    "sufjan stevens|chicago": "2026-09-27",
-    "suki waterhouse|dream woman": "2026-09-27",
-    "beach house|myth": "2026-09-27",
-    "tje|days exist": "2026-09-27",
-    "d4vd|here with me": "2026-09-27",
-    "the war on drugs|oceans of darkness": "2026-09-27",
-    "the shins|phantom limb": "2026-09-27",
-    "elbow|six words": "2026-09-27",
-    "london grammar|hey now": "2026-09-27",
-    "michael kiwanuka|bones": "2026-09-27",
-    "sam fender|seventeen going under": "2026-09-27",
-    "ry x|your love": "2026-09-27",
-    "sharon van etten|the end of the world": "2026-09-27",
-    "hozier|cherry wine": "2026-09-27",
-    "nick mulvey|fever to the form": "2026-09-27",
-    "the war on drugs|strangest thing": "2026-09-27",
-    "sylvie kreusch|girls": "2026-09-27",
-    "girl in red|confession": "2026-09-27",
-    "dressed like boys|healing": "2026-09-27",
-    "family of the year|hero": "2026-09-27",
-    "ciska ciska|biotope": "2026-09-27",
-    "bill callahan|too many birds": "2026-09-27",
-    "the beatles|now and then": "2026-09-27",
-    "novastar|closer to you": "2026-09-27",
-    "feist|how come you never go there": "2026-09-27",
-    "coldplay|day 'n' nite": "2026-09-27",
-    "feist|1234": "2026-09-27",
-    "mk.gee|rockman": "2026-09-27",
-    "mayer hawthorne|a long time": "2026-09-27",
-    "balthazar|do not claim them anymore": "2026-09-27",
-    "bwana|lonely happy": "2026-09-27",
-    "edward sharpe & the magnetic zeros|man on fire": "2026-09-27",
-    "sam de nef & camille camille|waving": "2026-09-27",
-    "gabriel rios|i'm gonna die tonight": "2026-09-27",
-    "blanco white|colder heavens": "2026-09-27",
-    "bluai|my kinda woman": "2026-09-27",
-    "paolo nutini|let me down easy": "2026-09-27",
-    "london grammar|kind of man": "2026-09-27",
-    "tash sultana|james dean": "2026-09-27",
-    "laura-mary carter|four letter words": "2026-09-27",
-    "clairo|bags": "2026-09-27",
-    "beirut|so many plans": "2026-09-27",
-    "the national|don't swallow the cap": "2026-09-27",
-    "wilco|how to fight loneliness": "2026-09-27",
-    "lord huron|looking back": "2026-09-27",
-    "eefje de visser|heimwee": "2026-09-27",
-    "julien baker & torres|sugar in the tank": "2026-09-27",
-    "bianca steck|old fashioned parade": "2026-09-27",
-    "leon bridges|river": "2026-09-27",
-    "beabadoobee|the perfect pair": "2026-09-27",
-    "fleet foxes|your protector": "2026-09-27",
-    "gabriel rios|gold": "2026-09-27",
-    "local natives|when am i gonna lose you": "2026-09-27",
-    "tom misch|old man": "2026-09-27",
-    "marble sounds|never leave my heart": "2026-09-27",
-    "deus|the real sugar": "2026-09-27",
-    "the anxiety (willow & tyler cole)|meet me at our spot": "2026-09-27",
-    "bon iver|holocene": "2026-09-27",
-    "sylvie kreusch|comic trip": "2026-09-27",
-    "lizzy mcalpine|pushing it down and praying": "2026-09-27",
-    "grentperez|folding chairs on the moon": "2026-09-27",
-    "olivia dean|time": "2026-09-27",
-    "cigarettes after sex|pistol": "2026-09-27",
-    "labrinth|jealous": "2026-09-27",
-    "blanco white|papillon": "2026-09-27",
-    "finneas|what they'll say about us": "2026-09-27",
-    "damien rice|delicate": "2026-09-27",
-    "camille camille|strawberry moon": "2026-09-27",
-    "big thief|love in mine": "2026-09-27",
-    "laufey|silver lining": "2026-09-27",
-    "coldplay|in my place": "2026-09-27",
-    "boygenius|afraid of heights": "2026-09-27",
-    "luke sital-singh|nothing stays the same": "2026-09-27",
-    "bear's den|laurel wreath": "2026-09-27",
-    "damien jurado|south": "2026-09-27",
-    "sam fender & holly humberstone|seventeen going under": "2026-09-27",
-    "alexandra savior|unforgivable": "2026-09-27",
-    "fleet foxes|mykonos": "2026-09-27",
-    "phoebe bridgers|so much wine": "2026-09-27",
-    "jan verstraeten|goodbye world": "2026-09-27",
-    "the veils|lavinia": "2026-09-27",
-    "eels|mistakes of my youth": "2026-09-27",
-    "ben howard|rookery": "2026-09-27",
-    "adrianne lenker|once a bunch": "2026-09-27",
-    "beach house|space song": "2026-09-27",
-    "justin vernon|hazelton": "2026-09-27",
-    "bon iver|calgary": "2026-09-27",
-    "selah sue|fade away": "2026-09-27",
-    "nick mulvey|meet me there": "2026-09-27",
-    "the last dinner party|sinner": "2026-09-27",
-    "tucker zimmerman feat big thief, twain & iji|burial at sea": "2026-09-27",
-    "adrianne lenker|anything": "2026-09-27",
-    "villagers|i want what i don't need": "2026-09-27",
-    "nathaniel rateliff|and it's still allright": "2026-09-27",
-    "pearl jam|just breathe": "2026-09-27",
-    "trixie whitley|salt": "2026-09-27",
-    "isbells|reunite": "2026-09-27",
-    "trixie whitley|high wire": "2026-09-27",
-    "the war on drugs|nothing to find": "2026-09-27",
-    "mitski|my love mine all mine": "2026-09-27",
-    "julien baker & torres|sylvia": "2026-09-27",
-    "mrcy|angels": "2026-09-27",
-    "clairo|sexy to someone": "2026-09-27",
-    "hozier|would that i": "2026-09-27",
-    "jessie ware|night light": "2026-09-27",
-    "gregory alan isakov|big black car": "2026-09-27",
-    "jordan rakei|talk talk talk": "2026-09-27",
-    "polica|dark star": "2026-09-27",
-    "porcelain id|vlaanderen": "2026-09-27",
-    "milo meskens|something to lose": "2026-09-27",
-    "nathaniel rateliff & the night sweats|you worry me": "2026-09-27",
-    "olivia dean|nice to each other": "2026-09-27",
-    "ben howard|what a day": "2026-09-27",
-    "bon iver|for emma": "2026-09-27",
-    "kevin morby|stop before i cry": "2026-09-27",
-    "damien rice|cannonball": "2026-09-27",
-    "leon bridges|that was yesterday": "2026-09-27",
-    "olivia dean|i've seen it": "2026-09-27",
-    "black pumas|more than a love song": "2026-09-27",
-    "lianne la havas|bittersweet": "2026-09-27",
-    "whitney|kansas": "2026-09-27",
-    "marble sounds|axolotl": "2026-09-27",
-    "half moon run|grow into love": "2026-09-27",
-    "olivia dean|let alone the one you love": "2026-09-27",
-    "phosphorescent|song for zula": "2026-09-27",
-    "sufjan stevens|javelin (to have and to hold)": "2026-09-27",
-    "the war on drugs|burning": "2026-09-27",
-    "warpaint|undertow": "2026-09-27",
-    "eels|sweet smile": "2026-09-27",
-    "maru maru|remedy": "2026-09-27",
-    "wilco|love is everywhere (beware)": "2026-09-27",
-    "kings of leon|beach side": "2026-09-27",
-    "lianne lahavas|is your love big enough?": "2026-09-27",
-    "king hannah feat sharon van etten|big swimmer": "2026-09-27",
-    "nathaniel rateliff|time stands": "2026-09-27",
-    "james blake|limit to your love": "2026-09-27",
-    "the slow show|hey lover": "2026-09-27",
-    "ben howard|life in the time": "2026-09-27",
-    "tame impala|cause i'm a man": "2026-09-27",
-    "horse jumper of love|wink": "2026-09-27",
-    "the smile|bending hectic": "2026-09-27",
-    "warpaint|champion": "2026-09-27",
-    "ethel cain|fuck me eyes": "2026-09-27",
-    "agnes obel|the curse": "2026-09-27",
-    "andy burrows|hometown": "2026-09-27",
-    "alex g|june guitar": "2026-09-27",
-    "lord huron|the night we met": "2026-09-27",
-    "lana del rey|mariners apartment complex": "2026-09-27",
-    "arctic monkeys|body paint": "2026-09-27",
-    "alt-j|matilda": "2026-09-27",
-    "role model|sally, when the wine runs out": "2026-09-27",
-    "froukje|we hebben de tijd": "2026-09-27",
-    "boygenius|cool about it": "2026-09-27",
-    "stephen sanchez|until i found you": "2026-09-27",
-    "deus|keep you close": "2026-09-27",
-    "k.zia|love is": "2026-09-27",
-    "het zesde metaal|ploegsteert": "2026-09-27",
-    "widowspeak|everything is simple": "2026-09-27",
-    "khruangbin|pon pon": "2026-09-27",
-    "meskerem mees|joe": "2026-09-27",
-    "arlo parks|eugene": "2026-09-27",
-    "novastar|mars needs woman": "2026-09-27",
-    "paolo nutini|acid eyes": "2026-09-27",
-    "regina spektor|samson": "2026-09-27",
-    "spinvis|icarus": "2026-09-27",
-    "the war on drugs|red eyes": "2026-09-27",
-    "lana del rey|chemtrails over the country club": "2026-09-27",
-    "neomi|skipping stone": "2026-09-27",
-    "eskobar & heather nova|someone": "2026-09-27",
-    "leon bridges|peaceful place": "2026-09-27",
-    "jack johnson|banana pancakes": "2026-09-27",
-    "dope lemon|miami baby": "2026-09-27",
-    "man-made sunshine|life's gonna kill you (if you let it)": "2026-09-27",
-    "paolo nutini|through the echoes": "2026-09-27",
-    "the flaming lips|waitin for a superman": "2026-09-27",
-    "beabadoobee|glue song": "2026-09-27",
-    "berre|break 'em all": "2026-09-27",
-    "royel otis|til the morning": "2026-09-27",
-    "erlend oye & la comitiva|lockdown blues": "2026-09-27",
-    "tom misch|watch me dance": "2026-09-27",
-    "absynthe minded|heaven knows": "2026-09-27",
-    "gabriel rios|police sounds": "2026-09-27",
-    "olivia dean|dive": "2026-09-27",
-    "holly humberstone|dive": "2026-09-27",
-    "balthazar|the oldest of sisters": "2026-09-27",
-    "frankie fame|aching of the times": "2026-09-27",
-    "lana del rey|tulsa jesus freak": "2026-09-27",
-    "sufjan stevens|sugar": "2026-09-27",
-    "warhaus|memory": "2026-09-27",
-    "king hannah|new york, let's do nothing": "2026-09-27",
-    "this is the kit|keep going": "2026-09-27",
-    "balthazar|i'm never gonna let you down again": "2026-09-27",
-    "the war on drugs|an ocean in between the waves": "2026-09-27",
-    "radical face|welcome home": "2026-09-27",
-    "alt-j|left hand free": "2026-09-27",
-    "arcade fire|the suburbs": "2026-09-27",
-    "beck|think i'm in love": "2026-09-27",
-    "frankie cosmos|vanity": "2026-09-27",
-    "lana del rey|young & beautiful": "2026-09-27",
-    "midlake|acts of man": "2026-09-27",
-    "kings of convenience|know-how": "2026-09-27",
-    "wilco|evicted": "2026-09-27",
-    "dressed like boys|stonewall riots forever": "2026-09-27",
-    "elbow|the seldom seen kid": "2026-09-27",
-    "avi buffalo|what's in it for?": "2026-09-27",
-    "paolo nutini|julianne": "2026-09-27",
-    "grizzly bear|yet again": "2026-09-27",
-    "tamino|the first disciple": "2026-09-27",
-    "michael kiwanuka|tell me a tale": "2026-09-27",
-    "aurora|runaway": "2026-09-27",
-    "whitney & waxahatchee|take me home, country roads": "2026-09-27",
-    "the radar station|house with no seasons": "2026-09-27",
-    "bear's den|auld wives": "2026-09-27",
-    "alice phoebe lou|better": "2026-09-27",
-    "whitney|memory": "2026-09-27",
-    "snow patrol|crack the shutters": "2026-09-27",
-    "balthazar|halfway": "2026-09-27",
-    "the paper kites feat julia stone|without your love": "2026-09-27",
-    "tamino feat mitski|sanctuary": "2026-09-27",
-    "hope sandoval & the warm inventions|drop": "2026-09-27",
-    "the bony king of nowhere|everybody knows": "2026-09-27",
-    "jose gonzalez|teardrop": "2026-09-27",
-    "selah sue|summertime": "2026-09-27",
-    "jamie xx feat romy|loud places": "2026-09-27",
-    "aurora|the flood": "2026-09-27",
-    "michael kiwanuka|the rest of me": "2026-09-27",
-    "king krule|border line": "2026-09-27",
-    "gabriels|blame": "2026-09-27",
-    "tamino|fascination": "2026-09-27",
-    "naive set|no relation": "2026-09-27",
-    "lana del rey|blue jeans": "2026-09-27",
-    "ise|remember?": "2026-09-27",
-    "james blake|like the end": "2026-09-27",
-    "coldplay|don't panic": "2026-09-27",
-    "audrey hobert|wet hair": "2026-09-27",
-    "zach bryan|pink skies": "2026-09-27",
-    "london grammar|non believer": "2026-09-27",
-    "uche yara|as i left the room": "2026-09-27",
-    "isbells|as long as it takes": "2026-09-27",
-    "tamino|you don't own me": "2026-09-27",
-    "rex orange county|keep it up": "2026-09-27",
-    "tom smith|life is for living": "2026-09-27",
-    "angus and julia stone|big jet plane": "2026-09-27",
-    "coldplay|god put a smile upon your face": "2026-09-27",
-    "milo meskens|if i don't want to live, do i die": "2026-09-27",
-    "trixie whitley|breathe you in my dreams": "2026-09-27",
-    "soldier's heart|african fire": "2026-09-27",
-    "michael kiwanuka|you ain't the problem": "2026-09-27",
-    "sylvie kreusch|cloud 9": "2026-09-27",
-    "portishead|sour times": "2026-09-27",
-    "eefje de visser|gloeien": "2026-09-27",
-    "julia jacklin feat faye webster|good guy": "2026-09-27",
-    "black sea dahu|in case i fall for you": "2026-09-27",
-    "taylor swift feat the national|coney island": "2026-09-27",
-    "isaac roux|white rose": "2026-09-27",
-    "arlo parks|too good": "2026-09-27",
-    "daniel caesar|let me go": "2026-09-27",
-    "phoebe bridgers|summers end": "2026-09-27",
-    "phoebe bridgers|that funny feeling": "2026-09-27",
-    "leif vollebekk|transatlantic flight": "2026-09-27",
-    "monsters of folk|dear god (sincerely mof)": "2026-09-27",
-    "taylor swift feat bon iver|exile": "2026-09-27",
-    "stephen sanchez|be more": "2026-09-27",
-    "tamino & angele|sunflower": "2026-09-27",
-    "m83|outro": "2026-09-27",
-    "fleet foxes|sunblind": "2026-09-27",
-    "dope lemon|streets of your town": "2026-09-27",
-    "deus|eternal woman": "2026-09-27",
-    "unknown mortal orchestra|so good at being in trouble": "2026-09-27",
-    "bon iver feat danielle haim|if only i could wait": "2026-09-27",
-    "broken glass heroes|baby don't worry": "2026-09-27",
-    "finneas|lotus eater": "2026-09-27",
-    "gregory alan isakov|liars": "2026-09-27",
-    "dean blunt & elias ronnenfelt|5": "2026-09-27",
-    "warhaus feat sylvie kreusch|popcorn": "2026-09-27",
-    "kings of convenience|misread": "2026-09-27",
-    "thee sacred souls|can i call you rose?": "2026-09-27",
-    "lisa hannigan|snow": "2026-09-27",
-    "cloudy-oh|sleep": "2026-09-27",
-    "the golden dregs|american airlines": "2026-09-27",
-    "douglas firs|shimmer & glow": "2026-09-27",
-    "still corners|static": "2026-09-27",
-    "novastar|can't stand losing you": "2026-09-27",
-    "this is lorelei|dancing in the club (mj lenderman version)": "2026-09-27",
-    "mooneye|black river": "2026-09-27",
-    "sufjan stevens|casimir pulaski day": "2026-09-27",
-    "bear's den|agape": "2026-09-27",
-    "jaguar jaguar|so long": "2026-09-27",
-    "jasper steverlinck|annabelle": "2026-09-27",
-    "whitney|no woman": "2026-09-27",
-    "patrick watson|love songs for robots": "2026-09-27",
-    "arcade fire|no cars go": "2026-09-27",
-    "tom odell|don't let me go": "2026-09-27",
-    "sampha|treasure": "2026-09-27",
-    "meskerem mees|astronaut": "2026-09-27",
-    "daughter|landfill": "2026-09-27",
-    "snow patrol|shut your eyes": "2026-09-27",
-    "hozier|de selby (part 2)": "2026-09-27",
-    "novastar|velvet blue sky": "2026-09-27",
-    "cameron winter|nausicaa (love will be revealed)": "2026-09-27",
-    "sioen|cruisin'": "2026-09-27",
-    "iskander moon|american dream": "2026-09-27",
-    "arlo parks|hope": "2026-09-27",
-    "elephant feat. meskerem mees|the morning": "2026-09-27",
-    "kings of leon|revelry": "2026-09-27",
-    "tiny ruins|me at the museum, you in the wintergardens": "2026-09-27",
-    "amy winehouse|back to black": "2026-09-27",
-    "maribou state feat andreya triana|all i need": "2026-09-27",
-    "elis floreen|carver": "2026-09-27",
-    "the walters|i love you so": "2026-09-27",
-    "hana vu|care": "2026-09-27",
-    "syml feat guy garvey|lost myself": "2026-09-27",
-    "wasia project|ur so pretty": "2026-09-27",
-    "balthazar|fifteen floors": "2026-09-27",
-    "feist|hiding out in the open": "2026-09-27",
-    "leon bridges & khruangbin|texas sun": "2026-09-27",
-    "big thief|velvet ring": "2026-09-27",
-    "hannah jadagu|warning sign": "2026-09-27",
-    "eddie vedder|society": "2026-09-27",
-    "julia jacklin|someday (triple j like a version)": "2026-09-27",
-    "trixie whitley|need your love": "2026-09-27",
-    "ane brun|all my tears": "2026-09-27",
-    "elbow|the bones of you": "2026-09-27",
-    "mitski|heaven": "2026-09-27",
-    "lianne la havas|green & gold": "2026-09-27",
-    "iskander moon|about you": "2026-09-27",
-    "sons of the east|into the sun": "2026-09-27",
-    "yonderboi|were you thinking of me?": "2026-09-27",
-    "tom rosenthal|little joys": "2026-09-27",
-    "girl in red|too much": "2026-09-27",
-    "royel otis|sofa king": "2026-09-27",
-    "mitski|heat lightning": "2026-09-27",
-    "balthazar|blood like wine": "2026-09-27",
-    "cigarettes after sex|k": "2026-09-27",
-    "het zesde metaal|geef mie nen dag": "2026-09-27",
-    "reinel bakole|swords": "2026-09-27",
-    "khruangbin|two fish and an elephant": "2026-09-27",
-    "dressed like boys|jaouad": "2026-09-27",
-    "admiral freebee|faithful to the night": "2026-09-27",
-    "sj hoffman ft. johannes genard|falling down": "2026-09-27",
-    "fleet foxes|helplessness blues": "2026-09-27",
-    "the lumineers|ophelia": "2026-09-27",
-    "the national|bloodbuzz ohio": "2026-09-27",
-    "maru maru|the conversation": "2026-09-27",
-    "sufjan stevens|a running start": "2026-09-27",
-    "mac demarco|still beating": "2026-09-27",
-    "my morning jacket|golden": "2026-09-27",
-    "david kushner|hero": "2026-09-27",
-    "lianne la havas|say a little prayer (live)": "2026-09-27",
-    "beirut|santa fe": "2026-09-27",
-    "balthazar|linger on": "2026-09-27",
-    "florence the machine|patricia": "2026-09-27",
-    "elbow|magnificent (she says)": "2026-09-27",
-    "billie eilish|chihiro": "2026-09-27",
-    "sylvie kreusch|walk walk": "2026-09-27",
-    "douglas firs|how can you know": "2026-09-27",
-    "men i trust|lauren": "2026-09-27",
-    "tobias jesso jr|how could you babe": "2026-09-27",
-    "isbells|dreamer": "2026-09-27",
-    "the national|i need my girl": "2026-09-27",
-    "strand of oaks|somewhere in chicago": "2026-09-27",
-    "emma hessels|insular": "2026-09-27",
-    "hiqpy|something": "2026-09-27",
-    "lucy dacus|bus back to richmond": "2026-09-27",
-    "mooneye|lover to stranger": "2026-09-27",
-    "the lemon twigs|in my head": "2026-09-27",
-    "novastar|mars needs woman (re-imagined)": "2026-09-27",
-    "smith & burrows|wonderful life": "2026-09-27",
-    "deus|nothing really ends": "2026-09-27",
-    "damien rice|the blower's daughter": "2026-09-27",
-    "japanese breakfast|orlando in love": "2026-09-27",
-    "the black keys|on the game": "2026-09-27",
-    "cameron winter|cancer of the skull": "2026-09-27",
-    "snow patrol|don't give in": "2026-09-27",
-    "phoebe bridgers|scott street": "2026-09-27",
-    "j.bernardt|don't get me wrong": "2026-09-27",
-    "big thief|simulation swarm": "2026-09-27",
-    "sharon van etten|seventeen": "2026-09-27",
-    "beach fossils|may 1st": "2026-09-27",
-    "balthazar|the boatman": "2026-09-27",
-    "father john misty|goodbye, mr. blue": "2026-09-27",
-    "maggie rogers|so sick of dreaming": "2026-09-27",
-    "wasia project|somebody come through": "2026-09-27",
-    "balthazar|then what": "2026-09-27",
-    "fleet foxes|white winter hymnal": "2026-09-27",
-    "damien rice|it takes a lot to know a man": "2026-09-27",
-    "gabriel rios|swing low": "2026-09-27",
-    "leon bridges|coming home": "2026-09-27",
-    "london grammar|what a day": "2026-09-27",
-    "mooneye|this thing": "2026-09-27",
-    "trixie whitley|closer": "2026-09-27",
-    "neomi|garden": "2026-09-27",
-    "sault|i just want to dance": "2026-09-27",
-    "future islands|seasons (waiting on you)": "2026-09-27",
-    "faces on tv|love/dead": "2026-09-27",
-    "maggie rogers|don't forget me": "2026-09-27",
-    "eels|that look you give that guy": "2026-09-27",
-    "tom odell|the end": "2026-09-27",
-    "balthazar|changes": "2026-09-27",
-    "waxahatchee feat mj lenderman|right back to it": "2026-09-27",
-    "bear's den|above the clouds of pompeii": "2026-09-27",
-    "tom odell|when i close my eyes": "2026-09-27",
-    "girl in red|we fell in love in october": "2026-09-27",
-    "beirut|gallipoli": "2026-09-27",
-    "sunday rose|our girls": "2026-09-27",
-    "adele|chasing pavements": "2026-09-27",
-    "noa lee|move backwards": "2026-09-27",
-    "phoebe bridgers|kyoto": "2026-09-27",
-    "joesef|the sun is up forever": "2026-09-27",
-    "the shins|simple song": "2026-09-27",
-    "coldplay|fix you": "2026-09-27",
-    "leith ross|(you) on my arm": "2026-09-27",
-    "bluai|not the one": "2026-09-27",
-    "wilsen|final": "2026-09-27",
-    "angelo de augustine|you needed love, i needed you": "2026-09-27",
-    "rex orange county|guitar song": "2026-09-27",
-    "novastar|light up my life": "2026-09-27",
-    "clear season|don't take too long": "2026-09-27",
-    "iskander moon|ghosts": "2026-09-27",
-    "the lumineers|asshole": "2026-09-27",
-    "hozier|work song": "2026-09-27",
-    "eddie vedder|the haves": "2026-09-27",
-    "christine and the queens|rentrer chez moi": "2026-09-27",
-    "death cab for cutie|i will follow you into the dark": "2026-09-27",
-    "james blake|godspeed": "2026-09-27",
-    "leon bridges|panther city": "2026-09-27",
-    "uwase|pedestal": "2026-09-27",
-    "future islands|peach": "2026-09-27",
-    "the broken circle breakdown bluegrass band|if i needed you": "2026-09-27",
-    "eddie vedder|rise": "2026-09-27",
-    "volcano choir|byegone": "2026-09-27",
-    "adele|i drink wine": "2026-09-27",
-    "teun|open water": "2026-09-27",
-    "michael kiwanuka feat tom misch|money": "2026-09-27",
-    "the staves|im on fire": "2026-09-27",
-    "nathaniel rateliff & the night sweats|face down in the moment": "2026-09-27",
-    "bluai|dime store": "2026-09-27",
-    "mac demarco|my kind of woman": "2026-09-27",
-    "noir desir|le vent nous portera": "2026-09-27",
-    "gabriel rios feat devendra banhart|la torre": "2026-09-27",
-    "mooneye|big enough": "2026-09-27",
-    "edward sharpe & the magnetic zeros|home": "2026-09-27",
-    "lana del rey|let me love you like a woman": "2026-09-27",
-    "tom rosenthal|its ok": "2026-09-27",
-    "deus|love breaks down": "2026-09-27",
-    "girl in red|i wanna be your girlfriend": "2026-09-27",
-    "broken glass heroes|let's not fall apart": "2026-09-27",
-    "big red machine feat taylor swift|birch": "2026-09-27",
-    "manchester orchestra|i know how to speak": "2026-09-27",
-    "radiohead|knives out": "2026-09-27",
-    "balthazar|hourglass": "2026-09-27",
-    "jack johnson|upside down": "2026-09-27",
-    "mooneye|girl like you": "2026-09-27",
-    "florence the machine|dream girl evil": "2026-09-27",
-    "london grammar|lose your head": "2026-09-27",
-    "ry x|let you go": "2026-09-27",
-    "the shadow machine|disengaged": "2026-09-27",
-    "intergalactic lovers|crushing": "2026-09-27",
-    "the tallest man on earth|i'm a stranger now": "2026-09-27",
-    "claud|overnight": "2026-09-27",
-    "adrianne lenker|ruined": "2026-09-27",
-    "jealous of the birds|dandelion": "2026-09-27",
-    "elbow|one day like this": "2026-09-27",
-    "novastar|because": "2026-09-27",
-    "phoebe bridgers|day after tomorrow": "2026-09-27",
-    "adrianne lenker|from": "2026-09-27",
-    "infinity song|metamorphosis": "2026-09-27",
-    "tom odell|best day of my life": "2026-09-27",
-    "novastar|the best is yet to come": "2026-09-27",
-    "wake owl|gold": "2026-09-27",
-    "first aid kit|emmylou": "2026-09-27",
-    "eefje de visser|vlammen": "2026-09-27",
-    "adrianne lenker|fool": "2026-09-27",
-    "allah las|raspberry jam": "2026-09-27",
-    "laura marling|a hard rains a-gonna fall": "2026-09-27",
-    "alt-j|nara": "2026-09-27",
-    "jfdr|my work": "2026-09-27",
-    "jose gonzalez|crosses": "2026-09-27",
-    "warhaus|open window": "2026-09-27",
-    "spinvis|bagagedrager": "2026-09-27",
-    "noel gallagher's high flying birds|easy now": "2026-09-27",
-    "tiny ruins|bird in the thyme": "2026-09-27",
-    "the war on drugs|thinking of a place": "2026-09-27",
-    "radiohead|jigsaw falling into place": "2026-09-27",
-    "london grammar|big picture": "2026-09-27",
-    "eddie vedder|long way": "2026-09-27",
-    "sufjan stevens & angelo de augustine|back to oz": "2026-09-27",
-    "cigarettes after sex|tejano blue": "2026-09-27",
-    "father john misty|mr. tillman": "2026-09-27",
-    "lianne la havas|hey, that's no way to say goodbye": "2026-09-27",
-    "band of horses|the funeral": "2026-09-27",
-    "kae tempest & lianne la havas|no prizes": "2026-09-27",
-    "daughter|candles": "2026-09-27",
-    "hozier|take me to church": "2026-09-27",
-    "eefje de visser|bitterzoet": "2026-09-27",
-    "iskander moon|saturday silence": "2026-09-27",
-    "sam amidon|maggie": "2026-09-27",
-    "james blake|retrograde": "2026-09-27",
-    "london grammar|strong": "2026-09-27",
-    "geese|au pays du cocaine": "2026-09-27",
-    "intergalactic lovers|lost": "2026-09-27",
-    "the national|day i die": "2026-09-27",
-    "philemon|how do you do": "2026-09-27",
-    "lana del rey|ultraviolence": "2026-09-27",
-    "london grammar|baby it's you": "2026-09-27",
-    "wednesday|elderberry wine": "2026-09-27",
-    "the slow show|bloodline": "2026-09-27",
-    "leif vollebekk|long blue light": "2026-09-27",
-    "eefje de visser|zwarte zon": "2026-09-27",
-    "isaac roux|lost in some dream": "2026-09-27",
-    "arcade fire|speaking in tongues": "2026-09-27",
-    "admiral freebee|digital blues": "2026-09-27",
-    "grian chatten|last time every time forever": "2026-09-27",
-    "bear's den|spiders": "2026-09-27",
-    "silversun pickups|lazy eye": "2026-09-27",
-    "big red machine|i won't run from it": "2026-09-27",
-    "ben howard|couldn't make it up": "2026-09-27",
-    "isaac roux|soaking skin": "2026-09-27",
-    "the national|anyone's ghost": "2026-09-27",
-    "manchester orchestra|the gold": "2026-09-27",
-    "loverman|differences aside": "2026-09-27",
-    "mj lenderman|she's leaving you": "2026-09-27",
-    "billie marten|cartoon people": "2026-09-27",
-    "soccer mommy|your dog": "2026-09-27",
-    "tash sultana|jungle": "2026-09-27",
-    "paolo nutini|one day": "2026-09-27",
-    "noel gallagher's high flying birds|dead to the world": "2026-09-27",
-    "phoebe bridgers|smoke signals": "2026-09-27",
-    "djo|end of beginning": "2026-09-27",
-    "xavier rudd|follow the sun": "2026-09-27",
-    "fleet foxes|lorelai": "2026-09-27",
-    "wilco|impossible germany": "2026-09-27",
-    "noonzy|buffalo": "2026-09-27",
-    "westerman|confirmation": "2026-09-27",
-    "florence the machine|stand by me": "2026-09-27",
-    "london grammar|nightcall": "2026-09-27",
-    "the bony king of nowhere|silent days": "2026-09-27",
-    "antony and the johnsons|you are my sister": "2026-09-27",
-    "teddy swims|lose control": "2026-09-27",
-    "nathaniel rateliff & the night sweats|what if i": "2026-09-27",
-    "emma hessels|always lost": "2026-09-27",
-    "royel otis|claw foot": "2026-09-27",
-    "berre|better off alone": "2026-09-27",
-    "warhaus|love's a stranger": "2026-09-27",
-    "michael stipe & big red machine|no time for love like now": "2026-09-27",
-    "paolo nutini|radio": "2026-09-27",
-    "fink|follow you down": "2026-09-27",
-    "eefje de visser|startschot": "2026-09-27",
-    "death cab for cutie|love song": "2026-09-27",
-    "villagers|nothing arrived": "2026-09-27",
-    "leon bridges|steam": "2026-09-27",
-    "boygenius & ye vagabonds|the parting glass": "2026-09-27",
-    "air|surfing on a rocket": "2026-09-27",
-    "paolo nutini|candy": "2026-09-27",
-    "cigarettes after sex|nothing's gonna hurt you baby": "2026-09-27",
-    "tom smith|lights of new york city": "2026-09-27",
-    "the weather station|tried to tell you": "2026-09-27",
-    "slowdive|alife": "2026-09-27",
-    "nick cave|cosmic dancer": "2026-09-27",
-    "big red machine feat fleet foxes & anais mitchell|phoenix": "2026-09-27",
-    "still woozy|all your life": "2026-09-27",
-    "edward sharpe & the magnetic zeros|better days": "2026-09-27",
-    "charles bradley|changes": "2026-09-27",
-    "gabriels|love and hate in a different time": "2026-09-27",
-    "faye webster|after the first kiss": "2026-09-27",
-    "radiohead|weird fishes / arpeggi": "2026-09-27",
-    "david kushner|dead man": "2026-09-27",
-    "tamino|indigo night": "2026-09-27",
-    "cordelia|little life": "2026-09-27",
-    "the tallest man on earth|love is all": "2026-09-27",
-    "teun|woman": "2026-09-27",
-    "snow patrol|open your eyes": "2026-09-27",
-    "the lumineers|salt and the sea": "2026-09-27",
-    "merci, mercy|into you": "2026-09-27",
-    "balthazar|bunker": "2026-09-27",
-    "damon albarn|mr. tembo": "2026-09-27",
-    "phoebe bridgers|chinese satellite (live from sound city)": "2026-09-27",
-    "eddie vedder|matter of time": "2026-09-27",
-    "suki waterhouse|my fun": "2026-09-27",
-    "beirut|nantes": "2026-09-27",
-    "bear's den|dew on the vine": "2026-09-27",
-    "boygenius|we're in love": "2026-09-27",
-    "bon iver|speyside": "2026-09-27",
-    "gabriels|one and only": "2026-09-27",
-    "sam fender & olivia dean|rein me in": "2026-09-27",
-    "cat power|stay": "2026-09-27",
-    "khruangbin|people everywhere (still alive)": "2026-09-27",
-    "saya gray|shell (of a man)": "2026-09-27",
-    "men i trust|carried away": "2026-09-27",
-    "lisa hannigan|fall": "2026-09-27",
-    "syml|howling": "2026-09-27",
-    "cigarettes after sex|baby blue movie": "2026-09-27",
-    "the tallest man on earth|the dreamer": "2026-09-27",
-    "big thief|los angeles": "2026-09-27",
-    "warpaint|billie holiday": "2026-09-27",
-    "big thief|shark smile": "2026-09-27",
-    "leon bridges|laredo": "2026-09-27",
-    "pinback|loro": "2026-09-27",
-    "birame|the worst parts of you": "2026-09-27",
-    "ray lamontagne|be here now": "2026-09-27",
-    "local natives|dark days": "2026-09-27",
-    "soccer mommy|circle the drain": "2026-09-27",
-    "indigo de souza|younger & dumber": "2026-09-27",
-    "alt-j|something good": "2026-09-27",
-    "meskerem mees|seasons shift": "2026-09-27",
-    "novastar & piet goddaer|never back down": "2026-09-27",
-    "beirut|postcards from italy": "2026-09-27",
-    "lana del rey|fuck it i love you": "2026-09-27",
-    "lennert coorevits & pieter van dessel|albatros": "2026-09-27",
-    "the bony king of nowhere|every road": "2026-09-27",
-    "elis floreen|avalanches": "2026-09-27",
-    "bon iver|8 (circle)": "2026-09-27",
-    "band of horses|no one's gonna love you": "2026-09-27",
-    "phoebe bridgers|nothing else matters": "2026-09-27",
-    "tindersticks|always a stranger": "2026-09-27",
-    "london grammar|oh woman, oh man": "2026-09-27",
-    "the paper kites|bloom": "2026-09-27",
-    "romy & sampha|i'm on your team": "2026-09-27",
-    "big red machine feat taylor swift|renegade": "2026-09-27",
-    "the whitest boy alive|1517": "2026-09-27",
-    "benson boone|beautiful things": "2026-09-27",
-    "nick cave & warren ellis|carnage": "2026-09-27",
-    "daughter|youth": "2026-09-27",
-    "wanthanee|only shadows remain": "2026-09-27",
-    "taylor swift feat florence the machine|florida!!!": "2026-09-27",
-    "phosphorescent|wolves": "2026-09-27",
-    "rachel chinouriri|little house": "2026-09-27",
-    "the war on drugs|under the pressure": "2026-09-27",
-    "bear's den|honest mistake": "2026-09-27",
-    "danny vera|oblivious desire": "2026-09-27",
-    "bon iver|faith": "2026-09-27",
-    "snow patrol|chasing cars": "2026-09-27",
-    "ben howard|the wolves": "2026-09-27",
-    "yot club|human nature": "2026-09-27",
-    "tamino|crocodile": "2026-09-27",
-    "billie marten|swing": "2026-09-27",
-    "nick mulvey|cucurucu": "2026-09-27",
-    "james vincent mcmorrow|we don't eat": "2026-09-27",
-    "kids with buns|1712": "2026-09-27",
-    "angus & julia stone|chateau": "2026-09-27",
-    "damien rice|i don't want to change you": "2026-09-27",
-    "abby sage|backwards directions": "2026-09-27",
-    "kids with buns|bad grades": "2026-09-27",
-    "eefje de visser|scheef": "2026-09-27",
-    "elias|bloomed > exploded": "2026-09-27",
-    "elbow|open arms": "2026-09-27",
-    "laufey|goddess": "2026-09-27",
-    "radical face|ghost towns": "2026-09-27",
-    "london grammar|wasting my young years": "2026-09-27",
-    "warhaus|machinery": "2026-09-27",
-    "japanese breakfast|mega circuit": "2026-09-27",
-    "absynthe minded|my heroics, part one": "2026-09-27",
-    "bolis pupul & salah pupul|ma tau wai road": "2026-09-27",
-    "mooneye|in between": "2026-09-27",
-    "het zesde metaal|dien blik": "2026-09-27",
-    "florence the machine|cosmic love": "2026-09-27",
-    "ben howard|nica libres at dusk": "2026-09-27",
-    "tamino|dissolve": "2026-09-27",
-    "big thief|not": "2026-09-27",
-    "curtis harding|i won't let you down": "2026-09-27",
-    "daniel norgren|moonshine got me": "2026-09-27",
-    "the flaming lips|do you realise": "2026-09-27",
-    "j.bernardt|taxi": "2026-09-27",
-    "foals|spanish sahara": "2026-09-27",
-    "arlo parks|softly": "2026-09-27",
-    "big thief|born for loving you": "2026-09-27",
-    "bon iver|hey, ma": "2026-09-27",
-    "s10|de diepte": "2026-09-27",
-    "whitney|strange overtones": "2026-09-27",
-    "absynthe minded|envoi": "2026-09-27",
-    "arctic monkeys|sculptures of anything goes": "2026-09-27",
-    "mac demarco|salad days": "2026-09-27",
-    "yves paquet|a decent man": "2026-09-27",
-    "kaleo|way down we go": "2026-09-27",
-    "hermanos gutierrez|barrio hustle": "2026-09-27",
-    "the lumineers|ho hey": "2026-09-27",
-    "andrew bird|sisyphus": "2026-09-27",
-    "mrcy|man": "2026-09-27",
-    "blanco white|el buho": "2026-09-27",
-    "jonathan jeremiah|happiness": "2026-09-27",
-    "lea sen|luv him (about u)": "2026-09-27",
-    "death cab for cutie|pepper": "2026-09-27",
-    "bon iver|skinny love": "2026-09-27",
-    "wilco|one sunday morning": "2026-09-27",
-    "sioen|no conspiracy at all": "2026-09-27",
-    "the war on drugs|change": "2026-09-27",
-    "elliott smith|angeles": "2026-09-27",
-    "mk.gee|are you looking up": "2026-09-27",
-    "cass mccombs|bum bum bum": "2026-09-27",
-    "the national|terrible love": "2026-09-27",
-    "eefje de visser|de parade": "2026-09-27",
-    "kingfishr|caroline": "2026-09-27",
-    "syml|where's my love": "2026-09-27",
-    "beirut|villa sacchetti": "2026-09-27",
-    "big thief|incomprehensible": "2026-09-27",
-    "phoebe bridgers|garden song": "2026-09-27",
-    "caroline feat caroline polachek|tell me i never knew that": "2026-09-27",
-    "portishead|glory box": "2026-09-27",
-    "marble sounds|the ever after": "2026-09-27",
-    "vance joy|riptide": "2026-09-27",
-    "novastar|home is not home": "2026-09-27",
-    "paolo nutini|iron sky": "2026-09-27",
-    "noah yorke|trying too hard (lullaby)": "2026-09-27",
-    "eels|my timing is off": "2026-09-27",
-    "hazel english|off my mind": "2026-09-27",
-    "pearl jam|wreckage": "2026-09-27",
-    "beach house|lemon glow": "2026-09-27",
-    "gigi perez|sailor song": "2026-09-27",
-    "lana del rey|ride": "2026-09-27",
-    "lizzy mcalpine|ceilings": "2026-09-27",
-    "the indien|sleep when i'm with you": "2026-09-27",
-    "neomi|so i let you (15th of june - evening)": "2026-09-27",
-    "lamb|gabriel": "2026-09-27",
-    "leon bridges & khruangbin|b-side": "2026-09-27",
-    "the marias|back to me": "2026-09-27",
-    "dressed like boys|nando": "2026-09-27",
-    "november ultra|novembre": "2026-09-27",
-    "hozier|too sweet": "2026-09-27",
-    "patrick watson|uh oh": "2026-09-27",
-    "beck|thinking about you": "2026-09-27",
-    "matt berninger|bonnet of pins": "2026-09-27",
-    "coldplay|the scientist": "2026-09-27",
-    "loverman|into the night": "2026-09-27",
-    "sam de nef|mother": "2026-09-27",
-    "strand of oaks|galacticana": "2026-09-27",
-    "luvcat|love and money": "2026-09-27",
-    "deus|1989": "2026-09-27",
-    "father john misty|total entertainment forever": "2026-09-27",
-    "dope lemon|marinade": "2026-09-27",
-    "grandbrothers|organism": "2026-09-27",
-    "sam fender|wild grey ocean": "2026-09-27",
-    "midlake|roscoe": "2026-09-27",
-    "ry x|yayaya": "2026-09-27",
-    "michael kiwanuka|i'll get along": "2026-09-27",
-    "olivia dean|ufo": "2026-09-27",
-    "big thief|paul": "2026-09-27",
-    "eefje de visser|onomkeerbaar": "2026-09-27",
-    "westerman|the line": "2026-09-27",
-    "the war on drugs|holding on": "2026-09-27",
-    "billie eilish|birds of a feather": "2026-09-27",
-    "michael kiwanuka|floating parade": "2026-09-27",
-    "metronomy|things will be fine": "2026-09-27",
-    "ben howard|sorry kid": "2026-09-27",
-    "the war on drugs|pain": "2026-09-27",
-    "big thief|vampire empire": "2026-09-27",
-    "jose gonzalez|crosses (bibio remix)": "2026-09-27",
-    "dominic fike & zendaya|elliot's song": "2026-09-27",
-    "rhye|open": "2026-09-27",
-    "villagers|everything i am is yours": "2026-09-27",
-    "ben howard|how are you feeling?": "2026-09-27",
-    "nick mulvey|begin again": "2026-09-27",
-    "air traffic|no more running away": "2026-09-27",
-    "school is cool|close": "2026-09-27",
-    "sampha|too much": "2026-09-27",
-    "mooneye|thinking about leaving": "2026-09-27",
-    "elbow|fugitive motel": "2026-09-27",
-    "luke sital-singh|greatest lovers": "2026-09-27",
-    "kids with buns|stubborn mind": "2026-09-27",
-    "the war on drugs|living proof": "2026-09-27",
-    "half moon run|full circle": "2026-09-27",
-    "beck|everybody's got to learn sometime": "2026-09-27",
-    "gregory porter|no love dying": "2026-09-27",
-    "paolo nutini|coming up easy": "2026-09-27",
-    "sylvie kreusch|belle": "2026-09-27",
-    "billie eilish|what was i made for?": "2026-09-27",
-    "pitou|angel": "2026-09-27",
-    "sampha|(no one knows me) like the piano": "2026-09-27",
-    "death cab for cutie|underneath the sycamore": "2026-09-27",
-    "lianne la havas|weird fishes": "2026-09-27",
-    "angus and julia stone|grizzly bear": "2026-09-27",
-    "the radar station|subtle science": "2026-09-27",
-    "sharon van etten|one day": "2026-09-27",
-    "mogwai|ritchie sacramento": "2026-09-27",
-    "nilufer yanya|call it love": "2026-09-27",
-    "warhaus|where the names are real": "2026-09-27",
-    "harrison storm|feeling you": "2026-09-27",
-    "edmund november|cold street light": "2026-09-27",
-    "daniel norgren|why may i not go out and climb the trees": "2026-09-27",
-    "dan auerbach|king of a one horse town": "2026-09-27",
-    "johnny cash|hurt": "2026-09-27",
-    "admiral freebee|on a day like this one": "2026-09-27",
-    "milo meskens|when she's around": "2026-09-27",
-    "feist|limit to your love": "2026-09-27",
-    "arcade fire|neighborhood #1 (tunnels)": "2026-09-27",
-    "complete mountain almanac|may": "2026-09-27",
-    "unknown mortal orchestra|multi-love": "2026-09-27",
-    "jasmine.4.t & phoebe bridgers|guy fawkes tesco dissociation": "2026-09-27",
-    "cigarettes after sex|stop waiting": "2026-09-27",
-    "waxahatchee|mud": "2026-09-27",
-    "ise|ik reis door de nacht (live)": "2026-09-27",
-    "sea (peoples)|vibeland": "2026-09-27",
-    "sam amidon|blue mountains": "2026-09-27",
-    "warhaus|kreusch": "2026-09-27",
-    "sufjan stevens|so you are tired": "2026-09-27",
-    "balthazar|wrong vibration": "2026-09-27",
-    "tamino|babylon": "2026-09-27",
-    "angus & julia stone|losing you": "2026-09-27",
-    "ben howard|rivers in your mouth": "2026-09-27",
-    "hooverphonic|vinegar & salt": "2026-09-27",
-    "kevin morby|gift horse": "2026-09-27",
-    "the whitest boy alive|golden cage": "2026-09-27",
-    "mooneye|fix the heater": "2026-09-27",
-    "tamino|cigar": "2026-09-27",
-    "michael kiwanuka|cold little heart": "2026-09-27",
-    "perfume genius feat aldous harding|no front teeth": "2026-09-27",
-    "ane brun|make you feel my love": "2026-09-27",
-    "whitney|back to the wind": "2026-09-27",
-    "beach house|ppp": "2026-09-27",
-    "coldplay|feelslikeimfallinginlove": "2026-09-27",
-    "xavier rudd|stuck": "2026-09-27",
-    "the national|mr. november": "2026-09-27",
-    "khruangbin|may ninth": "2026-09-27",
-    "syml|girl": "2026-09-27",
-    "men i trust|sugar": "2026-09-27",
-    "kings of convenience ft. feist|catholic country": "2026-09-27",
-    "the flaming lips|race for the prize": "2026-09-27",
-    "meskerem mees|where i'm from": "2026-09-27",
-    "the lumineers|charlie boy": "2026-09-27",
-    "steve gunn|vagabond": "2026-09-27",
-    "eels|rock hard times": "2026-09-27",
-    "michael kiwanuka|black man in a white world": "2026-09-27",
-    "isaac roux|autumn love": "2026-09-27",
-    "gabriels|angels & queens": "2026-09-27",
-    "u.s. girls|bless this mess": "2026-09-27",
-    "coldplay|green eyes": "2026-09-27",
-    "meskerem mees|the writer": "2026-09-27",
-    "big thief|certainty": "2026-09-27",
-    "marble sounds|leave a light on": "2026-09-27",
-    "berre|not going anywhere": "2026-09-27",
-    "rex orange county|threat": "2026-09-27",
-    "portishead|roads": "2026-09-27",
-    "moby|natural blues": "2026-09-27",
-    "mayer hawthorne|the walk": "2026-09-27",
-    "coldplay|yellow": "2026-09-27",
-    "lana del rey|take me home, country roads": "2026-09-27",
-    "amy winehouse|stronger than me": "2026-09-27",
-    "leon bridges|better man": "2026-09-27",
-    "declan mckenna|slipping through my fingers": "2026-09-27",
-    "novastar|your world": "2026-09-27",
-    "charles bradley|you put the flame on it": "2026-09-27",
-    "teddy swims|bad dreams": "2026-09-27",
-    "jordan rakei|bruises": "2026-09-27",
-    "geppetto and the whales|how we got here": "2026-09-27",
-    "sufjan stevens|the only thing": "2026-09-27",
-    "the smile|skrting on the surface": "2026-09-27",
-    "adele|someone like you": "2026-09-27",
-    "nathaniel rateliff|i am": "2026-09-27",
-    "tash sultana|notion": "2026-09-27",
-    "florence the machine|never let me go": "2026-09-27",
-    "eddie vedder|save it for later": "2026-09-27",
-    "the tallest man on earth|looking for love": "2026-09-27",
-    "maggie rogers|in the living room": "2026-09-27",
-    "mooneye feat meskerem mees|bright lights": "2026-09-27",
-    "kali uchis|telepatia": "2026-09-27",
-    "alex g|runner": "2026-09-27",
-    "jose gonzalez|heartbeats": "2026-09-27",
-    "jamie xx feat oliver sim|stranger in a room": "2026-09-27",
-    "beirut|elephant gun": "2026-09-27",
-    "bon iver|22 (over s??n)": "2026-09-27",
-    "kids with buns|how bad could it be": "2026-09-27",
-    "radiohead|pyramid song": "2026-09-27",
-    "mitski|bug like an angel": "2026-09-27",
-    "adele|turning tables": "2026-09-27",
-    "ry x|untold": "2026-09-27",
-    "sarah julia|mount fuji": "2026-09-27",
-    "ben howard|conrad": "2026-09-27",
-    "air|la femme d'argent": "2026-09-27",
-    "loaded honey|tokyo rain": "2026-09-27",
-    "eefje de visser|ongeveer": "2026-09-27",
-    "katie gregson-macleod|white lies": "2026-09-27",
-    "bluai & lara chedraoui|better, i swear": "2026-09-27",
-    "sharon van etten|leonard": "2026-09-27"
+  "programs_done": {
+    "Duyster": [
+      "2026-09-14",
+      "2026-09-21"
+    ],
+    "Vuurland": [
+      "2026-09-13",
+      "2026-09-20"
+    ]
   },
-  "duyster_last_pid": 830
+  "migrated_vuurland_program": true
 }
