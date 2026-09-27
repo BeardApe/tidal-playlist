@@ -1,6 +1,5 @@
-duyster_online https://duyster-online.be/playlist.php
-duyster_online_home https://duyster-online.be/
-orb_vuurland https://onlineradiobox.com/be/vuurland/playlist/?lang=en
-orb_radio1 https://onlineradiobox.com/be/radio1/playlist/?lang=en
-relisten_stubru https://www.relisten.be/playlists/studiobrussel
-vrtmax_duyster https://www.vrt.be/vrtmax/luister/radio/d/duyster~11-177/
+oor_stubru_2009 https://www.oorboekje.nl/Studio-Brussel/20-09-2026
+relisten_stubru_2009 https://www.relisten.be/playlists/studiobrussel/20-09-2026.html
+relisten_stubru_1309 https://www.relisten.be/playlists/studiobrussel/13-09-2026.html
+relisten_stubru_3105 https://www.relisten.be/playlists/studiobrussel/31-05-2026.html
+relisten_radio1_2109 https://www.relisten.be/playlists/radio1/21-09-2026.html
