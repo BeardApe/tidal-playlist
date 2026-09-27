@@ -226,7 +226,10 @@
       "date": "2026-03-12",
       "source": "WFUV-NYSlice2026"
     },
-    "the karminsky experience inc.|exploration": "2026-03-12",
+    "the karminsky experience inc.|exploration": {
+      "date": "2026-03-12",
+      "source": "LastFM~Massive Attack"
+    },
     "lézard|how does it feel?": {
       "date": "2026-03-12",
       "source": "Radio1-Wonderland"
@@ -6395,6 +6398,358 @@
     "wilco|casino queen": {
       "date": "2026-09-27",
       "source": "TheCurrent"
+    },
+    "aldous harding|fixture picture": {
+      "date": "2026-09-27",
+      "source": "LastFM~Beth Orton"
+    },
+    "zofka|une derniere fois": {
+      "date": "2026-09-27",
+      "source": "LastFM~Parov Stelar"
+    },
+    "zofka|parfum vanille": {
+      "date": "2026-09-27",
+      "source": "LastFM~Parov Stelar"
+    },
+    "ausecuma beats, mamadou dembélé, magou samb & kanazoé diabaté|foli yé [ft. gordon li, harry ling]": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "belle and sebastian|the party line": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "tame impala|end of summer": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "roxy music|oh yeah": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "romy and fred again|strong": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "bon iver|33 \"god\"": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "guillemots|southern winds": {
+      "date": "2026-09-27",
+      "source": "RadioParadise-Mellow"
+    },
+    "rae & christian feat. tania maria|vai viver a vida": {
+      "date": "2026-09-27",
+      "source": "SomaFM-Lush"
+    },
+    "greg freeman|indu": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "tori amos|a sorta fairytale": {
+      "date": "2026-09-27",
+      "source": "RadioParadise-Mellow"
+    },
+    "bonobo|drift": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "pj harvey|rid of me": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "benee|want me back": {
+      "date": "2026-09-27",
+      "source": "SomaFM-Lush"
+    },
+    "deyarmond edison|heroin(e)": {
+      "date": "2026-09-27",
+      "source": "LastFM~Volcano Choir"
+    },
+    "nirvana|love buzz": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "rené aubry|la grande cascade": {
+      "date": "2026-09-27",
+      "source": "RadioParadise-Mellow"
+    },
+    "manchester orchestra|stay home": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "kathleen edwards|when the truth comes out": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "olana & harvey sutherland|price of the house": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "kurt vile|zoom 97": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "soma sonic|memories (original)": {
+      "date": "2026-09-27",
+      "source": "LastFM~Parov Stelar"
+    },
+    "buck meek|can i mend it?": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "s. carey|move": {
+      "date": "2026-09-27",
+      "source": "LastFM~Volcano Choir"
+    },
+    "sarah fimm|walk away": {
+      "date": "2026-09-27",
+      "source": "SomaFM-Lush"
+    },
+    "chappell roan|pink pony club": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "zofka|dans la vie": {
+      "date": "2026-09-27",
+      "source": "LastFM~Parov Stelar"
+    },
+    "rip dunes|living in fear": {
+      "date": "2026-09-27",
+      "source": "WFUV-NYSlice2026"
+    },
+    "the heavy|what makes a good man?": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "the beths|straight line was a lie": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "shawn colvin|i don't know why": {
+      "date": "2026-09-27",
+      "source": "LastFM~Beth Orton"
+    },
+    "deyarmond edison|heart for hire": {
+      "date": "2026-09-27",
+      "source": "LastFM~Volcano Choir"
+    },
+    "lizzy mcalpine|ugly things": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "the smashing pumpkins|perfect": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "devendra banhart|baby": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "alabama shakes|american dream": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "s. carey|rothko fields": {
+      "date": "2026-09-27",
+      "source": "LastFM~Volcano Choir"
+    },
+    "julien baker & torres|sugar in the tank": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "metronomy|the bay": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "crosby & nash|lay me down": {
+      "date": "2026-09-27",
+      "source": "RadioParadise-Mellow"
+    },
+    "minru|will i ever find": {
+      "date": "2026-09-27",
+      "source": "SomaFM-Lush"
+    },
+    "ducky|mouths like sidewinder missles": {
+      "date": "2026-09-27",
+      "source": "SomaFM-Lush"
+    },
+    "shawn colvin|get out of this house": {
+      "date": "2026-09-27",
+      "source": "LastFM~Beth Orton"
+    },
+    "miaow|song": {
+      "date": "2026-09-27",
+      "source": "SomaFM-Lush"
+    },
+    "vika & linda|where do you come from?": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "juliet piper|follow the butterflies (ambient)": {
+      "date": "2026-09-27",
+      "source": "SomaFM-Lush"
+    },
+    "kings of leon|my whole world": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "rituals of mine|bad news": {
+      "date": "2026-09-27",
+      "source": "SomaFM-Lush"
+    },
+    "jack penate|spit at the stars": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "annie-rose maloney|hold me": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "coco|empty beach": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "mimi page|fight the tide": {
+      "date": "2026-09-27",
+      "source": "SomaFM-Lush"
+    },
+    "s. carey|in the dirt": {
+      "date": "2026-09-27",
+      "source": "LastFM~Volcano Choir"
+    },
+    "john lennon|#9 dream": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "navvi|close": {
+      "date": "2026-09-27",
+      "source": "SomaFM-Lush"
+    },
+    "angie mcmahon|untangling": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "michael kiwanuka|follow your dreams": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "aldous harding|tick tock": {
+      "date": "2026-09-27",
+      "source": "LastFM~Beth Orton"
+    },
+    "shawn colvin|the facts about jimmy": {
+      "date": "2026-09-27",
+      "source": "LastFM~Beth Orton"
+    },
+    "carmen rizzo|too rude f/ esthero (carmen rizzo-white diamond mix)": {
+      "date": "2026-09-27",
+      "source": "SomaFM-Lush"
+    },
+    "dianesthetic|zugzwang": {
+      "date": "2026-09-27",
+      "source": "SomaFM-Lush"
+    },
+    "porter wagoner & dolly parton|her and the car and the mobile home": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "frightened rabbit|swim until you can't see land": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "charlie parr|rooming house": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "lisa leblanc|whole lotta talkin'": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "imogen heap|goodnight and go": {
+      "date": "2026-09-27",
+      "source": "SomaFM-Lush"
+    },
+    "dma's|delete": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "the gnomes|magic man": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "band of horses|no one's gonna love you": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "deyarmond edison|dash": {
+      "date": "2026-09-27",
+      "source": "LastFM~Volcano Choir"
+    },
+    "candice lorrae|calling me": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "haim and bon iver|tie you down": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "kings of convenience|know-how": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "james|say something": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "michael kiwanuka|the rest of me": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "east journey|emu": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "alex klingle feat. linnea schossow|i run to you (bryan milton remix)": {
+      "date": "2026-09-27",
+      "source": "SomaFM-Lush"
+    },
+    "the war on drugs|thinking of a place": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "late night alumni|beautiful": {
+      "date": "2026-09-27",
+      "source": "SomaFM-Lush"
+    },
+    "beck|falling through my hands": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "dressed like boys|stonewall riots forever": {
+      "date": "2026-09-27",
+      "source": "Vuurland"
+    },
+    "luluc|rewarding melody": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "neighbourhood youth|overcrowded": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "gang of youths|in the wake of your leave": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "zero cult & niska fitz|overactive eyes": {
+      "date": "2026-09-27",
+      "source": "SomaFM-Lush"
+    },
+    "the avalanches|every single weekend feat. jamie xx": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
     }
   },
   "playlist_log": {
@@ -6679,30 +7034,6 @@
         "female vocalists"
       ]
     },
-    "547169487": {
-      "date": "2026-08-31",
-      "artist": "Martin Luke Brown",
-      "title": "highest high",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "my top songs",
-        "british",
-        "indie pop",
-        "singer songwriter"
-      ]
-    },
-    "534307311": {
-      "date": "2026-08-31",
-      "artist": "Kokoroko",
-      "title": "Da Du Dah (Onome Remix) [feat. Nyron Higor]",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "jazz",
-        "afrobeat",
-        "world",
-        "british"
-      ]
-    },
     "130664840": {
       "date": "2026-08-31",
       "artist": "Moses Sumney",
@@ -6723,15 +7054,6 @@
         "alternative",
         "singer songwriter",
         "rock"
-      ]
-    },
-    "545389923": {
-      "date": "2026-08-31",
-      "artist": "Bajune Tobeta",
-      "title": "Mas Que Nada",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "shibuya-kei"
       ]
     },
     "487605123": {
@@ -6763,15 +7085,6 @@
       "genres": [
         "dream pop",
         "shoegaze"
-      ]
-    },
-    "550189045": {
-      "date": "2026-08-31",
-      "artist": "Current Joys",
-      "title": "HOLE",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "lo-fi indie"
       ]
     },
     "63015555": {
@@ -6826,17 +7139,6 @@
       "title": "She Only Loves You (In The Summertime)",
       "source": "Radio1-Top30",
       "genres": []
-    },
-    "518825085": {
-      "date": "2026-08-31",
-      "artist": "Lambchop",
-      "title": "The New World Wave",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "alt country",
-        "baroque pop",
-        "americana"
-      ]
     },
     "93952542": {
       "date": "2026-08-31",
@@ -6999,17 +7301,6 @@
         "indie folk"
       ]
     },
-    "552261868": {
-      "date": "2026-09-07",
-      "artist": "Surprise Chef",
-      "title": "Leg Day",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "indie jazz",
-        "jazz funk",
-        "jazz house"
-      ]
-    },
     "537194260": {
       "date": "2026-09-07",
       "artist": "Jim Wolf",
@@ -7085,15 +7376,6 @@
         "indie folk"
       ]
     },
-    "547913162": {
-      "date": "2026-09-07",
-      "artist": "Iron & Wine",
-      "title": "California Sober",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "indie folk"
-      ]
-    },
     "493937269": {
       "date": "2026-09-07",
       "artist": "Bat for Lashes",
@@ -7115,13 +7397,6 @@
         "folk pop"
       ]
     },
-    "543973119": {
-      "date": "2026-09-07",
-      "artist": "Thavoron",
-      "title": "Blurry tattoos",
-      "source": "KEXP-NewThisWeek",
-      "genres": []
-    },
     "32964616": {
       "date": "2026-09-07",
       "artist": "Soma Sonic",
@@ -7132,16 +7407,6 @@
         "downtempo"
       ]
     },
-    "551660401": {
-      "date": "2026-09-07",
-      "artist": "Brittany Davis",
-      "title": "Behind The Door - Single Edit",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "soul jazz",
-        "soul blues"
-      ]
-    },
     "101125271": {
       "date": "2026-09-07",
       "artist": "Ben Howard",
@@ -7150,18 +7415,6 @@
       "genres": [
         "indie folk",
         "folk pop"
-      ]
-    },
-    "543702520": {
-      "date": "2026-09-07",
-      "artist": "Dead Gowns",
-      "title": "Vegas Dream",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "folk",
-        "indie",
-        "singer songwriter",
-        "usa"
       ]
     },
     "153858106": {
@@ -7195,28 +7448,6 @@
         "indie folk"
       ]
     },
-    "549973896": {
-      "date": "2026-09-07",
-      "artist": "Jordan Rakei",
-      "title": "Promise",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "indie soul",
-        "neo soul"
-      ]
-    },
-    "543135225": {
-      "date": "2026-09-07",
-      "artist": "Rodrigo y Gabriela",
-      "title": "Akatsuki",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "acoustic",
-        "instrumental",
-        "guitar",
-        "flamenco"
-      ]
-    },
     "530227791": {
       "date": "2026-09-07",
       "artist": "Stephanie Babirak",
@@ -7245,18 +7476,6 @@
         "indie folk"
       ]
     },
-    "549729853": {
-      "date": "2026-09-07",
-      "artist": "UCHE YARA",
-      "title": "DIVA CLUB",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "german",
-        "indie",
-        "austria",
-        "alternative"
-      ]
-    },
     "49793797": {
       "date": "2026-09-07",
       "artist": "Cat Power",
@@ -7276,28 +7495,6 @@
         "indie folk"
       ]
     },
-    "530876877": {
-      "date": "2026-09-14",
-      "artist": "Kareen Lomax",
-      "title": "WARFARE",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "alt rnb",
-        "rnb"
-      ]
-    },
-    "545912267": {
-      "date": "2026-09-14",
-      "artist": "Cruel Santino",
-      "title": "Oz. (feat. Jeriq)",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "alté",
-        "afrobeats",
-        "afroswing",
-        "afrobeat"
-      ]
-    },
     "3203262": {
       "date": "2026-09-14",
       "artist": "Aimee Mann",
@@ -7308,15 +7505,6 @@
         "singer songwriter",
         "indie",
         "alternative"
-      ]
-    },
-    "554270353": {
-      "date": "2026-09-14",
-      "artist": "Nouvelle Vague",
-      "title": "Only When I Lose Myself",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "lounge"
       ]
     },
     "185038845": {
@@ -7331,13 +7519,6 @@
         "norwegian"
       ]
     },
-    "550969854": {
-      "date": "2026-09-14",
-      "artist": "Billboard Style",
-      "title": "Meloxicam",
-      "source": "KEXP-NewThisWeek",
-      "genres": []
-    },
     "185038853": {
       "date": "2026-09-14",
       "artist": "The Whitest Boy Alive",
@@ -7350,15 +7531,6 @@
         "norwegian"
       ]
     },
-    "519841314": {
-      "date": "2026-09-14",
-      "artist": "Blind Yeo",
-      "title": "Memory to the soil",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "neo-psychedelic"
-      ]
-    },
     "66422918": {
       "date": "2026-09-14",
       "artist": "Turin Brakes",
@@ -7369,18 +7541,6 @@
         "acoustic",
         "alternative",
         "indie rock"
-      ]
-    },
-    "555771877": {
-      "date": "2026-09-14",
-      "artist": "Girl Ultra",
-      "title": "Te Caigo",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "latin indie",
-        "latin r&b",
-        "mexican indie",
-        "latin alternative"
       ]
     },
     "247299722": {
@@ -7407,15 +7567,6 @@
         "alternative"
       ]
     },
-    "536536767": {
-      "date": "2026-09-14",
-      "artist": "Logic1000",
-      "title": "The Only One (feat. Christine and the Queens)",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "lo-fi house"
-      ]
-    },
     "32131514": {
       "date": "2026-09-14",
       "artist": "Meitz",
@@ -7425,29 +7576,6 @@
         "nu jazz",
         "lounge",
         "nu jazz",
-        "jazz"
-      ]
-    },
-    "547845148": {
-      "date": "2026-09-14",
-      "artist": "Odd Beholder",
-      "title": "Thank You For Shopping With Us",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "dream pop",
-        "swiss",
-        "female vocalist",
-        "shoegaze"
-      ]
-    },
-    "541969981": {
-      "date": "2026-09-14",
-      "artist": "Moses Boyd",
-      "title": "Criticise",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "nu jazz",
-        "indie jazz",
         "jazz"
       ]
     },
@@ -7461,15 +7589,6 @@
         "acoustic",
         "alternative",
         "indie rock"
-      ]
-    },
-    "551752104": {
-      "date": "2026-09-14",
-      "artist": "Aaron Frazer",
-      "title": "Paint The Picture",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "retro soul"
       ]
     },
     "7841112": {
@@ -7503,35 +7622,6 @@
         "jazz"
       ]
     },
-    "550107892": {
-      "date": "2026-09-14",
-      "artist": "Soft Science",
-      "title": "Spinning",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "shoegaze",
-        "jangle pop",
-        "dream pop"
-      ]
-    },
-    "548794347": {
-      "date": "2026-09-14",
-      "artist": "St. Yuma",
-      "title": "Alone the Walrus",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "indie folk"
-      ]
-    },
-    "526239936": {
-      "date": "2026-09-14",
-      "artist": "Handycam",
-      "title": "泰克十一 Take 11",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "chinese indie"
-      ]
-    },
     "547190698": {
       "date": "2026-09-14",
       "artist": "Alabama Shakes",
@@ -7554,25 +7644,6 @@
         "electronic",
         "indie pop",
         "norwegian"
-      ]
-    },
-    "521706141": {
-      "date": "2026-09-14",
-      "artist": "Virg",
-      "title": "Thisworldisyours",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "indie pop",
-        "pop"
-      ]
-    },
-    "536813060": {
-      "date": "2026-09-14",
-      "artist": "Abbie Ozard",
-      "title": "Backbone",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "lo-fi indie"
       ]
     },
     "184854089": {
@@ -7613,13 +7684,6 @@
       "artist": "Dylan Pham",
       "title": "Idols",
       "source": "WFUV-NYSlice2026",
-      "genres": []
-    },
-    "545956261": {
-      "date": "2026-09-14",
-      "artist": "Aurora Ave.",
-      "title": "SWEET TREAT",
-      "source": "KEXP-NewThisWeek",
       "genres": []
     },
     "7841116": {
@@ -7686,13 +7750,6 @@
         "indie"
       ]
     },
-    "551592479": {
-      "date": "2026-09-18",
-      "artist": "kid on air",
-      "title": "70s vocals",
-      "source": "KEXP-NewThisWeek",
-      "genres": []
-    },
     "514902070": {
       "date": "2026-09-18",
       "artist": "Father John Misty",
@@ -7717,46 +7774,6 @@
         "soul jazz"
       ]
     },
-    "526023933": {
-      "date": "2026-09-18",
-      "artist": "FKJ",
-      "title": "I Want U",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "electronic",
-        "funk",
-        "downtempo",
-        "nu jazz"
-      ]
-    },
-    "554507213": {
-      "date": "2026-09-18",
-      "artist": "AZ Chike",
-      "title": "Look Like My Mama",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "hyphy"
-      ]
-    },
-    "558321533": {
-      "date": "2026-09-18",
-      "artist": "Valerie June",
-      "title": "I'll Fly Away",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "folk",
-        "americana"
-      ]
-    },
-    "552416637": {
-      "date": "2026-09-18",
-      "artist": "Shygirl",
-      "title": "Lucky[Hymn]",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "hyperpop"
-      ]
-    },
     "27009895": {
       "date": "2026-09-18",
       "artist": "The Tallest Man on Earth",
@@ -7765,15 +7782,6 @@
       "genres": [
         "indie folk",
         "folk"
-      ]
-    },
-    "559192058": {
-      "date": "2026-09-18",
-      "artist": "The Avalanches",
-      "title": "Far Away (feat. John Glacier & Khadija Al Hanafi)",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "plunderphonics"
       ]
     },
     "17869928": {
@@ -7847,15 +7855,6 @@
         "arabic",
         "libyan",
         "lybia"
-      ]
-    },
-    "541845649": {
-      "date": "2026-09-18",
-      "artist": "Gracinha Leporace",
-      "title": "Mas Que Nada",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "sergio mendes"
       ]
     },
     "27009894": {
@@ -7938,18 +7937,6 @@
         "neo soul",
         "alternative r&b",
         "uk r&b"
-      ]
-    },
-    "547171567": {
-      "date": "2026-09-18",
-      "artist": "LEENALCHI",
-      "title": "Tiger Is Coming",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "south korea",
-        "pansori",
-        "indie pop",
-        "experimental"
       ]
     },
     "17433737": {
@@ -8065,28 +8052,6 @@
         "vocal jazz"
       ]
     },
-    "549813990": {
-      "date": "2026-09-18",
-      "artist": "bad tuner",
-      "title": "dissolve",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "dance",
-        "electronic",
-        "american",
-        "electropop"
-      ]
-    },
-    "533054955": {
-      "date": "2026-09-18",
-      "artist": "Hannah Cole",
-      "title": "MMA",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "indie",
-        "usa"
-      ]
-    },
     "25053966": {
       "date": "2026-09-18",
       "artist": "The Tallest Man on Earth",
@@ -8095,15 +8060,6 @@
       "genres": [
         "indie folk",
         "folk"
-      ]
-    },
-    "552321542": {
-      "date": "2026-09-18",
-      "artist": "Growing Pains",
-      "title": "Bottle Rocket",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "midwest emo"
       ]
     },
     "270386412": {
@@ -8140,15 +8096,6 @@
         "indie pop",
         "pop",
         "singer songwriter"
-      ]
-    },
-    "552044473": {
-      "date": "2026-09-18",
-      "artist": "Fat Dog",
-      "title": "Call It What You Want",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "new rave"
       ]
     },
     "528356135": {
@@ -8250,18 +8197,6 @@
         "rock"
       ]
     },
-    "556379877": {
-      "date": "2026-09-18",
-      "artist": "49th & Main",
-      "title": "Through The Rain",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "house",
-        "electronic",
-        "dance",
-        "electropop"
-      ]
-    },
     "101125048": {
       "date": "2026-09-18",
       "artist": "Ben Howard",
@@ -8341,16 +8276,6 @@
         "uk r&b"
       ]
     },
-    "556818088": {
-      "date": "2026-09-18",
-      "artist": "Arab Strap",
-      "title": "Basic Physics",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "slowcore",
-        "spoken word"
-      ]
-    },
     "277752963": {
       "date": "2026-09-18",
       "artist": "Camille Bertault",
@@ -8404,18 +8329,6 @@
         "downtempo"
       ]
     },
-    "540953507": {
-      "date": "2026-09-20",
-      "artist": "Lost in Lona",
-      "title": "Now I Feel It",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "indie pop",
-        "folk",
-        "switzerland",
-        "basel"
-      ]
-    },
     "156379457": {
       "date": "2026-09-20",
       "artist": "Buck Meek",
@@ -8464,15 +8377,6 @@
         "indie rock"
       ]
     },
-    "528694054": {
-      "date": "2026-09-20",
-      "artist": "Vanishing Twin",
-      "title": "Oral Tradition",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "neo-psychedelic"
-      ]
-    },
     "287303007": {
       "date": "2026-09-20",
       "artist": "Kieran Hebden",
@@ -8490,15 +8394,6 @@
       "genres": [
         "latin alternative",
         "mexican indie"
-      ]
-    },
-    "542738172": {
-      "date": "2026-09-20",
-      "artist": "Baths",
-      "title": "Wrecker",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "chillwave"
       ]
     },
     "529769755": {
@@ -8569,17 +8464,6 @@
         "indie rock"
       ]
     },
-    "544108462": {
-      "date": "2026-09-20",
-      "artist": "Omasta",
-      "title": "In Your Face",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "nu jazz",
-        "experimental jazz",
-        "jazz"
-      ]
-    },
     "548907836": {
       "date": "2026-09-20",
       "artist": "Dressed Like Boys",
@@ -8590,15 +8474,6 @@
         "indie",
         "singer songwriter",
         "indie rock"
-      ]
-    },
-    "551506002": {
-      "date": "2026-09-20",
-      "artist": "CAPYAC",
-      "title": "\"Big CrUsh En3rgY\"",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "nu disco"
       ]
     },
     "282058627": {
@@ -8621,15 +8496,6 @@
         "rock",
         "boogie",
         "americana"
-      ]
-    },
-    "534485379": {
-      "date": "2026-09-20",
-      "artist": "Thandii",
-      "title": "My Angel",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "indie jazz"
       ]
     },
     "542734708": {
@@ -8746,25 +8612,6 @@
         "indie"
       ]
     },
-    "557600039": {
-      "date": "2026-09-20",
-      "artist": "Valerie June",
-      "title": "Trouble In Mind",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "folk",
-        "americana"
-      ]
-    },
-    "543996382": {
-      "date": "2026-09-20",
-      "artist": "Ibibio Sound Machine",
-      "title": "Chopping Mountain",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "afrobeat"
-      ]
-    },
     "435559": {
       "date": "2026-09-20",
       "artist": "Flunk",
@@ -8834,15 +8681,6 @@
         "americana"
       ]
     },
-    "550779067": {
-      "date": "2026-09-20",
-      "artist": "The Youth Play",
-      "title": "CDMX",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "shoegaze"
-      ]
-    },
     "102307874": {
       "date": "2026-09-20",
       "artist": "Buck Meek",
@@ -8886,37 +8724,6 @@
         "downtempo"
       ]
     },
-    "532092082": {
-      "date": "2026-09-20",
-      "artist": "Bonobo",
-      "title": "Talk to Me",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "trip hop",
-        "downtempo",
-        "nu jazz",
-        "electronic"
-      ]
-    },
-    "534691549": {
-      "date": "2026-09-21",
-      "artist": "Porcelain Tongue",
-      "title": "Understanding Time",
-      "source": "KEXP-NewThisWeek",
-      "genres": []
-    },
-    "553297428": {
-      "date": "2026-09-21",
-      "artist": "Lucy Dacus",
-      "title": "No Thank You, I Love You, Goodbye",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "indie",
-        "indie rock",
-        "folk",
-        "singer songwriter"
-      ]
-    },
     "13778922": {
       "date": "2026-09-21",
       "artist": "James Vincent McMorrow",
@@ -8939,13 +8746,6 @@
         "dream pop"
       ]
     },
-    "527142985": {
-      "date": "2026-09-21",
-      "artist": "Jaime Rosso",
-      "title": "Walk",
-      "source": "KEXP-NewThisWeek",
-      "genres": []
-    },
     "535911435": {
       "date": "2026-09-21",
       "artist": "megiapa",
@@ -8964,25 +8764,6 @@
         "shoegaze",
         "dream pop",
         "slowcore"
-      ]
-    },
-    "548944565": {
-      "date": "2026-09-21",
-      "artist": "Menahan Street Band",
-      "title": "Palace of Illusions",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "retro soul"
-      ]
-    },
-    "528473310": {
-      "date": "2026-09-21",
-      "artist": "The Tubs",
-      "title": "Who's Gonna Love You Now?",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "jangle pop",
-        "power pop"
       ]
     },
     "2204870": {
@@ -9016,17 +8797,6 @@
         "folk",
         "british",
         "acoustic"
-      ]
-    },
-    "437327384": {
-      "date": "2026-09-21",
-      "artist": "Original Koffee",
-      "title": "OVA SO",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "dancehall",
-        "afrobeats",
-        "reggae"
       ]
     },
     "554024753": {
@@ -9068,18 +8838,6 @@
         "shoegaze",
         "dream pop",
         "slowcore"
-      ]
-    },
-    "556256755": {
-      "date": "2026-09-21",
-      "artist": "Liana Flores",
-      "title": "Silvershoes",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "indie pop",
-        "singer songwriter",
-        "folk pop",
-        "bossa nova"
       ]
     },
     "74070550": {
@@ -9193,16 +8951,6 @@
         "indie"
       ]
     },
-    "553444864": {
-      "date": "2026-09-21",
-      "artist": "The Black Tones",
-      "title": "Bombs",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "riot grrrl",
-        "queercore"
-      ]
-    },
     "546904105": {
       "date": "2026-09-21",
       "artist": "Helen",
@@ -9235,15 +8983,6 @@
         "singer songwriter",
         "indie",
         "irish"
-      ]
-    },
-    "556277286": {
-      "date": "2026-09-21",
-      "artist": "Muireann Bradley",
-      "title": "Dancing On My Grave",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "country blues"
       ]
     },
     "9017643": {
@@ -9393,17 +9132,6 @@
         "indie rock"
       ]
     },
-    "549665109": {
-      "date": "2026-09-27",
-      "artist": "Midpak",
-      "title": "Stampede",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "funk",
-        "instrumental",
-        "psych funk"
-      ]
-    },
     "543440648": {
       "date": "2026-09-27",
       "artist": "St. Paul & The Broken Bones",
@@ -9452,16 +9180,6 @@
         "indie rock"
       ]
     },
-    "550834991": {
-      "date": "2026-09-27",
-      "artist": "My Morning Jacket",
-      "title": "Like A Hurricane",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "jam band",
-        "alt country"
-      ]
-    },
     "265348115": {
       "date": "2026-09-27",
       "artist": "Courtney Barnett",
@@ -9492,26 +9210,6 @@
         "neofolk",
         "traditional folk",
         "folk"
-      ]
-    },
-    "555949896": {
-      "date": "2026-09-27",
-      "artist": "Spiral XP",
-      "title": "Blue Earth",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "shoegaze"
-      ]
-    },
-    "552080160": {
-      "date": "2026-09-27",
-      "artist": "GIFT",
-      "title": "Hand To The Flame",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "neo-psychedelic",
-        "indie dance",
-        "shoegaze"
       ]
     },
     "334913353": {
@@ -9611,13 +9309,6 @@
         "neoclassical"
       ]
     },
-    "557688221": {
-      "date": "2026-09-27",
-      "artist": "Russian Blue",
-      "title": "Already Dead",
-      "source": "KEXP-NewThisWeek",
-      "genres": []
-    },
     "334913339": {
       "date": "2026-09-27",
       "artist": "Junip",
@@ -9646,15 +9337,6 @@
         "neo soul",
         "alternative r&b",
         "uk r&b"
-      ]
-    },
-    "545071518": {
-      "date": "2026-09-27",
-      "artist": "mildred",
-      "title": "Bird Laugh",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "alt country"
       ]
     },
     "266746428": {
@@ -9727,15 +9409,6 @@
         "slowcore"
       ]
     },
-    "555097040": {
-      "date": "2026-09-27",
-      "artist": "Imperial Teen",
-      "title": "Hands All Up",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "queercore"
-      ]
-    },
     "88492525": {
       "date": "2026-09-27",
       "artist": "Bonnie 'Prince' Billy",
@@ -9755,16 +9428,6 @@
       "source": "LastFM~Jose Gonzalez",
       "genres": [
         "indie folk"
-      ]
-    },
-    "544027605": {
-      "date": "2026-09-27",
-      "artist": "The Winston Brothers",
-      "title": "Get On Down",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "funk",
-        "switzerland"
       ]
     },
     "528449544": {
@@ -9846,13 +9509,6 @@
         "pop soul"
       ]
     },
-    "532687708": {
-      "date": "2026-09-27",
-      "artist": "viragezero",
-      "title": "Rien ne vient",
-      "source": "KEXP-NewThisWeek",
-      "genres": []
-    },
     "61688284": {
       "date": "2026-09-27",
       "artist": "The New Year",
@@ -9872,15 +9528,6 @@
         "experimental"
       ]
     },
-    "549245965": {
-      "date": "2026-09-27",
-      "artist": "Now Always Fades",
-      "title": "Faithless",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "trip hop"
-      ]
-    },
     "157089243": {
       "date": "2026-09-27",
       "artist": "This Is The Kit",
@@ -9891,18 +9538,6 @@
         "singer songwriter",
         "female vocalists",
         "indie"
-      ]
-    },
-    "535577396": {
-      "date": "2026-09-27",
-      "artist": "Empress Of",
-      "title": "Blue Light (feat. Blood Orange)",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "synthpop",
-        "dream pop",
-        "electropop",
-        "art pop"
       ]
     },
     "563297636": {
@@ -9921,16 +9556,6 @@
       "source": "Duyster",
       "genres": [
         "5432fun"
-      ]
-    },
-    "547976431": {
-      "date": "2026-09-27",
-      "artist": "Linka Moja",
-      "title": "HIT&RUN",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "indie",
-        "usa"
       ]
     },
     "550858418": {
@@ -9974,17 +9599,6 @@
       "genres": [
         "alt country",
         "anti-folk"
-      ]
-    },
-    "547261356": {
-      "date": "2026-09-27",
-      "artist": "O Slow",
-      "title": "Times are hard for dreamers",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "dream pop",
-        "shoegaze",
-        "art pop"
       ]
     },
     "468939754": {
@@ -10063,18 +9677,6 @@
         "indie folk"
       ]
     },
-    "555088321": {
-      "date": "2026-09-27",
-      "artist": "Yukimi",
-      "title": "Vann du livet?",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "indie",
-        "electronic",
-        "rnb",
-        "swedish"
-      ]
-    },
     "526613317": {
       "date": "2026-09-27",
       "artist": "Roomer",
@@ -10137,13 +9739,6 @@
         "british",
         "folk"
       ]
-    },
-    "526296229": {
-      "date": "2026-09-27",
-      "artist": "Ships of the Pharaohs",
-      "title": "Sun Is Rising",
-      "source": "KEXP-NewThisWeek",
-      "genres": []
     },
     "433065031": {
       "date": "2026-09-27",
@@ -10576,15 +10171,6 @@
         "electronic"
       ]
     },
-    "556224834": {
-      "date": "2026-09-27",
-      "artist": "Aili & Orson",
-      "title": "Achi Kochi",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "indie dance"
-      ]
-    },
     "516666001": {
       "date": "2026-09-27",
       "artist": "Lucy Dacus",
@@ -10607,17 +10193,6 @@
         "acoustic",
         "indie folk",
         "indie"
-      ]
-    },
-    "558321531": {
-      "date": "2026-09-27",
-      "artist": "Surprise Chef",
-      "title": "Outside Voice",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "jazz funk",
-        "indie jazz",
-        "jazz house"
       ]
     },
     "529811266": {
@@ -10741,18 +10316,6 @@
         "acoustic"
       ]
     },
-    "548721673": {
-      "date": "2026-09-27",
-      "artist": "Sophia Stel",
-      "title": "I Do",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "electronic",
-        "canadian",
-        "shoegaze",
-        "experimental"
-      ]
-    },
     "526318511": {
       "date": "2026-09-27",
       "artist": "Scayos Ft. Somni",
@@ -10833,13 +10396,6 @@
         "irish",
         "indie"
       ]
-    },
-    "554267832": {
-      "date": "2026-09-27",
-      "artist": "Evangelos Lascos",
-      "title": "Ten Days",
-      "source": "KEXP-NewThisWeek",
-      "genres": []
     },
     "484580734": {
       "date": "2026-09-27",
@@ -10936,7 +10492,9 @@
       "artist": "hey nothing",
       "title": "Hound",
       "source": "TheCurrent",
-      "genres": []
+      "genres": [
+        "midwest emo"
+      ]
     },
     "4014125": {
       "date": "2026-09-27",
@@ -10958,13 +10516,6 @@
       "genres": [
         "power pop"
       ]
-    },
-    "549743859": {
-      "date": "2026-09-27",
-      "artist": "Erykah Badu and The Alchemist",
-      "title": "Witch Doctor",
-      "source": "TheCurrent",
-      "genres": []
     },
     "255322865": {
       "date": "2026-09-27",
@@ -11157,18 +10708,6 @@
         "lo-fi indie"
       ]
     },
-    "526936813": {
-      "date": "2026-09-27",
-      "artist": "Dos Santos",
-      "title": "Money Gun",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "electrocumbia",
-        "chicha",
-        "latin alternative",
-        "latin afrobeats"
-      ]
-    },
     "1785911": {
       "date": "2026-09-27",
       "artist": "Hooverphonic",
@@ -11299,29 +10838,6 @@
         "singer songwriter"
       ]
     },
-    "553451809": {
-      "date": "2026-09-27",
-      "artist": "Peaches",
-      "title": "You’re Alright - Pixel Grip Remix",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "electroclash",
-        "riot grrrl",
-        "queercore"
-      ]
-    },
-    "540455374": {
-      "date": "2026-09-27",
-      "artist": "Fakear",
-      "title": "go away",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "trip hop",
-        "electronic",
-        "french",
-        "france"
-      ]
-    },
     "221624085": {
       "date": "2026-09-27",
       "artist": "Miami Horror",
@@ -11333,15 +10849,6 @@
         "indie dance"
       ]
     },
-    "534864258": {
-      "date": "2026-09-27",
-      "artist": "Frankie Rose",
-      "title": "Cant Be Wrong",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "dream pop"
-      ]
-    },
     "54518838": {
       "date": "2026-09-27",
       "artist": "Dolly Parton",
@@ -11351,13 +10858,6 @@
         "country",
         "classic country"
       ]
-    },
-    "560199324": {
-      "date": "2026-09-27",
-      "artist": "BIG NOTER & Tom Morello",
-      "title": "WHAT'S THE MATTER WITH ADAM?",
-      "source": "DoubleJ",
-      "genres": []
     },
     "491853662": {
       "date": "2026-09-27",
@@ -11483,7 +10983,9 @@
       "artist": "Matisse & Deeper Sublime",
       "title": "Long Way Home",
       "source": "SomaFM-Lush",
-      "genres": []
+      "genres": [
+        "latin pop"
+      ]
     },
     "366818462": {
       "date": "2026-09-27",
@@ -11507,18 +11009,6 @@
         "acid jazz"
       ]
     },
-    "551654632": {
-      "date": "2026-09-27",
-      "artist": "Falle Nioke",
-      "title": "Sewale",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "guinea",
-        "electronic",
-        "african",
-        "try"
-      ]
-    },
     "21408222": {
       "date": "2026-09-27",
       "artist": "Delphic",
@@ -11529,13 +11019,6 @@
         "new rave",
         "madchester"
       ]
-    },
-    "246115377": {
-      "date": "2026-09-27",
-      "artist": "Zero Cult & Niska Fitz",
-      "title": "Overactive Eyes (Live Session)",
-      "source": "SomaFM-Lush",
-      "genres": []
     },
     "2098514": {
       "date": "2026-09-27",
@@ -11628,15 +11111,6 @@
         "rock"
       ]
     },
-    "557615498": {
-      "date": "2026-09-27",
-      "artist": "untitled (halo)",
-      "title": "easy rider",
-      "source": "KEXP-NewThisWeek",
-      "genres": [
-        "shoegaze"
-      ]
-    },
     "51486279": {
       "date": "2026-09-27",
       "artist": "Beach House",
@@ -11719,13 +11193,6 @@
         "world"
       ]
     },
-    "545357736": {
-      "date": "2026-09-27",
-      "artist": "Jlin (Jerrilynn Patton)",
-      "title": "Baobab",
-      "source": "NPR-AllSongsConsidered",
-      "genres": []
-    },
     "42754274": {
       "date": "2026-09-27",
       "artist": "UNKLE",
@@ -11756,6 +11223,920 @@
         "americana",
         "indie rock"
       ]
+    },
+    "107821315": {
+      "date": "2026-09-27",
+      "artist": "Aldous Harding",
+      "title": "Fixture Picture",
+      "source": "LastFM~Beth Orton",
+      "genres": [
+        "ambient folk"
+      ]
+    },
+    "21360667": {
+      "date": "2026-09-27",
+      "artist": "Zofka",
+      "title": "Une Derniere Fois",
+      "source": "LastFM~Parov Stelar",
+      "genres": [
+        "exotica",
+        "nu jazz"
+      ]
+    },
+    "21360668": {
+      "date": "2026-09-27",
+      "artist": "Zofka",
+      "title": "Parfum Vanille",
+      "source": "LastFM~Parov Stelar",
+      "genres": [
+        "exotica",
+        "nu jazz"
+      ]
+    },
+    "527732751": {
+      "date": "2026-09-27",
+      "artist": "Ausecuma Beats, Mamadou Dembélé, Magou Samb & Kanazoé Diabaté",
+      "title": "Foli Yé [Ft. Gordon Li, Harry Ling]",
+      "source": "DoubleJ",
+      "genres": []
+    },
+    "39549425": {
+      "date": "2026-09-27",
+      "artist": "Belle And Sebastian",
+      "title": "The Party Line",
+      "source": "DoubleJ",
+      "genres": [
+        "baroque pop"
+      ]
+    },
+    "449482126": {
+      "date": "2026-09-27",
+      "artist": "Tame Impala",
+      "title": "End Of Summer",
+      "source": "TheCurrent",
+      "genres": [
+        "neo-psychedelic",
+        "indie"
+      ]
+    },
+    "161858": {
+      "date": "2026-09-27",
+      "artist": "Roxy Music",
+      "title": "Oh Yeah",
+      "source": "TheCurrent",
+      "genres": [
+        "glam rock",
+        "art rock"
+      ]
+    },
+    "255192030": {
+      "date": "2026-09-27",
+      "artist": "Romy and Fred Again",
+      "title": "Strong",
+      "source": "TheCurrent",
+      "genres": []
+    },
+    "64975227": {
+      "date": "2026-09-27",
+      "artist": "Bon Iver",
+      "title": "33 \"GOD\"",
+      "source": "DoubleJ",
+      "genres": [
+        "folk",
+        "indie",
+        "singer songwriter",
+        "acoustic"
+      ]
+    },
+    "15428655": {
+      "date": "2026-09-27",
+      "artist": "Guillemots",
+      "title": "Southern Winds",
+      "source": "RadioParadise-Mellow",
+      "genres": [
+        "indie",
+        "indie rock",
+        "british",
+        "alternative"
+      ]
+    },
+    "71994838": {
+      "date": "2026-09-27",
+      "artist": "Rae & Christian Feat. Tania Maria",
+      "title": "Vai Viver A Vida",
+      "source": "SomaFM-Lush",
+      "genres": []
+    },
+    "536626084": {
+      "date": "2026-09-27",
+      "artist": "Greg Freeman",
+      "title": "Indu",
+      "source": "TheCurrent",
+      "genres": [
+        "alt country"
+      ]
+    },
+    "33962079": {
+      "date": "2026-09-27",
+      "artist": "Tori Amos",
+      "title": "A Sorta Fairytale",
+      "source": "RadioParadise-Mellow",
+      "genres": [
+        "singer-songwriter",
+        "art pop"
+      ]
+    },
+    "534919440": {
+      "date": "2026-09-27",
+      "artist": "Bonobo",
+      "title": "Drift",
+      "source": "DoubleJ",
+      "genres": [
+        "trip hop",
+        "downtempo",
+        "nu jazz",
+        "electronic"
+      ]
+    },
+    "2571172": {
+      "date": "2026-09-27",
+      "artist": "PJ Harvey",
+      "title": "Rid Of Me",
+      "source": "DoubleJ",
+      "genres": [
+        "art pop",
+        "singer-songwriter",
+        "alternative rock"
+      ]
+    },
+    "111779544": {
+      "date": "2026-09-27",
+      "artist": "BENEE",
+      "title": "Want Me Back",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "pop",
+        "indie pop",
+        "indie",
+        "new zealand"
+      ]
+    },
+    "295606093": {
+      "date": "2026-09-27",
+      "artist": "DeYarmond Edison",
+      "title": "heroin(e)",
+      "source": "LastFM~Volcano Choir",
+      "genres": [
+        "folk",
+        "acoustic",
+        "alt country",
+        "rock"
+      ]
+    },
+    "3161794": {
+      "date": "2026-09-27",
+      "artist": "Nirvana",
+      "title": "Love Buzz",
+      "source": "TheCurrent",
+      "genres": [
+        "grunge",
+        "rock"
+      ]
+    },
+    "210211228": {
+      "date": "2026-09-27",
+      "artist": "René Aubry",
+      "title": "La Grande Cascade",
+      "source": "RadioParadise-Mellow",
+      "genres": [
+        "instrumental",
+        "french",
+        "composer",
+        "new age"
+      ]
+    },
+    "371958823": {
+      "date": "2026-09-27",
+      "artist": "Manchester Orchestra",
+      "title": "Stay Home",
+      "source": "Vuurland",
+      "genres": [
+        "indie rock",
+        "indie",
+        "alternative",
+        "rock"
+      ]
+    },
+    "434017553": {
+      "date": "2026-09-27",
+      "artist": "Kathleen Edwards",
+      "title": "When The Truth Comes Out",
+      "source": "TheCurrent",
+      "genres": [
+        "alt country",
+        "americana"
+      ]
+    },
+    "530268956": {
+      "date": "2026-09-27",
+      "artist": "Olana & Harvey Sutherland",
+      "title": "Price Of The House",
+      "source": "DoubleJ",
+      "genres": []
+    },
+    "519979035": {
+      "date": "2026-09-27",
+      "artist": "Kurt Vile",
+      "title": "Zoom 97",
+      "source": "Vuurland",
+      "genres": [
+        "lo fi",
+        "psychedelic",
+        "indie",
+        "singer songwriter"
+      ]
+    },
+    "32964608": {
+      "date": "2026-09-27",
+      "artist": "Soma Sonic",
+      "title": "Memories (Original)",
+      "source": "LastFM~Parov Stelar",
+      "genres": [
+        "trip hop",
+        "downtempo"
+      ]
+    },
+    "496159112": {
+      "date": "2026-09-27",
+      "artist": "Buck Meek",
+      "title": "Can I Mend It?",
+      "source": "Vuurland",
+      "genres": [
+        "folk",
+        "indie",
+        "singer songwriter",
+        "americana"
+      ]
+    },
+    "25057149": {
+      "date": "2026-09-27",
+      "artist": "S. Carey",
+      "title": "Move",
+      "source": "LastFM~Volcano Choir",
+      "genres": [
+        "indie folk"
+      ]
+    },
+    "3949715": {
+      "date": "2026-09-27",
+      "artist": "Sarah Fimm",
+      "title": "Walk Away",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "trip hop"
+      ]
+    },
+    "316390655": {
+      "date": "2026-09-27",
+      "artist": "Chappell Roan",
+      "title": "Pink Pony Club",
+      "source": "TheCurrent",
+      "genres": [
+        "pop",
+        "indie pop",
+        "synthpop",
+        "queer"
+      ]
+    },
+    "21360666": {
+      "date": "2026-09-27",
+      "artist": "Zofka",
+      "title": "dans la vie",
+      "source": "LastFM~Parov Stelar",
+      "genres": [
+        "exotica",
+        "nu jazz"
+      ]
+    },
+    "547506843": {
+      "date": "2026-09-27",
+      "artist": "RIP Dunes",
+      "title": "Living in Fear",
+      "source": "WFUV-NYSlice2026",
+      "genres": [
+        "indie electronic"
+      ]
+    },
+    "16593555": {
+      "date": "2026-09-27",
+      "artist": "The Heavy",
+      "title": "What Makes A Good Man?",
+      "source": "TheCurrent",
+      "genres": [
+        "funk",
+        "soul",
+        "indie",
+        "rock"
+      ]
+    },
+    "438537110": {
+      "date": "2026-09-27",
+      "artist": "The Beths",
+      "title": "Straight Line Was A Lie",
+      "source": "TheCurrent",
+      "genres": [
+        "indie rock",
+        "power pop"
+      ]
+    },
+    "544631": {
+      "date": "2026-09-27",
+      "artist": "Shawn Colvin",
+      "title": "I Don't Know Why",
+      "source": "LastFM~Beth Orton",
+      "genres": [
+        "female vocalists",
+        "folk",
+        "singer songwriter",
+        "pop"
+      ]
+    },
+    "295606097": {
+      "date": "2026-09-27",
+      "artist": "DeYarmond Edison",
+      "title": "heart for hire",
+      "source": "LastFM~Volcano Choir",
+      "genres": [
+        "folk",
+        "acoustic",
+        "alt country",
+        "rock"
+      ]
+    },
+    "553447552": {
+      "date": "2026-09-27",
+      "artist": "Lizzy McAlpine",
+      "title": "Ugly Things",
+      "source": "TheCurrent",
+      "genres": [
+        "indie pop",
+        "folk",
+        "indie folk",
+        "my top songs"
+      ]
+    },
+    "34193928": {
+      "date": "2026-09-27",
+      "artist": "The Smashing Pumpkins",
+      "title": "Perfect",
+      "source": "TheCurrent",
+      "genres": [
+        "alternative rock",
+        "rock"
+      ]
+    },
+    "3144491": {
+      "date": "2026-09-27",
+      "artist": "Devendra Banhart",
+      "title": "Baby",
+      "source": "Vuurland",
+      "genres": [
+        "folk",
+        "singer songwriter",
+        "freak folk",
+        "indie"
+      ]
+    },
+    "554269900": {
+      "date": "2026-09-27",
+      "artist": "Alabama Shakes",
+      "title": "American Dream",
+      "source": "TheCurrent",
+      "genres": [
+        "blues",
+        "soul",
+        "rock",
+        "southern rock"
+      ]
+    },
+    "25057152": {
+      "date": "2026-09-27",
+      "artist": "S. Carey",
+      "title": "Rothko Fields",
+      "source": "LastFM~Volcano Choir",
+      "genres": [
+        "indie folk"
+      ]
+    },
+    "404850942": {
+      "date": "2026-09-27",
+      "artist": "Julien Baker & TORRES",
+      "title": "Sugar In The Tank",
+      "source": "DoubleJ",
+      "genres": [
+        "country",
+        "americana",
+        "american",
+        "usa"
+      ]
+    },
+    "43419764": {
+      "date": "2026-09-27",
+      "artist": "Metronomy",
+      "title": "The Bay",
+      "source": "Vuurland",
+      "genres": [
+        "new rave",
+        "alternative dance"
+      ]
+    },
+    "16217306": {
+      "date": "2026-09-27",
+      "artist": "Crosby & Nash",
+      "title": "Lay Me Down",
+      "source": "RadioParadise-Mellow",
+      "genres": [
+        "folk rock"
+      ]
+    },
+    "232094034": {
+      "date": "2026-09-27",
+      "artist": "Minru",
+      "title": "Will I Ever Find",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "indie",
+        "pop",
+        "neoclassical",
+        "electronic"
+      ]
+    },
+    "13184782": {
+      "date": "2026-09-27",
+      "artist": "Ducky",
+      "title": "Mouths Like Sidewinder Missles",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "electronic",
+        "bass",
+        "american",
+        "usa"
+      ]
+    },
+    "1311530": {
+      "date": "2026-09-27",
+      "artist": "Shawn Colvin",
+      "title": "Get Out of This House",
+      "source": "LastFM~Beth Orton",
+      "genres": [
+        "female vocalists",
+        "folk",
+        "singer songwriter",
+        "pop"
+      ]
+    },
+    "64684154": {
+      "date": "2026-09-27",
+      "artist": "Miaow",
+      "title": "Song",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "jangle pop",
+        "madchester"
+      ]
+    },
+    "493922005": {
+      "date": "2026-09-27",
+      "artist": "Vika & Linda",
+      "title": "Where Do You Come From?",
+      "source": "DoubleJ",
+      "genres": [
+        "australian",
+        "folk",
+        "acoustic",
+        "gospel"
+      ]
+    },
+    "157261074": {
+      "date": "2026-09-27",
+      "artist": "Juliet Piper",
+      "title": "Follow the Butterflies (Ambient)",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "indie",
+        "acoustic",
+        "singer songwriter",
+        "chillout"
+      ]
+    },
+    "560090551": {
+      "date": "2026-09-27",
+      "artist": "Kings Of Leon",
+      "title": "My Whole World",
+      "source": "DoubleJ",
+      "genres": [
+        "rock",
+        "indie",
+        "indie rock",
+        "alternative"
+      ]
+    },
+    "118307351": {
+      "date": "2026-09-27",
+      "artist": "Rituals of Mine",
+      "title": "Bad News",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "electronic",
+        "experimental",
+        "downtempo",
+        "female vocal"
+      ]
+    },
+    "153848410": {
+      "date": "2026-09-27",
+      "artist": "Jack Penate",
+      "title": "Spit At The Stars",
+      "source": "TheCurrent",
+      "genres": [
+        "indie",
+        "british",
+        "singer songwriter",
+        "alternative"
+      ]
+    },
+    "392200909": {
+      "date": "2026-09-27",
+      "artist": "Annie-rose Maloney",
+      "title": "Hold Me",
+      "source": "Vuurland",
+      "genres": [
+        "anti-folk"
+      ]
+    },
+    "247874168": {
+      "date": "2026-09-27",
+      "artist": "Coco",
+      "title": "Empty Beach",
+      "source": "Vuurland",
+      "genres": [
+        "female vocalists",
+        "idol",
+        "pop",
+        "japanese"
+      ]
+    },
+    "559483883": {
+      "date": "2026-09-27",
+      "artist": "Mimi Page",
+      "title": "Fight the Tide",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "downtempo"
+      ]
+    },
+    "25057151": {
+      "date": "2026-09-27",
+      "artist": "S. Carey",
+      "title": "In The Dirt",
+      "source": "LastFM~Volcano Choir",
+      "genres": [
+        "indie folk"
+      ]
+    },
+    "77683131": {
+      "date": "2026-09-27",
+      "artist": "John Lennon",
+      "title": "#9 Dream",
+      "source": "TheCurrent",
+      "genres": [
+        "christmas"
+      ]
+    },
+    "58841258": {
+      "date": "2026-09-27",
+      "artist": "NAVVI",
+      "title": "Close",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "chillwave",
+        "synthpop"
+      ]
+    },
+    "374893761": {
+      "date": "2026-09-27",
+      "artist": "Angie McMahon",
+      "title": "Untangling",
+      "source": "Vuurland",
+      "genres": [
+        "folk",
+        "indie",
+        "australian",
+        "singer songwriter"
+      ]
+    },
+    "399657906": {
+      "date": "2026-09-27",
+      "artist": "Michael Kiwanuka",
+      "title": "Follow Your Dreams",
+      "source": "Vuurland",
+      "genres": [
+        "soul"
+      ]
+    },
+    "219493755": {
+      "date": "2026-09-27",
+      "artist": "Aldous Harding",
+      "title": "Tick Tock",
+      "source": "LastFM~Beth Orton",
+      "genres": [
+        "ambient folk"
+      ]
+    },
+    "1311138": {
+      "date": "2026-09-27",
+      "artist": "Shawn Colvin",
+      "title": "The Facts About Jimmy",
+      "source": "LastFM~Beth Orton",
+      "genres": [
+        "female vocalists",
+        "folk",
+        "singer songwriter",
+        "pop"
+      ]
+    },
+    "165676285": {
+      "date": "2026-09-27",
+      "artist": "Carmen Rizzo",
+      "title": "Too Rude f/ Esthero (Carmen Rizzo-White Diamond Mix)",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "downtempo",
+        "chillout",
+        "electronic",
+        "trance"
+      ]
+    },
+    "196351412": {
+      "date": "2026-09-27",
+      "artist": "Dianesthetic",
+      "title": "Zugzwang",
+      "source": "SomaFM-Lush",
+      "genres": []
+    },
+    "51584029": {
+      "date": "2026-09-27",
+      "artist": "Porter Wagoner & Dolly Parton",
+      "title": "Her and the Car and the Mobile Home",
+      "source": "TheCurrent",
+      "genres": [
+        "country",
+        "duets",
+        "classic country",
+        "dolly parton"
+      ]
+    },
+    "129327001": {
+      "date": "2026-09-27",
+      "artist": "Frightened Rabbit",
+      "title": "Swim Until You Can't See Land",
+      "source": "TheCurrent",
+      "genres": [
+        "indie rock"
+      ]
+    },
+    "528182786": {
+      "date": "2026-09-27",
+      "artist": "Charlie Parr",
+      "title": "Rooming House",
+      "source": "TheCurrent",
+      "genres": [
+        "bluegrass",
+        "newgrass",
+        "americana",
+        "alt country"
+      ]
+    },
+    "523680464": {
+      "date": "2026-09-27",
+      "artist": "Lisa LeBlanc",
+      "title": "Whole Lotta Talkin'",
+      "source": "DoubleJ",
+      "genres": [
+        "chanson québécoise",
+        "folk québécois",
+        "rock québécois",
+        "pop québécoise"
+      ]
+    },
+    "406141143": {
+      "date": "2026-09-27",
+      "artist": "Imogen Heap",
+      "title": "Goodnight And Go",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "electronic",
+        "female vocalists",
+        "indie",
+        "alternative"
+      ]
+    },
+    "491207088": {
+      "date": "2026-09-27",
+      "artist": "DMA'S",
+      "title": "Delete",
+      "source": "DoubleJ",
+      "genres": [
+        "indie rock",
+        "shoegaze",
+        "britpop",
+        "rock"
+      ]
+    },
+    "511119384": {
+      "date": "2026-09-27",
+      "artist": "The Gnomes",
+      "title": "Magic Man",
+      "source": "DoubleJ",
+      "genres": [
+        "power pop"
+      ]
+    },
+    "1182644": {
+      "date": "2026-09-27",
+      "artist": "Band Of Horses",
+      "title": "No one's gonna love you",
+      "source": "Vuurland",
+      "genres": [
+        "indie",
+        "indie rock",
+        "alternative",
+        "alt country"
+      ]
+    },
+    "295606101": {
+      "date": "2026-09-27",
+      "artist": "DeYarmond Edison",
+      "title": "dash",
+      "source": "LastFM~Volcano Choir",
+      "genres": [
+        "folk",
+        "acoustic",
+        "alt country",
+        "rock"
+      ]
+    },
+    "529617794": {
+      "date": "2026-09-27",
+      "artist": "Candice Lorrae",
+      "title": "Calling Me",
+      "source": "DoubleJ",
+      "genres": []
+    },
+    "465467268": {
+      "date": "2026-09-27",
+      "artist": "HAIM and Bon Iver",
+      "title": "Tie you down",
+      "source": "TheCurrent",
+      "genres": []
+    },
+    "270386428": {
+      "date": "2026-09-27",
+      "artist": "Kings Of Convenience",
+      "title": "Know-How",
+      "source": "Vuurland",
+      "genres": [
+        "acoustic",
+        "indie",
+        "norwegian",
+        "indie pop"
+      ]
+    },
+    "572715": {
+      "date": "2026-09-27",
+      "artist": "James",
+      "title": "Say Something",
+      "source": "TheCurrent",
+      "genres": [
+        "britpop",
+        "indie",
+        "alternative",
+        "british"
+      ]
+    },
+    "389650608": {
+      "date": "2026-09-27",
+      "artist": "Michael Kiwanuka",
+      "title": "The Rest Of Me",
+      "source": "TheCurrent",
+      "genres": [
+        "soul"
+      ]
+    },
+    "145044611": {
+      "date": "2026-09-27",
+      "artist": "East Journey",
+      "title": "Emu",
+      "source": "DoubleJ",
+      "genres": [
+        "australia",
+        "aboriginal"
+      ]
+    },
+    "553916214": {
+      "date": "2026-09-27",
+      "artist": "Alex Klingle feat. Linnea Schossow",
+      "title": "I Run To You (Bryan Milton Remix)",
+      "source": "SomaFM-Lush",
+      "genres": []
+    },
+    "77557269": {
+      "date": "2026-09-27",
+      "artist": "The War On Drugs",
+      "title": "Thinking Of A Place",
+      "source": "Vuurland",
+      "genres": [
+        "indie rock"
+      ]
+    },
+    "42248755": {
+      "date": "2026-09-27",
+      "artist": "Late Night Alumni",
+      "title": "Beautiful",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "downtempo"
+      ]
+    },
+    "560201322": {
+      "date": "2026-09-27",
+      "artist": "Beck",
+      "title": "Falling Through My Hands",
+      "source": "DoubleJ",
+      "genres": [
+        "anti-folk"
+      ]
+    },
+    "434009377": {
+      "date": "2026-09-27",
+      "artist": "Dressed Like Boys",
+      "title": "Stonewall Riots Forever",
+      "source": "Vuurland",
+      "genres": [
+        "indie pop",
+        "indie",
+        "indie rock",
+        "singer songwriter"
+      ]
+    },
+    "507489233": {
+      "date": "2026-09-27",
+      "artist": "Luluc",
+      "title": "Rewarding Melody",
+      "source": "DoubleJ",
+      "genres": [
+        "indie folk"
+      ]
+    },
+    "142069384": {
+      "date": "2026-09-27",
+      "artist": "Neighbourhood Youth",
+      "title": "Overcrowded",
+      "source": "DoubleJ",
+      "genres": [
+        "indie",
+        "rock",
+        "australia",
+        "alternative"
+      ]
+    },
+    "214229739": {
+      "date": "2026-09-27",
+      "artist": "Gang of Youths",
+      "title": "In the Wake of Your Leave",
+      "source": "TheCurrent",
+      "genres": [
+        "indie rock",
+        "australian",
+        "rock",
+        "indie"
+      ]
+    },
+    "246115377": {
+      "date": "2026-09-27",
+      "artist": "Zero Cult & Niska Fitz",
+      "title": "Overactive Eyes",
+      "source": "SomaFM-Lush",
+      "genres": []
+    },
+    "529501104": {
+      "date": "2026-09-27",
+      "artist": "The Avalanches",
+      "title": "Every Single Weekend feat. Jamie xx",
+      "source": "TheCurrent",
+      "genres": [
+        "plunderphonics"
+      ]
     }
   },
   "programs_done": {
@@ -11765,7 +12146,8 @@
     ],
     "Vuurland": [
       "2026-09-13",
-      "2026-09-20"
+      "2026-09-20",
+      "2026-09-27"
     ]
   },
   "migrated_vuurland_program": true
