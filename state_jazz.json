@@ -2199,6 +2199,311 @@
         "vocal jazz",
         "jazz ballads"
       ]
+    },
+    "astrud gilberto|só tinha de ser com você": {
+      "date": "2026-09-27",
+      "source": "Album~The Astrud Gilberto Album",
+      "artist": "Astrud Gilberto",
+      "title": "Só Tinha De Ser Com Você",
+      "kind": "zang",
+      "genres": [
+        "bossa nova",
+        "brazilian jazz",
+        "latin jazz",
+        "vocal jazz"
+      ]
+    },
+    "paul desmond|alone together": {
+      "date": "2026-09-27",
+      "source": "Album~Take Ten",
+      "artist": "Paul Desmond",
+      "title": "Alone Together",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "bossa nova",
+        "jazz ballads"
+      ]
+    },
+    "gregory porter|be good (lion's song)": {
+      "date": "2026-09-27",
+      "source": "Pick~Gregory Porter",
+      "artist": "Gregory Porter",
+      "title": "Be Good (Lion's Song)",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz pop",
+        "jazz"
+      ]
+    },
+    "stan getz|thanks for the memory": {
+      "date": "2026-09-27",
+      "source": "Album~Stan Getz Plays",
+      "artist": "Stan Getz",
+      "title": "Thanks For The Memory",
+      "kind": "instrumentaal",
+      "genres": [
+        "bossa nova",
+        "jazz",
+        "brazilian jazz",
+        "cool jazz"
+      ]
+    },
+    "shirley horn|but beautiful": {
+      "date": "2026-09-27",
+      "source": "Album~Close Enough for Love",
+      "artist": "Shirley Horn",
+      "title": "But Beautiful",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "jazz ballads"
+      ]
+    },
+    "charlie haden|my lord what a mornin'": {
+      "date": "2026-09-27",
+      "source": "Album~Steal Away",
+      "artist": "Charlie Haden",
+      "title": "My Lord What A Mornin'",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "free jazz",
+        "cool jazz"
+      ]
+    },
+    "peggy lee with benny goodman|my old flame": {
+      "date": "2026-09-27",
+      "source": "Album~Black Coffee",
+      "artist": "Peggy Lee with Benny Goodman",
+      "title": "My Old Flame",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "swing",
+        "female vocalists",
+        "american"
+      ]
+    },
+    "paul desmond|out of nowhere": {
+      "date": "2026-09-27",
+      "source": "Album~Take Ten",
+      "artist": "Paul Desmond",
+      "title": "Out of Nowhere",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "bossa nova",
+        "jazz ballads"
+      ]
+    },
+    "blossom dearie|it might as well be spring": {
+      "date": "2026-09-27",
+      "source": "Album~Blossom Dearie",
+      "artist": "Blossom Dearie",
+      "title": "It Might As Well Be Spring",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "gerry mulligan|in a mellow tone": {
+      "date": "2026-09-27",
+      "source": "Album~Gerry Mulligan Meets Ben Webster",
+      "artist": "Gerry Mulligan",
+      "title": "In a Mellow Tone",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "bebop",
+        "jazz ballads"
+      ]
+    },
+    "chris connor|what is there to say?": {
+      "date": "2026-09-27",
+      "source": "Album~Sings Lullabys of Birdland",
+      "artist": "Chris Connor",
+      "title": "What Is There To Say?",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "cool jazz"
+      ]
+    },
+    "john coltrane|too young to go steady": {
+      "date": "2026-09-27",
+      "source": "Album~Ballads",
+      "artist": "John Coltrane",
+      "title": "Too Young To Go Steady",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "hard bop",
+        "free jazz",
+        "bebop"
+      ]
+    },
+    "stacey kent|la saison des pluies": {
+      "date": "2026-09-27",
+      "source": "Album~Breakfast on the Morning Tram",
+      "artist": "Stacey Kent",
+      "title": "La saison des pluies",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz",
+        "bossa nova"
+      ]
+    },
+    "coleman hawkins|poor butterfly": {
+      "date": "2026-09-27",
+      "source": "Album~At Ease with Coleman Hawkins",
+      "artist": "Coleman Hawkins",
+      "title": "Poor Butterfly",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "bebop",
+        "cool jazz"
+      ]
+    },
+    "gregory porter|no love dying": {
+      "date": "2026-09-27",
+      "source": "Pick~Gregory Porter",
+      "artist": "Gregory Porter",
+      "title": "No Love Dying",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz pop",
+        "jazz"
+      ]
+    },
+    "stan getz|'tis autumn": {
+      "date": "2026-09-27",
+      "source": "Album~Stan Getz Plays",
+      "artist": "Stan Getz",
+      "title": "'Tis Autumn",
+      "kind": "instrumentaal",
+      "genres": [
+        "bossa nova",
+        "jazz",
+        "brazilian jazz",
+        "cool jazz"
+      ]
+    },
+    "astrud gilberto|meditation": {
+      "date": "2026-09-27",
+      "source": "Album~The Astrud Gilberto Album",
+      "artist": "Astrud Gilberto",
+      "title": "Meditation",
+      "kind": "zang",
+      "genres": [
+        "bossa nova",
+        "brazilian jazz",
+        "latin jazz",
+        "vocal jazz"
+      ]
+    },
+    "bill evans|if you could see me now": {
+      "date": "2026-09-27",
+      "source": "Album~Moon Beams",
+      "artist": "Bill Evans",
+      "title": "If You Could See Me Now",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "jazz ballads",
+        "hard bop"
+      ]
+    },
+    "ella fitzgerald|the nearness of you": {
+      "date": "2026-09-27",
+      "source": "Album~Ella and Louis",
+      "artist": "Ella Fitzgerald",
+      "title": "The Nearness Of You",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "vocal jazz",
+        "swing music",
+        "big band"
+      ]
+    },
+    "chet baker|time on my hands": {
+      "date": "2026-09-27",
+      "source": "Album~Chet",
+      "artist": "Chet Baker",
+      "title": "Time On My Hands",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "vocal jazz",
+        "jazz ballads"
+      ]
+    },
+    "shirley horn|once i loved": {
+      "date": "2026-09-27",
+      "source": "Album~Close Enough for Love",
+      "artist": "Shirley Horn",
+      "title": "Once I Loved",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "jazz ballads"
+      ]
+    },
+    "the ben webster quintet|late date": {
+      "date": "2026-09-27",
+      "source": "Album~Soulville",
+      "artist": "The Ben Webster Quintet",
+      "title": "Late Date",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "jazz ballads"
+      ]
+    },
+    "peggy lee|that's what a woman is for": {
+      "date": "2026-09-27",
+      "source": "Album~Black Coffee",
+      "artist": "Peggy Lee",
+      "title": "That's What a Woman Is for",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "swing music",
+        "big band",
+        "jazz"
+      ]
+    },
+    "chet baker|if you could see me now": {
+      "date": "2026-09-27",
+      "source": "Album~Chet",
+      "artist": "Chet Baker",
+      "title": "If You Could See Me Now",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "vocal jazz",
+        "jazz ballads"
+      ]
     }
   },
   "playlist_log": {
@@ -2991,6 +3296,311 @@
       "date": "2026-09-21",
       "artist": "Chet Baker",
       "title": "September Song",
+      "source": "Album~Chet",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "vocal jazz",
+        "jazz ballads"
+      ]
+    },
+    "119987718": {
+      "date": "2026-09-27",
+      "artist": "Astrud Gilberto",
+      "title": "Só Tinha De Ser Com Você",
+      "source": "Album~The Astrud Gilberto Album",
+      "kind": "zang",
+      "genres": [
+        "bossa nova",
+        "brazilian jazz",
+        "latin jazz",
+        "vocal jazz"
+      ]
+    },
+    "2993270": {
+      "date": "2026-09-27",
+      "artist": "Paul Desmond",
+      "title": "Alone Together",
+      "source": "Album~Take Ten",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "bossa nova",
+        "jazz ballads"
+      ]
+    },
+    "80057442": {
+      "date": "2026-09-27",
+      "artist": "Gregory Porter",
+      "title": "Be Good (Lion's Song)",
+      "source": "Pick~Gregory Porter",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz pop",
+        "jazz"
+      ]
+    },
+    "13345170": {
+      "date": "2026-09-27",
+      "artist": "Stan Getz",
+      "title": "Thanks For The Memory",
+      "source": "Album~Stan Getz Plays",
+      "kind": "instrumentaal",
+      "genres": [
+        "bossa nova",
+        "jazz",
+        "brazilian jazz",
+        "cool jazz"
+      ]
+    },
+    "13372623": {
+      "date": "2026-09-27",
+      "artist": "Shirley Horn",
+      "title": "But Beautiful",
+      "source": "Album~Close Enough for Love",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "jazz ballads"
+      ]
+    },
+    "4859225": {
+      "date": "2026-09-27",
+      "artist": "Charlie Haden",
+      "title": "My Lord What A Mornin'",
+      "source": "Album~Steal Away",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "free jazz",
+        "cool jazz"
+      ]
+    },
+    "155503991": {
+      "date": "2026-09-27",
+      "artist": "Peggy Lee with Benny Goodman",
+      "title": "My Old Flame",
+      "source": "Album~Black Coffee",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "swing",
+        "female vocalists",
+        "american"
+      ]
+    },
+    "2993274": {
+      "date": "2026-09-27",
+      "artist": "Paul Desmond",
+      "title": "Out of Nowhere",
+      "source": "Album~Take Ten",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "bossa nova",
+        "jazz ballads"
+      ]
+    },
+    "77658913": {
+      "date": "2026-09-27",
+      "artist": "Blossom Dearie",
+      "title": "It Might As Well Be Spring",
+      "source": "Album~Blossom Dearie",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "58993632": {
+      "date": "2026-09-27",
+      "artist": "Gerry Mulligan",
+      "title": "In a Mellow Tone",
+      "source": "Album~Gerry Mulligan Meets Ben Webster",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "bebop",
+        "jazz ballads"
+      ]
+    },
+    "111970532": {
+      "date": "2026-09-27",
+      "artist": "Chris Connor",
+      "title": "What Is There To Say?",
+      "source": "Album~Sings Lullabys of Birdland",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "cool jazz"
+      ]
+    },
+    "77576247": {
+      "date": "2026-09-27",
+      "artist": "John Coltrane",
+      "title": "Too Young To Go Steady",
+      "source": "Album~Ballads",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "hard bop",
+        "free jazz",
+        "bebop"
+      ]
+    },
+    "155719987": {
+      "date": "2026-09-27",
+      "artist": "Stacey Kent",
+      "title": "La saison des pluies",
+      "source": "Album~Breakfast on the Morning Tram",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz",
+        "bossa nova"
+      ]
+    },
+    "143265766": {
+      "date": "2026-09-27",
+      "artist": "Coleman Hawkins",
+      "title": "Poor Butterfly",
+      "source": "Album~At Ease with Coleman Hawkins",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "bebop",
+        "cool jazz"
+      ]
+    },
+    "79178484": {
+      "date": "2026-09-27",
+      "artist": "Gregory Porter",
+      "title": "No Love Dying",
+      "source": "Pick~Gregory Porter",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz pop",
+        "jazz"
+      ]
+    },
+    "13345164": {
+      "date": "2026-09-27",
+      "artist": "Stan Getz",
+      "title": "'Tis Autumn",
+      "source": "Album~Stan Getz Plays",
+      "kind": "instrumentaal",
+      "genres": [
+        "bossa nova",
+        "jazz",
+        "brazilian jazz",
+        "cool jazz"
+      ]
+    },
+    "119987711": {
+      "date": "2026-09-27",
+      "artist": "Astrud Gilberto",
+      "title": "Meditation",
+      "source": "Album~The Astrud Gilberto Album",
+      "kind": "zang",
+      "genres": [
+        "bossa nova",
+        "brazilian jazz",
+        "latin jazz",
+        "vocal jazz"
+      ]
+    },
+    "437617035": {
+      "date": "2026-09-27",
+      "artist": "Bill Evans",
+      "title": "If You Could See Me Now",
+      "source": "Album~Moon Beams",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "jazz ballads",
+        "hard bop"
+      ]
+    },
+    "93058774": {
+      "date": "2026-09-27",
+      "artist": "Ella Fitzgerald",
+      "title": "The Nearness Of You",
+      "source": "Album~Ella and Louis",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "vocal jazz",
+        "swing music",
+        "big band"
+      ]
+    },
+    "175014924": {
+      "date": "2026-09-27",
+      "artist": "Chet Baker",
+      "title": "Time On My Hands",
+      "source": "Album~Chet",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "vocal jazz",
+        "jazz ballads"
+      ]
+    },
+    "13372622": {
+      "date": "2026-09-27",
+      "artist": "Shirley Horn",
+      "title": "Once I Loved",
+      "source": "Album~Close Enough for Love",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "jazz ballads"
+      ]
+    },
+    "108022862": {
+      "date": "2026-09-27",
+      "artist": "The Ben Webster Quintet",
+      "title": "Late Date",
+      "source": "Album~Soulville",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "jazz ballads"
+      ]
+    },
+    "155503988": {
+      "date": "2026-09-27",
+      "artist": "Peggy Lee",
+      "title": "That's What a Woman Is for",
+      "source": "Album~Black Coffee",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "swing music",
+        "big band",
+        "jazz"
+      ]
+    },
+    "175014919": {
+      "date": "2026-09-27",
+      "artist": "Chet Baker",
+      "title": "If You Could See Me Now",
       "source": "Album~Chet",
       "kind": "instrumentaal",
       "genres": [
