@@ -566,6 +566,14 @@ def backfill_playlist_log(session: tidalapi.Session, playlist_id: str, playlist_
             playlist_log[tid] = entry
         if enriched:
             print(f"[Backfill] {enriched} oude entries aangevuld met artiest/titel")
+        # Wat niet meer in de Tidal-playlist staat (bv. handmatig verwijderd) uit de status halen
+        present = {str(t.id) for t in session.playlist(playlist_id).tracks_paginated()}
+        if present:
+            stale = [tid for tid in playlist_log if tid not in present]
+            for tid in stale:
+                playlist_log.pop(tid, None)
+            if stale:
+                print(f"[Backfill] {len(stale)} entries opgeruimd die niet meer in de playlist staan")
     except Exception as e:
         print(f"[Backfill] Mislukt: {e}")
     return playlist_log
