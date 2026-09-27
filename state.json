@@ -176,7 +176,10 @@
       "date": "2026-03-12",
       "source": "LaurenLaverne-JustAdded"
     },
-    "marsmobil|mangia amore": "2026-03-12",
+    "marsmobil|mangia amore": {
+      "date": "2026-03-12",
+      "source": "LastFM~Massive Attack"
+    },
     "the haunted youth|coming home": {
       "date": "2026-03-12",
       "source": "Vuurland-latest"
@@ -1679,7 +1682,10 @@
     "lykke li|sick of love": "2026-04-27",
     "angèle|what you want": "2026-04-27",
     "wild nothing|live in dreams": "2026-04-27",
-    "slowdive|altogether": "2026-04-27",
+    "slowdive|altogether": {
+      "date": "2026-04-27",
+      "source": "LastFM~Mazzy Star"
+    },
     "slowdive|dagger": "2026-04-27",
     "the mighty bop|lady": {
       "date": "2026-04-27",
@@ -2213,7 +2219,10 @@
       "source": "LastFM~Röyksopp"
     },
     "trentemøller|always something better": "2026-06-08",
-    "slowdive|40 days": "2026-06-08",
+    "slowdive|40 days": {
+      "date": "2026-06-08",
+      "source": "LastFM~Mazzy Star"
+    },
     "lovetempo|thinking about you": {
       "date": "2026-06-08",
       "source": "WFUV-NYSlice2026"
@@ -6750,6 +6759,242 @@
     "the avalanches|every single weekend feat. jamie xx": {
       "date": "2026-09-27",
       "source": "TheCurrent"
+    },
+    "josh pyke|middle of the hill": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "slowdive|when the sun hits": {
+      "date": "2026-09-27",
+      "source": "LastFM~Mazzy Star"
+    },
+    "clara luciani|la baie": {
+      "date": "2026-09-27",
+      "source": "LastFM~Christine and the Queens"
+    },
+    "the flaming lips|she don't use jelly": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "tame impala|loser": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "sylvan esso|hot slob": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "beach bunny|clueless": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "ruby gill|carol / not carol": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "berlin|the metro": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "baby smith|take it or leave it": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "cyndi lauper|time after time": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "tricky|black steel": {
+      "date": "2026-09-27",
+      "source": "LastFM~Massive Attack"
+    },
+    "mark ronson & the business intl|glass mountain trust [ft. d'angelo]": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "ripple effect band|people from maningrida": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "angus & julia stone|big jet plane": {
+      "date": "2026-09-27",
+      "source": "LastFM~Ben Howard"
+    },
+    "charlie cunningham|blindfold": {
+      "date": "2026-09-27",
+      "source": "LastFM~Ben Howard"
+    },
+    "elvis costello|the beat": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "bruce springsteen|it's hard to be a saint in the city": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "space carnival|queen of cups": {
+      "date": "2026-09-27",
+      "source": "WFUV-NYSlice2026"
+    },
+    "folk bitch trio|cathode ray": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "tricky|suffocated love": {
+      "date": "2026-09-27",
+      "source": "LastFM~Massive Attack"
+    },
+    "love migrate|little kid": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "tv on the radio|happy idiot": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "possible humans|akimbo": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "ullah|i want it all": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "curtis mayfield|beautiful brother of mine": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "rahim redcar|smalltown boy": {
+      "date": "2026-09-27",
+      "source": "LastFM~Christine and the Queens"
+    },
+    "haai & echonomist|ignition": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "hope sandoval & the warm inventions|around my smile": {
+      "date": "2026-09-27",
+      "source": "LastFM~Mazzy Star"
+    },
+    "angus & julia stone|the start": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "charlie cunningham|bite": {
+      "date": "2026-09-27",
+      "source": "LastFM~Ben Howard"
+    },
+    "scott & charlene's wedding|two weeks": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "hope sandoval & the warm inventions|blue bird": {
+      "date": "2026-09-27",
+      "source": "LastFM~Mazzy Star"
+    },
+    "peter gabriel|road to joy (bright-side mix)": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "sheryl crow|freedom bus feat. jesse welles": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "rahim redcar|ins8de of me": {
+      "date": "2026-09-27",
+      "source": "LastFM~Christine and the Queens"
+    },
+    "ghost funk orchestra|yours": {
+      "date": "2026-09-27",
+      "source": "WFUV-NYSlice2026"
+    },
+    "big thief|words": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "dolly parton|coat of many colors": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "daft punk|robot rock": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "tricky|feed me": {
+      "date": "2026-09-27",
+      "source": "LastFM~Massive Attack"
+    },
+    "angus & julia stone|mango tree": {
+      "date": "2026-09-27",
+      "source": "LastFM~Ben Howard"
+    },
+    "angus & julia stone|grizzly bear": {
+      "date": "2026-09-27",
+      "source": "LastFM~Ben Howard"
+    },
+    "the strokes|hard to explain": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "melody's echo chamber & el michels affair|daisy": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "dijon|many times": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "death cab for cutie|i built you a tower (a)": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "the black keys|set you free": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "garbage|push it": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "jim james|wowed out": {
+      "date": "2026-09-27",
+      "source": "KCRW-MorningBecomesEclectic"
+    },
+    "the dare|all night": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "tori amos|caught a lite sneeze": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "hope sandoval & the warm inventions|on the low": {
+      "date": "2026-09-27",
+      "source": "LastFM~Mazzy Star"
+    },
+    "florence and the machine|what kind of man": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "tianna esperanza|lewis": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "midnight oil|read about it": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "#1 dads|already something": {
+      "date": "2026-09-27",
+      "source": "DoubleJ"
+    },
+    "dijon|yamaha": {
+      "date": "2026-09-27",
+      "source": "TheCurrent"
+    },
+    "rahim redcar|it's ok to cry": {
+      "date": "2026-09-27",
+      "source": "LastFM~Christine and the Queens"
     }
   },
   "playlist_log": {
@@ -11258,7 +11503,12 @@
       "artist": "Ausecuma Beats, Mamadou Dembélé, Magou Samb & Kanazoé Diabaté",
       "title": "Foli Yé [Ft. Gordon Li, Harry Ling]",
       "source": "DoubleJ",
-      "genres": []
+      "genres": [
+        "kora",
+        "jazz",
+        "australia",
+        "vocal"
+      ]
     },
     "39549425": {
       "date": "2026-09-27",
@@ -11294,7 +11544,12 @@
       "artist": "Romy and Fred Again",
       "title": "Strong",
       "source": "TheCurrent",
-      "genres": []
+      "genres": [
+        "electronic",
+        "house",
+        "pop",
+        "electropop"
+      ]
     },
     "64975227": {
       "date": "2026-09-27",
@@ -11325,7 +11580,12 @@
       "artist": "Rae & Christian Feat. Tania Maria",
       "title": "Vai Viver A Vida",
       "source": "SomaFM-Lush",
-      "genres": []
+      "genres": [
+        "raekwon",
+        "house",
+        "dance",
+        "jazz"
+      ]
     },
     "536626084": {
       "date": "2026-09-27",
@@ -11998,7 +12258,12 @@
       "artist": "HAIM and Bon Iver",
       "title": "Tie you down",
       "source": "TheCurrent",
-      "genres": []
+      "genres": [
+        "indie",
+        "indie pop",
+        "female vocalists",
+        "indie rock"
+      ]
     },
     "270386428": {
       "date": "2026-09-27",
@@ -12048,7 +12313,10 @@
       "artist": "Alex Klingle feat. Linnea Schossow",
       "title": "I Run To You (Bryan Milton Remix)",
       "source": "SomaFM-Lush",
-      "genres": []
+      "genres": [
+        "progressive trance",
+        "trance"
+      ]
     },
     "77557269": {
       "date": "2026-09-27",
@@ -12122,13 +12390,6 @@
         "indie"
       ]
     },
-    "246115377": {
-      "date": "2026-09-27",
-      "artist": "Zero Cult & Niska Fitz",
-      "title": "Overactive Eyes",
-      "source": "SomaFM-Lush",
-      "genres": []
-    },
     "529501104": {
       "date": "2026-09-27",
       "artist": "The Avalanches",
@@ -12136,6 +12397,625 @@
       "source": "TheCurrent",
       "genres": [
         "plunderphonics"
+      ]
+    },
+    "158630149": {
+      "date": "2026-09-27",
+      "artist": "Josh Pyke",
+      "title": "Middle Of The Hill",
+      "source": "DoubleJ",
+      "genres": [
+        "singer songwriter",
+        "australian",
+        "acoustic",
+        "indie"
+      ]
+    },
+    "1995315": {
+      "date": "2026-09-27",
+      "artist": "Slowdive",
+      "title": "When the Sun Hits",
+      "source": "LastFM~Mazzy Star",
+      "genres": [
+        "shoegaze",
+        "dream pop",
+        "slowcore"
+      ]
+    },
+    "86681057": {
+      "date": "2026-09-27",
+      "artist": "Clara Luciani",
+      "title": "La baie",
+      "source": "LastFM~Christine and the Queens",
+      "genres": [
+        "french pop",
+        "variété française",
+        "chanson",
+        "french indie pop"
+      ]
+    },
+    "3128848": {
+      "date": "2026-09-27",
+      "artist": "The Flaming Lips",
+      "title": "She Don't Use Jelly",
+      "source": "TheCurrent",
+      "genres": [
+        "neo-psychedelic"
+      ]
+    },
+    "458248193": {
+      "date": "2026-09-27",
+      "artist": "Tame Impala",
+      "title": "Loser",
+      "source": "TheCurrent",
+      "genres": [
+        "neo-psychedelic",
+        "indie"
+      ]
+    },
+    "527221024": {
+      "date": "2026-09-27",
+      "artist": "Sylvan Esso",
+      "title": "Hot Slob",
+      "source": "DoubleJ",
+      "genres": [
+        "electronic",
+        "electropop",
+        "synthpop",
+        "indie"
+      ]
+    },
+    "386928347": {
+      "date": "2026-09-27",
+      "artist": "Beach Bunny",
+      "title": "Clueless",
+      "source": "TheCurrent",
+      "genres": [
+        "indie rock",
+        "indie pop",
+        "pop rock",
+        "indie"
+      ]
+    },
+    "544596164": {
+      "date": "2026-09-27",
+      "artist": "Ruby Gill",
+      "title": "Carol / not carol",
+      "source": "DoubleJ",
+      "genres": [
+        "indie rock",
+        "indie pop",
+        "slowcoustic",
+        "australian"
+      ]
+    },
+    "36321263": {
+      "date": "2026-09-27",
+      "artist": "Berlin",
+      "title": "The Metro",
+      "source": "TheCurrent",
+      "genres": [
+        "new wave",
+        "80s",
+        "pop",
+        "synth pop"
+      ]
+    },
+    "494501610": {
+      "date": "2026-09-27",
+      "artist": "Baby Smith",
+      "title": "Take It Or Leave It",
+      "source": "DoubleJ",
+      "genres": [
+        "indie",
+        "australian"
+      ]
+    },
+    "23849551": {
+      "date": "2026-09-27",
+      "artist": "Cyndi Lauper",
+      "title": "Time After Time",
+      "source": "TheCurrent",
+      "genres": [
+        "pop",
+        "80s",
+        "female vocalists",
+        "new wave"
+      ]
+    },
+    "3259354": {
+      "date": "2026-09-27",
+      "artist": "Tricky",
+      "title": "Black Steel",
+      "source": "LastFM~Massive Attack",
+      "genres": [
+        "trip hop",
+        "downtempo"
+      ]
+    },
+    "4489180": {
+      "date": "2026-09-27",
+      "artist": "Mark Ronson & The Business Intl",
+      "title": "Glass Mountain Trust [Ft. D'Angelo]",
+      "source": "DoubleJ",
+      "genres": [
+        "electropop",
+        "pop",
+        "funk",
+        "electronica"
+      ]
+    },
+    "376840795": {
+      "date": "2026-09-27",
+      "artist": "Ripple Effect Band",
+      "title": "People from Maningrida",
+      "source": "DoubleJ",
+      "genres": [
+        "australia",
+        "reggae",
+        "reggae rock",
+        "australian"
+      ]
+    },
+    "512334708": {
+      "date": "2026-09-27",
+      "artist": "Angus & Julia Stone",
+      "title": "Big Jet Plane",
+      "source": "LastFM~Ben Howard",
+      "genres": [
+        "folk",
+        "indie",
+        "acoustic",
+        "australian"
+      ]
+    },
+    "289044713": {
+      "date": "2026-09-27",
+      "artist": "Charlie Cunningham",
+      "title": "Blindfold",
+      "source": "LastFM~Ben Howard",
+      "genres": [
+        "folk",
+        "singer songwriter",
+        "british",
+        "acoustic"
+      ]
+    },
+    "196456323": {
+      "date": "2026-09-27",
+      "artist": "Elvis Costello",
+      "title": "The Beat",
+      "source": "TheCurrent",
+      "genres": [
+        "power pop"
+      ]
+    },
+    "4098376": {
+      "date": "2026-09-27",
+      "artist": "Bruce Springsteen",
+      "title": "It's Hard To Be A Saint In The City",
+      "source": "TheCurrent",
+      "genres": [
+        "rock",
+        "classic rock",
+        "singer songwriter",
+        "folk"
+      ]
+    },
+    "82992053": {
+      "date": "2026-09-27",
+      "artist": "Space Carnival",
+      "title": "Queen of Cups",
+      "source": "WFUV-NYSlice2026",
+      "genres": [
+        "jam band",
+        "jazz fusion",
+        "progressive rock"
+      ]
+    },
+    "430746507": {
+      "date": "2026-09-27",
+      "artist": "Folk Bitch Trio",
+      "title": "Cathode Ray",
+      "source": "DoubleJ",
+      "genres": [
+        "folk",
+        "australian",
+        "garage rock",
+        "yearning"
+      ]
+    },
+    "3259366": {
+      "date": "2026-09-27",
+      "artist": "Tricky",
+      "title": "Suffocated Love",
+      "source": "LastFM~Massive Attack",
+      "genres": [
+        "trip hop",
+        "downtempo"
+      ]
+    },
+    "158064402": {
+      "date": "2026-09-27",
+      "artist": "Love Migrate",
+      "title": "Little Kid",
+      "source": "DoubleJ",
+      "genres": [
+        "neo-psychedelic"
+      ]
+    },
+    "546852150": {
+      "date": "2026-09-27",
+      "artist": "TV On The Radio",
+      "title": "Happy Idiot",
+      "source": "TheCurrent",
+      "genres": [
+        "indie rock",
+        "indie"
+      ]
+    },
+    "463839354": {
+      "date": "2026-09-27",
+      "artist": "Possible Humans",
+      "title": "Akimbo",
+      "source": "DoubleJ",
+      "genres": [
+        "jangle pop"
+      ]
+    },
+    "503009628": {
+      "date": "2026-09-27",
+      "artist": "Ullah",
+      "title": "I Want It All",
+      "source": "DoubleJ",
+      "genres": [
+        "folk rock",
+        "australian",
+        "indie folk"
+      ]
+    },
+    "21107011": {
+      "date": "2026-09-27",
+      "artist": "Curtis Mayfield",
+      "title": "Beautiful Brother Of Mine",
+      "source": "TheCurrent",
+      "genres": [
+        "classic soul",
+        "soul",
+        "motown",
+        "funk"
+      ]
+    },
+    "483421707": {
+      "date": "2026-09-27",
+      "artist": "Rahim Redcar",
+      "title": "Smalltown Boy",
+      "source": "LastFM~Christine and the Queens",
+      "genres": [
+        "synthpop",
+        "electropop",
+        "art pop",
+        "alt pop"
+      ]
+    },
+    "555939130": {
+      "date": "2026-09-27",
+      "artist": "HAAi & Echonomist",
+      "title": "Ignition",
+      "source": "DoubleJ",
+      "genres": []
+    },
+    "38924959": {
+      "date": "2026-09-27",
+      "artist": "Hope Sandoval & The Warm Inventions",
+      "title": "Around My Smile",
+      "source": "LastFM~Mazzy Star",
+      "genres": [
+        "dream pop",
+        "slowcore"
+      ]
+    },
+    "59740308": {
+      "date": "2026-09-27",
+      "artist": "Angus & Julia Stone",
+      "title": "The Start",
+      "source": "DoubleJ",
+      "genres": [
+        "folk",
+        "indie",
+        "acoustic",
+        "australian"
+      ]
+    },
+    "491706622": {
+      "date": "2026-09-27",
+      "artist": "Charlie Cunningham",
+      "title": "Bite",
+      "source": "LastFM~Ben Howard",
+      "genres": [
+        "folk",
+        "singer songwriter",
+        "british",
+        "acoustic"
+      ]
+    },
+    "273313488": {
+      "date": "2026-09-27",
+      "artist": "Scott & Charlene's Wedding",
+      "title": "Two Weeks",
+      "source": "DoubleJ",
+      "genres": [
+        "garage rock",
+        "indie rock",
+        "lo fi",
+        "grunge pop"
+      ]
+    },
+    "214192224": {
+      "date": "2026-09-27",
+      "artist": "Hope Sandoval & The Warm Inventions",
+      "title": "Blue Bird",
+      "source": "LastFM~Mazzy Star",
+      "genres": [
+        "dream pop",
+        "slowcore"
+      ]
+    },
+    "297133198": {
+      "date": "2026-09-27",
+      "artist": "Peter Gabriel",
+      "title": "Road to Joy (Bright-Side Mix)",
+      "source": "TheCurrent",
+      "genres": [
+        "art rock"
+      ]
+    },
+    "544910362": {
+      "date": "2026-09-27",
+      "artist": "Sheryl Crow",
+      "title": "Freedom Bus feat. Jesse Welles",
+      "source": "TheCurrent",
+      "genres": [
+        "female vocalists",
+        "rock",
+        "pop",
+        "singer songwriter"
+      ]
+    },
+    "382156725": {
+      "date": "2026-09-27",
+      "artist": "Rahim Redcar",
+      "title": "INS8DE OF ME",
+      "source": "LastFM~Christine and the Queens",
+      "genres": [
+        "synthpop",
+        "electropop",
+        "art pop",
+        "alt pop"
+      ]
+    },
+    "551002019": {
+      "date": "2026-09-27",
+      "artist": "Ghost Funk Orchestra",
+      "title": "Yours",
+      "source": "WFUV-NYSlice2026",
+      "genres": [
+        "neo-psychedelic",
+        "psychedelic rock"
+      ]
+    },
+    "454086306": {
+      "date": "2026-09-27",
+      "artist": "Big Thief",
+      "title": "Words",
+      "source": "TheCurrent",
+      "genres": [
+        "indie rock",
+        "indie folk",
+        "folk",
+        "folk rock"
+      ]
+    },
+    "33975650": {
+      "date": "2026-09-27",
+      "artist": "Dolly Parton",
+      "title": "Coat Of Many Colors",
+      "source": "TheCurrent",
+      "genres": [
+        "country",
+        "classic country"
+      ]
+    },
+    "124218": {
+      "date": "2026-09-27",
+      "artist": "Daft Punk",
+      "title": "Robot Rock",
+      "source": "DoubleJ",
+      "genres": [
+        "french house",
+        "electronic",
+        "electro"
+      ]
+    },
+    "3259372": {
+      "date": "2026-09-27",
+      "artist": "Tricky",
+      "title": "Feed Me",
+      "source": "LastFM~Massive Attack",
+      "genres": [
+        "trip hop",
+        "downtempo"
+      ]
+    },
+    "1798872": {
+      "date": "2026-09-27",
+      "artist": "The Strokes",
+      "title": "HARD TO EXPLAIN",
+      "source": "DoubleJ",
+      "genres": [
+        "garage rock",
+        "indie rock",
+        "alternative rock"
+      ]
+    },
+    "463172787": {
+      "date": "2026-09-27",
+      "artist": "Melody's Echo Chamber & El Michels Affair",
+      "title": "Daisy",
+      "source": "DoubleJ",
+      "genres": []
+    },
+    "201810385": {
+      "date": "2026-09-27",
+      "artist": "Dijon",
+      "title": "Many Times",
+      "source": "TheCurrent",
+      "genres": [
+        "alternative rnb",
+        "neo soul",
+        "rnb",
+        "bedroom pop"
+      ]
+    },
+    "507548792": {
+      "date": "2026-09-27",
+      "artist": "Death Cab For Cutie",
+      "title": "I Built You A Tower (a)",
+      "source": "DoubleJ",
+      "genres": [
+        "indie",
+        "indie rock",
+        "alternative",
+        "rock"
+      ]
+    },
+    "70794811": {
+      "date": "2026-09-27",
+      "artist": "The Black Keys",
+      "title": "Set You Free",
+      "source": "TheCurrent",
+      "genres": [
+        "blues rock",
+        "garage rock",
+        "modern blues",
+        "rock"
+      ]
+    },
+    "493209747": {
+      "date": "2026-09-27",
+      "artist": "Garbage",
+      "title": "Push It",
+      "source": "DoubleJ",
+      "genres": [
+        "rock",
+        "alternative",
+        "alternative rock",
+        "female vocalists"
+      ]
+    },
+    "529905495": {
+      "date": "2026-09-27",
+      "artist": "Jim James",
+      "title": "Wowed Out",
+      "source": "KCRW-MorningBecomesEclectic",
+      "genres": [
+        "folk",
+        "indie",
+        "dream pop",
+        "rock"
+      ]
+    },
+    "480173385": {
+      "date": "2026-09-27",
+      "artist": "The Dare",
+      "title": "All Night",
+      "source": "TheCurrent",
+      "genres": [
+        "electroclash"
+      ]
+    },
+    "66811205": {
+      "date": "2026-09-27",
+      "artist": "Tori Amos",
+      "title": "Caught a Lite Sneeze",
+      "source": "TheCurrent",
+      "genres": [
+        "singer-songwriter",
+        "art pop"
+      ]
+    },
+    "38924953": {
+      "date": "2026-09-27",
+      "artist": "Hope Sandoval & The Warm Inventions",
+      "title": "On the Low",
+      "source": "LastFM~Mazzy Star",
+      "genres": [
+        "dream pop",
+        "slowcore"
+      ]
+    },
+    "45391907": {
+      "date": "2026-09-27",
+      "artist": "Florence and the Machine",
+      "title": "What Kind of Man",
+      "source": "TheCurrent",
+      "genres": []
+    },
+    "486442661": {
+      "date": "2026-09-27",
+      "artist": "Tianna Esperanza",
+      "title": "Lewis",
+      "source": "TheCurrent",
+      "genres": [
+        "soul",
+        "jazz",
+        "pop",
+        "spoken word"
+      ]
+    },
+    "1906513": {
+      "date": "2026-09-27",
+      "artist": "Midnight Oil",
+      "title": "Read About It",
+      "source": "TheCurrent",
+      "genres": [
+        "surf rock"
+      ]
+    },
+    "543808474": {
+      "date": "2026-09-27",
+      "artist": "#1 Dads",
+      "title": "Already Something",
+      "source": "DoubleJ",
+      "genres": [
+        "australian",
+        "all",
+        "indie",
+        "indie rock"
+      ]
+    },
+    "453064293": {
+      "date": "2026-09-27",
+      "artist": "Dijon",
+      "title": "Yamaha",
+      "source": "TheCurrent",
+      "genres": [
+        "alternative rnb",
+        "neo soul",
+        "rnb",
+        "bedroom pop"
+      ]
+    },
+    "399111628": {
+      "date": "2026-09-27",
+      "artist": "Rahim Redcar",
+      "title": "It's ok to cry",
+      "source": "LastFM~Christine and the Queens",
+      "genres": [
+        "synthpop",
+        "electropop",
+        "art pop",
+        "alt pop"
       ]
     }
   },
