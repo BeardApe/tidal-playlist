@@ -1,5 +1,8 @@
-oor_stubru_2009 https://www.oorboekje.nl/Studio-Brussel/20-09-2026
-relisten_stubru_2009 https://www.relisten.be/playlists/studiobrussel/20-09-2026.html
-relisten_stubru_1309 https://www.relisten.be/playlists/studiobrussel/13-09-2026.html
-relisten_stubru_3105 https://www.relisten.be/playlists/studiobrussel/31-05-2026.html
-relisten_radio1_2109 https://www.relisten.be/playlists/radio1/21-09-2026.html
+rp_history https://api.radioparadise.com/api/get_history_v1?chan=1
+rp_nowplay https://api.radioparadise.com/api/now_playing?chan=1
+rp_block https://api.radioparadise.com/api/get_block?bitrate=0&info=true&chan=1
+soma_lush https://somafm.com/songs/lush.json
+soma_lush_hist https://somafm.com/lush/songhistory.html
+dj_search https://music.abcradio.net.au/api/v1/plays/search.json?station=doublej&limit=100&order=desc
+dj_recent https://music.abcradio.net.au/api/v1/plays/doublej/recent.json
+current_day https://www.thecurrent.org/playlist/the-current/2026-09-26
