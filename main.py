@@ -8,7 +8,10 @@ State (state.json in repo):
 import os
 import json
 import random
+import re
 import requests
+from urllib.parse import urlparse, parse_qs
+from bs4 import BeautifulSoup
 import tidalapi
 import pylast
 from datetime import datetime, timedelta, timezone
@@ -52,22 +55,17 @@ SOURCE_BLOCKED_GENRES = {
     "KEXP-NewThisWeek": {"rock", "punk", "garage", "grunge", "metal", "hardcore"},
 }
 
-# Prioriteitsbronnen: ALLE nieuwe tracks gaan erin (geen willekeurige steekproef),
-# maar enkel wat de laatste NEW_TRACK_DAYS dagen aan de bronlijst is toegevoegd.
-RECENCY_FILTER_PLAYLISTS = {"Nummers-2026", "Vuurland-latest"}
+RECENCY_FILTER_PLAYLISTS = set()
 
-# Officiele VRT-playlists rechtstreeks op Tidal: geen zoekwerk, exact de juiste versie.
-TIDAL_SOURCE_PLAYLISTS = [
-    ("ac2509ac-ac08-4d97-918c-9f433a82284f", "Duyster-Tidal"),
-    ("957d424c-766e-4ba6-b146-58db82885ae7", "Vuurland-Tidal"),
-    ("f7fd726b-82df-45a3-af30-3086602d3a3c", "Vuurland-Tidal-2"),
-]
+# Radiobronnen buiten Spotify en Tidal
+DUYSTER_URL  = "https://duyster-online.be/playlist.php"            # tracklist per uitzending
+VUURLAND_URL = "https://onlineradiobox.com/be/vuurland/playlist/"  # alles wat Vuurland speelde, 7 dagen
+VUURLAND_MAX_AGE_DAYS = 365   # van Vuurland enkel nummers die het voorbije jaar zijn uitgebracht
+BROWSER_UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/126 Safari/537.36"}
 
 SPOTIFY_PLAYLISTS = [
-    ("2PKUCBZT1plQsR0I7mQRIR", "Vuurland-latest"),
     ("57ZB4USGsQpJXS4CV19v1l", "Radio1-Top30"),
     ("2ZjYdntfOlz3SQFhqGXJJb", "Radio1-Wonderland"),
-    ("3BR9yVqXbaFZeSE87kvtoJ", "Nummers-2026"),
     ("7ro9wf8vuSLGxStaC8t8Rv", "NPR-AllSongsConsidered"),
     ("3iDApphZb5wI9w9ZFsftmO", "GuyGarvey-FinestHour"),
     ("1CnggIDx6I8wgHOnaTiyLI", "LateJunction-Official"),
@@ -330,31 +328,81 @@ def get_all_spotify_tracks(token: str) -> list[dict]:
     return all_tracks
 
 
-def get_tidal_source_tracks(session: tidalapi.Session) -> list[dict]:
-    """Nieuwe tracks uit officiele Tidal-playlists (Duyster, Vuurland)."""
-    cutoff = datetime.now(timezone.utc) - timedelta(days=NEW_TRACK_DAYS)
+def fetch_html(url: str) -> BeautifulSoup | None:
+    try:
+        r = requests.get(url, headers=BROWSER_UA, timeout=30)
+        r.raise_for_status()
+        return BeautifulSoup(r.text, "html.parser")
+    except Exception as e:
+        print(f"  [Web] {url} mislukt: {e}")
+        return None
+
+
+def get_duyster_tracks(state: dict) -> list[dict]:
+    """Alle nummers uit elke Duyster-uitzending die we nog niet verwerkten."""
+    latest = fetch_html(DUYSTER_URL)
+    if latest is None:
+        return []
+    pids = [int(m) for a in latest.find_all("a", href=True)
+            for m in re.findall(r"pid=(\d+)", a["href"])]
+    title = latest.title.get_text() if latest.title else ""
+    m = re.search(r"nr\.\s*(\d+)", title)
+    current = int(m.group(1)) if m else (max(pids) + 1 if pids else 0)
+    last_done = state.get("duyster_last_pid", current - 1)   # eerste keer: enkel de laatste uitzending
+
     result = []
-    for playlist_id, source_name in TIDAL_SOURCE_PLAYLISTS:
-        try:
-            items = session.playlist(playlist_id).tracks_paginated()
-            for t in items:
-                d = getattr(t, "date_added", None)
-                if d is not None and d.tzinfo is None:
-                    t.date_added = d.replace(tzinfo=timezone.utc)
-            dates = [t.date_added for t in items if getattr(t, "date_added", None)]
-            newest = max(dates).strftime("%Y-%m-%d") if dates else "onbekend"
-            recent = [t for t in items
-                      if getattr(t, "date_added", None) and t.date_added >= cutoff]
-            for t in recent:
-                result.append({
-                    "artist": t.artist.name, "artist_id": "", "title": t.name,
-                    "source": source_name, "tidal_track": t,
-                })
-            print(f"[Tidal-bron] {source_name}: {len(recent)} nieuw uit {len(items)} "
-                  f"(laatst bijgewerkt {newest})")
-        except Exception as e:
-            print(f"[Tidal-bron] Fout bij {source_name}: {e}")
+    for pid in range(last_done + 1, current + 1):
+        page = latest if pid == current else fetch_html(f"{DUYSTER_URL}?pid={pid}")
+        if page is None:
+            continue
+        n = 0
+        for a in page.find_all("a", href=True):
+            if "songs.php" not in a["href"]:
+                continue
+            q = parse_qs(urlparse(a["href"]).query)
+            artist, title_ = q.get("Artiest", [""])[0], q.get("Titel", [""])[0]
+            if artist and title_:
+                result.append({"artist": artist, "artist_id": "", "title": title_,
+                               "source": "Duyster"})
+                n += 1
+        print(f"[Duyster] uitzending nr. {pid}: {n} nummers")
+    if current:
+        state["duyster_last_pid"] = current
     return result
+
+
+def get_vuurland_tracks() -> list[dict]:
+    """Alles wat Vuurland de voorbije 7 dagen speelde (uniek). Filter op nieuw gebeurt later."""
+    seen_here, result = set(), []
+    for day in range(7):
+        url = VUURLAND_URL if day == 0 else f"{VUURLAND_URL}{day}"
+        page = fetch_html(url)
+        if page is None:
+            continue
+        for a in page.select("td.track_history_item a"):
+            text = a.get_text(" ", strip=True)
+            if " - " not in text:
+                continue
+            artist, title = [x.strip() for x in text.split(" - ", 1)]
+            key = normalize_key(artist, title)
+            if key in seen_here:
+                continue
+            seen_here.add(key)
+            result.append({"artist": artist.title() if artist.isupper() else artist,
+                           "artist_id": "", "title": title, "source": "Vuurland",
+                           "new_only": True})
+    print(f"[Vuurland] {len(result)} unieke nummers gespeeld in 7 dagen")
+    return result
+
+
+def release_age_days(track) -> int | None:
+    # Eerst de echte releasedatum van het album, pas daarna de datum waarop Tidal het online zette
+    d = getattr(getattr(track, "album", None), "release_date", None) or getattr(track, "tidal_release_date", None)
+    if d is None:
+        return None
+    if isinstance(d, datetime):
+        d = d.date()
+    return (datetime.now().date() - d).days
 
 
 def get_lastfm_discoveries(n_artists: int = 4, tracks_per_artist: int = 3) -> list[dict]:
@@ -481,8 +529,14 @@ def main():
 
     spotify_candidates = get_all_spotify_tracks(token) if token else []
     lastfm_candidates  = get_lastfm_discoveries()
-    # Tidal-bronnen gaan door dezelfde genre- en artiestfilters (opzoeken op naam)
-    lastfm_candidates += get_tidal_source_tracks(session)
+    # Radiobronnen gaan door dezelfde genre- en artiestfilters (opzoeken op naam)
+    old_checked = state.setdefault("checked_old", {})
+    radio = get_duyster_tracks(state) + get_vuurland_tracks()
+    radio = [r for r in radio
+             if normalize_key(r["artist"], r["title"]) not in seen
+             and normalize_key(r["artist"], r["title"]) not in old_checked]
+    print(f"[Radio] {len(radio)} nog niet bekende nummers van Duyster en Vuurland")
+    lastfm_candidates += radio
 
     # Genres bepalen per kandidaat: Spotify eerst, Last.fm-tags als fallback
     genre_map = {}
@@ -559,6 +613,13 @@ def main():
         if not tidal_track:
             print(f"  ✗ [{source}] {artist} — {title} (niet gevonden op Tidal)")
             continue
+
+        if candidate.get("new_only"):
+            age = release_age_days(tidal_track)
+            if age is None or age > VUURLAND_MAX_AGE_DAYS:
+                old_checked[key] = today
+                print(f"  – [{source}] {artist} — {title} (geen nieuwe release)")
+                continue
 
         tidal_id = str(tidal_track.id)
         if tidal_id in existing_tidal_ids:

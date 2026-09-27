@@ -1,6 +1,0 @@
-duyster_online 200 19000
-duyster_online_home 200 16983
-orb_vuurland 200 106997
-orb_radio1 200 77617
-relisten_stubru 200 58781
-vrtmax_duyster 200 44139
