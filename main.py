@@ -23,7 +23,7 @@ SPOTIFY_CLIENT_ID     = os.environ["SPOTIFY_CLIENT_ID"]
 SPOTIFY_CLIENT_SECRET = os.environ["SPOTIFY_CLIENT_SECRET"]
 
 MAX_AGE_DAYS   = 30
-NEW_TRACK_DAYS = 21
+NEW_TRACK_DAYS = 14   # prioriteitsbronnen: alles wat de laatste 14 dagen is toegevoegd
 
 STATE_FILE = Path("state.json")
 
@@ -52,7 +52,16 @@ SOURCE_BLOCKED_GENRES = {
     "KEXP-NewThisWeek": {"rock", "punk", "garage", "grunge", "metal", "hardcore"},
 }
 
-RECENCY_FILTER_PLAYLISTS = {"Nummers-2026"}
+# Prioriteitsbronnen: ALLE nieuwe tracks gaan erin (geen willekeurige steekproef),
+# maar enkel wat de laatste NEW_TRACK_DAYS dagen aan de bronlijst is toegevoegd.
+RECENCY_FILTER_PLAYLISTS = {"Nummers-2026", "Vuurland-latest"}
+
+# Officiele VRT-playlists rechtstreeks op Tidal: geen zoekwerk, exact de juiste versie.
+TIDAL_SOURCE_PLAYLISTS = [
+    ("ac2509ac-ac08-4d97-918c-9f433a82284f", "Duyster-Tidal"),
+    ("957d424c-766e-4ba6-b146-58db82885ae7", "Vuurland-Tidal"),
+    ("f7fd726b-82df-45a3-af30-3086602d3a3c", "Vuurland-Tidal-2"),
+]
 
 SPOTIFY_PLAYLISTS = [
     ("2PKUCBZT1plQsR0I7mQRIR", "Vuurland-latest"),
@@ -126,7 +135,7 @@ def purge_unwanted(session: tidalapi.Session, playlist_id: str, playlist_log: di
     Tracks zonder opgeslagen genres worden eenmalig opgezocht via Spotify.
     """
     try:
-        tracks = list(session.playlist(playlist_id).tracks())
+        tracks = list(session.playlist(playlist_id).tracks_paginated())
         genre_cache = {}
         genre_cache_tags = {}
         to_remove = []
@@ -269,6 +278,7 @@ def get_spotify_playlist_tracks(
 ) -> list[dict]:
     cutoff = datetime.now(timezone.utc) - timedelta(days=NEW_TRACK_DAYS)
     tracks = []
+    newest = ""
     url = f"https://api.spotify.com/v1/playlists/{playlist_id}/tracks"
     headers = {"Authorization": f"Bearer {token}"}
     params = {"limit": 100, "fields": "items(added_at,track(name,artists(name,id))),next"}
@@ -283,6 +293,7 @@ def get_spotify_playlist_tracks(
             track = item.get("track")
             if not track or not track.get("name") or not track.get("artists"):
                 continue
+            newest = max(newest, (item.get("added_at") or "")[:10])
             if only_recent:
                 try:
                     added_at = datetime.fromisoformat(item.get("added_at", "").replace("Z", "+00:00"))
@@ -299,6 +310,8 @@ def get_spotify_playlist_tracks(
         url = data.get("next")
         params = {}
 
+    if only_recent:
+        print(f"  [Spotify] {source_name}: laatst bijgewerkt op {newest or 'onbekend'}")
     return tracks
 
 
@@ -308,13 +321,40 @@ def get_all_spotify_tracks(token: str) -> list[dict]:
         only_recent = source_name in RECENCY_FILTER_PLAYLISTS
         try:
             tracks = get_spotify_playlist_tracks(token, playlist_id, source_name, only_recent)
-            sample = random.sample(tracks, min(20, len(tracks)))
+            sample = tracks if only_recent else random.sample(tracks, min(20, len(tracks)))
             all_tracks.extend(sample)
             label = f" (laatste {NEW_TRACK_DAYS}d)" if only_recent else ""
             print(f"[Spotify] {source_name}{label}: {len(sample)} gekozen uit {len(tracks)}")
         except Exception as e:
             print(f"[Spotify] Fout bij {source_name}: {e}")
     return all_tracks
+
+
+def get_tidal_source_tracks(session: tidalapi.Session) -> list[dict]:
+    """Nieuwe tracks uit officiele Tidal-playlists (Duyster, Vuurland)."""
+    cutoff = datetime.now(timezone.utc) - timedelta(days=NEW_TRACK_DAYS)
+    result = []
+    for playlist_id, source_name in TIDAL_SOURCE_PLAYLISTS:
+        try:
+            items = session.playlist(playlist_id).tracks_paginated()
+            for t in items:
+                d = getattr(t, "date_added", None)
+                if d is not None and d.tzinfo is None:
+                    t.date_added = d.replace(tzinfo=timezone.utc)
+            dates = [t.date_added for t in items if getattr(t, "date_added", None)]
+            newest = max(dates).strftime("%Y-%m-%d") if dates else "onbekend"
+            recent = [t for t in items
+                      if getattr(t, "date_added", None) and t.date_added >= cutoff]
+            for t in recent:
+                result.append({
+                    "artist": t.artist.name, "artist_id": "", "title": t.name,
+                    "source": source_name, "tidal_track": t,
+                })
+            print(f"[Tidal-bron] {source_name}: {len(recent)} nieuw uit {len(items)} "
+                  f"(laatst bijgewerkt {newest})")
+        except Exception as e:
+            print(f"[Tidal-bron] Fout bij {source_name}: {e}")
+    return result
 
 
 def get_lastfm_discoveries(n_artists: int = 4, tracks_per_artist: int = 3) -> list[dict]:
@@ -356,7 +396,7 @@ def search_tidal_track(session: tidalapi.Session, artist: str, title: str):
 
 def get_existing_tidal_ids(session: tidalapi.Session, playlist_id: str) -> set:
     try:
-        return {str(t.id) for t in session.playlist(playlist_id).tracks()}
+        return {str(t.id) for t in session.playlist(playlist_id).tracks_paginated()}
     except Exception as e:
         print(f"[Tidal] Kon bestaande tracks niet ophalen: {e}")
         return set()
@@ -365,7 +405,7 @@ def get_existing_tidal_ids(session: tidalapi.Session, playlist_id: str) -> set:
 def remove_old_tracks(session: tidalapi.Session, playlist_id: str, playlist_log: dict) -> dict:
     cutoff = (datetime.now() - timedelta(days=MAX_AGE_DAYS)).strftime("%Y-%m-%d")
     try:
-        tracks    = list(session.playlist(playlist_id).tracks())
+        tracks    = list(session.playlist(playlist_id).tracks_paginated())
         tidal_ids = [str(t.id) for t in tracks]
 
         def get_date(tid):
@@ -395,7 +435,7 @@ def backfill_playlist_log(session: tidalapi.Session, playlist_id: str, playlist_
     """
     try:
         enriched = 0
-        for track in session.playlist(playlist_id).tracks():
+        for track in session.playlist(playlist_id).tracks_paginated():
             tid   = str(track.id)
             entry = playlist_log.get(tid)
             if entry is None:
@@ -441,6 +481,8 @@ def main():
 
     spotify_candidates = get_all_spotify_tracks(token) if token else []
     lastfm_candidates  = get_lastfm_discoveries()
+    # Tidal-bronnen gaan door dezelfde genre- en artiestfilters (opzoeken op naam)
+    lastfm_candidates += get_tidal_source_tracks(session)
 
     # Genres bepalen per kandidaat: Spotify eerst, Last.fm-tags als fallback
     genre_map = {}
@@ -473,7 +515,7 @@ def main():
                 lastfm_genre_cache[name] = resolve_genres(spotify_g, name, tag_cache)
             c["genres"] = lastfm_genre_cache[name]
             if genres_blocked(c["genres"]) and not is_seed(name):
-                print(f"  [Genre] Last.fm-artiest geblokkeerd: {name} ({', '.join(c['genres'][:3])})")
+                print(f"  [Genre] geblokkeerd ({c['source']}): {name} ({', '.join(c['genres'][:3])})")
             else:
                 kept.append(c)
         lastfm_candidates = kept
@@ -513,7 +555,7 @@ def main():
             print(f"  – [{source}] {artist} — {title} (al toegevoegd op {date_seen})")
             continue
 
-        tidal_track = search_tidal_track(session, artist, title)
+        tidal_track = candidate.get("tidal_track") or search_tidal_track(session, artist, title)
         if not tidal_track:
             print(f"  ✗ [{source}] {artist} — {title} (niet gevonden op Tidal)")
             continue

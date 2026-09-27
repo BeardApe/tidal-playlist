@@ -256,15 +256,11 @@ function shortSrc(s) {
   return s.replace('LastFM~', '♪ ').replace('-latest','').replace('-Official','').replace('-JustAdded','');
 }
 
-function nextMonday() {
+function nextRun() {
   const now = new Date();
   const next = new Date(now);
-  const day = now.getUTCDay();
-  let add = (1 - day + 7) % 7;
-  if (add === 0 && (now.getUTCHours() > 5 || (now.getUTCHours() === 5 && now.getUTCMinutes() > 0))) add = 7;
-  if (add === 0) add = 0;
-  next.setUTCDate(now.getUTCDate() + add);
-  next.setUTCHours(5, 0, 0, 0);
+  next.setUTCHours(6, 0, 0, 0);
+  next.setUTCDate(now.getUTCDate() + ((2 - now.getUTCDay() + 7) % 7));
   if (next <= now) next.setUTCDate(next.getUTCDate() + 7);
   return next;
 }
@@ -313,7 +309,7 @@ function renderStats() {
     <div class="stat"><div class="stat-n">${Math.max(0, total - cur)}</div><div class="stat-l">Uitgerouleerd</div></div>
     <div class="stat"><div class="stat-n">${sources.size}</div><div class="stat-l">Bronnen</div></div>`;
 
-  const nm = nextMonday();
+  const nm = nextRun();
   const fmt = nm.toLocaleDateString('nl-BE', { weekday: 'long', day: 'numeric', month: 'long', timeZone: 'Europe/Brussels' });
   const time = nm.toLocaleTimeString('nl-BE', { hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Brussels' });
   document.getElementById('next-run').innerHTML =
