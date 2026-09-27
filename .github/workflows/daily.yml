@@ -3,7 +3,10 @@ name: Dagelijkse Tidal Playlist Update
 on:
   schedule:
     - cron: "0 6 * * 2"   # elke dinsdag om 06:00 UTC (08:00 Belgische tijd), na Duyster op maandagavond
-  workflow_dispatch:        # ook handmatig te starten
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["main.py"]   # nieuwe code = meteen een run        # ook handmatig te starten
 
 permissions:
   contents: write           # nodig om state.json terug te committen

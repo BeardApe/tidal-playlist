@@ -1,0 +1,32 @@
+name: Probe bronnen
+
+on:
+  push:
+    paths: ["probe/urls.txt"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Pagina's ophalen
+        run: |
+          mkdir -p probe/out
+          while read -r name url; do
+            [ -z "$name" ] && continue
+            code=$(curl -sL -m 30 -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/126 Safari/537.36" \
+                   -o "probe/out/$name.html" -w "%{http_code}" "$url" || echo "ERR")
+            echo "$name $code $(wc -c < probe/out/$name.html 2>/dev/null)" >> probe/out/status.txt
+          done < probe/urls.txt
+          cat probe/out/status.txt
+      - name: Resultaat opslaan
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add probe/out
+          git commit -m "chore: probe resultaten [skip ci]" || true
+          git push
