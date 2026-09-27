@@ -14,7 +14,8 @@ from urllib.parse import urlparse, parse_qs
 from bs4 import BeautifulSoup
 import tidalapi
 import pylast
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timedelta, timezone, date
+from zoneinfo import ZoneInfo
 from pathlib import Path
 
 TIDAL_PLAYLIST_ID     = os.environ["TIDAL_PLAYLIST_ID"]
@@ -41,7 +42,7 @@ BLOCKED_GENRES = {
 }
 
 # Bronnen die zijn stopgezet: bestaande tracks hiervan worden gepurged
-BLOCKED_SOURCES = {"FIP-Live"}
+BLOCKED_SOURCES = {"FIP-Live", "Vuurland-zender"}
 
 # Artiesten die nooit in de playlist mogen komen (kleine letters)
 BLOCKED_ARTISTS = {
@@ -57,10 +58,16 @@ SOURCE_BLOCKED_GENRES = {
 
 RECENCY_FILTER_PLAYLISTS = set()
 
-# Radiobronnen buiten Spotify en Tidal
-DUYSTER_URL  = "https://duyster-online.be/playlist.php"            # tracklist per uitzending
-VUURLAND_URL = "https://onlineradiobox.com/be/vuurland/playlist/"  # alles wat Vuurland speelde, 7 dagen
-VUURLAND_MAX_AGE_DAYS = 365   # van Vuurland enkel nummers die het voorbije jaar zijn uitgebracht
+# Radioprogramma's: de volledige tracklist van elke uitzending.
+# Bron: relisten.be, dat de officiele VRT-afspeellijst per dag bewaart (dezelfde als in VRT MAX).
+# (naam, zender op relisten, weekdag 0=maandag, beginuur, einduur)
+RADIO_PROGRAMS = [
+    ("Duyster",  "radio1",        0, 22, 24),   # Radio 1, maandag 22-24u
+    ("Vuurland", "studiobrussel", 6, 20, 22),   # Studio Brussel, zondag 20-22u
+]
+RELISTEN_URL = "https://www.relisten.be/playlists/{station}/{d:%d-%m-%Y}.html"
+PROGRAM_LOOKBACK_DAYS = 14
+BRUSSELS = ZoneInfo("Europe/Brussels")
 BROWSER_UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/126 Safari/537.36"}
 
 SPOTIFY_PLAYLISTS = [
@@ -338,71 +345,44 @@ def fetch_html(url: str) -> BeautifulSoup | None:
         return None
 
 
-def get_duyster_tracks(state: dict) -> list[dict]:
-    """Alle nummers uit elke Duyster-uitzending die we nog niet verwerkten."""
-    latest = fetch_html(DUYSTER_URL)
-    if latest is None:
-        return []
-    pids = [int(m) for a in latest.find_all("a", href=True)
-            for m in re.findall(r"pid=(\d+)", a["href"])]
-    title = latest.title.get_text() if latest.title else ""
-    m = re.search(r"nr\.\s*(\d+)", title)
-    current = int(m.group(1)) if m else (max(pids) + 1 if pids else 0)
-    last_done = state.get("duyster_last_pid", current - 1)   # eerste keer: enkel de laatste uitzending
-
+def get_program_tracks(state: dict) -> list[dict]:
+    """Alle nummers uit uitzendingen van Duyster en Vuurland die we nog niet verwerkten."""
+    done = state.setdefault("programs_done", {})
+    now = datetime.now(BRUSSELS)
     result = []
-    for pid in range(last_done + 1, current + 1):
-        page = latest if pid == current else fetch_html(f"{DUYSTER_URL}?pid={pid}")
-        if page is None:
-            continue
-        n = 0
-        for a in page.find_all("a", href=True):
-            if "songs.php" not in a["href"]:
+    for name, station, weekday, start, end in RADIO_PROGRAMS:
+        done_dates = set(done.get(name, []))
+        for back in range(PROGRAM_LOOKBACK_DAYS, -1, -1):
+            d = now.date() - timedelta(days=back)
+            if d.weekday() != weekday or d.isoformat() in done_dates:
                 continue
-            q = parse_qs(urlparse(a["href"]).query)
-            artist, title_ = q.get("Artiest", [""])[0], q.get("Titel", [""])[0]
-            if artist and title_:
-                result.append({"artist": artist, "artist_id": "", "title": title_,
-                               "source": "Duyster"})
+            end_dt = datetime(d.year, d.month, d.day, tzinfo=BRUSSELS) + timedelta(hours=end, minutes=30)
+            if end_dt > now:
+                continue   # uitzending nog niet voorbij, of Relisten nog niet bijgewerkt
+            page = fetch_html(RELISTEN_URL.format(station=station, d=d))
+            if page is None:
+                continue
+            n = 0
+            for li in page.select('li[itemprop="track"]'):
+                t_el = li.select_one("small[title]")
+                a_el = li.select_one('[itemprop="byArtist"]')
+                n_el = li.select_one('[itemprop="name"]')
+                if not (t_el and a_el and n_el):
+                    continue
+                try:
+                    played = datetime.strptime(t_el["title"], "%d-%m-%Y %H:%M:%S")
+                except ValueError:
+                    continue
+                if played.date() != d or not (start <= played.hour < end):
+                    continue
+                result.append({"artist": a_el.get_text(strip=True), "artist_id": "",
+                               "title": n_el.get_text(strip=True), "source": name})
                 n += 1
-        print(f"[Duyster] uitzending nr. {pid}: {n} nummers")
-    if current:
-        state["duyster_last_pid"] = current
+            print(f"[{name}] uitzending {d:%d-%m-%Y}: {n} nummers")
+            if n:
+                done_dates.add(d.isoformat())
+        done[name] = sorted(done_dates)[-20:]
     return result
-
-
-def get_vuurland_tracks() -> list[dict]:
-    """Alles wat Vuurland de voorbije 7 dagen speelde (uniek). Filter op nieuw gebeurt later."""
-    seen_here, result = set(), []
-    for day in range(7):
-        url = VUURLAND_URL if day == 0 else f"{VUURLAND_URL}{day}"
-        page = fetch_html(url)
-        if page is None:
-            continue
-        for a in page.select("td.track_history_item a"):
-            text = a.get_text(" ", strip=True)
-            if " - " not in text:
-                continue
-            artist, title = [x.strip() for x in text.split(" - ", 1)]
-            key = normalize_key(artist, title)
-            if key in seen_here:
-                continue
-            seen_here.add(key)
-            result.append({"artist": artist.title() if artist.isupper() else artist,
-                           "artist_id": "", "title": title, "source": "Vuurland",
-                           "new_only": True})
-    print(f"[Vuurland] {len(result)} unieke nummers gespeeld in 7 dagen")
-    return result
-
-
-def release_age_days(track) -> int | None:
-    # Eerst de echte releasedatum van het album, pas daarna de datum waarop Tidal het online zette
-    d = getattr(getattr(track, "album", None), "release_date", None) or getattr(track, "tidal_release_date", None)
-    if d is None:
-        return None
-    if isinstance(d, datetime):
-        d = d.date()
-    return (datetime.now().date() - d).days
 
 
 def get_lastfm_discoveries(n_artists: int = 4, tracks_per_artist: int = 3) -> list[dict]:
@@ -512,6 +492,20 @@ def main():
     seen         = state["seen"]
     playlist_log = state["playlist_log"]
 
+    if not state.get("migrated_vuurland_program"):
+        # Eenmalig: wat van de 24/7-zender Vuurland kwam, markeren zodat de purge het verwijdert.
+        # Die nummers mogen via het programma Vuurland opnieuw binnenkomen.
+        for tid, e in playlist_log.items():
+            if isinstance(e, dict) and e.get("source") == "Vuurland":
+                e["source"] = "Vuurland-zender"
+        for k in [k for k, e in seen.items() if isinstance(e, dict) and e.get("source") == "Vuurland"]:
+            del seen[k]
+        state.pop("checked_old", None)
+        state.pop("duyster_last_pid", None)
+        state.setdefault("programs_done", {})["Duyster"] = ["2026-09-14"]   # al verwerkt via duyster-online
+        state["migrated_vuurland_program"] = True
+
+
     session = load_tidal_session()
     print("[Tidal] Ingelogd ✓\n")
 
@@ -530,11 +524,8 @@ def main():
     spotify_candidates = get_all_spotify_tracks(token) if token else []
     lastfm_candidates  = get_lastfm_discoveries()
     # Radiobronnen gaan door dezelfde genre- en artiestfilters (opzoeken op naam)
-    old_checked = state.setdefault("checked_old", {})
-    radio = get_duyster_tracks(state) + get_vuurland_tracks()
-    radio = [r for r in radio
-             if normalize_key(r["artist"], r["title"]) not in seen
-             and normalize_key(r["artist"], r["title"]) not in old_checked]
+    radio = get_program_tracks(state)
+    radio = [r for r in radio if normalize_key(r["artist"], r["title"]) not in seen]
     print(f"[Radio] {len(radio)} nog niet bekende nummers van Duyster en Vuurland")
     lastfm_candidates += radio
 
@@ -613,13 +604,6 @@ def main():
         if not tidal_track:
             print(f"  ✗ [{source}] {artist} — {title} (niet gevonden op Tidal)")
             continue
-
-        if candidate.get("new_only"):
-            age = release_age_days(tidal_track)
-            if age is None or age > VUURLAND_MAX_AGE_DAYS:
-                old_checked[key] = today
-                print(f"  – [{source}] {artist} — {title} (geen nieuwe release)")
-                continue
 
         tidal_id = str(tidal_track.id)
         if tidal_id in existing_tidal_ids:
