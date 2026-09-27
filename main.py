@@ -29,6 +29,7 @@ SPOTIFY_CLIENT_SECRET = os.environ["SPOTIFY_CLIENT_SECRET"]
 MAX_AGE_DAYS   = 30
 NEW_TRACK_DAYS = 14   # prioriteitsbronnen: alles wat de laatste 14 dagen is toegevoegd
 
+# Status wordt na elke run opgeslagen in state.json, de log in run.log
 STATE_FILE = Path("state.json")
 
 BLOCKED_GENRES = {
