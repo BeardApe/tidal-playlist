@@ -42,7 +42,7 @@ BLOCKED_GENRES = {
 }
 
 # Bronnen die zijn stopgezet: bestaande tracks hiervan worden gepurged
-BLOCKED_SOURCES = {"FIP-Live", "Vuurland-zender"}
+BLOCKED_SOURCES = {"FIP-Live", "Vuurland-zender", "KEXP-NewThisWeek"}
 
 # Artiesten die nooit in de playlist mogen komen (kleine letters)
 BLOCKED_ARTISTS = {
@@ -79,7 +79,6 @@ SPOTIFY_PLAYLISTS = [
     ("3iDApphZb5wI9w9ZFsftmO", "GuyGarvey-FinestHour"),
     ("1CnggIDx6I8wgHOnaTiyLI", "LateJunction-Official"),
     ("3hFEXeWLaMQdBvdd32KwXR", "LaurenLaverne-JustAdded"),
-    ("60VayqPuLXaftoj2Wrqpti", "KEXP-NewThisWeek"),
     ("4t9mOf6WlfO8oK1PcVzPRM", "WFUV-NYSlice2026"),
     ("2udv9AERTo3Um2WIPZpwBi", "KCRW-MorningBecomesEclectic"),
     ("3hg5HCEvit4oqMDuBuHh4C", "WXPN-BestNewMusic"),
