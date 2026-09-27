@@ -68,6 +68,8 @@ RADIO_PROGRAMS = [
 RELISTEN_URL = "https://www.relisten.be/playlists/{station}/{d:%d-%m-%Y}.html"
 PROGRAM_LOOKBACK_DAYS = 14
 BRUSSELS = ZoneInfo("Europe/Brussels")
+# Internationale zenders die 24/7 draaien: per run een willekeurige greep uit wat recent speelde
+STATION_PICKS_PER_RUN = 25
 BROWSER_UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/126 Safari/537.36"}
 
 SPOTIFY_PLAYLISTS = [
@@ -385,6 +387,92 @@ def get_program_tracks(state: dict) -> list[dict]:
     return result
 
 
+def fetch_json(url: str):
+    try:
+        r = requests.get(url, headers=BROWSER_UA, timeout=30)
+        r.raise_for_status()
+        return r.json()
+    except Exception as e:
+        print(f"  [Web] {url} mislukt: {e}")
+        return None
+
+
+def _unescape(s: str) -> str:
+    try:
+        return json.loads(f'"{s}"')
+    except Exception:
+        return s
+
+
+def station_radio_paradise() -> list[tuple[str, str]]:
+    b = fetch_json("https://api.radioparadise.com/api/get_block?bitrate=0&info=true&chan=1")
+    return [(s["artist"], s["title"]) for s in (b or {}).get("song", {}).values()
+            if s.get("artist") and s.get("title")]
+
+
+def station_somafm_lush() -> list[tuple[str, str]]:
+    d = fetch_json("https://somafm.com/songs/lush.json")
+    return [(s["artist"], s["title"]) for s in (d or {}).get("songs", [])
+            if s.get("artist") and s.get("title")]
+
+
+def station_double_j() -> list[tuple[str, str]]:
+    out = []
+    for offset in (0, 100, 200):
+        d = fetch_json("https://music.abcradio.net.au/api/v1/plays/search.json"
+                       f"?station=doublej&limit=100&order=desc&offset={offset}")
+        for it in (d or {}).get("items", []):
+            s = it.get("summary") or {}
+            if s.get("artist") and s.get("title"):
+                out.append((s["artist"], s["title"]))
+    return out
+
+
+def station_the_current() -> list[tuple[str, str]]:
+    out = []
+    pat = re.compile(r'"played_at":"[^"]+","additional_text":[^,]*,"song":\{"song_id":\d+,'
+                     r'"title":"([^"]*)"[^{}]*?"artist":"([^"]*)"')
+    for back in (1, 2):
+        d = datetime.now(BRUSSELS).date() - timedelta(days=back)
+        try:
+            r = requests.get(f"https://www.thecurrent.org/playlist/the-current/{d.isoformat()}",
+                             headers=BROWSER_UA, timeout=30)
+            r.raise_for_status()
+        except Exception as e:
+            print(f"  [Web] The Current {d} mislukt: {e}")
+            continue
+        html = r.text.replace('\\"', '"')
+        out += [(_unescape(a), _unescape(t)) for t, a in pat.findall(html)]
+    return out
+
+
+STATIONS = [
+    ("RadioParadise-Mellow", station_radio_paradise),
+    ("SomaFM-Lush",          station_somafm_lush),
+    ("DoubleJ",              station_double_j),
+    ("TheCurrent",           station_the_current),
+]
+
+
+def get_station_tracks(seen: dict) -> list[dict]:
+    result = []
+    for name, fn in STATIONS:
+        try:
+            plays = fn()
+        except Exception as e:
+            print(f"[{name}] Fout: {e}")
+            continue
+        uniq = {}
+        for artist, title in plays:
+            key = normalize_key(artist, title)
+            if key not in seen and key not in uniq:
+                uniq[key] = (artist, title)
+        picks = random.sample(list(uniq.values()), min(STATION_PICKS_PER_RUN, len(uniq)))
+        print(f"[{name}] {len(plays)} keer gespeeld, {len(uniq)} nieuw voor jou, {len(picks)} gekozen")
+        result += [{"artist": a, "artist_id": "", "title": t, "source": name} for a, t in picks]
+    return result
+
+
 def get_lastfm_discoveries(n_artists: int = 4, tracks_per_artist: int = 3) -> list[dict]:
     network = pylast.LastFMNetwork(
         api_key=LASTFM_API_KEY, api_secret=LASTFM_API_SECRET,
@@ -524,7 +612,7 @@ def main():
     spotify_candidates = get_all_spotify_tracks(token) if token else []
     lastfm_candidates  = get_lastfm_discoveries()
     # Radiobronnen gaan door dezelfde genre- en artiestfilters (opzoeken op naam)
-    radio = get_program_tracks(state)
+    radio = get_program_tracks(state) + get_station_tracks(seen)
     radio = [r for r in radio if normalize_key(r["artist"], r["title"]) not in seen]
     print(f"[Radio] {len(radio)} nog niet bekende nummers van Duyster en Vuurland")
     lastfm_candidates += radio
