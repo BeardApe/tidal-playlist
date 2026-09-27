@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<HTML lang="nl">
+<HEAD>
+	<TITLE>Oorboekje - Studio Brussel</TITLE>
+	<META charset="UTF-8">
+	<META name="keywords" content="radiogids, radio, gids, radiobode, bode, programma, programmas, programmering, programmagids, uitzendschema, programmatie, frequentie, frequenties, luisteren, streams, internetradio">	
+	<META name="description" content="De radiogids van Nederland met de programmering van alle landelijke en regionale radiostations.">
+	<META name="Title" content="oorboekje.nl - Het spoorboekje voor de radio">
+	<META name="language" content="Dutch">
+	<META name="robot" content="index,follow">
+	<META name="revisit-after" content="1 day">
+	<LINK rel="shortcut icon" href="/favicon.ico">
+	<LINK rel="manifest" href="/manifest.json">
+	<LINK rel="icon" href="/img/logo32x32.png" sizes="32x32" type="image/png">
+	<LINK rel="icon" href="/img/logo144x144.png" sizes="144x144" type="image/png">
+	<LINK rel="apple-touch-icon" href="/img/logo57x57.png">
+	<LINK rel="alternate" type="application/rss+xml" title="Oorboekje - bijzonderheden" href="/bijzonderheden">
+	<META name="application-name" content="oorboekje.nl - Het spoorboekje voor de radio">
+	<META name="msapplication-TileColor" content="#ffffff">
+	<META name="msapplication-TileImage" content="/img/logo144x144.png">
+	<META name="viewport" content="width=device-width, initial-scale=1.0"> 	
+
+	<LINK href="/stylesheet.css?rev=1780600158" type="text/css" rel="stylesheet">	
+</HEAD>
+
+<BODY>
+<DIV class="kopContainer">
+
+<A href="/" title="voorpagina" class="kopLogoLinkVoorpagina"></A>
+
+
+
+<DIV class="menuContainer" id="menuContainer">
+	<DIV class="dropdownGroep">
+		<SPAN class="dropdownItemVorigeVolgende">&nbsp;</SPAN>
+		<DIV class="dropdownKopEnContainer">
+			<INPUT id="dropdownDatumGeopend" type="checkbox">
+			<LABEL for="dropdownDatumGeopend" class="dropdownItem dropdownKop dropdownItemGeselecteerd">
+				radiogids &#9660;
+			</LABEL>
+		<DIV class="dropdownItemsContainer">
+				<A href="/radiogids/25-09-2026" class="dropdownItem dropdownItemDatum" title="programmering vrijdag 25 september">
+					vrijdag 25 september
+				</A>
+				<A href="/radiogids/26-09-2026" class="dropdownItem dropdownItemDatum" title="programmering zaterdag 26 september">
+					zaterdag 26 september
+				</A>
+				<A href="/radiogids/27-09-2026" class="dropdownItem dropdownItemDatum dropdownItemGeselecteerd" title="programmering zondag 27 september">
+					zondag 27 september
+				</A>
+				<A href="/radiogids/28-09-2026" class="dropdownItem dropdownItemDatum" title="programmering maandag 28 september">
+					maandag 28 september
+				</A>
+				<A href="/radiogids/29-09-2026" class="dropdownItem dropdownItemDatum" title="programmering dinsdag 29 september">
+					dinsdag 29 september
+				</A>
+				<A href="/radiogids/30-09-2026" class="dropdownItem dropdownItemDatum" title="programmering woensdag 30 september">
+					woensdag 30 september
+				</A>
+				<A href="/radiogids/01-10-2026" class="dropdownItem dropdownItemDatum" title="programmering donderdag 1 oktober">
+					donderdag 1 oktober
+				</A>
+			</DIV>
+		</DIV>
+	<SPAN class="navVorigeVolgende">&nbsp;</SPAN>
+	</DIV>
+</DIV> <!-- menuContainer -->
+</DIV> <!-- kopContainer -->
+<SCRIPT>
+<!--
+var inputDatumGeopend      = document.getElementById('dropdownDatumGeopend');
+
+/* sluit dropdown wanneer ernaast geklikt wordt */
+var menuContainer = document.getElementById('menuContainer');
+window.onclick = (evt) =>
+{
+	const eventPath = evt.composedPath();
+	if (!eventPath.includes(menuContainer))
+	{
+		inputDatumGeopend.checked = false;
+	}
+};
+
+-->
+</SCRIPT>
+
+<H1 class="pnZendernaamLogoEnNaam" style="background-image: url('/zl32x32/stubru23.png');">Studio Brussel</H1>
+<BR>
+
+<DIV class="stLinkerKolom">
+	<AUDIO controls  src="https://icecast.vrtcdn.be/stubru.aac?1790502230" style="width:100%; margin-bottom: 10px" onplay="AfspelenGestart()" onerror="FoutBijLadenVanAudio(event)">
+		<P style="margin-bottom:20px">Helaas kan de stream van Studio Brussel niet in uw browser afgespeeld worden. 
+			<A href="https://icecast.vrtcdn.be/stubru.aac">Klik hier om de stream van Studio Brussel te openen in een ander programma.</A>
+		</P>
+	</AUDIO>
+	
+	<SCRIPT>
+	<!--
+	function AfspelenGestart()
+	{
+		document.title = "Studio Brussel luisteren via oorboekje.nl";
+	}
+	
+	function FoutBijLadenVanAudio(e) 
+	{
+		var errorCode = e.currentTarget.error.code;
+		document.getElementById("divFoutmelding").innerHTML="<P>Helaas kan de stream van Studio Brussel niet in uw browser afgespeeld worden. <A href=\"https://icecast.vrtcdn.be/stubru.aac\">Klik hier om de stream van Studio Brussel te openen in een ander programma.<\/A> <IMG src=\"/streamMislukt.php?zenderNr=104&amp;errorCode="+errorCode+"\" style=\"display:none\" width=0 height=0/> <BR> <BR> <\/P>";
+	}
+	-->
+	</SCRIPT>
+	
+	<DIV id="divFoutmelding"> </DIV>
+	<!-- programmablok begin -->
+	<DIV class="pgMenuKop">
+		<H2 id="programmering">Programmering Studio Brussel</H2>
+		<A href="/Studio-Brussel/19-09-2026#programmering" class="navVorigeVolgende" title="zaterdag 19 september 2026">&lt; </A>
+		<SPAN id="divDatumMetSelectie">
+			<INPUT type=date id="datumSelectiePicker" min="2026-07-28" max="2026-10-01" value="2026-09-20" class="datumSelectiePicker">
+			<B>zondag 20 september 2026</B> <SPAN id="selectDatumDropdown" class="selectDatumDropdown">▼</SPAN>
+		</SPAN>
+		<A href="/Studio-Brussel/21-09-2026#programmering" class="navVorigeVolgende" title="maandag 21 september 2026"> &gt;</A>
+	</DIV>
+	
+	<SCRIPT>
+	<!--
+	var divDatum = document.getElementById('divDatumMetSelectie');
+	var datumPicker = document.getElementById('datumSelectiePicker');
+	var selectDatumDropdown = document.getElementById('selectDatumDropdown');
+	
+	selectDatumDropdown.style = "visibility: visible";
+	
+	divDatum.onclick = function()
+	{
+	datumPicker.showPicker();
+	};
+	divDatum.style = "cursor:pointer";
+	
+	datumPicker.onchange = function()
+	{
+	var geselecteerdeDatumYMD = datumPicker.value;
+	if (geselecteerdeDatumYMD.length == 10)
+		{
+			var geselecteerdeDatumDMY = geselecteerdeDatumYMD.substring(8) + '-' + geselecteerdeDatumYMD.substring(5,8) + geselecteerdeDatumYMD.substring(0,4)
+			location = '/Studio-Brussel/'+geselecteerdeDatumDMY+'#programmering';
+		}
+	}
+-->
+</SCRIPT>
+
+	<DIV class="pgMenuInhoud programmeringZender" id="programmeringBlok">
+		<DIV class="pgProgramma pgProgrammaNonstop" id="Studio-Brussel-zo-03:00" data-begin="1789866000" data-eind="1789880400">
+			<H4 class="pgProgTijdEnTitel">
+				03:00 Life is Music&nbsp;<IMG src="/nonstop.gif" alt="Non-stop muziek" title="Non-stop muziek" class="kenmerken" width="10" height="10">
+			</H4>
+		</DIV>
+		<DIV class="pgProgramma" id="Studio-Brussel-zo-07:00" data-begin="1789880400" data-eind="1789891200">
+			<H4 class="pgProgTijdEnTitel">
+				07:00 De Tijdloze op Zondag
+			</H4>
+			<P class="pgProgOmschrijving">
+				De beste tijdloze muziek.
+			</P>
+			<P class="pgProgPresentatie">
+				Presentatie: Dave Peters.
+			</P>
+		</DIV>
+		<DIV class="pgProgramma" id="Studio-Brussel-zo-10:00" data-begin="1789891200" data-eind="1789905600">
+			<H4 class="pgProgTijdEnTitel">
+				10:00 Het Weekend van Studio Brussel
+			</H4>
+			<P class="pgProgPresentatie">
+				Presentatie: Margaux Amant.
+			</P>
+		</DIV>
+		<DIV class="pgProgramma" id="Studio-Brussel-zo-14:00" data-begin="1789905600" data-eind="1789920000">
+			<H4 class="pgProgTijdEnTitel">
+				14:00 Het Weekend van Studio Brussel
+			</H4>
+			<P class="pgProgPresentatie">
+				Presentatie: Robbe Van Dijck.
+			</P>
+		</DIV>
+		<DIV class="pgProgramma" id="Studio-Brussel-zo-18:00" data-begin="1789920000" data-eind="1789927200">
+			<H4 class="pgProgTijdEnTitel">
+				18:00 De Afrekening Replay
+			</H4>
+			<P class="pgProgOmschrijving">
+				Muzieklijst, gebaseerd op stemmen van luisteraars.
+			</P>
+		</DIV>
+		<DIV class="pgProgramma" id="Studio-Brussel-zo-20:00" data-begin="1789927200" data-eind="1789934400">
+			<H4 class="pgProgTijdEnTitel">
+				20:00 Vuurland
+			</H4>
+			<P class="pgProgOmschrijving">
+				Melancholische muziek. Van bekende wegdromers tot nieuwe openbaringen.
+			</P>
+			<P class="pgProgPresentatie">
+				Presentatie: Joris Brys.
+			</P>
+		</DIV>
+		<DIV class="pgProgramma pgProgrammaNonstop" id="Studio-Brussel-zo-22:00" data-begin="1789934400" data-eind="1789963200">
+			<H4 class="pgProgTijdEnTitel">
+				22:00 - 06:00 Life is Music&nbsp;<IMG src="/nonstop.gif" alt="Non-stop muziek" title="Non-stop muziek" class="kenmerken" width="10" height="10">
+			</H4>
+		</DIV>
+	</DIV>
+	<!-- programmablok eind -->
+	
+	<SCRIPT>
+	<!--
+	function MarkeerHuidigeProgramma()
+	{
+		var nu = (Date.now() / 1000);
+		var programmeringBlok = document.getElementById("programmeringBlok");
+		for(var i=0; i<programmeringBlok.children.length; i++)
+		{
+			var programma = programmeringBlok.children[i];
+			var programmaBegin = programma.getAttribute("data-begin");
+			var programmaEind = programma.getAttribute("data-eind");
+			
+			programma.classList.remove("pgProgrammaHuidigeProgramma");
+			if ( (programmaBegin <= nu) && (programmaEind >= nu) )
+			{
+				programma.classList.add("pgProgrammaHuidigeProgramma");
+			}
+		}
+		
+		var nu = new Date();
+		var aantalMinutenTotHeleOfHalveUur = 30 - (nu.getMinutes() % 30);
+		var aantalSecondenTotHeleOfHalveUur = (aantalMinutenTotHeleOfHalveUur * 60) - nu.getSeconds();
+		var aantalMillisecondenTotHeleOfHalveUur = aantalSecondenTotHeleOfHalveUur * 1000;
+		setTimeout(MarkeerHuidigeProgramma, aantalMillisecondenTotHeleOfHalveUur);
+	}
+	
+	MarkeerHuidigeProgramma();
+	window.onpageshow = MarkeerHuidigeProgramma;
+	window.onfocus    = MarkeerHuidigeProgramma;
+	-->
+	</SCRIPT>
+	
+
+	<DIV class="vpMenuKop">
+		<H2>Omschrijving</H2>
+	</DIV>
+	<DIV class="vpMenuInhoud">
+		Studio Brussel is het Vlaamse, publieke radiostation voor alternatieve muziek.
+	</DIV>
+	<DIV class="vpMenuKop">
+		<H2>Ontvangstmogelijkheden</H2>
+	</DIV>
+	<DIV class="vpMenuInhoud">
+		<TABLE>
+			<TR>
+				<TD class="ontvangstTitel ontvangstTitelFM"><P>FM</P></TD>
+				<TD class="ontvangstBeschrijving ontvangstBeschrijvingPositief"><P>Ja <SPAN id="FM-kaart" class="frequentiekaart"><INPUT type="checkbox" id="frequentiekaartToonKaartFM"><LABEL for="frequentiekaartToonKaartFM"><SPAN class="frequentiekaartKnopToonMeer">(toon kaart)</SPAN><SPAN class="frequentiekaartInhoud">(verberg kaart)</SPAN> <IMG src="/kaartFM/kaartFM.php?zenderNr=104&amp;versie=202609202139" title="FM-frequenties van Studio Brussel" class="frequentiekaartInhoud"></LABEL></SPAN></P></TD>
+			</TR>
+			<TR>
+				<TD class="ontvangstTitel ontvangstTitelDab"><P>DAB+</P></TD>
+				<TD class="ontvangstBeschrijving ontvangstBeschrijvingPositief"><P>Ja <SPAN id="DAB-kaart" class="frequentiekaart"><INPUT type="checkbox" id="frequentiekaartToonKaartDAB"><LABEL for="frequentiekaartToonKaartDAB"><SPAN class="frequentiekaartKnopToonMeer">(toon kaart)</SPAN><SPAN href="#" class="frequentiekaartInhoud">(verberg kaart)</SPAN> <IMG src="/kaartDab/kaartDab.php?zenderNr=104&amp;versie=202609202139" title="" alt="" class="frequentiekaartInhoud"> </LABEL> </SPAN></P></TD>
+			</TR>
+			<TR>
+				<TD class="ontvangstTitel ontvangstTitelZiggo"><P>Ziggo</P></TD>
+				<TD class="ontvangstBeschrijving ontvangstBeschrijvingPositief"><P>Ja, kanaal 846</P></TD>
+			</TR>
+			<TR>
+				<TD class="ontvangstTitel ontvangstTitelKPN"><P>KPN</P></TD>
+				<TD class="ontvangstBeschrijving ontvangstBeschrijvingPositief"><P>Ja, kanaal 844</P></TD>
+			</TR>
+			<TR>
+				<TD class="ontvangstTitel ontvangstTitelOdido"><P>Odido</P></TD>
+				<TD class="ontvangstBeschrijving ontvangstBeschrijvingPositief"><P>Ja, kanaal 1109</P></TD>
+			</TR>
+			<TR>
+				<TD class="ontvangstTitel ontvangstTitelDelta"><P>Delta</P></TD>
+				<TD class="ontvangstBeschrijving ontvangstBeschrijvingPositief"><P>Ja, kanaal 924</P></TD>
+			</TR>
+			<TR>
+				<TD class="ontvangstTitel ontvangstTitelKPN"><P>Digitenne</P></TD>
+				<TD class="ontvangstBeschrijving ontvangstBeschrijvingPositief"><P>Ja, kanaal 127</P></TD>
+			</TR>
+			<TR>
+				<TD class="ontvangstTitel ontvangstTitelCanalDigitaal"><P>Satelliet</P></TD>
+				<TD class="ontvangstBeschrijving ontvangstBeschrijvingPositief"><P>Ja, kanaal 733  (abonnement nodig)</P></TD>
+			</TR>
+			<TR>
+				<TD class="ontvangstTitel ontvangstTitelInternet"><P>Internet</P></TD>
+				<TD class="ontvangstBeschrijving ontvangstBeschrijvingPositief"><P>Ja</P></TD>
+			</TR>
+		</TABLE>
+	</DIV>
+</DIV>
+
+<DIV class="stRechterKolom">
+	<!-- programmablok begin -->
+	<DIV class="pgMenuKop" style="width: 100%">
+		Andere radiostations
+	</DIV>
+	<DIV class="pgMenuInhoud" style="width: 100%">
+		<IFRAME src="/streamOndertussenNu.php?zender=104" style="width:100%; height:1842px; overflow:hidden; border: 0px;" onload="this.style.height=(this.contentDocument.body.scrollHeight + 5) +'px';"></IFRAME>
+	</DIV>
+</DIV>
+
+
+			<script>
+			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			
+			  ga('create', 'UA-2269869-1', 'auto');
+			  ga('send', 'pageview');
+			
+			</script>
+<DIV class="voettekst-kader" >
+	<DIV class="voettekst-kolom">
+		<H5 class="voettekst-link voettekst-link-kop">
+			<A href="/radiogids">Radiogids</A>
+		</H5>
+		<UL>
+			<LI><A href="/"                    class="voettekst-link">Programmering nu &amp; straks</A>
+			<LI><A href="/radiogids/maandag"   class="voettekst-link">Programmering maandag</A>
+			<LI><A href="/radiogids/dinsdag"   class="voettekst-link">Programmering dinsdag</A>
+			<LI><A href="/radiogids/woensdag"  class="voettekst-link">Programmering woensdag</A>
+			<LI><A href="/radiogids/donderdag" class="voettekst-link">Programmering donderdag</A>
+			<LI><A href="/radiogids/vrijdag"   class="voettekst-link">Programmering vrijdag</A>
+			<LI><A href="/radiogids/zaterdag"  class="voettekst-link">Programmering zaterdag</A>
+			<LI><A href="/radiogids/zondag"    class="voettekst-link">Programmering zondag</A>
+		</UL>
+	</DIV>
+	
+	<DIV class="voettekst-kolom">
+		<H5 class="voettekst-link voettekst-link-kop">
+			<A href="/frequentiekaarten">Frequenties</A>
+		</H5>
+		<UL>
+			<LI><A href="/frequentiekaarten#Landelijk" class="voettekst-link">Landelijke FM-frequenties</A>
+			<LI><A href="/frequentiekaarten#Regionaal" class="voettekst-link">Regionale FM-frequenties</A>
+			<LI><A href="/dab-overzicht" class="voettekst-link">Overzicht DAB+-ontvangst</A>
+		</UL>
+	</DIV>
+	
+	<DIV class="voettekst-kolom">
+		<H5 class="voettekst-link voettekst-link-kop">Overig</H5>
+		<UL>
+			<LI><A href="/zenderinformatie" class="voettekst-link">Informatie per zender</A>
+			<LI><A href="/luisteren" class="voettekst-link">Live radio luisteren</A>
+			<LI><A href="/eindejaarslijsten" class="voettekst-link">Overzicht eindejaarslijsten</A>
+		</UL>
+	</DIV>
+	
+	<DIV class="voettekst-kolom">
+		<H5 class="voettekst-link voettekst-link-kop">Over ons</H5>
+		<UL>
+			<LI><A href="/colofon" class="voettekst-link">Colofon</A>
+			<LI><A href="/contact" class="voettekst-link">Contact</A>
+			<LI><A href="/bijzonderheden" class="voettekst-link" rel="me" title="Volg Oorboekje via RSS">
+			    <IMG src="/img/rss.png" alt="RSS" title="Volg Oorboekje via RSS" style="width: 12px" width="12" height="12">RSS
+			    </A>
+		</UL>
+	</DIV>
+	<P class="voettekstCopyright">&copy; 2026 oorboekje.nl</P>
+</DIV>
+</BODY>
+</HTML>
