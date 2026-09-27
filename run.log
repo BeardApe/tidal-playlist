@@ -1,13 +1,14 @@
 
 ==================================================
-  Playlist update — 2026-09-27 21:09
+  Playlist update — 2026-09-27 21:12
 ==================================================
 
 [Tidal] Ingelogd ✓
 
 [Tidal] Geen tracks ouder dan 30 dagen
+[Backfill] 43 entries opgeruimd die niet meer in de playlist staan
 [Spotify] Token verkregen ✓
-  [Purge] Zero Cult — Overactive Eyes
+  [Purge] HAAi — Ignition
 [Purge] 1 ongewenste tracks verwijderd
 [Spotify] Radio1-Top30: 20 gekozen uit 31
 [Spotify] Radio1-Wonderland: 20 gekozen uit 50
@@ -20,241 +21,244 @@
 [Spotify] WXPN-BestNewMusic: 20 gekozen uit 35
 [Spotify] GillesPeterson-Saturdays: 20 gekozen uit 29
 [Last.fm] 24 ontdekkingen
-[RadioParadise-Mellow] 4 keer gespeeld, 0 nieuw voor jou, 0 gekozen
-[SomaFM-Lush] 17 keer gespeeld, 3 nieuw voor jou, 3 gekozen
-[DoubleJ] 300 keer gespeeld, 229 nieuw voor jou, 25 gekozen
-[TheCurrent] 673 keer gespeeld, 408 nieuw voor jou, 25 gekozen
-[Radio] 53 nog niet bekende nummers van Duyster en Vuurland
-[Genre] 47 Spotify-tracks geblokkeerd op genre
+[RadioParadise-Mellow] 3 keer gespeeld, 0 nieuw voor jou, 0 gekozen
+[SomaFM-Lush] 17 keer gespeeld, 4 nieuw voor jou, 4 gekozen
+[DoubleJ] 300 keer gespeeld, 211 nieuw voor jou, 25 gekozen
+[TheCurrent] 673 keer gespeeld, 387 nieuw voor jou, 25 gekozen
+[Radio] 54 nog niet bekende nummers van Duyster en Vuurland
+[Genre] 43 Spotify-tracks geblokkeerd op genre
   [Genre] geblokkeerd (SomaFM-Lush): Ame Strong (lounge, chillout, ambient)
-  [Genre] geblokkeerd (SomaFM-Lush): Jens Buchert (lounge, downtempo, ambient)
   [Genre] geblokkeerd (SomaFM-Lush): Blue Hawaii (dream pop, chillwave, lo fi)
-  [Genre] geblokkeerd (DoubleJ): Rise Against (punk, hardcore punk)
-  [Genre] geblokkeerd (DoubleJ): BIG NOTER (hard rock, alternative metal, australia)
-  [Genre] geblokkeerd (DoubleJ): Fever Ray (electronic, ambient, swedish)
-  [Genre] geblokkeerd (DoubleJ): Station Model Violence (post-punk)
-  [Genre] geblokkeerd (DoubleJ): Dinosaur Jr. (noise rock, grunge, alternative rock)
-  [Genre] geblokkeerd (DoubleJ): Chet Faker (downtempo, lo fi, post dubstep)
-  [Genre] geblokkeerd (TheCurrent): US3 (acid jazz, jazz rap, jazz funk)
+  [Genre] geblokkeerd (SomaFM-Lush): Jens Buchert (lounge, downtempo, ambient)
+  [Genre] geblokkeerd (DoubleJ): Erykah Badu & The Alchemist (soul, hip hop, rap)
+  [Genre] geblokkeerd (DoubleJ): Party Dozen (neo-psychedelic, noise rock)
+  [Genre] geblokkeerd (DoubleJ): Rapsody (rap, hip hop, hip hop)
+  [Genre] geblokkeerd (DoubleJ): Joy Crookes (alternative r&b)
+  [Genre] geblokkeerd (DoubleJ): Ezra Collective (jazz rap, indie soul, nu jazz)
+  [Genre] geblokkeerd (TheCurrent): Beastie Boys (rap rock, old school hip hop, east coast hip hop)
+  [Genre] geblokkeerd (TheCurrent): The Clash (punk)
+  [Genre] geblokkeerd (TheCurrent): Ber (indie pop, spotify, my top songs)
+  [Genre] geblokkeerd (TheCurrent): Frank Ocean (rnb, soul, hip hop)
+  [Genre] geblokkeerd (TheCurrent): Nine Inch Nails (industrial rock, industrial, industrial metal)
+  [Genre] geblokkeerd (TheCurrent): Glorilla (rap, hip hop, trap)
   [Genre] geblokkeerd (TheCurrent): Sugar (alternative rock, alternative, rock)
-  [Genre] geblokkeerd (TheCurrent): Deep Sea Diver (indie, indie rock, seattle)
-  [Genre] geblokkeerd (TheCurrent): Doechii (rap, rnb, hip hop)
+  [Genre] geblokkeerd (TheCurrent): Jean Dawson (indie pop, experimental, rap)
+[Artiest] 3 tracks van geblokkeerde artiesten overgeslagen
 
-Totaal kandidaten na filtering: 209
-Huidig in playlist: 500
+Totaal kandidaten na filtering: 208
+Huidig in playlist: 556
 
-  – [KCRW-MorningBecomesEclectic] megiapa — (SMT) (al toegevoegd op 2026-09-21)
-  – [Radio1-Top30] The War On Drugs — Who's That (al toegevoegd op 2026-09-20)
-  – [WXPN-BestNewMusic] Stephen Wilson Jr. — Hardwired (feat. Miranda Lambert) (al toegevoegd op 2026-09-18)
-  – [WXPN-BestNewMusic] Grace Cummings — My God (al toegevoegd op 2026-06-08)
-  ✓ [DoubleJ] Josh Pyke — Middle Of The Hill
-  – [LateJunction-Official] Marisa Monte — Infinito Particular (al toegevoegd op 2026-03-12)
-  – [Radio1-Top30] Grof Geschud — En dan alles (al toegevoegd op 2026-06-22)
-  – [GillesPeterson-Saturdays] Cleo Sol — Sunshine (al toegevoegd op 2026-09-18)
-  ✓ [LastFM~Mazzy Star] Slowdive — When the Sun Hits
-  – [KCRW-MorningBecomesEclectic] Cornelius — Mazaranai (al toegevoegd op 2026-09-18)
-  – [GuyGarvey-FinestHour] Oscar Peterson Trio — Night Train (al toegevoegd op 2026-03-30)
-  – [LaurenLaverne-JustAdded] serpentwithfeet — cherubim (al toegevoegd op 2026-03-30)
-  ✓ [LastFM~Christine and the Queens] Clara Luciani — La baie
-  ✓ [TheCurrent] The Flaming Lips — She Don't Use Jelly
-  – [Radio1-Top30] Froukje — Ik Wou Dat Ik Jou Was (al toegevoegd op 2026-08-24)
-  – [GuyGarvey-FinestHour] Beach House — Zebra (al toegevoegd op 2026-03-16)
-  – [WXPN-BestNewMusic] Brandi Carlile — Life On The Run (al toegevoegd op 2026-09-27)
-  – [Radio1-Wonderland] Tunng — Anoraks (al toegevoegd op 2026-04-20)
-  – [NPR-AllSongsConsidered] Peter Gabriel — Till Your Mind Is Shining (Bright-Side Mix) (al toegevoegd op 2026-05-11)
-  – [GuyGarvey-FinestHour] Bill Withers — Harlem (al toegevoegd op 2026-03-12)
-  – [NPR-AllSongsConsidered] Tori Amos — Stronger Together (al toegevoegd op 2026-03-30)
-  – [KCRW-MorningBecomesEclectic] TRÍADA — Clara (al toegevoegd op 2026-09-27)
-  – [Radio1-Top30] Selah Sue — In a Minute (al toegevoegd op 2026-08-31)
-  – [Radio1-Top30] Ciska Ciska — Utopia (al toegevoegd op 2026-07-13)
-  – [GuyGarvey-FinestHour] Milagres — The Letterbomb (al toegevoegd op 2026-03-12)
-  – [Radio1-Top30] Angèle — Une seule vie (al toegevoegd op 2026-09-21)
-  – [GillesPeterson-Saturdays] Do Amor — Nossa Bossa (al toegevoegd op 2026-09-20)
-  – [GillesPeterson-Saturdays] Clifford Jordan Quartet — John Coltrane (al toegevoegd op 2026-09-18)
-  – [GuyGarvey-FinestHour] Ray Charles — I Don't Need No Doctor (al toegevoegd op 2026-03-12)
-  – [GillesPeterson-Saturdays] Julio Bashmore — Au Seve (al toegevoegd op 2026-09-20)
-  ✓ [TheCurrent] Tame Impala — Loser
-  ✓ [DoubleJ] Sylvan Esso — Hot Slob
-  – [LaurenLaverne-JustAdded] Goldfrapp — Ocean (al toegevoegd op 2026-03-12)
-  – [KCRW-MorningBecomesEclectic] Wishy — Sensational (al toegevoegd op 2026-09-18)
-  – [WXPN-BestNewMusic] Steve Lacy — oh yeah? (al toegevoegd op 2026-09-20)
-  – [GillesPeterson-Saturdays] SANAM — Ayouha Al-Taiin Fi Al-Mawt (al toegevoegd op 2026-09-18)
-  – [WXPN-BestNewMusic] Brandon Flowers — Plans (al toegevoegd op 2026-09-18)
-  – [GuyGarvey-FinestHour] The Monkees — Last Train to Clarksville (al toegevoegd op 2026-03-16)
-  – [NPR-AllSongsConsidered] Wet Leg — catch these fists - FDC DJs remix (al toegevoegd op 2026-07-13)
-  – [Radio1-Wonderland] ALBAN — Trees Never Lie (al toegevoegd op 2026-03-23)
-  ✓ [TheCurrent] Beach Bunny — Clueless
-  – [GillesPeterson-Saturdays] Cleo Sol — Her Light (al toegevoegd op 2026-09-18)
-  – [Radio1-Wonderland] Anna Calvi — I See A Darkness (al toegevoegd op 2026-03-12)
-  – [WFUV-NYSlice2026] Adelide — Upstream (al toegevoegd op 2026-09-07)
-  – [LastFM~Christine and the Queens] Clara Luciani — Nue (al toegevoegd op 2026-09-27)
-  – [WXPN-BestNewMusic] This Is Lorelei — Billy Came Back (al toegevoegd op 2026-09-21)
-  – [GuyGarvey-FinestHour] Johnny Cash — Rock Island Line (al toegevoegd op 2026-03-30)
-  – [Radio1-Wonderland] TJE — Easy (al toegevoegd op 2026-03-16)
-  – [GuyGarvey-FinestHour] AM & Shawn Lee — Down The Line (al toegevoegd op 2026-03-12)
-  – [WFUV-NYSlice2026] Jim Wolf — End of Our Rope (al toegevoegd op 2026-09-07)
-  – [WFUV-NYSlice2026] Violizzy — We're Living in a Sci-fi Movie (al toegevoegd op 2026-03-12)
-  – [GillesPeterson-Saturdays] Dorothy Ashby — Thou Swell (al toegevoegd op 2026-09-21)
-  – [KCRW-MorningBecomesEclectic] La Pirámide — Pirámide (al toegevoegd op 2026-09-20)
-  – [WFUV-NYSlice2026] Tiny Cities — Body Cast (al toegevoegd op 2026-03-12)
-  ✓ [DoubleJ] Ruby Gill — Carol / not carol
-  – [KCRW-MorningBecomesEclectic] Benny Sings — Parachute (al toegevoegd op 2026-09-18)
-  – [KCRW-MorningBecomesEclectic] Hologram Teen — Connection transpacifique - Morcheeba Remix (al toegevoegd op 2026-09-18)
-  ✓ [TheCurrent] Berlin — The Metro
-  – [NPR-AllSongsConsidered] Weezer — C.E.O. (al toegevoegd op 2026-08-24)
-  – [NPR-AllSongsConsidered] L'Rain — borderline (al toegevoegd op 2026-08-03)
-  ✓ [DoubleJ] Baby Smith — Take It Or Leave It
-  ✓ [TheCurrent] Cyndi Lauper — Time After Time
-  – [WXPN-BestNewMusic] Angine de Poitrine — Sarniezz (al toegevoegd op 2026-09-18)
-  ✓ [LastFM~Massive Attack] Tricky — Black Steel
-  – [Radio1-Top30] Kids With Buns — best friend (al toegevoegd op 2026-09-18)
-  – [WXPN-BestNewMusic] Michigander — Freaking Out (al toegevoegd op 2026-09-20)
-  ✓ [DoubleJ] Mark Ronson & The Business Intl — Glass Mountain Trust [Ft. D'Angelo]
-  ✓ [DoubleJ] Ripple Effect Band — People from Maningrida
-  – [LateJunction-Official] Bill Withers — Grandma's Hands (al toegevoegd op 2026-03-12)
-  – [GillesPeterson-Saturdays] O Terno — Bielzinho / Bielzinho (al toegevoegd op 2026-09-20)
-  ✓ [LastFM~Ben Howard] Angus & Julia Stone — Big Jet Plane
-  – [WFUV-NYSlice2026] Bryan Master — State of the Union (al toegevoegd op 2026-03-16)
-  – [LastFM~Mazzy Star] Slowdive — 40 Days (al toegevoegd op 2026-06-08)
-  ✓ [LastFM~Ben Howard] Charlie Cunningham — Blindfold
-  – [LastFM~Ben Howard] Charlie Cunningham — Sink In (al toegevoegd op 2026-09-21)
-  – [WXPN-BestNewMusic] Sylvan Esso — Sledge (al toegevoegd op 2026-09-20)
-  ✓ [TheCurrent] Elvis Costello — The Beat
-  ✓ [TheCurrent] Bruce Springsteen — It's Hard To Be A Saint In The City
-  – [WXPN-BestNewMusic] Queens of the Stone Age — Easy Street (al toegevoegd op 2026-07-27)
-  ✓ [WFUV-NYSlice2026] Space Carnival — Queen of Cups
-  ✓ [DoubleJ] Folk Bitch Trio — Cathode Ray
-  ✓ [LastFM~Massive Attack] Tricky — Suffocated Love
-  – [LaurenLaverne-JustAdded] Nakhane — Clairvoyant (al toegevoegd op 2026-03-12)
-  – [Radio1-Wonderland] Roufaida — Ken Ness (al toegevoegd op 2026-03-12)
-  – [GuyGarvey-FinestHour] The The — Uncertain Smile (al toegevoegd op 2026-05-04)
-  – [WXPN-BestNewMusic] St. Paul & The Broken Bones — Proxy (al toegevoegd op 2026-09-27)
-  – [Radio1-Top30] Novastar — Today Yesterday (al toegevoegd op 2026-08-24)
-  ✓ [DoubleJ] Love Migrate — Little Kid
-  ✓ [TheCurrent] TV On The Radio — Happy Idiot
-  – [Radio1-Top30] J.Bernardt — Four In The Morning (al toegevoegd op 2026-08-24)
-  – [LaurenLaverne-JustAdded] FOXTROTT — WAIT (al toegevoegd op 2026-03-12)
-  – [GillesPeterson-Saturdays] Camille Bertault — Bizarre (al toegevoegd op 2026-09-18)
-  – [GuyGarvey-FinestHour] Laura Veirs — Sun Is King (al toegevoegd op 2026-03-23)
-  – [KCRW-MorningBecomesEclectic] Shearwater — You and Your Dog (al toegevoegd op 2026-09-18)
-  ✓ [DoubleJ] Possible Humans — Akimbo
-  – [WXPN-BestNewMusic] beabadoobee — Sun Has Set (al toegevoegd op 2026-07-06)
-  ✓ [DoubleJ] Ullah — I Want It All
-  ✓ [TheCurrent] Curtis Mayfield — Beautiful Brother Of Mine
-  – [WFUV-NYSlice2026] Indigo June — Hurricane (al toegevoegd op 2026-04-13)
-  – [Radio1-Wonderland] Empress Of — Blasting Through the Speakers (al toegevoegd op 2026-03-30)
-  – [LateJunction-Official] André Campra — Messe de Requiem: V. Sanctus (al toegevoegd op 2026-03-12)
-  – [LateJunction-Official] Gori Women's Choir — Archaica I (al toegevoegd op 2026-03-12)
-  – [WFUV-NYSlice2026] Undead Doctor Scott — Lighthouse (al toegevoegd op 2026-04-06)
-  – [NPR-AllSongsConsidered] Tinariwen — Sagherat Assani - feat. Sulaf (al toegevoegd op 2026-04-20)
-  – [GuyGarvey-FinestHour] Talk Talk — After The Flood (al toegevoegd op 2026-03-23)
-  – [GillesPeterson-Saturdays] Kieran Hebden — Darkness, Darkness (al toegevoegd op 2026-09-20)
-  ✓ [LastFM~Christine and the Queens] Rahim Redcar — Smalltown Boy
-  – [LaurenLaverne-JustAdded] Róisín Murphy — Like (al toegevoegd op 2026-03-16)
-  ✓ [DoubleJ] HAAi & Echonomist — Ignition
-  – [LaurenLaverne-JustAdded] Tunng — ABOP (al toegevoegd op 2026-03-12)
-  – [WFUV-NYSlice2026] The Acute — As Seen on TV (al toegevoegd op 2026-06-15)
-  ✓ [LastFM~Mazzy Star] Hope Sandoval & The Warm Inventions — Around My Smile
-  – [NPR-AllSongsConsidered] beabadoobee — Switchblade (al toegevoegd op 2026-08-03)
+  ✗ [DoubleJ] Mark Ronson & The Business Intl — The Bike Song [Ft. Kyle Falconer, Spank Rock] (niet gevonden op Tidal)
   – [LaurenLaverne-JustAdded] Haiku Salut — Cold to Crack the Stones (al toegevoegd op 2026-03-23)
-  – [NPR-AllSongsConsidered] ROSALÍA — Focu 'Ranni (al toegevoegd op 2026-06-15)
-  – [KCRW-MorningBecomesEclectic] Helen — Dead shark II (al toegevoegd op 2026-09-21)
-  – [Radio1-Top30] Phoebe Bridgers — Lost Boys (al toegevoegd op 2026-07-06)
-  – [LastFM~Mazzy Star] Slowdive — Altogether (al toegevoegd op 2026-04-27)
-  – [WFUV-NYSlice2026] Stephanie Babirak — Lakeside (al toegevoegd op 2026-09-07)
-  – [Radio1-Top30] Angèle — Dis-le (al toegevoegd op 2026-06-22)
-  ✓ [DoubleJ] Angus & Julia Stone — The Start
-  ✓ [LastFM~Ben Howard] Charlie Cunningham — Bite
-  – [LastFM~Massive Attack] Marsmobil — Call Me (al toegevoegd op 2026-04-20)
-  – [WFUV-NYSlice2026] Thin Lear — Silver Bridge (al toegevoegd op 2026-03-12)
-  – [KCRW-MorningBecomesEclectic] Joy Oladokun — Kind (al toegevoegd op 2026-09-21)
-  – [Radio1-Wonderland] Emma Hessels — Woollen Women (al toegevoegd op 2026-03-12)
-  – [GillesPeterson-Saturdays] Camille Bertault — Voir la mer (al toegevoegd op 2026-09-18)
-  – [WFUV-NYSlice2026] Wild & Company — Past Dues (al toegevoegd op 2026-04-20)
-  – [GuyGarvey-FinestHour] Bob Dorough — Three Is A Magic Number (al toegevoegd op 2026-03-16)
-  – [NPR-AllSongsConsidered] Mumford & Sons — Rubber Band Man (with Hozier) (al toegevoegd op 2026-03-12)
-  – [Radio1-Top30] Tove Lo — des fleurs x stromae (al toegevoegd op 2026-06-29)
-  – [NPR-AllSongsConsidered] Jlin (Jerrilynn Patton) — Baobab (al toegevoegd op 2026-09-27)
-  – [Radio1-Top30] Dressed Like Boys — And Then I Woke Up (al toegevoegd op 2026-09-20)
-  – [GuyGarvey-FinestHour] Herbie Hancock — Watermelon Man (al toegevoegd op 2026-03-16)
-  – [Radio1-Wonderland] PinkPantheress — Illegal + Anitta (al toegevoegd op 2026-03-12)
-  – [GuyGarvey-FinestHour] Pentangle — Goodbye Pork Pie Hat (al toegevoegd op 2026-03-23)
-  – [WXPN-BestNewMusic] Father John Misty — The Payoff (al toegevoegd op 2026-09-18)
-  ✓ [DoubleJ] Scott & Charlene's Wedding — Two Weeks
-  – [Radio1-Wonderland] Chanel Beads — The Coward Forgets His Nightmare (al toegevoegd op 2026-03-16)
-  ✓ [LastFM~Mazzy Star] Hope Sandoval & The Warm Inventions — Blue Bird
-  ✓ [TheCurrent] Peter Gabriel — Road to Joy (Bright-Side Mix)
-  – [LastFM~Massive Attack] Marsmobil — Mangia Amore (al toegevoegd op 2026-03-12)
-  – [GuyGarvey-FinestHour] This Is The Kit — Earthquake (al toegevoegd op 2026-03-16)
-  – [LaurenLaverne-JustAdded] Kamasi Washington — Street Fighter Mas (al toegevoegd op 2026-03-12)
-  ✓ [TheCurrent] Sheryl Crow — Freedom Bus feat. Jesse Welles
-  – [LaurenLaverne-JustAdded] Thundercat — Final Fight (al toegevoegd op 2026-03-23)
-  ✓ [LastFM~Christine and the Queens] Rahim Redcar — INS8DE OF ME
-  – [LaurenLaverne-JustAdded] Mass Gothic — J.Z.O.K. (al toegevoegd op 2026-03-12)
-  ✓ [WFUV-NYSlice2026] Ghost Funk Orchestra — Yours
-  – [GillesPeterson-Saturdays] The Crusaders — Sweet N' Sour (al toegevoegd op 2026-09-18)
   – [Radio1-Top30] Bruno Mars — On My Soul (al toegevoegd op 2026-07-06)
-  – [WFUV-NYSlice2026] Brandi & the Alexanders — The Heart Don't Heal (al toegevoegd op 2026-07-13)
-  – [NPR-AllSongsConsidered] Olivia Rodrigo — The Book of Love (al toegevoegd op 2026-04-13)
-  – [KCRW-MorningBecomesEclectic] Telemakus — 2054 (al toegevoegd op 2026-09-20)
-  – [Radio1-Wonderland] Robyn — Dopamine (al toegevoegd op 2026-03-23)
-  – [Radio1-Wonderland] mark william lewis — Recent Future (al toegevoegd op 2026-03-23)
-  ✓ [TheCurrent] Big Thief — Words
-  – [LaurenLaverne-JustAdded] Angelo De Augustine — Carcassonne (al toegevoegd op 2026-03-30)
-  ✓ [TheCurrent] Dolly Parton — Coat Of Many Colors
-  ✓ [DoubleJ] Daft Punk — Robot Rock
-  ✓ [LastFM~Massive Attack] Tricky — Feed Me
-  – [LastFM~Ben Howard] Angus & Julia Stone — Mango Tree (staat al in playlist)
-  – [WXPN-BestNewMusic] The War On Drugs — Who's That (al toegevoegd op 2026-09-20)
-  – [NPR-AllSongsConsidered] slimdan — Let's Start A Cult! (al toegevoegd op 2026-08-24)
-  – [WXPN-BestNewMusic] Phoebe Bridgers — Bobby (al toegevoegd op 2026-09-18)
-  – [WXPN-BestNewMusic] Alex Amen — California Blues (al toegevoegd op 2026-09-18)
-  – [Radio1-Top30] Olivia Rodrigo — stupid song (al toegevoegd op 2026-08-24)
-  – [LastFM~Ben Howard] Angus & Julia Stone — Grizzly Bear (staat al in playlist)
-  – [NPR-AllSongsConsidered] Mitski — Fireproof (al toegevoegd op 2026-08-03)
-  ✓ [DoubleJ] The Strokes — HARD TO EXPLAIN
-  – [GillesPeterson-Saturdays] Julio Bashmore — Bubblin (al toegevoegd op 2026-09-20)
-  – [GillesPeterson-Saturdays] Don Cunningham — Tabu (al toegevoegd op 2026-09-18)
-  – [NPR-AllSongsConsidered] underscores — Tell Me (U Want It) (al toegevoegd op 2026-03-30)
-  – [LateJunction-Official] Mari Kvien Brunvoll — Sweet Mysterious (al toegevoegd op 2026-03-12)
-  – [LateJunction-Official] Lhasa De Sela — La Frontera (al toegevoegd op 2026-03-12)
-  – [Radio1-Top30] Madonna — Danceteria (al toegevoegd op 2026-08-24)
-  – [GuyGarvey-FinestHour] Crosby, Stills, Nash & Young — Guinnevere (al toegevoegd op 2026-03-12)
-  – [LaurenLaverne-JustAdded] Curtis Harding — It's Not Over (al toegevoegd op 2026-03-12)
-  – [GillesPeterson-Saturdays] Abraham Réunion — Abraham Réunion (al toegevoegd op 2026-09-21)
-  ✓ [DoubleJ] Melody's Echo Chamber & El Michels Affair — Daisy
-  ✓ [TheCurrent] Dijon — Many Times
-  ✓ [DoubleJ] Death Cab For Cutie — I Built You A Tower (a)
-  – [WXPN-BestNewMusic] Blondshell — Heart Has To Work So Hard (al toegevoegd op 2026-09-20)
-  ✓ [TheCurrent] The Black Keys — Set You Free
-  ✓ [DoubleJ] Garbage — Push It
-  – [WFUV-NYSlice2026] The Buddy System Forever — Joni Mitchell Smile (al toegevoegd op 2026-04-06)
-  ✓ [KCRW-MorningBecomesEclectic] Jim James — Wowed Out
-  ✓ [TheCurrent] The Dare — All Night
-  – [WFUV-NYSlice2026] Rén with the Mane — Shame (al toegevoegd op 2026-09-14)
-  ✓ [TheCurrent] Tori Amos — Caught a Lite Sneeze
-  – [LastFM~Massive Attack] Marsmobil — Dark star (al toegevoegd op 2026-05-04)
+  – [GuyGarvey-FinestHour] Murray Head — Say It Ain't So, Joe (al toegevoegd op 2026-03-12)
+  – [KCRW-MorningBecomesEclectic] Flora Hibberd — Silent Movie Baby (al toegevoegd op 2026-09-27)
+  – [GillesPeterson-Saturdays] Do Amor — Nossa Bossa (al toegevoegd op 2026-09-20)
+  – [KCRW-MorningBecomesEclectic] Joy Oladokun — Kind (al toegevoegd op 2026-09-21)
+  – [GuyGarvey-FinestHour] The Chieftains — Down In The Willow Garden (al toegevoegd op 2026-03-16)
+  – [GillesPeterson-Saturdays] Pedro Rosa — Curió (al toegevoegd op 2026-09-18)
+  – [WFUV-NYSlice2026] TOMI — Let Me Down (al toegevoegd op 2026-03-30)
   – [GuyGarvey-FinestHour] Jimi Goodwin — Oh! Whiskey (al toegevoegd op 2026-03-30)
-  – [Radio1-Top30] The Rolling Stones — Jealous Lover (al toegevoegd op 2026-07-06)
-  ✓ [LastFM~Mazzy Star] Hope Sandoval & The Warm Inventions — On the Low
-  – [GuyGarvey-FinestHour] Jonathan Wilson — All The Way Down (al toegevoegd op 2026-03-30)
-  ✓ [TheCurrent] Florence and the Machine — What Kind of Man
-  – [WFUV-NYSlice2026] Cautious Clay — Green Screen (1pm) (al toegevoegd op 2026-07-06)
+  – [WFUV-NYSlice2026] Sam Scriven — Attachment Issues (al toegevoegd op 2026-05-04)
+  – [Radio1-Top30] Olivia Rodrigo — stupid song (al toegevoegd op 2026-08-24)
+  ✓ [DoubleJ] Bonobo — Fire On The Water [Ft. Arooj Aftab]
+  ✓ [WFUV-NYSlice2026] Loose Buttons — I Saw Jon Hamm At The Beach
+  ✓ [TheCurrent] Lucius — Next to Normal
+  – [NPR-AllSongsConsidered] Tara Clerkin Trio — Somewhere Good (al toegevoegd op 2026-06-01)
+  – [GillesPeterson-Saturdays] Camille Bertault — Bizarre (al toegevoegd op 2026-09-18)
+  – [Radio1-Wonderland] Smerz — Feisty - Erika de Casier EDIT (al toegevoegd op 2026-04-06)
+  – [LaurenLaverne-JustAdded] Kojey Radical — Water (with Mahalia) (al toegevoegd op 2026-03-30)
+  – [GuyGarvey-FinestHour] Nouvelle Vague — All My Colours (al toegevoegd op 2026-03-23)
+  – [NPR-AllSongsConsidered] Charli xcx — Rock Music (al toegevoegd op 2026-05-18)
+  – [WXPN-BestNewMusic] St. Paul & The Broken Bones — Proxy (al toegevoegd op 2026-09-27)
+  – [NPR-AllSongsConsidered] Quiet Light — Self Tape (al toegevoegd op 2026-04-27)
+  – [GillesPeterson-Saturdays] Abraham Réunion — Abraham Réunion (al toegevoegd op 2026-09-21)
+  ✓ [LastFM~Beach House] Slowdive — Here She Comes
   – [Radio1-Top30] Beck — In The Night (al toegevoegd op 2026-08-24)
-  – [Radio1-Top30] Alabama Shakes — Garden (al toegevoegd op 2026-09-14)
-  – [Radio1-Wonderland] ROSALÍA — Berghain (al toegevoegd op 2026-03-16)
-  – [KCRW-MorningBecomesEclectic] Matük — Ricotta (al toegevoegd op 2026-09-18)
-  – [GuyGarvey-FinestHour] Chuck Berry — Down Bound Train - Single Version (al toegevoegd op 2026-03-12)
-  ✓ [TheCurrent] Tianna Esperanza — Lewis
-  ✓ [TheCurrent] Midnight Oil — Read About It
-  – [Radio1-Wonderland] Tsar B — Amor (al toegevoegd op 2026-03-12)
-  – [LastFM~Christine and the Queens] Clara Luciani — Respire encore (al toegevoegd op 2026-08-24)
-  ✓ [DoubleJ] #1 Dads — Already Something
-  ✓ [TheCurrent] Dijon — Yamaha
-  ✓ [LastFM~Christine and the Queens] Rahim Redcar — It's ok to cry
+  ✓ [DoubleJ] Elvis Costello — Veronica
+  – [Radio1-Wonderland] Ulrika Spacek — Square Root of None (al toegevoegd op 2026-03-23)
+  – [KCRW-MorningBecomesEclectic] Ibeyi — Hurry Hurry (al toegevoegd op 2026-09-18)
+  – [Radio1-Top30] Matt Berninger — Martini Me Fatso (al toegevoegd op 2026-08-24)
+  – [WXPN-BestNewMusic] Angine de Poitrine — Sarniezz (al toegevoegd op 2026-09-18)
+  – [LaurenLaverne-JustAdded] Tunng — ABOP (al toegevoegd op 2026-03-12)
+  – [Radio1-Top30] Bart Peeters — We Zijn Ermee Bezig (al toegevoegd op 2026-09-18)
+  – [WFUV-NYSlice2026] Fully Furnished — Ripe Cure (al toegevoegd op 2026-07-06)
+  – [GillesPeterson-Saturdays] The Free Music — Free Music II (al toegevoegd op 2026-09-18)
+  – [Radio1-Top30] Selah Sue — In a Minute (al toegevoegd op 2026-08-31)
+  – [GuyGarvey-FinestHour] Laura Veirs — Fire Snakes (al toegevoegd op 2026-04-13)
+  – [WXPN-BestNewMusic] This Is Lorelei — Billy Came Back (al toegevoegd op 2026-09-21)
+  – [KCRW-MorningBecomesEclectic] Wishy — Sensational (al toegevoegd op 2026-09-18)
+  ✓ [LastFM~Beach House] Slowdive — Sugar for the Pill
+  – [KCRW-MorningBecomesEclectic] TRÍADA — Clara (al toegevoegd op 2026-09-27)
+  – [WFUV-NYSlice2026] Dylan Pham — Idols (al toegevoegd op 2026-09-14)
+  ✓ [LastFM~Beach House] Japanese Breakfast — Boyish
+  – [LastFM~Iron & Wine] The Tallest Man on Earth — The Sparrow and the Medicine (al toegevoegd op 2026-09-18)
+  ✓ [TheCurrent] TV On The Radio — Staring at the Sun
+  – [WXPN-BestNewMusic] Kurt Vile — Chance to Bleed (al toegevoegd op 2026-09-18)
+  – [WFUV-NYSlice2026] LAPêCHE — Double Knotted (al toegevoegd op 2026-03-12)
+  – [LaurenLaverne-JustAdded] Jamie Isaac — Maybe (al toegevoegd op 2026-03-12)
+  – [WFUV-NYSlice2026] laizy. — Take A Look In The Light (al toegevoegd op 2026-03-16)
+  – [GuyGarvey-FinestHour] Oscar Peterson Trio — Night Train (al toegevoegd op 2026-03-30)
+  – [Radio1-Wonderland] Roufaida — Ken Ness (al toegevoegd op 2026-03-12)
+  – [WFUV-NYSlice2026] Dream Logiq — True Love (al toegevoegd op 2026-07-13)
+  – [NPR-AllSongsConsidered] Ratboys — Open Up (al toegevoegd op 2026-03-12)
+  ✓ [LastFM~Iron & Wine] The Tallest Man on Earth — The Wild Hunt
+  ✓ [LastFM~Everything But The Girl] Moloko — Forever More
+  – [WFUV-NYSlice2026] Z3THAN — Manhattan Money (al toegevoegd op 2026-09-27)
+  – [WXPN-BestNewMusic] Brandon Flowers — Plans (al toegevoegd op 2026-09-18)
+  – [LateJunction-Official] Gori Women's Choir — Archaica I (al toegevoegd op 2026-03-12)
+  – [Radio1-Top30] The Strokes — Lonely in the Future (al toegevoegd op 2026-09-18)
+  – [NPR-AllSongsConsidered] FKJ — Little Little Voice (al toegevoegd op 2026-09-20)
+  – [GuyGarvey-FinestHour] Pentangle — Goodbye Pork Pie Hat (al toegevoegd op 2026-03-23)
+  – [WXPN-BestNewMusic] U2 — Silencio (al toegevoegd op 2026-09-27)
+  – [NPR-AllSongsConsidered] James Blake — I Had a Dream She Took My Hand (al toegevoegd op 2026-03-16)
+  – [NPR-AllSongsConsidered] Mitski — Fireproof (al toegevoegd op 2026-08-03)
+  – [KCRW-MorningBecomesEclectic] Flora from Kansas — The End (al toegevoegd op 2026-09-20)
+  ✓ [DoubleJ] Mo'Ju — Something Wrong {Ft. Mirrah}
+  – [NPR-AllSongsConsidered] Black Swan Network — The Shell (al toegevoegd op 2026-05-18)
+  ✓ [TheCurrent] Jalen Ngonda — Doctrine of Love
+  – [Radio1-Wonderland] Lily Allen — Pussy Palace (al toegevoegd op 2026-03-16)
+  ✓ [LastFM~Air] Bobby Hughes Combination — Karins Kerma
+  ✓ [LastFM~Air] Bobby Hughes Combination — Nattergalen
+  – [WXPN-BestNewMusic] Stephen Wilson Jr. — Hardwired (feat. Miranda Lambert) (al toegevoegd op 2026-09-18)
+  – [WFUV-NYSlice2026] elodieO — Message Personnel (al toegevoegd op 2026-03-12)
+  ✓ [LastFM~Air] Bobby Hughes Combination — Microneseren
+  – [LaurenLaverne-JustAdded] Róisín Murphy — Like (al toegevoegd op 2026-03-16)
+  ✓ [TheCurrent] Garbage — Queer
+  – [GillesPeterson-Saturdays] Julio Bashmore — Bubblin (al toegevoegd op 2026-09-20)
+  ✓ [LastFM~Beach House] Slowdive — Alison
+  ✓ [TheCurrent] Nik Kershaw — Wouldn't It Be Good
+  ✓ [DoubleJ] Massive Attack — Unfinished Sympathy
+  ✓ [TheCurrent] The Format — Holy Roller
+  ✓ [DoubleJ] Overmono — Lockup
+  – [Radio1-Wonderland] Borokov Borokov — The Gist (al toegevoegd op 2026-03-12)
+  ✓ [DoubleJ] Kojey Radical — Conversation
+  ✓ [DoubleJ] Sleigh Bells — Tell 'Em
+  – [NPR-AllSongsConsidered] Ásgeir — Smoke (al toegevoegd op 2026-04-13)
+  – [Radio1-Wonderland] Courtney Barnett — Stay In Your Lane (al toegevoegd op 2026-03-16)
+  ✓ [LastFM~Beach House] Japanese Breakfast — Posing in Bondage
+  ✓ [TheCurrent] Coldplay — Trouble
+  – [WFUV-NYSlice2026] Kacie Jewel Hill — Splinter (al toegevoegd op 2026-06-15)
+  ✓ [TheCurrent] John Mark Nelson — Reminisce
+  ✓ [DoubleJ] Merpire — Premonition
+  ✓ [DoubleJ] Stephen Malkmus — Discretion Grove
+  – [GuyGarvey-FinestHour] This Is The Kit — Earthquake (al toegevoegd op 2026-03-16)
+  – [Radio1-Top30] Eels — I'm On Standby (al toegevoegd op 2026-08-24)
+  – [LaurenLaverne-JustAdded] Gabriel Garzón-Montano — Golden Wings (al toegevoegd op 2026-03-16)
+  – [WFUV-NYSlice2026] Miles East — Lying Down (al toegevoegd op 2026-05-18)
+  – [GuyGarvey-FinestHour] Dave Brubeck — Take Five (al toegevoegd op 2026-03-23)
+  ✓ [DoubleJ] Sneaky Sound System — UFO
+  – [GuyGarvey-FinestHour] Murray Head — When I'm Yours (al toegevoegd op 2026-03-16)
+  ✗ [LastFM~Iron & Wine] Iron & Wine and Calexico — 16, Maybe Less (niet gevonden op Tidal)
+  – [KCRW-MorningBecomesEclectic] Helen — Dead shark II (al toegevoegd op 2026-09-21)
+  – [LateJunction-Official] Lhasa De Sela — La Frontera (al toegevoegd op 2026-03-12)
+  ✓ [DoubleJ] Muse — Be With You
+  – [GillesPeterson-Saturdays] Camille Bertault — Voir la mer (al toegevoegd op 2026-09-18)
+  – [KCRW-MorningBecomesEclectic] Shearwater — You and Your Dog (al toegevoegd op 2026-09-18)
+  – [Radio1-Top30] Ciska Ciska — Utopia (al toegevoegd op 2026-07-13)
+  ✓ [DoubleJ] Gotts Street Park — Flowers [Ft. Pip Millett]
+  – [LateJunction-Official] Mari Kvien Brunvoll — Sweet Mysterious (al toegevoegd op 2026-03-12)
+  – [GillesPeterson-Saturdays] Ashley Henry — Breeze (al toegevoegd op 2026-09-18)
+  – [GuyGarvey-FinestHour] Bruce Cockburn — Night Train (al toegevoegd op 2026-03-12)
+  ✓ [TheCurrent] Madi Diaz — Fatal Optimist
+  ✓ [SomaFM-Lush] Conjure One feat. Aruna — Still Holding On
+  – [WXPN-BestNewMusic] Father John Misty — The Payoff (al toegevoegd op 2026-09-18)
+  – [LaurenLaverne-JustAdded] serpentwithfeet — cherubim (al toegevoegd op 2026-03-30)
+  – [WFUV-NYSlice2026] Dara Bankole — Nobody Else (al toegevoegd op 2026-04-20)
+  – [GillesPeterson-Saturdays] Cleo Sol — Sunshine (al toegevoegd op 2026-09-18)
+  ✓ [LastFM~Beach House] Japanese Breakfast — Savage Good Boy
+  – [KCRW-MorningBecomesEclectic] Nuevos Rios — La Vida es un Baile (al toegevoegd op 2026-09-20)
+  ✓ [TheCurrent] Lorde — What Was That
+  – [NPR-AllSongsConsidered] Arlo Parks — Heaven (al toegevoegd op 2026-03-12)
+  – [Radio1-Wonderland] Joanne Robertson — Doubt (al toegevoegd op 2026-04-06)
+  – [NPR-AllSongsConsidered] Olivia Rodrigo — The Book of Love (al toegevoegd op 2026-04-13)
+  – [NPR-AllSongsConsidered] Ages and Ages — Feel Amazing (al toegevoegd op 2026-03-30)
+  ✓ [TheCurrent] Queens of the Stone Age — Insignificant Other
+  – [LaurenLaverne-JustAdded] Amber Arcades — Simple Song (al toegevoegd op 2026-03-16)
+  – [GuyGarvey-FinestHour] Beth Gibbons — Mysteries - 1 (al toegevoegd op 2026-03-16)
+  – [WFUV-NYSlice2026] SAMSARA. — mrs. porter (al toegevoegd op 2026-03-23)
+  – [WFUV-NYSlice2026] Ruby & Sasha — Hay Fever (al toegevoegd op 2026-08-24)
+  ✓ [DoubleJ] VASSY — Hazy
+  ✓ [DoubleJ] Mark Ronson & The Business Intl — Hey Boy [Ft. Rose Elinor Dougall, Theophilus London]
+  – [WXPN-BestNewMusic] Michigander — Freaking Out (al toegevoegd op 2026-09-20)
+  – [GuyGarvey-FinestHour] The Blue Nile — From A Late Night Train (al toegevoegd op 2026-03-23)
+  – [KCRW-MorningBecomesEclectic] megiapa — (SMT) (al toegevoegd op 2026-09-21)
+  – [LaurenLaverne-JustAdded] Father John Misty — Just Dumb Enough to Try (al toegevoegd op 2026-03-12)
+  – [KCRW-MorningBecomesEclectic] Julia Holter — Fantasy (al toegevoegd op 2026-09-18)
+  – [LateJunction-Official] André Campra — Messe de Requiem: V. Sanctus (al toegevoegd op 2026-03-12)
+  – [GillesPeterson-Saturdays] Don Cunningham — Tabu (al toegevoegd op 2026-09-18)
+  – [WFUV-NYSlice2026] Sofie Zamchick — Wykyk (al toegevoegd op 2026-03-12)
+  ✓ [DoubleJ] Yeah Yeah Yeahs — Cheated Hearts
+  – [Radio1-Top30] Tove Lo — des fleurs x stromae (al toegevoegd op 2026-06-29)
+  – [WXPN-BestNewMusic] Phoebe Bridgers — Lost Boys (al toegevoegd op 2026-07-06)
+  – [NPR-AllSongsConsidered] Bonobo — Fire on the Water (al toegevoegd op 2026-08-24)
+  – [GuyGarvey-FinestHour] Pretenders — Day After Day (al toegevoegd op 2026-03-12)
+  – [GuyGarvey-FinestHour] Laura Veirs and Saltbreakers — To the Country (al toegevoegd op 2026-03-23)
+  – [WFUV-NYSlice2026] King Nard — King Is Baqk (al toegevoegd op 2026-05-18)
+  – [WXPN-BestNewMusic] Steve Lacy — oh yeah? (al toegevoegd op 2026-09-20)
+  – [WXPN-BestNewMusic] Weezer — We Might as Well Be Strangers (ft. Wednesday) (al toegevoegd op 2026-09-18)
+  – [NPR-AllSongsConsidered] slimdan — Let's Start A Cult! (al toegevoegd op 2026-08-24)
+  – [Radio1-Wonderland] Joshua Idehen — It Always Was (al toegevoegd op 2026-04-06)
+  – [GillesPeterson-Saturdays] Julio Bashmore — Au Seve (al toegevoegd op 2026-09-20)
+  – [LaurenLaverne-JustAdded] Villagers — A Trick of the Light (al toegevoegd op 2026-04-06)
+  ✓ [LastFM~Everything But The Girl] Olive — Blood Red Tears
+  ✓ [LastFM~Everything But The Girl] Olive — This Time
+  – [WXPN-BestNewMusic] Thee Sacred Souls — Any Old Fool (al toegevoegd op 2026-09-20)
+  – [Radio1-Top30] Queens of the Stone Age — Easy Street (al toegevoegd op 2026-07-27)
+  – [NPR-AllSongsConsidered] L'Rain — soulless cycle (al toegevoegd op 2026-06-29)
+  – [WXPN-BestNewMusic] The War On Drugs — Who's That (al toegevoegd op 2026-09-20)
+  ✓ [TheCurrent] 'Til Tuesday — Voices Carry
+  ✓ [TheCurrent] Spoon — Wild
+  – [KCRW-MorningBecomesEclectic] Virg — Criminal Record (al toegevoegd op 2026-09-18)
+  – [GillesPeterson-Saturdays] The Crusaders — Sweet N' Sour (al toegevoegd op 2026-09-18)
+  – [WFUV-NYSlice2026] Bella Litsa — Passion Plug (al toegevoegd op 2026-03-16)
+  ✓ [DoubleJ] John Butler Trio — Zebra
+  – [WFUV-NYSlice2026] RIP Dunes — Living in Fear (al toegevoegd op 2026-09-27)
+  – [Radio1-Top30] Angèle — Une seule vie (al toegevoegd op 2026-09-21)
+  – [LaurenLaverne-JustAdded] Damien Jurado — Allocate (al toegevoegd op 2026-03-16)
+  – [LaurenLaverne-JustAdded] Cigarettes After Sex — Crush (al toegevoegd op 2026-03-12)
+  ✓ [TheCurrent] Sierra Ferrell — Fox Hunt
+  – [Radio1-Wonderland] Oklou — viscus (al toegevoegd op 2026-03-12)
+  – [GuyGarvey-FinestHour] Neil Young — Till the Morning Comes (al toegevoegd op 2026-03-12)
+  – [Radio1-Wonderland] Emma Hessels — Woollen Women (al toegevoegd op 2026-03-12)
+  – [Radio1-Top30] Roosbeef — Binnensmonds (al toegevoegd op 2026-08-24)
+  ✓ [LastFM~Everything But The Girl] Moloko — Sing It Back
+  – [GillesPeterson-Saturdays] Kieran Hebden — Darkness, Darkness (al toegevoegd op 2026-09-20)
+  – [WXPN-BestNewMusic] Beck — Ride Lonesome (al toegevoegd op 2026-05-04)
+  ✓ [LastFM~Iron & Wine] The Tallest Man on Earth — The Gardener
+  – [Radio1-Top30] Angèle — Dis-le (al toegevoegd op 2026-06-22)
+  ✓ [TheCurrent] Neil Young — Harvest Moon
+  ✓ [LastFM~Everything But The Girl] Olive — Safer Hands
+  ✓ [LastFM~Everything But The Girl] Moloko — Day for Night
+  – [NPR-AllSongsConsidered] Mumford & Sons — Rubber Band Man (with Hozier) (al toegevoegd op 2026-03-12)
+  – [WXPN-BestNewMusic] Queens of the Stone Age — Easy Street (al toegevoegd op 2026-07-27)
+  ✓ [LastFM~Iron & Wine] Iron & Wine and Calexico — He Lays in the Reins
+  ✓ [DoubleJ] Munan & Moods — For Good
+  – [Radio1-Top30] Novastar — Today Yesterday (al toegevoegd op 2026-08-24)
+  – [LaurenLaverne-JustAdded] Skinny Pelembe — I Just Wanna Be Your Prisoner (al toegevoegd op 2026-03-16)
+  – [Radio1-Top30] Dressed Like Boys — And Then I Woke Up (al toegevoegd op 2026-09-20)
+  ✓ [TheCurrent] Sharon Jones and The Dap-Kings — 100 Days, 100 Nights
+  – [GillesPeterson-Saturdays] Camille Bertault — Acrécran (al toegevoegd op 2026-09-18)
+  – [NPR-AllSongsConsidered] Wet Leg — catch these fists - FDC DJs remix (al toegevoegd op 2026-07-13)
+  – [LaurenLaverne-JustAdded] HALEY — My Wave (al toegevoegd op 2026-03-16)
+  – [Radio1-Wonderland] ALBAN — Trees Never Lie (al toegevoegd op 2026-03-23)
+  – [GillesPeterson-Saturdays] SANAM — Ayouha Al-Taiin Fi Al-Mawt (al toegevoegd op 2026-09-18)
+  ✓ [DoubleJ] Adam Newling — Kiss You Twice
+  ✓ [TheCurrent] PinkPantheress — Illegal
+  ✗ [LastFM~Iron & Wine] Iron & Wine and Calexico — History of Lovers (niet gevonden op Tidal)
+  – [LaurenLaverne-JustAdded] Mass Gothic — J.Z.O.K. (al toegevoegd op 2026-03-12)
+  – [Radio1-Top30] J.Bernardt — Four In The Morning (al toegevoegd op 2026-08-24)
+  – [LaurenLaverne-JustAdded] Chaka Khan — Like Sugar (al toegevoegd op 2026-03-16)
+  ✓ [DoubleJ] Madonna & Kylie Minogue — Love Sensation [Afterhours Radio Edit]
+  – [GuyGarvey-FinestHour] Ray Charles — I Don't Need No Doctor (al toegevoegd op 2026-03-12)
+  – [Radio1-Top30] The Rolling Stones — Jealous Lover (al toegevoegd op 2026-07-06)
+  – [GuyGarvey-FinestHour] Lenny Kravitz — Freedom Train - 2009 Digital Remaster (al toegevoegd op 2026-03-16)
+  – [KCRW-MorningBecomesEclectic] Jim James — Wowed Out (al toegevoegd op 2026-09-27)
+  – [LateJunction-Official] Bill Withers — Grandma's Hands (al toegevoegd op 2026-03-12)
+  – [LateJunction-Official] Marisa Monte — Infinito Particular (al toegevoegd op 2026-03-12)
 
-[Tidal] 57 tracks toegevoegd ✓
-[State] Opgeslagen: 2433 geziene tracks, 600 in playlist_log
+[Tidal] 56 tracks toegevoegd ✓
+[State] Opgeslagen: 2489 geziene tracks, 612 in playlist_log
 
-Klaar! 21:11:10
+Klaar! 21:14:28
 
