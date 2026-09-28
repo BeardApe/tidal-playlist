@@ -1681,7 +1681,10 @@
     },
     "lykke li|sick of love": "2026-04-27",
     "angèle|what you want": "2026-04-27",
-    "wild nothing|live in dreams": "2026-04-27",
+    "wild nothing|live in dreams": {
+      "date": "2026-04-27",
+      "source": "LastFM~Beach House"
+    },
     "slowdive|altogether": {
       "date": "2026-04-27",
       "source": "LastFM~Mazzy Star"
@@ -2203,7 +2206,10 @@
       "date": "2026-06-08",
       "source": "Radio1-Top30"
     },
-    "melody's echo chamber|crystallized": "2026-06-08",
+    "melody's echo chamber|crystallized": {
+      "date": "2026-06-08",
+      "source": "LastFM~Beach House"
+    },
     "johannes is zijn naam|ding": {
       "date": "2026-06-08",
       "source": "Radio1-Top30"
@@ -2261,7 +2267,10 @@
     "lido pimienta|tóxica": "2026-06-08",
     "berry weight|walking by your side": "2026-06-08",
     "jessie ware|automatic": "2026-06-08",
-    "melody's echo chamber|some time alone, alone": "2026-06-08",
+    "melody's echo chamber|some time alone, alone": {
+      "date": "2026-06-08",
+      "source": "LastFM~Beach House"
+    },
     "gently tender|wild in the uplands": "2026-06-08",
     "boards of canada|you retreat in time and space": "2026-06-08",
     "getdown services|i can't die like that": "2026-06-08",
@@ -7535,6 +7544,226 @@
     "paige plaisance|make mine country": {
       "date": "2026-09-28",
       "source": "TheCurrent"
+    },
+    "the waifs|blindly believing": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "paisley fields|straight panic defense": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "arctic monkeys|505": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "antony szmierek|the heron": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "jimi hendrix|like a rolling stone": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "pixies|there goes my gun": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "klangstein feat. sylvia gerlach|ganz leise": {
+      "date": "2026-09-28",
+      "source": "SomaFM-Lush"
+    },
+    "rob cross|juxtapose": {
+      "date": "2026-09-28",
+      "source": "SomaFM-Lush"
+    },
+    "maya de vitry|all my faith": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "volcano choir|and gather": {
+      "date": "2026-09-28",
+      "source": "LastFM~Bon Iver"
+    },
+    "camera obscura|do it again": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "cardinals|get it": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "andrew sa feat. h.c. mcentire|lavender cowboy": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "the decemberists|the mariner's revenge song": {
+      "date": "2026-09-28",
+      "source": "LastFM~Iron & Wine"
+    },
+    "bleachers|stop making this hurt": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "volcano choir|tiderays": {
+      "date": "2026-09-28",
+      "source": "LastFM~Bon Iver"
+    },
+    "iron & wine|love and some verses": {
+      "date": "2026-09-28",
+      "source": "LastFM~Bon Iver"
+    },
+    "devon gilfillian|black dog rabbit hole": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "the highwomen|redesigning women": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "john lee hooker|sugar mama": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "volcano choir|island, is": {
+      "date": "2026-09-28",
+      "source": "LastFM~Bon Iver"
+    },
+    "ken pomeroy|days getting darker": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "mitski|the only heartbreaker": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "primitive radio gods|standing outside a broken phone booth with money": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "kate bush|wuthering heights": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "stevie wonder|sir duke": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "spiritualized|electricity": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "kazy lambist|a night in the box": {
+      "date": "2026-09-28",
+      "source": "LastFM~Rhye"
+    },
+    "red hot chili peppers|under the bridge": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "kazy lambist|on you": {
+      "date": "2026-09-28",
+      "source": "LastFM~Rhye"
+    },
+    "the decemberists|the crane wife 3": {
+      "date": "2026-09-28",
+      "source": "LastFM~Iron & Wine"
+    },
+    "wild nothing|shadow": {
+      "date": "2026-09-28",
+      "source": "LastFM~Beach House"
+    },
+    "beach weather|sex drugs etc": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "melody's echo chamber|breathe in, breathe out": {
+      "date": "2026-09-28",
+      "source": "LastFM~Beach House"
+    },
+    "eric hilton|divagar": {
+      "date": "2026-09-28",
+      "source": "SomaFM-Lush"
+    },
+    "wild nothing|drifter": {
+      "date": "2026-09-28",
+      "source": "LastFM~Beach House"
+    },
+    "heartless bastards|searching for the ghost": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "tycho and saint sinner & saint sinner|no stress (feat. saint sinner)": {
+      "date": "2026-09-28",
+      "source": "SomaFM-Lush"
+    },
+    "iron & wine and calexico|dark eyes": {
+      "date": "2026-09-28",
+      "source": "LastFM~Iron & Wine"
+    },
+    "beck and phoenix|odyssey": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "logic1000|all in for you [ft. kučka]": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "yumi zouma|blister": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "shantel|the baby": {
+      "date": "2026-09-28",
+      "source": "SomaFM-Lush"
+    },
+    "coldplay|shiver": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "chvrches|roses": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "julia jacklin|i wish (feat. the maes)": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "thomas lemmer|the world belongs to us": {
+      "date": "2026-09-28",
+      "source": "SomaFM-Lush"
+    },
+    "kylie minogue|in your eyes": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "jason isbell and the 400 unit|when we were close": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "the decemberists|yankee bayonet (i will be home then)": {
+      "date": "2026-09-28",
+      "source": "LastFM~Iron & Wine"
+    },
+    "the replacements|little mascara": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "audrey powne|stay awake": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "patsy cline|faded love": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "docker river band|ngura kutjupa kanpinya": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "kazy lambist|oh my god": {
+      "date": "2026-09-28",
+      "source": "LastFM~Rhye"
     }
   },
   "playlist_log": {
@@ -11847,18 +12076,6 @@
         "under 2000 listeners"
       ]
     },
-    "12756645": {
-      "date": "2026-09-27",
-      "artist": "Carmen Rizzo",
-      "title": "Travel In Time (Featuring Kate Havnevik)",
-      "source": "SomaFM-Lush",
-      "genres": [
-        "downtempo",
-        "chillout",
-        "electronic",
-        "trance"
-      ]
-    },
     "478329629": {
       "date": "2026-09-27",
       "artist": "Cesária Évora",
@@ -12558,18 +12775,6 @@
         "pop"
       ]
     },
-    "165676285": {
-      "date": "2026-09-27",
-      "artist": "Carmen Rizzo",
-      "title": "Too Rude f/ Esthero (Carmen Rizzo-White Diamond Mix)",
-      "source": "SomaFM-Lush",
-      "genres": [
-        "downtempo",
-        "chillout",
-        "electronic",
-        "trance"
-      ]
-    },
     "196351412": {
       "date": "2026-09-27",
       "artist": "Dianesthetic",
@@ -12739,16 +12944,6 @@
       "genres": [
         "australia",
         "aboriginal"
-      ]
-    },
-    "553916214": {
-      "date": "2026-09-27",
-      "artist": "Alex Klingle feat. Linnea Schossow",
-      "title": "I Run To You (Bryan Milton Remix)",
-      "source": "SomaFM-Lush",
-      "genres": [
-        "progressive trance",
-        "trance"
       ]
     },
     "77557269": {
@@ -12976,18 +13171,6 @@
         "pop",
         "funk",
         "electronica"
-      ]
-    },
-    "376840795": {
-      "date": "2026-09-27",
-      "artist": "Ripple Effect Band",
-      "title": "People from Maningrida",
-      "source": "DoubleJ",
-      "genres": [
-        "australia",
-        "reggae",
-        "reggae rock",
-        "australian"
       ]
     },
     "512334708": {
@@ -13803,15 +13986,6 @@
         "nashville"
       ]
     },
-    "54160256": {
-      "date": "2026-09-27",
-      "artist": "Conjure One feat. Aruna",
-      "title": "Still Holding On",
-      "source": "SomaFM-Lush",
-      "genres": [
-        "vocal trance"
-      ]
-    },
     "175149288": {
       "date": "2026-09-27",
       "artist": "Japanese Breakfast",
@@ -14055,18 +14229,6 @@
         "80s"
       ]
     },
-    "93177835": {
-      "date": "2026-09-28",
-      "artist": "Bob Marley",
-      "title": "One Love",
-      "source": "RadioParadise-Mellow",
-      "genres": [
-        "reggae",
-        "roots reggae",
-        "ska",
-        "bob marley"
-      ]
-    },
     "376715425": {
       "date": "2026-09-28",
       "artist": "Anna Domino",
@@ -14300,7 +14462,9 @@
       "artist": "dj poolboi (feat. Lucy's Mirror)",
       "title": "Lilacs",
       "source": "SomaFM-Lush",
-      "genres": []
+      "genres": [
+        "lo-fi house"
+      ]
     },
     "166436875": {
       "date": "2026-09-28",
@@ -14382,17 +14546,6 @@
         "alternative r&b",
         "soul",
         "pop soul"
-      ]
-    },
-    "80031378": {
-      "date": "2026-09-28",
-      "artist": "Above & Beyond",
-      "title": "Home",
-      "source": "SomaFM-Lush",
-      "genres": [
-        "trance",
-        "progressive trance",
-        "progressive house"
       ]
     },
     "201548898": {
@@ -14641,13 +14794,6 @@
         "icelandic",
         "jazz"
       ]
-    },
-    "560199323": {
-      "date": "2026-09-28",
-      "artist": "BIG NOTER & Joe Talbot",
-      "title": "BIG NOTER",
-      "source": "DoubleJ",
-      "genres": []
     },
     "234333035": {
       "date": "2026-09-28",
@@ -14899,18 +15045,6 @@
         "indie rock"
       ]
     },
-    "135879959": {
-      "date": "2026-09-28",
-      "artist": "Carmen Rizzo",
-      "title": "Bring The Mountain Down Feat. Grant Phillips",
-      "source": "SomaFM-Lush",
-      "genres": [
-        "downtempo",
-        "chillout",
-        "electronic",
-        "trance"
-      ]
-    },
     "549021348": {
       "date": "2026-09-28",
       "artist": "Dan Sultan",
@@ -14930,6 +15064,414 @@
       "source": "TheCurrent",
       "genres": [
         "americana"
+      ]
+    },
+    "59877702": {
+      "date": "2026-09-28",
+      "artist": "The Waifs",
+      "title": "Blindly Believing",
+      "source": "DoubleJ",
+      "genres": [
+        "folk",
+        "australian",
+        "indie",
+        "acoustic"
+      ]
+    },
+    "496659299": {
+      "date": "2026-09-28",
+      "artist": "Paisley Fields",
+      "title": "Straight Panic Defense",
+      "source": "TheCurrent",
+      "genres": [
+        "country",
+        "folk",
+        "alt country",
+        "americana"
+      ]
+    },
+    "14831214": {
+      "date": "2026-09-28",
+      "artist": "Arctic Monkeys",
+      "title": "505",
+      "source": "TheCurrent",
+      "genres": [
+        "indie",
+        "garage rock"
+      ]
+    },
+    "514468626": {
+      "date": "2026-09-28",
+      "artist": "Antony Szmierek",
+      "title": "The Heron",
+      "source": "DoubleJ",
+      "genres": [
+        "stutter house",
+        "spoken word",
+        "indie dance"
+      ]
+    },
+    "3251187": {
+      "date": "2026-09-28",
+      "artist": "Jimi Hendrix",
+      "title": "Like A Rolling Stone",
+      "source": "TheCurrent",
+      "genres": [
+        "psychedelic rock",
+        "classic rock",
+        "acid rock",
+        "blues rock"
+      ]
+    },
+    "2211785": {
+      "date": "2026-09-28",
+      "artist": "Pixies",
+      "title": "There Goes My Gun",
+      "source": "TheCurrent",
+      "genres": [
+        "alternative rock"
+      ]
+    },
+    "533679702": {
+      "date": "2026-09-28",
+      "artist": "Maya de Vitry",
+      "title": "All My Faith",
+      "source": "TheCurrent",
+      "genres": [
+        "folk",
+        "americana",
+        "singer songwriter",
+        "usa"
+      ]
+    },
+    "25055074": {
+      "date": "2026-09-28",
+      "artist": "Volcano Choir",
+      "title": "And Gather",
+      "source": "LastFM~Bon Iver",
+      "genres": [
+        "indie folk"
+      ]
+    },
+    "20320814": {
+      "date": "2026-09-28",
+      "artist": "Camera Obscura",
+      "title": "Do It Again",
+      "source": "TheCurrent",
+      "genres": [
+        "indie pop",
+        "jangle pop"
+      ]
+    },
+    "493178193": {
+      "date": "2026-09-28",
+      "artist": "Andrew Sa feat. H.C. McEntire",
+      "title": "Lavender Cowboy",
+      "source": "DoubleJ",
+      "genres": []
+    },
+    "111397142": {
+      "date": "2026-09-28",
+      "artist": "The Decemberists",
+      "title": "The Mariner's Revenge Song",
+      "source": "LastFM~Iron & Wine",
+      "genres": [
+        "baroque pop",
+        "indie folk"
+      ]
+    },
+    "192395702": {
+      "date": "2026-09-28",
+      "artist": "Bleachers",
+      "title": "Stop Making This Hurt",
+      "source": "TheCurrent",
+      "genres": [
+        "indie pop",
+        "indie",
+        "pop",
+        "power pop"
+      ]
+    },
+    "25056076": {
+      "date": "2026-09-28",
+      "artist": "Volcano Choir",
+      "title": "Tiderays",
+      "source": "LastFM~Bon Iver",
+      "genres": [
+        "indie folk"
+      ]
+    },
+    "21398050": {
+      "date": "2026-09-28",
+      "artist": "Iron & Wine",
+      "title": "Love and Some Verses",
+      "source": "LastFM~Bon Iver",
+      "genres": [
+        "indie folk"
+      ]
+    },
+    "116167321": {
+      "date": "2026-09-28",
+      "artist": "The Highwomen",
+      "title": "Redesigning Women",
+      "source": "TheCurrent",
+      "genres": [
+        "americana"
+      ]
+    },
+    "4131125": {
+      "date": "2026-09-28",
+      "artist": "John Lee Hooker",
+      "title": "Sugar Mama",
+      "source": "TheCurrent",
+      "genres": [
+        "classic blues",
+        "blues",
+        "blues rock",
+        "country blues"
+      ]
+    },
+    "25055072": {
+      "date": "2026-09-28",
+      "artist": "Volcano Choir",
+      "title": "Island, IS",
+      "source": "LastFM~Bon Iver",
+      "genres": [
+        "indie folk"
+      ]
+    },
+    "434856879": {
+      "date": "2026-09-28",
+      "artist": "Ken Pomeroy",
+      "title": "Days Getting Darker",
+      "source": "TheCurrent",
+      "genres": [
+        "americana"
+      ]
+    },
+    "200539899": {
+      "date": "2026-09-28",
+      "artist": "Mitski",
+      "title": "The Only Heartbreaker",
+      "source": "TheCurrent",
+      "genres": [
+        "indie rock",
+        "indie",
+        "indie pop",
+        "singer songwriter"
+      ]
+    },
+    "128447": {
+      "date": "2026-09-28",
+      "artist": "Kate Bush",
+      "title": "Wuthering Heights",
+      "source": "DoubleJ",
+      "genres": [
+        "art pop",
+        "baroque pop",
+        "art rock"
+      ]
+    },
+    "79419398": {
+      "date": "2026-09-28",
+      "artist": "Stevie Wonder",
+      "title": "Sir Duke",
+      "source": "DoubleJ",
+      "genres": [
+        "motown",
+        "classic soul",
+        "soul"
+      ]
+    },
+    "134049298": {
+      "date": "2026-09-28",
+      "artist": "Spiritualized",
+      "title": "Electricity",
+      "source": "DoubleJ",
+      "genres": [
+        "neo-psychedelic",
+        "space rock",
+        "shoegaze",
+        "dream pop"
+      ]
+    },
+    "147319749": {
+      "date": "2026-09-28",
+      "artist": "Kazy Lambist",
+      "title": "A Night in the Box",
+      "source": "LastFM~Rhye",
+      "genres": [
+        "french indie pop"
+      ]
+    },
+    "304849": {
+      "date": "2026-09-28",
+      "artist": "Red Hot Chili Peppers",
+      "title": "Under The Bridge",
+      "source": "DoubleJ",
+      "genres": [
+        "funk rock",
+        "alternative rock",
+        "rock"
+      ]
+    },
+    "58967186": {
+      "date": "2026-09-28",
+      "artist": "Kazy Lambist",
+      "title": "On You",
+      "source": "LastFM~Rhye",
+      "genres": [
+        "french indie pop"
+      ]
+    },
+    "2433507": {
+      "date": "2026-09-28",
+      "artist": "The Decemberists",
+      "title": "The Crane Wife 3",
+      "source": "LastFM~Iron & Wine",
+      "genres": [
+        "baroque pop",
+        "indie folk"
+      ]
+    },
+    "21408094": {
+      "date": "2026-09-28",
+      "artist": "Wild Nothing",
+      "title": "Shadow",
+      "source": "LastFM~Beach House",
+      "genres": [
+        "dream pop",
+        "shoegaze",
+        "chillwave"
+      ]
+    },
+    "231593802": {
+      "date": "2026-09-28",
+      "artist": "Beach Weather",
+      "title": "sex drugs etc",
+      "source": "TheCurrent",
+      "genres": [
+        "indie",
+        "indie rock",
+        "rock",
+        "alternative"
+      ]
+    },
+    "89810925": {
+      "date": "2026-09-28",
+      "artist": "Melody's Echo Chamber",
+      "title": "Breathe In, Breathe Out",
+      "source": "LastFM~Beach House",
+      "genres": [
+        "neo-psychedelic",
+        "dream pop",
+        "psychedelic rock"
+      ]
+    },
+    "544774126": {
+      "date": "2026-09-28",
+      "artist": "Wild Nothing",
+      "title": "Drifter",
+      "source": "LastFM~Beach House",
+      "genres": [
+        "dream pop",
+        "shoegaze",
+        "chillwave"
+      ]
+    },
+    "33711259": {
+      "date": "2026-09-28",
+      "artist": "Heartless Bastards",
+      "title": "Searching For The Ghost",
+      "source": "TheCurrent",
+      "genres": [
+        "garage rock",
+        "indie rock",
+        "female vocalists",
+        "rock"
+      ]
+    },
+    "176940515": {
+      "date": "2026-09-28",
+      "artist": "Iron & Wine and Calexico",
+      "title": "Dark Eyes",
+      "source": "LastFM~Iron & Wine",
+      "genres": [
+        "folk",
+        "indie",
+        "alt country",
+        "singer songwriter"
+      ]
+    },
+    "304821114": {
+      "date": "2026-09-28",
+      "artist": "Beck and Phoenix",
+      "title": "Odyssey",
+      "source": "TheCurrent",
+      "genres": []
+    },
+    "480165": {
+      "date": "2026-09-28",
+      "artist": "Kylie Minogue",
+      "title": "In Your Eyes",
+      "source": "DoubleJ",
+      "genres": [
+        "dance pop"
+      ]
+    },
+    "297862736": {
+      "date": "2026-09-28",
+      "artist": "Jason Isbell And The 400 Unit",
+      "title": "When We Were Close",
+      "source": "TheCurrent",
+      "genres": [
+        "alt country",
+        "americana"
+      ]
+    },
+    "77552571": {
+      "date": "2026-09-28",
+      "artist": "The Decemberists",
+      "title": "Yankee Bayonet (I Will Be Home Then)",
+      "source": "LastFM~Iron & Wine",
+      "genres": [
+        "baroque pop",
+        "indie folk"
+      ]
+    },
+    "1968662": {
+      "date": "2026-09-28",
+      "artist": "The Replacements",
+      "title": "Little Mascara",
+      "source": "TheCurrent",
+      "genres": [
+        "power pop",
+        "jangle pop"
+      ]
+    },
+    "93753872": {
+      "date": "2026-09-28",
+      "artist": "Patsy Cline",
+      "title": "Faded Love",
+      "source": "TheCurrent",
+      "genres": [
+        "classic country"
+      ]
+    },
+    "467984492": {
+      "date": "2026-09-28",
+      "artist": "Docker River Band",
+      "title": "Ngura Kutjupa Kanpinya",
+      "source": "DoubleJ",
+      "genres": []
+    },
+    "129296112": {
+      "date": "2026-09-28",
+      "artist": "Kazy Lambist",
+      "title": "Oh My God",
+      "source": "LastFM~Rhye",
+      "genres": [
+        "french indie pop"
       ]
     }
   },
