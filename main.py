@@ -32,24 +32,34 @@ NEW_TRACK_DAYS = 14   # prioriteitsbronnen: alles wat de laatste 14 dagen is toe
 # Status wordt na elke run opgeslagen in state.json, de log in run.log
 STATE_FILE = Path("state.json")
 
-BLOCKED_GENRES = {
-    "rap", "hip hop", "trap", "drill", "grime",
-    "hard rock", "heavy metal", "metal", "punk",
-    "hardcore", "noise rock", "death metal", "thrash metal",
-    "edm", "electro house", "big room",
-    "minimal", "idm", "glitch", "microhouse",
-    "techno", "ambient", "christian",
-    "alternative r&b", "uk r&b",
-}
+# Geblokkeerde genres en artiesten staan in blokkades.txt, zodat je ze zelf kan aanpassen.
+BLOCKLIST_FILE = Path("blokkades.txt")
+
+
+def load_blocklist() -> tuple[set, set]:
+    sections = {"genres": set(), "artiesten": set()}
+    current = None
+    if not BLOCKLIST_FILE.exists():
+        print("[Blokkades] blokkades.txt niet gevonden, niets geblokkeerd")
+        return set(), set()
+    for raw in BLOCKLIST_FILE.read_text(encoding="utf-8").splitlines():
+        line = raw.strip()
+        if not line or line.startswith("#"):
+            continue
+        if line.startswith("[") and line.endswith("]"):
+            current = line[1:-1].strip().lower()
+            continue
+        if current in sections:
+            value = line.lower()
+            sections[current].add(value.replace("-", " ") if current == "genres" else value)
+    print(f"[Blokkades] {len(sections['genres'])} genres en {len(sections['artiesten'])} artiesten geblokkeerd")
+    return sections["genres"], sections["artiesten"]
+
+
+BLOCKED_GENRES, BLOCKED_ARTISTS = load_blocklist()
 
 # Bronnen die zijn stopgezet: bestaande tracks hiervan worden gepurged
 BLOCKED_SOURCES = {"FIP-Live", "Vuurland-zender", "KEXP-NewThisWeek"}
-
-# Artiesten die nooit in de playlist mogen komen (kleine letters)
-BLOCKED_ARTISTS = {
-    "christ.", "slag boom van loon", "slagboom van loon", "nick hakim",
-    "dido", "pati yang", "apparat", "perfect person", "zwangere guy",
-}
 
 # Genres die alleen voor een specifieke bron geblokkeerd zijn.
 # Rock via Studio Brussel of Radio 1 blijft welkom; alleen KEXP levert te rauw.

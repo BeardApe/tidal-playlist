@@ -60,6 +60,14 @@ h1 {
 .sub a { color: var(--teal); text-decoration: none; }
 .sub a:hover { text-decoration: underline; }
 
+.edit-btn {
+  display: inline-block; margin-top: 16px;
+  font-family: 'IBM Plex Mono', monospace; font-size: 13px;
+  color: var(--bg); background: var(--amber);
+  padding: 8px 14px; border-radius: 6px; text-decoration: none;
+}
+.edit-btn:hover { background: var(--text); }
+.edit-btn:focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
 .stats {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
@@ -183,7 +191,8 @@ footer {
 <header>
   <div class="eyebrow"><span class="dot"></span>on air — wekelijkse rotatie</div>
   <h1>Nachtradio</h1>
-  <p class="sub">Automatisch samengesteld uit Vuurland, KEXP, BBC, NPR en Last.fm-ontdekkingen · <a href="https://github.com/BeardApe/tidal-playlist" rel="noopener">broncode</a></p>
+  <p class="sub">Automatisch samengesteld uit Duyster, Vuurland, BBC, NPR, internationale radio en Last.fm-ontdekkingen · <a href="https://github.com/BeardApe/tidal-playlist" rel="noopener">broncode</a></p>
+  <a class="edit-btn" href="https://github.com/BeardApe/tidal-playlist/edit/main/blokkades.txt" target="_blank" rel="noopener">Genres of artiesten blokkeren</a>
 </header>
 
 <div class="stats" id="stats">
@@ -199,6 +208,7 @@ footer {
   <button class="tab active" role="tab" data-tab="current">Huidige playlist</button>
   <button class="tab" role="tab" data-tab="removed">Uitgerouleerd</button>
   <button class="tab" role="tab" data-tab="sources">Bronnen</button>
+  <button class="tab" role="tab" data-tab="genres">Genres</button>
 </nav>
 
 <div class="panel active" id="panel-current">
@@ -224,6 +234,11 @@ footer {
 
 <div class="panel" id="panel-sources">
   <div id="t-sources"></div>
+</div>
+
+<div class="panel" id="panel-genres">
+  <p class="sub" style="margin-bottom:16px">Welke genres nu het meest in je playlist zitten. Stoort er een, zet het woord in blokkades.txt via de oranje knop bovenaan.</p>
+  <div id="t-genres"></div>
 </div>
 
 <footer>
@@ -395,6 +410,21 @@ function renderSources() {
     </tr>`).join('') + '</tbody></table>';
 }
 
+function renderGenres() {
+  const counts = {}, examples = {};
+  currentTracks().forEach(t => t.genres.forEach(g => {
+    counts[g] = (counts[g] || 0) + 1;
+    (examples[g] = examples[g] || new Set()).add(t.artist);
+  }));
+  const rows = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 60);
+  const el = document.getElementById('t-genres');
+  if (!rows.length) { el.innerHTML = '<div class="msg">Nog geen genre-informatie</div>'; return; }
+  el.innerHTML = `<table><thead><tr><th>Genre</th><th>Nummers</th><th>Bijvoorbeeld</th></tr></thead><tbody>` +
+    rows.map(([g, n]) => `<tr><td class="artist">${esc(g)}</td><td class="date">${n}</td>
+      <td class="title">${[...examples[g]].slice(0, 3).map(esc).join(', ')}</td></tr>`).join('') +
+    '</tbody></table>';
+}
+
 function populateSourceFilter() {
   const sources = [...new Set(Object.values(state.seen || {}).map(getSource).filter(Boolean))].sort();
   const sel = document.getElementById('f-source');
@@ -436,6 +466,7 @@ async function init() {
     renderCurrent();
     renderRemoved();
     renderSources();
+    renderGenres();
     document.getElementById('last-update').textContent =
       'data geladen op ' + new Date().toLocaleString('nl-BE', { timeZone: 'Europe/Brussels' });
   } catch (e) {

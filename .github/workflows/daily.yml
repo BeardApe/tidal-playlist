@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["main.py"]   # nieuwe code = meteen een run
+    paths: ["main.py", "blokkades.txt"]   # nieuwe code of blokkades = meteen een run
 
 permissions:
   contents: write           # nodig om state.json terug te committen

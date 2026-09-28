@@ -1,0 +1,57 @@
+# ============================================================
+#  BLOKKADES VOOR JE PLAYLIST
+#
+#  Zet één woord of naam per regel, onder het juiste kopje.
+#  Hoofdletters maken niet uit.
+#  Regels die met # beginnen, worden overgeslagen.
+#
+#  Na het opslaan draait de playlist meteen opnieuw:
+#  nieuwe nummers worden tegengehouden én wat al in je
+#  playlist staat, wordt verwijderd.
+# ============================================================
+
+
+[genres]
+# Een deel van het woord volstaat: "rock" blokkeert ook
+# "indie rock", "garage rock" en "folk rock".
+# Wees dus voorzichtig met korte woorden.
+
+rap
+hip hop
+trap
+drill
+grime
+hard rock
+heavy metal
+metal
+punk
+hardcore
+noise rock
+death metal
+thrash metal
+edm
+electro house
+big room
+minimal
+idm
+glitch
+microhouse
+techno
+ambient
+christian
+alternative r&b
+uk r&b
+
+
+[artiesten]
+# De naam zoals hij in Tidal staat.
+
+christ.
+slag boom van loon
+slagboom van loon
+nick hakim
+dido
+pati yang
+apparat
+perfect person
+zwangere guy
