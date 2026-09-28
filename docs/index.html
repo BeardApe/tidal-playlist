@@ -68,6 +68,44 @@ h1 {
 }
 .edit-btn:hover { background: var(--text); }
 .edit-btn:focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
+button.edit-btn { border: none; cursor: pointer; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 16px; }
+.chip {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-family: 'IBM Plex Mono', monospace; font-size: 13px;
+  background: var(--surface-2); color: var(--text);
+  border: 1px solid var(--border); border-radius: 999px; padding: 4px 6px 4px 12px;
+}
+.chip button {
+  background: none; border: none; color: var(--text-dim); cursor: pointer;
+  font-size: 16px; line-height: 1; width: 24px; height: 24px; border-radius: 50%;
+}
+.chip button:hover { color: var(--red); background: var(--bg); }
+.block-card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 20px; }
+.block-card h3 { font-family: 'Fraunces', serif; font-weight: 600; font-size: 20px; margin-bottom: 4px; }
+.block-card p { color: var(--text-dim); font-size: 14px; }
+.add-row { display: flex; gap: 8px; flex-wrap: wrap; }
+.add-row input { flex: 1; min-width: 180px; background: var(--bg); border: 1px solid var(--border); color: var(--text); border-radius: 6px; padding: 8px 12px; font: inherit; }
+.btn {
+  background: var(--surface-2); color: var(--text); border: 1px solid var(--border);
+  border-radius: 6px; padding: 8px 14px; font: inherit; font-size: 14px; cursor: pointer;
+}
+.btn:hover { border-color: var(--amber-dim); }
+.btn:focus-visible, .chip button:focus-visible, .gtag:focus-visible, .mini:focus-visible { outline: 2px solid var(--amber); outline-offset: 2px; }
+.btn.primary { background: var(--amber); color: var(--bg); border-color: var(--amber); }
+.mini {
+  background: none; border: 1px solid var(--border); color: var(--text-dim);
+  border-radius: 4px; padding: 2px 8px; font-size: 12px; cursor: pointer; white-space: nowrap;
+}
+.mini:hover { color: var(--red); border-color: var(--red); }
+.gtag { background: none; border: none; padding: 0; font: inherit; color: inherit; cursor: pointer; text-decoration: underline dotted; text-underline-offset: 3px; }
+.gtag:hover { color: var(--red); }
+.toast {
+  position: sticky; bottom: 16px; margin-top: 16px; padding: 12px 16px; border-radius: 8px;
+  background: var(--surface-2); border: 1px solid var(--amber-dim); font-size: 14px; display: none;
+}
+.toast.show { display: block; }
+.toast.err { border-color: var(--red); }
 .stats {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
@@ -181,7 +219,8 @@ footer {
   font-family: 'IBM Plex Mono', monospace;
 }
 @media (max-width: 600px) {
-  th:nth-child(4), td:nth-child(4) { display: none; }
+  #t-current th:nth-child(4), #t-current td:nth-child(4),
+  #t-removed th:nth-child(4), #t-removed td:nth-child(4) { display: none; }
 }
 </style>
 </head>
@@ -192,7 +231,7 @@ footer {
   <div class="eyebrow"><span class="dot"></span>on air — wekelijkse rotatie</div>
   <h1>Nachtradio</h1>
   <p class="sub">Automatisch samengesteld uit Duyster, Vuurland, BBC, NPR, internationale radio en Last.fm-ontdekkingen · <a href="https://github.com/BeardApe/tidal-playlist" rel="noopener">broncode</a></p>
-  <a class="edit-btn" href="https://github.com/BeardApe/tidal-playlist/edit/main/blokkades.txt" target="_blank" rel="noopener">Genres of artiesten blokkeren</a>
+  <button class="edit-btn" type="button" id="open-blocks">Blokkades beheren</button>
 </header>
 
 <div class="stats" id="stats">
@@ -209,6 +248,7 @@ footer {
   <button class="tab" role="tab" data-tab="removed">Uitgerouleerd</button>
   <button class="tab" role="tab" data-tab="sources">Bronnen</button>
   <button class="tab" role="tab" data-tab="genres">Genres</button>
+  <button class="tab" role="tab" data-tab="blocks">Blokkades</button>
 </nav>
 
 <div class="panel active" id="panel-current">
@@ -237,9 +277,45 @@ footer {
 </div>
 
 <div class="panel" id="panel-genres">
-  <p class="sub" style="margin-bottom:16px">Welke genres nu het meest in je playlist zitten. Stoort er een, zet het woord in blokkades.txt via de oranje knop bovenaan.</p>
+  <p class="sub" style="margin-bottom:16px">Welke genres nu het meest in je playlist zitten. Stoort er een, klik op Blokkeer.</p>
   <div id="t-genres"></div>
 </div>
+
+<div class="panel" id="panel-blocks">
+  <div class="block-card" id="connect-card">
+    <h3>Koppel je GitHub</h3>
+    <p>Eenmalig. Plak je GitHub-token (begint met github_pat_). Deze browser onthoudt het, en het gaat nergens anders heen dan naar GitHub.</p>
+    <div class="add-row" style="margin-top:12px">
+      <input type="password" id="tok" placeholder="github_pat_..." autocomplete="off">
+      <button class="btn primary" type="button" id="tok-save">Koppelen</button>
+    </div>
+  </div>
+  <div class="block-card" id="connected-card" style="display:none">
+    <p>Gekoppeld met GitHub. Na elke wijziging wordt je playlist binnen enkele minuten bijgewerkt. <button class="mini" type="button" id="tok-clear">Ontkoppelen</button></p>
+  </div>
+
+  <div class="block-card">
+    <h3>Geblokkeerde genres</h3>
+    <p>Een deel van het woord volstaat: "rock" houdt ook "indie rock" en "folk rock" tegen.</p>
+    <div class="chips" id="chips-genres"><span class="msg" style="padding:0">Laden...</span></div>
+    <div class="add-row">
+      <input type="text" id="add-genre" placeholder="bijvoorbeeld garage rock">
+      <button class="btn" type="button" data-add="genres">Blokkeer genre</button>
+    </div>
+  </div>
+
+  <div class="block-card">
+    <h3>Geblokkeerde artiesten</h3>
+    <p>De naam zoals hij in Tidal staat.</p>
+    <div class="chips" id="chips-artiesten"><span class="msg" style="padding:0">Laden...</span></div>
+    <div class="add-row">
+      <input type="text" id="add-artist" placeholder="bijvoorbeeld dido">
+      <button class="btn" type="button" data-add="artiesten">Blokkeer artiest</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <footer>
   <div>rotatie: tracks verdwijnen na 30 dagen · dedupe: eenmaal gedraaid komt niet terug</div>
@@ -353,9 +429,9 @@ function renderCurrent() {
       const cls = t.age > 25 ? 'danger' : t.age > 15 ? 'warn' : '';
       const badgeCls = t.source.startsWith('LastFM') ? 'badge lastfm' : 'badge';
       const genreLine = t.genres.length
-        ? `<div class="genres">${t.genres.map(esc).join(' · ')}</div>` : '';
+        ? `<div class="genres">${t.genres.map(g => `<button class="gtag" type="button" data-block-genre="${esc(g)}" title="Genre blokkeren">${esc(g)}</button>`).join(' · ')}</div>` : '';
       return `<tr>
-        <td class="artist">${esc(t.artist) || '—'}</td>
+        <td class="artist">${esc(t.artist) || '—'}<div><button class="mini" type="button" data-block-artist="${esc(t.artist)}">blokkeer</button></div></td>
         <td class="title">${esc(t.title) || '—'}${genreLine}</td>
         <td><span class="${badgeCls}">${esc(shortSrc(t.source))}</span></td>
         <td class="date">${t.date}</td>
@@ -419,9 +495,10 @@ function renderGenres() {
   const rows = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 60);
   const el = document.getElementById('t-genres');
   if (!rows.length) { el.innerHTML = '<div class="msg">Nog geen genre-informatie</div>'; return; }
-  el.innerHTML = `<table><thead><tr><th>Genre</th><th>Nummers</th><th>Bijvoorbeeld</th></tr></thead><tbody>` +
+  el.innerHTML = `<table><thead><tr><th>Genre</th><th>Nummers</th><th>Bijvoorbeeld</th><th></th></tr></thead><tbody>` +
     rows.map(([g, n]) => `<tr><td class="artist">${esc(g)}</td><td class="date">${n}</td>
-      <td class="title">${[...examples[g]].slice(0, 3).map(esc).join(', ')}</td></tr>`).join('') +
+      <td class="title">${[...examples[g]].slice(0, 3).map(esc).join(', ')}</td>
+      <td><button class="mini" type="button" data-block-genre="${esc(g)}">Blokkeer</button></td></tr>`).join('') +
     '</tbody></table>';
 }
 
@@ -456,6 +533,143 @@ document.getElementById('f-genre').addEventListener('change', renderCurrent);
 document.getElementById('f-sort').addEventListener('change', renderCurrent);
 document.getElementById('q-removed').addEventListener('input', renderRemoved);
 
+/* ---------- Blokkades beheren ---------- */
+const REPO_API = "https://api.github.com/repos/BeardApe/tidal-playlist/contents/blokkades.txt";
+const RAW_BLOCKS = "https://raw.githubusercontent.com/BeardApe/tidal-playlist/main/blokkades.txt";
+const TOKEN_KEY = "nachtradio-gh-token";
+let blockText = "", blocks = { genres: [], artiesten: [] };
+
+function getToken() { try { return localStorage.getItem(TOKEN_KEY) || ""; } catch (e) { return ""; } }
+function setToken(v) { try { v ? localStorage.setItem(TOKEN_KEY, v) : localStorage.removeItem(TOKEN_KEY); } catch (e) {} }
+
+function toast(msg, isErr) {
+  const t = document.getElementById('toast');
+  t.textContent = msg; t.className = 'toast show' + (isErr ? ' err' : '');
+  clearTimeout(toast._t); toast._t = setTimeout(() => { t.className = 'toast'; }, 7000);
+}
+
+function parseBlocks(text) {
+  const out = { genres: [], artiesten: [] }; let cur = null;
+  text.split('\n').forEach(raw => {
+    const line = raw.trim();
+    if (!line || line.startsWith('#')) return;
+    const m = line.match(/^\[(.+)\]$/);
+    if (m) { cur = m[1].trim().toLowerCase(); return; }
+    if (out[cur]) out[cur].push(line);
+  });
+  return out;
+}
+
+function editBlocks(text, section, value, action) {
+  const lines = text.split('\n');
+  const norm = s => s.trim().toLowerCase();
+  let start = lines.findIndex(l => norm(l) === '[' + section + ']');
+  if (start === -1) {
+    if (action === 'remove') return text;
+    return text.replace(/\s*$/, '') + `\n\n[${section}]\n${value}\n`;
+  }
+  let end = lines.findIndex((l, i) => i > start && /^\s*\[.+\]\s*$/.test(l));
+  if (end === -1) end = lines.length;
+  if (action === 'remove') {
+    return lines.filter((l, i) => !(i > start && i < end && norm(l) === norm(value))).join('\n');
+  }
+  for (let i = start + 1; i < end; i++) if (norm(lines[i]) === norm(value)) return text;
+  let last = start;
+  for (let i = start + 1; i < end; i++) { const l = lines[i].trim(); if (l && !l.startsWith('#')) last = i; }
+  if (last === start) { for (let i = start + 1; i < end && lines[i].trim().startsWith('#'); i++) last = i; }
+  lines.splice(last + 1, 0, value);
+  return lines.join('\n');
+}
+
+const b64encode = s => { const b = new TextEncoder().encode(s); let bin = ''; b.forEach(x => bin += String.fromCharCode(x)); return btoa(bin); };
+const b64decode = s => new TextDecoder().decode(Uint8Array.from(atob(s.replace(/\n/g, '')), ch => ch.charCodeAt(0)));
+
+async function ghGetBlocks() {
+  const r = await fetch(REPO_API + '?t=' + Date.now(), { headers: { Authorization: 'Bearer ' + getToken(), Accept: 'application/vnd.github+json' } });
+  if (r.status === 401 || r.status === 403) throw new Error('Je token werkt niet (meer). Koppel opnieuw.');
+  if (!r.ok) throw new Error('GitHub antwoordde met ' + r.status);
+  const d = await r.json();
+  return { text: b64decode(d.content), sha: d.sha };
+}
+
+async function loadBlocks() {
+  try {
+    if (getToken()) { blockText = (await ghGetBlocks()).text; }
+    else { const r = await fetch(RAW_BLOCKS + '?t=' + Date.now()); blockText = await r.text(); }
+    blocks = parseBlocks(blockText);
+  } catch (e) { toast(e.message, true); }
+  renderBlocks();
+}
+
+function renderBlocks() {
+  const connected = !!getToken();
+  document.getElementById('connect-card').style.display = connected ? 'none' : '';
+  document.getElementById('connected-card').style.display = connected ? '' : 'none';
+  ['genres', 'artiesten'].forEach(sec => {
+    const el = document.getElementById('chips-' + sec);
+    const items = [...blocks[sec]].sort((a, b) => a.localeCompare(b));
+    el.innerHTML = items.length
+      ? items.map(v => `<span class="chip">${esc(v)}<button type="button" data-unblock="${sec}" data-value="${esc(v)}" aria-label="${esc(v)} weer toelaten" title="Weer toelaten">×</button></span>`).join('')
+      : '<span class="msg" style="padding:0">Niets geblokkeerd</span>';
+  });
+}
+
+async function changeBlock(section, value, action) {
+  value = (value || '').trim();
+  if (!value) return;
+  if (!getToken()) {
+    switchTab('blocks');
+    toast('Koppel eerst je GitHub, dan kan je met één klik blokkeren.', true);
+    return;
+  }
+  const label = section === 'genres' ? 'Genre' : 'Artiest';
+  if (action === 'add' && !confirm(`${label} "${value}" blokkeren?\n\nNieuwe nummers worden tegengehouden en wat al in je playlist staat, verdwijnt bij de volgende update.`)) return;
+  try {
+    const { text, sha } = await ghGetBlocks();
+    const updated = editBlocks(text, section, value.toLowerCase(), action);
+    if (updated === text) { toast(action === 'add' ? `"${value}" stond al op de lijst.` : `"${value}" stond niet op de lijst.`); return; }
+    const r = await fetch(REPO_API, {
+      method: 'PUT',
+      headers: { Authorization: 'Bearer ' + getToken(), Accept: 'application/vnd.github+json' },
+      body: JSON.stringify({ message: `${action === 'add' ? 'Blokkeer' : 'Toelaten'}: ${label.toLowerCase()} ${value}`, content: b64encode(updated), sha })
+    });
+    if (!r.ok) throw new Error(r.status === 409 ? 'Het bestand veranderde net. Probeer opnieuw.' : 'Opslaan mislukt (' + r.status + ')');
+    blockText = updated; blocks = parseBlocks(updated); renderBlocks();
+    toast(action === 'add'
+      ? `"${value}" is geblokkeerd. Binnen enkele minuten is je playlist bijgewerkt.`
+      : `"${value}" is weer toegelaten.`);
+  } catch (e) { toast(e.message, true); }
+}
+
+function switchTab(name) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.dataset.tab === name));
+  document.querySelectorAll('.panel').forEach(p => p.classList.toggle('active', p.id === 'panel-' + name));
+}
+
+document.getElementById('open-blocks').addEventListener('click', () => { switchTab('blocks'); document.querySelector('nav').scrollIntoView({ behavior: 'smooth' }); });
+document.getElementById('tok-save').addEventListener('click', async () => {
+  const v = document.getElementById('tok').value.trim();
+  if (!v) return;
+  setToken(v);
+  try { await ghGetBlocks(); document.getElementById('tok').value = ''; toast('Gekoppeld.'); await loadBlocks(); }
+  catch (e) { setToken(''); toast(e.message, true); renderBlocks(); }
+});
+document.getElementById('tok-clear').addEventListener('click', () => { setToken(''); renderBlocks(); toast('Ontkoppeld.'); });
+document.querySelectorAll('[data-add]').forEach(btn => btn.addEventListener('click', () => {
+  const input = btn.previousElementSibling;
+  changeBlock(btn.dataset.add, input.value, 'add').then(() => { input.value = ''; });
+}));
+document.querySelectorAll('.add-row input[type="text"]').forEach(inp => inp.addEventListener('keydown', e => {
+  if (e.key === 'Enter') inp.nextElementSibling.click();
+}));
+document.addEventListener('click', e => {
+  const b = e.target.closest('button');
+  if (!b) return;
+  if (b.dataset.blockGenre) changeBlock('genres', b.dataset.blockGenre, 'add');
+  else if (b.dataset.blockArtist) changeBlock('artiesten', b.dataset.blockArtist, 'add');
+  else if (b.dataset.unblock) changeBlock(b.dataset.unblock, b.dataset.value, 'remove');
+});
+
 async function init() {
   try {
     const r = await fetch(STATE_URL + '?t=' + Date.now());
@@ -467,6 +681,7 @@ async function init() {
     renderRemoved();
     renderSources();
     renderGenres();
+    loadBlocks();
     document.getElementById('last-update').textContent =
       'data geladen op ' + new Date().toLocaleString('nl-BE', { timeZone: 'Europe/Brussels' });
   } catch (e) {
