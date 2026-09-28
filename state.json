@@ -453,7 +453,10 @@
       "date": "2026-03-12",
       "source": "Vuurland-latest"
     },
-    "the wild life band ny|a love song": "2026-03-12",
+    "the wild life band ny|a love song": {
+      "date": "2026-03-12",
+      "source": "WFUV-NYSlice2026"
+    },
     "pati yang|soul for me": "2026-03-12",
     "arlo parks|heaven": {
       "date": "2026-03-12",
@@ -7764,6 +7767,298 @@
     "kazy lambist|oh my god": {
       "date": "2026-09-28",
       "source": "LastFM~Rhye"
+    },
+    "corinne bailey rae|i'd like to": {
+      "date": "2026-09-28",
+      "source": "LastFM~Lianne La Havas"
+    },
+    "diary|keep comin' up": {
+      "date": "2026-09-28",
+      "source": "WFUV-NYSlice2026"
+    },
+    "palco|taking your time on me": {
+      "date": "2026-09-28",
+      "source": "SomaFM-Lush"
+    },
+    "broken bells|the ghost inside": {
+      "date": "2026-09-28",
+      "source": "LastFM~Local Natives"
+    },
+    "boy golden|three scenes (band version)": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "ra ra riot|too too too fast": {
+      "date": "2026-09-28",
+      "source": "LastFM~Local Natives"
+    },
+    "the linda lindas|nothing would change": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "placebo|special k": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "the tragically hip|poets": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "jenny mitchell feat. midnight chicken|mr cotter's ridge": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "kiss the tiger|i miss you": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "damien jurado|museum of flight": {
+      "date": "2026-09-28",
+      "source": "LastFM~M. Ward"
+    },
+    "pespi|down in the dumps": {
+      "date": "2026-09-28",
+      "source": "WFUV-NYSlice2026"
+    },
+    "king gizzard & the lizard wizard|level 5": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "chloe march|cafe des poetes": {
+      "date": "2026-09-28",
+      "source": "SomaFM-Lush"
+    },
+    "cleo sol|rewind": {
+      "date": "2026-09-28",
+      "source": "LastFM~Lianne La Havas"
+    },
+    "conor oberst|lenders in the temple": {
+      "date": "2026-09-28",
+      "source": "LastFM~M. Ward"
+    },
+    "tegan and sara|walking with a ghost": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "ra ra riot|oh, la": {
+      "date": "2026-09-28",
+      "source": "LastFM~Local Natives"
+    },
+    "conor oberst|cape canaveral": {
+      "date": "2026-09-28",
+      "source": "LastFM~M. Ward"
+    },
+    "son volt|medication": {
+      "date": "2026-09-28",
+      "source": "RadioParadise-Mellow"
+    },
+    "jordan rakei|enemies": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "haux|caves": {
+      "date": "2026-09-28",
+      "source": "LastFM~S. Carey"
+    },
+    "ra ra riot|dying is fine": {
+      "date": "2026-09-28",
+      "source": "LastFM~Local Natives"
+    },
+    "the juan maclean|happy house": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "brotherkenzie|open dreaming": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "pulp|spike island": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "elton john|border song": {
+      "date": "2026-09-28",
+      "source": "RadioParadise-Mellow"
+    },
+    "haux|something to remember - piano score": {
+      "date": "2026-09-28",
+      "source": "LastFM~S. Carey"
+    },
+    "broken bells|your head is on fire": {
+      "date": "2026-09-28",
+      "source": "LastFM~Local Natives"
+    },
+    "orville peck|rehab blues": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "damien jurado|silver joy": {
+      "date": "2026-09-28",
+      "source": "LastFM~M. Ward"
+    },
+    "leon bridges|illusion": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "rob dougan|clubbed to death [the first mix]": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "friko|crimson to chrome": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "holly throsby|tell me i'm done": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "damien jurado|working titles": {
+      "date": "2026-09-28",
+      "source": "LastFM~M. Ward"
+    },
+    "smog|held": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "corinne bailey rae|butterfly": {
+      "date": "2026-09-28",
+      "source": "LastFM~Lianne La Havas"
+    },
+    "los lobos|poquito para aqui": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "the strokes|someday": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "you am i|heavy heart": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "gang of youths|things take time": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "lizzy mcalpine|the crowd": {
+      "date": "2026-09-28",
+      "source": "NPR-AllSongsConsidered"
+    },
+    "john lennon|oh yoko!": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "frou frou|hear me out": {
+      "date": "2026-09-28",
+      "source": "SomaFM-Lush"
+    },
+    "halou|today": {
+      "date": "2026-09-28",
+      "source": "SomaFM-Lush"
+    },
+    "nick drake|from the morning": {
+      "date": "2026-09-28",
+      "source": "RadioParadise-Mellow"
+    },
+    "sierra ferrell|trying to love you": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "florence and the machine|king": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "mimi page|this fire": {
+      "date": "2026-09-28",
+      "source": "SomaFM-Lush"
+    },
+    "concrete blonde|joey": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "kylie minogue|confide in me": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "corinne bailey rae|call me when you get this": {
+      "date": "2026-09-28",
+      "source": "LastFM~Lianne La Havas"
+    },
+    "cat power|sea of love": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "the jazz butcher|drink": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "broken bells|october": {
+      "date": "2026-09-28",
+      "source": "LastFM~Local Natives"
+    },
+    "emma louise|boy": {
+      "date": "2026-09-28",
+      "source": "SomaFM-Lush"
+    },
+    "lord huron|mine forever": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "conor oberst|moab": {
+      "date": "2026-09-28",
+      "source": "LastFM~M. Ward"
+    },
+    "nirvana|heart-shaped box": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "sarah fimm|velocity": {
+      "date": "2026-09-28",
+      "source": "SomaFM-Lush"
+    },
+    "return to mono|insult to injury": {
+      "date": "2026-09-28",
+      "source": "SomaFM-Lush"
+    },
+    "haux|sister": {
+      "date": "2026-09-28",
+      "source": "LastFM~S. Carey"
+    },
+    "the byrds|you ain't going nowhere": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "the sugarcubes|birthday": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "m83|blister sunrise": {
+      "date": "2026-09-28",
+      "source": "NPR-AllSongsConsidered"
+    },
+    "bella white|little things": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "tristen|complex": {
+      "date": "2026-09-28",
+      "source": "DoubleJ"
+    },
+    "kate bush|feel it": {
+      "date": "2026-09-28",
+      "source": "SomaFM-Lush"
+    },
+    "morrissey|everyday is like sunday": {
+      "date": "2026-09-28",
+      "source": "RadioParadise-Mellow"
+    },
+    "kajagoogoo|too shy": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
+    },
+    "orville peck|too little, too late": {
+      "date": "2026-09-28",
+      "source": "TheCurrent"
     }
   },
   "playlist_log": {
@@ -8450,18 +8745,6 @@
         "indie rock"
       ]
     },
-    "247299722": {
-      "date": "2026-09-14",
-      "artist": "Hird",
-      "title": "Buddy Rich",
-      "source": "LastFM~Parov Stelar",
-      "genres": [
-        "chillout",
-        "lounge",
-        "downtempo",
-        "nu jazz"
-      ]
-    },
     "274293257": {
       "date": "2026-09-14",
       "artist": "Strange Majik",
@@ -8472,18 +8755,6 @@
         "rock",
         "blues rock",
         "alternative"
-      ]
-    },
-    "32131514": {
-      "date": "2026-09-14",
-      "artist": "Meitz",
-      "title": "My Love",
-      "source": "LastFM~Parov Stelar",
-      "genres": [
-        "nu jazz",
-        "lounge",
-        "nu jazz",
-        "jazz"
       ]
     },
     "270386286": {
@@ -8517,18 +8788,6 @@
       "source": "WFUV-NYSlice2026",
       "genres": []
     },
-    "32131515": {
-      "date": "2026-09-14",
-      "artist": "Meitz",
-      "title": "Mayibuye I Africa - Edit",
-      "source": "LastFM~Parov Stelar",
-      "genres": [
-        "nu jazz",
-        "lounge",
-        "nu jazz",
-        "jazz"
-      ]
-    },
     "547190698": {
       "date": "2026-09-14",
       "artist": "Alabama Shakes",
@@ -8551,18 +8810,6 @@
         "electronic",
         "indie pop",
         "norwegian"
-      ]
-    },
-    "184854089": {
-      "date": "2026-09-14",
-      "artist": "Meitz",
-      "title": "Africa",
-      "source": "LastFM~Parov Stelar",
-      "genres": [
-        "nu jazz",
-        "lounge",
-        "nu jazz",
-        "jazz"
       ]
     },
     "526789578": {
@@ -9046,17 +9293,6 @@
         "pop"
       ]
     },
-    "282146333": {
-      "date": "2026-09-18",
-      "artist": "Ashley Henry",
-      "title": "Breeze",
-      "source": "GillesPeterson-Saturdays",
-      "genres": [
-        "nu jazz",
-        "indie jazz",
-        "jazz"
-      ]
-    },
     "545696077": {
       "date": "2026-09-18",
       "artist": "The Strokes",
@@ -9449,18 +9685,6 @@
         "downtempo"
       ]
     },
-    "526023936": {
-      "date": "2026-09-20",
-      "artist": "FKJ",
-      "title": "Little Little Voice",
-      "source": "NPR-AllSongsConsidered",
-      "genres": [
-        "electronic",
-        "funk",
-        "downtempo",
-        "nu jazz"
-      ]
-    },
     "435565": {
       "date": "2026-09-20",
       "artist": "Flunk",
@@ -9607,18 +9831,6 @@
       "source": "WXPN-BestNewMusic",
       "genres": [
         "retro soul"
-      ]
-    },
-    "539280140": {
-      "date": "2026-09-20",
-      "artist": "Telemakus",
-      "title": "2054",
-      "source": "KCRW-MorningBecomesEclectic",
-      "genres": [
-        "nu jazz",
-        "jazz fusion",
-        "jazz funk",
-        "experimental jazz"
       ]
     },
     "42754273": {
@@ -9778,27 +9990,6 @@
         "dream pop"
       ]
     },
-    "24871053": {
-      "date": "2026-09-21",
-      "artist": "Zimpala",
-      "title": "To the Bass",
-      "source": "LastFM~Parov Stelar",
-      "genres": [
-        "nu jazz",
-        "lounge"
-      ]
-    },
-    "458325072": {
-      "date": "2026-09-21",
-      "artist": "Briskey",
-      "title": "Ready When You Are",
-      "source": "LastFM~Parov Stelar",
-      "genres": [
-        "nu jazz",
-        "acid jazz",
-        "trip hop"
-      ]
-    },
     "556049160": {
       "date": "2026-09-21",
       "artist": "Angèle",
@@ -9869,17 +10060,6 @@
         "neo-psychedelic"
       ]
     },
-    "391661580": {
-      "date": "2026-09-21",
-      "artist": "Briskey",
-      "title": "La Stupenza",
-      "source": "LastFM~Parov Stelar",
-      "genres": [
-        "nu jazz",
-        "acid jazz",
-        "trip hop"
-      ]
-    },
     "13779302": {
       "date": "2026-09-21",
       "artist": "James Vincent McMorrow",
@@ -9946,16 +10126,6 @@
         "shoegaze",
         "dream pop",
         "slowcore"
-      ]
-    },
-    "24871063": {
-      "date": "2026-09-21",
-      "artist": "Zimpala",
-      "title": "New Home",
-      "source": "LastFM~Parov Stelar",
-      "genres": [
-        "nu jazz",
-        "lounge"
       ]
     },
     "18073": {
@@ -10560,18 +10730,6 @@
         "art pop"
       ]
     },
-    "87375668": {
-      "date": "2026-09-27",
-      "artist": "The Mighty Bop",
-      "title": "Ride Away",
-      "source": "LastFM~Bonobo",
-      "genres": [
-        "trip hop",
-        "nu jazz",
-        "acid jazz",
-        "downtempo"
-      ]
-    },
     "157593868": {
       "date": "2026-09-27",
       "artist": "Leif Vollebekk",
@@ -10612,18 +10770,6 @@
         "indie",
         "singer songwriter",
         "acoustic"
-      ]
-    },
-    "105052536": {
-      "date": "2026-09-27",
-      "artist": "The Karminsky Experience Inc.",
-      "title": "The Power of Suggestion",
-      "source": "LastFM~Bonobo",
-      "genres": [
-        "trip hop",
-        "acid jazz",
-        "nu jazz",
-        "downtempo"
       ]
     },
     "439908070": {
@@ -10897,18 +11043,6 @@
       "source": "Duyster",
       "genres": []
     },
-    "102065957": {
-      "date": "2026-09-27",
-      "artist": "The Karminsky Experience Inc.",
-      "title": "Introducing Louis Pachini",
-      "source": "LastFM~Bonobo",
-      "genres": [
-        "trip hop",
-        "acid jazz",
-        "nu jazz",
-        "downtempo"
-      ]
-    },
     "307111817": {
       "date": "2026-09-27",
       "artist": "Justin Vernon",
@@ -11044,18 +11178,6 @@
       "title": "Sapphire",
       "source": "WFUV-NYSlice2026",
       "genres": []
-    },
-    "348967773": {
-      "date": "2026-09-27",
-      "artist": "The Mighty Bop",
-      "title": "Life",
-      "source": "LastFM~Bonobo",
-      "genres": [
-        "trip hop",
-        "nu jazz",
-        "acid jazz",
-        "downtempo"
-      ]
     },
     "554453148": {
       "date": "2026-09-27",
@@ -11906,16 +12028,6 @@
         "indie pop"
       ]
     },
-    "185040785": {
-      "date": "2026-09-27",
-      "artist": "Micatone",
-      "title": "A Part Of Me (Album Version)",
-      "source": "SomaFM-Lush",
-      "genres": [
-        "nu jazz",
-        "acid jazz"
-      ]
-    },
     "21408222": {
       "date": "2026-09-27",
       "artist": "Delphic",
@@ -12126,26 +12238,6 @@
       "source": "LastFM~Beth Orton",
       "genres": [
         "ambient folk"
-      ]
-    },
-    "21360667": {
-      "date": "2026-09-27",
-      "artist": "Zofka",
-      "title": "Une Derniere Fois",
-      "source": "LastFM~Parov Stelar",
-      "genres": [
-        "exotica",
-        "nu jazz"
-      ]
-    },
-    "21360668": {
-      "date": "2026-09-27",
-      "artist": "Zofka",
-      "title": "Parfum Vanille",
-      "source": "LastFM~Parov Stelar",
-      "genres": [
-        "exotica",
-        "nu jazz"
       ]
     },
     "527732751": {
@@ -12416,16 +12508,6 @@
         "indie pop",
         "synthpop",
         "queer"
-      ]
-    },
-    "21360666": {
-      "date": "2026-09-27",
-      "artist": "Zofka",
-      "title": "dans la vie",
-      "source": "LastFM~Parov Stelar",
-      "genres": [
-        "exotica",
-        "nu jazz"
       ]
     },
     "547506843": {
@@ -13173,30 +13255,6 @@
         "electronica"
       ]
     },
-    "512334708": {
-      "date": "2026-09-27",
-      "artist": "Angus & Julia Stone",
-      "title": "Big Jet Plane",
-      "source": "LastFM~Ben Howard",
-      "genres": [
-        "folk",
-        "indie",
-        "acoustic",
-        "australian"
-      ]
-    },
-    "289044713": {
-      "date": "2026-09-27",
-      "artist": "Charlie Cunningham",
-      "title": "Blindfold",
-      "source": "LastFM~Ben Howard",
-      "genres": [
-        "folk",
-        "singer songwriter",
-        "british",
-        "acoustic"
-      ]
-    },
     "196456323": {
       "date": "2026-09-27",
       "artist": "Elvis Costello",
@@ -13762,39 +13820,6 @@
         "retro soul"
       ]
     },
-    "1898566": {
-      "date": "2026-09-27",
-      "artist": "Bobby Hughes Combination",
-      "title": "Karins Kerma",
-      "source": "LastFM~Air",
-      "genres": [
-        "nu jazz",
-        "acid jazz",
-        "lounge"
-      ]
-    },
-    "1898568": {
-      "date": "2026-09-27",
-      "artist": "Bobby Hughes Combination",
-      "title": "Nattergalen",
-      "source": "LastFM~Air",
-      "genres": [
-        "nu jazz",
-        "acid jazz",
-        "lounge"
-      ]
-    },
-    "1898571": {
-      "date": "2026-09-27",
-      "artist": "Bobby Hughes Combination",
-      "title": "Microneseren",
-      "source": "LastFM~Air",
-      "genres": [
-        "nu jazz",
-        "acid jazz",
-        "lounge"
-      ]
-    },
     "493692231": {
       "date": "2026-09-27",
       "artist": "Garbage",
@@ -14241,16 +14266,6 @@
         "80s"
       ]
     },
-    "214192222": {
-      "date": "2026-09-28",
-      "artist": "Hope Sandoval & The Warm Inventions",
-      "title": "Trouble",
-      "source": "LastFM~Mazzy Star",
-      "genres": [
-        "dream pop",
-        "slowcore"
-      ]
-    },
     "275151452": {
       "date": "2026-09-28",
       "artist": "The Dandy Warhols",
@@ -14263,17 +14278,6 @@
         "rock"
       ]
     },
-    "491242296": {
-      "date": "2026-09-28",
-      "artist": "Widespread Panic",
-      "title": "Fishing",
-      "source": "RadioParadise-Mellow",
-      "genres": [
-        "jam band",
-        "southern rock",
-        "newgrass"
-      ]
-    },
     "33746921": {
       "date": "2026-09-28",
       "artist": "Kate Miller-Heidke",
@@ -14284,16 +14288,6 @@
         "singer songwriter",
         "pop",
         "female vocalists"
-      ]
-    },
-    "13770116": {
-      "date": "2026-09-28",
-      "artist": "Nostalgia 77",
-      "title": "Seven Nation Army",
-      "source": "TheCurrent",
-      "genres": [
-        "nu jazz",
-        "acid jazz"
       ]
     },
     "122488462": {
@@ -15168,7 +15162,10 @@
       "artist": "Andrew Sa feat. H.C. McEntire",
       "title": "Lavender Cowboy",
       "source": "DoubleJ",
-      "genres": []
+      "genres": [
+        "alt country",
+        "americana"
+      ]
     },
     "111397142": {
       "date": "2026-09-28",
@@ -15408,7 +15405,9 @@
       "artist": "Beck and Phoenix",
       "title": "Odyssey",
       "source": "TheCurrent",
-      "genres": []
+      "genres": [
+        "anti-folk"
+      ]
     },
     "480165": {
       "date": "2026-09-28",
@@ -15472,6 +15471,2073 @@
       "source": "LastFM~Rhye",
       "genres": [
         "french indie pop"
+      ]
+    },
+    "111397134": {
+      "genres": [
+        "baroque pop",
+        "indie folk"
+      ]
+    },
+    "80663985": {
+      "genres": [
+        "baroque pop"
+      ]
+    },
+    "40690904": {
+      "genres": []
+    },
+    "190897023": {
+      "genres": [
+        "garage rock",
+        "indie",
+        "rnb",
+        "melbourne"
+      ]
+    },
+    "19686680": {
+      "genres": [
+        "soul",
+        "pop",
+        "electronic",
+        "female vocalists"
+      ]
+    },
+    "125992587": {
+      "genres": [
+        "art rock"
+      ]
+    },
+    "19336126": {
+      "genres": [
+        "baroque pop"
+      ]
+    },
+    "286960946": {
+      "genres": [
+        "acoustic",
+        "folk",
+        "experimental",
+        "singer songwriter"
+      ]
+    },
+    "561575290": {
+      "genres": [
+        "synthpop"
+      ]
+    },
+    "534861844": {
+      "genres": [
+        "jazz",
+        "soul",
+        "female vocalist",
+        "lounge"
+      ]
+    },
+    "546267394": {
+      "genres": []
+    },
+    "307582114": {
+      "genres": [
+        "downtempo",
+        "trip hop"
+      ]
+    },
+    "5254670": {
+      "genres": [
+        "alternative dance",
+        "indie dance",
+        "indie electronic",
+        "new rave"
+      ]
+    },
+    "35127364": {
+      "genres": [
+        "new wave"
+      ]
+    },
+    "102307879": {
+      "genres": [
+        "folk",
+        "indie",
+        "singer songwriter",
+        "americana"
+      ]
+    },
+    "2404956": {
+      "genres": [
+        "dream pop",
+        "shoegaze"
+      ]
+    },
+    "391390380": {
+      "genres": [
+        "indie rock",
+        "indie",
+        "indie pop",
+        "electronic"
+      ]
+    },
+    "52684796": {
+      "genres": [
+        "female vocalists",
+        "rock",
+        "alternative",
+        "singer songwriter"
+      ]
+    },
+    "1274572": {
+      "genres": [
+        "alternative",
+        "alternative rock",
+        "rock",
+        "90s"
+      ]
+    },
+    "18256346": {
+      "genres": [
+        "riot grrrl",
+        "grunge"
+      ]
+    },
+    "561781755": {
+      "genres": [
+        "indie pop",
+        "folk",
+        "indie folk",
+        "my top songs"
+      ],
+      "source": "NPR-AllSongsConsidered"
+    },
+    "111397133": {
+      "genres": [
+        "baroque pop",
+        "indie folk"
+      ]
+    },
+    "504714640": {
+      "genres": [
+        "indie pop",
+        "pop",
+        "my top songs",
+        "british"
+      ]
+    },
+    "195985758": {
+      "genres": [
+        "indie pop",
+        "pop",
+        "my top songs",
+        "british"
+      ]
+    },
+    "43560104": {
+      "genres": [
+        "baroque pop"
+      ]
+    },
+    "30248080": {
+      "genres": [
+        "indie folk",
+        "folk"
+      ]
+    },
+    "490082013": {
+      "genres": [
+        "indie pop",
+        "pop",
+        "my top songs",
+        "british"
+      ]
+    },
+    "1559291": {
+      "genres": [
+        "australian",
+        "acoustic",
+        "singer songwriter",
+        "folk"
+      ]
+    },
+    "238131170": {
+      "genres": [
+        "lounge"
+      ]
+    },
+    "534788542": {
+      "genres": [
+        "retro soul"
+      ]
+    },
+    "178683229": {
+      "genres": [
+        "rock",
+        "alternative",
+        "minnesota",
+        "usa"
+      ],
+      "source": "TheCurrent"
+    },
+    "145944663": {
+      "genres": [
+        "soul",
+        "pop",
+        "electronic",
+        "female vocalists"
+      ]
+    },
+    "68338521": {
+      "genres": [
+        "neo soul"
+      ]
+    },
+    "32931799": {
+      "genres": [
+        "bluegrass",
+        "newgrass",
+        "americana",
+        "folk"
+      ]
+    },
+    "297929458": {
+      "genres": [
+        "alt country",
+        "americana",
+        "singer-songwriter"
+      ]
+    },
+    "5254667": {
+      "genres": [
+        "alternative dance",
+        "indie dance",
+        "indie electronic",
+        "new rave"
+      ]
+    },
+    "554261167": {
+      "genres": [
+        "arena rock"
+      ]
+    },
+    "547816789": {
+      "genres": [
+        "electronic",
+        "shoegaze",
+        "post rock",
+        "indie"
+      ],
+      "source": "NPR-AllSongsConsidered"
+    },
+    "531636831": {
+      "genres": [
+        "singer songwriter",
+        "australian",
+        "female vocalists",
+        "acoustic"
+      ],
+      "source": "DoubleJ"
+    },
+    "522321012": {
+      "genres": [
+        "indie pop",
+        "indie",
+        "pop",
+        "power pop"
+      ]
+    },
+    "228045957": {
+      "genres": [
+        "indie rock"
+      ]
+    },
+    "475090937": {
+      "genres": [
+        "red dirt"
+      ]
+    },
+    "145944666": {
+      "genres": [
+        "soul",
+        "pop",
+        "electronic",
+        "female vocalists"
+      ]
+    },
+    "35654208": {
+      "genres": [
+        "country"
+      ]
+    },
+    "5254666": {
+      "genres": [
+        "alternative dance",
+        "indie dance",
+        "indie electronic",
+        "new rave"
+      ]
+    },
+    "295303885": {
+      "genres": [
+        "acoustic",
+        "folk",
+        "experimental",
+        "singer songwriter"
+      ]
+    },
+    "187680769": {
+      "genres": [
+        "soul",
+        "papua new guinea",
+        "neo soul",
+        "indietronica"
+      ]
+    },
+    "6222568": {
+      "genres": [
+        "nu disco",
+        "electroclash",
+        "indie dance"
+      ]
+    },
+    "297929468": {
+      "genres": [
+        "alt country",
+        "americana",
+        "singer-songwriter"
+      ]
+    },
+    "102307873": {
+      "genres": [
+        "folk",
+        "indie",
+        "singer songwriter",
+        "americana"
+      ]
+    },
+    "14061683": {
+      "genres": [
+        "indie",
+        "indie pop"
+      ]
+    },
+    "17057477": {
+      "genres": [
+        "indie",
+        "baroque pop",
+        "indie rock"
+      ]
+    },
+    "429079269": {
+      "genres": [
+        "electronic",
+        "indie",
+        "vocal",
+        "new age"
+      ]
+    },
+    "2531405": {
+      "genres": [
+        "new wave",
+        "80s",
+        "pop",
+        "synthpop"
+      ]
+    },
+    "496134543": {
+      "genres": [
+        "singer songwriter",
+        "australian",
+        "acoustic",
+        "indie"
+      ]
+    },
+    "297929459": {
+      "genres": [
+        "alt country",
+        "americana",
+        "singer-songwriter"
+      ]
+    },
+    "378011414": {
+      "genres": [
+        "modern blues",
+        "blues rock",
+        "blues"
+      ]
+    },
+    "19125670": {
+      "genres": [
+        "baroque pop",
+        "indie folk"
+      ]
+    },
+    "15121212": {
+      "genres": [
+        "bluegrass",
+        "newgrass",
+        "americana",
+        "folk"
+      ]
+    },
+    "342987892": {
+      "genres": []
+    },
+    "38932707": {
+      "genres": [
+        "electroclash",
+        "nu disco",
+        "indie dance",
+        "alternative dance"
+      ],
+      "source": "DoubleJ"
+    },
+    "404641346": {
+      "genres": [
+        "indie pop",
+        "singer songwriter",
+        "lo fi",
+        "indie"
+      ]
+    },
+    "85363460": {
+      "genres": [
+        "indie",
+        "singer songwriter",
+        "australian",
+        "female vocalist"
+      ]
+    },
+    "77555385": {
+      "genres": [
+        "classic rock"
+      ]
+    },
+    "432947088": {
+      "genres": [
+        "dream pop"
+      ]
+    },
+    "95842351": {
+      "genres": [
+        "australian",
+        "acoustic",
+        "singer songwriter",
+        "folk"
+      ]
+    },
+    "532740533": {
+      "genres": [
+        "lo-fi house"
+      ]
+    },
+    "1559292": {
+      "genres": [
+        "australian",
+        "acoustic",
+        "singer songwriter",
+        "folk"
+      ]
+    },
+    "702604": {
+      "genres": [
+        "australian",
+        "rock",
+        "pop",
+        "dance"
+      ]
+    },
+    "184104446": {
+      "genres": [
+        "folk",
+        "psychedelic",
+        "indie",
+        "indie pop"
+      ],
+      "source": "TheCurrent"
+    },
+    "94263555": {
+      "genres": [
+        "americana",
+        "alt country"
+      ]
+    },
+    "540581": {
+      "genres": [
+        "singer songwriter",
+        "piano rock",
+        "indie",
+        "alternative"
+      ]
+    },
+    "87415693": {
+      "genres": [
+        "belgium",
+        "belgian",
+        "indie pop",
+        "rock"
+      ]
+    },
+    "518314216": {
+      "genres": [
+        "indie rock",
+        "alternative"
+      ]
+    },
+    "265344974": {
+      "genres": [
+        "singer songwriter",
+        "folk",
+        "indie",
+        "australian"
+      ]
+    },
+    "174448506": {
+      "genres": [
+        "indie",
+        "belgian",
+        "alternative",
+        "rock"
+      ]
+    },
+    "157762279": {
+      "genres": [
+        "riot grrrl",
+        "alternative rock"
+      ]
+    },
+    "429237330": {
+      "genres": [
+        "midwest emo",
+        "indie rock"
+      ]
+    },
+    "363430740": {
+      "genres": [
+        "rnb",
+        "soul",
+        "australia",
+        "emi"
+      ]
+    },
+    "68639547": {
+      "genres": [
+        "indie",
+        "indie pop"
+      ]
+    },
+    "68265772": {
+      "genres": [
+        "belgium",
+        "belgian",
+        "indie pop",
+        "rock"
+      ]
+    },
+    "13573523": {
+      "genres": [
+        "singer songwriter",
+        "piano rock",
+        "indie",
+        "alternative"
+      ]
+    },
+    "383073797": {
+      "genres": [
+        "singer-songwriter"
+      ]
+    },
+    "514104887": {
+      "genres": [
+        "acoustic",
+        "rock",
+        "90s",
+        "pop"
+      ]
+    },
+    "13573522": {
+      "genres": [
+        "singer songwriter",
+        "piano rock",
+        "indie",
+        "alternative"
+      ]
+    },
+    "466481221": {
+      "genres": [
+        "rock",
+        "singer songwriter",
+        "female vocalists",
+        "australian"
+      ]
+    },
+    "1968675": {
+      "genres": [
+        "power pop",
+        "jangle pop"
+      ]
+    },
+    "35369065": {
+      "genres": [
+        "alternative rock",
+        "grunge",
+        "alternative",
+        "rock"
+      ]
+    },
+    "2205337": {
+      "genres": [
+        "indie rock"
+      ]
+    },
+    "17812108": {
+      "genres": [
+        "indie",
+        "belgian",
+        "alternative",
+        "rock"
+      ]
+    },
+    "81353375": {
+      "genres": [
+        "country rock",
+        "alt country",
+        "americana",
+        "folk rock"
+      ]
+    },
+    "87415687": {
+      "genres": [
+        "belgium",
+        "belgian",
+        "indie pop",
+        "rock"
+      ]
+    },
+    "435501620": {
+      "genres": [
+        "trip hop"
+      ]
+    },
+    "217850383": {
+      "genres": [
+        "indie",
+        "belgian",
+        "alternative",
+        "rock"
+      ]
+    },
+    "383073792": {
+      "genres": [
+        "singer-songwriter"
+      ]
+    },
+    "463061631": {
+      "genres": [
+        "bluegrass",
+        "americana",
+        "alt country"
+      ],
+      "source": "TheCurrent"
+    },
+    "480529995": {
+      "genres": [
+        "shoegaze",
+        "alternative rock",
+        "post indie",
+        "indie rock"
+      ]
+    },
+    "1301864": {
+      "genres": [
+        "indie",
+        "indie pop"
+      ]
+    },
+    "45157620": {
+      "genres": [
+        "synthpop",
+        "new wave"
+      ]
+    },
+    "545920136": {
+      "genres": [
+        "alt country",
+        "alternative rock",
+        "indie",
+        "country"
+      ]
+    },
+    "25280917": {
+      "genres": [
+        "indie",
+        "indie pop",
+        "alternative",
+        "american"
+      ]
+    },
+    "213059": {
+      "genres": [
+        "power pop",
+        "new wave",
+        "classic rock"
+      ]
+    },
+    "94263520": {
+      "genres": [
+        "americana",
+        "alt country"
+      ]
+    },
+    "489418659": {
+      "genres": [
+        "psychedelic",
+        "indie rock",
+        "australia"
+      ]
+    },
+    "371825189": {
+      "genres": [
+        "indie pop",
+        "trip hop",
+        "australian",
+        "pop"
+      ]
+    },
+    "458589133": {
+      "genres": [
+        "alt country",
+        "americana",
+        "singer-songwriter"
+      ]
+    },
+    "223596958": {
+      "genres": [
+        "baroque pop"
+      ]
+    },
+    "530497875": {
+      "genres": [
+        "afrobeat"
+      ]
+    },
+    "182262418": {
+      "genres": [
+        "indie folk"
+      ]
+    },
+    "120269": {
+      "genres": [
+        "rock",
+        "alternative",
+        "britpop",
+        "alternative rock"
+      ]
+    },
+    "50380350": {
+      "genres": [
+        "funk",
+        "funk rock"
+      ]
+    },
+    "66464498": {
+      "genres": [
+        "outlaw country",
+        "alt country",
+        "bluegrass",
+        "americana"
+      ]
+    },
+    "383073800": {
+      "genres": [
+        "singer-songwriter"
+      ]
+    },
+    "184191635": {
+      "genres": [
+        "indie",
+        "indie pop"
+      ]
+    },
+    "524414419": {
+      "genres": [
+        "plunderphonics"
+      ]
+    },
+    "167878617": {
+      "genres": [
+        "pop",
+        "classic rock",
+        "rock",
+        "singer songwriter"
+      ]
+    },
+    "19138291": {
+      "genres": [
+        "americana",
+        "alt country"
+      ]
+    },
+    "563358264": {
+      "genres": [
+        "rock",
+        "alternative",
+        "guitar",
+        "guitar virtuoso"
+      ]
+    },
+    "96097254": {
+      "genres": [
+        "indie pop",
+        "pop",
+        "folk",
+        "singer songwriter"
+      ]
+    },
+    "51482661": {
+      "genres": [
+        "lo fi",
+        "psychedelic",
+        "indie",
+        "singer songwriter"
+      ]
+    },
+    "17053180": {
+      "genres": [
+        "neo-psychedelic",
+        "dream pop",
+        "psychedelic rock"
+      ]
+    },
+    "541230595": {
+      "genres": [
+        "indie soul",
+        "neo soul"
+      ],
+      "source": "DoubleJ"
+    },
+    "269044592": {
+      "genres": [
+        "folk",
+        "indie",
+        "experimental",
+        "electronic"
+      ]
+    },
+    "500314140": {
+      "genres": []
+    },
+    "433396859": {
+      "genres": [
+        "indie",
+        "alternative",
+        "indie rock",
+        "britpop"
+      ]
+    },
+    "532092082": {
+      "genres": [
+        "trip hop",
+        "downtempo",
+        "nu jazz",
+        "electronic"
+      ]
+    },
+    "156766341": {
+      "genres": [
+        "indie pop",
+        "indie",
+        "scottish",
+        "female vocalists"
+      ]
+    },
+    "526643167": {
+      "genres": [
+        "alt country",
+        "americana",
+        "roots rock",
+        "country rock"
+      ]
+    },
+    "551912687": {
+      "genres": [
+        "neo-psychedelic",
+        "psychedelic rock"
+      ],
+      "source": "DoubleJ"
+    },
+    "25057156": {
+      "genres": [
+        "indie folk"
+      ]
+    },
+    "68593905": {
+      "genres": [
+        "alt country",
+        "americana",
+        "indie rock"
+      ]
+    },
+    "23303626": {
+      "genres": [
+        "jangle pop"
+      ]
+    },
+    "310295819": {
+      "genres": [
+        "jazz",
+        "soul",
+        "piano",
+        "rnb"
+      ]
+    },
+    "17761936": {
+      "genres": [
+        "indie pop",
+        "indie",
+        "australian",
+        "indie rock"
+      ]
+    },
+    "83794358": {
+      "genres": [
+        "indie folk"
+      ]
+    },
+    "156766330": {
+      "genres": [
+        "indie pop",
+        "indie",
+        "scottish",
+        "female vocalists"
+      ]
+    },
+    "156766334": {
+      "genres": [
+        "indie pop",
+        "indie",
+        "scottish",
+        "female vocalists"
+      ]
+    },
+    "48946726": {
+      "genres": [
+        "dream pop"
+      ]
+    },
+    "162438050": {
+      "genres": [
+        "newgrass",
+        "bluegrass",
+        "jam band",
+        "americana"
+      ]
+    },
+    "550105006": {
+      "genres": [
+        "dream pop",
+        "jangle pop"
+      ]
+    },
+    "447093717": {
+      "genres": [
+        "canadian",
+        "folk",
+        "indie folk",
+        "canada"
+      ]
+    },
+    "120433869": {
+      "genres": [
+        "soul",
+        "retro soul",
+        "funk"
+      ]
+    },
+    "458356417": {
+      "genres": [
+        "folk",
+        "indie",
+        "experimental",
+        "electronic"
+      ]
+    },
+    "295606099": {
+      "genres": [
+        "folk",
+        "acoustic",
+        "alt country",
+        "rock"
+      ]
+    },
+    "276029971": {
+      "genres": [
+        "baroque pop",
+        "indie folk"
+      ]
+    },
+    "295606096": {
+      "genres": [
+        "folk",
+        "acoustic",
+        "alt country",
+        "rock"
+      ]
+    },
+    "2570993": {
+      "genres": [
+        "rock"
+      ]
+    },
+    "506558070": {
+      "genres": [
+        "indie",
+        "indie rock",
+        "australian",
+        "alternative"
+      ]
+    },
+    "549459995": {
+      "genres": [
+        "jangle pop"
+      ]
+    },
+    "528833478": {
+      "genres": [
+        "indie rock",
+        "singer songwriter",
+        "folk rock",
+        "usa"
+      ]
+    },
+    "445528432": {
+      "genres": [
+        "female vocalists",
+        "synthpop",
+        "indie",
+        "indie pop"
+      ]
+    },
+    "186410349": {
+      "genres": [
+        "indie",
+        "indie rock",
+        "folk",
+        "singer songwriter"
+      ]
+    },
+    "257616514": {
+      "genres": [
+        "indie folk",
+        "folk"
+      ]
+    },
+    "250596235": {
+      "genres": [
+        "neo-psychedelic",
+        "dream pop",
+        "psychedelic rock"
+      ]
+    },
+    "1559293": {
+      "genres": [
+        "australian",
+        "acoustic",
+        "singer songwriter",
+        "folk"
+      ]
+    },
+    "559192058": {
+      "genres": [
+        "plunderphonics"
+      ]
+    },
+    "545425453": {
+      "genres": [
+        "hyperpop"
+      ]
+    },
+    "215721975": {
+      "genres": [
+        "indie folk"
+      ]
+    },
+    "255413123": {
+      "genres": [
+        "country",
+        "pop",
+        "female vocalists",
+        "singer songwriter"
+      ]
+    },
+    "269044591": {
+      "genres": [
+        "folk",
+        "indie",
+        "experimental",
+        "electronic"
+      ]
+    },
+    "104929005": {
+      "genres": [
+        "blues",
+        "indie",
+        "soul",
+        "singer songwriter"
+      ]
+    },
+    "388279": {
+      "genres": [
+        "r&b"
+      ]
+    },
+    "45713907": {
+      "genres": [
+        "electronic",
+        "dubstep",
+        "future garage",
+        "uk garage"
+      ]
+    },
+    "549459994": {
+      "genres": [
+        "jangle pop"
+      ]
+    },
+    "34024942": {
+      "genres": [
+        "folk rock",
+        "country rock",
+        "psychedelic rock",
+        "acid rock"
+      ],
+      "source": "TheCurrent"
+    },
+    "90089072": {
+      "genres": [
+        "nederpop"
+      ]
+    },
+    "480761610": {
+      "genres": [
+        "indie folk",
+        "folk",
+        "americana"
+      ]
+    },
+    "53186446": {
+      "genres": [
+        "classic rock",
+        "southern rock",
+        "country rock"
+      ]
+    },
+    "77847326": {
+      "genres": [
+        "indie"
+      ]
+    },
+    "90089349": {
+      "genres": [
+        "nederpop"
+      ]
+    },
+    "459040664": {
+      "genres": []
+    },
+    "493584898": {
+      "genres": [
+        "country",
+        "classic rock",
+        "indie pop",
+        "singer songwriter"
+      ]
+    },
+    "637939": {
+      "genres": [
+        "new jack swing"
+      ]
+    },
+    "539234106": {
+      "genres": [
+        "pop",
+        "dance",
+        "female vocalists",
+        "80s"
+      ]
+    },
+    "62305985": {
+      "genres": [
+        "indie rock",
+        "indie",
+        "alternative",
+        "rock"
+      ]
+    },
+    "58990540": {
+      "genres": [
+        "art rock",
+        "alternative rock"
+      ]
+    },
+    "16024807": {
+      "genres": [
+        "dream pop",
+        "neo-psychedelic"
+      ]
+    },
+    "563223088": {
+      "genres": [
+        "retro soul"
+      ]
+    },
+    "100003846": {
+      "genres": [
+        "funk",
+        "soul",
+        "classic soul"
+      ]
+    },
+    "504130621": {
+      "genres": [
+        "bedroom pop"
+      ]
+    },
+    "16229980": {
+      "genres": [
+        "belgian",
+        "alternative",
+        "indie",
+        "rock"
+      ]
+    },
+    "379725943": {
+      "genres": []
+    },
+    "7819670": {
+      "genres": [
+        "indie"
+      ]
+    },
+    "490865110": {
+      "genres": [
+        "indie rock",
+        "rock",
+        "alternative",
+        "alternative rock"
+      ]
+    },
+    "34162564": {
+      "genres": [
+        "indie",
+        "indie rock"
+      ]
+    },
+    "244671469": {
+      "genres": [
+        "australian",
+        "indie",
+        "rock",
+        "alternative pop"
+      ]
+    },
+    "3681066": {
+      "genres": [
+        "belgian",
+        "alternative",
+        "indie",
+        "rock"
+      ]
+    },
+    "62247252": {
+      "genres": [
+        "indie rock",
+        "indie",
+        "alternative",
+        "rock"
+      ]
+    },
+    "5389702": {
+      "genres": [
+        "indie"
+      ]
+    },
+    "3254562": {
+      "genres": [
+        "psychedelic rock",
+        "classic rock",
+        "acid rock",
+        "blues rock"
+      ]
+    },
+    "451286902": {
+      "genres": [
+        "madchester",
+        "britpop",
+        "alternative dance"
+      ]
+    },
+    "2382417": {
+      "genres": [
+        "big beat",
+        "trip hop"
+      ]
+    },
+    "144348999": {
+      "genres": [
+        "britpop"
+      ]
+    },
+    "25827019": {
+      "genres": [
+        "psychedelic rock",
+        "acid rock"
+      ]
+    },
+    "552117597": {
+      "genres": [
+        "indie pop",
+        "pop",
+        "soul",
+        "neo soul"
+      ]
+    },
+    "2371923": {
+      "genres": [
+        "singer songwriter",
+        "female vocalists",
+        "alternative",
+        "belgium"
+      ]
+    },
+    "553935892": {
+      "genres": [
+        "electronic",
+        "indie",
+        "female vocalists",
+        "new wave"
+      ]
+    },
+    "16229975": {
+      "genres": [
+        "belgian",
+        "alternative",
+        "indie",
+        "rock"
+      ]
+    },
+    "78586096": {
+      "genres": [
+        "nederpop"
+      ]
+    },
+    "552243441": {
+      "genres": [
+        "americana"
+      ]
+    },
+    "77780914": {
+      "genres": [
+        "electronic",
+        "house",
+        "deep house",
+        "lounge"
+      ]
+    },
+    "4139282": {
+      "genres": [
+        "australian",
+        "alternative rock",
+        "rock",
+        "female vocalists"
+      ]
+    },
+    "2371934": {
+      "genres": [
+        "singer songwriter",
+        "female vocalists",
+        "alternative",
+        "belgium"
+      ]
+    },
+    "111775117": {
+      "genres": [
+        "slowcore",
+        "anti-folk",
+        "alt country"
+      ],
+      "source": "DoubleJ"
+    },
+    "16228410": {
+      "genres": [
+        "singer songwriter",
+        "female vocalists",
+        "alternative",
+        "belgium"
+      ]
+    },
+    "436129688": {
+      "genres": [
+        "britpop"
+      ]
+    },
+    "62305987": {
+      "genres": [
+        "indie rock",
+        "indie",
+        "alternative",
+        "rock"
+      ]
+    },
+    "111721927": {
+      "genres": [
+        "psychedelic rock"
+      ]
+    },
+    "161853": {
+      "genres": [
+        "glam rock",
+        "art rock"
+      ]
+    },
+    "139428": {
+      "date": "2026-09-28",
+      "artist": "Corinne Bailey Rae",
+      "title": "I'd Like To",
+      "source": "LastFM~Lianne La Havas",
+      "genres": [
+        "soul",
+        "female vocalists",
+        "jazz",
+        "singer songwriter"
+      ]
+    },
+    "526240823": {
+      "date": "2026-09-28",
+      "artist": "Diary",
+      "title": "Keep Comin' Up",
+      "source": "WFUV-NYSlice2026",
+      "genres": [
+        "shoegaze"
+      ]
+    },
+    "110824670": {
+      "date": "2026-09-28",
+      "artist": "Palco",
+      "title": "Taking Your Time on Me",
+      "source": "SomaFM-Lush",
+      "genres": []
+    },
+    "3411851": {
+      "date": "2026-09-28",
+      "artist": "Broken Bells",
+      "title": "The Ghost Inside",
+      "source": "LastFM~Local Natives",
+      "genres": [
+        "indie",
+        "experimental",
+        "indie pop",
+        "alternative"
+      ]
+    },
+    "410961035": {
+      "date": "2026-09-28",
+      "artist": "Boy Golden",
+      "title": "Three Scenes (Band Version)",
+      "source": "DoubleJ",
+      "genres": [
+        "indie rock",
+        "indie pop"
+      ]
+    },
+    "320333283": {
+      "date": "2026-09-28",
+      "artist": "Ra Ra Riot",
+      "title": "Too Too Too Fast",
+      "source": "LastFM~Local Natives",
+      "genres": [
+        "baroque pop"
+      ]
+    },
+    "370135068": {
+      "date": "2026-09-28",
+      "artist": "The Linda Lindas",
+      "title": "Nothing Would Change",
+      "source": "TheCurrent",
+      "genres": [
+        "riot grrrl",
+        "queercore"
+      ]
+    },
+    "246075929": {
+      "date": "2026-09-28",
+      "artist": "Placebo",
+      "title": "Special K",
+      "source": "DoubleJ",
+      "genres": [
+        "britpop"
+      ]
+    },
+    "7238612": {
+      "date": "2026-09-28",
+      "artist": "The Tragically Hip",
+      "title": "Poets",
+      "source": "TheCurrent",
+      "genres": [
+        "canadian",
+        "rock",
+        "alternative rock",
+        "alternative"
+      ]
+    },
+    "553724326": {
+      "date": "2026-09-28",
+      "artist": "Jenny Mitchell feat. Midnight Chicken",
+      "title": "Mr Cotter's Ridge",
+      "source": "DoubleJ",
+      "genres": []
+    },
+    "19351273": {
+      "date": "2026-09-28",
+      "artist": "Damien Jurado",
+      "title": "Museum of Flight",
+      "source": "LastFM~M. Ward",
+      "genres": [
+        "indie folk"
+      ]
+    },
+    "542095927": {
+      "date": "2026-09-28",
+      "artist": "Pespi",
+      "title": "Down in the Dumps",
+      "source": "WFUV-NYSlice2026",
+      "genres": []
+    },
+    "43037986": {
+      "date": "2026-09-28",
+      "artist": "Chloe March",
+      "title": "Cafe Des Poetes",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "dream pop",
+        "jazz"
+      ]
+    },
+    "135451265": {
+      "date": "2026-09-28",
+      "artist": "Cleo Sol",
+      "title": "Rewind",
+      "source": "LastFM~Lianne La Havas",
+      "genres": [
+        "neo soul",
+        "alternative r&b",
+        "uk r&b"
+      ]
+    },
+    "459839287": {
+      "date": "2026-09-28",
+      "artist": "Conor Oberst",
+      "title": "Lenders In The Temple",
+      "source": "LastFM~M. Ward",
+      "genres": [
+        "singer songwriter",
+        "folk",
+        "indie",
+        "indie rock"
+      ]
+    },
+    "696601": {
+      "date": "2026-09-28",
+      "artist": "Tegan And Sara",
+      "title": "Walking With A Ghost",
+      "source": "DoubleJ",
+      "genres": [
+        "indie",
+        "female vocalists",
+        "indie pop",
+        "canadian"
+      ]
+    },
+    "320333284": {
+      "date": "2026-09-28",
+      "artist": "Ra Ra Riot",
+      "title": "Oh, La",
+      "source": "LastFM~Local Natives",
+      "genres": [
+        "baroque pop"
+      ]
+    },
+    "459839283": {
+      "date": "2026-09-28",
+      "artist": "Conor Oberst",
+      "title": "Cape Canaveral",
+      "source": "LastFM~M. Ward",
+      "genres": [
+        "singer songwriter",
+        "folk",
+        "indie",
+        "indie rock"
+      ]
+    },
+    "93709715": {
+      "date": "2026-09-28",
+      "artist": "Son Volt",
+      "title": "Medication",
+      "source": "RadioParadise-Mellow",
+      "genres": [
+        "alt country",
+        "americana",
+        "roots rock"
+      ]
+    },
+    "66912668": {
+      "date": "2026-09-28",
+      "artist": "Haux",
+      "title": "Caves",
+      "source": "LastFM~S. Carey",
+      "genres": [
+        "folk",
+        "indie",
+        "indie folk",
+        "singer songwriter"
+      ]
+    },
+    "320333281": {
+      "date": "2026-09-28",
+      "artist": "Ra Ra Riot",
+      "title": "Dying Is Fine",
+      "source": "LastFM~Local Natives",
+      "genres": [
+        "baroque pop"
+      ]
+    },
+    "478013094": {
+      "date": "2026-09-28",
+      "artist": "Brotherkenzie",
+      "title": "Open Dreaming",
+      "source": "TheCurrent",
+      "genres": [
+        "indie",
+        "folk",
+        "singer songwriter",
+        "usa"
+      ]
+    },
+    "424900315": {
+      "date": "2026-09-28",
+      "artist": "Pulp",
+      "title": "Spike Island",
+      "source": "TheCurrent",
+      "genres": [
+        "britpop"
+      ]
+    },
+    "77698472": {
+      "date": "2026-09-28",
+      "artist": "Elton John",
+      "title": "Border Song",
+      "source": "RadioParadise-Mellow",
+      "genres": [
+        "pop",
+        "classic rock",
+        "singer songwriter",
+        "rock"
+      ]
+    },
+    "87865777": {
+      "date": "2026-09-28",
+      "artist": "Haux",
+      "title": "Something To Remember - Piano Score",
+      "source": "LastFM~S. Carey",
+      "genres": [
+        "folk",
+        "indie",
+        "indie folk",
+        "singer songwriter"
+      ]
+    },
+    "3411850": {
+      "date": "2026-09-28",
+      "artist": "Broken Bells",
+      "title": "Your Head Is On Fire",
+      "source": "LastFM~Local Natives",
+      "genres": [
+        "indie",
+        "experimental",
+        "indie pop",
+        "alternative"
+      ]
+    },
+    "539694168": {
+      "date": "2026-09-28",
+      "artist": "Orville Peck",
+      "title": "Rehab Blues",
+      "source": "DoubleJ",
+      "genres": [
+        "alt country"
+      ]
+    },
+    "25053443": {
+      "date": "2026-09-28",
+      "artist": "Damien Jurado",
+      "title": "Silver Joy",
+      "source": "LastFM~M. Ward",
+      "genres": [
+        "indie folk"
+      ]
+    },
+    "542750834": {
+      "date": "2026-09-28",
+      "artist": "Leon Bridges",
+      "title": "Illusion",
+      "source": "DoubleJ",
+      "genres": [
+        "retro soul"
+      ]
+    },
+    "83367480": {
+      "date": "2026-09-28",
+      "artist": "Rob Dougan",
+      "title": "Clubbed To Death [The First Mix]",
+      "source": "DoubleJ",
+      "genres": [
+        "electronic",
+        "trip hop",
+        "soundtrack",
+        "chillout"
+      ]
+    },
+    "323508164": {
+      "date": "2026-09-28",
+      "artist": "Friko",
+      "title": "Crimson to Chrome",
+      "source": "TheCurrent",
+      "genres": [
+        "indie rock",
+        "noise pop",
+        "chamber pop",
+        "power pop"
+      ]
+    },
+    "19351270": {
+      "date": "2026-09-28",
+      "artist": "Damien Jurado",
+      "title": "Working Titles",
+      "source": "LastFM~M. Ward",
+      "genres": [
+        "indie folk"
+      ]
+    },
+    "141291": {
+      "date": "2026-09-28",
+      "artist": "Corinne Bailey Rae",
+      "title": "Butterfly",
+      "source": "LastFM~Lianne La Havas",
+      "genres": [
+        "soul",
+        "female vocalists",
+        "jazz",
+        "singer songwriter"
+      ]
+    },
+    "70068439": {
+      "date": "2026-09-28",
+      "artist": "Los Lobos",
+      "title": "Poquito Para Aqui",
+      "source": "TheCurrent",
+      "genres": [
+        "roots rock"
+      ]
+    },
+    "1798946": {
+      "date": "2026-09-28",
+      "artist": "The Strokes",
+      "title": "Someday",
+      "source": "DoubleJ",
+      "genres": [
+        "garage rock",
+        "indie rock",
+        "alternative rock"
+      ]
+    },
+    "4681645": {
+      "date": "2026-09-28",
+      "artist": "You Am I",
+      "title": "Heavy Heart",
+      "source": "DoubleJ",
+      "genres": [
+        "power pop"
+      ]
+    },
+    "546655589": {
+      "date": "2026-09-28",
+      "artist": "Gang Of Youths",
+      "title": "Things Take Time",
+      "source": "DoubleJ",
+      "genres": [
+        "indie rock",
+        "australian",
+        "rock",
+        "indie"
+      ]
+    },
+    "4505198": {
+      "date": "2026-09-28",
+      "artist": "John Lennon",
+      "title": "Oh Yoko!",
+      "source": "TheCurrent",
+      "genres": [
+        "christmas"
+      ]
+    },
+    "3971523": {
+      "date": "2026-09-28",
+      "artist": "Frou Frou",
+      "title": "Hear Me Out",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "electronic",
+        "female vocalists",
+        "indie",
+        "alternative"
+      ]
+    },
+    "6140686": {
+      "date": "2026-09-28",
+      "artist": "Halou",
+      "title": "Today",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "trip hop",
+        "downtempo"
+      ]
+    },
+    "189696454": {
+      "date": "2026-09-28",
+      "artist": "Nick Drake",
+      "title": "From The Morning",
+      "source": "RadioParadise-Mellow",
+      "genres": [
+        "folk",
+        "singer-songwriter"
+      ]
+    },
+    "558321525": {
+      "date": "2026-09-28",
+      "artist": "Sierra Ferrell",
+      "title": "Trying to Love You",
+      "source": "TheCurrent",
+      "genres": [
+        "americana",
+        "bluegrass",
+        "alt country"
+      ]
+    },
+    "4951057": {
+      "date": "2026-09-28",
+      "artist": "Florence and the Machine",
+      "title": "King",
+      "source": "TheCurrent",
+      "genres": []
+    },
+    "71722890": {
+      "date": "2026-09-28",
+      "artist": "Mimi Page",
+      "title": "This Fire",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "downtempo"
+      ]
+    },
+    "4134899": {
+      "date": "2026-09-28",
+      "artist": "Concrete Blonde",
+      "title": "Joey",
+      "source": "DoubleJ",
+      "genres": [
+        "surf rock"
+      ]
+    },
+    "17336687": {
+      "date": "2026-09-28",
+      "artist": "Kylie Minogue",
+      "title": "Confide In Me",
+      "source": "DoubleJ",
+      "genres": [
+        "dance pop"
+      ]
+    },
+    "141283": {
+      "date": "2026-09-28",
+      "artist": "Corinne Bailey Rae",
+      "title": "Call Me When You Get This",
+      "source": "LastFM~Lianne La Havas",
+      "genres": [
+        "soul",
+        "female vocalists",
+        "jazz",
+        "singer songwriter"
+      ]
+    },
+    "49793780": {
+      "date": "2026-09-28",
+      "artist": "Cat Power",
+      "title": "Sea Of Love",
+      "source": "DoubleJ",
+      "genres": [
+        "slowcore",
+        "singer-songwriter"
+      ]
+    },
+    "273130212": {
+      "date": "2026-09-28",
+      "artist": "The Jazz Butcher",
+      "title": "Drink",
+      "source": "TheCurrent",
+      "genres": [
+        "jangle pop"
+      ]
+    },
+    "3411855": {
+      "date": "2026-09-28",
+      "artist": "Broken Bells",
+      "title": "October",
+      "source": "LastFM~Local Natives",
+      "genres": [
+        "indie",
+        "experimental",
+        "indie pop",
+        "alternative"
+      ]
+    },
+    "246044385": {
+      "date": "2026-09-28",
+      "artist": "Emma Louise",
+      "title": "Boy",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "indie pop",
+        "indie",
+        "singer songwriter",
+        "electronic"
+      ]
+    },
+    "459839295": {
+      "date": "2026-09-28",
+      "artist": "Conor Oberst",
+      "title": "Moab",
+      "source": "LastFM~M. Ward",
+      "genres": [
+        "singer songwriter",
+        "folk",
+        "indie",
+        "indie rock"
+      ]
+    },
+    "77610847": {
+      "date": "2026-09-28",
+      "artist": "Nirvana",
+      "title": "Heart-Shaped Box",
+      "source": "DoubleJ",
+      "genres": [
+        "grunge",
+        "rock"
+      ]
+    },
+    "5199520": {
+      "date": "2026-09-28",
+      "artist": "Sarah Fimm",
+      "title": "Velocity",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "trip hop"
+      ]
+    },
+    "5573803": {
+      "date": "2026-09-28",
+      "artist": "Return To Mono",
+      "title": "Insult To Injury",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "nu disco",
+        "funky house",
+        "french house",
+        "indie dance"
+      ]
+    },
+    "66912669": {
+      "date": "2026-09-28",
+      "artist": "Haux",
+      "title": "Sister",
+      "source": "LastFM~S. Carey",
+      "genres": [
+        "folk",
+        "indie",
+        "indie folk",
+        "singer songwriter"
+      ]
+    },
+    "341262056": {
+      "date": "2026-09-28",
+      "artist": "The Sugarcubes",
+      "title": "Birthday",
+      "source": "TheCurrent",
+      "genres": [
+        "icelandic",
+        "alternative",
+        "indie",
+        "female vocalists"
+      ]
+    },
+    "172439179": {
+      "date": "2026-09-28",
+      "artist": "Tristen",
+      "title": "Complex",
+      "source": "DoubleJ",
+      "genres": [
+        "indie",
+        "nashville",
+        "pay attention",
+        "recommended"
+      ]
+    },
+    "128449": {
+      "date": "2026-09-28",
+      "artist": "Kate Bush",
+      "title": "Feel It",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "art pop",
+        "baroque pop",
+        "art rock"
+      ]
+    },
+    "14057911": {
+      "date": "2026-09-28",
+      "artist": "Morrissey",
+      "title": "Everyday Is Like Sunday",
+      "source": "RadioParadise-Mellow",
+      "genres": [
+        "britpop",
+        "jangle pop",
+        "new wave"
+      ]
+    },
+    "1379251": {
+      "date": "2026-09-28",
+      "artist": "Kajagoogoo",
+      "title": "Too Shy",
+      "source": "TheCurrent",
+      "genres": [
+        "synthpop",
+        "new wave"
+      ]
+    },
+    "539694175": {
+      "date": "2026-09-28",
+      "artist": "Orville Peck",
+      "title": "Too Little, Too Late",
+      "source": "TheCurrent",
+      "genres": [
+        "alt country"
       ]
     }
   },
