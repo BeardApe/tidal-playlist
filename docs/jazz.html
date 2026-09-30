@@ -232,7 +232,7 @@ footer {
 </div>
 
 <footer>
-  <div>rotatie: tracks verdwijnen na 30 dagen · een nummer mag na 120 dagen terugkomen</div>
+  <div>rotatie: playlist wordt aangevuld tot 200 nummers · tracks verdwijnen na 49 dagen · een nummer mag na 150 dagen terugkomen</div>
   <div id="last-update"></div>
 </footer>
 
@@ -240,7 +240,8 @@ footer {
 
 <script>
 const STATE_URL = "https://raw.githubusercontent.com/BeardApe/tidal-playlist/main/state_jazz.json";
-const MAX_AGE = 30;
+const MAX_AGE = 49;
+const TARGET = 200;
 
 let state = null;
 
@@ -321,7 +322,7 @@ function renderStats() {
   const sources = new Set(Object.values(state.seen || {}).map(getSource).filter(Boolean));
   const s = document.getElementById('stats');
   s.innerHTML = `
-    <div class="stat"><div class="stat-n">${cur}</div><div class="stat-l">Nu in playlist</div></div>
+    <div class="stat"><div class="stat-n">${cur}</div><div class="stat-l">Nu in playlist (doel ${TARGET})</div></div>
     <div class="stat"><div class="stat-n">${total}</div><div class="stat-l">Ooit toegevoegd</div></div>
     <div class="stat"><div class="stat-n">${Math.max(0, total - cur)}</div><div class="stat-l">Uitgerouleerd</div></div>
     <div class="stat"><div class="stat-n">${sources.size}</div><div class="stat-l">Bronnen</div></div>`;
@@ -330,7 +331,7 @@ function renderStats() {
   const fmt = nm.toLocaleDateString('nl-BE', { weekday: 'long', day: 'numeric', month: 'long', timeZone: 'Europe/Brussels' });
   const time = nm.toLocaleTimeString('nl-BE', { hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Brussels' });
   document.getElementById('next-run').innerHTML =
-    `volgende run: <strong>${fmt} om ${time}</strong> · tracks ouder dan ${MAX_AGE} dagen worden dan verwijderd`;
+    `volgende run: <strong>${fmt} om ${time}</strong> · tracks ouder dan ${MAX_AGE} dagen gaan eruit, de playlist wordt aangevuld tot ${TARGET}`;
 }
 
 function renderCurrent() {
@@ -352,7 +353,7 @@ function renderCurrent() {
     <thead><tr><th>Artiest</th><th>Titel</th><th>Bron</th><th>Sinds</th><th>Rotatie</th></tr></thead>
     <tbody>` + tracks.map(t => {
       const pct = Math.min(100, Math.round(t.age / MAX_AGE * 100));
-      const cls = t.age > 25 ? 'danger' : t.age > 15 ? 'warn' : '';
+      const cls = t.age > MAX_AGE * 0.85 ? 'danger' : t.age > MAX_AGE * 0.5 ? 'warn' : '';
       const badgeCls = t.source.startsWith('Pick') ? 'badge lastfm' : 'badge';
       return `<tr>
         <td class="artist">${esc(t.artist) || '—'}</td>

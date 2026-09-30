@@ -34,10 +34,10 @@ LASTFM_PASSWORD_HASH  = pylast.md5(os.environ["LASTFM_PASSWORD"])
 SPOTIFY_CLIENT_ID     = os.environ.get("SPOTIFY_CLIENT_ID", "")
 SPOTIFY_CLIENT_SECRET = os.environ.get("SPOTIFY_CLIENT_SECRET", "")
 
-MAX_AGE_DAYS      = 30    # hoe lang een track in de playlist blijft
-SEEN_EXPIRY_DAYS  = 120   # daarna mag een track opnieuw gekozen worden
-TARGET_ADDITIONS  = 24    # per run: 12 zang + 12 instrumentaal
-MAX_PER_ALBUM     = 2     # per run hoogstens zoveel nummers uit hetzelfde album
+TARGET_SIZE       = 200   # de playlist wordt elke run aangevuld tot dit aantal
+MAX_AGE_DAYS      = 49    # na zeven weken schuift een nummer eruit (~30 per week)
+SEEN_EXPIRY_DAYS  = 150   # daarna mag een track opnieuw gekozen worden
+MAX_PER_ALBUM     = 3     # per run hoogstens zoveel nummers uit hetzelfde album
 MIN_DURATION      = 140   # seconden
 MAX_DURATION      = 480   # seconden; langer is vaak een uitgesponnen solo
 
@@ -49,6 +49,35 @@ STATE_FILE = Path("state_jazz.json")
 
 VOCAL_ALBUMS = [
     ("Julie London", "Julie Is Her Name"),
+    ("Julie London", "Julie Is Her Name, Vol. 2"),
+    ("Julie London", "Lonely Girl"),
+    ("Billie Holiday", "Lady in Satin"),
+    ("Billie Holiday", "Body and Soul"),
+    ("Shirley Horn", "Here's to Life"),
+    ("Shirley Horn", "You Won't Forget Me"),
+    ("Johnny Hartman", "I Just Dropped By to Say Hello"),
+    ("Johnny Hartman", "The Voice That Is"),
+    ("Nat King Cole", "Love Is the Thing"),
+    ("Nat King Cole", "The Very Thought of You"),
+    ("Frank Sinatra", "In the Wee Small Hours"),
+    ("Frank Sinatra", "Where Are You"),
+    ("Frank Sinatra", "Only the Lonely"),
+    ("Sarah Vaughan", "After Hours"),
+    ("Ella Fitzgerald", "Let No Man Write My Epitaph"),
+    ("Peggy Lee", "The Man I Love"),
+    ("Helen Merrill", "Dream of You"),
+    ("June Christy", "The Misty Miss Christy"),
+    ("Jeri Southern", "You Better Go Now"),
+    ("Carmen McRae", "Book of Ballads"),
+    ("Stan Getz", "Getz/Gilberto"),
+    ("João Gilberto", "Amoroso"),
+    ("Blossom Dearie", "Once Upon a Summertime"),
+    ("Stacey Kent", "Dreamsville"),
+    ("Melody Gardot", "Worrisome Heart"),
+    ("Jimmy Scott", "All the Way"),
+    ("Louis Armstrong", "Louis Armstrong Meets Oscar Peterson"),
+    ("Tony Bennett", "The Tony Bennett / Bill Evans Album"),
+    ("Irene Kral", "Where Is Love"),
     ("Chet Baker", "Chet Baker Sings"),
     ("Billie Holiday", "Songs for Distingue Lovers"),
     ("Shirley Horn", "Close Enough for Love"),
@@ -67,6 +96,26 @@ VOCAL_ALBUMS = [
 
 INSTRUMENTAL_ALBUMS = [
     ("Bill Evans", "Moon Beams"),
+    ("Bill Evans", "You Must Believe in Spring"),
+    ("Bill Evans", "Alone"),
+    ("Stan Getz", "Jazz Samba"),
+    ("Chet Baker", "Embraceable You"),
+    ("Paul Desmond", "Desmond Blue"),
+    ("Paul Desmond", "Bossa Antigua"),
+    ("Paul Desmond", "Glad to Be Unhappy"),
+    ("Ben Webster", "Music for Loving"),
+    ("Coleman Hawkins", "The Hawk Relaxes"),
+    ("Duke Ellington", "Duke Ellington & John Coltrane"),
+    ("Charlie Haden", "Come Sunday"),
+    ("Charlie Haden", "Beyond the Missouri Sky"),
+    ("Charlie Haden", "Nocturne"),
+    ("Oscar Peterson", "In a Romantic Mood"),
+    ("Red Garland", "When There Are Grey Skies"),
+    ("Tommy Flanagan", "Tommy Flanagan Trio"),
+    ("Ike Quebec", "Blue and Sentimental"),
+    ("Dexter Gordon", "Ballads"),
+    ("Stanley Turrentine", "Ballads"),
+    ("Zoot Sims", "Waiting Game"),
     ("John Coltrane", "Ballads"),
     ("Ben Webster", "Soulville"),
     ("Ben Webster", "Ben Webster Meets Oscar Peterson"),
@@ -87,19 +136,26 @@ VOCAL_PICKS = [
     ("Gregory Porter", "No Love Dying"),
     ("Gregory Porter", "Water Under Bridges"),
     ("Louis Armstrong", "A Kiss to Build a Dream On"),
+    ("The Ink Spots", "If I Didn't Care"),
+    ("The Ink Spots", "I Don't Want to Set the World on Fire"),
+    ("Ella Fitzgerald", "Into Each Life Some Rain Must Fall"),
 ]
 
 INSTRUMENTAL_PICKS = [
     ("Miles Davis", "Blue in Green"),
     ("Miles Davis", "Flamenco Sketches"),
     ("Coleman Hawkins", "Body and Soul"),
+    ("Claude Thornhill", "Snowfall"),
+    ("Claude Thornhill", "Autumn Nocturne"),
+    ("Glenn Miller", "Moonlight Serenade"),
+    ("Django Reinhardt", "Nuages"),
 ]
 
 # Nummers die op een verder zacht album toch te veel swingen.
 SKIP_TITLES = {
     "who's got rhythm", "the cat walk", "no problem", "day in day out",
     "why shouldn't i", "festival minor", "jordu", "cheek to cheek",
-    "i won't dance",
+    "i won't dance", "take the coltrane", "big nick", "stevie",
 }
 
 
@@ -252,17 +308,26 @@ def too_lively(network: pylast.LastFMNetwork, artist: str, title: str) -> bool:
     return score < 0
 
 
+def simplify(text: str) -> str:
+    """Kleine letters, alleen letters en cijfers: 'Here's To Life!' -> 'herestolife'."""
+    return "".join(ch for ch in text.lower() if ch.isalnum())
+
+
 def find_album(session: tidalapi.Session, artist: str, title: str):
     try:
-        results = session.search(f"{artist} {title}", models=[tidalapi.album.Album], limit=8)
+        results = session.search(f"{artist} {title}", models=[tidalapi.album.Album], limit=10)
         albums = results.get("albums", [])
-        start = title.lower()[:12]
-        for album in albums:
-            if start in album.name.lower() and artist.lower() in album.artist.name.lower():
-                return album
-        for album in albums:
-            if start in album.name.lower():
-                return album
+        want = simplify(title)
+        who  = simplify(artist)
+        # Eerst: volledige titel en juiste artiest. Kortste naam wint, zodat
+        # 'Lady in Satin' het origineel kiest en niet een deluxe-heruitgave.
+        exact = [a for a in albums
+                 if want in simplify(a.name) and who in simplify(a.artist.name)]
+        if exact:
+            return min(exact, key=lambda a: len(a.name))
+        loose = [a for a in albums if want in simplify(a.name)]
+        if loose:
+            return min(loose, key=lambda a: len(a.name))
     except Exception as e:
         print(f"  [Tidal] Zoekfout album '{artist} {title}': {e}")
     return None
@@ -279,6 +344,9 @@ def find_track(session: tidalapi.Session, artist: str, title: str):
     return None
 
 
+MISSING = []   # wat Tidal niet vond; komt in state_jazz.json onder last_run
+
+
 def build_pool(session, albums, picks, label) -> list:
     """Alle kandidaat-tracks van één soort (zang of instrumentaal)."""
     pool = []
@@ -286,6 +354,7 @@ def build_pool(session, albums, picks, label) -> list:
         album = find_album(session, artist, album_title)
         if not album:
             print(f"  ✗ Album niet gevonden: {artist} / {album_title}")
+            MISSING.append(f"{artist} / {album_title}")
             continue
         try:
             for track in album.tracks():
@@ -296,9 +365,13 @@ def build_pool(session, albums, picks, label) -> list:
             print(f"  [Tidal] Tracks ophalen mislukt voor {album_title}: {e}")
     for artist, title in picks:
         track = find_track(session, artist, title)
+        if not track:
+            MISSING.append(f"{artist} / {title} (nummer)")
+            continue
         if track:
             pool.append({"track": track, "artist": track.artist.name,
                          "title": track.name, "group": f"pick:{artist}", "kind": label,
+                         "hand_picked": True,
                          "source": f"Pick~{artist}"})
     random.shuffle(pool)
     print(f"[Pool] {label}: {len(pool)} kandidaten")
@@ -357,7 +430,7 @@ def next_ok(pool, network, seen, existing_ids, per_group):
             continue
         if duration and not (MIN_DURATION <= duration <= MAX_DURATION):
             continue
-        if too_lively(network, c["artist"], c["title"]):
+        if not c.get("hand_picked") and too_lively(network, c["artist"], c["title"]):
             print(f"  ✗ {c['artist']} / {c['title']} (te levendig volgens tags)")
             continue
         return c
@@ -385,13 +458,34 @@ def main():
     instr = build_pool(session, INSTRUMENTAL_ALBUMS, INSTRUMENTAL_PICKS, "instrumentaal")
 
     today = datetime.now().strftime("%Y-%m-%d")
-    added, per_group, turn = [], {}, 0
-    while len(added) < TARGET_ADDITIONS and (vocal or instr):
-        pool = vocal if turn % 2 == 0 else instr
+    needed = max(0, TARGET_SIZE - len(existing_ids))
+    print(f"\nIn playlist: {len(existing_ids)}, aan te vullen: {needed}\n")
+
+    # Reserve: nummers die al eens gedraaid hebben, oudste eerst. Alleen
+    # gebruikt als de verse kandidaten op zijn.
+    reserve_v = [c for c in vocal if normalize_key(c["artist"], c["title"]) in seen]
+    reserve_i = [c for c in instr if normalize_key(c["artist"], c["title"]) in seen]
+    def seen_date(c):
+        e = seen.get(normalize_key(c["artist"], c["title"]), {})
+        return e.get("date", "") if isinstance(e, dict) else (e or "")
+    # pop() neemt van achteren, dus nieuwste vooraan zetten
+    reserve_v.sort(key=seen_date, reverse=True)
+    reserve_i.sort(key=seen_date, reverse=True)
+    no_seen = {}
+
+    added, per_group, turn, misses = [], {}, 0, 0
+    while len(added) < needed and misses < 4:
+        is_vocal = turn % 2 == 0
         turn += 1
+        pool = vocal if is_vocal else instr
         c = next_ok(pool, network, seen, existing_ids, per_group)
         if not c:
+            reserve = reserve_v if is_vocal else reserve_i
+            c = next_ok(reserve, network, no_seen, existing_ids, per_group)
+        if not c:
+            misses += 1
             continue
+        misses = 0
         track = c["track"]
         tid = str(track.id)
         added.append(track)
@@ -412,6 +506,8 @@ def main():
         print("\n[Tidal] Geen nieuwe tracks gevonden.")
 
     state["seen"], state["playlist_log"] = seen, playlist_log
+    state["last_run"] = {"date": today, "added": len(added),
+                         "size": len(existing_ids), "missing": MISSING}
     backfill_genres(state, lookup)
     save_state(state)
 
