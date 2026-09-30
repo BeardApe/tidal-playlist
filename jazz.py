@@ -19,6 +19,7 @@ State (state_jazz.json in repo):
 import os
 import json
 import random
+import unicodedata
 import requests
 import tidalapi
 import pylast
@@ -310,7 +311,8 @@ def too_lively(network: pylast.LastFMNetwork, artist: str, title: str) -> bool:
 
 def simplify(text: str) -> str:
     """Kleine letters, alleen letters en cijfers: 'Here's To Life!' -> 'herestolife'."""
-    return "".join(ch for ch in text.lower() if ch.isalnum())
+    text = unicodedata.normalize("NFKD", text.lower())
+    return "".join(ch for ch in text if ch.isascii() and ch.isalnum())
 
 
 def find_album(session: tidalapi.Session, artist: str, title: str):
