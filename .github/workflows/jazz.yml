@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "0 6 * * 0"   # elke zondag om 06:00 UTC, zodat maandagochtend klaar is
   workflow_dispatch:        # ook handmatig te starten
+  push:                     # en meteen na een aanpassing aan de albumlijst
+    branches: [main]
+    paths:
+      - jazz.py
+      - .github/workflows/jazz.yml
 
 permissions:
   contents: write           # nodig om state_jazz.json terug te committen
