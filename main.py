@@ -63,9 +63,12 @@ BLOCKED_SOURCES = {"FIP-Live", "Vuurland-zender", "KEXP-NewThisWeek"}
 
 # Genres die alleen voor een specifieke bron geblokkeerd zijn.
 # Rock via Studio Brussel of Radio 1 blijft welkom; alleen KEXP levert te rauw.
-SOURCE_BLOCKED_GENRES = {
-    "KEXP-NewThisWeek": {"rock", "punk", "garage", "grunge", "metal", "hardcore"},
-}
+# Amerikaanse en Australische zenders en nummers van onbekende herkomst draaien veel rock:
+# daar is alles met rock geblokkeerd, en nummers zonder genre-info komen er niet in.
+_ROCK = {"rock", "punk", "garage", "grunge", "metal", "hardcore", "emo"}
+STRICT_SOURCES = {"TheCurrent", "DoubleJ", "WFUV-NYSlice2026", "WXPN-BestNewMusic",
+                  "NPR-AllSongsConsidered", "KCRW-MorningBecomesEclectic", "onbekend"}
+SOURCE_BLOCKED_GENRES = {s: _ROCK for s in STRICT_SOURCES | {"KEXP-NewThisWeek"}}
 
 RECENCY_FILTER_PLAYLISTS = set()
 
@@ -160,7 +163,8 @@ def purge_unwanted(session: tidalapi.Session, playlist_id: str, playlist_log: di
             tid    = str(track.id)
             entry  = playlist_log.get(tid)
             if not isinstance(entry, dict):
-                entry = {"date": entry} if isinstance(entry, str) else {}
+                entry = ({"date": entry} if isinstance(entry, str)
+                         else {"date": datetime.now().strftime("%Y-%m-%d"), "source": "onbekend"})
                 playlist_log[tid] = entry
             artist_name = track.artist.name.strip().lower()
 
@@ -286,6 +290,8 @@ def is_seed(artist_name: str) -> bool:
 
 
 def genres_blocked_for_source(genres: list[str], source: str) -> bool:
+    if source in STRICT_SOURCES and not genres:
+        return True   # geen genre-info van een rockzender: liever niet
     blocked = SOURCE_BLOCKED_GENRES.get(source, set())
     return any(b in g for g in genres for b in blocked)
 
@@ -597,6 +603,11 @@ def main():
     state        = load_state()
     seen         = state["seen"]
     playlist_log = state["playlist_log"]
+
+    for e in playlist_log.values():
+        if isinstance(e, dict) and not e.get("date"):
+            e["date"] = datetime.now().strftime("%Y-%m-%d")
+            e.setdefault("source", "onbekend")
 
     if not state.get("migrated_vuurland_program"):
         # Eenmalig: wat van de 24/7-zender Vuurland kwam, markeren zodat de purge het verwijdert.
