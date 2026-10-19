@@ -8,6 +8,11 @@ on:
 permissions:
   contents: write
 
+# Nooit twee runs tegelijk op dezelfde playlist: ze schuiven elkaars indexen en state.json overschrijft elkaar
+concurrency:
+  group: probe
+  cancel-in-progress: false
+
 jobs:
   probe:
     runs-on: ubuntu-latest
@@ -29,4 +34,9 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add probe/out
           git commit -m "chore: probe resultaten [skip ci]" || true
-          git push
+          # Ander werk (dashboard, Claude, een andere run) kan intussen gepusht hebben
+          for i in 1 2 3; do
+            git pull --rebase && git push && exit 0
+            sleep 10
+          done
+          exit 1
