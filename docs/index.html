@@ -360,7 +360,6 @@ function currentTracks() {
   const log = state.playlist_log || {};
   const cut = cutoffStr();
   return Object.entries(log)
-    .filter(([, e]) => getDate(e) >= cut)
     .map(([id, e]) => ({
       id, artist: getArtist(e), title: getTitle(e),
       source: getSource(e), date: getDate(e), age: daysAgo(getDate(e)),
@@ -374,7 +373,6 @@ function removedTracks() {
   const cut = cutoffStr();
   const active = new Set(
     Object.values(log)
-      .filter(e => getDate(e) >= cut)
       .map(e => (getArtist(e) + '|' + getTitle(e)).toLowerCase())
   );
   return Object.entries(seen)
@@ -436,7 +434,7 @@ function renderCurrent() {
         <td><span class="${badgeCls}">${esc(shortSrc(t.source))}</span></td>
         <td class="date">${t.date}</td>
         <td class="age-cell">
-          <div class="age-label">dag ${t.age} van ${MAX_AGE}</div>
+          <div class="age-label">${t.age >= MAX_AGE ? 'eruit bij de volgende run' : `dag ${t.age} van ${MAX_AGE}`}</div>
           <div class="age-track"><div class="age-fill ${cls}" style="width:${pct}%"></div></div>
         </td>
       </tr>`;
@@ -453,7 +451,7 @@ function renderRemoved() {
   el.innerHTML = `<table>
     <thead><tr><th>Artiest</th><th>Titel</th><th>Bron</th><th>Toegevoegd</th></tr></thead>
     <tbody>` + tracks.slice(0, LIMIT).map(t => `<tr>
-      <td class="artist">${esc(t.artist) || '—'}</td>
+      <td class="artist">${esc(t.artist) || '—'}${t.artist ? `<div><button class="mini" type="button" data-block-artist="${esc(t.artist)}">blokkeer</button></div>` : ''}</td>
       <td class="title">${esc(t.title) || '—'}</td>
       <td><span class="badge">${esc(shortSrc(t.source))}</span></td>
       <td class="date">${t.date || '—'}</td>
@@ -470,7 +468,7 @@ function renderSources() {
     const s = getSource(e) || 'onbekend';
     all[s] = (all[s] || 0) + 1;
   });
-  Object.values(log).filter(e => getDate(e) >= cut).forEach(e => {
+  Object.values(log).forEach(e => {
     const s = getSource(e) || 'onbekend';
     cur[s] = (cur[s] || 0) + 1;
   });
