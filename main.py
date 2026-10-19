@@ -560,17 +560,27 @@ def remove_old_tracks(session: tidalapi.Session, playlist_id: str, playlist_log:
     return playlist_log
 
 
-def backfill_playlist_log(session: tidalapi.Session, playlist_id: str, playlist_log: dict) -> dict:
+def backfill_playlist_log(session: tidalapi.Session, playlist_id: str, playlist_log: dict,
+                          seen: dict | None = None) -> dict:
     """
     Vult ontbrekende artiest/titel aan voor oude entries (van vóór het rijke formaat).
     Leest de gegevens rechtstreeks uit de Tidal playlist.
+    Nummers die op Tidal staan maar niet in de status (een run waarvan state.json niet
+    bewaard raakte) krijgen een entry, met datum en bron uit seen als die er zijn.
     """
     try:
         enriched = 0
+        adopted  = 0
+        today    = datetime.now().strftime("%Y-%m-%d")
         for track in session.playlist(playlist_id).tracks_paginated():
             tid   = str(track.id)
             entry = playlist_log.get(tid)
             if entry is None:
+                s = (seen or {}).get(normalize_key(track.artist.name, track.name))
+                s = s if isinstance(s, dict) else {}
+                playlist_log[tid] = {"date": s.get("date") or today, "artist": track.artist.name,
+                                     "title": track.name, "source": s.get("source") or "onbekend"}
+                adopted += 1
                 continue
             if isinstance(entry, str):
                 entry = {"date": entry}
@@ -582,6 +592,8 @@ def backfill_playlist_log(session: tidalapi.Session, playlist_id: str, playlist_
             playlist_log[tid] = entry
         if enriched:
             print(f"[Backfill] {enriched} oude entries aangevuld met artiest/titel")
+        if adopted:
+            print(f"[Backfill] {adopted} nummers uit de playlist opgenomen die niet in de status stonden")
         # Wat niet meer in de Tidal-playlist staat (bv. handmatig verwijderd) uit de status halen
         present = {str(t.id) for t in session.playlist(playlist_id).tracks_paginated()}
         if present:
@@ -626,8 +638,8 @@ def main():
     session = load_tidal_session()
     print("[Tidal] Ingelogd ✓\n")
 
+    playlist_log = backfill_playlist_log(session, TIDAL_PLAYLIST_ID, playlist_log, seen)
     playlist_log = remove_old_tracks(session, TIDAL_PLAYLIST_ID, playlist_log)
-    playlist_log = backfill_playlist_log(session, TIDAL_PLAYLIST_ID, playlist_log)
 
     try:
         token = get_spotify_token()
