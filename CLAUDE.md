@@ -39,7 +39,7 @@ Nachtradio is achtergrondmuziek die thuis de hele dag speelt. Ochtendjazz is zac
    - Radioprogramma's (`RADIO_PROGRAMS`): volledige tracklist van elke nieuwe uitzending van Duyster en Vuurland, via relisten.be (de officiële VRT-afspeellijst per dag). Verwerkte uitzendingen staan in `state["programs_done"]`, tot 14 dagen terug.
    - Internationale zenders (`STATIONS`): Radio Paradise Mellow Mix, SomaFM Lush, Double J (ABC-API), The Current (JSON in de pagina). Per run max. 25 nieuwe per zender.
 7. Genres bepalen: Spotify-genres, anders Last.fm-tags (Spotify laat veel genres leeg). Dan filteren op genre, genre per bron en artiest. Seed-artiesten zijn immuun voor genrefilters, niet voor de artiestenblokkade.
-8. Elk nummer opzoeken op Tidal, dubbels overslaan (`seen` onthoudt alles ooit toegevoegd, ook na uitrouleren), toevoegen.
+8. Elk nummer opzoeken op Tidal (alleen een versie van de juiste artiest, zie `artist_matches`; anders overslaan), dubbels overslaan (`seen` onthoudt alles ooit toegevoegd, ook na uitrouleren), toevoegen.
 9. `state.json` en `run.log` worden door de workflow teruggecommit.
 
 Er is geen limiet per run. Rotatie gebeurt op leeftijd (30 dagen). De playlist schommelt rond de 1.000 tot 1.200 nummers.
@@ -99,3 +99,4 @@ Home Assistant speelt Nachtradio via Music Assistant op een Sonos-syncgroep ("Al
 - FIP en KEXP zijn geschrapt (te rommelig of te veel rock). Ook de 24/7-zender Vuurland is geschrapt; alleen het programma telt.
 - Moderat, Nils Frahm, Boards of Canada, Four Tet en Röyksopp zijn uit de seeds gehaald: hun Last.fm-verwanten waren minimal/IDM.
 - Oktober 2026: 257 rocknummers van The Current, Double J en onbekende herkomst gepurged; daarna `STRICT_SOURCES` ingevoerd.
+- 30 oktober 2026: een kinderliedjesversie van Daan's "Schipper Mag Ik Overvaren?" kwam binnen omdat de Tidal-zoekfunctie terugviel op het eerste resultaat. Nu enkel de juiste artiest, en de purge haalt verkeerde versies weg. `herstel_namen.json` was een eenmalig herstel en mag weg.
