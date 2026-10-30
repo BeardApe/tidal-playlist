@@ -519,9 +519,14 @@ def get_lastfm_discoveries(n_artists: int = 4, tracks_per_artist: int = 3) -> li
 
 
 def _norm_artist(name: str) -> str:
-    s = unicodedata.normalize("NFKD", name or "").encode("ascii", "ignore").decode().lower()
-    s = re.sub(r"[^a-z0-9 ]+", " ", s)
-    s = re.sub(r"^the ", "", " ".join(s.split()))
+    s = (name or "").lower()
+    for a, b in (("ø", "o"), ("æ", "ae"), ("œ", "oe"), ("ß", "ss"), ("ð", "d"), ("þ", "th"), ("ł", "l")):
+        s = s.replace(a, b)
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
+    s = s.replace("&", " and ")
+    s = re.sub(r",\s*the$", "", s)            # "Notwist, The"
+    s = re.sub(r"[^a-z0-9]+", "", s)          # spaties en leestekens weg
+    s = re.sub(r"^the", "", s)
     return s
 
 
@@ -678,6 +683,23 @@ def main():
         token = None
 
     playlist_log = purge_unwanted(session, TIDAL_PLAYLIST_ID, playlist_log, token)
+
+    # Eenmalig (30 okt 2026): correcte nummers terugzetten die de eerste versie van de
+    # artiestcontrole onterecht weghaalde ("&" tegenover "and", "Eivor" tegenover "Eivør").
+    herstel = Path("herstel_namen.json")
+    if herstel.exists() and not state.get("herstel_namen_gedaan"):
+        try:
+            terug = json.loads(herstel.read_text(encoding="utf-8"))
+            present = {str(t.id) for t in session.playlist(TIDAL_PLAYLIST_ID).tracks_paginated()}
+            ids = [tid for tid in terug if tid not in present]
+            if ids:
+                session.playlist(TIDAL_PLAYLIST_ID).add([int(t) for t in ids])
+                for tid in ids:
+                    playlist_log[tid] = terug[tid]
+            print(f"[Herstel] {len(ids)} onterecht verwijderde nummers teruggezet")
+            state["herstel_namen_gedaan"] = True
+        except Exception as e:
+            print(f"[Herstel] Mislukt: {e}")
 
     spotify_candidates = get_all_spotify_tracks(token) if token else []
     lastfm_candidates  = get_lastfm_discoveries()
