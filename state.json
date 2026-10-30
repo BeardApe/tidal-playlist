@@ -1853,7 +1853,10 @@
     "l. jacobs|behind the great curve": "2026-05-11",
     "beach vacation|time alone": "2026-05-11",
     "cemeteries|young blood": "2026-05-11",
-    "the whitest boy alive|intentions": "2026-05-11",
+    "the whitest boy alive|intentions": {
+      "date": "2026-05-11",
+      "source": "LastFM~Kings of Convenience"
+    },
     "jamie woon|echoes": "2026-05-11",
     "khun narin|sut sanaen": "2026-05-11",
     "burning airlines|the surgeon's house": "2026-05-11",
@@ -1915,7 +1918,10 @@
     "lorelle meets the obsolete|regresar / recordar - jagz kooner remix": "2026-05-11",
     "modern woman|johnny's dreamworld": "2026-05-11",
     "morn|the standard model": "2026-05-11",
-    "the whitest boy alive|above you": "2026-05-11",
+    "the whitest boy alive|above you": {
+      "date": "2026-05-11",
+      "source": "LastFM~Kings of Convenience"
+    },
     "pearla|be around": "2026-05-11",
     "de portables|bert tres emo": "2026-05-11",
     "cemeteries|what did you see?": "2026-05-11",
@@ -12244,6 +12250,222 @@
     "gorki|punk is dood": {
       "date": "2026-10-30",
       "source": "LastFM~Marble Sounds"
+    },
+    "mogwai|party in the dark": {
+      "date": "2026-10-30",
+      "source": "DoubleJ"
+    },
+    "mitski|my love mine all mine": {
+      "date": "2026-10-30",
+      "source": "TheCurrent"
+    },
+    "anıl emre daldal|dediğim gibi": {
+      "date": "2026-10-30",
+      "source": "LastFM~Cigarettes After Sex"
+    },
+    "philip bailey  & phil collins|easy lover": {
+      "date": "2026-10-30",
+      "source": "DoubleJ"
+    },
+    "thao|nguyen nguyen lose lose feat. adrian quesada": {
+      "date": "2026-10-30",
+      "source": "TheCurrent"
+    },
+    "margo price|radio feat. sharon van etten": {
+      "date": "2026-10-30",
+      "source": "TheCurrent"
+    },
+    "the presets|this boy's in love": {
+      "date": "2026-10-30",
+      "source": "DoubleJ"
+    },
+    "kings of leon|mustang": {
+      "date": "2026-10-30",
+      "source": "TheCurrent"
+    },
+    "thao|take it easy": {
+      "date": "2026-10-30",
+      "source": "TheCurrent"
+    },
+    "william fitzsimmons|funeral dress": {
+      "date": "2026-10-30",
+      "source": "LastFM~James Vincent McMorrow"
+    },
+    "yola|future enemies": {
+      "date": "2026-10-30",
+      "source": "TheCurrent"
+    },
+    "the flaming lips|a spoonful weighs a ton": {
+      "date": "2026-10-30",
+      "source": "TheCurrent"
+    },
+    "lomelda|wonder": {
+      "date": "2026-10-30",
+      "source": "LastFM~Adrianne Lenker"
+    },
+    "william fitzsimmons|passion play": {
+      "date": "2026-10-30",
+      "source": "LastFM~James Vincent McMorrow"
+    },
+    "the brown hornet|pogo": {
+      "date": "2026-10-30",
+      "source": "DoubleJ"
+    },
+    "william fitzsimmons|i kissed a girl": {
+      "date": "2026-10-30",
+      "source": "LastFM~James Vincent McMorrow"
+    },
+    "hot chip|night and day": {
+      "date": "2026-10-30",
+      "source": "TheCurrent"
+    },
+    "strawberry guy|f song": {
+      "date": "2026-10-30",
+      "source": "LastFM~Cigarettes After Sex"
+    },
+    "anıl emre daldal|m. - sped up version": {
+      "date": "2026-10-30",
+      "source": "LastFM~Cigarettes After Sex"
+    },
+    "the decemberists|the better part of bravery": {
+      "date": "2026-10-30",
+      "source": "TheCurrent"
+    },
+    "lomelda|it's infinite": {
+      "date": "2026-10-30",
+      "source": "LastFM~Adrianne Lenker"
+    },
+    "nicole atkins|singing in the mirror": {
+      "date": "2026-10-30",
+      "source": "TheCurrent"
+    },
+    "silversun pickups|the wreckage": {
+      "date": "2026-10-30",
+      "source": "DoubleJ"
+    },
+    "sondre lerche|love you": {
+      "date": "2026-10-30",
+      "source": "LastFM~Kings of Convenience"
+    },
+    "big thief|certainty": {
+      "date": "2026-10-30",
+      "source": "LastFM~Adrianne Lenker"
+    },
+    "rosie lowe|water came down": {
+      "date": "2026-10-30",
+      "source": "DoubleJ"
+    },
+    "charley crockett|crucified son": {
+      "date": "2026-10-30",
+      "source": "TheCurrent"
+    },
+    "sly and the family stone|you can make it if you try": {
+      "date": "2026-10-30",
+      "source": "TheCurrent"
+    },
+    "simon and garfunkel|baby driver": {
+      "date": "2026-10-30",
+      "source": "TheCurrent"
+    },
+    "robyn|konichiwa bitches": {
+      "date": "2026-10-30",
+      "source": "DoubleJ"
+    },
+    "arnau obiols & kayyak|faith (medlar & dele sosimi remix)": {
+      "date": "2026-10-30",
+      "source": "DoubleJ"
+    },
+    "the budos band|unbroken, unshaven": {
+      "date": "2026-10-30",
+      "source": "DoubleJ"
+    },
+    "strawberry guy|as we bloom": {
+      "date": "2026-10-30",
+      "source": "LastFM~Cigarettes After Sex"
+    },
+    "leif vollebekk|hot tears": {
+      "date": "2026-10-30",
+      "source": "LastFM~James Vincent McMorrow"
+    },
+    "haai & pat alvarez|digitise": {
+      "date": "2026-10-30",
+      "source": "DoubleJ"
+    },
+    "lomelda|hannah sun": {
+      "date": "2026-10-30",
+      "source": "LastFM~Adrianne Lenker"
+    },
+    "flock of dimes|long after midnight": {
+      "date": "2026-10-30",
+      "source": "TheCurrent"
+    },
+    "arthur russell|get around to it": {
+      "date": "2026-10-30",
+      "source": "DoubleJ"
+    },
+    "hysterical love project|a new extremity": {
+      "date": "2026-10-30",
+      "source": "KCRW-MorningBecomesEclectic"
+    },
+    "little red|coca cola": {
+      "date": "2026-10-30",
+      "source": "DoubleJ"
+    },
+    "sondre lerche|to be surprised": {
+      "date": "2026-10-30",
+      "source": "LastFM~Kings of Convenience"
+    },
+    "mozez|spinning top": {
+      "date": "2026-10-30",
+      "source": "SomaFM-Lush"
+    },
+    "anıl emre daldal|m. - slowed + reverb": {
+      "date": "2026-10-30",
+      "source": "LastFM~Cigarettes After Sex"
+    },
+    "lucius|born again teen": {
+      "date": "2026-10-30",
+      "source": "TheCurrent"
+    },
+    "sondre lerche|modern nature": {
+      "date": "2026-10-30",
+      "source": "LastFM~Kings of Convenience"
+    },
+    "leif vollebekk|vancouver time": {
+      "date": "2026-10-30",
+      "source": "LastFM~James Vincent McMorrow"
+    },
+    "jordan rakei & tom mcfarland|easy to love": {
+      "date": "2026-10-30",
+      "source": "DoubleJ"
+    },
+    "noah kahan|northern attitude feat. hozier": {
+      "date": "2026-10-30",
+      "source": "TheCurrent"
+    },
+    "for nina|swallow": {
+      "date": "2026-10-30",
+      "source": "KCRW-MorningBecomesEclectic"
+    },
+    "margaret glaspy|stay with me": {
+      "date": "2026-10-30",
+      "source": "TheCurrent"
+    },
+    "alanis morissette|all i really want": {
+      "date": "2026-10-30",
+      "source": "TheCurrent"
+    },
+    "big thief|simulation swarm": {
+      "date": "2026-10-30",
+      "source": "LastFM~Adrianne Lenker"
+    },
+    "leif vollebekk|moondog": {
+      "date": "2026-10-30",
+      "source": "LastFM~James Vincent McMorrow"
+    },
+    "strawberry guy|mrs magic (strings version)": {
+      "date": "2026-10-30",
+      "source": "LastFM~Cigarettes After Sex"
     }
   },
   "playlist_log": {
@@ -13501,7 +13723,7 @@
       ],
       "artist": "Flock Of Dimes",
       "title": "Long After Midnight",
-      "source": "onbekend",
+      "source": "TheCurrent",
       "date": "2026-10-09"
     },
     "186410349": {
@@ -20787,18 +21009,6 @@
         "singer songwriter"
       ]
     },
-    "630178": {
-      "date": "2026-10-30",
-      "artist": "Del Amitri",
-      "title": "Kiss This Thing Goodbye",
-      "source": "TheCurrent",
-      "genres": [
-        "rock",
-        "scottish",
-        "alternative",
-        "pop"
-      ]
-    },
     "326413839": {
       "date": "2026-10-30",
       "artist": "Chris Stapleton",
@@ -20887,40 +21097,6 @@
         "slowcore"
       ]
     },
-    "95574986": {
-      "date": "2026-10-30",
-      "artist": "TV On The Radio",
-      "title": "Dancing Choose",
-      "source": "DoubleJ",
-      "genres": [
-        "indie rock",
-        "indie"
-      ]
-    },
-    "512008389": {
-      "date": "2026-10-30",
-      "artist": "Rowena Wise",
-      "title": "Bad Things Feel Good",
-      "source": "DoubleJ",
-      "genres": [
-        "indie",
-        "folk",
-        "singer songwriter",
-        "indie rock"
-      ]
-    },
-    "81353382": {
-      "date": "2026-10-30",
-      "artist": "The Flying Burrito Brothers",
-      "title": "Hot Burrito #2",
-      "source": "TheCurrent",
-      "genres": [
-        "country rock",
-        "alt country",
-        "americana",
-        "folk rock"
-      ]
-    },
     "11014507": {
       "date": "2026-10-30",
       "artist": "Novastar",
@@ -20933,28 +21109,6 @@
         "alternative"
       ]
     },
-    "522225482": {
-      "date": "2026-10-30",
-      "artist": "Matt and Kim",
-      "title": "Cameras",
-      "source": "TheCurrent",
-      "genres": [
-        "indie pop",
-        "indie",
-        "electronic",
-        "indie rock"
-      ]
-    },
-    "452039382": {
-      "date": "2026-10-30",
-      "artist": "Spoon",
-      "title": "Chateau Blues",
-      "source": "TheCurrent",
-      "genres": [
-        "indie rock",
-        "indie"
-      ]
-    },
     "95796152": {
       "date": "2026-10-30",
       "artist": "Novastar",
@@ -20965,18 +21119,6 @@
         "singer songwriter",
         "rock",
         "alternative"
-      ]
-    },
-    "526643164": {
-      "date": "2026-10-30",
-      "artist": "The Jayhawks",
-      "title": "Keeping Our Heads Above Water",
-      "source": "TheCurrent",
-      "genres": [
-        "alt country",
-        "americana",
-        "roots rock",
-        "country rock"
       ]
     },
     "558010007": {
@@ -21139,30 +21281,6 @@
         "indie folk"
       ]
     },
-    "524058640": {
-      "date": "2026-10-30",
-      "artist": "THAO",
-      "title": "Fossils",
-      "source": "DoubleJ",
-      "genres": [
-        "indie",
-        "indie pop",
-        "female vocalists",
-        "kill rock stars"
-      ]
-    },
-    "549641409": {
-      "date": "2026-10-30",
-      "artist": "Ruby Gill",
-      "title": "Porchlight",
-      "source": "DoubleJ",
-      "genres": [
-        "indie pop",
-        "indie rock",
-        "slowcoustic",
-        "australian"
-      ]
-    },
     "3073427": {
       "date": "2026-10-30",
       "artist": "Lisa Mitchell",
@@ -21183,18 +21301,6 @@
       "genres": [
         "singer-songwriter",
         "southern gothic"
-      ]
-    },
-    "534929785": {
-      "date": "2026-10-30",
-      "artist": "Dan Sultan",
-      "title": "Find The Light",
-      "source": "DoubleJ",
-      "genres": [
-        "australian",
-        "rockabilly",
-        "all",
-        "rock"
       ]
     },
     "417580126": {
@@ -21267,17 +21373,6 @@
         "singer songwriter",
         "folk",
         "canadian"
-      ]
-    },
-    "297930444": {
-      "date": "2026-10-30",
-      "artist": "Wilco",
-      "title": "Someone To Lose",
-      "source": "TheCurrent",
-      "genres": [
-        "alt country",
-        "americana",
-        "indie rock"
       ]
     },
     "1757694": {
@@ -21353,15 +21448,6 @@
         "female vocalists",
         "downtempo",
         "chillout"
-      ]
-    },
-    "287629429": {
-      "date": "2026-10-30",
-      "artist": "The National",
-      "title": "Tropic Morning News",
-      "source": "TheCurrent",
-      "genres": [
-        "indie rock"
       ]
     },
     "355473755": {
@@ -21441,27 +21527,6 @@
         "downtempo"
       ]
     },
-    "554455420": {
-      "date": "2026-10-30",
-      "artist": "Olivia Rodrigo",
-      "title": "serena joy",
-      "source": "TheCurrent",
-      "genres": [
-        "pop",
-        "pop rock",
-        "rock",
-        "indie pop"
-      ]
-    },
-    "75605624": {
-      "date": "2026-10-30",
-      "artist": "The D4",
-      "title": "Party",
-      "source": "DoubleJ",
-      "genres": [
-        "garage rock"
-      ]
-    },
     "14508131": {
       "date": "2026-10-30",
       "artist": "Gorki",
@@ -21472,6 +21537,715 @@
         "rock",
         "nederlandstalig",
         "belgium"
+      ]
+    },
+    "38924959": {
+      "date": "2026-09-27",
+      "artist": "Hope Sandoval & The Warm Inventions",
+      "title": "Around My Smile",
+      "source": "LastFM~Mazzy Star",
+      "genres": [
+        "dream pop",
+        "slowcore"
+      ]
+    },
+    "214192224": {
+      "date": "2026-09-27",
+      "artist": "Hope Sandoval & The Warm Inventions",
+      "title": "Blue Bird",
+      "source": "LastFM~Mazzy Star",
+      "genres": [
+        "dream pop",
+        "slowcore"
+      ]
+    },
+    "38924953": {
+      "date": "2026-09-27",
+      "artist": "Hope Sandoval & The Warm Inventions",
+      "title": "On the Low",
+      "source": "LastFM~Mazzy Star",
+      "genres": [
+        "dream pop",
+        "slowcore"
+      ]
+    },
+    "38924958": {
+      "date": "2026-09-28",
+      "artist": "Hope Sandoval & The Warm Inventions",
+      "title": "Bavarian Fruit Bread",
+      "source": "LastFM~Mazzy Star",
+      "genres": [
+        "dream pop",
+        "slowcore"
+      ]
+    },
+    "38924952": {
+      "date": "2026-09-28",
+      "artist": "Hope Sandoval & The Warm Inventions",
+      "title": "Butterfly Mornings",
+      "source": "LastFM~Mazzy Star",
+      "genres": [
+        "dream pop",
+        "slowcore"
+      ]
+    },
+    "71038436": {
+      "date": "2026-09-28",
+      "artist": "Eivor",
+      "title": "Silvitni",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "folk",
+        "faroese",
+        "icelandic",
+        "jazz"
+      ]
+    },
+    "2175559": {
+      "date": "2026-10-06",
+      "artist": "The Bird & the Bee",
+      "title": "My Love",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "indie",
+        "electronic",
+        "female vocalists",
+        "indie pop"
+      ]
+    },
+    "65622055": {
+      "date": "2026-10-06",
+      "artist": "Hope Sandoval & The Warm Inventions",
+      "title": "Salt of the Sea",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "dream pop",
+        "slowcore"
+      ]
+    },
+    "48442723": {
+      "date": "2026-10-09",
+      "artist": "The Bird & the Bee",
+      "title": "Lovey Dovey",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "indie",
+        "electronic",
+        "female vocalists",
+        "indie pop"
+      ]
+    },
+    "446520584": {
+      "date": "2026-10-13",
+      "artist": "Lady Linn & Her Magnificent Seven",
+      "title": "One Of These Nights",
+      "source": "Duyster",
+      "genres": [
+        "jazz",
+        "female vocalists",
+        "swing",
+        "soul"
+      ]
+    },
+    "240973453": {
+      "date": "2026-10-13",
+      "artist": "Eivor",
+      "title": "So Close To Being Free",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "folk",
+        "faroese",
+        "icelandic",
+        "jazz"
+      ]
+    },
+    "376016539": {
+      "date": "2026-10-18",
+      "artist": "Sonny Knight and The Lakers",
+      "title": "Hey Girl",
+      "source": "TheCurrent",
+      "genres": [
+        "soul",
+        "funk",
+        "minnesota"
+      ]
+    },
+    "9676175": {
+      "date": "2026-10-20",
+      "artist": "Lisa De Benedictis",
+      "title": "Below",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "indie",
+        "pop",
+        "singer songwriter",
+        "alternative"
+      ]
+    },
+    "214192216": {
+      "date": "2026-10-27",
+      "artist": "Hope Sandoval & The Warm Inventions",
+      "title": "Wild Roses",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "dream pop",
+        "slowcore"
+      ]
+    },
+    "78130359": {
+      "date": "2026-10-30",
+      "artist": "Mogwai",
+      "title": "Party In The Dark",
+      "source": "DoubleJ",
+      "genres": [
+        "post-rock",
+        "shoegaze"
+      ]
+    },
+    "304555208": {
+      "date": "2026-10-30",
+      "artist": "Mitski",
+      "title": "My Love Mine All Mine",
+      "source": "TheCurrent",
+      "genres": [
+        "indie rock",
+        "indie",
+        "indie pop",
+        "singer songwriter"
+      ]
+    },
+    "181642633": {
+      "date": "2026-10-30",
+      "artist": "Anıl Emre Daldal",
+      "title": "Dediğim Gibi",
+      "source": "LastFM~Cigarettes After Sex",
+      "genres": [
+        "turkish"
+      ]
+    },
+    "46934359": {
+      "date": "2026-10-30",
+      "artist": "Philip Bailey  & Phil Collins",
+      "title": "Easy Lover",
+      "source": "DoubleJ",
+      "genres": []
+    },
+    "542085143": {
+      "date": "2026-10-30",
+      "artist": "Thao",
+      "title": "Nguyen Nguyen Lose Lose feat. Adrian Quesada",
+      "source": "TheCurrent",
+      "genres": [
+        "indie",
+        "indie pop",
+        "female vocalists",
+        "kill rock stars"
+      ]
+    },
+    "270121280": {
+      "date": "2026-10-30",
+      "artist": "Margo Price",
+      "title": "Radio feat. Sharon Van Etten",
+      "source": "TheCurrent",
+      "genres": [
+        "americana",
+        "outlaw country",
+        "alt country"
+      ]
+    },
+    "7093724": {
+      "date": "2026-10-30",
+      "artist": "The Presets",
+      "title": "This Boy's In Love",
+      "source": "DoubleJ",
+      "genres": [
+        "alternative dance"
+      ]
+    },
+    "345674496": {
+      "date": "2026-10-30",
+      "artist": "Kings of Leon",
+      "title": "Mustang",
+      "source": "TheCurrent",
+      "genres": [
+        "rock",
+        "indie",
+        "indie rock",
+        "alternative"
+      ]
+    },
+    "542085144": {
+      "date": "2026-10-30",
+      "artist": "Thao",
+      "title": "Take It Easy",
+      "source": "TheCurrent",
+      "genres": [
+        "indie",
+        "indie pop",
+        "female vocalists",
+        "kill rock stars"
+      ]
+    },
+    "24436894": {
+      "date": "2026-10-30",
+      "artist": "William Fitzsimmons",
+      "title": "Funeral Dress",
+      "source": "LastFM~James Vincent McMorrow",
+      "genres": [
+        "indie folk",
+        "singer-songwriter"
+      ]
+    },
+    "381525342": {
+      "date": "2026-10-30",
+      "artist": "Yola",
+      "title": "Future Enemies",
+      "source": "TheCurrent",
+      "genres": [
+        "country soul",
+        "country",
+        "soul",
+        "pop"
+      ]
+    },
+    "75023236": {
+      "date": "2026-10-30",
+      "artist": "The Flaming Lips",
+      "title": "A Spoonful Weighs A Ton",
+      "source": "TheCurrent",
+      "genres": [
+        "neo-psychedelic"
+      ]
+    },
+    "145405148": {
+      "date": "2026-10-30",
+      "artist": "Lomelda",
+      "title": "Wonder",
+      "source": "LastFM~Adrianne Lenker",
+      "genres": [
+        "folk",
+        "singer songwriter",
+        "indie folk",
+        "indie"
+      ]
+    },
+    "24436891": {
+      "date": "2026-10-30",
+      "artist": "William Fitzsimmons",
+      "title": "Passion Play",
+      "source": "LastFM~James Vincent McMorrow",
+      "genres": [
+        "indie folk",
+        "singer-songwriter"
+      ]
+    },
+    "235712276": {
+      "date": "2026-10-30",
+      "artist": "The Brown Hornet",
+      "title": "Pogo",
+      "source": "DoubleJ",
+      "genres": [
+        "melbourne",
+        "australia",
+        "under 2000 listeners",
+        "australian"
+      ]
+    },
+    "82181925": {
+      "date": "2026-10-30",
+      "artist": "William Fitzsimmons",
+      "title": "I Kissed a Girl",
+      "source": "LastFM~James Vincent McMorrow",
+      "genres": [
+        "indie folk",
+        "singer-songwriter"
+      ]
+    },
+    "15827982": {
+      "date": "2026-10-30",
+      "artist": "Hot Chip",
+      "title": "Night And Day",
+      "source": "TheCurrent",
+      "genres": [
+        "alternative dance",
+        "new rave",
+        "indie dance",
+        "indie electronic"
+      ]
+    },
+    "93278870": {
+      "date": "2026-10-30",
+      "artist": "Strawberry Guy",
+      "title": "f song",
+      "source": "LastFM~Cigarettes After Sex",
+      "genres": [
+        "bedroom pop"
+      ]
+    },
+    "418880133": {
+      "date": "2026-10-30",
+      "artist": "Anıl Emre Daldal",
+      "title": "M. - Sped Up Version",
+      "source": "LastFM~Cigarettes After Sex",
+      "genres": [
+        "turkish"
+      ]
+    },
+    "570332976": {
+      "date": "2026-10-30",
+      "artist": "The Decemberists",
+      "title": "The Better Part Of Bravery",
+      "source": "TheCurrent",
+      "genres": [
+        "baroque pop",
+        "indie folk"
+      ]
+    },
+    "145405153": {
+      "date": "2026-10-30",
+      "artist": "Lomelda",
+      "title": "It's Infinite",
+      "source": "LastFM~Adrianne Lenker",
+      "genres": [
+        "folk",
+        "singer songwriter",
+        "indie folk",
+        "indie"
+      ]
+    },
+    "526765977": {
+      "date": "2026-10-30",
+      "artist": "Nicole Atkins",
+      "title": "Singing In The Mirror",
+      "source": "TheCurrent",
+      "genres": [
+        "pop soul"
+      ]
+    },
+    "560555536": {
+      "date": "2026-10-30",
+      "artist": "Silversun Pickups",
+      "title": "The Wreckage",
+      "source": "DoubleJ",
+      "genres": [
+        "indie rock",
+        "shoegaze",
+        "indie",
+        "alternative"
+      ]
+    },
+    "17691988": {
+      "date": "2026-10-30",
+      "artist": "Sondre Lerche",
+      "title": "Love You",
+      "source": "LastFM~Kings of Convenience",
+      "genres": [
+        "norwegian pop"
+      ]
+    },
+    "213383171": {
+      "date": "2026-10-30",
+      "artist": "Big Thief",
+      "title": "Certainty",
+      "source": "LastFM~Adrianne Lenker",
+      "genres": [
+        "indie rock",
+        "indie folk",
+        "folk",
+        "folk rock"
+      ]
+    },
+    "34482762": {
+      "date": "2026-10-30",
+      "artist": "Rosie Lowe",
+      "title": "Water Came Down",
+      "source": "DoubleJ",
+      "genres": [
+        "pop",
+        "rnb",
+        "soul",
+        "female vocalists"
+      ]
+    },
+    "444389265": {
+      "date": "2026-10-30",
+      "artist": "Charley Crockett",
+      "title": "Crucified Son",
+      "source": "TheCurrent",
+      "genres": [
+        "americana",
+        "outlaw country",
+        "alt country",
+        "red dirt"
+      ]
+    },
+    "1277477": {
+      "date": "2026-10-30",
+      "artist": "Sly and the Family Stone",
+      "title": "You Can Make It If You Try",
+      "source": "TheCurrent",
+      "genres": [
+        "funk",
+        "soul",
+        "rhythm and blues",
+        "rock"
+      ]
+    },
+    "650236": {
+      "date": "2026-10-30",
+      "artist": "Simon and Garfunkel",
+      "title": "Baby Driver",
+      "source": "TheCurrent",
+      "genres": [
+        "folk",
+        "classic rock",
+        "singer songwriter",
+        "acoustic"
+      ]
+    },
+    "154245747": {
+      "date": "2026-10-30",
+      "artist": "Robyn",
+      "title": "Konichiwa Bitches",
+      "source": "DoubleJ",
+      "genres": [
+        "swedish pop"
+      ]
+    },
+    "350653839": {
+      "date": "2026-10-30",
+      "artist": "Arnau Obiols & Kayyak",
+      "title": "Faith (Medlar & Dele Sosimi Remix)",
+      "source": "DoubleJ",
+      "genres": []
+    },
+    "120434313": {
+      "date": "2026-10-30",
+      "artist": "The Budos Band",
+      "title": "Unbroken, Unshaven",
+      "source": "DoubleJ",
+      "genres": [
+        "afrobeat"
+      ]
+    },
+    "196653799": {
+      "date": "2026-10-30",
+      "artist": "Strawberry Guy",
+      "title": "As We Bloom",
+      "source": "LastFM~Cigarettes After Sex",
+      "genres": [
+        "bedroom pop"
+      ]
+    },
+    "109152490": {
+      "date": "2026-10-30",
+      "artist": "Leif Vollebekk",
+      "title": "Hot Tears",
+      "source": "LastFM~James Vincent McMorrow",
+      "genres": [
+        "folk",
+        "canadian",
+        "singer songwriter",
+        "indie folk"
+      ]
+    },
+    "534772466": {
+      "date": "2026-10-30",
+      "artist": "HAAi & Pat Alvarez",
+      "title": "DIGITiSE",
+      "source": "DoubleJ",
+      "genres": []
+    },
+    "145405146": {
+      "date": "2026-10-30",
+      "artist": "Lomelda",
+      "title": "Hannah Sun",
+      "source": "LastFM~Adrianne Lenker",
+      "genres": [
+        "folk",
+        "singer songwriter",
+        "indie folk",
+        "indie"
+      ]
+    },
+    "19882196": {
+      "date": "2026-10-30",
+      "artist": "Arthur Russell",
+      "title": "Get Around To It",
+      "source": "DoubleJ",
+      "genres": [
+        "art pop"
+      ]
+    },
+    "555554738": {
+      "date": "2026-10-30",
+      "artist": "Hysterical Love Project",
+      "title": "A New Extremity",
+      "source": "KCRW-MorningBecomesEclectic",
+      "genres": [
+        "trip hop",
+        "downtempo"
+      ]
+    },
+    "251648609": {
+      "date": "2026-10-30",
+      "artist": "Little Red",
+      "title": "coca cola",
+      "source": "DoubleJ",
+      "genres": [
+        "australian",
+        "indie pop",
+        "rock",
+        "melbourne"
+      ]
+    },
+    "1177723": {
+      "date": "2026-10-30",
+      "artist": "Sondre Lerche",
+      "title": "To Be Surprised",
+      "source": "LastFM~Kings of Convenience",
+      "genres": [
+        "norwegian pop"
+      ]
+    },
+    "339551164": {
+      "date": "2026-10-30",
+      "artist": "Mozez",
+      "title": "Spinning Top",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "trip hop",
+        "downtempo"
+      ]
+    },
+    "162781552": {
+      "date": "2026-10-30",
+      "artist": "Anıl Emre Daldal",
+      "title": "M. - Slowed + Reverb",
+      "source": "LastFM~Cigarettes After Sex",
+      "genres": [
+        "turkish"
+      ]
+    },
+    "58126719": {
+      "date": "2026-10-30",
+      "artist": "Lucius",
+      "title": "Born Again Teen",
+      "source": "TheCurrent",
+      "genres": [
+        "indie",
+        "pop",
+        "folk",
+        "female vocalists"
+      ]
+    },
+    "17661993": {
+      "date": "2026-10-30",
+      "artist": "Sondre Lerche",
+      "title": "Modern Nature",
+      "source": "LastFM~Kings of Convenience",
+      "genres": [
+        "norwegian pop"
+      ]
+    },
+    "89277018": {
+      "date": "2026-10-30",
+      "artist": "Leif Vollebekk",
+      "title": "Vancouver Time",
+      "source": "LastFM~James Vincent McMorrow",
+      "genres": [
+        "folk",
+        "canadian",
+        "singer songwriter",
+        "indie folk"
+      ]
+    },
+    "498251276": {
+      "date": "2026-10-30",
+      "artist": "Jordan Rakei & Tom McFarland",
+      "title": "Easy To Love",
+      "source": "DoubleJ",
+      "genres": []
+    },
+    "326412984": {
+      "date": "2026-10-30",
+      "artist": "Noah Kahan",
+      "title": "Northern Attitude feat. Hozier",
+      "source": "TheCurrent",
+      "genres": [
+        "indie",
+        "folk",
+        "singer songwriter",
+        "acoustic"
+      ]
+    },
+    "438821733": {
+      "date": "2026-10-30",
+      "artist": "For Nina",
+      "title": "Swallow",
+      "source": "KCRW-MorningBecomesEclectic",
+      "genres": [
+        "doom",
+        "shoegaze",
+        "ireland",
+        "irish"
+      ]
+    },
+    "131209710": {
+      "date": "2026-10-30",
+      "artist": "Margaret Glaspy",
+      "title": "Stay With Me",
+      "source": "TheCurrent",
+      "genres": [
+        "singer songwriter",
+        "indie",
+        "indie rock",
+        "rock"
+      ]
+    },
+    "52684789": {
+      "date": "2026-10-30",
+      "artist": "Alanis Morissette",
+      "title": "All I Really Want",
+      "source": "TheCurrent",
+      "genres": [
+        "female vocalists",
+        "rock",
+        "alternative",
+        "singer songwriter"
+      ]
+    },
+    "210577433": {
+      "date": "2026-10-30",
+      "artist": "Big Thief",
+      "title": "Simulation Swarm",
+      "source": "LastFM~Adrianne Lenker",
+      "genres": [
+        "indie rock",
+        "indie folk",
+        "folk",
+        "folk rock"
+      ]
+    },
+    "356872896": {
+      "date": "2026-10-30",
+      "artist": "Leif Vollebekk",
+      "title": "Moondog",
+      "source": "LastFM~James Vincent McMorrow",
+      "genres": [
+        "folk",
+        "canadian",
+        "singer songwriter",
+        "indie folk"
+      ]
+    },
+    "206755451": {
+      "date": "2026-10-30",
+      "artist": "Strawberry Guy",
+      "title": "Mrs Magic (Strings Version)",
+      "source": "LastFM~Cigarettes After Sex",
+      "genres": [
+        "bedroom pop"
       ]
     }
   },
@@ -21495,5 +22269,6 @@
       "2026-10-25"
     ]
   },
-  "migrated_vuurland_program": true
+  "migrated_vuurland_program": true,
+  "herstel_namen_gedaan": true
 }
