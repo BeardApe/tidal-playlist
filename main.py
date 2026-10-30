@@ -6,6 +6,7 @@ State (state.json in repo):
 """
 
 import os
+import unicodedata
 import json
 import random
 import re
@@ -179,7 +180,12 @@ def purge_unwanted(session: tidalapi.Session, playlist_id: str, playlist_log: di
             src    = entry.get("source", "")
             genre_hit = (genres_blocked(genres) or genres_blocked_for_source(genres, src)) \
                         and not is_seed(track.artist.name)
-            if artist_name in BLOCKED_ARTISTS or genre_hit or src in BLOCKED_SOURCES:
+            # Verkeerde versie: de artiest op Tidal is niet de artiest die de bron speelde
+            wrong = (src not in ("", "onbekend") and entry.get("artist")
+                     and not artist_matches(entry["artist"], track))
+            if wrong:
+                print(f"  [Purge] verkeerde versie: gezocht {entry['artist']}, kreeg {track.artist.name}")
+            if artist_name in BLOCKED_ARTISTS or genre_hit or src in BLOCKED_SOURCES or wrong:
                 to_remove.append((idx, tid, track.artist.name, track.name))
 
         if to_remove:
@@ -512,15 +518,38 @@ def get_lastfm_discoveries(n_artists: int = 4, tracks_per_artist: int = 3) -> li
     return tracks
 
 
+def _norm_artist(name: str) -> str:
+    s = unicodedata.normalize("NFKD", name or "").encode("ascii", "ignore").decode().lower()
+    s = re.sub(r"[^a-z0-9 ]+", " ", s)
+    s = re.sub(r"^the ", "", " ".join(s.split()))
+    return s
+
+
+def artist_matches(wanted: str, track) -> bool:
+    """Klopt de artiest van een Tidal-nummer met de artiest die we zochten?"""
+    w = _norm_artist(wanted)
+    if not w:
+        return False
+    names = [a.name for a in (getattr(track, "artists", None) or []) if getattr(a, "name", None)]
+    names.append(track.artist.name)
+    for n in names:
+        t = _norm_artist(n)
+        if t and (t == w or t in w or w in t):
+            return True
+    return False
+
+
 def search_tidal_track(session: tidalapi.Session, artist: str, title: str):
     try:
-        results = session.search(f"{artist} {title}", models=[tidalapi.media.Track], limit=5)
+        results = session.search(f"{artist} {title}", models=[tidalapi.media.Track], limit=10)
         tracks  = results.get("tracks", [])
         for track in tracks:
-            if (artist.lower() in track.artist.name.lower() or
-                    track.artist.name.lower() in artist.lower()):
+            if artist_matches(artist, track):
                 return track
-        return tracks[0] if tracks else None
+        # Geen versie van de juiste artiest: niets toevoegen.
+        # Vroeger nam het script hier het eerste resultaat, zo kwam er een kinderliedjesversie
+        # van Daan's "Schipper Mag Ik Overvaren?" in de playlist.
+        return None
     except Exception as e:
         print(f"  [Tidal] Zoekfout '{artist} {title}': {e}")
         return None
