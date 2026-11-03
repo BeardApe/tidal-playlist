@@ -655,6 +655,22 @@ def main():
             e["date"] = datetime.now().strftime("%Y-%m-%d")
             e.setdefault("source", "onbekend")
 
+    # Eenmalig (3 nov 2026): nummers die op 9 oktober onterecht een nieuwe datum kregen,
+    # krijgen hun echte oude datum terug, zodat ze meteen uitrouleren.
+    if not state.get("herdateer_oud"):
+        n = 0
+        for e in playlist_log.values():
+            if not isinstance(e, dict) or not e.get("date"):
+                continue
+            s = seen.get(normalize_key(e.get("artist", ""), e.get("title", "")))
+            s_date = s.get("date") if isinstance(s, dict) else (s if isinstance(s, str) else None)
+            if s_date and s_date < e["date"]:
+                e["date"] = s_date; n += 1
+            elif e.get("source") == "onbekend" and e["date"] == "2026-10-09":
+                e["date"] = "2026-09-01"; n += 1
+        print(f"[Herdateer] {n} nummers kregen hun oude datum terug")
+        state["herdateer_oud"] = True
+
     if not state.get("migrated_vuurland_program"):
         # Eenmalig: wat van de 24/7-zender Vuurland kwam, markeren zodat de purge het verwijdert.
         # Die nummers mogen via het programma Vuurland opnieuw binnenkomen.
