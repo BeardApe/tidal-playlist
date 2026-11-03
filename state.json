@@ -1905,7 +1905,10 @@
     "the whitest boy alive|don't give up": "2026-05-11",
     "lykke li|no rest for the wicked": "2026-05-11",
     "the me in you|lost wanderer, pt.1": "2026-05-11",
-    "silver jews|random rules": "2026-05-11",
+    "silver jews|random rules": {
+      "date": "2026-05-11",
+      "source": "LastFM~Bill Callahan"
+    },
     "mono|winter daphne": "2026-05-11",
     "parks department|money tree": {
       "date": "2026-05-11",
@@ -1936,7 +1939,10 @@
       "date": "2026-05-11",
       "source": "WFUV-NYSlice2026"
     },
-    "alvvays|next of kin": "2026-05-11",
+    "alvvays|next of kin": {
+      "date": "2026-05-11",
+      "source": "LastFM~Camera Obscura"
+    },
     "bel cobain|am i dumb": "2026-05-11",
     "runo plum|butterflies": "2026-05-18",
     "mike d|switch up": {
@@ -12466,6 +12472,462 @@
     "strawberry guy|mrs magic (strings version)": {
       "date": "2026-10-30",
       "source": "LastFM~Cigarettes After Sex"
+    },
+    "silver jews|dallas": {
+      "date": "2026-11-03",
+      "source": "LastFM~Bill Callahan"
+    },
+    "the school|never thought i'd see the day": {
+      "date": "2026-11-03",
+      "source": "LastFM~Camera Obscura"
+    },
+    "the new pornographers|high ticket attractions": {
+      "date": "2026-11-03",
+      "source": "DoubleJ"
+    },
+    "the apples in stereo|skyway": {
+      "date": "2026-11-03",
+      "source": "TheCurrent"
+    },
+    "the jayhawks|take me with you (when you go)": {
+      "date": "2026-11-03",
+      "source": "TheCurrent"
+    },
+    "randy newman and paul simon|the blues": {
+      "date": "2026-11-03",
+      "source": "Duyster"
+    },
+    "london grammar|lose your head": {
+      "date": "2026-11-03",
+      "source": "Duyster"
+    },
+    "doves|spirit of your friend": {
+      "date": "2026-11-03",
+      "source": "DoubleJ"
+    },
+    "sufjan stevens|fourth of july": {
+      "date": "2026-11-03",
+      "source": "Vuurland"
+    },
+    "ben folds five|do it anyway": {
+      "date": "2026-11-03",
+      "source": "TheCurrent"
+    },
+    "alvvays|atop a cake": {
+      "date": "2026-11-03",
+      "source": "LastFM~Camera Obscura"
+    },
+    "halou|crumbs and dust": {
+      "date": "2026-11-03",
+      "source": "SomaFM-Lush"
+    },
+    "aaron espe|back to the beginning": {
+      "date": "2026-11-03",
+      "source": "Vuurland"
+    },
+    "axelle red|elle danse seule": {
+      "date": "2026-11-03",
+      "source": "Duyster"
+    },
+    "big thief|change": {
+      "date": "2026-11-03",
+      "source": "Vuurland"
+    },
+    "leith ross|(you) on my arm": {
+      "date": "2026-11-03",
+      "source": "LastFM~Lucy Dacus"
+    },
+    "jordan rakei|paradise": {
+      "date": "2026-11-03",
+      "source": "Vuurland"
+    },
+    "the antler king|heroes": {
+      "date": "2026-11-03",
+      "source": "Duyster"
+    },
+    "beck|run away": {
+      "date": "2026-11-03",
+      "source": "DoubleJ"
+    },
+    "worldpeace dmt|ivy": {
+      "date": "2026-11-03",
+      "source": "DoubleJ"
+    },
+    "david bowie|rebel rebel": {
+      "date": "2026-11-03",
+      "source": "TheCurrent"
+    },
+    "gary clark jr.|ain't messin 'round": {
+      "date": "2026-11-03",
+      "source": "TheCurrent"
+    },
+    "death cab for cutie|i will follow you into the dark": {
+      "date": "2026-11-03",
+      "source": "Vuurland"
+    },
+    "anouk|liefde kent geen haat": {
+      "date": "2026-11-03",
+      "source": "Duyster"
+    },
+    "hozier|that you are": {
+      "date": "2026-11-03",
+      "source": "RadioParadise-Mellow"
+    },
+    "kevin morby|i was on time": {
+      "date": "2026-11-03",
+      "source": "Vuurland"
+    },
+    "rainbow body|strange memory": {
+      "date": "2026-11-03",
+      "source": "WXPN-BestNewMusic"
+    },
+    "jesca hoop|big storm": {
+      "date": "2026-11-03",
+      "source": "DoubleJ"
+    },
+    "joshua radin|high and low": {
+      "date": "2026-11-03",
+      "source": "RadioParadise-Mellow"
+    },
+    "david bowie|under pressure": {
+      "date": "2026-11-03",
+      "source": "Duyster"
+    },
+    "mo'ju|native tongue [ft. pasefika vitoria choir]": {
+      "date": "2026-11-03",
+      "source": "DoubleJ"
+    },
+    "phoebe bridgers|waiting room": {
+      "date": "2026-11-03",
+      "source": "LastFM~Lucy Dacus"
+    },
+    "the white stripes|fell in love with a girl": {
+      "date": "2026-11-03",
+      "source": "TheCurrent"
+    },
+    "miloe|clear": {
+      "date": "2026-11-03",
+      "source": "TheCurrent"
+    },
+    "alanis morissette|you oughta know": {
+      "date": "2026-11-03",
+      "source": "Duyster"
+    },
+    "agnes obel|the curse": {
+      "date": "2026-11-03",
+      "source": "Vuurland"
+    },
+    "bonobo|talk to me [ft. nicole miglis]": {
+      "date": "2026-11-03",
+      "source": "DoubleJ"
+    },
+    "thomas lemmer & oine feat. roo j|maybe (gold lounge remix- radio edit)": {
+      "date": "2026-11-03",
+      "source": "SomaFM-Lush"
+    },
+    "the smithereens|blue period": {
+      "date": "2026-11-03",
+      "source": "Duyster"
+    },
+    "japanese breakfast|in heaven": {
+      "date": "2026-11-03",
+      "source": "Vuurland"
+    },
+    "melantopia|diamond mind": {
+      "date": "2026-11-03",
+      "source": "SomaFM-Lush"
+    },
+    "kacey musgraves|loneliest girl": {
+      "date": "2026-11-03",
+      "source": "TheCurrent"
+    },
+    "and they spoke in anthems|attempt 65": {
+      "date": "2026-11-03",
+      "source": "Duyster"
+    },
+    "jeff tweedy|i am trying to break your heart": {
+      "date": "2026-11-03",
+      "source": "LastFM~Bill Callahan"
+    },
+    "everything but the girl|young and dumb": {
+      "date": "2026-11-03",
+      "source": "Radio1-Top30"
+    },
+    "elbow|weather to fly": {
+      "date": "2026-11-03",
+      "source": "RadioParadise-Mellow"
+    },
+    "curtis mayfield|freddie's dead": {
+      "date": "2026-11-03",
+      "source": "TheCurrent"
+    },
+    "roberta flack|feel like makin' love": {
+      "date": "2026-11-03",
+      "source": "Duyster"
+    },
+    "alvvays|not my baby": {
+      "date": "2026-11-03",
+      "source": "LastFM~Camera Obscura"
+    },
+    "phoebe bridgers|the outside": {
+      "date": "2026-11-03",
+      "source": "Vuurland"
+    },
+    "badbadnotgood & v.c.r|found a light (beale street)": {
+      "date": "2026-11-03",
+      "source": "DoubleJ"
+    },
+    "karmacoda|we don't have a lot of time (f": {
+      "date": "2026-11-03",
+      "source": "SomaFM-Lush"
+    },
+    "jeff tweedy|i know what it's like": {
+      "date": "2026-11-03",
+      "source": "LastFM~Bill Callahan"
+    },
+    "sonny knight and the lakers|juicy lucy": {
+      "date": "2026-11-03",
+      "source": "TheCurrent"
+    },
+    "harry belafonte|the banana boat song (day-o)": {
+      "date": "2026-11-03",
+      "source": "Duyster"
+    },
+    "japanese breakfast|picture window": {
+      "date": "2026-11-03",
+      "source": "TheCurrent"
+    },
+    "jenny lewis|psychos": {
+      "date": "2026-11-03",
+      "source": "TheCurrent"
+    },
+    "gordon lightfoot|early morning rain": {
+      "date": "2026-11-03",
+      "source": "RadioParadise-Mellow"
+    },
+    "alt-j|something good": {
+      "date": "2026-11-03",
+      "source": "Vuurland"
+    },
+    "metric|time is a bomb": {
+      "date": "2026-11-03",
+      "source": "TheCurrent"
+    },
+    "jeff tweedy|guess again": {
+      "date": "2026-11-03",
+      "source": "LastFM~Bill Callahan"
+    },
+    "gustavo santaolalla|de ushuaia a la quiaca": {
+      "date": "2026-11-03",
+      "source": "RadioParadise-Mellow"
+    },
+    "half moon run|grow into love": {
+      "date": "2026-11-03",
+      "source": "Vuurland"
+    },
+    "boudewijn de groot|de kleine schoorsteenveger (the chimneysweeper)": {
+      "date": "2026-11-03",
+      "source": "Duyster"
+    },
+    "she's green|paper thin": {
+      "date": "2026-11-03",
+      "source": "TheCurrent"
+    },
+    "wolf alice|safe in the world": {
+      "date": "2026-11-03",
+      "source": "Vuurland"
+    },
+    "johnny cash|i walk the line": {
+      "date": "2026-11-03",
+      "source": "TheCurrent"
+    },
+    "the grass roots|let's live for today": {
+      "date": "2026-11-03",
+      "source": "Duyster"
+    },
+    "phoebe bridgers|garden song": {
+      "date": "2026-11-03",
+      "source": "LastFM~Lucy Dacus"
+    },
+    "sioen|another ballad": {
+      "date": "2026-11-03",
+      "source": "Duyster"
+    },
+    "tom odell|hold me": {
+      "date": "2026-11-03",
+      "source": "TheCurrent"
+    },
+    "montaigne|i'm a fantastic wreck": {
+      "date": "2026-11-03",
+      "source": "DoubleJ"
+    },
+    "pj harvey|down by the water": {
+      "date": "2026-11-03",
+      "source": "TheCurrent"
+    },
+    "rosanne cash|runaway train": {
+      "date": "2026-11-03",
+      "source": "RadioParadise-Mellow"
+    },
+    "flunk|lost causes (rashid ajami remix)": {
+      "date": "2026-11-03",
+      "source": "SomaFM-Lush"
+    },
+    "the flaming lips|god will control the werewolves": {
+      "date": "2026-11-03",
+      "source": "WXPN-BestNewMusic"
+    },
+    "neil young|world on a string": {
+      "date": "2026-11-03",
+      "source": "TheCurrent"
+    },
+    "bob dylan|under the red sky": {
+      "date": "2026-11-03",
+      "source": "Duyster"
+    },
+    "ex:re|healing (slow)": {
+      "date": "2026-11-03",
+      "source": "Vuurland"
+    },
+    "olivia rodrigo|expectations (feat. chappell roan)": {
+      "date": "2026-11-03",
+      "source": "Radio1-Top30"
+    },
+    "medium build|home depot": {
+      "date": "2026-11-03",
+      "source": "TheCurrent"
+    },
+    "ultraísta|tin king": {
+      "date": "2026-11-03",
+      "source": "Duyster"
+    },
+    "de kreuners|kom terug, ik mis je": {
+      "date": "2026-11-03",
+      "source": "Duyster"
+    },
+    "robyn|with every heartbeat [ft. kleerup]": {
+      "date": "2026-11-03",
+      "source": "DoubleJ"
+    },
+    "irreversible etanglements ft. motherboard|don't lose your head": {
+      "date": "2026-11-03",
+      "source": "Duyster"
+    },
+    "daan|i don't want to set the world on fire": {
+      "date": "2026-11-03",
+      "source": "Duyster"
+    },
+    "michael kiwanuka|love in my heart": {
+      "date": "2026-11-03",
+      "source": "Vuurland"
+    },
+    "yann gaudeuille|babylon": {
+      "date": "2026-11-03",
+      "source": "Duyster"
+    },
+    "lovers and poets|the things we do for love": {
+      "date": "2026-11-03",
+      "source": "SomaFM-Lush"
+    },
+    "the school|valentine": {
+      "date": "2026-11-03",
+      "source": "LastFM~Camera Obscura"
+    },
+    "the box tops|the letter": {
+      "date": "2026-11-03",
+      "source": "Duyster"
+    },
+    "peter gabriel|big time": {
+      "date": "2026-11-03",
+      "source": "Duyster"
+    },
+    "jerry lee lewis|whole lotta shakin' goin' on": {
+      "date": "2026-11-03",
+      "source": "Duyster"
+    },
+    "leith ross|music box": {
+      "date": "2026-11-03",
+      "source": "LastFM~Lucy Dacus"
+    },
+    "matilda mann|the loch ness monster": {
+      "date": "2026-11-03",
+      "source": "Duyster"
+    },
+    "silver jews|smith & jones forever": {
+      "date": "2026-11-03",
+      "source": "LastFM~Bill Callahan"
+    },
+    "songs:ohia|farewell transmission": {
+      "date": "2026-11-03",
+      "source": "Vuurland"
+    },
+    "heather nova|in the path of hurricanes": {
+      "date": "2026-11-03",
+      "source": "Duyster"
+    },
+    "bon odori|ruminator": {
+      "date": "2026-11-03",
+      "source": "KCRW-MorningBecomesEclectic"
+    },
+    "falling you|ariadne": {
+      "date": "2026-11-03",
+      "source": "SomaFM-Lush"
+    },
+    "hard-fi ft. mike kalle|digo nada": {
+      "date": "2026-11-03",
+      "source": "Duyster"
+    },
+    "gigi perez|sailor song": {
+      "date": "2026-11-03",
+      "source": "TheCurrent"
+    },
+    "missy higgins|ten days": {
+      "date": "2026-11-03",
+      "source": "DoubleJ"
+    },
+    "cat stevens|katmandu": {
+      "date": "2026-11-03",
+      "source": "RadioParadise-Mellow"
+    },
+    "megasound|supersize": {
+      "date": "2026-11-03",
+      "source": "TheCurrent"
+    },
+    "mia dyson|fool": {
+      "date": "2026-11-03",
+      "source": "DoubleJ"
+    },
+    "the staple singers|i'll take you there": {
+      "date": "2026-11-03",
+      "source": "TheCurrent"
+    },
+    "the libertines|boys in the band": {
+      "date": "2026-11-03",
+      "source": "TheCurrent"
+    },
+    "the school|i don't believe in love": {
+      "date": "2026-11-03",
+      "source": "LastFM~Camera Obscura"
+    },
+    "de mens|man in het blauw": {
+      "date": "2026-11-03",
+      "source": "Duyster"
+    },
+    "herman van veen|suzanne": {
+      "date": "2026-11-03",
+      "source": "Duyster"
+    },
+    "leith ross|orlando": {
+      "date": "2026-11-03",
+      "source": "LastFM~Lucy Dacus"
+    },
+    "rhye|one of those summer days": {
+      "date": "2026-11-03",
+      "source": "SomaFM-Lush"
+    },
+    "michael kiwanuka|just another moment": {
+      "date": "2026-11-03",
+      "source": "WXPN-BestNewMusic"
     }
   },
   "playlist_log": {
@@ -13551,7 +14013,7 @@
       ],
       "artist": "Bonobo",
       "title": "Talk to Me",
-      "source": "onbekend",
+      "source": "DoubleJ",
       "date": "2026-10-09"
     },
     "156766341": {
@@ -21539,68 +22001,6 @@
         "belgium"
       ]
     },
-    "38924959": {
-      "date": "2026-09-27",
-      "artist": "Hope Sandoval & The Warm Inventions",
-      "title": "Around My Smile",
-      "source": "LastFM~Mazzy Star",
-      "genres": [
-        "dream pop",
-        "slowcore"
-      ]
-    },
-    "214192224": {
-      "date": "2026-09-27",
-      "artist": "Hope Sandoval & The Warm Inventions",
-      "title": "Blue Bird",
-      "source": "LastFM~Mazzy Star",
-      "genres": [
-        "dream pop",
-        "slowcore"
-      ]
-    },
-    "38924953": {
-      "date": "2026-09-27",
-      "artist": "Hope Sandoval & The Warm Inventions",
-      "title": "On the Low",
-      "source": "LastFM~Mazzy Star",
-      "genres": [
-        "dream pop",
-        "slowcore"
-      ]
-    },
-    "38924958": {
-      "date": "2026-09-28",
-      "artist": "Hope Sandoval & The Warm Inventions",
-      "title": "Bavarian Fruit Bread",
-      "source": "LastFM~Mazzy Star",
-      "genres": [
-        "dream pop",
-        "slowcore"
-      ]
-    },
-    "38924952": {
-      "date": "2026-09-28",
-      "artist": "Hope Sandoval & The Warm Inventions",
-      "title": "Butterfly Mornings",
-      "source": "LastFM~Mazzy Star",
-      "genres": [
-        "dream pop",
-        "slowcore"
-      ]
-    },
-    "71038436": {
-      "date": "2026-09-28",
-      "artist": "Eivor",
-      "title": "Silvitni",
-      "source": "SomaFM-Lush",
-      "genres": [
-        "folk",
-        "faroese",
-        "icelandic",
-        "jazz"
-      ]
-    },
     "2175559": {
       "date": "2026-10-06",
       "artist": "The Bird & the Bee",
@@ -21692,28 +22092,6 @@
         "slowcore"
       ]
     },
-    "78130359": {
-      "date": "2026-10-30",
-      "artist": "Mogwai",
-      "title": "Party In The Dark",
-      "source": "DoubleJ",
-      "genres": [
-        "post-rock",
-        "shoegaze"
-      ]
-    },
-    "304555208": {
-      "date": "2026-10-30",
-      "artist": "Mitski",
-      "title": "My Love Mine All Mine",
-      "source": "TheCurrent",
-      "genres": [
-        "indie rock",
-        "indie",
-        "indie pop",
-        "singer songwriter"
-      ]
-    },
     "181642633": {
       "date": "2026-10-30",
       "artist": "Anıl Emre Daldal",
@@ -21721,25 +22099,6 @@
       "source": "LastFM~Cigarettes After Sex",
       "genres": [
         "turkish"
-      ]
-    },
-    "46934359": {
-      "date": "2026-10-30",
-      "artist": "Philip Bailey  & Phil Collins",
-      "title": "Easy Lover",
-      "source": "DoubleJ",
-      "genres": []
-    },
-    "542085143": {
-      "date": "2026-10-30",
-      "artist": "Thao",
-      "title": "Nguyen Nguyen Lose Lose feat. Adrian Quesada",
-      "source": "TheCurrent",
-      "genres": [
-        "indie",
-        "indie pop",
-        "female vocalists",
-        "kill rock stars"
       ]
     },
     "270121280": {
@@ -21760,30 +22119,6 @@
       "source": "DoubleJ",
       "genres": [
         "alternative dance"
-      ]
-    },
-    "345674496": {
-      "date": "2026-10-30",
-      "artist": "Kings of Leon",
-      "title": "Mustang",
-      "source": "TheCurrent",
-      "genres": [
-        "rock",
-        "indie",
-        "indie rock",
-        "alternative"
-      ]
-    },
-    "542085144": {
-      "date": "2026-10-30",
-      "artist": "Thao",
-      "title": "Take It Easy",
-      "source": "TheCurrent",
-      "genres": [
-        "indie",
-        "indie pop",
-        "female vocalists",
-        "kill rock stars"
       ]
     },
     "24436894": {
@@ -21922,18 +22257,6 @@
         "pop soul"
       ]
     },
-    "560555536": {
-      "date": "2026-10-30",
-      "artist": "Silversun Pickups",
-      "title": "The Wreckage",
-      "source": "DoubleJ",
-      "genres": [
-        "indie rock",
-        "shoegaze",
-        "indie",
-        "alternative"
-      ]
-    },
     "17691988": {
       "date": "2026-10-30",
       "artist": "Sondre Lerche",
@@ -21979,30 +22302,6 @@
         "red dirt"
       ]
     },
-    "1277477": {
-      "date": "2026-10-30",
-      "artist": "Sly and the Family Stone",
-      "title": "You Can Make It If You Try",
-      "source": "TheCurrent",
-      "genres": [
-        "funk",
-        "soul",
-        "rhythm and blues",
-        "rock"
-      ]
-    },
-    "650236": {
-      "date": "2026-10-30",
-      "artist": "Simon and Garfunkel",
-      "title": "Baby Driver",
-      "source": "TheCurrent",
-      "genres": [
-        "folk",
-        "classic rock",
-        "singer songwriter",
-        "acoustic"
-      ]
-    },
     "154245747": {
       "date": "2026-10-30",
       "artist": "Robyn",
@@ -22017,7 +22316,12 @@
       "artist": "Arnau Obiols & Kayyak",
       "title": "Faith (Medlar & Dele Sosimi Remix)",
       "source": "DoubleJ",
-      "genres": []
+      "genres": [
+        "spanish",
+        "folk",
+        "funk_add_to_lidarr_batch_2",
+        "catalan"
+      ]
     },
     "120434313": {
       "date": "2026-10-30",
@@ -22049,13 +22353,6 @@
         "indie folk"
       ]
     },
-    "534772466": {
-      "date": "2026-10-30",
-      "artist": "HAAi & Pat Alvarez",
-      "title": "DIGITiSE",
-      "source": "DoubleJ",
-      "genres": []
-    },
     "145405146": {
       "date": "2026-10-30",
       "artist": "Lomelda",
@@ -22085,18 +22382,6 @@
       "genres": [
         "trip hop",
         "downtempo"
-      ]
-    },
-    "251648609": {
-      "date": "2026-10-30",
-      "artist": "Little Red",
-      "title": "coca cola",
-      "source": "DoubleJ",
-      "genres": [
-        "australian",
-        "indie pop",
-        "rock",
-        "melbourne"
       ]
     },
     "1177723": {
@@ -22165,7 +22450,10 @@
       "artist": "Jordan Rakei & Tom McFarland",
       "title": "Easy To Love",
       "source": "DoubleJ",
-      "genres": []
+      "genres": [
+        "indie soul",
+        "neo soul"
+      ]
     },
     "326412984": {
       "date": "2026-10-30",
@@ -22189,30 +22477,6 @@
         "shoegaze",
         "ireland",
         "irish"
-      ]
-    },
-    "131209710": {
-      "date": "2026-10-30",
-      "artist": "Margaret Glaspy",
-      "title": "Stay With Me",
-      "source": "TheCurrent",
-      "genres": [
-        "singer songwriter",
-        "indie",
-        "indie rock",
-        "rock"
-      ]
-    },
-    "52684789": {
-      "date": "2026-10-30",
-      "artist": "Alanis Morissette",
-      "title": "All I Really Want",
-      "source": "TheCurrent",
-      "genres": [
-        "female vocalists",
-        "rock",
-        "alternative",
-        "singer songwriter"
       ]
     },
     "210577433": {
@@ -22247,6 +22511,1229 @@
       "genres": [
         "bedroom pop"
       ]
+    },
+    "111772241": {
+      "date": "2026-11-03",
+      "artist": "Silver Jews",
+      "title": "Dallas",
+      "source": "LastFM~Bill Callahan",
+      "genres": [
+        "alt country",
+        "anti-folk"
+      ]
+    },
+    "418739401": {
+      "date": "2026-11-03",
+      "artist": "The School",
+      "title": "Never Thought I'd See The Day",
+      "source": "LastFM~Camera Obscura",
+      "genres": [
+        "jangle pop",
+        "indie pop"
+      ]
+    },
+    "72176430": {
+      "date": "2026-11-03",
+      "artist": "The New Pornographers",
+      "title": "High Ticket Attractions",
+      "source": "DoubleJ",
+      "genres": [
+        "power pop",
+        "indie rock",
+        "indie"
+      ]
+    },
+    "261156915": {
+      "date": "2026-11-03",
+      "artist": "The Apples In Stereo",
+      "title": "Skyway",
+      "source": "TheCurrent",
+      "genres": [
+        "power pop",
+        "neo-psychedelic"
+      ]
+    },
+    "34192490": {
+      "date": "2026-11-03",
+      "artist": "The Jayhawks",
+      "title": "Take Me With You (When You Go)",
+      "source": "TheCurrent",
+      "genres": [
+        "alt country",
+        "americana",
+        "roots rock",
+        "country rock"
+      ]
+    },
+    "212943": {
+      "date": "2026-11-03",
+      "artist": "Randy Newman And Paul Simon",
+      "title": "The blues",
+      "source": "Duyster",
+      "genres": [
+        "singer songwriter",
+        "piano",
+        "soundtrack",
+        "pop"
+      ]
+    },
+    "169640933": {
+      "date": "2026-11-03",
+      "artist": "London Grammar",
+      "title": "Lose Your Head",
+      "source": "Duyster",
+      "genres": [
+        "indie pop",
+        "electronic",
+        "indie",
+        "female vocalists"
+      ]
+    },
+    "463530276": {
+      "date": "2026-11-03",
+      "artist": "Doves",
+      "title": "Spirit Of Your Friend",
+      "source": "DoubleJ",
+      "genres": [
+        "britpop",
+        "madchester"
+      ]
+    },
+    "43560109": {
+      "date": "2026-11-03",
+      "artist": "Sufjan Stevens",
+      "title": "Fourth of july",
+      "source": "Vuurland",
+      "genres": [
+        "baroque pop"
+      ]
+    },
+    "44710556": {
+      "date": "2026-11-03",
+      "artist": "Ben Folds Five",
+      "title": "Do It Anyway",
+      "source": "TheCurrent",
+      "genres": [
+        "piano rock",
+        "alternative",
+        "rock",
+        "indie"
+      ]
+    },
+    "29779667": {
+      "date": "2026-11-03",
+      "artist": "Alvvays",
+      "title": "Atop a Cake",
+      "source": "LastFM~Camera Obscura",
+      "genres": [
+        "dream pop",
+        "shoegaze",
+        "jangle pop",
+        "indie"
+      ]
+    },
+    "8455818": {
+      "date": "2026-11-03",
+      "artist": "Halou",
+      "title": "Crumbs And Dust",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "trip hop",
+        "downtempo"
+      ]
+    },
+    "218554564": {
+      "date": "2026-11-03",
+      "artist": "Aaron Espe",
+      "title": "Back to the beginning",
+      "source": "Vuurland",
+      "genres": [
+        "indie pop",
+        "folk",
+        "indie folk",
+        "american"
+      ]
+    },
+    "323039134": {
+      "date": "2026-11-03",
+      "artist": "Axelle Red",
+      "title": "Elle Danse Seule",
+      "source": "Duyster",
+      "genres": [
+        "variété française",
+        "chanson",
+        "french pop"
+      ]
+    },
+    "213383168": {
+      "date": "2026-11-03",
+      "artist": "Big Thief",
+      "title": "Change",
+      "source": "Vuurland",
+      "genres": [
+        "indie rock",
+        "indie folk",
+        "folk",
+        "folk rock"
+      ]
+    },
+    "274871100": {
+      "date": "2026-11-03",
+      "artist": "Leith Ross",
+      "title": "(You) On My Arm",
+      "source": "LastFM~Lucy Dacus",
+      "genres": [
+        "folk",
+        "singer songwriter",
+        "indie pop",
+        "acoustic"
+      ]
+    },
+    "555633886": {
+      "date": "2026-11-03",
+      "artist": "Jordan Rakei",
+      "title": "Paradise",
+      "source": "Vuurland",
+      "genres": [
+        "indie soul",
+        "neo soul"
+      ]
+    },
+    "52691567": {
+      "date": "2026-11-03",
+      "artist": "The Antler King",
+      "title": "Heroes",
+      "source": "Duyster",
+      "genres": [
+        "belgian",
+        "indie rock",
+        "indie",
+        "rock"
+      ]
+    },
+    "560217189": {
+      "date": "2026-11-03",
+      "artist": "Beck",
+      "title": "Run Away",
+      "source": "DoubleJ",
+      "genres": [
+        "anti-folk"
+      ]
+    },
+    "561506502": {
+      "date": "2026-11-03",
+      "artist": "Worldpeace DMT",
+      "title": "Ivy",
+      "source": "DoubleJ",
+      "genres": [
+        "laptop twee",
+        "psychedelic",
+        "indietronica",
+        "indie"
+      ]
+    },
+    "69761304": {
+      "date": "2026-11-03",
+      "artist": "David Bowie",
+      "title": "Rebel Rebel",
+      "source": "TheCurrent",
+      "genres": [
+        "glam rock",
+        "art rock"
+      ]
+    },
+    "18660590": {
+      "date": "2026-11-03",
+      "artist": "Gary Clark Jr.",
+      "title": "Ain't Messin 'Round",
+      "source": "TheCurrent",
+      "genres": [
+        "modern blues",
+        "blues rock",
+        "soul blues"
+      ]
+    },
+    "3085916": {
+      "date": "2026-11-03",
+      "artist": "Death Cab For Cutie",
+      "title": "I Will Follow You Into The Dark",
+      "source": "Vuurland",
+      "genres": [
+        "indie",
+        "indie rock",
+        "alternative",
+        "rock"
+      ]
+    },
+    "96171670": {
+      "date": "2026-11-03",
+      "artist": "Anouk",
+      "title": "Liefde Kent Geen Haat",
+      "source": "Duyster",
+      "genres": [
+        "nederpop"
+      ]
+    },
+    "402592712": {
+      "date": "2026-11-03",
+      "artist": "Hozier",
+      "title": "That You Are",
+      "source": "RadioParadise-Mellow",
+      "genres": [
+        "blues",
+        "indie",
+        "soul",
+        "singer songwriter"
+      ]
+    },
+    "130664982": {
+      "date": "2026-11-03",
+      "artist": "Kevin Morby",
+      "title": "I Was on Time",
+      "source": "Vuurland",
+      "genres": [
+        "folk",
+        "singer songwriter",
+        "lo fi",
+        "indie"
+      ]
+    },
+    "555823805": {
+      "date": "2026-11-03",
+      "artist": "Rainbow Body",
+      "title": "Strange Memory",
+      "source": "WXPN-BestNewMusic",
+      "genres": [
+        "jam band"
+      ]
+    },
+    "491494739": {
+      "date": "2026-11-03",
+      "artist": "Jesca Hoop",
+      "title": "Big Storm",
+      "source": "DoubleJ",
+      "genres": [
+        "indie folk"
+      ]
+    },
+    "63583654": {
+      "date": "2026-11-03",
+      "artist": "Joshua Radin",
+      "title": "High and Low",
+      "source": "RadioParadise-Mellow",
+      "genres": [
+        "acoustic",
+        "singer songwriter",
+        "folk",
+        "indie"
+      ]
+    },
+    "78904227": {
+      "date": "2026-11-03",
+      "artist": "David Bowie",
+      "title": "Under pressure",
+      "source": "Duyster",
+      "genres": [
+        "glam rock",
+        "art rock"
+      ]
+    },
+    "195654774": {
+      "date": "2026-11-03",
+      "artist": "Mo'Ju",
+      "title": "Native Tongue [Ft. Pasefika Vitoria Choir]",
+      "source": "DoubleJ",
+      "genres": [
+        "soul",
+        "singer songwriter",
+        "downtempo",
+        "electronic"
+      ]
+    },
+    "305307758": {
+      "date": "2026-11-03",
+      "artist": "Phoebe Bridgers",
+      "title": "Waiting Room",
+      "source": "LastFM~Lucy Dacus",
+      "genres": [
+        "singer songwriter",
+        "indie folk",
+        "folk",
+        "indie rock"
+      ]
+    },
+    "156599131": {
+      "date": "2026-11-03",
+      "artist": "The White Stripes",
+      "title": "Fell In Love With A Girl",
+      "source": "TheCurrent",
+      "genres": [
+        "garage rock",
+        "blues rock",
+        "rock",
+        "alternative rock"
+      ]
+    },
+    "561125287": {
+      "date": "2026-11-03",
+      "artist": "Miloe",
+      "title": "CLEAR",
+      "source": "TheCurrent",
+      "genres": [
+        "indie pop",
+        "indie",
+        "dream pop",
+        "usa"
+      ]
+    },
+    "52684790": {
+      "date": "2026-11-03",
+      "artist": "Alanis Morissette",
+      "title": "You Oughta Know",
+      "source": "Duyster",
+      "genres": [
+        "female vocalists",
+        "rock",
+        "alternative",
+        "singer songwriter"
+      ]
+    },
+    "22757088": {
+      "date": "2026-11-03",
+      "artist": "Agnes Obel",
+      "title": "The Curse",
+      "source": "Vuurland",
+      "genres": [
+        "folk",
+        "singer songwriter",
+        "female vocalists",
+        "danish"
+      ]
+    },
+    "383788754": {
+      "date": "2026-11-03",
+      "artist": "Thomas Lemmer & Oine feat. Roo J",
+      "title": "Maybe (Gold Lounge Remix- Radio Edit)",
+      "source": "SomaFM-Lush",
+      "genres": []
+    },
+    "583538": {
+      "date": "2026-11-03",
+      "artist": "The Smithereens",
+      "title": "Blue period",
+      "source": "Duyster",
+      "genres": [
+        "power pop",
+        "jangle pop",
+        "new wave"
+      ]
+    },
+    "61692761": {
+      "date": "2026-11-03",
+      "artist": "Japanese Breakfast",
+      "title": "In Heaven",
+      "source": "Vuurland",
+      "genres": [
+        "dream pop",
+        "indie pop",
+        "indie rock",
+        "indie"
+      ]
+    },
+    "152448355": {
+      "date": "2026-11-03",
+      "artist": "Melantopia",
+      "title": "Diamond Mind",
+      "source": "SomaFM-Lush",
+      "genres": []
+    },
+    "519996368": {
+      "date": "2026-11-03",
+      "artist": "Kacey Musgraves",
+      "title": "Loneliest Girl",
+      "source": "TheCurrent",
+      "genres": [
+        "country",
+        "female vocalists",
+        "singer songwriter",
+        "pop"
+      ]
+    },
+    "402420740": {
+      "date": "2026-11-03",
+      "artist": "And They Spoke In Anthems",
+      "title": "Attempt 65",
+      "source": "Duyster",
+      "genres": [
+        "singer songwriter",
+        "belgian",
+        "alternative",
+        "indie"
+      ]
+    },
+    "297929894": {
+      "date": "2026-11-03",
+      "artist": "Jeff Tweedy",
+      "title": "I Am Trying to Break Your Heart",
+      "source": "LastFM~Bill Callahan",
+      "genres": [
+        "alt country",
+        "americana",
+        "singer-songwriter"
+      ]
+    },
+    "567996105": {
+      "date": "2026-11-03",
+      "artist": "Everything But The Girl",
+      "title": "Young And Dumb",
+      "source": "Radio1-Top30",
+      "genres": [
+        "trip hop",
+        "electronic",
+        "chillout",
+        "female vocalists"
+      ]
+    },
+    "1656593": {
+      "date": "2026-11-03",
+      "artist": "Elbow",
+      "title": "Weather To Fly",
+      "source": "RadioParadise-Mellow",
+      "genres": [
+        "indie",
+        "alternative",
+        "indie rock",
+        "britpop"
+      ]
+    },
+    "34455107": {
+      "date": "2026-11-03",
+      "artist": "Curtis Mayfield",
+      "title": "Freddie's Dead",
+      "source": "TheCurrent",
+      "genres": [
+        "classic soul",
+        "soul",
+        "motown",
+        "funk"
+      ]
+    },
+    "309956": {
+      "date": "2026-11-03",
+      "artist": "Roberta Flack",
+      "title": "Feel like makin' love",
+      "source": "Duyster",
+      "genres": [
+        "adult standards",
+        "classic soul"
+      ]
+    },
+    "78350464": {
+      "date": "2026-11-03",
+      "artist": "Alvvays",
+      "title": "Not My Baby",
+      "source": "LastFM~Camera Obscura",
+      "genres": [
+        "dream pop",
+        "shoegaze",
+        "jangle pop",
+        "indie"
+      ]
+    },
+    "550858407": {
+      "date": "2026-11-03",
+      "artist": "Phoebe Bridgers",
+      "title": "The Outside",
+      "source": "Vuurland",
+      "genres": [
+        "singer songwriter",
+        "indie folk",
+        "folk",
+        "indie rock"
+      ]
+    },
+    "428573277": {
+      "date": "2026-11-03",
+      "artist": "BADBADNOTGOOD & V.C.R",
+      "title": "Found A Light (Beale Street)",
+      "source": "DoubleJ",
+      "genres": []
+    },
+    "42920640": {
+      "date": "2026-11-03",
+      "artist": "Karmacoda",
+      "title": "We Don't Have A Lot Of Time (F",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "trip hop",
+        "downtempo"
+      ]
+    },
+    "297929464": {
+      "date": "2026-11-03",
+      "artist": "Jeff Tweedy",
+      "title": "I Know What It's Like",
+      "source": "LastFM~Bill Callahan",
+      "genres": [
+        "alt country",
+        "americana",
+        "singer-songwriter"
+      ]
+    },
+    "376016533": {
+      "date": "2026-11-03",
+      "artist": "Sonny Knight and The Lakers",
+      "title": "Juicy Lucy",
+      "source": "TheCurrent",
+      "genres": [
+        "soul",
+        "funk",
+        "minnesota"
+      ]
+    },
+    "31795": {
+      "date": "2026-11-03",
+      "artist": "Harry Belafonte",
+      "title": "The banana boat song (Day-O)",
+      "source": "Duyster",
+      "genres": [
+        "calypso",
+        "oldies",
+        "60s",
+        "swing"
+      ]
+    },
+    "405648852": {
+      "date": "2026-11-03",
+      "artist": "Japanese Breakfast",
+      "title": "Picture Window",
+      "source": "TheCurrent",
+      "genres": [
+        "dream pop",
+        "indie pop",
+        "indie rock",
+        "indie"
+      ]
+    },
+    "297942204": {
+      "date": "2026-11-03",
+      "artist": "Jenny Lewis",
+      "title": "Psychos",
+      "source": "TheCurrent",
+      "genres": [
+        "indie",
+        "female vocalists",
+        "singer songwriter",
+        "folk"
+      ]
+    },
+    "4266202": {
+      "date": "2026-11-03",
+      "artist": "Gordon Lightfoot",
+      "title": "Early Morning Rain",
+      "source": "RadioParadise-Mellow",
+      "genres": [
+        "folk rock",
+        "folk",
+        "singer-songwriter",
+        "yacht rock"
+      ]
+    },
+    "493988530": {
+      "date": "2026-11-03",
+      "artist": "Alt-j",
+      "title": "Something Good",
+      "source": "Vuurland",
+      "genres": [
+        "indie",
+        "indie rock"
+      ]
+    },
+    "482412348": {
+      "date": "2026-11-03",
+      "artist": "Metric",
+      "title": "Time Is A Bomb",
+      "source": "TheCurrent",
+      "genres": [
+        "indie",
+        "indie rock",
+        "female vocalists",
+        "canadian"
+      ]
+    },
+    "297928468": {
+      "date": "2026-11-03",
+      "artist": "Jeff Tweedy",
+      "title": "Guess Again",
+      "source": "LastFM~Bill Callahan",
+      "genres": [
+        "alt country",
+        "americana",
+        "singer-songwriter"
+      ]
+    },
+    "338617049": {
+      "date": "2026-11-03",
+      "artist": "Gustavo Santaolalla",
+      "title": "De Ushuaia a La Quiaca",
+      "source": "RadioParadise-Mellow",
+      "genres": [
+        "soundtrack"
+      ]
+    },
+    "448573030": {
+      "date": "2026-11-03",
+      "artist": "Half Moon Run",
+      "title": "Grow into Love",
+      "source": "Vuurland",
+      "genres": [
+        "indie",
+        "indie rock",
+        "canadian",
+        "shoegaze"
+      ]
+    },
+    "15753781": {
+      "date": "2026-11-03",
+      "artist": "Boudewijn De Groot",
+      "title": "De Kleine Schoorsteenveger (The Chimneysweeper)",
+      "source": "Duyster",
+      "genres": [
+        "nederpop",
+        "hollands"
+      ]
+    },
+    "505889372": {
+      "date": "2026-11-03",
+      "artist": "she's green",
+      "title": "Paper Thin",
+      "source": "TheCurrent",
+      "genres": [
+        "shoegaze",
+        "dream pop"
+      ]
+    },
+    "452964388": {
+      "date": "2026-11-03",
+      "artist": "Wolf Alice",
+      "title": "Safe In The World",
+      "source": "Vuurland",
+      "genres": [
+        "indie"
+      ]
+    },
+    "26484963": {
+      "date": "2026-11-03",
+      "artist": "Johnny Cash",
+      "title": "I Walk The Line",
+      "source": "TheCurrent",
+      "genres": [
+        "classic country",
+        "outlaw country",
+        "country"
+      ]
+    },
+    "4290906": {
+      "date": "2026-11-03",
+      "artist": "The Grass Roots",
+      "title": "Let's live for today",
+      "source": "Duyster",
+      "genres": [
+        "folk rock"
+      ]
+    },
+    "135629246": {
+      "date": "2026-11-03",
+      "artist": "Phoebe Bridgers",
+      "title": "Garden Song",
+      "source": "LastFM~Lucy Dacus",
+      "genres": [
+        "singer songwriter",
+        "indie folk",
+        "folk",
+        "indie rock"
+      ]
+    },
+    "95691491": {
+      "date": "2026-11-03",
+      "artist": "Sioen",
+      "title": "Another ballad",
+      "source": "Duyster",
+      "genres": [
+        "belgian",
+        "singer songwriter",
+        "belgium",
+        "rock"
+      ]
+    },
+    "19550797": {
+      "date": "2026-11-03",
+      "artist": "Tom Odell",
+      "title": "Hold Me",
+      "source": "TheCurrent",
+      "genres": [
+        "indie",
+        "folk",
+        "british",
+        "singer songwriter"
+      ]
+    },
+    "37725424": {
+      "date": "2026-11-03",
+      "artist": "Montaigne",
+      "title": "I'm A Fantastic Wreck",
+      "source": "DoubleJ",
+      "genres": [
+        "pop",
+        "australian",
+        "eurovision",
+        "eurovision song contest 2020"
+      ]
+    },
+    "637996": {
+      "date": "2026-11-03",
+      "artist": "PJ Harvey",
+      "title": "Down by the Water",
+      "source": "TheCurrent",
+      "genres": [
+        "art pop",
+        "singer-songwriter",
+        "alternative rock"
+      ]
+    },
+    "1309608": {
+      "date": "2026-11-03",
+      "artist": "Rosanne Cash",
+      "title": "Runaway Train",
+      "source": "RadioParadise-Mellow",
+      "genres": [
+        "classic country",
+        "americana",
+        "alt country",
+        "folk"
+      ]
+    },
+    "44126429": {
+      "date": "2026-11-03",
+      "artist": "Flunk",
+      "title": "Lost Causes (Rashid Ajami Remix)",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "trip hop",
+        "downtempo"
+      ]
+    },
+    "568697064": {
+      "date": "2026-11-03",
+      "artist": "The Flaming Lips",
+      "title": "God Will Control The Werewolves",
+      "source": "WXPN-BestNewMusic",
+      "genres": [
+        "neo-psychedelic"
+      ]
+    },
+    "49653696": {
+      "date": "2026-11-03",
+      "artist": "Neil Young",
+      "title": "World On A String",
+      "source": "TheCurrent",
+      "genres": [
+        "classic rock",
+        "folk rock",
+        "singer-songwriter",
+        "roots rock"
+      ]
+    },
+    "22781446": {
+      "date": "2026-11-03",
+      "artist": "Bob Dylan",
+      "title": "Under the red sky",
+      "source": "Duyster",
+      "genres": [
+        "folk rock",
+        "folk",
+        "singer-songwriter",
+        "roots rock"
+      ]
+    },
+    "568202457": {
+      "date": "2026-11-03",
+      "artist": "Ex:re",
+      "title": "Healing (slow)",
+      "source": "Vuurland",
+      "genres": [
+        "art pop"
+      ]
+    },
+    "570010075": {
+      "date": "2026-11-03",
+      "artist": "Olivia Rodrigo",
+      "title": "expectations (feat. Chappell Roan)",
+      "source": "Radio1-Top30",
+      "genres": [
+        "pop",
+        "pop rock",
+        "rock",
+        "indie pop"
+      ]
+    },
+    "556262062": {
+      "date": "2026-11-03",
+      "artist": "Medium Build",
+      "title": "Home Depot",
+      "source": "TheCurrent",
+      "genres": [
+        "indie pop",
+        "singer songwriter",
+        "indie",
+        "folk"
+      ]
+    },
+    "125569914": {
+      "date": "2026-11-03",
+      "artist": "UltraÍsta",
+      "title": "Tin king",
+      "source": "Duyster",
+      "genres": [
+        "electronic",
+        "synthpop",
+        "indie",
+        "electronica"
+      ]
+    },
+    "87250710": {
+      "date": "2026-11-03",
+      "artist": "De Kreuners",
+      "title": "Kom terug, ik mis je",
+      "source": "Duyster",
+      "genres": [
+        "nederpop"
+      ]
+    },
+    "51462081": {
+      "date": "2026-11-03",
+      "artist": "Robyn",
+      "title": "With Every Heartbeat [Ft. Kleerup]",
+      "source": "DoubleJ",
+      "genres": [
+        "swedish pop"
+      ]
+    },
+    "496407142": {
+      "date": "2026-11-03",
+      "artist": "Irreversible Etanglements Ft. Motherboard",
+      "title": "Don't Lose Your Head",
+      "source": "Duyster",
+      "genres": []
+    },
+    "561100110": {
+      "date": "2026-11-03",
+      "artist": "Daan",
+      "title": "I Don't Want To Set The World On Fire",
+      "source": "Duyster",
+      "genres": [
+        "belgian",
+        "electronic",
+        "belgium",
+        "rock"
+      ]
+    },
+    "570330379": {
+      "date": "2026-11-03",
+      "artist": "Michael Kiwanuka",
+      "title": "Love In My Heart",
+      "source": "Vuurland",
+      "genres": [
+        "soul"
+      ]
+    },
+    "559373064": {
+      "date": "2026-11-03",
+      "artist": "Yann Gaudeuille",
+      "title": "Babylon",
+      "source": "Duyster",
+      "genres": []
+    },
+    "42142682": {
+      "date": "2026-11-03",
+      "artist": "Lovers And Poets",
+      "title": "The Things We Do For Love",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "trip hop",
+        "female vocalists",
+        "kgrl",
+        "electronica"
+      ]
+    },
+    "418739209": {
+      "date": "2026-11-03",
+      "artist": "The School",
+      "title": "Valentine",
+      "source": "LastFM~Camera Obscura",
+      "genres": [
+        "jangle pop",
+        "indie pop"
+      ]
+    },
+    "1864863": {
+      "date": "2026-11-03",
+      "artist": "The Box Tops",
+      "title": "The letter",
+      "source": "Duyster",
+      "genres": [
+        "60s",
+        "classic rock",
+        "rock",
+        "soul"
+      ]
+    },
+    "122120390": {
+      "date": "2026-11-03",
+      "artist": "Peter Gabriel",
+      "title": "Big Time",
+      "source": "Duyster",
+      "genres": [
+        "art rock"
+      ]
+    },
+    "64743540": {
+      "date": "2026-11-03",
+      "artist": "Jerry Lee Lewis",
+      "title": "Whole lotta shakin' goin' on",
+      "source": "Duyster",
+      "genres": [
+        "rockabilly",
+        "rock and roll",
+        "boogie-woogie"
+      ]
+    },
+    "289155023": {
+      "date": "2026-11-03",
+      "artist": "Leith Ross",
+      "title": "music box",
+      "source": "LastFM~Lucy Dacus",
+      "genres": [
+        "folk",
+        "singer songwriter",
+        "indie pop",
+        "acoustic"
+      ]
+    },
+    "125996915": {
+      "date": "2026-11-03",
+      "artist": "Matilda Mann",
+      "title": "The Loch Ness Monster",
+      "source": "Duyster",
+      "genres": [
+        "acoustic",
+        "folk",
+        "indie pop",
+        "singer songwriter"
+      ]
+    },
+    "111769340": {
+      "date": "2026-11-03",
+      "artist": "Silver Jews",
+      "title": "Smith & Jones Forever",
+      "source": "LastFM~Bill Callahan",
+      "genres": [
+        "alt country",
+        "anti-folk"
+      ]
+    },
+    "25056954": {
+      "date": "2026-11-03",
+      "artist": "Songs:ohia",
+      "title": "Farewell Transmission",
+      "source": "Vuurland",
+      "genres": [
+        "singer songwriter",
+        "folk",
+        "alt country",
+        "indie"
+      ]
+    },
+    "551427479": {
+      "date": "2026-11-03",
+      "artist": "Heather Nova",
+      "title": "In The Path Of Hurricanes",
+      "source": "Duyster",
+      "genres": [
+        "female vocalists",
+        "singer songwriter",
+        "alternative",
+        "pop"
+      ]
+    },
+    "536336124": {
+      "date": "2026-11-03",
+      "artist": "Bon Odori",
+      "title": "Ruminator",
+      "source": "KCRW-MorningBecomesEclectic",
+      "genres": [
+        "avant-garde",
+        "drone"
+      ]
+    },
+    "475639447": {
+      "date": "2026-11-03",
+      "artist": "Falling You",
+      "title": "Ariadne",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "neoclassical"
+      ]
+    },
+    "500652589": {
+      "date": "2026-11-03",
+      "artist": "Hard-fi Ft. Mike Kalle",
+      "title": "Digo Nada",
+      "source": "Duyster",
+      "genres": []
+    },
+    "389098854": {
+      "date": "2026-11-03",
+      "artist": "Gigi Perez",
+      "title": "Sailor Song",
+      "source": "TheCurrent",
+      "genres": [
+        "bedroom pop",
+        "singer songwriter",
+        "indie",
+        "folk"
+      ]
+    },
+    "241720824": {
+      "date": "2026-11-03",
+      "artist": "Missy Higgins",
+      "title": "Ten Days",
+      "source": "DoubleJ",
+      "genres": [
+        "female vocalists",
+        "singer songwriter",
+        "australian",
+        "pop"
+      ]
+    },
+    "163896911": {
+      "date": "2026-11-03",
+      "artist": "Cat Stevens",
+      "title": "Katmandu",
+      "source": "RadioParadise-Mellow",
+      "genres": [
+        "folk",
+        "singer songwriter",
+        "classic rock",
+        "acoustic"
+      ]
+    },
+    "518314215": {
+      "date": "2026-11-03",
+      "artist": "Megasound",
+      "title": "Supersize",
+      "source": "TheCurrent",
+      "genres": [
+        "alternative",
+        "indie rock"
+      ]
+    },
+    "161839816": {
+      "date": "2026-11-03",
+      "artist": "Mia Dyson",
+      "title": "Fool",
+      "source": "DoubleJ",
+      "genres": [
+        "blues",
+        "female vocalists",
+        "australian",
+        "australia"
+      ]
+    },
+    "13099082": {
+      "date": "2026-11-03",
+      "artist": "The Staple Singers",
+      "title": "I'll Take You There",
+      "source": "TheCurrent",
+      "genres": [
+        "soul",
+        "motown",
+        "classic soul"
+      ]
+    },
+    "2214024": {
+      "date": "2026-11-03",
+      "artist": "The Libertines",
+      "title": "Boys In The Band",
+      "source": "TheCurrent",
+      "genres": [
+        "britpop",
+        "garage rock",
+        "indie rock",
+        "indie"
+      ]
+    },
+    "418739219": {
+      "date": "2026-11-03",
+      "artist": "The School",
+      "title": "I Don't Believe in Love",
+      "source": "LastFM~Camera Obscura",
+      "genres": [
+        "jangle pop",
+        "indie pop"
+      ]
+    },
+    "11651912": {
+      "date": "2026-11-03",
+      "artist": "De Mens",
+      "title": "Man in het blauw",
+      "source": "Duyster",
+      "genres": [
+        "nederpop"
+      ]
+    },
+    "15758655": {
+      "date": "2026-11-03",
+      "artist": "Herman van Veen",
+      "title": "Suzanne",
+      "source": "Duyster",
+      "genres": [
+        "nederpop",
+        "hollands"
+      ]
+    },
+    "258418545": {
+      "date": "2026-11-03",
+      "artist": "Leith Ross",
+      "title": "Orlando",
+      "source": "LastFM~Lucy Dacus",
+      "genres": [
+        "folk",
+        "singer songwriter",
+        "indie pop",
+        "acoustic"
+      ]
+    },
+    "19002992": {
+      "date": "2026-11-03",
+      "artist": "Rhye",
+      "title": "One Of Those Summer Days",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "soul",
+        "chillout",
+        "indie",
+        "alternative rnb"
+      ]
+    },
+    "570330377": {
+      "date": "2026-11-03",
+      "artist": "Michael Kiwanuka",
+      "title": "Just Another Moment",
+      "source": "WXPN-BestNewMusic",
+      "genres": [
+        "soul"
+      ]
     }
   },
   "programs_done": {
@@ -22257,7 +23744,8 @@
       "2026-10-05",
       "2026-10-12",
       "2026-10-19",
-      "2026-10-26"
+      "2026-10-26",
+      "2026-11-02"
     ],
     "Vuurland": [
       "2026-09-13",
@@ -22266,7 +23754,8 @@
       "2026-10-04",
       "2026-10-11",
       "2026-10-18",
-      "2026-10-25"
+      "2026-10-25",
+      "2026-11-01"
     ]
   },
   "migrated_vuurland_program": true,
