@@ -1,0 +1,45 @@
+name: Nooit meer (Home Assistant)
+
+# De knop "Nooit meer" in Home Assistant stuurt een repository_dispatch.
+# Deze workflow zet het nummer (en eventueel artiest of genre) in blokkades.txt
+# en start daarna een korte opkuisrun van Nachtradio.
+# Geen concurrency-groep: elke klik moet in blokkades.txt landen, ook als er twee kort na elkaar komen.
+
+on:
+  repository_dispatch:
+    types: [nooit-meer]
+
+permissions:
+  contents: write           # blokkades.txt bewaren
+  actions: write            # de opkuisrun starten
+
+jobs:
+  blokkeer:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: In blokkades.txt zetten
+        env:
+          NOOIT_MEER: ${{ toJson(github.event.client_payload) }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          for i in 1 2 3 4 5; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            SAMENVATTING_BESTAND=/tmp/nooit_meer_samenvatting python3 nooit_meer.py
+            git add blokkades.txt
+            if git diff --staged --quiet; then echo "Stond er al in"; exit 0; fi
+            git commit -q -m "Nooit meer: $(cat /tmp/nooit_meer_samenvatting)"
+            git push -q origin HEAD:main && exit 0
+            sleep $((i * 5))
+          done
+          exit 1
+
+      - name: Opkuisrun van Nachtradio starten
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run daily.yml --ref main -f alleen_opkuis=1

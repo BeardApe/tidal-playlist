@@ -313,6 +313,12 @@ footer {
       <button class="btn" type="button" data-add="artiesten">Blokkeer artiest</button>
     </div>
   </div>
+
+  <div class="block-card">
+    <h3>Nooit meer</h3>
+    <p>Losse nummers, geblokkeerd met de knop "Nooit meer" in Home Assistant.</p>
+    <div class="chips" id="chips-nummers"><span class="msg" style="padding:0">Laden...</span></div>
+  </div>
 </div>
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
@@ -535,7 +541,7 @@ document.getElementById('q-removed').addEventListener('input', renderRemoved);
 const REPO_API = "https://api.github.com/repos/BeardApe/tidal-playlist/contents/blokkades.txt";
 const RAW_BLOCKS = "https://raw.githubusercontent.com/BeardApe/tidal-playlist/main/blokkades.txt";
 const TOKEN_KEY = "nachtradio-gh-token";
-let blockText = "", blocks = { genres: [], artiesten: [] };
+let blockText = "", blocks = { genres: [], artiesten: [], nummers: [] };
 
 function getToken() { try { return localStorage.getItem(TOKEN_KEY) || ""; } catch (e) { return ""; } }
 function setToken(v) { try { v ? localStorage.setItem(TOKEN_KEY, v) : localStorage.removeItem(TOKEN_KEY); } catch (e) {} }
@@ -547,7 +553,7 @@ function toast(msg, isErr) {
 }
 
 function parseBlocks(text) {
-  const out = { genres: [], artiesten: [] }; let cur = null;
+  const out = { genres: [], artiesten: [], nummers: [] }; let cur = null;
   text.split('\n').forEach(raw => {
     const line = raw.trim();
     if (!line || line.startsWith('#')) return;
@@ -603,11 +609,13 @@ function renderBlocks() {
   const connected = !!getToken();
   document.getElementById('connect-card').style.display = connected ? 'none' : '';
   document.getElementById('connected-card').style.display = connected ? '' : 'none';
-  ['genres', 'artiesten'].forEach(sec => {
+  ['genres', 'artiesten', 'nummers'].forEach(sec => {
     const el = document.getElementById('chips-' + sec);
     const items = [...blocks[sec]].sort((a, b) => a.localeCompare(b));
+    // Nummers staan als "artiest | titel | tidal-id"; toon alleen artiest en titel
+    const toon = v => sec === 'nummers' ? v.split('|').slice(0, 2).map(x => x.trim()).join(' · ') : v;
     el.innerHTML = items.length
-      ? items.map(v => `<span class="chip">${esc(v)}<button type="button" data-unblock="${sec}" data-value="${esc(v)}" aria-label="${esc(v)} weer toelaten" title="Weer toelaten">×</button></span>`).join('')
+      ? items.map(v => `<span class="chip">${esc(toon(v))}<button type="button" data-unblock="${sec}" data-value="${esc(v)}" aria-label="${esc(v)} weer toelaten" title="Weer toelaten">×</button></span>`).join('')
       : '<span class="msg" style="padding:0">Niets geblokkeerd</span>';
   });
 }
@@ -620,7 +628,7 @@ async function changeBlock(section, value, action) {
     toast('Koppel eerst je GitHub, dan kan je met één klik blokkeren.', true);
     return;
   }
-  const label = section === 'genres' ? 'Genre' : 'Artiest';
+  const label = section === 'genres' ? 'Genre' : section === 'nummers' ? 'Nummer' : 'Artiest';
   if (action === 'add' && !confirm(`${label} "${value}" blokkeren?\n\nNieuwe nummers worden tegengehouden en wat al in je playlist staat, verdwijnt bij de volgende update.`)) return;
   try {
     const { text, sha } = await ghGetBlocks();

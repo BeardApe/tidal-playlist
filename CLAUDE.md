@@ -46,7 +46,7 @@ Er is geen limiet per run. Rotatie gebeurt op leeftijd (30 dagen). De playlist s
 
 ## Filters
 
-- `blokkades.txt`: gewone genres en artiesten. PJ past dit zelf aan via het dashboard. Een genre matcht als deelwoord ("rock" pakt ook "indie rock"). Artiesten matchen exact, in kleine letters.
+- `blokkades.txt`: gewone genres, artiesten en losse nummers (`[nummers]`, vorm `artiest | titel | tidal-id`, gematcht op id of op artiest plus titel zonder versie-aanduiding). PJ past dit zelf aan via het dashboard. Een genre matcht als deelwoord ("rock" pakt ook "indie rock"). Artiesten matchen exact, in kleine letters.
 - In `main.py`:
   - `STRICT_SOURCES` (The Current, Double J, WFUV, WXPN, NPR, KCRW en "onbekend"): alles met rock, punk, garage, grunge, metal, hardcore of emo is geblokkeerd, en nummers zonder genre-info komen er niet in. Die zenders brachten veel rock binnen.
   - `BLOCKED_SOURCES`: stopgezette bronnen waarvan alles gepurged wordt (FIP-Live, Vuurland-zender, KEXP-NewThisWeek).
@@ -63,6 +63,7 @@ Er is geen limiet per run. Rotatie gebeurt op leeftijd (30 dagen). De playlist s
 ## Workflows
 
 - `daily.yml` (Nachtradio): dinsdag 06:00 UTC, handmatig, en bij elke push die `main.py`, `blokkades.txt` of `requirements.txt` wijzigt. Pushen is dus de manier om een run te starten; de "Run workflow"-API is niet toegankelijk met de tokens die we krijgen.
+- `nooit_meer.yml`: knop "Nooit meer" in Home Assistant stuurt een `repository_dispatch` (type `nooit-meer`, payload `artiest`, `titel`, `id`, `artiest_blokkeren`, `genres`). `nooit_meer.py` zet het in `blokkades.txt` en pusht (geen concurrency, elke klik moet landen), daarna start de workflow `daily.yml` met `alleen_opkuis=1`: alleen backfill, rotatie en purge, geen nieuwe nummers. HA heeft daarvoor een fine-grained token (alleen deze repo, Contents read/write) in zijn `secrets.yaml`.
 - `jazz.yml` (Ochtendjazz): zondag, en bij push van `jazz.py` of de workflow. Status in `state_jazz.json`.
 - `spotify_naar_tidal.yml` en `youtube_naar_tidal.yml`: handmatige hulpjes om een Spotify-lijst of een YouTube-tracklist (DJ-sets, hele YouTube-playlists) naar een Tidal-playlist over te zetten. YouTube gebruikt secret `YOUTUBE_API_KEY`.
 - `probe.yml`: haalt de URL's uit `probe/urls.txt` op en commit ze in `probe/out/`. Gebruik dit om een nieuwe bron te testen: de sandbox van Claude kan veel sites niet bereiken, GitHub Actions wel. Ruim `probe/out` daarna op.
@@ -83,6 +84,8 @@ Verloopt de Tidal-sessie, dan draait PJ lokaal `python setup.py` en plakt de JSO
 ## Thuis afspelen
 
 Home Assistant speelt Nachtradio via Music Assistant op een Sonos-syncgroep ("Alle speakers"), via `script.speel_playlist` (knop "Indie") en `script.muziek_poging`. Music Assistant houdt een kopie van de playlist bij en vernieuwt die niet meteen. Hoort PJ nummers die al verwijderd zijn of nooit in de lijst stonden, vergelijk dan het aantal in Music Assistant met het aantal op Tidal (zie "Huidig in playlist" in `run.log`) en laat hem de playlist in Music Assistant vernieuwen.
+
+Knop "Nooit meer" (Thuis-dashboard, muziekblok): slaat het nummer meteen over, zet het op de HA-takenlijst "Nooit meer" (een automation slaat nummers en artiesten van die lijst voortaan meteen over, ook zolang Music Assistant de oude playlist nog in zijn cache heeft) en stuurt de blokkade naar deze repo.
 
 ## Werkwijze voor Claude
 

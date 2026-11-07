@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "0 6 * * 2"   # elke dinsdag om 06:00 UTC (08:00 Belgische tijd), na Duyster op maandagavond
   workflow_dispatch:
+    inputs:
+      alleen_opkuis:
+        description: "Alleen opkuisen (blokkades toepassen), geen nieuwe nummers zoeken"
+        required: false
+        default: ""
   push:
     branches: [main]
     paths: ["main.py", "blokkades.txt", "requirements.txt"]   # nieuwe code of blokkades = meteen een run
@@ -47,6 +52,7 @@ jobs:
 
       - name: Playlist updaten
         env:
+          ALLEEN_OPKUIS:         ${{ inputs.alleen_opkuis }}
           TIDAL_PLAYLIST_ID:     ${{ secrets.TIDAL_PLAYLIST_ID }}
           LASTFM_API_KEY:        ${{ secrets.LASTFM_API_KEY }}
           LASTFM_API_SECRET:     ${{ secrets.LASTFM_API_SECRET }}

@@ -37,12 +37,12 @@ STATE_FILE = Path("state.json")
 BLOCKLIST_FILE = Path("blokkades.txt")
 
 
-def load_blocklist() -> tuple[set, set]:
-    sections = {"genres": set(), "artiesten": set()}
+def load_blocklist() -> tuple[set, set, list]:
+    sections = {"genres": set(), "artiesten": set(), "nummers": set()}
     current = None
     if not BLOCKLIST_FILE.exists():
         print("[Blokkades] blokkades.txt niet gevonden, niets geblokkeerd")
-        return set(), set()
+        return set(), set(), []
     for raw in BLOCKLIST_FILE.read_text(encoding="utf-8").splitlines():
         line = raw.strip()
         if not line or line.startswith("#"):
@@ -53,11 +53,34 @@ def load_blocklist() -> tuple[set, set]:
         if current in sections:
             value = line.lower()
             sections[current].add(value.replace("-", " ") if current == "genres" else value)
-    print(f"[Blokkades] {len(sections['genres'])} genres en {len(sections['artiesten'])} artiesten geblokkeerd")
-    return sections["genres"], sections["artiesten"]
+    # Nummers: "artiest | titel | tidal-id" (de id mag ontbreken)
+    nummers = []
+    for line in sections["nummers"]:
+        parts = [x.strip() for x in line.split("|")]
+        if len(parts) >= 2 and parts[0] and parts[1]:
+            nummers.append({"artist": parts[0], "title": norm_title(parts[1]),
+                            "id": parts[2] if len(parts) > 2 else ""})
+    print(f"[Blokkades] {len(sections['genres'])} genres, {len(sections['artiesten'])} artiesten "
+          f"en {len(nummers)} nummers geblokkeerd")
+    return sections["genres"], sections["artiesten"], nummers
 
 
-BLOCKED_GENRES, BLOCKED_ARTISTS = load_blocklist()
+def norm_title(title: str) -> str:
+    """Titel zonder versie-aanduiding: "Beste Bill (2005 Remastered)" en "Beste Bill - Live" worden "beste bill"."""
+    t = re.sub(r"\s*[\(\[].*?[\)\]]", "", title.lower())
+    return t.split(" - ")[0].strip()
+
+
+BLOCKED_GENRES, BLOCKED_ARTISTS, BLOCKED_TRACKS = load_blocklist()
+BLOCKED_TRACK_IDS = {t["id"] for t in BLOCKED_TRACKS if t["id"]}
+
+
+def track_blocked(artist: str, title: str, tidal_id: str = "") -> bool:
+    """Nummer staat op "nooit meer" (via Home Assistant): op Tidal-id, of op artiest plus titel."""
+    if tidal_id and tidal_id in BLOCKED_TRACK_IDS:
+        return True
+    a, t = artist.strip().lower(), norm_title(title)
+    return any(b["artist"] == a and b["title"] == t for b in BLOCKED_TRACKS)
 
 # Bronnen die zijn stopgezet: bestaande tracks hiervan worden gepurged
 BLOCKED_SOURCES = {"FIP-Live", "Vuurland-zender", "KEXP-NewThisWeek"}
@@ -185,7 +208,8 @@ def purge_unwanted(session: tidalapi.Session, playlist_id: str, playlist_log: di
                      and not artist_matches(entry["artist"], track))
             if wrong:
                 print(f"  [Purge] verkeerde versie: gezocht {entry['artist']}, kreeg {track.artist.name}")
-            if artist_name in BLOCKED_ARTISTS or genre_hit or src in BLOCKED_SOURCES or wrong:
+            nooit = track_blocked(track.artist.name, track.name, tid)
+            if artist_name in BLOCKED_ARTISTS or genre_hit or src in BLOCKED_SOURCES or wrong or nooit:
                 to_remove.append((idx, tid, track.artist.name, track.name))
 
         if to_remove:
@@ -700,6 +724,14 @@ def main():
 
     playlist_log = purge_unwanted(session, TIDAL_PLAYLIST_ID, playlist_log, token)
 
+    # "Nooit meer" vanuit Home Assistant: alleen opkuisen, geen nieuwe nummers zoeken
+    if os.environ.get("ALLEEN_OPKUIS"):
+        print(f"Huidig in playlist: {len(get_existing_tidal_ids(session, TIDAL_PLAYLIST_ID))}")
+        state["playlist_log"] = playlist_log
+        save_state(state)
+        print(f"\nAlleen opkuis, klaar! {datetime.now().strftime('%H:%M:%S')}\n")
+        return
+
     # Eenmalig (30 okt 2026): correcte nummers terugzetten die de eerste versie van de
     # artiestcontrole onterecht weghaalde ("&" tegenover "and", "Eivor" tegenover "Eivør").
     herstel = Path("herstel_namen.json")
@@ -764,7 +796,8 @@ def main():
     # Geblokkeerde artiesten (overal)
     candidates = spotify_candidates + lastfm_candidates
     before = len(candidates)
-    candidates = [c for c in candidates if c["artist"].strip().lower() not in BLOCKED_ARTISTS]
+    candidates = [c for c in candidates if c["artist"].strip().lower() not in BLOCKED_ARTISTS
+                  and not track_blocked(c["artist"], c["title"])]
     if before - len(candidates):
         print(f"[Artiest] {before - len(candidates)} tracks van geblokkeerde artiesten overgeslagen")
 
