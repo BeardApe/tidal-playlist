@@ -72,9 +72,11 @@ tianna esperanza
 nils frahm
 joanna newsom
 sleater-kinney
+randy newman
 
 
 [nummers]
 # Losse nummers die nooit meer mogen spelen, meestal via de knop
 # "Nooit meer" in Home Assistant. Vorm: artiest | titel | tidal-id
 madonna | music | 1757694
+randy newman | simon smith and the amazing dancing bear (2002 remaster) | 212943
