@@ -13455,39 +13455,6 @@
       "source": "Vuurland",
       "date": "2026-10-09"
     },
-    "297929458": {
-      "genres": [
-        "alt country",
-        "americana",
-        "singer-songwriter"
-      ],
-      "artist": "Jeff Tweedy",
-      "title": "Bombs Above",
-      "source": "LastFM~Bill Callahan",
-      "date": "2026-10-06"
-    },
-    "297929468": {
-      "genres": [
-        "alt country",
-        "americana",
-        "singer-songwriter"
-      ],
-      "artist": "Jeff Tweedy",
-      "title": "How Will I Find You?",
-      "source": "LastFM~Bill Callahan",
-      "date": "2026-10-06"
-    },
-    "297929459": {
-      "genres": [
-        "alt country",
-        "americana",
-        "singer-songwriter"
-      ],
-      "artist": "Jeff Tweedy",
-      "title": "Some Birds",
-      "source": "LastFM~Bill Callahan",
-      "date": "2026-10-06"
-    },
     "458589133": {
       "genres": [
         "alt country",
@@ -13498,15 +13465,6 @@
       "title": "Lou Reed Was My Babysitter",
       "source": "TheCurrent",
       "date": "2026-10-09"
-    },
-    "83794358": {
-      "genres": [
-        "indie folk"
-      ],
-      "artist": "S. Carey",
-      "title": "Rose Petals",
-      "source": "LastFM~Volcano Choir",
-      "date": "2026-10-06"
     },
     "445528432": {
       "genres": [
@@ -13541,1136 +13499,6 @@
       "source": "DoubleJ",
       "date": "2026-10-09"
     },
-    "503018057": {
-      "date": "2026-10-06",
-      "artist": "Alina Baraz",
-      "title": "More Than Enough",
-      "source": "SomaFM-Lush",
-      "genres": [
-        "electronic",
-        "rnb",
-        "pop",
-        "female vocalists"
-      ]
-    },
-    "18735428": {
-      "date": "2026-10-06",
-      "artist": "People Press Play",
-      "title": "Hanging On",
-      "source": "SomaFM-Lush",
-      "genres": [
-        "acid house"
-      ]
-    },
-    "161803733": {
-      "date": "2026-10-06",
-      "artist": "Bleachers Ft. Bruce Springsteen",
-      "title": "Chinatown",
-      "source": "Vuurland",
-      "genres": [
-        "indie pop",
-        "indie",
-        "pop",
-        "power pop"
-      ]
-    },
-    "296876986": {
-      "date": "2026-10-06",
-      "artist": "Big Thief",
-      "title": "Paul - 2023 Remaster",
-      "source": "LastFM~Angel Olsen",
-      "genres": [
-        "indie rock",
-        "indie folk",
-        "folk",
-        "folk rock"
-      ]
-    },
-    "2528081": {
-      "date": "2026-10-06",
-      "artist": "Elliott Smith",
-      "title": "Son of Sam",
-      "source": "DoubleJ",
-      "genres": [
-        "singer-songwriter"
-      ]
-    },
-    "35126607": {
-      "date": "2026-10-06",
-      "artist": "Ray LaMontagne",
-      "title": "Shelter",
-      "source": "LastFM~Iron & Wine",
-      "genres": [
-        "folk",
-        "singer songwriter",
-        "acoustic",
-        "indie"
-      ]
-    },
-    "79572903": {
-      "date": "2026-10-06",
-      "artist": "Melanie de Biasio",
-      "title": "Afro blue",
-      "source": "Duyster",
-      "genres": [
-        "jazz",
-        "female vocalists",
-        "vocal jazz",
-        "belgian"
-      ]
-    },
-    "484257535": {
-      "date": "2026-10-06",
-      "artist": "Band of Horses",
-      "title": "(Biding Time Is a) Boat to Row",
-      "source": "Vuurland",
-      "genres": [
-        "indie",
-        "indie rock",
-        "alternative",
-        "alt country"
-      ]
-    },
-    "534633779": {
-      "date": "2026-10-06",
-      "artist": "Lake Street Dive",
-      "title": "You're Never Around",
-      "source": "TheCurrent",
-      "genres": [
-        "soul",
-        "jazz",
-        "swing",
-        "indie"
-      ]
-    },
-    "81401338": {
-      "date": "2026-10-06",
-      "artist": "The Boerenzonen Op Speed",
-      "title": "Gemeen",
-      "source": "Duyster",
-      "genres": [
-        "nederpop"
-      ]
-    },
-    "452829412": {
-      "date": "2026-10-06",
-      "artist": "Neko Case",
-      "title": "Rusty Mountain",
-      "source": "TheCurrent",
-      "genres": [
-        "alt country",
-        "southern gothic",
-        "americana"
-      ]
-    },
-    "2433514": {
-      "date": "2026-10-06",
-      "artist": "The Decemberists",
-      "title": "Summersong",
-      "source": "LastFM~Iron & Wine",
-      "genres": [
-        "baroque pop",
-        "indie folk"
-      ]
-    },
-    "481987022": {
-      "date": "2026-10-06",
-      "artist": "Caspar Auwerkerken",
-      "title": "Blossom",
-      "source": "Duyster",
-      "genres": [
-        "singer songwriter",
-        "indie"
-      ]
-    },
-    "243588535": {
-      "date": "2026-10-06",
-      "artist": "The Tallest Man On Earth",
-      "title": "Forever Is A Very Long Time",
-      "source": "DoubleJ",
-      "genres": [
-        "indie folk",
-        "folk"
-      ]
-    },
-    "560197489": {
-      "date": "2026-10-06",
-      "artist": "Black Box Revelation",
-      "title": "Wicked",
-      "source": "Duyster",
-      "genres": [
-        "garage rock"
-      ]
-    },
-    "77646932": {
-      "date": "2026-10-06",
-      "artist": "Feist",
-      "title": "How Come You Never Go There",
-      "source": "TheCurrent",
-      "genres": [
-        "female vocalists",
-        "indie",
-        "singer songwriter",
-        "canadian"
-      ]
-    },
-    "544828802": {
-      "date": "2026-10-06",
-      "artist": "Rhye",
-      "title": "Summer Song",
-      "source": "Vuurland",
-      "genres": [
-        "soul",
-        "chillout",
-        "indie",
-        "alternative rnb"
-      ]
-    },
-    "83794365": {
-      "date": "2026-10-06",
-      "artist": "S. Carey",
-      "title": "Fool's Gold",
-      "source": "LastFM~Volcano Choir",
-      "genres": [
-        "indie folk"
-      ]
-    },
-    "334992": {
-      "date": "2026-10-06",
-      "artist": "Ludovico Einaudi",
-      "title": "Divenire",
-      "source": "RadioParadise-Mellow",
-      "genres": [
-        "neoclassical",
-        "classical",
-        "contemporary classical"
-      ]
-    },
-    "25055575": {
-      "date": "2026-10-06",
-      "artist": "Bon Iver",
-      "title": "Beach Baby",
-      "source": "LastFM~Volcano Choir",
-      "genres": [
-        "folk",
-        "indie",
-        "singer songwriter",
-        "acoustic"
-      ]
-    },
-    "1771753": {
-      "date": "2026-10-06",
-      "artist": "ABBA",
-      "title": "Money, Money, Money",
-      "source": "DoubleJ",
-      "genres": [
-        "pop",
-        "disco",
-        "70s",
-        "swedish"
-      ]
-    },
-    "188388856": {
-      "date": "2026-10-06",
-      "artist": "Tessa Dixson",
-      "title": "How high",
-      "source": "Duyster",
-      "genres": [
-        "pop",
-        "rnb",
-        "electropop",
-        "female vocalists"
-      ]
-    },
-    "334898254": {
-      "date": "2026-10-06",
-      "artist": "Lambchop",
-      "title": "Up With People",
-      "source": "LastFM~Bill Callahan",
-      "genres": [
-        "alt country",
-        "baroque pop",
-        "americana"
-      ]
-    },
-    "64975228": {
-      "date": "2026-10-06",
-      "artist": "Bon Iver",
-      "title": "29 #strafford Apts",
-      "source": "Vuurland",
-      "genres": [
-        "folk",
-        "indie",
-        "singer songwriter",
-        "acoustic"
-      ]
-    },
-    "546891960": {
-      "date": "2026-10-06",
-      "artist": "Manchester Orchestra",
-      "title": "Colly Strings (reimagined)",
-      "source": "Vuurland",
-      "genres": [
-        "indie rock",
-        "indie",
-        "alternative",
-        "rock"
-      ]
-    },
-    "500709171": {
-      "date": "2026-10-06",
-      "artist": "Six Sex",
-      "title": "Ultra Terrorific Fantasy",
-      "source": "KCRW-MorningBecomesEclectic",
-      "genres": [
-        "neoperreo"
-      ]
-    },
-    "334891079": {
-      "date": "2026-10-06",
-      "artist": "Gregory Alan Isakov",
-      "title": "Caves",
-      "source": "Vuurland",
-      "genres": [
-        "indie folk",
-        "folk",
-        "folk pop"
-      ]
-    },
-    "500471348": {
-      "date": "2026-10-06",
-      "artist": "Honey Dijon",
-      "title": "New Wave Groove [Ft. Rochelle Jordan]",
-      "source": "DoubleJ",
-      "genres": [
-        "ballroom vogue"
-      ]
-    },
-    "358110951": {
-      "date": "2026-10-06",
-      "artist": "beabadoobee",
-      "title": "Beaches",
-      "source": "TheCurrent",
-      "genres": [
-        "bedroom pop"
-      ]
-    },
-    "97398824": {
-      "date": "2026-10-06",
-      "artist": "Villagers",
-      "title": "Nothing Arrived",
-      "source": "Vuurland",
-      "genres": [
-        "folk",
-        "singer songwriter",
-        "irish",
-        "indie"
-      ]
-    },
-    "524698800": {
-      "date": "2026-10-06",
-      "artist": "Slow Pulp",
-      "title": "Red Car",
-      "source": "Vuurland",
-      "genres": [
-        "dream pop",
-        "shoegaze",
-        "indie pop",
-        "indie rock"
-      ]
-    },
-    "371481159": {
-      "date": "2026-10-06",
-      "artist": "Ray LaMontagne",
-      "title": "Trouble",
-      "source": "LastFM~Iron & Wine",
-      "genres": [
-        "folk",
-        "singer songwriter",
-        "acoustic",
-        "indie"
-      ]
-    },
-    "68684825": {
-      "date": "2026-10-06",
-      "artist": "Tori Amos",
-      "title": "Pretty Good Year",
-      "source": "TheCurrent",
-      "genres": [
-        "singer-songwriter",
-        "art pop"
-      ]
-    },
-    "2798958": {
-      "date": "2026-10-06",
-      "artist": "Amy Winehouse",
-      "title": "It's My Party",
-      "source": "Duyster",
-      "genres": [
-        "soul",
-        "jazz",
-        "female vocalists",
-        "british"
-      ]
-    },
-    "247292668": {
-      "date": "2026-10-06",
-      "artist": "Shinyribs",
-      "title": "Drivin' My Life Away",
-      "source": "TheCurrent",
-      "genres": [
-        "americana"
-      ]
-    },
-    "548243515": {
-      "date": "2026-10-06",
-      "artist": "Maisy Owen",
-      "title": "Fare Thee Well, Miss Carousel",
-      "source": "TheCurrent",
-      "genres": [
-        "americana"
-      ]
-    },
-    "550757227": {
-      "date": "2026-10-06",
-      "artist": "Mother Soki",
-      "title": "The Rot",
-      "source": "TheCurrent",
-      "genres": [
-        "dream pop",
-        "alternative",
-        "minnesota",
-        "lo fi"
-      ]
-    },
-    "3029023": {
-      "date": "2026-10-06",
-      "artist": "The Temper Trap",
-      "title": "Sweet Disposition",
-      "source": "Duyster",
-      "genres": [
-        "indie",
-        "indie rock",
-        "australian",
-        "alternative"
-      ]
-    },
-    "439762": {
-      "date": "2026-10-06",
-      "artist": "Flunk",
-      "title": "Probably",
-      "source": "SomaFM-Lush",
-      "genres": [
-        "trip hop",
-        "downtempo"
-      ]
-    },
-    "478557289": {
-      "date": "2026-10-06",
-      "artist": "Beth Orton",
-      "title": "Cigarette Curls",
-      "source": "Vuurland",
-      "genres": [
-        "singer-songwriter"
-      ]
-    },
-    "119101407": {
-      "date": "2026-10-06",
-      "artist": "Big Thief",
-      "title": "Not",
-      "source": "LastFM~Angel Olsen",
-      "genres": [
-        "indie rock",
-        "indie folk",
-        "folk",
-        "folk rock"
-      ]
-    },
-    "565684406": {
-      "date": "2026-10-06",
-      "artist": "SHRETA",
-      "title": "Move My Body",
-      "source": "DoubleJ",
-      "genres": [
-        "rnb",
-        "soul",
-        "australian"
-      ]
-    },
-    "111397140": {
-      "date": "2026-10-06",
-      "artist": "The Decemberists",
-      "title": "The Engine Driver",
-      "source": "LastFM~Iron & Wine",
-      "genres": [
-        "baroque pop",
-        "indie folk"
-      ]
-    },
-    "334913498": {
-      "date": "2026-10-06",
-      "artist": "Lambchop",
-      "title": "The Man Who Loved Beer",
-      "source": "LastFM~Bill Callahan",
-      "genres": [
-        "alt country",
-        "baroque pop",
-        "americana"
-      ]
-    },
-    "128608": {
-      "date": "2026-10-06",
-      "artist": "Coldplay",
-      "title": "Green Eyes",
-      "source": "Vuurland",
-      "genres": [
-        "rock",
-        "alternative",
-        "britpop",
-        "alternative rock"
-      ]
-    },
-    "554443150": {
-      "date": "2026-10-06",
-      "artist": "Kevin Morby",
-      "title": "Pbj",
-      "source": "Vuurland",
-      "genres": [
-        "folk",
-        "singer songwriter",
-        "indie",
-        "lo fi"
-      ]
-    },
-    "1111240": {
-      "date": "2026-10-06",
-      "artist": "The Boomtown Rats",
-      "title": "I Don't Like Mondays",
-      "source": "TheCurrent",
-      "genres": [
-        "new wave"
-      ]
-    },
-    "442971889": {
-      "date": "2026-10-06",
-      "artist": "Royel Otis",
-      "title": "Car",
-      "source": "Vuurland",
-      "genres": [
-        "indie"
-      ]
-    },
-    "553025967": {
-      "date": "2026-10-06",
-      "artist": "Jamie T",
-      "title": "3310",
-      "source": "DoubleJ",
-      "genres": [
-        "indie"
-      ]
-    },
-    "22878316": {
-      "date": "2026-10-06",
-      "artist": "London Grammar",
-      "title": "Wasting My Young Years",
-      "source": "SomaFM-Lush",
-      "genres": [
-        "indie pop",
-        "electronic",
-        "indie",
-        "female vocalists"
-      ]
-    },
-    "545562442": {
-      "date": "2026-10-06",
-      "artist": "Girls In Hawaii",
-      "title": "Goddess",
-      "source": "Duyster",
-      "genres": [
-        "french indie pop"
-      ]
-    },
-    "371481164": {
-      "date": "2026-10-06",
-      "artist": "Ray LaMontagne",
-      "title": "Hold You in My Arms",
-      "source": "LastFM~Iron & Wine",
-      "genres": [
-        "folk",
-        "singer songwriter",
-        "acoustic",
-        "indie"
-      ]
-    },
-    "560222273": {
-      "date": "2026-10-06",
-      "artist": "Matt Berninger",
-      "title": "Ask For Water",
-      "source": "Vuurland",
-      "genres": [
-        "singer songwriter",
-        "indie rock",
-        "usa",
-        "indie"
-      ]
-    },
-    "563126937": {
-      "date": "2026-10-06",
-      "artist": "Kingfishr",
-      "title": "How Lonely",
-      "source": "Vuurland",
-      "genres": [
-        "folk",
-        "irish",
-        "ireland",
-        "rock"
-      ]
-    },
-    "500709172": {
-      "date": "2026-10-06",
-      "artist": "Six Sex",
-      "title": "Not ur mom",
-      "source": "KCRW-MorningBecomesEclectic",
-      "genres": [
-        "neoperreo"
-      ]
-    },
-    "563779834": {
-      "date": "2026-10-06",
-      "artist": "Flip Kowlier",
-      "title": "Geldboom",
-      "source": "Duyster",
-      "genres": [
-        "nederpop"
-      ]
-    },
-    "85273957": {
-      "date": "2026-10-06",
-      "artist": "Amen Dunes",
-      "title": "Blue Rose",
-      "source": "Vuurland",
-      "genres": [
-        "lo fi",
-        "psychedelic",
-        "folk",
-        "experimental"
-      ]
-    },
-    "42141452": {
-      "date": "2026-10-06",
-      "artist": "Lovespirals",
-      "title": "One Of Those Days",
-      "source": "SomaFM-Lush",
-      "genres": [
-        "dream pop"
-      ]
-    },
-    "532740540": {
-      "date": "2026-10-06",
-      "artist": "Logic1000",
-      "title": "Confirmation!",
-      "source": "DoubleJ",
-      "genres": [
-        "lo-fi house"
-      ]
-    },
-    "74760845": {
-      "date": "2026-10-06",
-      "artist": "Beth Ditto",
-      "title": "Fire",
-      "source": "DoubleJ",
-      "genres": [
-        "electronic",
-        "female vocalists",
-        "electropop",
-        "dance"
-      ]
-    },
-    "449928719": {
-      "date": "2026-10-06",
-      "artist": "Bob Moses",
-      "title": "Last Forever",
-      "source": "TheCurrent",
-      "genres": [
-        "deep house",
-        "house",
-        "electronic",
-        "jazz"
-      ]
-    },
-    "403449873": {
-      "date": "2026-10-06",
-      "artist": "Westerman",
-      "title": "Confirmation",
-      "source": "Vuurland",
-      "genres": [
-        "singer songwriter",
-        "indie",
-        "indie pop",
-        "british"
-      ]
-    },
-    "558133792": {
-      "date": "2026-10-06",
-      "artist": "Fred Gata",
-      "title": "Man In The Mirror",
-      "source": "Duyster",
-      "genres": []
-    },
-    "334911212": {
-      "date": "2026-10-06",
-      "artist": "Lambchop",
-      "title": "Is A Woman",
-      "source": "LastFM~Bill Callahan",
-      "genres": [
-        "alt country",
-        "baroque pop",
-        "americana"
-      ]
-    },
-    "469651686": {
-      "date": "2026-10-06",
-      "artist": "City Of The Sun",
-      "title": "Un Disparo Al Corazón",
-      "source": "Vuurland",
-      "genres": [
-        "indie",
-        "guitar",
-        "instrumental",
-        "post rock"
-      ]
-    },
-    "322505439": {
-      "date": "2026-10-06",
-      "artist": "Charli XCX",
-      "title": "In The City feat. Sam Smith",
-      "source": "TheCurrent",
-      "genres": [
-        "hyperpop",
-        "art pop"
-      ]
-    },
-    "487550815": {
-      "date": "2026-10-06",
-      "artist": "Maro",
-      "title": "Kiss Me",
-      "source": "Vuurland",
-      "genres": [
-        "pop",
-        "portuguese",
-        "eurovision",
-        "jazz"
-      ]
-    },
-    "435937055": {
-      "date": "2026-10-06",
-      "artist": "Zero 7",
-      "title": "Spinnning",
-      "source": "SomaFM-Lush",
-      "genres": [
-        "trip hop",
-        "downtempo"
-      ]
-    },
-    "461018449": {
-      "date": "2026-10-06",
-      "artist": "De Mens",
-      "title": "Ieder Afscheid Is Een Weerzien Met Jezelf",
-      "source": "Duyster",
-      "genres": [
-        "nederpop"
-      ]
-    },
-    "553416950": {
-      "date": "2026-10-06",
-      "artist": "Priya Ragu",
-      "title": "Finally",
-      "source": "DoubleJ",
-      "genres": [
-        "rnb",
-        "soul",
-        "sri lanka",
-        "pop"
-      ]
-    },
-    "22951801": {
-      "date": "2026-10-07",
-      "artist": "Ra Ra Riot",
-      "title": "Dance With Me",
-      "source": "LastFM~Local Natives",
-      "genres": [
-        "baroque pop"
-      ]
-    },
-    "27009890": {
-      "date": "2026-10-07",
-      "artist": "The Tallest Man on Earth",
-      "title": "Honey Won't You Let Me In",
-      "source": "LastFM~Iron & Wine",
-      "genres": [
-        "indie folk",
-        "folk"
-      ]
-    },
-    "7524797": {
-      "date": "2026-10-07",
-      "artist": "Bombay Bicycle Club",
-      "title": "Lights Out, Words Gone",
-      "source": "LastFM~Local Natives",
-      "genres": [
-        "indie rock",
-        "indie"
-      ]
-    },
-    "532740537": {
-      "date": "2026-10-07",
-      "artist": "Logic1000",
-      "title": "2Love [Ft. FAUZIA]",
-      "source": "DoubleJ",
-      "genres": [
-        "lo-fi house"
-      ]
-    },
-    "13705955": {
-      "date": "2026-10-07",
-      "artist": "The Shins",
-      "title": "New Slang",
-      "source": "TheCurrent",
-      "genres": [
-        "indie",
-        "indie pop"
-      ]
-    },
-    "477761106": {
-      "date": "2026-10-07",
-      "artist": "Moonchild",
-      "title": "Back to Me",
-      "source": "LastFM~Jordan Rakei",
-      "genres": [
-        "neo soul",
-        "indie soul",
-        "contemporary r&b"
-      ]
-    },
-    "341273437": {
-      "date": "2026-10-07",
-      "artist": "Björk",
-      "title": "Hunter",
-      "source": "DoubleJ",
-      "genres": [
-        "art pop",
-        "trip hop"
-      ]
-    },
-    "570397": {
-      "date": "2026-10-07",
-      "artist": "ABBA",
-      "title": "When I Kissed the Teacher",
-      "source": "DoubleJ",
-      "genres": [
-        "pop",
-        "disco",
-        "70s",
-        "swedish"
-      ]
-    },
-    "2937549": {
-      "date": "2026-10-07",
-      "artist": "Bombay Bicycle Club",
-      "title": "The Hill",
-      "source": "LastFM~Local Natives",
-      "genres": [
-        "indie rock",
-        "indie"
-      ]
-    },
-    "282350308": {
-      "date": "2026-10-07",
-      "artist": "Harvey Sutherland And Bermuda",
-      "title": "Bravado",
-      "source": "DoubleJ",
-      "genres": [
-        "lo-fi house"
-      ]
-    },
-    "336429542": {
-      "date": "2026-10-07",
-      "artist": "Waxahatchee",
-      "title": "Right Back To It feat. MJ Lenderman",
-      "source": "TheCurrent",
-      "genres": [
-        "alt country"
-      ]
-    },
-    "93614218": {
-      "date": "2026-10-07",
-      "artist": "James Brown",
-      "title": "Papa's Got a Brand New Bag, Pt. 1",
-      "source": "TheCurrent",
-      "genres": [
-        "funk",
-        "soul",
-        "motown",
-        "classic soul"
-      ]
-    },
-    "140644934": {
-      "date": "2026-10-07",
-      "artist": "Perfume Genius",
-      "title": "On the Floor",
-      "source": "LastFM~Angel Olsen",
-      "genres": [
-        "art pop"
-      ]
-    },
-    "73299506": {
-      "date": "2026-10-07",
-      "artist": "Perfume Genius",
-      "title": "Slip Away",
-      "source": "LastFM~Angel Olsen",
-      "genres": [
-        "art pop"
-      ]
-    },
-    "477721596": {
-      "date": "2026-10-07",
-      "artist": "Moonchild",
-      "title": "The Other Side",
-      "source": "LastFM~Jordan Rakei",
-      "genres": [
-        "neo soul",
-        "indie soul",
-        "contemporary r&b"
-      ]
-    },
-    "469620050": {
-      "date": "2026-10-07",
-      "artist": "Rosalia",
-      "title": "Berghain feat. Bjork and Yves Tumor",
-      "source": "TheCurrent",
-      "genres": [
-        "spain",
-        "latin pop"
-      ]
-    },
-    "182955521": {
-      "date": "2026-10-07",
-      "artist": "Sharon Van Etten",
-      "title": "Like I Used To",
-      "source": "LastFM~Angel Olsen",
-      "genres": [
-        "folk",
-        "singer songwriter",
-        "female vocalists",
-        "indie folk"
-      ]
-    },
-    "499945362": {
-      "date": "2026-10-07",
-      "artist": "Emma Donovan",
-      "title": "Grandma's Hands",
-      "source": "DoubleJ",
-      "genres": [
-        "retro soul"
-      ]
-    },
-    "557820979": {
-      "date": "2026-10-07",
-      "artist": "Wednesday",
-      "title": "Carolina Murder Suicide - Avey Tare Remix",
-      "source": "NPR-AllSongsConsidered",
-      "genres": [
-        "alt country"
-      ]
-    },
-    "563223091": {
-      "date": "2026-10-07",
-      "artist": "Leon Bridges",
-      "title": "Watch You Dance",
-      "source": "KCRW-MorningBecomesEclectic",
-      "genres": [
-        "retro soul"
-      ]
-    },
-    "21410287": {
-      "date": "2026-10-07",
-      "artist": "Beach House",
-      "title": "Norway",
-      "source": "DoubleJ",
-      "genres": [
-        "dream pop"
-      ]
-    },
-    "477686912": {
-      "date": "2026-10-07",
-      "artist": "Moonchild",
-      "title": "The Truth",
-      "source": "LastFM~Jordan Rakei",
-      "genres": [
-        "neo soul",
-        "indie soul",
-        "contemporary r&b"
-      ]
-    },
-    "33725677": {
-      "date": "2026-10-07",
-      "artist": "Jennifer Lopez, Styles & Jadakiss",
-      "title": "Jenny From The Block {Track Masters Remix}",
-      "source": "DoubleJ",
-      "genres": [
-        "pop",
-        "rnb",
-        "latin",
-        "female vocalists"
-      ]
-    },
-    "52225133": {
-      "date": "2026-10-07",
-      "artist": "Meco",
-      "title": "Star Wars Theme / Cantina Band",
-      "source": "DoubleJ",
-      "genres": [
-        "disco",
-        "star wars",
-        "instrumental",
-        "funk"
-      ]
-    },
-    "25055161": {
-      "date": "2026-10-07",
-      "artist": "Sharon Van Etten",
-      "title": "Serpents",
-      "source": "LastFM~Angel Olsen",
-      "genres": [
-        "folk",
-        "singer songwriter",
-        "female vocalists",
-        "indie folk"
-      ]
-    },
-    "225554347": {
-      "date": "2026-10-07",
-      "artist": "Xavier Rudd",
-      "title": "Walk Away",
-      "source": "DoubleJ",
-      "genres": [
-        "folk",
-        "acoustic",
-        "australian",
-        "singer songwriter"
-      ]
-    },
-    "4010144": {
-      "date": "2026-10-07",
-      "artist": "Lloyd Cole And The Commotions",
-      "title": "Rattlesnakes",
-      "source": "TheCurrent",
-      "genres": [
-        "jangle pop",
-        "new wave"
-      ]
-    },
-    "4105791": {
-      "date": "2026-10-07",
-      "artist": "Bombay Bicycle Club",
-      "title": "Dust on the Ground",
-      "source": "LastFM~Local Natives",
-      "genres": [
-        "indie rock",
-        "indie"
-      ]
-    },
-    "702432": {
-      "date": "2026-10-07",
-      "artist": "Archie Roach",
-      "title": "Down City Streets",
-      "source": "DoubleJ",
-      "genres": [
-        "australian",
-        "singer songwriter",
-        "australian aboriginal",
-        "folk"
-      ]
-    },
-    "437616431": {
-      "date": "2026-10-07",
-      "artist": "Olivia Dean",
-      "title": "Nice To Each Other",
-      "source": "TheCurrent",
-      "genres": [
-        "pop soul"
-      ]
-    },
-    "211532001": {
-      "date": "2026-10-07",
-      "artist": "Jeremy Messersmith",
-      "title": "A Girl, a Boy, and a Graveyard",
-      "source": "TheCurrent",
-      "genres": [
-        "folk",
-        "singer songwriter",
-        "indie",
-        "acoustic"
-      ]
-    },
-    "3427125": {
-      "date": "2026-10-07",
-      "artist": "Ra Ra Riot",
-      "title": "Can You Tell",
-      "source": "LastFM~Local Natives",
-      "genres": [
-        "baroque pop"
-      ]
-    },
-    "3461454": {
-      "date": "2026-10-07",
-      "artist": "Jill Sobule",
-      "title": "Supermodel",
-      "source": "DoubleJ",
-      "genres": [
-        "singer songwriter",
-        "female vocalists",
-        "folk",
-        "pop"
-      ]
-    },
-    "556064927": {
-      "date": "2026-10-07",
-      "artist": "Ibelisse Guardia Ferragutti",
-      "title": "X",
-      "source": "KCRW-MorningBecomesEclectic",
-      "genres": [
-        "bolivia"
-      ]
-    },
-    "5267719": {
-      "date": "2026-10-07",
-      "artist": "Perfume Genius",
-      "title": "Learning",
-      "source": "LastFM~Angel Olsen",
-      "genres": [
-        "art pop"
-      ]
-    },
-    "25053967": {
-      "date": "2026-10-07",
-      "artist": "The Tallest Man on Earth",
-      "title": "Love Is All",
-      "source": "LastFM~Iron & Wine",
-      "genres": [
-        "indie folk",
-        "folk"
-      ]
-    },
-    "107696378": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "indie folk"
-      ],
-      "artist": "Hailaker",
-      "title": "Not Much"
-    },
     "563885072": {
       "date": "2026-10-09",
       "source": "DoubleJ",
@@ -14682,18 +13510,6 @@
       ],
       "artist": "Kaiit",
       "title": "Lemon Squeezy"
-    },
-    "72248136": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "synthpop",
-        "female vocalists",
-        "electronic",
-        "indie"
-      ],
-      "artist": "Claire",
-      "title": "Drowning"
     },
     "535500187": {
       "date": "2026-10-09",
@@ -14716,359 +13532,6 @@
       ],
       "artist": "Gotu Jim",
       "title": "Twee Mensen"
-    },
-    "391372894": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "pop",
-        "australia",
-        "australian",
-        "electronic"
-      ],
-      "artist": "Electric Fields",
-      "title": "2000 And Whatever"
-    },
-    "72073551": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "folk",
-        "indie",
-        "singer songwriter",
-        "indie folk"
-      ],
-      "artist": "Haux",
-      "title": "Touch"
-    },
-    "27009888": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "indie folk",
-        "folk"
-      ],
-      "artist": "The Tallest Man On Earth",
-      "title": "I Won't Be Found"
-    },
-    "564379": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "vocal jazz",
-        "soul jazz",
-        "soul",
-        "jazz"
-      ],
-      "artist": "NINA SIMONE",
-      "title": "I Want a Little Sugar In My Bowl"
-    },
-    "118659290": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "indie folk"
-      ],
-      "artist": "Hailaker",
-      "title": "Famous"
-    },
-    "19009761": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "acid jazz"
-      ],
-      "artist": "Jamiroquai",
-      "title": "Too Young to Die"
-    },
-    "215722191": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "indie folk"
-      ],
-      "artist": "The Paper Kites",
-      "title": "Halcyon"
-    },
-    "4683104": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "power pop"
-      ],
-      "artist": "You Am I",
-      "title": "Get Up"
-    },
-    "147484": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "dream pop",
-        "shoegaze",
-        "slowcore"
-      ],
-      "artist": "Mazzy Star",
-      "title": "Into Dust"
-    },
-    "136920822": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "indie folk"
-      ],
-      "artist": "Hailaker",
-      "title": "Colorado"
-    },
-    "493585181": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "pop",
-        "female vocalists",
-        "british",
-        "britpop"
-      ],
-      "artist": "Lily Allen",
-      "title": "Dallas Major"
-    },
-    "2098894": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "soul"
-      ],
-      "artist": "Bill Withers",
-      "title": "Ain't No Sunshine"
-    },
-    "469081343": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "pop",
-        "australian",
-        "electronic",
-        "female vocalists"
-      ],
-      "artist": "Kat Vinter",
-      "title": "Downtime"
-    },
-    "1785819": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "trip hop",
-        "downtempo"
-      ],
-      "artist": "Hooverphonic",
-      "title": "The Magnificent Tree"
-    },
-    "414984156": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "folk",
-        "indie",
-        "singer songwriter",
-        "acoustic"
-      ],
-      "artist": "Bon Iver",
-      "title": "Walk Home"
-    },
-    "236063470": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "dream pop"
-      ],
-      "artist": "Lovespirals",
-      "title": "The Call"
-    },
-    "158278": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "dream pop",
-        "shoegaze",
-        "slowcore"
-      ],
-      "artist": "Mazzy Star",
-      "title": "Look On Down From The Bridge"
-    },
-    "27009896": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "indie folk",
-        "folk"
-      ],
-      "artist": "The Tallest Man On Earth",
-      "title": "Into the Stream"
-    },
-    "435973686": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "trip hop",
-        "downtempo"
-      ],
-      "artist": "Zero 7",
-      "title": "In Time"
-    },
-    "61699165": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "indie folk"
-      ],
-      "artist": "Dustin Tebbutt",
-      "title": "First Light"
-    },
-    "215722136": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "indie folk"
-      ],
-      "artist": "The Paper Kites",
-      "title": "Paint"
-    },
-    "500597684": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "retro soul"
-      ],
-      "artist": "Devon Gilfillian",
-      "title": "Hold On (Hourglass)"
-    },
-    "610853": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "trip hop",
-        "electronic",
-        "chillout",
-        "female vocalists"
-      ],
-      "artist": "Lamb",
-      "title": "Sun"
-    },
-    "155827767": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "mellow",
-        "indie",
-        "downtempo",
-        "singer songwriter"
-      ],
-      "artist": "Eva Abraham",
-      "title": "Until"
-    },
-    "53042624": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "downtempo"
-      ],
-      "artist": "Mimi Page",
-      "title": "Black and Blue"
-    },
-    "2405119": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "indie",
-        "female vocalists",
-        "singer songwriter",
-        "folk"
-      ],
-      "artist": "Jenny Lewis",
-      "title": "Acid Tongue"
-    },
-    "560194384": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "indie",
-        "female vocalist",
-        "lush",
-        "australian"
-      ],
-      "artist": "Eliza Hull",
-      "title": "Better"
-    },
-    "403175639": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "breakcore"
-      ],
-      "artist": "Kate Havnevik",
-      "title": "Travel In Time"
-    },
-    "61699167": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "indie folk"
-      ],
-      "artist": "Dustin Tebbutt",
-      "title": "Give Me Tonight"
-    },
-    "66912665": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "folk",
-        "indie",
-        "singer songwriter",
-        "indie folk"
-      ],
-      "artist": "Haux",
-      "title": "Homegrown"
-    },
-    "19002993": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "soul",
-        "chillout",
-        "indie",
-        "alternative rnb"
-      ],
-      "artist": "Rhye",
-      "title": "Major Minor Love"
-    },
-    "506911420": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "folk",
-        "experimental",
-        "minnesota",
-        "indie folk"
-      ],
-      "artist": "Humbird",
-      "title": "Daughter of Empire"
-    },
-    "2993840": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "singer-songwriter"
-      ],
-      "artist": "Beth Orton",
-      "title": "Couldn't Cause Me Harm"
-    },
-    "37216025": {
-      "date": "2026-10-07",
-      "source": "onbekend",
-      "genres": [
-        "indie folk"
-      ],
-      "artist": "Dustin Tebbutt",
-      "title": "The Wolves (Reprise)"
     },
     "388002145": {
       "date": "2026-10-09",
@@ -20267,18 +18730,6 @@
         "hard bop"
       ]
     },
-    "560099923": {
-      "date": "2026-10-06",
-      "artist": "TeddyBear",
-      "title": "Le Plus Beau",
-      "source": "Duyster",
-      "genres": [
-        "electronic",
-        "swedish",
-        "indie",
-        "rock"
-      ]
-    },
     "341261897": {
       "date": "2026-10-30",
       "artist": "Emiliana Torrini",
@@ -20769,28 +19220,6 @@
         "rock",
         "nederlandstalig",
         "belgium"
-      ]
-    },
-    "2175559": {
-      "date": "2026-10-06",
-      "artist": "The Bird & the Bee",
-      "title": "My Love",
-      "source": "SomaFM-Lush",
-      "genres": [
-        "indie",
-        "electronic",
-        "female vocalists",
-        "indie pop"
-      ]
-    },
-    "65622055": {
-      "date": "2026-10-06",
-      "artist": "Hope Sandoval & The Warm Inventions",
-      "title": "Salt of the Sea",
-      "source": "SomaFM-Lush",
-      "genres": [
-        "dream pop",
-        "slowcore"
       ]
     },
     "48442723": {
@@ -22873,16 +21302,6 @@
         "bossa nova"
       ]
     },
-    "438505857": {
-      "date": "2026-11-03",
-      "artist": "Wet Leg",
-      "title": "davina mccall",
-      "source": "TheCurrent",
-      "genres": [
-        "indie rock",
-        "indie"
-      ]
-    },
     "4461135": {
       "date": "2026-11-03",
       "artist": "Twin Sister",
@@ -22904,18 +21323,6 @@
         "christmas",
         "adult standards",
         "big band"
-      ]
-    },
-    "101743221": {
-      "date": "2026-11-03",
-      "artist": "Better Oblivion Community Center",
-      "title": "Exception To The Rule",
-      "source": "LastFM~Phoebe Bridgers",
-      "genres": [
-        "folk",
-        "indie",
-        "indie rock",
-        "indie folk"
       ]
     },
     "210282392": {
@@ -22978,18 +21385,6 @@
         "usa"
       ]
     },
-    "75044980": {
-      "date": "2026-11-03",
-      "artist": "Songhoy Blues",
-      "title": "Bamako",
-      "source": "DoubleJ",
-      "genres": [
-        "blues",
-        "mali",
-        "desert blues",
-        "blues rock"
-      ]
-    },
     "34242375": {
       "date": "2026-11-03",
       "artist": "Eliza Rickman",
@@ -23021,18 +21416,6 @@
         "indie"
       ]
     },
-    "5005717": {
-      "date": "2026-11-03",
-      "artist": "Jebediah",
-      "title": "Teflon",
-      "source": "DoubleJ",
-      "genres": [
-        "australian",
-        "rock",
-        "alternative",
-        "alternative rock"
-      ]
-    },
     "251762302": {
       "date": "2026-11-03",
       "artist": "Alvvays",
@@ -23053,30 +21436,6 @@
       "genres": [
         "americana",
         "alt country"
-      ]
-    },
-    "2315286": {
-      "date": "2026-11-03",
-      "artist": "Gram Parsons",
-      "title": "Ooh Las Vegas",
-      "source": "TheCurrent",
-      "genres": [
-        "country rock",
-        "alt country",
-        "americana",
-        "roots rock"
-      ]
-    },
-    "367359260": {
-      "date": "2026-11-03",
-      "artist": "Hippo Campus",
-      "title": "Paranoid",
-      "source": "TheCurrent",
-      "genres": [
-        "indie pop",
-        "indie rock",
-        "indie",
-        "pop"
       ]
     },
     "28008281": {
@@ -23145,28 +21504,6 @@
         "nu disco",
         "electroclash",
         "indie dance"
-      ]
-    },
-    "106164200": {
-      "date": "2026-11-03",
-      "artist": "Better Oblivion Community Center",
-      "title": "Sleepwalkin'",
-      "source": "LastFM~Phoebe Bridgers",
-      "genres": [
-        "folk",
-        "indie",
-        "indie rock",
-        "indie folk"
-      ]
-    },
-    "22248426": {
-      "date": "2026-11-03",
-      "artist": "Arctic Monkeys",
-      "title": "Why'd You Only Call Me When You're High?",
-      "source": "DoubleJ",
-      "genres": [
-        "indie",
-        "garage rock"
       ]
     },
     "247212709": {
@@ -23272,13 +21609,6 @@
         "jangle pop"
       ]
     },
-    "504455349": {
-      "date": "2026-11-03",
-      "artist": "Raymnd",
-      "title": "Eureka Road",
-      "source": "TheCurrent",
-      "genres": []
-    },
     "214409540": {
       "date": "2026-11-03",
       "artist": "Goose",
@@ -23321,15 +21651,6 @@
         "indie"
       ]
     },
-    "7496802": {
-      "date": "2026-11-03",
-      "artist": "Tom Petty",
-      "title": "You Don't Know How It Feels",
-      "source": "TheCurrent",
-      "genres": [
-        "classic rock"
-      ]
-    },
     "460211376": {
       "date": "2026-11-03",
       "artist": "Searows",
@@ -23342,18 +21663,6 @@
         "indie"
       ]
     },
-    "101743225": {
-      "date": "2026-11-03",
-      "artist": "Better Oblivion Community Center",
-      "title": "Big Black Heart",
-      "source": "LastFM~Phoebe Bridgers",
-      "genres": [
-        "folk",
-        "indie",
-        "indie rock",
-        "indie folk"
-      ]
-    },
     "14561804": {
       "date": "2026-11-03",
       "artist": "Kate Miller-Heidke",
@@ -23364,15 +21673,6 @@
         "singer songwriter",
         "pop",
         "female vocalists"
-      ]
-    },
-    "23273348": {
-      "date": "2026-11-03",
-      "artist": "The Killers",
-      "title": "Somebody Told Me",
-      "source": "TheCurrent",
-      "genres": [
-        "alternative rock"
       ]
     },
     "491252412": {
@@ -23553,6 +21853,330 @@
       "genres": [
         "britpop",
         "shoegaze"
+      ]
+    },
+    "4074156": {
+      "date": "2026-11-07",
+      "artist": "Tori Amos",
+      "title": "Spark",
+      "source": "onbekend",
+      "genres": [
+        "singer-songwriter",
+        "art pop"
+      ]
+    },
+    "452874939": {
+      "date": "2026-11-07",
+      "artist": "The Replacements",
+      "title": "Unsatisfied (2025 Remaster)",
+      "source": "onbekend",
+      "genres": [
+        "power pop",
+        "jangle pop"
+      ]
+    },
+    "2819697": {
+      "date": "2026-11-07",
+      "artist": "Anita Baker",
+      "title": "Good Love",
+      "source": "onbekend",
+      "genres": [
+        "quiet storm",
+        "smooth jazz",
+        "classic soul"
+      ]
+    },
+    "68639547": {
+      "date": "2026-11-07",
+      "artist": "The Shins",
+      "title": "Kissing the Lipless",
+      "source": "onbekend",
+      "genres": [
+        "indie",
+        "indie pop"
+      ]
+    },
+    "426730500": {
+      "date": "2026-11-07",
+      "artist": "Merpire",
+      "title": "Leaving With You",
+      "source": "onbekend",
+      "genres": [
+        "dream pop",
+        "alternative",
+        "indie pop",
+        "australia"
+      ]
+    },
+    "89277020": {
+      "date": "2026-11-07",
+      "artist": "Leif Vollebekk",
+      "title": "Elegy",
+      "source": "onbekend",
+      "genres": [
+        "folk",
+        "canadian",
+        "singer songwriter",
+        "indie folk"
+      ]
+    },
+    "391724": {
+      "date": "2026-11-07",
+      "artist": "Anita Baker",
+      "title": "Caught Up in the Rapture",
+      "source": "onbekend",
+      "genres": [
+        "quiet storm",
+        "smooth jazz",
+        "classic soul"
+      ]
+    },
+    "186410342": {
+      "date": "2026-11-07",
+      "artist": "Lucy Dacus",
+      "title": "Christine",
+      "source": "onbekend",
+      "genres": [
+        "indie",
+        "indie rock",
+        "folk",
+        "singer songwriter"
+      ]
+    },
+    "2819694": {
+      "date": "2026-11-07",
+      "artist": "Anita Baker",
+      "title": "No One in the World",
+      "source": "onbekend",
+      "genres": [
+        "quiet storm",
+        "smooth jazz",
+        "classic soul"
+      ]
+    },
+    "459851599": {
+      "date": "2026-11-07",
+      "artist": "Waxahatchee",
+      "title": "Lilacs",
+      "source": "onbekend",
+      "genres": [
+        "alt country"
+      ]
+    },
+    "559948574": {
+      "date": "2026-11-07",
+      "artist": "Soccer Mommy",
+      "title": "Rings Of Saturn",
+      "source": "onbekend",
+      "genres": [
+        "indie"
+      ]
+    },
+    "119181782": {
+      "date": "2026-11-07",
+      "artist": "Leif Vollebekk",
+      "title": "Wait a While",
+      "source": "onbekend",
+      "genres": [
+        "folk",
+        "canadian",
+        "singer songwriter",
+        "indie folk"
+      ]
+    },
+    "1310635": {
+      "date": "2026-11-07",
+      "artist": "Sweetback",
+      "title": "Powder",
+      "source": "onbekend",
+      "genres": [
+        "neo soul",
+        "acid jazz"
+      ]
+    },
+    "570558052": {
+      "date": "2026-11-07",
+      "artist": "Silvana Estrada",
+      "title": "Pensarte",
+      "source": "onbekend",
+      "genres": [
+        "latin folk",
+        "latin indie",
+        "mexican indie"
+      ]
+    },
+    "391412": {
+      "date": "2026-11-07",
+      "artist": "Otis Redding",
+      "title": "(I Can't Get No) Satisfaction",
+      "source": "onbekend",
+      "genres": [
+        "motown",
+        "soul",
+        "classic soul",
+        "soul blues"
+      ]
+    },
+    "426871890": {
+      "date": "2026-11-07",
+      "artist": "room3",
+      "title": "Don't Forget 2 Breathe (feat. Jada Lynn & Alex Browne)",
+      "source": "onbekend",
+      "genres": [
+        "jazz fusion"
+      ]
+    },
+    "1311323": {
+      "date": "2026-11-07",
+      "artist": "Sweetback",
+      "title": "Au Natural",
+      "source": "onbekend",
+      "genres": [
+        "neo soul",
+        "acid jazz"
+      ]
+    },
+    "32572488": {
+      "date": "2026-11-07",
+      "artist": "Leonard Cohen",
+      "title": "Everybody Knows",
+      "source": "onbekend",
+      "genres": [
+        "singer-songwriter"
+      ]
+    },
+    "252766822": {
+      "date": "2026-11-07",
+      "artist": "Noah Kahan",
+      "title": "Orange Juice",
+      "source": "onbekend",
+      "genres": [
+        "indie",
+        "folk",
+        "singer songwriter",
+        "acoustic"
+      ]
+    },
+    "79155457": {
+      "date": "2026-11-07",
+      "artist": "Nick Mulvey",
+      "title": "Unconditional",
+      "source": "onbekend",
+      "genres": [
+        "singer songwriter",
+        "acoustic",
+        "british",
+        "folk"
+      ]
+    },
+    "446820599": {
+      "date": "2026-11-07",
+      "artist": "The Strumbellas",
+      "title": "Hanging Out In My Head",
+      "source": "onbekend",
+      "genres": [
+        "folk pop"
+      ]
+    },
+    "212047906": {
+      "date": "2026-11-07",
+      "artist": "Lucy Dacus",
+      "title": "Kissing Lessons",
+      "source": "onbekend",
+      "genres": [
+        "indie",
+        "indie rock",
+        "folk",
+        "singer songwriter"
+      ]
+    },
+    "29145355": {
+      "date": "2026-11-07",
+      "artist": "Nick Mulvey",
+      "title": "April",
+      "source": "onbekend",
+      "genres": [
+        "singer songwriter",
+        "acoustic",
+        "british",
+        "folk"
+      ]
+    },
+    "564283498": {
+      "date": "2026-11-07",
+      "artist": "Hot Chip",
+      "title": "Random Violence",
+      "source": "onbekend",
+      "genres": [
+        "alternative dance",
+        "new rave",
+        "indie dance",
+        "indie electronic"
+      ]
+    },
+    "297959228": {
+      "date": "2026-11-07",
+      "artist": "Noah Kahan",
+      "title": "You’re Gonna Go Far",
+      "source": "onbekend",
+      "genres": [
+        "indie",
+        "folk",
+        "singer songwriter",
+        "acoustic"
+      ]
+    },
+    "1312214": {
+      "date": "2026-11-07",
+      "artist": "Sweetback",
+      "title": "Lover",
+      "source": "onbekend",
+      "genres": [
+        "neo soul",
+        "acid jazz"
+      ]
+    },
+    "77660702": {
+      "date": "2026-11-07",
+      "artist": "Nick Mulvey",
+      "title": "Fever To The Form",
+      "source": "onbekend",
+      "genres": [
+        "singer songwriter",
+        "acoustic",
+        "british",
+        "folk"
+      ]
+    },
+    "410491853": {
+      "date": "2026-11-07",
+      "artist": "She's Green",
+      "title": "graze",
+      "source": "onbekend",
+      "genres": [
+        "shoegaze",
+        "dream pop"
+      ]
+    },
+    "6551577": {
+      "date": "2026-11-07",
+      "artist": "Florence + the Machine",
+      "title": "Drumming Song",
+      "source": "onbekend",
+      "genres": [
+        "baroque pop"
+      ]
+    },
+    "565767798": {
+      "date": "2026-11-07",
+      "artist": "PNAU",
+      "title": "Change",
+      "source": "onbekend",
+      "genres": [
+        "electronic",
+        "australian",
+        "dance",
+        "electro"
       ]
     }
   },
