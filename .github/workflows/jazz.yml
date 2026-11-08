@@ -4,10 +4,16 @@ on:
   schedule:
     - cron: "0 6 * * 0"   # elke zondag om 06:00 UTC, zodat maandagochtend klaar is
   workflow_dispatch:        # ook handmatig te starten
+    inputs:
+      alleen_meten:
+        description: "Alleen de intensiteit meten en tonen, niets wijzigen"
+        required: false
+        default: ""
   push:                     # en meteen na een aanpassing aan de albumlijst
     branches: [main]
     paths:
       - jazz.py
+      - rust.py
       - .github/workflows/jazz.yml
 
 permissions:
@@ -49,6 +55,7 @@ jobs:
           LASTFM_PASSWORD:        ${{ secrets.LASTFM_PASSWORD }}
           SPOTIFY_CLIENT_ID:      ${{ secrets.SPOTIFY_CLIENT_ID }}
           SPOTIFY_CLIENT_SECRET:  ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          JAZZ_ALLEEN_METEN:      ${{ inputs.alleen_meten }}
         run: python jazz.py
 
       - name: State opslaan in repo

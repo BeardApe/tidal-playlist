@@ -25,6 +25,7 @@ import tidalapi
 import pylast
 from datetime import datetime, timedelta
 from pathlib import Path
+from rust import _recco, intensiteit
 
 # Het id uit de Tidal-playlist-URL. Niet geheim, dus gewoon hier.
 TIDAL_PLAYLIST_ID     = "efc92d5f-7912-453b-9576-8a63bde1dd29"
@@ -41,6 +42,9 @@ SEEN_EXPIRY_DAYS  = 150   # daarna mag een track opnieuw gekozen worden
 MAX_PER_ALBUM     = 3     # per run hoogstens zoveel nummers uit hetzelfde album
 MIN_DURATION      = 140   # seconden
 MAX_DURATION      = 480   # seconden; langer is vaak een uitgesponnen solo
+# Intensiteit 0 (heel zacht) tot 1 (stevig), uit de audio-features van ReccoBeats (zie rust.py).
+# Daarboven is een nummer te wakker voor een slaperige ochtend. Niet gemeten = blijft (de tagfilter keurde het al).
+MAX_INTENSITEIT   = None
 
 STATE_FILE = Path("state_jazz.json")
 
@@ -380,6 +384,28 @@ def build_pool(session, albums, picks, label) -> list:
     return pool
 
 
+def meet(tracks) -> dict:
+    """Intensiteit per Tidal-id, via het ISRC. Nummers die ReccoBeats niet kent ontbreken."""
+    per_isrc = {}
+    for t in tracks:
+        isrc = (getattr(t, "isrc", "") or "").upper()
+        if isrc:
+            per_isrc.setdefault(isrc, []).append(str(t.id))
+    uit = {}
+    for isrc, f in _recco(list(per_isrc)).items():
+        if f.get("energy") is not None:
+            for tid in per_isrc.get(isrc, []):
+                uit[tid] = {"intensiteit": intensiteit(f), "energy": f.get("energy"),
+                            "tempo": round(f.get("tempo") or 0), "loudness": f.get("loudness"),
+                            "acousticness": f.get("acousticness")}
+    print(f"[Meting] {len(uit)} van {len(tracks)} nummers gemeten via ReccoBeats")
+    return uit
+
+
+def te_wakker(waarde) -> bool:
+    return MAX_INTENSITEIT is not None and waarde is not None and waarde > MAX_INTENSITEIT
+
+
 def cleanup_playlist(session, playlist_id: str, playlist_log: dict) -> dict:
     """
     Haalt twee soorten tracks weg:
@@ -399,6 +425,9 @@ def cleanup_playlist(session, playlist_id: str, playlist_log: dict) -> dict:
             if not (source.startswith("Album~") or source.startswith("Pick~")):
                 to_remove.append(i)
             elif is_skipped(entry.get("title", "")):
+                to_remove.append(i)
+            elif te_wakker(entry.get("intensiteit")):
+                print(f"  ✗ te wakker ({entry['intensiteit']}): {entry.get('artist')} / {entry.get('title')}")
                 to_remove.append(i)
             elif entry.get("date", "9999-12-31") < cutoff:
                 to_remove.append(i)
@@ -432,6 +461,8 @@ def next_ok(pool, network, seen, existing_ids, per_group):
             continue
         if duration and not (MIN_DURATION <= duration <= MAX_DURATION):
             continue
+        if te_wakker(c.get("intensiteit")):
+            continue
         if not c.get("hand_picked") and too_lively(network, c["artist"], c["title"]):
             print(f"  ✗ {c['artist']} / {c['title']} (te levendig volgens tags)")
             continue
@@ -453,11 +484,30 @@ def main():
     network = get_lastfm_network()
     lookup  = GenreLookup(network)
 
+    # Eerst meten wat er nu in staat, dan kan de opkuis te wakkere nummers weghalen
+    huidig = list(session.playlist(TIDAL_PLAYLIST_ID).tracks())
+    for tid, m in meet([t for t in huidig if "intensiteit" not in (playlist_log.get(str(t.id)) or {})]).items():
+        if isinstance(playlist_log.get(tid), dict):
+            playlist_log[tid].update(m)
+    if os.environ.get("JAZZ_ALLEEN_METEN"):
+        rij = sorted((e for e in playlist_log.values() if isinstance(e, dict) and "intensiteit" in e),
+                     key=lambda e: e["intensiteit"])
+        for e in rij:
+            print(f"  {e['intensiteit']:.3f}  E{e['energy']:.2f} {e['tempo']:>3}bpm {e['loudness']:>6.1f}dB  "
+                  f"{e['artist']} / {e['title']}")
+        state["playlist_log"] = playlist_log
+        save_state(state)
+        return
+
     playlist_log = cleanup_playlist(session, TIDAL_PLAYLIST_ID, playlist_log)
     existing_ids = {str(t.id) for t in session.playlist(TIDAL_PLAYLIST_ID).tracks()}
 
     vocal = build_pool(session, VOCAL_ALBUMS, VOCAL_PICKS, "zang")
     instr = build_pool(session, INSTRUMENTAL_ALBUMS, INSTRUMENTAL_PICKS, "instrumentaal")
+    if MAX_INTENSITEIT is not None:
+        metingen = meet([c["track"] for c in vocal + instr])
+        for c in vocal + instr:
+            c.update(metingen.get(str(c["track"].id), {}))
 
     today = datetime.now().strftime("%Y-%m-%d")
     needed = max(0, TARGET_SIZE - len(existing_ids))
@@ -499,6 +549,7 @@ def main():
             "title": c["title"], "kind": c["kind"], "genres": genres}
         playlist_log[tid] = {"date": today, "artist": c["artist"], "title": c["title"],
                              "source": c["source"], "kind": c["kind"], "genres": genres}
+        playlist_log[tid].update({k: c[k] for k in ("intensiteit", "energy", "tempo", "loudness", "acousticness") if k in c})
         print(f"  ✓ [{c['source']}] {c['artist']} / {c['title']}")
 
     if added:
