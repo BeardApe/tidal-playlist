@@ -18,6 +18,7 @@ import pylast
 from datetime import datetime, timedelta, timezone, date
 from zoneinfo import ZoneInfo
 from pathlib import Path
+from rust import bepaal_rust, sync_rust_playlists, verdeling
 
 TIDAL_PLAYLIST_ID     = os.environ["TIDAL_PLAYLIST_ID"]
 LASTFM_API_KEY        = os.environ["LASTFM_API_KEY"]
@@ -665,6 +666,14 @@ def backfill_playlist_log(session: tidalapi.Session, playlist_id: str, playlist_
     return playlist_log
 
 
+def rust_bijwerken(session: tidalapi.Session, state: dict, playlist_log: dict):
+    """Rustniveau per nummer, daarna Nachtradio Avond en Nacht gelijkzetten (zie rust.py)."""
+    print()
+    bepaal_rust(session, TIDAL_PLAYLIST_ID, playlist_log)
+    print(f"[Rust] Verdeling: {verdeling(playlist_log)}")
+    sync_rust_playlists(session, state, playlist_log)
+
+
 def main():
     print(f"\n{'='*50}")
     print(f"  Playlist update — {datetime.now().strftime('%Y-%m-%d %H:%M')}")
@@ -727,6 +736,7 @@ def main():
     # "Nooit meer" vanuit Home Assistant: alleen opkuisen, geen nieuwe nummers zoeken
     if os.environ.get("ALLEEN_OPKUIS"):
         print(f"Huidig in playlist: {len(get_existing_tidal_ids(session, TIDAL_PLAYLIST_ID))}")
+        rust_bijwerken(session, state, playlist_log)
         state["playlist_log"] = playlist_log
         save_state(state)
         print(f"\nAlleen opkuis, klaar! {datetime.now().strftime('%H:%M:%S')}\n")
@@ -860,6 +870,8 @@ def main():
         print(f"\n[Tidal] {len(added)} tracks toegevoegd ✓")
     else:
         print("\n[Tidal] Geen nieuwe tracks gevonden.")
+
+    rust_bijwerken(session, state, playlist_log)
 
     state["seen"]         = seen
     state["playlist_log"] = playlist_log

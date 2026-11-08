@@ -40,7 +40,8 @@ Nachtradio is achtergrondmuziek die thuis de hele dag speelt. Ochtendjazz is zac
    - Internationale zenders (`STATIONS`): Radio Paradise Mellow Mix, SomaFM Lush, Double J (ABC-API), The Current (JSON in de pagina). Per run max. 25 nieuwe per zender.
 7. Genres bepalen: Spotify-genres, anders Last.fm-tags (Spotify laat veel genres leeg). Dan filteren op genre, genre per bron en artiest. Seed-artiesten zijn immuun voor genrefilters, niet voor de artiestenblokkade.
 8. Elk nummer opzoeken op Tidal (alleen een versie van de juiste artiest, zie `artist_matches`; anders overslaan), dubbels overslaan (`seen` onthoudt alles ooit toegevoegd, ook na uitrouleren), toevoegen.
-9. `state.json` en `run.log` worden door de workflow teruggecommit.
+9. `rust.py`: elk nummer krijgt `rust` 1 (zacht) tot 5 (stevig) uit audio-features van ReccoBeats (gratis API, zonder sleutel, opgezocht op ISRC; formule in `intensiteit`, grenzen in `GRENZEN`). Niet gevonden = schatting uit bron en genres (`rust_bron: schatting`, wordt elke run opnieuw geprobeerd). Daarna worden de Tidal-playlists "Nachtradio Avond" (rust 1-3) en "Nachtradio Nacht" (rust 1-2) gelijkgezet met Nachtradio. Hun id's staan in `state["rust_playlists"]`. Ze hebben geen eigen boekhouding: rotatie en blokkades lopen via Nachtradio. Gebeurt ook in de opkuisrun.
+10. `state.json` en `run.log` worden door de workflow teruggecommit.
 
 Er is geen limiet per run. Rotatie gebeurt op leeftijd (30 dagen). De playlist schommelt rond de 1.000 tot 1.200 nummers.
 
@@ -55,7 +56,7 @@ Er is geen limiet per run. Rotatie gebeurt op leeftijd (30 dagen). De playlist s
 ## `state.json`
 
 - `seen`: `{"artiest|titel": {date, source}}`. Nooit opnieuw toevoegen wat hierin staat.
-- `playlist_log`: `{tidal_id: {date, artist, title, source, genres}}`. Wat nu in de playlist staat. `date` stuurt de rotatie.
+- `playlist_log`: `{tidal_id: {date, artist, title, source, genres, isrc, rust, rust_bron, intensiteit}}`. Wat nu in de playlist staat. `date` stuurt de rotatie.
 - `programs_done`: per programma de verwerkte uitzendingsdata.
 - `migrated_vuurland_program`: eenmalige migratie is gebeurd.
 - Bron "onbekend" = nummer dat niet (meer) herleidbaar is tot een bron. Krijgt een datum zodat het uitrouleert.
@@ -86,6 +87,8 @@ Verloopt de Tidal-sessie, dan draait PJ lokaal `python setup.py` en plakt de JSO
 Home Assistant speelt Nachtradio via Music Assistant op een Sonos-syncgroep ("Alle speakers"), via `script.speel_playlist` (knop "Indie") en `script.muziek_poging`. Music Assistant houdt een kopie van de playlist bij en vernieuwt die niet meteen. Hoort PJ nummers die al verwijderd zijn of nooit in de lijst stonden, vergelijk dan het aantal in Music Assistant met het aantal op Tidal (zie "Huidig in playlist" in `run.log`) en laat hem de playlist in Music Assistant vernieuwen.
 
 Knop "Nooit meer" (Thuis-dashboard, muziekblok): slaat het nummer meteen over, zet het op de HA-takenlijst "Nooit meer" (een automation slaat nummers en artiesten van die lijst voortaan meteen over, ook zolang Music Assistant de oude playlist nog in zijn cache heeft) en stuurt de blokkade naar deze repo.
+
+Avond en nacht: HA-sensor `sensor.nachtradio_nu` geeft de Tidal-link die nu geldt (Nachtradio overdag, Avond vanaf 20u, Nacht van 22u tot 6u). "Indie" starten gebruikt die link. De automation "Muziek - Nachtradio rustiger 's avonds" zet bij de wissel een lopende Indie om na het huidige nummer (enqueue `replace_next`), niet tijdens een show of film.
 
 ## Werkwijze voor Claude
 
