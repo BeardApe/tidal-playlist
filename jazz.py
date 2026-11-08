@@ -44,7 +44,7 @@ MIN_DURATION      = 140   # seconden
 MAX_DURATION      = 480   # seconden; langer is vaak een uitgesponnen solo
 # Intensiteit 0 (heel zacht) tot 1 (stevig), uit de audio-features van ReccoBeats (zie rust.py).
 # Daarboven is een nummer te wakker voor een slaperige ochtend. Niet gemeten = blijft (de tagfilter keurde het al).
-MAX_INTENSITEIT   = None
+MAX_INTENSITEIT   = 0.35  # 8-11-2026 gekozen op de meting van 164 nummers
 
 STATE_FILE = Path("state_jazz.json")
 
