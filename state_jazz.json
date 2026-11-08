@@ -3972,7 +3972,12 @@
         "vocal jazz",
         "jazz",
         "bossa nova"
-      ]
+      ],
+      "intensiteit": 0.638,
+      "energy": 0.569,
+      "tempo": 147,
+      "loudness": -7.932,
+      "acousticness": 0.614
     },
     "2993275": {
       "date": "2026-09-21",
@@ -3985,7 +3990,12 @@
         "jazz",
         "bossa nova",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.221,
+      "energy": 0.211,
+      "tempo": 87,
+      "loudness": -20.747,
+      "acousticness": 0.72
     },
     "93058767": {
       "date": "2026-09-21",
@@ -3998,7 +4008,12 @@
         "vocal jazz",
         "swing music",
         "big band"
-      ]
+      ],
+      "intensiteit": 0.116,
+      "energy": 0.0396,
+      "tempo": 100,
+      "loudness": -20.208,
+      "acousticness": 0.939
     },
     "143265771": {
       "date": "2026-09-21",
@@ -4036,7 +4051,12 @@
         "jazz",
         "bossa nova",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.276,
+      "energy": 0.244,
+      "tempo": 93,
+      "loudness": -15.796,
+      "acousticness": 0.857
     },
     "93058771": {
       "date": "2026-09-21",
@@ -4049,7 +4069,12 @@
         "vocal jazz",
         "swing music",
         "big band"
-      ]
+      ],
+      "intensiteit": 0.312,
+      "energy": 0.208,
+      "tempo": 112,
+      "loudness": -15.041,
+      "acousticness": 0.699
     },
     "11169946": {
       "date": "2026-09-21",
@@ -4061,7 +4086,12 @@
         "vocal jazz",
         "jazz",
         "adult standards"
-      ]
+      ],
+      "intensiteit": 0.171,
+      "energy": 0.0348,
+      "tempo": 114,
+      "loudness": -15.628,
+      "acousticness": 0.98
     },
     "158153": {
       "date": "2026-09-21",
@@ -4074,7 +4104,12 @@
         "cool jazz",
         "vocal jazz",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.326,
+      "energy": 0.247,
+      "tempo": 79,
+      "loudness": -12.731,
+      "acousticness": 0.627
     },
     "13345169": {
       "date": "2026-09-21",
@@ -4087,7 +4122,12 @@
         "jazz",
         "brazilian jazz",
         "cool jazz"
-      ]
+      ],
+      "intensiteit": 0.101,
+      "energy": 0.0678,
+      "tempo": 69,
+      "loudness": -18.705,
+      "acousticness": 0.996
     },
     "77576246": {
       "date": "2026-09-21",
@@ -4100,7 +4140,12 @@
         "hard bop",
         "free jazz",
         "bebop"
-      ]
+      ],
+      "intensiteit": 0.277,
+      "energy": 0.257,
+      "tempo": 65,
+      "loudness": -12.484,
+      "acousticness": 0.932
     },
     "155719983": {
       "date": "2026-09-21",
@@ -4113,7 +4158,12 @@
         "vocal jazz",
         "jazz",
         "bossa nova"
-      ]
+      ],
+      "intensiteit": 0.416,
+      "energy": 0.332,
+      "tempo": 116,
+      "loudness": -11.056,
+      "acousticness": 0.762
     },
     "77658916": {
       "date": "2026-09-21",
@@ -4125,7 +4175,12 @@
         "french jazz",
         "vocal jazz",
         "jazz"
-      ]
+      ],
+      "intensiteit": 0.194,
+      "energy": 0.0859,
+      "tempo": 127,
+      "loudness": -18.252,
+      "acousticness": 0.946
     },
     "77576245": {
       "date": "2026-09-21",
@@ -4138,7 +4193,12 @@
         "hard bop",
         "free jazz",
         "bebop"
-      ]
+      ],
+      "intensiteit": 0.195,
+      "energy": 0.125,
+      "tempo": 66,
+      "loudness": -12.906,
+      "acousticness": 0.963
     },
     "1629794": {
       "date": "2026-09-21",
@@ -4151,7 +4211,12 @@
         "vocal jazz",
         "jazz",
         "jazz pop"
-      ]
+      ],
+      "intensiteit": 0.354,
+      "energy": 0.329,
+      "tempo": 72,
+      "loudness": -10.715,
+      "acousticness": 0.815
     },
     "108022866": {
       "date": "2026-09-21",
@@ -4163,7 +4228,12 @@
         "cool jazz",
         "jazz",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.138,
+      "energy": 0.0582,
+      "tempo": 93,
+      "loudness": -19.131,
+      "acousticness": 0.883
     },
     "1629790": {
       "date": "2026-09-21",
@@ -4176,7 +4246,12 @@
         "vocal jazz",
         "jazz",
         "jazz pop"
-      ]
+      ],
+      "intensiteit": 0.303,
+      "energy": 0.226,
+      "tempo": 86,
+      "loudness": -9.966,
+      "acousticness": 0.947
     },
     "175014909": {
       "date": "2026-09-21",
@@ -4189,7 +4264,12 @@
         "cool jazz",
         "vocal jazz",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.246,
+      "energy": 0.148,
+      "tempo": 115,
+      "loudness": -16.462,
+      "acousticness": 0.848
     },
     "4859214": {
       "date": "2026-09-21",
@@ -4202,7 +4282,12 @@
         "jazz ballads",
         "free jazz",
         "cool jazz"
-      ]
+      ],
+      "intensiteit": 0.014,
+      "energy": 0.0182,
+      "tempo": 60,
+      "loudness": -28.654,
+      "acousticness": 0.975
     },
     "150158150": {
       "date": "2026-09-21",
@@ -4225,7 +4310,12 @@
         "cool jazz",
         "vocal jazz",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.224,
+      "energy": 0.121,
+      "tempo": 113,
+      "loudness": -15.179,
+      "acousticness": 0.959
     },
     "1629784": {
       "date": "2026-09-21",
@@ -4238,7 +4328,12 @@
         "vocal jazz",
         "jazz",
         "jazz pop"
-      ]
+      ],
+      "intensiteit": 0.407,
+      "energy": 0.355,
+      "tempo": 106,
+      "loudness": -10.735,
+      "acousticness": 0.837
     },
     "437617038": {
       "date": "2026-09-21",
@@ -4264,7 +4359,12 @@
         "vocal jazz",
         "jazz",
         "bossa nova"
-      ]
+      ],
+      "intensiteit": 0.259,
+      "energy": 0.201,
+      "tempo": 88,
+      "loudness": -13.862,
+      "acousticness": 0.906
     },
     "101524154": {
       "date": "2026-09-21",
@@ -4276,7 +4376,12 @@
         "cool jazz",
         "jazz",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.058,
+      "energy": 0.00946,
+      "tempo": 111,
+      "loudness": -29.851,
+      "acousticness": 0.987
     },
     "3164760": {
       "date": "2026-09-21",
@@ -4288,7 +4393,12 @@
         "vocal jazz",
         "french jazz",
         "jazz"
-      ]
+      ],
+      "intensiteit": 0.28,
+      "energy": 0.312,
+      "tempo": 78,
+      "loudness": -16.456,
+      "acousticness": 0.915
     },
     "13345177": {
       "date": "2026-09-21",
@@ -4301,7 +4411,12 @@
         "jazz",
         "brazilian jazz",
         "cool jazz"
-      ]
+      ],
+      "intensiteit": 0.309,
+      "energy": 0.282,
+      "tempo": 90,
+      "loudness": -13.033,
+      "acousticness": 0.942
     },
     "103014044": {
       "date": "2026-09-21",
@@ -4313,7 +4428,12 @@
         "vocal jazz",
         "jazz ballads",
         "jazz"
-      ]
+      ],
+      "intensiteit": 0.258,
+      "energy": 0.139,
+      "tempo": 118,
+      "loudness": -15.885,
+      "acousticness": 0.802
     },
     "4859219": {
       "date": "2026-09-21",
@@ -4326,7 +4446,12 @@
         "jazz ballads",
         "free jazz",
         "cool jazz"
-      ]
+      ],
+      "intensiteit": 0.037,
+      "energy": 0.029,
+      "tempo": 82,
+      "loudness": -30.664,
+      "acousticness": 0.956
     },
     "111970533": {
       "date": "2026-09-21",
@@ -4363,7 +4488,12 @@
         "vocal jazz",
         "jazz pop",
         "jazz"
-      ]
+      ],
+      "intensiteit": 0.257,
+      "energy": 0.0988,
+      "tempo": 124,
+      "loudness": -11.565,
+      "acousticness": 0.99
     },
     "13345162": {
       "date": "2026-09-21",
@@ -4376,7 +4506,12 @@
         "jazz",
         "brazilian jazz",
         "cool jazz"
-      ]
+      ],
+      "intensiteit": 0.3,
+      "energy": 0.293,
+      "tempo": 79,
+      "loudness": -12.478,
+      "acousticness": 0.983
     },
     "13372625": {
       "date": "2026-09-21",
@@ -4388,7 +4523,12 @@
         "vocal jazz",
         "jazz",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.041,
+      "energy": 0.0183,
+      "tempo": 80,
+      "loudness": -24.347,
+      "acousticness": 0.921
     },
     "56221372": {
       "date": "2026-09-21",
@@ -4401,7 +4541,12 @@
         "jazz",
         "bebop",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.446,
+      "energy": 0.367,
+      "tempo": 171,
+      "loudness": -12.771,
+      "acousticness": 0.856
     },
     "108022853": {
       "date": "2026-09-21",
@@ -4414,7 +4559,12 @@
         "vocal jazz",
         "big band",
         "swing music"
-      ]
+      ],
+      "intensiteit": 0.344,
+      "energy": 0.312,
+      "tempo": 81,
+      "loudness": -13.763,
+      "acousticness": 0.693
     },
     "143265767": {
       "date": "2026-09-21",
@@ -4452,7 +4602,12 @@
         "jazz",
         "bebop",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.444,
+      "energy": 0.382,
+      "tempo": 185,
+      "loudness": -13.984,
+      "acousticness": 0.841
     },
     "1629787": {
       "date": "2026-09-21",
@@ -4465,7 +4620,12 @@
         "vocal jazz",
         "jazz",
         "jazz pop"
-      ]
+      ],
+      "intensiteit": 0.324,
+      "energy": 0.254,
+      "tempo": 105,
+      "loudness": -12.302,
+      "acousticness": 0.907
     },
     "56221375": {
       "date": "2026-09-21",
@@ -4478,7 +4638,12 @@
         "jazz",
         "bebop",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.257,
+      "energy": 0.216,
+      "tempo": 114,
+      "loudness": -17.92,
+      "acousticness": 0.917
     },
     "155503989": {
       "date": "2026-09-21",
@@ -4504,7 +4669,12 @@
         "jazz ballads",
         "free jazz",
         "cool jazz"
-      ]
+      ],
+      "intensiteit": 0.083,
+      "energy": 0.0194,
+      "tempo": 115,
+      "loudness": -23.546,
+      "acousticness": 0.989
     },
     "77658920": {
       "date": "2026-09-21",
@@ -4516,7 +4686,12 @@
         "french jazz",
         "vocal jazz",
         "jazz"
-      ]
+      ],
+      "intensiteit": 0.166,
+      "energy": 0.074,
+      "tempo": 109,
+      "loudness": -18.186,
+      "acousticness": 0.945
     },
     "77576251": {
       "date": "2026-09-21",
@@ -4529,7 +4704,12 @@
         "hard bop",
         "free jazz",
         "bebop"
-      ]
+      ],
+      "intensiteit": 0.232,
+      "energy": 0.107,
+      "tempo": 98,
+      "loudness": -13.328,
+      "acousticness": 0.857
     },
     "158157": {
       "date": "2026-09-21",
@@ -4542,7 +4722,12 @@
         "cool jazz",
         "vocal jazz",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.127,
+      "energy": 0.0522,
+      "tempo": 63,
+      "loudness": -16.266,
+      "acousticness": 0.928
     },
     "77611559": {
       "date": "2026-09-21",
@@ -4555,7 +4740,12 @@
         "jazz ballads",
         "cool jazz",
         "bebop"
-      ]
+      ],
+      "intensiteit": 0.302,
+      "energy": 0.284,
+      "tempo": 105,
+      "loudness": -17.392,
+      "acousticness": 0.825
     },
     "77658908": {
       "date": "2026-09-21",
@@ -4567,7 +4757,12 @@
         "french jazz",
         "vocal jazz",
         "jazz"
-      ]
+      ],
+      "intensiteit": 0.147,
+      "energy": 0.075,
+      "tempo": 99,
+      "loudness": -18.73,
+      "acousticness": 0.96
     },
     "13345175": {
       "date": "2026-09-21",
@@ -4580,7 +4775,12 @@
         "jazz",
         "brazilian jazz",
         "cool jazz"
-      ]
+      ],
+      "intensiteit": 0.272,
+      "energy": 0.218,
+      "tempo": 90,
+      "loudness": -12.708,
+      "acousticness": 0.975
     },
     "13372617": {
       "date": "2026-09-21",
@@ -4592,7 +4792,12 @@
         "vocal jazz",
         "jazz",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.193,
+      "energy": 0.121,
+      "tempo": 80,
+      "loudness": -21.417,
+      "acousticness": 0.481
     },
     "143265772": {
       "date": "2026-09-21",
@@ -4618,7 +4823,12 @@
         "brazilian jazz",
         "latin jazz",
         "vocal jazz"
-      ]
+      ],
+      "intensiteit": 0.271,
+      "energy": 0.181,
+      "tempo": 123,
+      "loudness": -16.499,
+      "acousticness": 0.863
     },
     "437617032": {
       "date": "2026-09-21",
@@ -4667,7 +4877,12 @@
         "vocal jazz",
         "big band",
         "swing music"
-      ]
+      ],
+      "intensiteit": 0.327,
+      "energy": 0.248,
+      "tempo": 62,
+      "loudness": -12.084,
+      "acousticness": 0.59
     },
     "77611556": {
       "date": "2026-09-21",
@@ -4680,7 +4895,12 @@
         "jazz ballads",
         "cool jazz",
         "bebop"
-      ]
+      ],
+      "intensiteit": 0.337,
+      "energy": 0.231,
+      "tempo": 140,
+      "loudness": -17.586,
+      "acousticness": 0.683
     },
     "3164755": {
       "date": "2026-09-21",
@@ -4692,7 +4912,12 @@
         "vocal jazz",
         "french jazz",
         "jazz"
-      ]
+      ],
+      "intensiteit": 0.522,
+      "energy": 0.427,
+      "tempo": 138,
+      "loudness": -9.825,
+      "acousticness": 0.665
     },
     "143265765": {
       "date": "2026-09-21",
@@ -4718,7 +4943,12 @@
         "vocal jazz",
         "jazz",
         "jazz pop"
-      ]
+      ],
+      "intensiteit": 0.455,
+      "energy": 0.419,
+      "tempo": 108,
+      "loudness": -9.912,
+      "acousticness": 0.828
     },
     "175014921": {
       "date": "2026-09-21",
@@ -4731,7 +4961,12 @@
         "cool jazz",
         "vocal jazz",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.113,
+      "energy": 0.0148,
+      "tempo": 119,
+      "loudness": -21.076,
+      "acousticness": 0.967
     },
     "119987718": {
       "date": "2026-09-27",
@@ -4744,7 +4979,12 @@
         "brazilian jazz",
         "latin jazz",
         "vocal jazz"
-      ]
+      ],
+      "intensiteit": 0.352,
+      "energy": 0.198,
+      "tempo": 148,
+      "loudness": -16.938,
+      "acousticness": 0.567
     },
     "2993270": {
       "date": "2026-09-27",
@@ -4757,7 +4997,12 @@
         "jazz",
         "bossa nova",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.277,
+      "energy": 0.255,
+      "tempo": 98,
+      "loudness": -17.124,
+      "acousticness": 0.843
     },
     "80057442": {
       "date": "2026-09-27",
@@ -4769,7 +5014,12 @@
         "vocal jazz",
         "jazz pop",
         "jazz"
-      ]
+      ],
+      "intensiteit": 0.372,
+      "energy": 0.234,
+      "tempo": 138,
+      "loudness": -11.615,
+      "acousticness": 0.837
     },
     "13345170": {
       "date": "2026-09-27",
@@ -4782,7 +5032,12 @@
         "jazz",
         "brazilian jazz",
         "cool jazz"
-      ]
+      ],
+      "intensiteit": 0.27,
+      "energy": 0.252,
+      "tempo": 66,
+      "loudness": -11.983,
+      "acousticness": 0.994
     },
     "13372623": {
       "date": "2026-09-27",
@@ -4794,7 +5049,12 @@
         "vocal jazz",
         "jazz",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.035,
+      "energy": 0.0169,
+      "tempo": 81,
+      "loudness": -25.314,
+      "acousticness": 0.916
     },
     "4859225": {
       "date": "2026-09-27",
@@ -4807,7 +5067,12 @@
         "jazz ballads",
         "free jazz",
         "cool jazz"
-      ]
+      ],
+      "intensiteit": 0.031,
+      "energy": 0.0448,
+      "tempo": 67,
+      "loudness": -27.053,
+      "acousticness": 0.955
     },
     "155503991": {
       "date": "2026-09-27",
@@ -4833,7 +5098,12 @@
         "jazz",
         "bossa nova",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.359,
+      "energy": 0.207,
+      "tempo": 179,
+      "loudness": -15.578,
+      "acousticness": 0.659
     },
     "77658913": {
       "date": "2026-09-27",
@@ -4845,7 +5115,12 @@
         "french jazz",
         "vocal jazz",
         "jazz"
-      ]
+      ],
+      "intensiteit": 0.142,
+      "energy": 0.0463,
+      "tempo": 117,
+      "loudness": -20.049,
+      "acousticness": 0.94
     },
     "58993632": {
       "date": "2026-09-27",
@@ -4883,7 +5158,12 @@
         "hard bop",
         "free jazz",
         "bebop"
-      ]
+      ],
+      "intensiteit": 0.221,
+      "energy": 0.182,
+      "tempo": 64,
+      "loudness": -13.714,
+      "acousticness": 0.946
     },
     "155719987": {
       "date": "2026-09-27",
@@ -4896,7 +5176,12 @@
         "vocal jazz",
         "jazz",
         "bossa nova"
-      ]
+      ],
+      "intensiteit": 0.201,
+      "energy": 0.102,
+      "tempo": 122,
+      "loudness": -17.979,
+      "acousticness": 0.938
     },
     "143265766": {
       "date": "2026-09-27",
@@ -4921,7 +5206,12 @@
         "vocal jazz",
         "jazz pop",
         "jazz"
-      ]
+      ],
+      "intensiteit": 0.461,
+      "energy": 0.344,
+      "tempo": 133,
+      "loudness": -9.425,
+      "acousticness": 0.75
     },
     "13345164": {
       "date": "2026-09-27",
@@ -4934,7 +5224,12 @@
         "jazz",
         "brazilian jazz",
         "cool jazz"
-      ]
+      ],
+      "intensiteit": 0.255,
+      "energy": 0.146,
+      "tempo": 124,
+      "loudness": -14.265,
+      "acousticness": 0.996
     },
     "119987711": {
       "date": "2026-09-27",
@@ -4947,7 +5242,12 @@
         "brazilian jazz",
         "latin jazz",
         "vocal jazz"
-      ]
+      ],
+      "intensiteit": 0.324,
+      "energy": 0.215,
+      "tempo": 133,
+      "loudness": -14.364,
+      "acousticness": 0.864
     },
     "437617035": {
       "date": "2026-09-27",
@@ -4973,7 +5273,12 @@
         "vocal jazz",
         "swing music",
         "big band"
-      ]
+      ],
+      "intensiteit": 0.174,
+      "energy": 0.118,
+      "tempo": 82,
+      "loudness": -18.167,
+      "acousticness": 0.829
     },
     "175014924": {
       "date": "2026-09-27",
@@ -4986,7 +5291,12 @@
         "cool jazz",
         "vocal jazz",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.228,
+      "energy": 0.14,
+      "tempo": 92,
+      "loudness": -13.967,
+      "acousticness": 0.911
     },
     "13372622": {
       "date": "2026-09-27",
@@ -4998,7 +5308,12 @@
         "vocal jazz",
         "jazz",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.124,
+      "energy": 0.0284,
+      "tempo": 144,
+      "loudness": -28.924,
+      "acousticness": 0.894
     },
     "108022862": {
       "date": "2026-09-27",
@@ -5010,7 +5325,12 @@
         "cool jazz",
         "jazz",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.394,
+      "energy": 0.304,
+      "tempo": 121,
+      "loudness": -12.603,
+      "acousticness": 0.739
     },
     "155503988": {
       "date": "2026-09-27",
@@ -5036,7 +5356,12 @@
         "cool jazz",
         "vocal jazz",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.212,
+      "energy": 0.0906,
+      "tempo": 113,
+      "loudness": -15.19,
+      "acousticness": 0.937
     },
     "93120395": {
       "date": "2026-09-30",
@@ -5049,7 +5374,12 @@
         "vocal jazz",
         "big band",
         "swing music"
-      ]
+      ],
+      "intensiteit": 0.372,
+      "energy": 0.232,
+      "tempo": 128,
+      "loudness": -13.584,
+      "acousticness": 0.611
     },
     "3686782": {
       "date": "2026-09-30",
@@ -5062,7 +5392,12 @@
         "jazz ballads",
         "cool jazz",
         "bebop"
-      ]
+      ],
+      "intensiteit": 0.282,
+      "energy": 0.208,
+      "tempo": 87,
+      "loudness": -12.313,
+      "acousticness": 0.87
     },
     "103014047": {
       "date": "2026-09-30",
@@ -5074,7 +5409,12 @@
         "vocal jazz",
         "jazz ballads",
         "jazz"
-      ]
+      ],
+      "intensiteit": 0.136,
+      "energy": 0.0605,
+      "tempo": 118,
+      "loudness": -21.141,
+      "acousticness": 0.969
     },
     "2451019": {
       "date": "2026-09-30",
@@ -5087,7 +5427,12 @@
         "jazz",
         "soul jazz",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.06,
+      "energy": 0.0225,
+      "tempo": 106,
+      "loudness": -24.925,
+      "acousticness": 0.987
     },
     "4016204": {
       "date": "2026-09-30",
@@ -5099,7 +5444,12 @@
         "french jazz",
         "vocal jazz",
         "jazz"
-      ]
+      ],
+      "intensiteit": 0.319,
+      "energy": 0.221,
+      "tempo": 130,
+      "loudness": -13.496,
+      "acousticness": 0.955
     },
     "158979": {
       "date": "2026-09-30",
@@ -5112,7 +5462,12 @@
         "cool jazz",
         "vocal jazz",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.084,
+      "energy": 0.00804,
+      "tempo": 63,
+      "loudness": -17.129,
+      "acousticness": 0.993
     },
     "1629785": {
       "date": "2026-09-30",
@@ -5125,7 +5480,12 @@
         "vocal jazz",
         "jazz",
         "jazz pop"
-      ]
+      ],
+      "intensiteit": 0.403,
+      "energy": 0.352,
+      "tempo": 106,
+      "loudness": -10.346,
+      "acousticness": 0.878
     },
     "3686805": {
       "date": "2026-09-30",
@@ -5137,7 +5497,12 @@
         "jazz ballads",
         "jazz",
         "big band"
-      ]
+      ],
+      "intensiteit": 0.32,
+      "energy": 0.298,
+      "tempo": 77,
+      "loudness": -12.134,
+      "acousticness": 0.876
     },
     "103014048": {
       "date": "2026-09-30",
@@ -5149,7 +5514,12 @@
         "vocal jazz",
         "jazz ballads",
         "jazz"
-      ]
+      ],
+      "intensiteit": 0.333,
+      "energy": 0.256,
+      "tempo": 128,
+      "loudness": -14.418,
+      "acousticness": 0.907
     },
     "147292": {
       "date": "2026-09-30",
@@ -5162,7 +5532,12 @@
         "jazz",
         "jazz ballads",
         "bebop"
-      ]
+      ],
+      "intensiteit": 0.224,
+      "energy": 0.0921,
+      "tempo": 115,
+      "loudness": -14.569,
+      "acousticness": 0.918
     },
     "93120396": {
       "date": "2026-09-30",
@@ -5175,7 +5550,12 @@
         "vocal jazz",
         "big band",
         "swing music"
-      ]
+      ],
+      "intensiteit": 0.231,
+      "energy": 0.0932,
+      "tempo": 114,
+      "loudness": -16.468,
+      "acousticness": 0.741
     },
     "77576249": {
       "date": "2026-09-30",
@@ -5188,7 +5568,12 @@
         "hard bop",
         "free jazz",
         "bebop"
-      ]
+      ],
+      "intensiteit": 0.253,
+      "energy": 0.133,
+      "tempo": 131,
+      "loudness": -14.853,
+      "acousticness": 0.986
     },
     "3491637": {
       "date": "2026-09-30",
@@ -5201,7 +5586,12 @@
         "swing music",
         "big band",
         "jazz"
-      ]
+      ],
+      "intensiteit": 0.293,
+      "energy": 0.219,
+      "tempo": 112,
+      "loudness": -13.534,
+      "acousticness": 0.968
     },
     "3970985": {
       "date": "2026-09-30",
@@ -5214,7 +5604,12 @@
         "jazz ballads",
         "free jazz",
         "cool jazz"
-      ]
+      ],
+      "intensiteit": 0.21,
+      "energy": 0.173,
+      "tempo": 78,
+      "loudness": -14.7,
+      "acousticness": 0.988
     },
     "96698615": {
       "date": "2026-09-30",
@@ -5227,7 +5622,12 @@
         "big band",
         "adult standards",
         "swing music"
-      ]
+      ],
+      "intensiteit": 0.363,
+      "energy": 0.199,
+      "tempo": 170,
+      "loudness": -13.849,
+      "acousticness": 0.723
     },
     "72760": {
       "date": "2026-09-30",
@@ -5240,7 +5640,12 @@
         "jazz",
         "bossa nova",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.084,
+      "energy": 0.071,
+      "tempo": 78,
+      "loudness": -21.666,
+      "acousticness": 0.987
     },
     "3164754": {
       "date": "2026-09-30",
@@ -5252,7 +5657,12 @@
         "vocal jazz",
         "french jazz",
         "jazz"
-      ]
+      ],
+      "intensiteit": 0.434,
+      "energy": 0.378,
+      "tempo": 121,
+      "loudness": -12.53,
+      "acousticness": 0.746
     },
     "3686774": {
       "date": "2026-09-30",
@@ -5265,7 +5675,12 @@
         "jazz ballads",
         "cool jazz",
         "bebop"
-      ]
+      ],
+      "intensiteit": 0.312,
+      "energy": 0.12,
+      "tempo": 116,
+      "loudness": -13.815,
+      "acousticness": 0.494
     },
     "111970309": {
       "date": "2026-09-30",
@@ -5289,7 +5704,12 @@
         "cool jazz",
         "vocal jazz",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.125,
+      "energy": 0.0269,
+      "tempo": 122,
+      "loudness": -21.029,
+      "acousticness": 0.965
     },
     "1577509": {
       "date": "2026-09-30",
@@ -5302,7 +5722,12 @@
         "big band",
         "adult standards",
         "swing music"
-      ]
+      ],
+      "intensiteit": 0.171,
+      "energy": 0.085,
+      "tempo": 86,
+      "loudness": -17.062,
+      "acousticness": 0.828
     },
     "2987953": {
       "date": "2026-09-30",
@@ -5315,7 +5740,12 @@
         "jazz",
         "bossa nova",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.195,
+      "energy": 0.183,
+      "tempo": 82,
+      "loudness": -21.276,
+      "acousticness": 0.717
     },
     "2873530": {
       "date": "2026-09-30",
@@ -5328,7 +5758,12 @@
         "adult standards",
         "vocal jazz",
         "big band"
-      ]
+      ],
+      "intensiteit": 0.361,
+      "energy": 0.245,
+      "tempo": 125,
+      "loudness": -13.21,
+      "acousticness": 0.733
     },
     "3974255": {
       "date": "2026-09-30",
@@ -5340,7 +5775,12 @@
         "jazz fusion",
         "jazz",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.232,
+      "energy": 0.262,
+      "tempo": 67,
+      "loudness": -19.33,
+      "acousticness": 0.794
     },
     "96698614": {
       "date": "2026-09-30",
@@ -5353,7 +5793,12 @@
         "big band",
         "adult standards",
         "swing music"
-      ]
+      ],
+      "intensiteit": 0.188,
+      "energy": 0.118,
+      "tempo": 89,
+      "loudness": -17.034,
+      "acousticness": 0.866
     },
     "279575651": {
       "date": "2026-09-30",
@@ -5365,7 +5810,12 @@
         "big band",
         "cool jazz",
         "swing music"
-      ]
+      ],
+      "intensiteit": 0.058,
+      "energy": 0.0387,
+      "tempo": 84,
+      "loudness": -23.314,
+      "acousticness": 0.989
     },
     "73602676": {
       "date": "2026-09-30",
@@ -5377,7 +5827,12 @@
         "vocal jazz",
         "jazz",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.464,
+      "energy": 0.403,
+      "tempo": 131,
+      "loudness": -14.495,
+      "acousticness": 0.592
     },
     "58993637": {
       "date": "2026-09-30",
@@ -5403,7 +5858,12 @@
         "big band",
         "adult standards",
         "swing music"
-      ]
+      ],
+      "intensiteit": 0.147,
+      "energy": 0.0888,
+      "tempo": 80,
+      "loudness": -17.927,
+      "acousticness": 0.896
     },
     "4020922": {
       "date": "2026-09-30",
@@ -5416,7 +5876,12 @@
         "jazz piano",
         "piano",
         "jazz trio"
-      ]
+      ],
+      "intensiteit": 0.144,
+      "energy": 0.119,
+      "tempo": 76,
+      "loudness": -18.397,
+      "acousticness": 0.966
     },
     "13372624": {
       "date": "2026-09-30",
@@ -5428,7 +5893,12 @@
         "vocal jazz",
         "jazz",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.249,
+      "energy": 0.223,
+      "tempo": 75,
+      "loudness": -19.527,
+      "acousticness": 0.561
     },
     "4021507": {
       "date": "2026-09-30",
@@ -5441,7 +5911,12 @@
         "jazz ballads",
         "hard bop",
         "cool jazz"
-      ]
+      ],
+      "intensiteit": 0.203,
+      "energy": 0.2,
+      "tempo": 119,
+      "loudness": -23.829,
+      "acousticness": 0.864
     },
     "2894491": {
       "date": "2026-09-30",
@@ -5454,7 +5929,12 @@
         "adult standards",
         "vocal jazz",
         "big band"
-      ]
+      ],
+      "intensiteit": 0.298,
+      "energy": 0.255,
+      "tempo": 80,
+      "loudness": -13.914,
+      "acousticness": 0.769
     },
     "49796404": {
       "date": "2026-09-30",
@@ -5467,7 +5947,12 @@
         "piano",
         "jazz piano",
         "swing"
-      ]
+      ],
+      "intensiteit": 0.131,
+      "energy": 0.0599,
+      "tempo": 93,
+      "loudness": -18.719,
+      "acousticness": 0.959
     },
     "111970303": {
       "date": "2026-09-30",
@@ -5491,7 +5976,12 @@
         "jazz ballads",
         "free jazz",
         "cool jazz"
-      ]
+      ],
+      "intensiteit": 0.18,
+      "energy": 0.148,
+      "tempo": 82,
+      "loudness": -17.185,
+      "acousticness": 0.962
     },
     "1657190": {
       "date": "2026-09-30",
@@ -5503,7 +5993,12 @@
         "vocal jazz",
         "french jazz",
         "jazz"
-      ]
+      ],
+      "intensiteit": 0.259,
+      "energy": 0.222,
+      "tempo": 105,
+      "loudness": -17.117,
+      "acousticness": 0.904
     },
     "3974258": {
       "date": "2026-09-30",
@@ -5515,7 +6010,12 @@
         "jazz fusion",
         "jazz",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.277,
+      "energy": 0.132,
+      "tempo": 141,
+      "loudness": -15.757,
+      "acousticness": 0.846
     },
     "121091863": {
       "date": "2026-09-30",
@@ -5528,7 +6028,12 @@
         "jazz",
         "brazilian jazz",
         "cool jazz"
-      ]
+      ],
+      "intensiteit": 0.346,
+      "energy": 0.236,
+      "tempo": 160,
+      "loudness": -14.066,
+      "acousticness": 0.954
     },
     "4859215": {
       "date": "2026-09-30",
@@ -5541,7 +6046,12 @@
         "jazz ballads",
         "free jazz",
         "cool jazz"
-      ]
+      ],
+      "intensiteit": 0.097,
+      "energy": 0.0835,
+      "tempo": 99,
+      "loudness": -26.111,
+      "acousticness": 0.898
     },
     "1629792": {
       "date": "2026-09-30",
@@ -5554,7 +6064,12 @@
         "vocal jazz",
         "jazz",
         "jazz pop"
-      ]
+      ],
+      "intensiteit": 0.276,
+      "energy": 0.192,
+      "tempo": 113,
+      "loudness": -13.999,
+      "acousticness": 0.96
     },
     "3974250": {
       "date": "2026-09-30",
@@ -5566,7 +6081,12 @@
         "jazz fusion",
         "jazz",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.154,
+      "energy": 0.0716,
+      "tempo": 113,
+      "loudness": -19.355,
+      "acousticness": 0.973
     },
     "74178998": {
       "date": "2026-09-30",
@@ -5579,7 +6099,12 @@
         "big band",
         "cool jazz",
         "swing music"
-      ]
+      ],
+      "intensiteit": 0.251,
+      "energy": 0.139,
+      "tempo": 111,
+      "loudness": -13.427,
+      "acousticness": 0.951
     },
     "4859213": {
       "date": "2026-09-30",
@@ -5592,7 +6117,12 @@
         "jazz ballads",
         "free jazz",
         "cool jazz"
-      ]
+      ],
+      "intensiteit": 0.097,
+      "energy": 0.0772,
+      "tempo": 95,
+      "loudness": -23.279,
+      "acousticness": 0.961
     },
     "73602670": {
       "date": "2026-09-30",
@@ -5604,7 +6134,12 @@
         "vocal jazz",
         "jazz",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.103,
+      "energy": 0.0335,
+      "tempo": 92,
+      "loudness": -20.479,
+      "acousticness": 0.924
     },
     "2993269": {
       "date": "2026-09-30",
@@ -5617,7 +6152,12 @@
         "jazz",
         "bossa nova",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.36,
+      "energy": 0.388,
+      "tempo": 120,
+      "loudness": -18.203,
+      "acousticness": 0.893
     },
     "111970537": {
       "date": "2026-09-30",
@@ -5642,7 +6182,12 @@
         "cool jazz",
         "jazz ballads",
         "hard bop"
-      ]
+      ],
+      "intensiteit": 0.207,
+      "energy": 0.194,
+      "tempo": 74,
+      "loudness": -16.429,
+      "acousticness": 0.938
     },
     "2873524": {
       "date": "2026-09-30",
@@ -5655,7 +6200,12 @@
         "adult standards",
         "vocal jazz",
         "big band"
-      ]
+      ],
+      "intensiteit": 0.337,
+      "energy": 0.289,
+      "tempo": 98,
+      "loudness": -13.141,
+      "acousticness": 0.837
     },
     "13345166": {
       "date": "2026-09-30",
@@ -5668,7 +6218,12 @@
         "jazz",
         "brazilian jazz",
         "cool jazz"
-      ]
+      ],
+      "intensiteit": 0.474,
+      "energy": 0.409,
+      "tempo": 145,
+      "loudness": -9.929,
+      "acousticness": 0.964
     },
     "93438098": {
       "date": "2026-09-30",
@@ -5681,7 +6236,12 @@
         "swing music",
         "vocal jazz",
         "big band"
-      ]
+      ],
+      "intensiteit": 0.534,
+      "energy": 0.358,
+      "tempo": 134,
+      "loudness": -10.961,
+      "acousticness": 0.225
     },
     "3970993": {
       "date": "2026-09-30",
@@ -5694,7 +6254,12 @@
         "jazz ballads",
         "free jazz",
         "cool jazz"
-      ]
+      ],
+      "intensiteit": 0.171,
+      "energy": 0.147,
+      "tempo": 109,
+      "loudness": -21.72,
+      "acousticness": 0.94
     },
     "2894498": {
       "date": "2026-09-30",
@@ -5707,7 +6272,12 @@
         "adult standards",
         "vocal jazz",
         "big band"
-      ]
+      ],
+      "intensiteit": 0.286,
+      "energy": 0.197,
+      "tempo": 135,
+      "loudness": -16.563,
+      "acousticness": 0.921
     },
     "150160722": {
       "date": "2026-09-30",
@@ -5733,7 +6303,12 @@
         "big band",
         "adult standards",
         "swing music"
-      ]
+      ],
+      "intensiteit": 0.227,
+      "energy": 0.11,
+      "tempo": 117,
+      "loudness": -15.383,
+      "acousticness": 0.923
     },
     "158967": {
       "date": "2026-09-30",
@@ -5746,7 +6321,12 @@
         "cool jazz",
         "vocal jazz",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.1,
+      "energy": 0.0114,
+      "tempo": 115,
+      "loudness": -22.482,
+      "acousticness": 0.917
     },
     "1657194": {
       "date": "2026-09-30",
@@ -5758,7 +6338,12 @@
         "vocal jazz",
         "french jazz",
         "jazz"
-      ]
+      ],
+      "intensiteit": 0.263,
+      "energy": 0.141,
+      "tempo": 124,
+      "loudness": -14.38,
+      "acousticness": 0.917
     },
     "297666778": {
       "date": "2026-09-30",
@@ -5770,7 +6355,12 @@
         "big band",
         "cool jazz",
         "swing music"
-      ]
+      ],
+      "intensiteit": 0.117,
+      "energy": 0.0691,
+      "tempo": 82,
+      "loudness": -19.127,
+      "acousticness": 0.966
     },
     "2873533": {
       "date": "2026-09-30",
@@ -5783,7 +6373,12 @@
         "adult standards",
         "vocal jazz",
         "big band"
-      ]
+      ],
+      "intensiteit": 0.19,
+      "energy": 0.139,
+      "tempo": 86,
+      "loudness": -17.72,
+      "acousticness": 0.864
     },
     "72763": {
       "date": "2026-09-30",
@@ -5796,7 +6391,12 @@
         "jazz",
         "bossa nova",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.127,
+      "energy": 0.0784,
+      "tempo": 89,
+      "loudness": -20.699,
+      "acousticness": 0.886
     },
     "68713485": {
       "date": "2026-09-30",
@@ -5832,7 +6432,12 @@
         "swing music",
         "vocal jazz",
         "big band"
-      ]
+      ],
+      "intensiteit": 0.336,
+      "energy": 0.209,
+      "tempo": 111,
+      "loudness": -16.784,
+      "acousticness": 0.418
     },
     "4020925": {
       "date": "2026-09-30",
@@ -5845,7 +6450,12 @@
         "jazz piano",
         "piano",
         "jazz trio"
-      ]
+      ],
+      "intensiteit": 0.327,
+      "energy": 0.223,
+      "tempo": 170,
+      "loudness": -16.339,
+      "acousticness": 0.883
     },
     "150158147": {
       "date": "2026-09-30",
@@ -5868,7 +6478,12 @@
         "jazz",
         "bossa nova",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.282,
+      "energy": 0.194,
+      "tempo": 142,
+      "loudness": -17.354,
+      "acousticness": 0.939
     },
     "93438099": {
       "date": "2026-09-30",
@@ -5881,7 +6496,12 @@
         "swing music",
         "vocal jazz",
         "big band"
-      ]
+      ],
+      "intensiteit": 0.196,
+      "energy": 0.149,
+      "tempo": 73,
+      "loudness": -17.665,
+      "acousticness": 0.751
     },
     "416800407": {
       "date": "2026-09-30",
@@ -5906,7 +6526,12 @@
         "vocal jazz",
         "jazz",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.305,
+      "energy": 0.223,
+      "tempo": 141,
+      "loudness": -19.596,
+      "acousticness": 0.735
     },
     "2993272": {
       "date": "2026-09-30",
@@ -5919,7 +6544,12 @@
         "jazz",
         "bossa nova",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.378,
+      "energy": 0.412,
+      "tempo": 114,
+      "loudness": -17.081,
+      "acousticness": 0.889
     },
     "1398915": {
       "date": "2026-09-30",
@@ -5932,7 +6562,12 @@
         "big band",
         "adult standards",
         "swing music"
-      ]
+      ],
+      "intensiteit": 0.279,
+      "energy": 0.131,
+      "tempo": 172,
+      "loudness": -15.827,
+      "acousticness": 0.901
     },
     "72765": {
       "date": "2026-09-30",
@@ -5945,7 +6580,12 @@
         "jazz",
         "bossa nova",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.141,
+      "energy": 0.102,
+      "tempo": 101,
+      "loudness": -22.335,
+      "acousticness": 0.875
     },
     "43878974": {
       "date": "2026-09-30",
@@ -5958,7 +6598,12 @@
         "vocal jazz",
         "big band",
         "swing music"
-      ]
+      ],
+      "intensiteit": 0.334,
+      "energy": 0.271,
+      "tempo": 113,
+      "loudness": -12.629,
+      "acousticness": 0.949
     },
     "4859223": {
       "date": "2026-09-30",
@@ -5971,7 +6616,12 @@
         "jazz ballads",
         "free jazz",
         "cool jazz"
-      ]
+      ],
+      "intensiteit": 0.092,
+      "energy": 0.0689,
+      "tempo": 106,
+      "loudness": -26.46,
+      "acousticness": 0.939
     },
     "3491650": {
       "date": "2026-09-30",
@@ -5984,7 +6634,12 @@
         "swing music",
         "big band",
         "jazz"
-      ]
+      ],
+      "intensiteit": 0.43,
+      "energy": 0.328,
+      "tempo": 123,
+      "loudness": -10.704,
+      "acousticness": 0.724
     },
     "4021509": {
       "date": "2026-09-30",
@@ -5997,7 +6652,12 @@
         "jazz ballads",
         "hard bop",
         "cool jazz"
-      ]
+      ],
+      "intensiteit": 0.197,
+      "energy": 0.233,
+      "tempo": 75,
+      "loudness": -20.556,
+      "acousticness": 0.878
     },
     "73383384": {
       "date": "2026-09-30",
@@ -6008,7 +6668,12 @@
       "genres": [
         "vocal jazz",
         "jazz"
-      ]
+      ],
+      "intensiteit": 0.297,
+      "energy": 0.197,
+      "tempo": 81,
+      "loudness": -13.503,
+      "acousticness": 0.6
     },
     "49796406": {
       "date": "2026-09-30",
@@ -6021,7 +6686,12 @@
         "piano",
         "jazz piano",
         "swing"
-      ]
+      ],
+      "intensiteit": 0.183,
+      "energy": 0.0915,
+      "tempo": 121,
+      "loudness": -18.401,
+      "acousticness": 0.981
     },
     "3853981": {
       "date": "2026-09-30",
@@ -6033,7 +6703,12 @@
         "jazz",
         "vocal jazz",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.246,
+      "energy": 0.214,
+      "tempo": 68,
+      "loudness": -18.867,
+      "acousticness": 0.552
     },
     "150160724": {
       "date": "2026-09-30",
@@ -6059,7 +6734,12 @@
         "swing music",
         "big band",
         "jazz"
-      ]
+      ],
+      "intensiteit": 0.136,
+      "energy": 0.0669,
+      "tempo": 114,
+      "loudness": -21.54,
+      "acousticness": 0.941
     },
     "77611555": {
       "date": "2026-09-30",
@@ -6072,7 +6752,12 @@
         "jazz ballads",
         "cool jazz",
         "bebop"
-      ]
+      ],
+      "intensiteit": 0.099,
+      "energy": 0.0355,
+      "tempo": 110,
+      "loudness": -22.356,
+      "acousticness": 0.978
     },
     "1577508": {
       "date": "2026-09-30",
@@ -6085,7 +6770,12 @@
         "big band",
         "adult standards",
         "swing music"
-      ]
+      ],
+      "intensiteit": 0.184,
+      "energy": 0.105,
+      "tempo": 69,
+      "loudness": -14.264,
+      "acousticness": 0.875
     },
     "416800408": {
       "date": "2026-09-30",
@@ -6111,7 +6801,12 @@
         "brazilian jazz",
         "samba",
         "latin jazz"
-      ]
+      ],
+      "intensiteit": 0.213,
+      "energy": 0.181,
+      "tempo": 111,
+      "loudness": -20.734,
+      "acousticness": 0.872
     },
     "108022865": {
       "date": "2026-09-30",
@@ -6123,7 +6818,12 @@
         "cool jazz",
         "jazz",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.143,
+      "energy": 0.0226,
+      "tempo": 124,
+      "loudness": -19.065,
+      "acousticness": 0.975
     },
     "73383392": {
       "date": "2026-09-30",
@@ -6134,7 +6834,12 @@
       "genres": [
         "vocal jazz",
         "jazz"
-      ]
+      ],
+      "intensiteit": 0.281,
+      "energy": 0.113,
+      "tempo": 141,
+      "loudness": -15.208,
+      "acousticness": 0.788
     },
     "4020920": {
       "date": "2026-09-30",
@@ -6147,7 +6852,12 @@
         "jazz piano",
         "piano",
         "jazz trio"
-      ]
+      ],
+      "intensiteit": 0.285,
+      "energy": 0.238,
+      "tempo": 135,
+      "loudness": -19.579,
+      "acousticness": 0.876
     },
     "3853983": {
       "date": "2026-09-30",
@@ -6159,7 +6869,12 @@
         "jazz",
         "vocal jazz",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.189,
+      "energy": 0.215,
+      "tempo": 86,
+      "loudness": -22.132,
+      "acousticness": 0.855
     },
     "2987949": {
       "date": "2026-09-30",
@@ -6172,7 +6887,12 @@
         "jazz",
         "bossa nova",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.32,
+      "energy": 0.209,
+      "tempo": 140,
+      "loudness": -14.892,
+      "acousticness": 0.89
     },
     "93120394": {
       "date": "2026-09-30",
@@ -6185,7 +6905,12 @@
         "vocal jazz",
         "big band",
         "swing music"
-      ]
+      ],
+      "intensiteit": 0.331,
+      "energy": 0.214,
+      "tempo": 106,
+      "loudness": -14.238,
+      "acousticness": 0.598
     },
     "13345165": {
       "date": "2026-09-30",
@@ -6198,7 +6923,12 @@
         "jazz",
         "brazilian jazz",
         "cool jazz"
-      ]
+      ],
+      "intensiteit": 0.435,
+      "energy": 0.375,
+      "tempo": 138,
+      "loudness": -11.508,
+      "acousticness": 0.939
     },
     "121091866": {
       "date": "2026-09-30",
@@ -6211,7 +6941,12 @@
         "jazz",
         "brazilian jazz",
         "cool jazz"
-      ]
+      ],
+      "intensiteit": 0.269,
+      "energy": 0.179,
+      "tempo": 127,
+      "loudness": -15.786,
+      "acousticness": 0.953
     },
     "77701220": {
       "date": "2026-09-30",
@@ -6224,7 +6959,12 @@
         "jazz ballads",
         "bebop",
         "cool jazz"
-      ]
+      ],
+      "intensiteit": 0.202,
+      "energy": 0.133,
+      "tempo": 116,
+      "loudness": -18.775,
+      "acousticness": 0.939
     },
     "40620080": {
       "date": "2026-09-30",
@@ -6248,7 +6988,12 @@
         "jazz",
         "brazilian jazz",
         "cool jazz"
-      ]
+      ],
+      "intensiteit": 0.404,
+      "energy": 0.392,
+      "tempo": 88,
+      "loudness": -14.917,
+      "acousticness": 0.566
     },
     "1398922": {
       "date": "2026-09-30",
@@ -6261,7 +7006,12 @@
         "big band",
         "adult standards",
         "swing music"
-      ]
+      ],
+      "intensiteit": 0.204,
+      "energy": 0.143,
+      "tempo": 85,
+      "loudness": -15.963,
+      "acousticness": 0.89
     },
     "56221377": {
       "date": "2026-09-30",
@@ -6274,7 +7024,12 @@
         "jazz",
         "bebop",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.429,
+      "energy": 0.367,
+      "tempo": 93,
+      "loudness": -13.828,
+      "acousticness": 0.42
     },
     "44786486": {
       "date": "2026-09-30",
@@ -6286,7 +7041,12 @@
         "vocal jazz",
         "jazz",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.12,
+      "energy": 0.016,
+      "tempo": 171,
+      "loudness": -24.168,
+      "acousticness": 0.984
     },
     "56221369": {
       "date": "2026-09-30",
@@ -6299,7 +7059,12 @@
         "jazz",
         "bebop",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.151,
+      "energy": 0.142,
+      "tempo": 70,
+      "loudness": -19.131,
+      "acousticness": 0.904
     },
     "103014046": {
       "date": "2026-09-30",
@@ -6311,7 +7076,12 @@
         "vocal jazz",
         "jazz ballads",
         "jazz"
-      ]
+      ],
+      "intensiteit": 0.234,
+      "energy": 0.121,
+      "tempo": 116,
+      "loudness": -14.813,
+      "acousticness": 0.949
     },
     "3700176": {
       "date": "2026-09-30",
@@ -6324,7 +7094,12 @@
         "jazz",
         "jazz ballads",
         "hard bop"
-      ]
+      ],
+      "intensiteit": 0.335,
+      "energy": 0.209,
+      "tempo": 127,
+      "loudness": -11.11,
+      "acousticness": 0.934
     },
     "119987712": {
       "date": "2026-09-30",
@@ -6337,7 +7112,12 @@
         "brazilian jazz",
         "latin jazz",
         "vocal jazz"
-      ]
+      ],
+      "intensiteit": 0.3,
+      "energy": 0.214,
+      "tempo": 92,
+      "loudness": -16.712,
+      "acousticness": 0.519
     },
     "192088502": {
       "date": "2026-09-30",
@@ -6350,7 +7130,12 @@
         "cool jazz",
         "jazz ballads",
         "hard bop"
-      ]
+      ],
+      "intensiteit": 0.392,
+      "energy": 0.452,
+      "tempo": 81,
+      "loudness": -14.458,
+      "acousticness": 0.833
     },
     "134372453": {
       "date": "2026-09-30",
@@ -6389,7 +7174,12 @@
         "christmas",
         "big band",
         "adult standards"
-      ]
+      ],
+      "intensiteit": 0.153,
+      "energy": 0.0888,
+      "tempo": 109,
+      "loudness": -19.736,
+      "acousticness": 0.98
     },
     "77701216": {
       "date": "2026-09-30",
@@ -6402,7 +7192,12 @@
         "jazz ballads",
         "bebop",
         "cool jazz"
-      ]
+      ],
+      "intensiteit": 0.146,
+      "energy": 0.133,
+      "tempo": 85,
+      "loudness": -20.532,
+      "acousticness": 0.942
     },
     "11169958": {
       "date": "2026-09-30",
@@ -6414,7 +7209,12 @@
         "vocal jazz",
         "jazz",
         "adult standards"
-      ]
+      ],
+      "intensiteit": 0.072,
+      "energy": 0.0288,
+      "tempo": 75,
+      "loudness": -21.424,
+      "acousticness": 0.905
     },
     "3009907": {
       "date": "2026-09-30",
@@ -6426,7 +7226,12 @@
         "big band",
         "swing music",
         "jazz"
-      ]
+      ],
+      "intensiteit": 0.308,
+      "energy": 0.264,
+      "tempo": 71,
+      "loudness": -12.243,
+      "acousticness": 0.774
     },
     "334026679": {
       "date": "2026-09-30",
@@ -6439,7 +7244,12 @@
         "christmas",
         "big band",
         "adult standards"
-      ]
+      ],
+      "intensiteit": 0.115,
+      "energy": 0.0651,
+      "tempo": 75,
+      "loudness": -18.055,
+      "acousticness": 0.98
     },
     "661602": {
       "date": "2026-09-30",
@@ -6452,7 +7262,12 @@
         "jazz ballads",
         "bebop",
         "cool jazz"
-      ]
+      ],
+      "intensiteit": 0.227,
+      "energy": 0.183,
+      "tempo": 96,
+      "loudness": -15.771,
+      "acousticness": 0.984
     },
     "13372615": {
       "date": "2026-09-30",
@@ -6464,7 +7279,12 @@
         "vocal jazz",
         "jazz",
         "jazz ballads"
-      ]
+      ],
+      "intensiteit": 0.311,
+      "energy": 0.291,
+      "tempo": 67,
+      "loudness": -17.735,
+      "acousticness": 0.477
     }
   },
   "last_run": {
