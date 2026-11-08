@@ -1,7 +1,7 @@
 [Blokkades] 37 genres, 15 artiesten en 2 nummers geblokkeerd
 
 ==================================================
-  Playlist update — 2026-11-08 08:20
+  Playlist update — 2026-11-08 08:22
 ==================================================
 
 [Tidal] Ingelogd ✓
@@ -11,13 +11,11 @@
 [Purge] Geen ongewenste tracks gevonden
 Huidig in playlist: 812
 
-[Rust] 607 nummers gemeten via ReccoBeats, 204 geschat uit bron en genres
-[Rust] Verdeling: niveau 1: 49, niveau 2: 114, niveau 3: 209, niveau 4: 267, niveau 5: 172
-[Rust] Playlist 'Nachtradio Avond' aangemaakt: 736ac8f7-b5ed-4d68-99bf-7ed236a0ee9e
-[Rust] Nachtradio Avond: 0 eruit, 372 erbij, nu 372 nummers
-[Rust] Playlist 'Nachtradio Nacht' aangemaakt: 46962e3b-0da4-499a-90bd-4f5b2b3196d2
-[Rust] Nachtradio Nacht bijwerken mislukt: 412 Client Error:  for url: https://api.tidal.com/v1/playlists/46962e3b-0da4-499a-90bd-4f5b2b3196d2/items?sessionId=65c67a8a-8bf3-4922-b321-956899bdb7f9&countryCode=BE&limit=100
+[Rust] 0 nummers gemeten via ReccoBeats, 204 geschat uit bron en genres
+[Rust] Verdeling: niveau 1: 49, niveau 2: 82, niveau 3: 227, niveau 4: 281, niveau 5: 172
+[Rust] Nachtradio Avond: 14 eruit, 0 erbij, nu 358 nummers
+[Rust] Nachtradio Nacht: 22 eruit, 53 erbij, nu 131 nummers
 [State] Opgeslagen: 4036 geziene tracks, 812 in playlist_log
 
-Alleen opkuis, klaar! 08:20:59
+Alleen opkuis, klaar! 08:22:20
 
