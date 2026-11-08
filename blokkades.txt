@@ -73,6 +73,7 @@ nils frahm
 joanna newsom
 sleater-kinney
 randy newman
+gorki
 
 
 [nummers]
@@ -80,3 +81,4 @@ randy newman
 # "Nooit meer" in Home Assistant. Vorm: artiest | titel | tidal-id
 madonna | music | 1757694
 randy newman | simon smith and the amazing dancing bear (2002 remaster) | 212943
+gorki | beste bill (2005 remastered version2004 - remaster) | 1475286
