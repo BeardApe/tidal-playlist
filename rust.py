@@ -49,14 +49,24 @@ def niveau(i: float) -> int:
 
 
 def schatting(entry: dict) -> int:
+    """Zonder metingen hoogstens niveau 3 (Avond), nooit Nacht: ook Duyster speelt stevige nummers."""
     genres = " ".join(entry.get("genres") or []).lower().replace("-", " ")
     rustig = any(g.replace("-", " ") in genres for g in RUSTIGE_GENRES)
     stevig = any(g in genres for g in STEVIGE_GENRES)
-    if entry.get("source") in RUSTIGE_BRONNEN:
-        return 3 if stevig else 2
-    if rustig and not stevig:
+    if (entry.get("source") in RUSTIGE_BRONNEN or rustig) and not stevig:
         return 3
     return 4
+
+
+def _probeer(session, pid: str, actie):
+    """Tidal weigert een wijziging (412) als de versie van de playlist intussen veranderde: herladen en opnieuw."""
+    for poging in range(4):
+        try:
+            return actie(session.playlist(pid))
+        except Exception as e:
+            if poging == 3 or "412" not in str(e):
+                raise
+            time.sleep(3 * (poging + 1))
 
 
 def _recco(isrcs: list[str]) -> dict[str, dict]:
@@ -138,7 +148,8 @@ def sync_rust_playlists(session, state: dict, playlist_log: dict):
                 pl = session.user.create_playlist(titel, beschrijving)
                 ids[naam] = pl.id
                 print(f"[Rust] Playlist '{titel}' aangemaakt: {pl.id}")
-            pl = session.playlist(ids[naam])
+            pid = ids[naam]
+            pl = session.playlist(pid)
             wil = [tid for tid, e in playlist_log.items()
                    if isinstance(e, dict) and isinstance(e.get("rust"), int) and e["rust"] <= max_niveau]
             wil_set = set(wil)
@@ -148,14 +159,12 @@ def sync_rust_playlists(session, state: dict, playlist_log: dict):
                 if tid not in wil_set or tid in gezien:
                     weg.append(idx)
                 gezien.add(tid)
-            if weg:
-                for i in range(0, len(weg), 50):
-                    pl.remove_by_indices(sorted(weg, reverse=True)[i:i + 50])
-                    pl = session.playlist(ids[naam])
+            weg = sorted(weg, reverse=True)
+            for i in range(0, len(weg), 50):
+                _probeer(session, pid, lambda p, d=weg[i:i + 50]: p.remove_by_indices(d))
             erbij = [tid for tid in wil if tid not in gezien]
-            if erbij:
-                for i in range(0, len(erbij), 50):
-                    pl.add([int(t) for t in erbij[i:i + 50]])
+            for i in range(0, len(erbij), 50):
+                _probeer(session, pid, lambda p, d=erbij[i:i + 50]: p.add([int(t) for t in d]))
             print(f"[Rust] {titel}: {len(weg)} eruit, {len(erbij)} erbij, nu {len(wil)} nummers")
         except Exception as e:
             print(f"[Rust] {titel} bijwerken mislukt: {e}")
