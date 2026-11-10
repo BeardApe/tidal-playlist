@@ -24132,21 +24132,6 @@
       "rust": 5,
       "rust_bron": "reccobeats"
     },
-    "565767798": {
-      "date": "2026-11-07",
-      "artist": "PNAU",
-      "title": "Change",
-      "source": "onbekend",
-      "genres": [
-        "electronic",
-        "australian",
-        "dance",
-        "electro"
-      ],
-      "isrc": "AUNV02600137",
-      "rust": 4,
-      "rust_bron": "schatting"
-    },
     "573490243": {
       "date": "2026-11-10",
       "artist": "Sam Fender",
@@ -24159,31 +24144,6 @@
         "rock"
       ],
       "isrc": "GBUM72605823",
-      "rust": 4,
-      "rust_bron": "schatting"
-    },
-    "564004038": {
-      "date": "2026-11-10",
-      "artist": "DRIZZZ x New Machine",
-      "title": "LIT",
-      "source": "DoubleJ",
-      "genres": [],
-      "isrc": "AUK3X2602916",
-      "rust": 4,
-      "rust_bron": "schatting"
-    },
-    "573979278": {
-      "date": "2026-11-10",
-      "artist": "Star Moles",
-      "title": "Born Again",
-      "source": "TheCurrent",
-      "genres": [
-        "indie rock",
-        "lofi",
-        "dream pop",
-        "lo fi"
-      ],
-      "isrc": "USJ5G2641301",
       "rust": 4,
       "rust_bron": "schatting"
     },
@@ -24230,16 +24190,6 @@
       "rust": 5,
       "rust_bron": "reccobeats"
     },
-    "562759027": {
-      "date": "2026-11-10",
-      "artist": "Anna Houston",
-      "title": "punchline",
-      "source": "TheCurrent",
-      "genres": [],
-      "isrc": "QT9XN2663138",
-      "rust": 4,
-      "rust_bron": "schatting"
-    },
     "201548906": {
       "date": "2026-11-10",
       "artist": "Sylvie Kreusch",
@@ -24272,20 +24222,6 @@
       "rust": 2,
       "rust_bron": "reccobeats"
     },
-    "58990501": {
-      "date": "2026-11-10",
-      "artist": "Radiohead",
-      "title": "Fake Plastic Trees",
-      "source": "TheCurrent",
-      "genres": [
-        "art rock",
-        "alternative rock"
-      ],
-      "isrc": "GBAYE9400056",
-      "intensiteit": 0.379,
-      "rust": 2,
-      "rust_bron": "reccobeats"
-    },
     "31984079": {
       "date": "2026-11-10",
       "artist": "Isabel Lozano",
@@ -24311,34 +24247,6 @@
       "intensiteit": 0.279,
       "rust": 1,
       "rust_bron": "reccobeats"
-    },
-    "552221727": {
-      "date": "2026-11-10",
-      "artist": "Boy Golden",
-      "title": "Fell in Love (Couldn't Get Out)",
-      "source": "TheCurrent",
-      "genres": [
-        "indie rock",
-        "indie pop"
-      ],
-      "isrc": "CASB12518621",
-      "rust": 4,
-      "rust_bron": "schatting"
-    },
-    "534929784": {
-      "date": "2026-11-10",
-      "artist": "Dan Sultan",
-      "title": "Needing Love",
-      "source": "DoubleJ",
-      "genres": [
-        "australian",
-        "rockabilly",
-        "all",
-        "rock"
-      ],
-      "isrc": "AULI02566380",
-      "rust": 4,
-      "rust_bron": "schatting"
     },
     "46159513": {
       "date": "2026-11-10",
@@ -24369,17 +24277,6 @@
       "isrc": "AUWA01900497",
       "intensiteit": 0.562,
       "rust": 3,
-      "rust_bron": "reccobeats"
-    },
-    "330957241": {
-      "date": "2026-11-10",
-      "artist": "Coyote Florecer",
-      "title": "The Biggest",
-      "source": "SomaFM-Lush",
-      "genres": [],
-      "isrc": "GBSWG2300016",
-      "intensiteit": 0.694,
-      "rust": 4,
       "rust_bron": "reccobeats"
     },
     "26700222": {
@@ -24541,22 +24438,6 @@
       "rust": 5,
       "rust_bron": "reccobeats"
     },
-    "6815980": {
-      "date": "2026-11-10",
-      "artist": "INXS",
-      "title": "Listen Like Thieves",
-      "source": "TheCurrent",
-      "genres": [
-        "rock",
-        "new wave",
-        "80s",
-        "australian"
-      ],
-      "isrc": "GBAMX8500011",
-      "intensiteit": 0.911,
-      "rust": 5,
-      "rust_bron": "reccobeats"
-    },
     "566233255": {
       "date": "2026-11-10",
       "artist": "This Is The Kit",
@@ -24613,19 +24494,6 @@
       "rust": 3,
       "rust_bron": "schatting"
     },
-    "47357293": {
-      "date": "2026-11-10",
-      "artist": "Bloc Party",
-      "title": "Hunting For Witches",
-      "source": "DoubleJ",
-      "genres": [
-        "indie rock"
-      ],
-      "isrc": "GBDNH0600846",
-      "intensiteit": 0.883,
-      "rust": 5,
-      "rust_bron": "reccobeats"
-    },
     "49380343": {
       "date": "2026-11-10",
       "artist": "Syl Johnson",
@@ -24654,18 +24522,6 @@
       "intensiteit": 0.343,
       "rust": 2,
       "rust_bron": "reccobeats"
-    },
-    "525148870": {
-      "date": "2026-11-10",
-      "artist": "Weezer",
-      "title": "We Might as Well Be Strangers feat. Wednesday",
-      "source": "TheCurrent",
-      "genres": [
-        "alternative rock"
-      ],
-      "isrc": "USRE12600121",
-      "rust": 4,
-      "rust_bron": "schatting"
     },
     "80569728": {
       "date": "2026-11-10",
@@ -24723,19 +24579,6 @@
       "isrc": "SEXHB1500103",
       "intensiteit": 0.23,
       "rust": 1,
-      "rust_bron": "reccobeats"
-    },
-    "122120454": {
-      "date": "2026-11-10",
-      "artist": "Peter Gabriel",
-      "title": "Steam",
-      "source": "DoubleJ",
-      "genres": [
-        "art rock"
-      ],
-      "isrc": "GBCPB0900723",
-      "intensiteit": 0.868,
-      "rust": 5,
       "rust_bron": "reccobeats"
     },
     "107821318": {
@@ -24799,7 +24642,9 @@
       "artist": "Jack Johnson Ft. Hermanos Gutiérrez",
       "title": "Hold On To The Light",
       "source": "Vuurland",
-      "genres": [],
+      "genres": [
+        "surf rock"
+      ],
       "isrc": "USUG12509733",
       "rust": 4,
       "rust_bron": "schatting"
@@ -24877,16 +24722,6 @@
       "intensiteit": 0.564,
       "rust": 3,
       "rust_bron": "reccobeats"
-    },
-    "428545304": {
-      "date": "2026-11-10",
-      "artist": "Taija",
-      "title": "Mood Killa",
-      "source": "DoubleJ",
-      "genres": [],
-      "isrc": "AUXN22513311",
-      "rust": 4,
-      "rust_bron": "schatting"
     },
     "452825911": {
       "date": "2026-11-10",
@@ -25217,35 +25052,13 @@
       "artist": "Thomas Lemmer feat. Valeska Rautenberg",
       "title": "Never Lose Hope",
       "source": "SomaFM-Lush",
-      "genres": [],
+      "genres": [
+        "lounge"
+      ],
       "isrc": "DEAS82000300",
       "intensiteit": 0.398,
       "rust": 2,
       "rust_bron": "reccobeats"
-    },
-    "515816895": {
-      "date": "2026-11-10",
-      "artist": "Modest Mouse",
-      "title": "Picking Dragons' Pockets",
-      "source": "TheCurrent",
-      "genres": [
-        "indie rock",
-        "indie",
-        "alternative rock"
-      ],
-      "isrc": "USA2P2609800",
-      "rust": 4,
-      "rust_bron": "schatting"
-    },
-    "571320916": {
-      "date": "2026-11-10",
-      "artist": "Claire Rousay & Zander Raymond",
-      "title": "Can't We Have Both",
-      "source": "Duyster",
-      "genres": [],
-      "isrc": "USTJ22767003",
-      "rust": 3,
-      "rust_bron": "schatting"
     },
     "395370283": {
       "date": "2026-11-10",
@@ -25258,22 +25071,6 @@
       "isrc": "QZJCU1900092",
       "intensiteit": 0.496,
       "rust": 3,
-      "rust_bron": "reccobeats"
-    },
-    "490865101": {
-      "date": "2026-11-10",
-      "artist": "The Hold Steady",
-      "title": "Constructive Summer",
-      "source": "TheCurrent",
-      "genres": [
-        "indie rock",
-        "rock",
-        "alternative rock",
-        "alternative"
-      ],
-      "isrc": "QMRSZ1801902",
-      "intensiteit": 0.914,
-      "rust": 5,
       "rust_bron": "reccobeats"
     },
     "440528320": {
@@ -25290,22 +25087,6 @@
       "isrc": "GBCSG2500045",
       "rust": 4,
       "rust_bron": "schatting"
-    },
-    "3169665": {
-      "date": "2026-11-10",
-      "artist": "Sheryl Crow",
-      "title": "All I Wanna Do",
-      "source": "DoubleJ",
-      "genres": [
-        "female vocalists",
-        "rock",
-        "pop",
-        "singer songwriter"
-      ],
-      "isrc": "USAM19300013",
-      "intensiteit": 0.81,
-      "rust": 5,
-      "rust_bron": "reccobeats"
     }
   },
   "programs_done": {
