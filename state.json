@@ -14613,20 +14613,6 @@
       "rust": 5,
       "rust_bron": "reccobeats"
     },
-    "26965": {
-      "date": "2026-10-20",
-      "artist": "Eurythmics",
-      "title": "Sweet Dreams (Are Made Of This)",
-      "source": "DoubleJ",
-      "genres": [
-        "new wave",
-        "synthpop"
-      ],
-      "isrc": "GBARL0300589",
-      "intensiteit": 0.748,
-      "rust": 4,
-      "rust_bron": "reccobeats"
-    },
     "2526757": {
       "date": "2026-10-20",
       "artist": "Yeah Yeah Yeahs",
@@ -14774,21 +14760,6 @@
       "isrc": "USJ5G2537309",
       "rust": 4,
       "rust_bron": "schatting"
-    },
-    "583536": {
-      "date": "2026-10-20",
-      "artist": "The Smithereens",
-      "title": "A Girl Like You",
-      "source": "TheCurrent",
-      "genres": [
-        "power pop",
-        "jangle pop",
-        "new wave"
-      ],
-      "isrc": "USCA28900505",
-      "intensiteit": 0.816,
-      "rust": 5,
-      "rust_bron": "reccobeats"
     },
     "1190594": {
       "date": "2026-10-20",
@@ -17504,21 +17475,6 @@
       "isrc": "DEAS82000574",
       "rust": 3,
       "rust_bron": "schatting"
-    },
-    "583538": {
-      "date": "2026-11-03",
-      "artist": "The Smithereens",
-      "title": "Blue period",
-      "source": "Duyster",
-      "genres": [
-        "power pop",
-        "jangle pop",
-        "new wave"
-      ],
-      "isrc": "USCA28901706",
-      "intensiteit": 0.508,
-      "rust": 3,
-      "rust_bron": "reccobeats"
     },
     "61692761": {
       "date": "2026-11-03",
@@ -20752,20 +20708,6 @@
       "rust": 2,
       "rust_bron": "reccobeats"
     },
-    "339564": {
-      "date": "2026-11-10",
-      "artist": "The Suburbs",
-      "title": "Waiting (Live)",
-      "source": "TheCurrent",
-      "genres": [
-        "new wave",
-        "power pop"
-      ],
-      "isrc": "USRY20513316",
-      "intensiteit": 0.595,
-      "rust": 3,
-      "rust_bron": "reccobeats"
-    },
     "79583670": {
       "date": "2026-11-10",
       "artist": "St. Vincent",
@@ -21148,20 +21090,6 @@
       ],
       "isrc": "QMCE31902427",
       "intensiteit": 0.538,
-      "rust": 3,
-      "rust_bron": "reccobeats"
-    },
-    "302168933": {
-      "date": "2026-11-10",
-      "artist": "Big Country",
-      "title": "Your Spirit To Me",
-      "source": "RadioParadise-Mellow",
-      "genres": [
-        "celtic rock",
-        "new wave"
-      ],
-      "isrc": "GBBLY2301341",
-      "intensiteit": 0.528,
       "rust": 3,
       "rust_bron": "reccobeats"
     },
