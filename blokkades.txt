@@ -53,6 +53,8 @@ children
 kinder
 riot grrrl
 queercore
+experimental
+avant garde
 
 
 [artiesten]
@@ -80,6 +82,7 @@ pnau
 the school
 tori amos
 emilíana torrini
+abel ghekiere
 
 
 [nummers]
@@ -97,3 +100,4 @@ the school | valentine | 418739209
 tori amos | spark | 4074156
 sneaky sound system | shiver | 419279907
 emilíana torrini | sea people | 341261897
+abel ghekiere | caroline (single) | 413581432
