@@ -14559,19 +14559,6 @@
       "rust": 3,
       "rust_bron": "reccobeats"
     },
-    "545072368": {
-      "date": "2026-10-20",
-      "artist": "Marina Herlop",
-      "title": "Heladas",
-      "source": "KCRW-MorningBecomesEclectic",
-      "genres": [
-        "experimental",
-        "art pop"
-      ],
-      "isrc": "DEG932603605",
-      "rust": 4,
-      "rust_bron": "schatting"
-    },
     "543579572": {
       "date": "2026-10-20",
       "artist": "The Tallest Man On Earth",
@@ -15492,21 +15479,6 @@
       "rust": 3,
       "rust_bron": "reccobeats"
     },
-    "556036218": {
-      "date": "2026-10-27",
-      "artist": "serpentwithfeet",
-      "title": "sentinel",
-      "source": "KCRW-MorningBecomesEclectic",
-      "genres": [
-        "soul",
-        "gospel",
-        "experimental",
-        "art pop"
-      ],
-      "isrc": "GBBTF2600234",
-      "rust": 4,
-      "rust_bron": "schatting"
-    },
     "1630079": {
       "date": "2026-10-27",
       "artist": "Feist",
@@ -15665,22 +15637,6 @@
       "isrc": "USWB12604723",
       "rust": 4,
       "rust_bron": "schatting"
-    },
-    "413581432": {
-      "date": "2026-10-27",
-      "artist": "Abel Ghekiere",
-      "title": "Caroline",
-      "source": "Duyster",
-      "genres": [
-        "jazz",
-        "experimental",
-        "avant garde",
-        "new age"
-      ],
-      "isrc": "BE1HZ2400022",
-      "intensiteit": 0.168,
-      "rust": 1,
-      "rust_bron": "reccobeats"
     },
     "121121422": {
       "date": "2026-10-27",
@@ -18832,21 +18788,6 @@
       "rust": 4,
       "rust_bron": "reccobeats"
     },
-    "563672177": {
-      "date": "2026-11-03",
-      "artist": "Sea Glass",
-      "title": "When I Was A Ghost",
-      "source": "WFUV-NYSlice2026",
-      "genres": [
-        "indie pop",
-        "electronic",
-        "female vocalists",
-        "experimental"
-      ],
-      "isrc": "QZ9H32600110",
-      "rust": 4,
-      "rust_bron": "schatting"
-    },
     "274576": {
       "date": "2026-11-03",
       "artist": "Rickie Lee Jones",
@@ -19502,22 +19443,6 @@
       ],
       "isrc": "DEBL61321079",
       "intensiteit": 0.601,
-      "rust": 4,
-      "rust_bron": "reccobeats"
-    },
-    "102220807": {
-      "date": "2026-11-03",
-      "artist": "James Blake",
-      "title": "Barefoot In The Park [Ft. ROSALÍA]",
-      "source": "DoubleJ",
-      "genres": [
-        "dubstep",
-        "electronic",
-        "experimental",
-        "soul"
-      ],
-      "isrc": "GBUM71807978",
-      "intensiteit": 0.639,
       "rust": 4,
       "rust_bron": "reccobeats"
     },
