@@ -15841,22 +15841,6 @@
       "rust": 4,
       "rust_bron": "schatting"
     },
-    "94441288": {
-      "date": "2026-10-27",
-      "artist": "Dizzy Gillespie",
-      "title": "Caravan",
-      "source": "TheCurrent",
-      "genres": [
-        "bebop",
-        "jazz",
-        "afro-cuban jazz",
-        "hard bop"
-      ],
-      "isrc": "USGR10200590",
-      "intensiteit": 0.596,
-      "rust": 3,
-      "rust_bron": "reccobeats"
-    },
     "326413839": {
       "date": "2026-10-30",
       "artist": "Chris Stapleton",
@@ -19005,22 +18989,6 @@
       ],
       "isrc": "USJS10410121",
       "intensiteit": 0.533,
-      "rust": 3,
-      "rust_bron": "reccobeats"
-    },
-    "77609731": {
-      "date": "2026-11-03",
-      "artist": "John Coltrane",
-      "title": "Resolution",
-      "source": "TheCurrent",
-      "genres": [
-        "jazz",
-        "hard bop",
-        "free jazz",
-        "bebop"
-      ],
-      "isrc": "USMC16454391",
-      "intensiteit": 0.589,
       "rust": 3,
       "rust_bron": "reccobeats"
     },
