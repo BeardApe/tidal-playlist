@@ -56,6 +56,9 @@ queercore
 experimental
 avant garde
 new wave
+bebop
+hard bop
+afro cuban jazz
 
 
 [artiesten]
@@ -106,3 +109,4 @@ abel ghekiere | caroline (single) | 413581432
 smush | milkweed butterfly | 558010007
 disclosure/rivo/eliza doolittle | you & me (rivo remix) | 335334419
 the suburbs | waiting (live) | 339564
+dizzy gillespie | caravan | 94441288
