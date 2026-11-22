@@ -4971,687 +4971,954 @@
         "vocal jazz",
         "jazz"
       ]
-    }
-  },
-  "playlist_log": {
-    "2993270": {
-      "date": "2026-09-27",
-      "artist": "Paul Desmond",
-      "title": "Alone Together",
-      "source": "Album~Take Ten",
-      "kind": "instrumentaal",
-      "genres": [
-        "cool jazz",
-        "jazz",
-        "bossa nova",
-        "jazz ballads"
-      ],
-      "intensiteit": 0.277,
-      "energy": 0.255,
-      "tempo": 98,
-      "loudness": -17.124,
-      "acousticness": 0.843
     },
-    "13345170": {
-      "date": "2026-09-27",
-      "artist": "Stan Getz",
-      "title": "Thanks For The Memory",
-      "source": "Album~Stan Getz Plays",
-      "kind": "instrumentaal",
-      "genres": [
-        "bossa nova",
-        "jazz",
-        "brazilian jazz",
-        "cool jazz"
-      ],
-      "intensiteit": 0.27,
-      "energy": 0.252,
-      "tempo": 66,
-      "loudness": -11.983,
-      "acousticness": 0.994
-    },
-    "13372623": {
-      "date": "2026-09-27",
-      "artist": "Shirley Horn",
-      "title": "But Beautiful",
-      "source": "Album~Close Enough for Love",
+    "peggy lee|he's my guy": {
+      "date": "2026-11-22",
+      "source": "Album~The Man I Love",
+      "artist": "Peggy Lee",
+      "title": "He's My Guy",
       "kind": "zang",
       "genres": [
         "vocal jazz",
-        "jazz",
-        "jazz ballads"
-      ],
-      "intensiteit": 0.035,
-      "energy": 0.0169,
-      "tempo": 81,
-      "loudness": -25.314,
-      "acousticness": 0.916
+        "swing music",
+        "big band",
+        "jazz"
+      ]
     },
-    "4859225": {
-      "date": "2026-09-27",
+    "chet baker|it never entered my mind": {
+      "date": "2026-11-22",
+      "source": "Album~Chet",
+      "artist": "Chet Baker",
+      "title": "It Never Entered My Mind",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "vocal jazz",
+        "jazz ballads"
+      ]
+    },
+    "june christy|a lovely way to spend an evening": {
+      "date": "2026-11-22",
+      "source": "Album~The Misty Miss Christy",
+      "artist": "June Christy",
+      "title": "A Lovely Way To Spend An Evening",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "big band",
+        "cool jazz",
+        "swing music"
+      ]
+    },
+    "ben webster|prelude to a kiss": {
+      "date": "2026-11-22",
+      "source": "Album~Music for Loving",
+      "artist": "Ben Webster",
+      "title": "Prelude To A Kiss",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "cool jazz",
+        "bebop"
+      ]
+    },
+    "bill evans|the touch of your lips": {
+      "date": "2026-11-22",
+      "source": "Album~The Tony Bennett / Bill Evans Album",
+      "artist": "Bill Evans",
+      "title": "The Touch Of Your Lips",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "jazz ballads",
+        "hard bop"
+      ]
+    },
+    "chet baker|how long has this been going on": {
+      "date": "2026-11-22",
+      "source": "Album~Embraceable You",
+      "artist": "Chet Baker",
+      "title": "How Long Has This Been Going On",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "vocal jazz",
+        "jazz ballads"
+      ]
+    },
+    "june christy|the wind": {
+      "date": "2026-11-22",
+      "source": "Album~The Misty Miss Christy",
+      "artist": "June Christy",
+      "title": "The Wind",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "big band",
+        "cool jazz",
+        "swing music"
+      ]
+    },
+    "charlie haden|going home": {
+      "date": "2026-11-22",
+      "source": "Album~Come Sunday",
       "artist": "Charlie Haden",
-      "title": "My Lord What A Mornin'",
-      "source": "Album~Steal Away",
+      "title": "Going Home",
       "kind": "instrumentaal",
       "genres": [
         "jazz",
         "jazz ballads",
         "free jazz",
         "cool jazz"
-      ],
-      "intensiteit": 0.031,
-      "energy": 0.0448,
-      "tempo": 67,
-      "loudness": -27.053,
-      "acousticness": 0.955
+      ]
     },
-    "155503991": {
-      "date": "2026-09-27",
-      "artist": "Peggy Lee with Benny Goodman",
-      "title": "My Old Flame",
-      "source": "Album~Black Coffee",
+    "johnny hartman|the more i see you": {
+      "date": "2026-11-22",
+      "source": "Album~The Voice That Is",
+      "artist": "Johnny Hartman",
+      "title": "The More I See You",
       "kind": "zang",
       "genres": [
         "jazz",
-        "swing",
-        "female vocalists",
-        "american"
+        "vocal jazz",
+        "jazz ballads"
       ]
     },
-    "77658913": {
-      "date": "2026-09-27",
-      "artist": "Blossom Dearie",
-      "title": "It Might As Well Be Spring",
-      "source": "Album~Blossom Dearie",
-      "kind": "zang",
-      "genres": [
-        "french jazz",
-        "vocal jazz",
-        "jazz"
-      ],
-      "intensiteit": 0.142,
-      "energy": 0.0463,
-      "tempo": 117,
-      "loudness": -20.049,
-      "acousticness": 0.94
-    },
-    "58993632": {
-      "date": "2026-09-27",
-      "artist": "Gerry Mulligan",
-      "title": "In a Mellow Tone",
-      "source": "Album~Gerry Mulligan Meets Ben Webster",
+    "bill evans|you must believe in spring": {
+      "date": "2026-11-22",
+      "source": "Album~You Must Believe in Spring",
+      "artist": "Bill Evans",
+      "title": "You Must Believe In Spring",
       "kind": "instrumentaal",
       "genres": [
+        "jazz",
         "cool jazz",
+        "jazz ballads",
+        "hard bop"
+      ]
+    },
+    "frank sinatra|one for my baby": {
+      "date": "2026-11-22",
+      "source": "Album~Only the Lonely",
+      "artist": "Frank Sinatra",
+      "title": "One For My Baby",
+      "kind": "zang",
+      "genres": [
+        "christmas",
+        "big band",
+        "adult standards",
+        "swing music"
+      ]
+    },
+    "oscar peterson with strings|our waltz": {
+      "date": "2026-11-22",
+      "source": "Album~In a Romantic Mood",
+      "artist": "Oscar Peterson With Strings",
+      "title": "Our Waltz",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "piano",
+        "jazz piano",
+        "swing"
+      ]
+    },
+    "billie holiday|for all we know": {
+      "date": "2026-11-22",
+      "source": "Album~Lady in Satin",
+      "artist": "Billie Holiday",
+      "title": "For All We Know",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "vocal jazz",
+        "big band",
+        "swing music"
+      ]
+    },
+    "bill evans|in love in vain": {
+      "date": "2026-11-22",
+      "source": "Album~Moon Beams",
+      "artist": "Bill Evans",
+      "title": "In Love In Vain",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "jazz ballads",
+        "hard bop"
+      ]
+    },
+    "melody gardot|les etoiles": {
+      "date": "2026-11-22",
+      "source": "Album~My One and Only Thrill",
+      "artist": "Melody Gardot",
+      "title": "Les Etoiles",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "french jazz",
+        "jazz"
+      ]
+    },
+    "duke jordan|everything happens to me": {
+      "date": "2026-11-22",
+      "source": "Album~Flight to Denmark",
+      "artist": "Duke Jordan",
+      "title": "Everything Happens to Me",
+      "kind": "instrumentaal",
+      "genres": [
+        "hard bop",
         "jazz",
         "bebop",
         "jazz ballads"
       ]
     },
-    "111970532": {
-      "date": "2026-09-27",
-      "artist": "Chris Connor",
-      "title": "What Is There To Say?",
-      "source": "Album~Sings Lullabys of Birdland",
+    "louis armstrong|you go to my head": {
+      "date": "2026-11-22",
+      "source": "Album~Louis Armstrong Meets Oscar Peterson",
+      "artist": "Louis Armstrong",
+      "title": "You Go To My Head",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "swing music",
+        "vocal jazz",
+        "big band"
+      ]
+    },
+    "paul desmond|poor butterfly": {
+      "date": "2026-11-22",
+      "source": "Album~Glad to Be Unhappy",
+      "artist": "Paul Desmond",
+      "title": "Poor Butterfly",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "bossa nova",
+        "jazz ballads"
+      ]
+    },
+    "nat king cole|don't blame me": {
+      "date": "2026-11-22",
+      "source": "Album~The Very Thought of You",
+      "artist": "Nat King Cole",
+      "title": "Don't Blame Me",
+      "kind": "zang",
+      "genres": [
+        "christmas",
+        "adult standards",
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "stan getz|nobody else but me": {
+      "date": "2026-11-22",
+      "source": "Album~Stan Getz Plays",
+      "artist": "Stan Getz",
+      "title": "Nobody Else But Me",
+      "kind": "instrumentaal",
+      "genres": [
+        "bossa nova",
+        "jazz",
+        "brazilian jazz",
+        "cool jazz"
+      ]
+    },
+    "johnny hartman|in the wee small hours of the morning": {
+      "date": "2026-11-22",
+      "source": "Album~I Just Dropped By to Say Hello",
+      "artist": "Johnny Hartman",
+      "title": "In The Wee Small Hours Of The Morning",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "vocal jazz",
+        "jazz ballads"
+      ]
+    },
+    "zoot sims|one i could have loved": {
+      "date": "2026-11-22",
+      "source": "Album~Waiting Game",
+      "artist": "Zoot Sims",
+      "title": "One I Could Have Loved",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "jazz ballads",
+        "hard bop"
+      ]
+    },
+    "shirley horn|too late now": {
+      "date": "2026-11-22",
+      "source": "Album~You Won't Forget Me",
+      "artist": "Shirley Horn",
+      "title": "Too Late Now",
       "kind": "zang",
       "genres": [
         "vocal jazz",
         "jazz",
-        "cool jazz"
+        "jazz ballads"
       ]
     },
-    "77576247": {
-      "date": "2026-09-27",
-      "artist": "John Coltrane",
-      "title": "Too Young To Go Steady",
-      "source": "Album~Ballads",
+    "zoot sims|does the sun really shine on the moon?": {
+      "date": "2026-11-22",
+      "source": "Album~Waiting Game",
+      "artist": "Zoot Sims",
+      "title": "Does The Sun Really Shine On The Moon?",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "jazz ballads",
+        "hard bop"
+      ]
+    },
+    "blossom dearie|it amazes me": {
+      "date": "2026-11-22",
+      "source": "Album~Once Upon a Summertime",
+      "artist": "Blossom Dearie",
+      "title": "It Amazes Me",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "tommy flanagan trio|in a sentimental mood": {
+      "date": "2026-11-22",
+      "source": "Album~Tommy Flanagan Trio",
+      "artist": "Tommy Flanagan Trio",
+      "title": "In A Sentimental Mood",
       "kind": "instrumentaal",
       "genres": [
         "jazz",
         "hard bop",
-        "free jazz",
-        "bebop"
-      ],
-      "intensiteit": 0.221,
-      "energy": 0.182,
-      "tempo": 64,
-      "loudness": -13.714,
-      "acousticness": 0.946
+        "cool jazz",
+        "jazz ballads"
+      ]
     },
-    "155719987": {
-      "date": "2026-09-27",
+    "julie london|it's the talk of the town": {
+      "date": "2026-11-22",
+      "source": "Album~Lonely Girl",
+      "artist": "Julie London",
+      "title": "It's The Talk Of The Town",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "adult standards"
+      ]
+    },
+    "dexter gordon|i guess i'll hang my tears out to dry": {
+      "date": "2026-11-22",
+      "source": "Album~Ballads",
+      "artist": "DEXTER GORDON",
+      "title": "I Guess I'll Hang My Tears Out To Dry",
+      "kind": "instrumentaal",
+      "genres": [
+        "hard bop",
+        "jazz",
+        "jazz ballads",
+        "bebop"
+      ]
+    },
+    "peggy lee|just one way to say i love you": {
+      "date": "2026-11-22",
+      "source": "Album~Black Coffee",
+      "artist": "Peggy Lee",
+      "title": "Just One Way to Say I Love You",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "swing music",
+        "big band",
+        "jazz"
+      ]
+    },
+    "zoot sims|it's a blue world": {
+      "date": "2026-11-22",
+      "source": "Album~Waiting Game",
+      "artist": "Zoot Sims",
+      "title": "It's A Blue World",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "jazz ballads",
+        "hard bop"
+      ]
+    },
+    "louis armstrong|what's new?": {
+      "date": "2026-11-22",
+      "source": "Album~Louis Armstrong Meets Oscar Peterson",
+      "artist": "Louis Armstrong",
+      "title": "What's New?",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "swing music",
+        "vocal jazz",
+        "big band"
+      ]
+    },
+    "ike quebec|don't take your love from me (remastered)": {
+      "date": "2026-11-22",
+      "source": "Album~Blue and Sentimental",
+      "artist": "Ike Quebec",
+      "title": "Don't Take Your Love from Me (Remastered)",
+      "kind": "instrumentaal",
+      "genres": [
+        "hard bop",
+        "bossa nova",
+        "jazz",
+        "jazz ballads"
+      ]
+    },
+    "irene kral|love came on stealthy fingers": {
+      "date": "2026-11-22",
+      "source": "Album~Where Is Love",
+      "artist": "Irene Kral",
+      "title": "Love Came On Stealthy Fingers",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "harry carney|fantasy": {
+      "date": "2026-11-22",
+      "source": "Album~Music for Loving",
+      "artist": "Harry Carney",
+      "title": "Fantasy",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz ballads",
+        "jazz",
+        "big band"
+      ]
+    },
+    "julie london|blue moon": {
+      "date": "2026-11-22",
+      "source": "Album~Julie Is Her Name, Vol. 2",
+      "artist": "Julie London",
+      "title": "Blue Moon",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "adult standards"
+      ]
+    },
+    "gerry mulligan sextet|tell me when": {
+      "date": "2026-11-22",
+      "source": "Album~Night Lights",
+      "artist": "Gerry Mulligan Sextet",
+      "title": "Tell Me When",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "jazz ballads"
+      ]
+    },
+    "frank sinatra|gone with the wind": {
+      "date": "2026-11-22",
+      "source": "Album~Only the Lonely",
+      "artist": "Frank Sinatra",
+      "title": "Gone With The Wind",
+      "kind": "zang",
+      "genres": [
+        "christmas",
+        "big band",
+        "adult standards",
+        "swing music"
+      ]
+    },
+    "ben webster|my funny valentine": {
+      "date": "2026-11-22",
+      "source": "Album~Music for Loving",
+      "artist": "Ben Webster",
+      "title": "My Funny Valentine",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "cool jazz",
+        "bebop"
+      ]
+    },
+    "jeri southern|give me time": {
+      "date": "2026-11-22",
+      "source": "Album~You Better Go Now",
+      "artist": "Jeri Southern",
+      "title": "Give Me Time",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "red garland|st. james infirmary": {
+      "date": "2026-11-22",
+      "source": "Album~When There Are Grey Skies",
+      "artist": "Red Garland",
+      "title": "St. James Infirmary",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "hard bop",
+        "cool jazz"
+      ]
+    },
+    "blossom dearie|surrey with the fringe on top": {
+      "date": "2026-11-22",
+      "source": "Album~Once Upon a Summertime",
+      "artist": "Blossom Dearie",
+      "title": "Surrey With The Fringe On Top",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "dexter gordon|ernie's tune": {
+      "date": "2026-11-22",
+      "source": "Album~Ballads",
+      "artist": "DEXTER GORDON",
+      "title": "Ernie's Tune",
+      "kind": "instrumentaal",
+      "genres": [
+        "hard bop",
+        "jazz",
+        "jazz ballads",
+        "bebop"
+      ]
+    },
+    "stacey kent|hushabye mountain": {
+      "date": "2026-11-22",
+      "source": "Album~Dreamsville",
       "artist": "Stacey Kent",
-      "title": "La saison des pluies",
-      "source": "Album~Breakfast on the Morning Tram",
+      "title": "Hushabye Mountain",
       "kind": "zang",
       "genres": [
         "french jazz",
         "vocal jazz",
         "jazz",
         "bossa nova"
-      ],
-      "intensiteit": 0.201,
-      "energy": 0.102,
-      "tempo": 122,
-      "loudness": -17.979,
-      "acousticness": 0.938
+      ]
     },
-    "143265766": {
-      "date": "2026-09-27",
-      "artist": "Coleman Hawkins",
-      "title": "Poor Butterfly",
-      "source": "Album~At Ease with Coleman Hawkins",
+    "charlie haden|i've got a robe you got a robe": {
+      "date": "2026-11-22",
+      "source": "Album~Steal Away",
+      "artist": "Charlie Haden",
+      "title": "I've Got A Robe You Got A Robe",
       "kind": "instrumentaal",
       "genres": [
         "jazz",
         "jazz ballads",
-        "bebop",
+        "free jazz",
         "cool jazz"
       ]
     },
-    "13345164": {
-      "date": "2026-09-27",
-      "artist": "Stan Getz",
-      "title": "'Tis Autumn",
-      "source": "Album~Stan Getz Plays",
-      "kind": "instrumentaal",
-      "genres": [
-        "bossa nova",
-        "jazz",
-        "brazilian jazz",
-        "cool jazz"
-      ],
-      "intensiteit": 0.255,
-      "energy": 0.146,
-      "tempo": 124,
-      "loudness": -14.265,
-      "acousticness": 0.996
-    },
-    "119987711": {
-      "date": "2026-09-27",
-      "artist": "Astrud Gilberto",
-      "title": "Meditation",
-      "source": "Album~The Astrud Gilberto Album",
+    "johnny hartman|a slow hot wind": {
+      "date": "2026-11-22",
+      "source": "Album~The Voice That Is",
+      "artist": "Johnny Hartman",
+      "title": "A Slow Hot Wind",
       "kind": "zang",
       "genres": [
-        "bossa nova",
-        "brazilian jazz",
-        "latin jazz",
-        "vocal jazz"
-      ],
-      "intensiteit": 0.324,
-      "energy": 0.215,
-      "tempo": 133,
-      "loudness": -14.364,
-      "acousticness": 0.864
-    },
-    "437617035": {
-      "date": "2026-09-27",
-      "artist": "Bill Evans",
-      "title": "If You Could See Me Now",
-      "source": "Album~Moon Beams",
-      "kind": "instrumentaal",
-      "genres": [
         "jazz",
-        "cool jazz",
-        "jazz ballads",
-        "hard bop"
+        "vocal jazz",
+        "jazz ballads"
       ]
     },
-    "93058774": {
-      "date": "2026-09-27",
-      "artist": "Ella Fitzgerald",
-      "title": "The Nearness Of You",
-      "source": "Album~Ella and Louis",
-      "kind": "zang",
-      "genres": [
-        "jazz",
-        "vocal jazz",
-        "swing music",
-        "big band"
-      ],
-      "intensiteit": 0.174,
-      "energy": 0.118,
-      "tempo": 82,
-      "loudness": -18.167,
-      "acousticness": 0.829
-    },
-    "175014924": {
-      "date": "2026-09-27",
-      "artist": "Chet Baker",
-      "title": "Time On My Hands",
-      "source": "Album~Chet",
+    "ike quebec|blues for charlie (remastered)": {
+      "date": "2026-11-22",
+      "source": "Album~Blue and Sentimental",
+      "artist": "Ike Quebec",
+      "title": "Blues for Charlie (Remastered)",
       "kind": "instrumentaal",
       "genres": [
+        "hard bop",
+        "bossa nova",
         "jazz",
-        "cool jazz",
-        "vocal jazz",
         "jazz ballads"
-      ],
-      "intensiteit": 0.228,
-      "energy": 0.14,
-      "tempo": 92,
-      "loudness": -13.967,
-      "acousticness": 0.911
+      ]
     },
-    "13372622": {
-      "date": "2026-09-27",
-      "artist": "Shirley Horn",
-      "title": "Once I Loved",
-      "source": "Album~Close Enough for Love",
+    "irene kral|where is love?": {
+      "date": "2026-11-22",
+      "source": "Album~Where Is Love",
+      "artist": "Irene Kral",
+      "title": "Where Is Love?",
       "kind": "zang",
       "genres": [
         "vocal jazz",
-        "jazz",
-        "jazz ballads"
-      ],
-      "intensiteit": 0.124,
-      "energy": 0.0284,
-      "tempo": 144,
-      "loudness": -28.924,
-      "acousticness": 0.894
-    },
-    "155503988": {
-      "date": "2026-09-27",
-      "artist": "Peggy Lee",
-      "title": "That's What a Woman Is for",
-      "source": "Album~Black Coffee",
-      "kind": "zang",
-      "genres": [
-        "vocal jazz",
-        "swing music",
-        "big band",
         "jazz"
       ]
     },
-    "175014919": {
-      "date": "2026-09-27",
-      "artist": "Chet Baker",
-      "title": "If You Could See Me Now",
+    "chet baker|you and the night and the music": {
+      "date": "2026-11-22",
       "source": "Album~Chet",
+      "artist": "Chet Baker",
+      "title": "You And The Night And The Music",
       "kind": "instrumentaal",
       "genres": [
         "jazz",
         "cool jazz",
         "vocal jazz",
         "jazz ballads"
-      ],
-      "intensiteit": 0.212,
-      "energy": 0.0906,
-      "tempo": 113,
-      "loudness": -15.19,
-      "acousticness": 0.937
+      ]
     },
-    "3686782": {
-      "date": "2026-09-30",
-      "artist": "Ben Webster",
-      "title": "All Too Soon",
-      "source": "Album~Music for Loving",
-      "kind": "instrumentaal",
-      "genres": [
-        "jazz",
-        "jazz ballads",
-        "cool jazz",
-        "bebop"
-      ],
-      "intensiteit": 0.282,
-      "energy": 0.208,
-      "tempo": 87,
-      "loudness": -12.313,
-      "acousticness": 0.87
-    },
-    "103014047": {
-      "date": "2026-09-30",
-      "artist": "Helen Merrill",
-      "title": "The Nearness Of You",
-      "source": "Album~The Nearness of You",
+    "carmen mcrae|if love is good to me": {
+      "date": "2026-11-22",
+      "source": "Album~Book of Ballads",
+      "artist": "Carmen McRae",
+      "title": "If Love Is Good To Me",
       "kind": "zang",
       "genres": [
         "vocal jazz",
-        "jazz ballads",
         "jazz"
-      ],
-      "intensiteit": 0.136,
-      "energy": 0.0605,
-      "tempo": 118,
-      "loudness": -21.141,
-      "acousticness": 0.969
+      ]
     },
-    "2451019": {
-      "date": "2026-09-30",
-      "artist": "Stanley Turrentine",
-      "title": "More Than You Know",
+    "stanley turrentine|then i'll be tired of you": {
+      "date": "2026-11-22",
       "source": "Album~Ballads",
+      "artist": "Stanley Turrentine",
+      "title": "Then I'll Be Tired Of You",
       "kind": "instrumentaal",
       "genres": [
         "hard bop",
         "jazz",
         "soul jazz",
         "jazz ballads"
-      ],
-      "intensiteit": 0.06,
-      "energy": 0.0225,
-      "tempo": 106,
-      "loudness": -24.925,
-      "acousticness": 0.987
+      ]
     },
-    "4016204": {
-      "date": "2026-09-30",
-      "artist": "Blossom Dearie",
-      "title": "Love Is Here To Stay",
-      "source": "Album~Once Upon a Summertime",
+    "stacey kent|thanks for the memory": {
+      "date": "2026-11-22",
+      "source": "Album~Dreamsville",
+      "artist": "Stacey Kent",
+      "title": "Thanks For The Memory",
       "kind": "zang",
       "genres": [
         "french jazz",
         "vocal jazz",
-        "jazz"
-      ],
-      "intensiteit": 0.319,
-      "energy": 0.221,
-      "tempo": 130,
-      "loudness": -13.496,
-      "acousticness": 0.955
+        "jazz",
+        "bossa nova"
+      ]
     },
-    "158979": {
-      "date": "2026-09-30",
-      "artist": "Chet Baker",
-      "title": "Trav'lin' Light",
-      "source": "Album~Embraceable You",
+    "duke jordan|if i did - would you?, take 2": {
+      "date": "2026-11-22",
+      "source": "Album~Flight to Denmark",
+      "artist": "Duke Jordan",
+      "title": "If I Did - Would You?, Take 2",
       "kind": "instrumentaal",
       "genres": [
+        "hard bop",
         "jazz",
-        "cool jazz",
-        "vocal jazz",
+        "bebop",
         "jazz ballads"
-      ],
-      "intensiteit": 0.084,
-      "energy": 0.00804,
-      "tempo": 63,
-      "loudness": -17.129,
-      "acousticness": 0.993
+      ]
     },
-    "3686805": {
-      "date": "2026-09-30",
-      "artist": "Harry Carney",
-      "title": "Chalmeau",
-      "source": "Album~Music for Loving",
-      "kind": "instrumentaal",
-      "genres": [
-        "jazz ballads",
-        "jazz",
-        "big band"
-      ],
-      "intensiteit": 0.32,
-      "energy": 0.298,
-      "tempo": 77,
-      "loudness": -12.134,
-      "acousticness": 0.876
-    },
-    "103014048": {
-      "date": "2026-09-30",
-      "artist": "Helen Merrill",
-      "title": "This Time The Dreams On Me",
-      "source": "Album~The Nearness of You",
+    "shirley horn|you stepped out of a dream": {
+      "date": "2026-11-22",
+      "source": "Album~You Won't Forget Me",
+      "artist": "Shirley Horn",
+      "title": "You Stepped Out Of A Dream",
       "kind": "zang",
       "genres": [
         "vocal jazz",
-        "jazz ballads",
-        "jazz"
-      ],
-      "intensiteit": 0.333,
-      "energy": 0.256,
-      "tempo": 128,
-      "loudness": -14.418,
-      "acousticness": 0.907
-    },
-    "147292": {
-      "date": "2026-09-30",
-      "artist": "DEXTER GORDON",
-      "title": "Darn That Dream",
-      "source": "Album~Ballads",
-      "kind": "instrumentaal",
-      "genres": [
-        "hard bop",
         "jazz",
-        "jazz ballads",
-        "bebop"
-      ],
-      "intensiteit": 0.224,
-      "energy": 0.0921,
-      "tempo": 115,
-      "loudness": -14.569,
-      "acousticness": 0.918
+        "jazz ballads"
+      ]
     },
-    "93120396": {
-      "date": "2026-09-30",
-      "artist": "Billie Holiday",
-      "title": "Embraceable You",
-      "source": "Album~Body and Soul",
-      "kind": "zang",
-      "genres": [
-        "jazz",
-        "vocal jazz",
-        "big band",
-        "swing music"
-      ],
-      "intensiteit": 0.231,
-      "energy": 0.0932,
-      "tempo": 114,
-      "loudness": -16.468,
-      "acousticness": 0.741
-    },
-    "77576249": {
-      "date": "2026-09-30",
-      "artist": "John Coltrane",
-      "title": "I Wish I Knew",
-      "source": "Album~Ballads",
-      "kind": "instrumentaal",
-      "genres": [
-        "jazz",
-        "hard bop",
-        "free jazz",
-        "bebop"
-      ],
-      "intensiteit": 0.253,
-      "energy": 0.133,
-      "tempo": 131,
-      "loudness": -14.853,
-      "acousticness": 0.986
-    },
-    "3491637": {
-      "date": "2026-09-30",
-      "artist": "Peggy Lee",
-      "title": "The Man I Love",
-      "source": "Album~The Man I Love",
-      "kind": "zang",
-      "genres": [
-        "vocal jazz",
-        "swing music",
-        "big band",
-        "jazz"
-      ],
-      "intensiteit": 0.293,
-      "energy": 0.219,
-      "tempo": 112,
-      "loudness": -13.534,
-      "acousticness": 0.968
-    },
-    "3970985": {
-      "date": "2026-09-30",
-      "artist": "Charlie Haden",
-      "title": "En La Orilla Del Mundo",
+    "charlie haden|noche de ronda": {
+      "date": "2026-11-22",
       "source": "Album~Nocturne",
+      "artist": "Charlie Haden",
+      "title": "Noche De Ronda",
       "kind": "instrumentaal",
       "genres": [
         "jazz",
         "jazz ballads",
         "free jazz",
         "cool jazz"
-      ],
-      "intensiteit": 0.21,
-      "energy": 0.173,
-      "tempo": 78,
-      "loudness": -14.7,
-      "acousticness": 0.988
+      ]
     },
-    "72760": {
-      "date": "2026-09-30",
+    "ella fitzgerald|i cried for you": {
+      "date": "2026-11-22",
+      "source": "Album~Let No Man Write My Epitaph",
+      "artist": "Ella Fitzgerald",
+      "title": "I Cried For You",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "swing music",
+        "big band"
+      ]
+    },
+    "chet baker|there's a lull in my life": {
+      "date": "2026-11-22",
+      "source": "Album~Embraceable You",
+      "artist": "Chet Baker",
+      "title": "There's A Lull In My Life",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "vocal jazz",
+        "jazz ballads"
+      ]
+    },
+    "nat king cole|stardust": {
+      "date": "2026-11-22",
+      "source": "Album~Love Is the Thing",
+      "artist": "Nat King Cole",
+      "title": "Stardust",
+      "kind": "zang",
+      "genres": [
+        "christmas",
+        "adult standards",
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "gerry mulligan sextet|prelude in e minor": {
+      "date": "2026-11-22",
+      "source": "Album~Night Lights",
+      "artist": "Gerry Mulligan Sextet",
+      "title": "Prelude In E Minor",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "jazz ballads"
+      ]
+    },
+    "jimmy scott|i'm getting sentimental over you": {
+      "date": "2026-11-22",
+      "source": "Album~Falling in Love Is Wonderful",
+      "artist": "JIMMY SCOTT",
+      "title": "I'm Getting Sentimental Over You",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz"
+      ]
+    },
+    "bill evans|we will meet again": {
+      "date": "2026-11-22",
+      "source": "Album~You Must Believe in Spring",
+      "artist": "Bill Evans",
+      "title": "We Will Meet Again",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "jazz ballads",
+        "hard bop"
+      ]
+    },
+    "helen merrill|by myself": {
+      "date": "2026-11-22",
+      "source": "Album~Dream of You",
+      "artist": "Helen Merrill",
+      "title": "By Myself",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz ballads",
+        "jazz"
+      ]
+    },
+    "paul desmond|my funny valentine": {
+      "date": "2026-11-22",
+      "source": "Album~Desmond Blue",
       "artist": "Paul Desmond",
-      "title": "Glad to Be Unhappy",
-      "source": "Album~Glad to Be Unhappy",
+      "title": "My Funny Valentine",
       "kind": "instrumentaal",
       "genres": [
         "cool jazz",
         "jazz",
         "bossa nova",
         "jazz ballads"
-      ],
-      "intensiteit": 0.084,
-      "energy": 0.071,
-      "tempo": 78,
-      "loudness": -21.666,
-      "acousticness": 0.987
+      ]
     },
-    "3686774": {
-      "date": "2026-09-30",
-      "artist": "Ben Webster",
-      "title": "There Is No Greater Love",
-      "source": "Album~Music for Loving",
+    "stacey kent|under a blanket of blue": {
+      "date": "2026-11-22",
+      "source": "Album~Dreamsville",
+      "artist": "Stacey Kent",
+      "title": "Under A Blanket Of Blue",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz",
+        "bossa nova"
+      ]
+    },
+    "bill evans|what kind of fool am i": {
+      "date": "2026-11-22",
+      "source": "Album~Alone",
+      "artist": "Bill Evans",
+      "title": "What Kind Of Fool Am I",
       "kind": "instrumentaal",
       "genres": [
         "jazz",
-        "jazz ballads",
         "cool jazz",
-        "bebop"
-      ],
-      "intensiteit": 0.312,
-      "energy": 0.12,
-      "tempo": 116,
-      "loudness": -13.815,
-      "acousticness": 0.494
+        "jazz ballads",
+        "hard bop"
+      ]
     },
-    "111970309": {
-      "date": "2026-09-30",
-      "artist": "Carmen McRae",
-      "title": "Please Be Kind",
-      "source": "Album~Book of Ballads",
+    "jeri southern|when i fall in love": {
+      "date": "2026-11-22",
+      "source": "Album~You Better Go Now",
+      "artist": "Jeri Southern",
+      "title": "When I Fall In Love",
       "kind": "zang",
       "genres": [
         "vocal jazz",
         "jazz"
       ]
     },
-    "158974": {
-      "date": "2026-09-30",
-      "artist": "Chet Baker",
-      "title": "Forgetful",
-      "source": "Album~Embraceable You",
+    "ike quebec|lover man (remastered)": {
+      "date": "2026-11-22",
+      "source": "Album~Blue and Sentimental",
+      "artist": "Ike Quebec",
+      "title": "Lover Man (Remastered)",
       "kind": "instrumentaal",
       "genres": [
+        "hard bop",
+        "bossa nova",
         "jazz",
-        "cool jazz",
-        "vocal jazz",
         "jazz ballads"
-      ],
-      "intensiteit": 0.125,
-      "energy": 0.0269,
-      "tempo": 122,
-      "loudness": -21.029,
-      "acousticness": 0.965
+      ]
     },
-    "1577509": {
-      "date": "2026-09-30",
-      "artist": "Frank Sinatra",
-      "title": "Mood Indigo",
-      "source": "Album~In the Wee Small Hours",
+    "nat king cole|where can i go without you?": {
+      "date": "2026-11-22",
+      "source": "Album~Love Is the Thing",
+      "artist": "Nat King Cole",
+      "title": "Where Can I Go Without You?",
       "kind": "zang",
       "genres": [
         "christmas",
-        "big band",
         "adult standards",
-        "swing music"
-      ],
-      "intensiteit": 0.171,
-      "energy": 0.085,
-      "tempo": 86,
-      "loudness": -17.062,
-      "acousticness": 0.828
+        "vocal jazz",
+        "jazz"
+      ]
     },
-    "2987953": {
-      "date": "2026-09-30",
+    "paul desmond|hi-lili, hi-lo": {
+      "date": "2026-11-22",
+      "source": "Album~Glad to Be Unhappy",
       "artist": "Paul Desmond",
-      "title": "O Gato",
-      "source": "Album~Bossa Antigua",
+      "title": "Hi-Lili, Hi-Lo",
       "kind": "instrumentaal",
       "genres": [
         "cool jazz",
         "jazz",
         "bossa nova",
         "jazz ballads"
-      ],
-      "intensiteit": 0.195,
-      "energy": 0.183,
-      "tempo": 82,
-      "loudness": -21.276,
-      "acousticness": 0.717
+      ]
     },
-    "3974255": {
-      "date": "2026-09-30",
-      "artist": "Pat Metheny",
-      "title": "Precious Jewel",
+    "irene kral|a time for love / small world": {
+      "date": "2026-11-22",
+      "source": "Album~Where Is Love",
+      "artist": "Irene Kral",
+      "title": "A Time For Love / Small World",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "stan getz|time on my hands": {
+      "date": "2026-11-22",
+      "source": "Album~Stan Getz Plays",
+      "artist": "Stan Getz",
+      "title": "Time On My Hands",
+      "kind": "instrumentaal",
+      "genres": [
+        "bossa nova",
+        "jazz",
+        "brazilian jazz",
+        "cool jazz"
+      ]
+    },
+    "julie london|too good to be true": {
+      "date": "2026-11-22",
+      "source": "Album~Julie Is Her Name, Vol. 2",
+      "artist": "Julie London",
+      "title": "Too Good To Be True",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "adult standards"
+      ]
+    },
+    "pat metheny|two for the road": {
+      "date": "2026-11-22",
       "source": "Album~Beyond the Missouri Sky",
+      "artist": "Pat Metheny",
+      "title": "Two For The Road",
       "kind": "instrumentaal",
       "genres": [
         "jazz fusion",
         "jazz",
         "jazz ballads"
-      ],
-      "intensiteit": 0.232,
-      "energy": 0.262,
-      "tempo": 67,
-      "loudness": -19.33,
-      "acousticness": 0.794
+      ]
     },
-    "96698614": {
-      "date": "2026-09-30",
+    "carmen mcrae|something i dreamed last night": {
+      "date": "2026-11-22",
+      "source": "Album~Book of Ballads",
+      "artist": "Carmen McRae",
+      "title": "Something I Dreamed Last Night",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "charlie haden|el ciego (the blind)": {
+      "date": "2026-11-22",
+      "source": "Album~Nocturne",
+      "artist": "Charlie Haden",
+      "title": "El Ciego (The Blind)",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "free jazz",
+        "cool jazz"
+      ]
+    },
+    "frank sinatra|last night when we were young": {
+      "date": "2026-11-22",
+      "source": "Album~In the Wee Small Hours",
       "artist": "Frank Sinatra",
-      "title": "Good-Bye",
-      "source": "Album~Only the Lonely",
+      "title": "Last Night When We Were Young",
       "kind": "zang",
       "genres": [
         "christmas",
         "big band",
         "adult standards",
         "swing music"
-      ],
-      "intensiteit": 0.188,
-      "energy": 0.118,
-      "tempo": 89,
-      "loudness": -17.034,
-      "acousticness": 0.866
+      ]
     },
-    "279575651": {
-      "date": "2026-09-30",
-      "artist": "Claude Thornhill",
-      "title": "Autumn Nocturne",
-      "source": "Pick~Claude Thornhill",
-      "kind": "instrumentaal",
-      "genres": [
-        "big band",
-        "cool jazz",
-        "swing music"
-      ],
-      "intensiteit": 0.058,
-      "energy": 0.0387,
-      "tempo": 84,
-      "loudness": -23.314,
-      "acousticness": 0.989
-    },
-    "58993637": {
-      "date": "2026-09-30",
-      "artist": "Gerry Mulligan",
-      "title": "For Bessie",
+    "gerry mulligan|blues in b flat": {
+      "date": "2026-11-22",
       "source": "Album~Gerry Mulligan Meets Ben Webster",
+      "artist": "Gerry Mulligan",
+      "title": "Blues in B Flat",
       "kind": "instrumentaal",
       "genres": [
         "cool jazz",
@@ -5660,518 +5927,125 @@
         "jazz ballads"
       ]
     },
-    "96698607": {
-      "date": "2026-09-30",
-      "artist": "Frank Sinatra",
-      "title": "Guess I'll Hang My Tears Out To Dry",
-      "source": "Album~Only the Lonely",
+    "johnny hartman|sunrise, sunset": {
+      "date": "2026-11-22",
+      "source": "Album~The Voice That Is",
+      "artist": "Johnny Hartman",
+      "title": "Sunrise, Sunset",
       "kind": "zang",
-      "genres": [
-        "christmas",
-        "big band",
-        "adult standards",
-        "swing music"
-      ],
-      "intensiteit": 0.147,
-      "energy": 0.0888,
-      "tempo": 80,
-      "loudness": -17.927,
-      "acousticness": 0.896
-    },
-    "4020922": {
-      "date": "2026-09-30",
-      "artist": "Tommy Flanagan Trio",
-      "title": "Velvet Moon",
-      "source": "Album~Tommy Flanagan Trio",
-      "kind": "instrumentaal",
       "genres": [
         "jazz",
-        "jazz piano",
-        "piano",
-        "jazz trio"
-      ],
-      "intensiteit": 0.144,
-      "energy": 0.119,
-      "tempo": 76,
-      "loudness": -18.397,
-      "acousticness": 0.966
-    },
-    "13372624": {
-      "date": "2026-09-30",
-      "artist": "Shirley Horn",
-      "title": "Get Out Of Town",
-      "source": "Album~Close Enough for Love",
-      "kind": "zang",
-      "genres": [
         "vocal jazz",
-        "jazz",
         "jazz ballads"
-      ],
-      "intensiteit": 0.249,
-      "energy": 0.223,
-      "tempo": 75,
-      "loudness": -19.527,
-      "acousticness": 0.561
-    },
-    "4021507": {
-      "date": "2026-09-30",
-      "artist": "Red Garland",
-      "title": "My Honey's Lovin' Arms",
-      "source": "Album~When There Are Grey Skies",
-      "kind": "instrumentaal",
-      "genres": [
-        "jazz",
-        "jazz ballads",
-        "hard bop",
-        "cool jazz"
-      ],
-      "intensiteit": 0.203,
-      "energy": 0.2,
-      "tempo": 119,
-      "loudness": -23.829,
-      "acousticness": 0.864
-    },
-    "2894491": {
-      "date": "2026-09-30",
-      "artist": "Nat King Cole",
-      "title": "It's All In The Game",
-      "source": "Album~Love Is the Thing",
-      "kind": "zang",
-      "genres": [
-        "christmas",
-        "adult standards",
-        "vocal jazz",
-        "big band"
-      ],
-      "intensiteit": 0.298,
-      "energy": 0.255,
-      "tempo": 80,
-      "loudness": -13.914,
-      "acousticness": 0.769
-    },
-    "49796404": {
-      "date": "2026-09-30",
-      "artist": "Oscar Peterson With Strings",
-      "title": "I Only Have Eyes for You",
-      "source": "Album~In a Romantic Mood",
-      "kind": "instrumentaal",
-      "genres": [
-        "jazz",
-        "piano",
-        "jazz piano",
-        "swing"
-      ],
-      "intensiteit": 0.131,
-      "energy": 0.0599,
-      "tempo": 93,
-      "loudness": -18.719,
-      "acousticness": 0.959
-    },
-    "111970303": {
-      "date": "2026-09-30",
-      "artist": "Carmen McRae",
-      "title": "How Long Has This Been Going On?",
-      "source": "Album~Book of Ballads",
-      "kind": "zang",
-      "genres": [
-        "vocal jazz",
-        "jazz"
       ]
     },
-    "3970990": {
-      "date": "2026-09-30",
-      "artist": "Charlie Haden",
-      "title": "No Te Empenes Mas (Don't Try Anymore)",
-      "source": "Album~Nocturne",
+    "paul desmond|curacao doloroso": {
+      "date": "2026-11-22",
+      "source": "Album~Bossa Antigua",
+      "artist": "Paul Desmond",
+      "title": "Curacao Doloroso",
       "kind": "instrumentaal",
       "genres": [
+        "cool jazz",
         "jazz",
-        "jazz ballads",
-        "free jazz",
-        "cool jazz"
-      ],
-      "intensiteit": 0.18,
-      "energy": 0.148,
-      "tempo": 82,
-      "loudness": -17.185,
-      "acousticness": 0.962
-    },
-    "1657190": {
-      "date": "2026-09-30",
-      "artist": "Melody Gardot",
-      "title": "Worrisome Heart",
-      "source": "Album~Worrisome Heart",
-      "kind": "zang",
-      "genres": [
-        "vocal jazz",
-        "french jazz",
-        "jazz"
-      ],
-      "intensiteit": 0.259,
-      "energy": 0.222,
-      "tempo": 105,
-      "loudness": -17.117,
-      "acousticness": 0.904
-    },
-    "3974258": {
-      "date": "2026-09-30",
-      "artist": "Pat Metheny",
-      "title": "Tears Of Rain",
-      "source": "Album~Beyond the Missouri Sky",
-      "kind": "instrumentaal",
-      "genres": [
-        "jazz fusion",
-        "jazz",
-        "jazz ballads"
-      ],
-      "intensiteit": 0.277,
-      "energy": 0.132,
-      "tempo": 141,
-      "loudness": -15.757,
-      "acousticness": 0.846
-    },
-    "121091863": {
-      "date": "2026-09-30",
-      "artist": "Stan Getz",
-      "title": "Doralice",
-      "source": "Album~Getz/Gilberto",
-      "kind": "zang",
-      "genres": [
         "bossa nova",
-        "jazz",
-        "brazilian jazz",
-        "cool jazz"
-      ],
-      "intensiteit": 0.346,
-      "energy": 0.236,
-      "tempo": 160,
-      "loudness": -14.066,
-      "acousticness": 0.954
+        "jazz ballads"
+      ]
     },
-    "4859215": {
-      "date": "2026-09-30",
-      "artist": "Charlie Haden",
-      "title": "Spiritual",
-      "source": "Album~Steal Away",
-      "kind": "instrumentaal",
-      "genres": [
-        "jazz",
-        "jazz ballads",
-        "free jazz",
-        "cool jazz"
-      ],
-      "intensiteit": 0.097,
-      "energy": 0.0835,
-      "tempo": 99,
-      "loudness": -26.111,
-      "acousticness": 0.898
-    },
-    "1629792": {
-      "date": "2026-09-30",
-      "artist": "Madeleine Peyroux",
-      "title": "I'll Look Around",
+    "madeleine peyroux|no more": {
+      "date": "2026-11-22",
       "source": "Album~Careless Love",
+      "artist": "Madeleine Peyroux",
+      "title": "No More",
       "kind": "zang",
       "genres": [
         "french jazz",
         "vocal jazz",
         "jazz",
         "jazz pop"
-      ],
-      "intensiteit": 0.276,
-      "energy": 0.192,
-      "tempo": 113,
-      "loudness": -13.999,
-      "acousticness": 0.96
+      ]
     },
-    "3974250": {
-      "date": "2026-09-30",
-      "artist": "Pat Metheny",
-      "title": "Our Spanish Love Song",
-      "source": "Album~Beyond the Missouri Sky",
-      "kind": "instrumentaal",
-      "genres": [
-        "jazz fusion",
-        "jazz",
-        "jazz ballads"
-      ],
-      "intensiteit": 0.154,
-      "energy": 0.0716,
-      "tempo": 113,
-      "loudness": -19.355,
-      "acousticness": 0.973
-    },
-    "74178998": {
-      "date": "2026-09-30",
-      "artist": "June Christy",
-      "title": "I Didn't Know About You",
-      "source": "Album~The Misty Miss Christy",
-      "kind": "zang",
-      "genres": [
-        "vocal jazz",
-        "big band",
-        "cool jazz",
-        "swing music"
-      ],
-      "intensiteit": 0.251,
-      "energy": 0.139,
-      "tempo": 111,
-      "loudness": -13.427,
-      "acousticness": 0.951
-    },
-    "4859213": {
-      "date": "2026-09-30",
-      "artist": "Charlie Haden",
-      "title": "It's Me O Lord, Standing In The Need Of Prayer",
+    "charlie haden|danny boy": {
+      "date": "2026-11-22",
       "source": "Album~Steal Away",
+      "artist": "Charlie Haden",
+      "title": "Danny Boy",
       "kind": "instrumentaal",
       "genres": [
         "jazz",
         "jazz ballads",
         "free jazz",
         "cool jazz"
-      ],
-      "intensiteit": 0.097,
-      "energy": 0.0772,
-      "tempo": 95,
-      "loudness": -23.279,
-      "acousticness": 0.961
-    },
-    "73602670": {
-      "date": "2026-09-30",
-      "artist": "Shirley Horn",
-      "title": "Beautiful Love",
-      "source": "Album~You Won't Forget Me",
-      "kind": "zang",
-      "genres": [
-        "vocal jazz",
-        "jazz",
-        "jazz ballads"
-      ],
-      "intensiteit": 0.103,
-      "energy": 0.0335,
-      "tempo": 92,
-      "loudness": -20.479,
-      "acousticness": 0.924
-    },
-    "111970537": {
-      "date": "2026-09-30",
-      "artist": "Chris Connor",
-      "title": "All About Ronnie",
-      "source": "Album~Sings Lullabys of Birdland",
-      "kind": "zang",
-      "genres": [
-        "vocal jazz",
-        "jazz",
-        "cool jazz"
       ]
     },
-    "192088494": {
-      "date": "2026-09-30",
+    "helen merrill|where flamingos fly": {
+      "date": "2026-11-22",
+      "source": "Album~Dream of You",
+      "artist": "Helen Merrill",
+      "title": "Where Flamingos Fly",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz ballads",
+        "jazz"
+      ]
+    },
+    "bill evans|it might as well be spring": {
+      "date": "2026-11-22",
+      "source": "Album~Moon Beams",
       "artist": "Bill Evans",
-      "title": "B Minor Waltz",
-      "source": "Album~You Must Believe in Spring",
+      "title": "It Might As Well Be Spring",
       "kind": "instrumentaal",
       "genres": [
         "jazz",
         "cool jazz",
         "jazz ballads",
         "hard bop"
-      ],
-      "intensiteit": 0.207,
-      "energy": 0.194,
-      "tempo": 74,
-      "loudness": -16.429,
-      "acousticness": 0.938
+      ]
     },
-    "2873524": {
-      "date": "2026-09-30",
-      "artist": "Nat King Cole",
-      "title": "I Found A Million Dollar Baby (In A Five And Ten Cent Store)",
-      "source": "Album~The Very Thought of You",
+    "sarah vaughan|deep purple": {
+      "date": "2026-11-22",
+      "source": "Album~After Hours",
+      "artist": "Sarah Vaughan",
+      "title": "Deep Purple",
       "kind": "zang",
       "genres": [
-        "christmas",
-        "adult standards",
         "vocal jazz",
-        "big band"
-      ],
-      "intensiteit": 0.337,
-      "energy": 0.289,
-      "tempo": 98,
-      "loudness": -13.141,
-      "acousticness": 0.837
+        "jazz",
+        "jazz ballads"
+      ]
     },
-    "3970993": {
-      "date": "2026-09-30",
-      "artist": "Charlie Haden",
-      "title": "Nightfall",
-      "source": "Album~Nocturne",
+    "coleman hawkins|just a gigolo": {
+      "date": "2026-11-22",
+      "source": "Album~The Hawk Relaxes",
+      "artist": "Coleman Hawkins",
+      "title": "Just A Gigolo",
       "kind": "instrumentaal",
       "genres": [
         "jazz",
         "jazz ballads",
-        "free jazz",
+        "bebop",
         "cool jazz"
-      ],
-      "intensiteit": 0.171,
-      "energy": 0.147,
-      "tempo": 109,
-      "loudness": -21.72,
-      "acousticness": 0.94
+      ]
     },
-    "2894498": {
-      "date": "2026-09-30",
-      "artist": "Nat King Cole",
-      "title": "I Thought About Marie",
-      "source": "Album~Love Is the Thing",
+    "bill evans|some other time": {
+      "date": "2026-11-22",
+      "source": "Album~The Tony Bennett / Bill Evans Album",
+      "artist": "Bill Evans",
+      "title": "Some Other Time",
       "kind": "zang",
       "genres": [
-        "christmas",
-        "adult standards",
-        "vocal jazz",
-        "big band"
-      ],
-      "intensiteit": 0.286,
-      "energy": 0.197,
-      "tempo": 135,
-      "loudness": -16.563,
-      "acousticness": 0.921
+        "jazz",
+        "cool jazz",
+        "jazz ballads",
+        "hard bop"
+      ]
     },
-    "150160722": {
-      "date": "2026-09-30",
-      "artist": "Paul Desmond",
-      "title": "I've Got You Under My Skin",
+    "paul desmond|desmond blue": {
+      "date": "2026-11-22",
       "source": "Album~Desmond Blue",
-      "kind": "instrumentaal",
-      "genres": [
-        "cool jazz",
-        "jazz",
-        "bossa nova",
-        "jazz ballads"
-      ]
-    },
-    "1398913": {
-      "date": "2026-09-30",
-      "artist": "Frank Sinatra",
-      "title": "The Night We Called It A Day",
-      "source": "Album~Where Are You",
-      "kind": "zang",
-      "genres": [
-        "christmas",
-        "big band",
-        "adult standards",
-        "swing music"
-      ],
-      "intensiteit": 0.227,
-      "energy": 0.11,
-      "tempo": 117,
-      "loudness": -15.383,
-      "acousticness": 0.923
-    },
-    "158967": {
-      "date": "2026-09-30",
-      "artist": "Chet Baker",
-      "title": "The Night We Called It A Day",
-      "source": "Album~Embraceable You",
-      "kind": "instrumentaal",
-      "genres": [
-        "jazz",
-        "cool jazz",
-        "vocal jazz",
-        "jazz ballads"
-      ],
-      "intensiteit": 0.1,
-      "energy": 0.0114,
-      "tempo": 115,
-      "loudness": -22.482,
-      "acousticness": 0.917
-    },
-    "1657194": {
-      "date": "2026-09-30",
-      "artist": "Melody Gardot",
-      "title": "Some Lessons",
-      "source": "Album~Worrisome Heart",
-      "kind": "zang",
-      "genres": [
-        "vocal jazz",
-        "french jazz",
-        "jazz"
-      ],
-      "intensiteit": 0.263,
-      "energy": 0.141,
-      "tempo": 124,
-      "loudness": -14.38,
-      "acousticness": 0.917
-    },
-    "297666778": {
-      "date": "2026-09-30",
-      "artist": "Claude Thornhill",
-      "title": "Snowfall",
-      "source": "Pick~Claude Thornhill",
-      "kind": "instrumentaal",
-      "genres": [
-        "big band",
-        "cool jazz",
-        "swing music"
-      ],
-      "intensiteit": 0.117,
-      "energy": 0.0691,
-      "tempo": 82,
-      "loudness": -19.127,
-      "acousticness": 0.966
-    },
-    "2873533": {
-      "date": "2026-09-30",
-      "artist": "Nat King Cole",
-      "title": "The More I See You",
-      "source": "Album~The Very Thought of You",
-      "kind": "zang",
-      "genres": [
-        "christmas",
-        "adult standards",
-        "vocal jazz",
-        "big band"
-      ],
-      "intensiteit": 0.19,
-      "energy": 0.139,
-      "tempo": 86,
-      "loudness": -17.72,
-      "acousticness": 0.864
-    },
-    "72763": {
-      "date": "2026-09-30",
       "artist": "Paul Desmond",
-      "title": "Angel Eyes",
-      "source": "Album~Glad to Be Unhappy",
-      "kind": "instrumentaal",
-      "genres": [
-        "cool jazz",
-        "jazz",
-        "bossa nova",
-        "jazz ballads"
-      ],
-      "intensiteit": 0.127,
-      "energy": 0.0784,
-      "tempo": 89,
-      "loudness": -20.699,
-      "acousticness": 0.886
-    },
-    "68713485": {
-      "date": "2026-09-30",
-      "artist": "JIMMY SCOTT",
-      "title": "Embraceable You",
-      "source": "Album~All the Way",
-      "kind": "zang",
-      "genres": [
-        "vocal jazz"
-      ]
-    },
-    "150160726": {
-      "date": "2026-09-30",
-      "artist": "Paul Desmond",
-      "title": "Ill Wind",
-      "source": "Album~Desmond Blue",
+      "title": "Desmond Blue",
       "kind": "instrumentaal",
       "genres": [
         "cool jazz",
@@ -6180,763 +6054,399 @@
         "jazz ballads"
       ]
     },
-    "93438097": {
-      "date": "2026-09-30",
-      "artist": "Louis Armstrong",
-      "title": "That Old Feeling",
-      "source": "Album~Louis Armstrong Meets Oscar Peterson",
-      "kind": "zang",
-      "genres": [
-        "jazz",
-        "swing music",
-        "vocal jazz",
-        "big band"
-      ],
-      "intensiteit": 0.336,
-      "energy": 0.209,
-      "tempo": 111,
-      "loudness": -16.784,
-      "acousticness": 0.418
-    },
-    "4020925": {
-      "date": "2026-09-30",
-      "artist": "Tommy Flanagan Trio",
-      "title": "Jes' Fine",
-      "source": "Album~Tommy Flanagan Trio",
-      "kind": "instrumentaal",
-      "genres": [
-        "jazz",
-        "jazz piano",
-        "piano",
-        "jazz trio"
-      ],
-      "intensiteit": 0.327,
-      "energy": 0.223,
-      "tempo": 170,
-      "loudness": -16.339,
-      "acousticness": 0.883
-    },
-    "150158147": {
-      "date": "2026-09-30",
-      "artist": "JIMMY SCOTT",
-      "title": "I Wish I Didn't Love You So",
-      "source": "Album~Falling in Love Is Wonderful",
-      "kind": "zang",
-      "genres": [
-        "vocal jazz"
-      ]
-    },
-    "2987951": {
-      "date": "2026-09-30",
-      "artist": "Paul Desmond",
-      "title": "The Girl from East 9th Street",
-      "source": "Album~Bossa Antigua",
-      "kind": "instrumentaal",
-      "genres": [
-        "cool jazz",
-        "jazz",
-        "bossa nova",
-        "jazz ballads"
-      ],
-      "intensiteit": 0.282,
-      "energy": 0.194,
-      "tempo": 142,
-      "loudness": -17.354,
-      "acousticness": 0.939
-    },
-    "93438099": {
-      "date": "2026-09-30",
-      "artist": "Louis Armstrong",
-      "title": "I'll Never Be The Same",
-      "source": "Album~Louis Armstrong Meets Oscar Peterson",
-      "kind": "zang",
-      "genres": [
-        "jazz",
-        "swing music",
-        "vocal jazz",
-        "big band"
-      ],
-      "intensiteit": 0.196,
-      "energy": 0.149,
-      "tempo": 73,
-      "loudness": -17.665,
-      "acousticness": 0.751
-    },
-    "416800407": {
-      "date": "2026-09-30",
-      "artist": "Ike Quebec",
-      "title": "Count Every Star (Remastered)",
-      "source": "Album~Blue and Sentimental",
-      "kind": "instrumentaal",
-      "genres": [
-        "hard bop",
-        "bossa nova",
-        "jazz",
-        "jazz ballads"
-      ]
-    },
-    "13372621": {
-      "date": "2026-09-30",
+    "shirley horn|it had to be you": {
+      "date": "2026-11-22",
+      "source": "Album~You Won't Forget Me",
       "artist": "Shirley Horn",
-      "title": "Come Fly With Me",
-      "source": "Album~Close Enough for Love",
+      "title": "It Had To Be You",
       "kind": "zang",
       "genres": [
         "vocal jazz",
         "jazz",
-        "jazz ballads"
-      ],
-      "intensiteit": 0.305,
-      "energy": 0.223,
-      "tempo": 141,
-      "loudness": -19.596,
-      "acousticness": 0.735
-    },
-    "1398915": {
-      "date": "2026-09-30",
-      "artist": "Frank Sinatra",
-      "title": "Maybe You'll Be There",
-      "source": "Album~Where Are You",
-      "kind": "zang",
-      "genres": [
-        "christmas",
-        "big band",
-        "adult standards",
-        "swing music"
-      ],
-      "intensiteit": 0.279,
-      "energy": 0.131,
-      "tempo": 172,
-      "loudness": -15.827,
-      "acousticness": 0.901
-    },
-    "72765": {
-      "date": "2026-09-30",
-      "artist": "Paul Desmond",
-      "title": "All Through The Night",
-      "source": "Album~Glad to Be Unhappy",
-      "kind": "instrumentaal",
-      "genres": [
-        "cool jazz",
-        "jazz",
-        "bossa nova",
-        "jazz ballads"
-      ],
-      "intensiteit": 0.141,
-      "energy": 0.102,
-      "tempo": 101,
-      "loudness": -22.335,
-      "acousticness": 0.875
-    },
-    "43878974": {
-      "date": "2026-09-30",
-      "artist": "Billie Holiday",
-      "title": "I'm a Fool to Want You",
-      "source": "Album~Lady in Satin",
-      "kind": "zang",
-      "genres": [
-        "jazz",
-        "vocal jazz",
-        "big band",
-        "swing music"
-      ],
-      "intensiteit": 0.334,
-      "energy": 0.271,
-      "tempo": 113,
-      "loudness": -12.629,
-      "acousticness": 0.949
-    },
-    "4859223": {
-      "date": "2026-09-30",
-      "artist": "Charlie Haden",
-      "title": "We Shall Overcome",
-      "source": "Album~Steal Away",
-      "kind": "instrumentaal",
-      "genres": [
-        "jazz",
-        "jazz ballads",
-        "free jazz",
-        "cool jazz"
-      ],
-      "intensiteit": 0.092,
-      "energy": 0.0689,
-      "tempo": 106,
-      "loudness": -26.46,
-      "acousticness": 0.939
-    },
-    "4021509": {
-      "date": "2026-09-30",
-      "artist": "Red Garland",
-      "title": "I Ain't Got Nobody",
-      "source": "Album~When There Are Grey Skies",
-      "kind": "instrumentaal",
-      "genres": [
-        "jazz",
-        "jazz ballads",
-        "hard bop",
-        "cool jazz"
-      ],
-      "intensiteit": 0.197,
-      "energy": 0.233,
-      "tempo": 75,
-      "loudness": -20.556,
-      "acousticness": 0.878
-    },
-    "73383384": {
-      "date": "2026-09-30",
-      "artist": "Jeri Southern",
-      "title": "The Man That Got Away",
-      "source": "Album~You Better Go Now",
-      "kind": "zang",
-      "genres": [
-        "vocal jazz",
-        "jazz"
-      ],
-      "intensiteit": 0.297,
-      "energy": 0.197,
-      "tempo": 81,
-      "loudness": -13.503,
-      "acousticness": 0.6
-    },
-    "49796406": {
-      "date": "2026-09-30",
-      "artist": "Oscar Peterson With Strings",
-      "title": "A Sunday Kind of Love",
-      "source": "Album~In a Romantic Mood",
-      "kind": "instrumentaal",
-      "genres": [
-        "jazz",
-        "piano",
-        "jazz piano",
-        "swing"
-      ],
-      "intensiteit": 0.183,
-      "energy": 0.0915,
-      "tempo": 121,
-      "loudness": -18.401,
-      "acousticness": 0.981
-    },
-    "3853981": {
-      "date": "2026-09-30",
-      "artist": "Johnny Hartman",
-      "title": "The Day The World Stopped Turning",
-      "source": "Album~The Voice That Is",
-      "kind": "zang",
-      "genres": [
-        "jazz",
-        "vocal jazz",
-        "jazz ballads"
-      ],
-      "intensiteit": 0.246,
-      "energy": 0.214,
-      "tempo": 68,
-      "loudness": -18.867,
-      "acousticness": 0.552
-    },
-    "150160724": {
-      "date": "2026-09-30",
-      "artist": "Paul Desmond",
-      "title": "I Should Care",
-      "source": "Album~Desmond Blue",
-      "kind": "instrumentaal",
-      "genres": [
-        "cool jazz",
-        "jazz",
-        "bossa nova",
         "jazz ballads"
       ]
     },
-    "3491644": {
-      "date": "2026-09-30",
-      "artist": "Peggy Lee",
-      "title": "Then I'll Be Tired Of You",
-      "source": "Album~The Man I Love",
-      "kind": "zang",
-      "genres": [
-        "vocal jazz",
-        "swing music",
-        "big band",
-        "jazz"
-      ],
-      "intensiteit": 0.136,
-      "energy": 0.0669,
-      "tempo": 114,
-      "loudness": -21.54,
-      "acousticness": 0.941
-    },
-    "77611555": {
-      "date": "2026-09-30",
-      "artist": "Ben Webster",
-      "title": "When Your Lover Has Gone",
+    "ben webster|the touch of your lips": {
+      "date": "2026-11-22",
       "source": "Album~Ben Webster Meets Oscar Peterson",
+      "artist": "Ben Webster",
+      "title": "The Touch Of Your Lips",
       "kind": "instrumentaal",
       "genres": [
         "jazz",
         "jazz ballads",
         "cool jazz",
         "bebop"
-      ],
-      "intensiteit": 0.099,
-      "energy": 0.0355,
-      "tempo": 110,
-      "loudness": -22.356,
-      "acousticness": 0.978
-    },
-    "1577508": {
-      "date": "2026-09-30",
-      "artist": "Frank Sinatra",
-      "title": "In The Wee Small Hours Of The Morning",
-      "source": "Album~In the Wee Small Hours",
-      "kind": "zang",
-      "genres": [
-        "christmas",
-        "big band",
-        "adult standards",
-        "swing music"
-      ],
-      "intensiteit": 0.184,
-      "energy": 0.105,
-      "tempo": 69,
-      "loudness": -14.264,
-      "acousticness": 0.875
-    },
-    "416800408": {
-      "date": "2026-09-30",
-      "artist": "Ike Quebec",
-      "title": "It Might as Well Be Spring (Remastered)",
-      "source": "Album~Blue and Sentimental",
-      "kind": "instrumentaal",
-      "genres": [
-        "hard bop",
-        "bossa nova",
-        "jazz",
-        "jazz ballads"
       ]
     },
-    "4977305": {
-      "date": "2026-09-30",
-      "artist": "João Gilberto",
-      "title": "Estate",
-      "source": "Album~Amoroso",
-      "kind": "zang",
-      "genres": [
-        "bossa nova",
-        "brazilian jazz",
-        "samba",
-        "latin jazz"
-      ],
-      "intensiteit": 0.213,
-      "energy": 0.181,
-      "tempo": 111,
-      "loudness": -20.734,
-      "acousticness": 0.872
-    },
-    "108022865": {
-      "date": "2026-09-30",
-      "artist": "The Ben Webster Quintet",
-      "title": "Where Are You?",
-      "source": "Album~Soulville",
-      "kind": "instrumentaal",
-      "genres": [
-        "cool jazz",
-        "jazz",
-        "jazz ballads"
-      ],
-      "intensiteit": 0.143,
-      "energy": 0.0226,
-      "tempo": 124,
-      "loudness": -19.065,
-      "acousticness": 0.975
-    },
-    "73383392": {
-      "date": "2026-09-30",
-      "artist": "Jeri Southern",
-      "title": "Remind Me",
-      "source": "Album~You Better Go Now",
-      "kind": "zang",
-      "genres": [
-        "vocal jazz",
-        "jazz"
-      ],
-      "intensiteit": 0.281,
-      "energy": 0.113,
-      "tempo": 141,
-      "loudness": -15.208,
-      "acousticness": 0.788
-    },
-    "4020920": {
-      "date": "2026-09-30",
-      "artist": "Tommy Flanagan Trio",
-      "title": "In The Blue Of The Evening",
-      "source": "Album~Tommy Flanagan Trio",
-      "kind": "instrumentaal",
-      "genres": [
-        "jazz",
-        "jazz piano",
-        "piano",
-        "jazz trio"
-      ],
-      "intensiteit": 0.285,
-      "energy": 0.238,
-      "tempo": 135,
-      "loudness": -19.579,
-      "acousticness": 0.876
-    },
-    "3853983": {
-      "date": "2026-09-30",
-      "artist": "Johnny Hartman",
-      "title": "Funny World",
-      "source": "Album~The Voice That Is",
-      "kind": "zang",
-      "genres": [
-        "jazz",
-        "vocal jazz",
-        "jazz ballads"
-      ],
-      "intensiteit": 0.189,
-      "energy": 0.215,
-      "tempo": 86,
-      "loudness": -22.132,
-      "acousticness": 0.855
-    },
-    "2987949": {
-      "date": "2026-09-30",
-      "artist": "Paul Desmond",
-      "title": "A Ship Without A Sail",
-      "source": "Album~Bossa Antigua",
-      "kind": "instrumentaal",
-      "genres": [
-        "cool jazz",
-        "jazz",
-        "bossa nova",
-        "jazz ballads"
-      ],
-      "intensiteit": 0.32,
-      "energy": 0.209,
-      "tempo": 140,
-      "loudness": -14.892,
-      "acousticness": 0.89
-    },
-    "93120394": {
-      "date": "2026-09-30",
-      "artist": "Billie Holiday",
-      "title": "Comes Love",
-      "source": "Album~Body and Soul",
-      "kind": "zang",
-      "genres": [
-        "jazz",
-        "vocal jazz",
-        "big band",
-        "swing music"
-      ],
-      "intensiteit": 0.331,
-      "energy": 0.214,
-      "tempo": 106,
-      "loudness": -14.238,
-      "acousticness": 0.598
-    },
-    "121091866": {
-      "date": "2026-09-30",
-      "artist": "Stan Getz",
-      "title": "Corcovado (Quiet Nights Of Quiet Stars)",
-      "source": "Album~Getz/Gilberto",
-      "kind": "zang",
-      "genres": [
-        "bossa nova",
-        "jazz",
-        "brazilian jazz",
-        "cool jazz"
-      ],
-      "intensiteit": 0.269,
-      "energy": 0.179,
-      "tempo": 127,
-      "loudness": -15.786,
-      "acousticness": 0.953
-    },
-    "77701220": {
-      "date": "2026-09-30",
-      "artist": "Coleman Hawkins",
-      "title": "Moonglow",
-      "source": "Album~The Hawk Relaxes",
-      "kind": "instrumentaal",
-      "genres": [
-        "jazz",
-        "jazz ballads",
-        "bebop",
-        "cool jazz"
-      ],
-      "intensiteit": 0.202,
-      "energy": 0.133,
-      "tempo": 116,
-      "loudness": -18.775,
-      "acousticness": 0.939
-    },
-    "40620080": {
-      "date": "2026-09-30",
-      "artist": "Sarah Morrau",
-      "title": "On the Sunny Side of the Street",
-      "source": "Album~Here's to Life",
-      "kind": "zang",
-      "genres": [
-        "all",
-        "cdbaby"
-      ]
-    },
-    "1398922": {
-      "date": "2026-09-30",
-      "artist": "Frank Sinatra",
-      "title": "There's No You",
-      "source": "Album~Where Are You",
-      "kind": "zang",
-      "genres": [
-        "christmas",
-        "big band",
-        "adult standards",
-        "swing music"
-      ],
-      "intensiteit": 0.204,
-      "energy": 0.143,
-      "tempo": 85,
-      "loudness": -15.963,
-      "acousticness": 0.89
-    },
-    "44786486": {
-      "date": "2026-09-30",
-      "artist": "Sarah Vaughan",
-      "title": "Ill Wind (1997 Remix / Remaster)",
-      "source": "Album~After Hours",
-      "kind": "zang",
-      "genres": [
-        "vocal jazz",
-        "jazz",
-        "jazz ballads"
-      ],
-      "intensiteit": 0.12,
-      "energy": 0.016,
-      "tempo": 171,
-      "loudness": -24.168,
-      "acousticness": 0.984
-    },
-    "56221369": {
-      "date": "2026-09-30",
-      "artist": "Duke Jordan",
-      "title": "Here's That Rainy Day",
-      "source": "Album~Flight to Denmark",
-      "kind": "instrumentaal",
-      "genres": [
-        "hard bop",
-        "jazz",
-        "bebop",
-        "jazz ballads"
-      ],
-      "intensiteit": 0.151,
-      "energy": 0.142,
-      "tempo": 70,
-      "loudness": -19.131,
-      "acousticness": 0.904
-    },
-    "103014046": {
-      "date": "2026-09-30",
-      "artist": "Helen Merrill",
-      "title": "Let Me Love You",
+    "helen merrill|just imagine": {
+      "date": "2026-11-22",
       "source": "Album~The Nearness of You",
+      "artist": "Helen Merrill",
+      "title": "Just Imagine",
       "kind": "zang",
       "genres": [
         "vocal jazz",
         "jazz ballads",
         "jazz"
-      ],
-      "intensiteit": 0.234,
-      "energy": 0.121,
-      "tempo": 116,
-      "loudness": -14.813,
-      "acousticness": 0.949
+      ]
     },
-    "3700176": {
-      "date": "2026-09-30",
-      "artist": "Zoot Sims",
-      "title": "Over The Rainbow",
-      "source": "Album~Waiting Game",
+    "tommy flanagan trio|you go to my head": {
+      "date": "2026-11-22",
+      "source": "Album~Tommy Flanagan Trio",
+      "artist": "Tommy Flanagan Trio",
+      "title": "You Go To My Head",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "hard bop",
+        "cool jazz",
+        "jazz ballads"
+      ]
+    },
+    "nat king cole|but beautiful": {
+      "date": "2026-11-22",
+      "source": "Album~The Very Thought of You",
+      "artist": "Nat King Cole",
+      "title": "But Beautiful",
+      "kind": "zang",
+      "genres": [
+        "christmas",
+        "adult standards",
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "charlie haden|sometimes i feel like a motherless child": {
+      "date": "2026-11-22",
+      "source": "Album~Steal Away",
+      "artist": "Charlie Haden",
+      "title": "Sometimes I Feel Like A Motherless Child",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "free jazz",
+        "cool jazz"
+      ]
+    },
+    "stan getz|para machuchar meu coracao": {
+      "date": "2026-11-22",
+      "source": "Album~Getz/Gilberto",
+      "artist": "Stan Getz",
+      "title": "Para Machuchar Meu Coracao",
+      "kind": "zang",
+      "genres": [
+        "bossa nova",
+        "jazz",
+        "brazilian jazz",
+        "cool jazz"
+      ]
+    },
+    "pat metheny|the moon is a harsh mistress": {
+      "date": "2026-11-22",
+      "source": "Album~Beyond the Missouri Sky",
+      "artist": "Pat Metheny",
+      "title": "The Moon Is A Harsh Mistress",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz fusion",
+        "jazz",
+        "jazz ballads"
+      ]
+    },
+    "frank sinatra|only the lonely": {
+      "date": "2026-11-22",
+      "source": "Album~Only the Lonely",
+      "artist": "Frank Sinatra",
+      "title": "Only The Lonely",
+      "kind": "zang",
+      "genres": [
+        "christmas",
+        "big band",
+        "adult standards",
+        "swing music"
+      ]
+    },
+    "the ben webster quintet|ill wind": {
+      "date": "2026-11-22",
+      "source": "Album~Soulville",
+      "artist": "The Ben Webster Quintet",
+      "title": "Ill Wind",
       "kind": "instrumentaal",
       "genres": [
         "cool jazz",
         "jazz",
-        "jazz ballads",
-        "hard bop"
-      ],
-      "intensiteit": 0.335,
-      "energy": 0.209,
-      "tempo": 127,
-      "loudness": -11.11,
-      "acousticness": 0.934
-    },
-    "119987712": {
-      "date": "2026-09-30",
-      "artist": "Astrud Gilberto",
-      "title": "And Roses And Roses",
-      "source": "Album~The Astrud Gilberto Album",
-      "kind": "zang",
-      "genres": [
-        "bossa nova",
-        "brazilian jazz",
-        "latin jazz",
-        "vocal jazz"
-      ],
-      "intensiteit": 0.3,
-      "energy": 0.214,
-      "tempo": 92,
-      "loudness": -16.712,
-      "acousticness": 0.519
-    },
-    "134372453": {
-      "date": "2026-09-30",
-      "artist": "Ella Fitzgerald",
-      "title": "Black Coffee",
-      "source": "Album~Let No Man Write My Epitaph",
-      "kind": "zang",
-      "genres": [
-        "jazz",
-        "vocal jazz",
-        "swing music",
-        "big band"
-      ]
-    },
-    "416800402": {
-      "date": "2026-09-30",
-      "artist": "Ike Quebec",
-      "title": "Blue and Sentimental (Remastered)",
-      "source": "Album~Blue and Sentimental",
-      "kind": "instrumentaal",
-      "genres": [
-        "hard bop",
-        "bossa nova",
-        "jazz",
         "jazz ballads"
       ]
     },
-    "334026681": {
-      "date": "2026-09-30",
-      "artist": "Tony Bennett",
-      "title": "Waltz For Debby",
-      "source": "Album~The Tony Bennett / Bill Evans Album",
+    "stacey kent|what a wonderful world": {
+      "date": "2026-11-22",
+      "source": "Album~Breakfast on the Morning Tram",
+      "artist": "Stacey Kent",
+      "title": "What a Wonderful World",
       "kind": "zang",
       "genres": [
+        "french jazz",
         "vocal jazz",
+        "jazz",
+        "bossa nova"
+      ]
+    },
+    "paul desmond|any other time": {
+      "date": "2026-11-22",
+      "source": "Album~Glad to Be Unhappy",
+      "artist": "Paul Desmond",
+      "title": "Any Other Time",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "bossa nova",
+        "jazz ballads"
+      ]
+    },
+    "nat king cole|ain't misbehavin (i'm savin my love for you)": {
+      "date": "2026-11-22",
+      "source": "Album~Love Is the Thing",
+      "artist": "Nat King Cole",
+      "title": "Ain't Misbehavin (I'm Savin My Love For You)",
+      "kind": "zang",
+      "genres": [
         "christmas",
-        "big band",
-        "adult standards"
-      ],
-      "intensiteit": 0.153,
-      "energy": 0.0888,
-      "tempo": 109,
-      "loudness": -19.736,
-      "acousticness": 0.98
-    },
-    "77701216": {
-      "date": "2026-09-30",
-      "artist": "Coleman Hawkins",
-      "title": "I'll Never Be The Same",
-      "source": "Album~The Hawk Relaxes",
-      "kind": "instrumentaal",
-      "genres": [
-        "jazz",
-        "jazz ballads",
-        "bebop",
-        "cool jazz"
-      ],
-      "intensiteit": 0.146,
-      "energy": 0.133,
-      "tempo": 85,
-      "loudness": -20.532,
-      "acousticness": 0.942
-    },
-    "11169958": {
-      "date": "2026-09-30",
-      "artist": "Julie London",
-      "title": "Moments Like This",
-      "source": "Album~Lonely Girl",
-      "kind": "zang",
-      "genres": [
+        "adult standards",
         "vocal jazz",
-        "jazz",
-        "adult standards"
-      ],
-      "intensiteit": 0.072,
-      "energy": 0.0288,
-      "tempo": 75,
-      "loudness": -21.424,
-      "acousticness": 0.905
-    },
-    "3009907": {
-      "date": "2026-09-30",
-      "artist": "Glenn Miller",
-      "title": "Moonlight Serenade",
-      "source": "Pick~Glenn Miller",
-      "kind": "instrumentaal",
-      "genres": [
-        "big band",
-        "swing music",
         "jazz"
-      ],
-      "intensiteit": 0.308,
-      "energy": 0.264,
-      "tempo": 71,
-      "loudness": -12.243,
-      "acousticness": 0.774
+      ]
     },
-    "334026679": {
-      "date": "2026-09-30",
-      "artist": "Tony Bennett",
-      "title": "We'll Be Together Again",
-      "source": "Album~The Tony Bennett / Bill Evans Album",
-      "kind": "zang",
-      "genres": [
-        "vocal jazz",
-        "christmas",
-        "big band",
-        "adult standards"
-      ],
-      "intensiteit": 0.115,
-      "energy": 0.0651,
-      "tempo": 75,
-      "loudness": -18.055,
-      "acousticness": 0.98
-    },
-    "661602": {
-      "date": "2026-09-30",
-      "artist": "Coleman Hawkins",
-      "title": "Body And Soul",
-      "source": "Pick~Coleman Hawkins",
+    "charlie haden|come sunday": {
+      "date": "2026-11-22",
+      "source": "Album~Come Sunday",
+      "artist": "Charlie Haden",
+      "title": "Come Sunday",
       "kind": "instrumentaal",
       "genres": [
         "jazz",
         "jazz ballads",
-        "bebop",
+        "free jazz",
         "cool jazz"
-      ],
-      "intensiteit": 0.227,
-      "energy": 0.183,
-      "tempo": 96,
-      "loudness": -15.771,
-      "acousticness": 0.984
+      ]
     },
-    "13372615": {
-      "date": "2026-09-30",
-      "artist": "Shirley Horn",
-      "title": "Beautiful Friendship",
-      "source": "Album~Close Enough for Love",
+    "sarah morrau|woodstock": {
+      "date": "2026-11-22",
+      "source": "Album~Here's to Life",
+      "artist": "Sarah Morrau",
+      "title": "Woodstock",
+      "kind": "zang",
+      "genres": [
+        "cdbaby",
+        "all"
+      ]
+    },
+    "oscar peterson with strings|stella by starlight": {
+      "date": "2026-11-22",
+      "source": "Album~In a Romantic Mood",
+      "artist": "Oscar Peterson With Strings",
+      "title": "Stella By Starlight",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "piano",
+        "jazz piano",
+        "swing"
+      ]
+    },
+    "billie holiday|for heaven's sake": {
+      "date": "2026-11-22",
+      "source": "Album~Lady in Satin",
+      "artist": "Billie Holiday",
+      "title": "For Heaven's Sake",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "vocal jazz",
+        "big band",
+        "swing music"
+      ]
+    },
+    "chet baker|little girl blue": {
+      "date": "2026-11-22",
+      "source": "Album~Embraceable You",
+      "artist": "Chet Baker",
+      "title": "Little Girl Blue",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "vocal jazz",
+        "jazz ballads"
+      ]
+    },
+    "jeri southern|just got to have him around": {
+      "date": "2026-11-22",
+      "source": "Album~You Better Go Now",
+      "artist": "Jeri Southern",
+      "title": "Just Got To Have Him Around",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "oscar peterson with strings|laura": {
+      "date": "2026-11-22",
+      "source": "Album~In a Romantic Mood",
+      "artist": "Oscar Peterson With Strings",
+      "title": "Laura",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "piano",
+        "jazz piano",
+        "swing"
+      ]
+    },
+    "frank sinatra|don't worry 'bout me": {
+      "date": "2026-11-22",
+      "source": "Album~Where Are You",
+      "artist": "Frank Sinatra",
+      "title": "Don't Worry 'Bout Me",
+      "kind": "zang",
+      "genres": [
+        "christmas",
+        "big band",
+        "adult standards",
+        "swing music"
+      ]
+    },
+    "ben webster|how deep is the ocean (how high is the sky)": {
+      "date": "2026-11-22",
+      "source": "Album~Ben Webster Meets Oscar Peterson",
+      "artist": "Ben Webster",
+      "title": "How Deep Is The Ocean (How High Is The Sky)",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "cool jazz",
+        "bebop"
+      ]
+    },
+    "sarah vaughan|you taught me to love again": {
+      "date": "2026-11-22",
+      "source": "Album~After Hours",
+      "artist": "Sarah Vaughan",
+      "title": "You Taught Me to Love Again",
       "kind": "zang",
       "genres": [
         "vocal jazz",
         "jazz",
         "jazz ballads"
-      ],
-      "intensiteit": 0.311,
-      "energy": 0.291,
-      "tempo": 67,
-      "loudness": -17.735,
-      "acousticness": 0.477
+      ]
     },
+    "paul desmond|body and soul": {
+      "date": "2026-11-22",
+      "source": "Album~Desmond Blue",
+      "artist": "Paul Desmond",
+      "title": "Body And Soul",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "bossa nova",
+        "jazz ballads"
+      ]
+    },
+    "jimmy scott|there is no greater love": {
+      "date": "2026-11-22",
+      "source": "Album~Falling in Love Is Wonderful",
+      "artist": "JIMMY SCOTT",
+      "title": "There Is No Greater Love",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz"
+      ]
+    },
+    "gerry mulligan|fajista": {
+      "date": "2026-11-22",
+      "source": "Album~Gerry Mulligan Meets Ben Webster",
+      "artist": "Gerry Mulligan",
+      "title": "Fajista",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "bebop",
+        "jazz ballads"
+      ]
+    },
+    "frank sinatra|autumn leaves": {
+      "date": "2026-11-22",
+      "source": "Album~Where Are You",
+      "artist": "Frank Sinatra",
+      "title": "Autumn Leaves",
+      "kind": "zang",
+      "genres": [
+        "christmas",
+        "big band",
+        "adult standards",
+        "swing music"
+      ]
+    },
+    "charlie haden|transparence": {
+      "date": "2026-11-22",
+      "source": "Album~Nocturne",
+      "artist": "Charlie Haden",
+      "title": "Transparence",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "free jazz",
+        "cool jazz"
+      ]
+    },
+    "peggy lee|that's all": {
+      "date": "2026-11-22",
+      "source": "Album~The Man I Love",
+      "artist": "Peggy Lee",
+      "title": "That's All",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "swing music",
+        "big band",
+        "jazz"
+      ]
+    },
+    "tommy flanagan trio|born to be blue": {
+      "date": "2026-11-22",
+      "source": "Album~Tommy Flanagan Trio",
+      "artist": "Tommy Flanagan Trio",
+      "title": "Born To Be Blue",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "hard bop",
+        "cool jazz",
+        "jazz ballads"
+      ]
+    },
+    "frank sinatra|i see your face before me": {
+      "date": "2026-11-22",
+      "source": "Album~In the Wee Small Hours",
+      "artist": "Frank Sinatra",
+      "title": "I See Your Face Before Me",
+      "kind": "zang",
+      "genres": [
+        "christmas",
+        "big band",
+        "adult standards",
+        "swing music"
+      ]
+    }
+  },
+  "playlist_log": {
     "2873532": {
       "date": "2026-11-08",
       "artist": "Nat King Cole",
@@ -8335,14 +7845,1985 @@
         "vocal jazz",
         "jazz"
       ]
+    },
+    "3491643": {
+      "date": "2026-11-22",
+      "artist": "Peggy Lee",
+      "title": "He's My Guy",
+      "source": "Album~The Man I Love",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "swing music",
+        "big band",
+        "jazz"
+      ],
+      "intensiteit": 0.223,
+      "energy": 0.173,
+      "tempo": 84,
+      "loudness": -14.605,
+      "acousticness": 0.953
+    },
+    "175014914": {
+      "date": "2026-11-22",
+      "artist": "Chet Baker",
+      "title": "It Never Entered My Mind",
+      "source": "Album~Chet",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "vocal jazz",
+        "jazz ballads"
+      ],
+      "intensiteit": 0.114,
+      "energy": 0.03,
+      "tempo": 93,
+      "loudness": -18.871,
+      "acousticness": 0.95
+    },
+    "74179004": {
+      "date": "2026-11-22",
+      "artist": "June Christy",
+      "title": "A Lovely Way To Spend An Evening",
+      "source": "Album~The Misty Miss Christy",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "big band",
+        "cool jazz",
+        "swing music"
+      ],
+      "intensiteit": 0.298,
+      "energy": 0.139,
+      "tempo": 136,
+      "loudness": -11.993,
+      "acousticness": 0.941
+    },
+    "3686786": {
+      "date": "2026-11-22",
+      "artist": "Ben Webster",
+      "title": "Prelude To A Kiss",
+      "source": "Album~Music for Loving",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "cool jazz",
+        "bebop"
+      ],
+      "intensiteit": 0.198,
+      "energy": 0.143,
+      "tempo": 66,
+      "loudness": -14.141,
+      "acousticness": 0.926
+    },
+    "1286169": {
+      "date": "2026-11-22",
+      "artist": "Bill Evans",
+      "title": "The Touch Of Your Lips",
+      "source": "Album~The Tony Bennett / Bill Evans Album",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "jazz ballads",
+        "hard bop"
+      ],
+      "intensiteit": 0.309,
+      "energy": 0.276,
+      "tempo": 76,
+      "loudness": -10.428,
+      "acousticness": 0.979
+    },
+    "158975": {
+      "date": "2026-11-22",
+      "artist": "Chet Baker",
+      "title": "How Long Has This Been Going On",
+      "source": "Album~Embraceable You",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "vocal jazz",
+        "jazz ballads"
+      ],
+      "intensiteit": 0.158,
+      "energy": 0.0305,
+      "tempo": 117,
+      "loudness": -16.945,
+      "acousticness": 0.984
+    },
+    "74179005": {
+      "date": "2026-11-22",
+      "artist": "June Christy",
+      "title": "The Wind",
+      "source": "Album~The Misty Miss Christy",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "big band",
+        "cool jazz",
+        "swing music"
+      ],
+      "intensiteit": 0.22,
+      "energy": 0.157,
+      "tempo": 65,
+      "loudness": -12.847,
+      "acousticness": 0.92
+    },
+    "11628105": {
+      "date": "2026-11-22",
+      "artist": "Charlie Haden",
+      "title": "Going Home",
+      "source": "Album~Come Sunday",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "free jazz",
+        "cool jazz"
+      ],
+      "intensiteit": 0.044,
+      "energy": 0.0227,
+      "tempo": 90,
+      "loudness": -28.344,
+      "acousticness": 0.958
+    },
+    "3853977": {
+      "date": "2026-11-22",
+      "artist": "Johnny Hartman",
+      "title": "The More I See You",
+      "source": "Album~The Voice That Is",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "vocal jazz",
+        "jazz ballads"
+      ],
+      "intensiteit": 0.235,
+      "energy": 0.16,
+      "tempo": 124,
+      "loudness": -18.739,
+      "acousticness": 0.885
+    },
+    "192088495": {
+      "date": "2026-11-22",
+      "artist": "Bill Evans",
+      "title": "You Must Believe In Spring",
+      "source": "Album~You Must Believe in Spring",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "jazz ballads",
+        "hard bop"
+      ],
+      "intensiteit": 0.271,
+      "energy": 0.29,
+      "tempo": 80,
+      "loudness": -16.097,
+      "acousticness": 0.931
+    },
+    "96698622": {
+      "date": "2026-11-22",
+      "artist": "Frank Sinatra",
+      "title": "One For My Baby",
+      "source": "Album~Only the Lonely",
+      "kind": "zang",
+      "genres": [
+        "christmas",
+        "big band",
+        "adult standards",
+        "swing music"
+      ],
+      "intensiteit": 0.074,
+      "energy": 0.0427,
+      "tempo": 69,
+      "loudness": -20.269,
+      "acousticness": 0.981
+    },
+    "49796401": {
+      "date": "2026-11-22",
+      "artist": "Oscar Peterson With Strings",
+      "title": "Our Waltz",
+      "source": "Album~In a Romantic Mood",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "piano",
+        "jazz piano",
+        "swing"
+      ],
+      "intensiteit": 0.194,
+      "energy": 0.169,
+      "tempo": 73,
+      "loudness": -15.704,
+      "acousticness": 0.973
+    },
+    "43878952": {
+      "date": "2026-11-22",
+      "artist": "Billie Holiday",
+      "title": "For All We Know",
+      "source": "Album~Lady in Satin",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "vocal jazz",
+        "big band",
+        "swing music"
+      ],
+      "intensiteit": 0.259,
+      "energy": 0.191,
+      "tempo": 107,
+      "loudness": -17.892,
+      "acousticness": 0.756
+    },
+    "437617037": {
+      "date": "2026-11-22",
+      "artist": "Bill Evans",
+      "title": "In Love In Vain",
+      "source": "Album~Moon Beams",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "jazz ballads",
+        "hard bop"
+      ]
+    },
+    "3164762": {
+      "date": "2026-11-22",
+      "artist": "Melody Gardot",
+      "title": "Les Etoiles",
+      "source": "Album~My One and Only Thrill",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "french jazz",
+        "jazz"
+      ],
+      "intensiteit": 0.339,
+      "energy": 0.331,
+      "tempo": 96,
+      "loudness": -13.69,
+      "acousticness": 0.928
+    },
+    "56221370": {
+      "date": "2026-11-22",
+      "artist": "Duke Jordan",
+      "title": "Everything Happens to Me",
+      "source": "Album~Flight to Denmark",
+      "kind": "instrumentaal",
+      "genres": [
+        "hard bop",
+        "jazz",
+        "bebop",
+        "jazz ballads"
+      ],
+      "intensiteit": 0.21,
+      "energy": 0.23,
+      "tempo": 73,
+      "loudness": -17.99,
+      "acousticness": 0.939
+    },
+    "93438107": {
+      "date": "2026-11-22",
+      "artist": "Louis Armstrong",
+      "title": "You Go To My Head",
+      "source": "Album~Louis Armstrong Meets Oscar Peterson",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "swing music",
+        "vocal jazz",
+        "big band"
+      ],
+      "intensiteit": 0.31,
+      "energy": 0.175,
+      "tempo": 115,
+      "loudness": -13.833,
+      "acousticness": 0.695
+    },
+    "72761": {
+      "date": "2026-11-22",
+      "artist": "Paul Desmond",
+      "title": "Poor Butterfly",
+      "source": "Album~Glad to Be Unhappy",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "bossa nova",
+        "jazz ballads"
+      ],
+      "intensiteit": 0.142,
+      "energy": 0.0918,
+      "tempo": 107,
+      "loudness": -21.448,
+      "acousticness": 0.941
+    },
+    "2873534": {
+      "date": "2026-11-22",
+      "artist": "Nat King Cole",
+      "title": "Don't Blame Me",
+      "source": "Album~The Very Thought of You",
+      "kind": "zang",
+      "genres": [
+        "christmas",
+        "adult standards",
+        "vocal jazz",
+        "jazz"
+      ],
+      "intensiteit": 0.347,
+      "energy": 0.328,
+      "tempo": 76,
+      "loudness": -10.936,
+      "acousticness": 0.876
+    },
+    "13345174": {
+      "date": "2026-11-22",
+      "artist": "Stan Getz",
+      "title": "Nobody Else But Me",
+      "source": "Album~Stan Getz Plays",
+      "kind": "instrumentaal",
+      "genres": [
+        "bossa nova",
+        "jazz",
+        "brazilian jazz",
+        "cool jazz"
+      ],
+      "intensiteit": 0.257,
+      "energy": 0.18,
+      "tempo": 129,
+      "loudness": -16.843,
+      "acousticness": 0.98
+    },
+    "1151096": {
+      "date": "2026-11-22",
+      "artist": "Johnny Hartman",
+      "title": "In The Wee Small Hours Of The Morning",
+      "source": "Album~I Just Dropped By to Say Hello",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "vocal jazz",
+        "jazz ballads"
+      ],
+      "intensiteit": 0.156,
+      "energy": 0.0422,
+      "tempo": 172,
+      "loudness": -22.289,
+      "acousticness": 0.962
+    },
+    "3700178": {
+      "date": "2026-11-22",
+      "artist": "Zoot Sims",
+      "title": "One I Could Have Loved",
+      "source": "Album~Waiting Game",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "jazz ballads",
+        "hard bop"
+      ],
+      "intensiteit": 0.188,
+      "energy": 0.152,
+      "tempo": 73,
+      "loudness": -15.458,
+      "acousticness": 0.964
+    },
+    "73602672": {
+      "date": "2026-11-22",
+      "artist": "Shirley Horn",
+      "title": "Too Late Now",
+      "source": "Album~You Won't Forget Me",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "jazz ballads"
+      ],
+      "intensiteit": 0.105,
+      "energy": 0.0137,
+      "tempo": 132,
+      "loudness": -30.015,
+      "acousticness": 0.864
+    },
+    "3700180": {
+      "date": "2026-11-22",
+      "artist": "Zoot Sims",
+      "title": "Does The Sun Really Shine On The Moon?",
+      "source": "Album~Waiting Game",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "jazz ballads",
+        "hard bop"
+      ],
+      "intensiteit": 0.256,
+      "energy": 0.171,
+      "tempo": 98,
+      "loudness": -12.967,
+      "acousticness": 0.956
+    },
+    "4016196": {
+      "date": "2026-11-22",
+      "artist": "Blossom Dearie",
+      "title": "It Amazes Me",
+      "source": "Album~Once Upon a Summertime",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz"
+      ],
+      "intensiteit": 0.12,
+      "energy": 0.0431,
+      "tempo": 138,
+      "loudness": -25.475,
+      "acousticness": 0.919
+    },
+    "4020926": {
+      "date": "2026-11-22",
+      "artist": "Tommy Flanagan Trio",
+      "title": "In A Sentimental Mood",
+      "source": "Album~Tommy Flanagan Trio",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "hard bop",
+        "cool jazz",
+        "jazz ballads"
+      ],
+      "intensiteit": 0.116,
+      "energy": 0.102,
+      "tempo": 79,
+      "loudness": -20.509,
+      "acousticness": 0.975
+    },
+    "11169960": {
+      "date": "2026-11-22",
+      "artist": "Julie London",
+      "title": "It's The Talk Of The Town",
+      "source": "Album~Lonely Girl",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "adult standards"
+      ],
+      "intensiteit": 0.103,
+      "energy": 0.0353,
+      "tempo": 106,
+      "loudness": -22.879,
+      "acousticness": 0.89
+    },
+    "147298": {
+      "date": "2026-11-22",
+      "artist": "DEXTER GORDON",
+      "title": "I Guess I'll Hang My Tears Out To Dry",
+      "source": "Album~Ballads",
+      "kind": "instrumentaal",
+      "genres": [
+        "hard bop",
+        "jazz",
+        "jazz ballads",
+        "bebop"
+      ],
+      "intensiteit": 0.236,
+      "energy": 0.1,
+      "tempo": 118,
+      "loudness": -13.908,
+      "acousticness": 0.93
+    },
+    "155503992": {
+      "date": "2026-11-22",
+      "artist": "Peggy Lee",
+      "title": "Just One Way to Say I Love You",
+      "source": "Album~Black Coffee",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "swing music",
+        "big band",
+        "jazz"
+      ]
+    },
+    "3700174": {
+      "date": "2026-11-22",
+      "artist": "Zoot Sims",
+      "title": "It's A Blue World",
+      "source": "Album~Waiting Game",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "jazz ballads",
+        "hard bop"
+      ],
+      "intensiteit": 0.334,
+      "energy": 0.208,
+      "tempo": 130,
+      "loudness": -12.946,
+      "acousticness": 0.838
+    },
+    "93438103": {
+      "date": "2026-11-22",
+      "artist": "Louis Armstrong",
+      "title": "What's New?",
+      "source": "Album~Louis Armstrong Meets Oscar Peterson",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "swing music",
+        "vocal jazz",
+        "big band"
+      ],
+      "intensiteit": 0.18,
+      "energy": 0.0575,
+      "tempo": 116,
+      "loudness": -16.74,
+      "acousticness": 0.95
+    },
+    "416800404": {
+      "date": "2026-11-22",
+      "artist": "Ike Quebec",
+      "title": "Don't Take Your Love from Me (Remastered)",
+      "source": "Album~Blue and Sentimental",
+      "kind": "instrumentaal",
+      "genres": [
+        "hard bop",
+        "bossa nova",
+        "jazz",
+        "jazz ballads"
+      ]
+    },
+    "502819398": {
+      "date": "2026-11-22",
+      "artist": "Irene Kral",
+      "title": "Love Came On Stealthy Fingers",
+      "source": "Album~Where Is Love",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ],
+      "intensiteit": 0.109,
+      "energy": 0.0218,
+      "tempo": 80,
+      "loudness": -16.793,
+      "acousticness": 0.987
+    },
+    "3686808": {
+      "date": "2026-11-22",
+      "artist": "Harry Carney",
+      "title": "Fantasy",
+      "source": "Album~Music for Loving",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz ballads",
+        "jazz",
+        "big band"
+      ],
+      "intensiteit": 0.31,
+      "energy": 0.276,
+      "tempo": 72,
+      "loudness": -11.159,
+      "acousticness": 0.884
+    },
+    "77666454": {
+      "date": "2026-11-22",
+      "artist": "Julie London",
+      "title": "Blue Moon",
+      "source": "Album~Julie Is Her Name, Vol. 2",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "adult standards"
+      ],
+      "intensiteit": 0.121,
+      "energy": 0.0434,
+      "tempo": 91,
+      "loudness": -18.581,
+      "acousticness": 0.956
+    },
+    "101524159": {
+      "date": "2026-11-22",
+      "artist": "Gerry Mulligan Sextet",
+      "title": "Tell Me When",
+      "source": "Album~Night Lights",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "jazz ballads"
+      ],
+      "intensiteit": 0.033,
+      "energy": 0.0301,
+      "tempo": 69,
+      "loudness": -23.727,
+      "acousticness": 0.973
+    },
+    "96698605": {
+      "date": "2026-11-22",
+      "artist": "Frank Sinatra",
+      "title": "Gone With The Wind",
+      "source": "Album~Only the Lonely",
+      "kind": "zang",
+      "genres": [
+        "christmas",
+        "big band",
+        "adult standards",
+        "swing music"
+      ],
+      "intensiteit": 0.211,
+      "energy": 0.168,
+      "tempo": 75,
+      "loudness": -15.736,
+      "acousticness": 0.863
+    },
+    "3686797": {
+      "date": "2026-11-22",
+      "artist": "Ben Webster",
+      "title": "My Funny Valentine",
+      "source": "Album~Music for Loving",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "cool jazz",
+        "bebop"
+      ],
+      "intensiteit": 0.149,
+      "energy": 0.0692,
+      "tempo": 73,
+      "loudness": -15.105,
+      "acousticness": 0.945
+    },
+    "73383382": {
+      "date": "2026-11-22",
+      "artist": "Jeri Southern",
+      "title": "Give Me Time",
+      "source": "Album~You Better Go Now",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ],
+      "intensiteit": 0.18,
+      "energy": 0.108,
+      "tempo": 90,
+      "loudness": -16.278,
+      "acousticness": 0.946
+    },
+    "4021508": {
+      "date": "2026-11-22",
+      "artist": "Red Garland",
+      "title": "St. James Infirmary",
+      "source": "Album~When There Are Grey Skies",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "hard bop",
+        "cool jazz"
+      ],
+      "intensiteit": 0.147,
+      "energy": 0.114,
+      "tempo": 99,
+      "loudness": -21.617,
+      "acousticness": 0.904
+    },
+    "4016194": {
+      "date": "2026-11-22",
+      "artist": "Blossom Dearie",
+      "title": "Surrey With The Fringe On Top",
+      "source": "Album~Once Upon a Summertime",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz"
+      ],
+      "intensiteit": 0.143,
+      "energy": 0.0844,
+      "tempo": 89,
+      "loudness": -19.394,
+      "acousticness": 0.887
+    },
+    "147295": {
+      "date": "2026-11-22",
+      "artist": "DEXTER GORDON",
+      "title": "Ernie's Tune",
+      "source": "Album~Ballads",
+      "kind": "instrumentaal",
+      "genres": [
+        "hard bop",
+        "jazz",
+        "jazz ballads",
+        "bebop"
+      ],
+      "intensiteit": 0.182,
+      "energy": 0.0516,
+      "tempo": 125,
+      "loudness": -16.66,
+      "acousticness": 0.983
+    },
+    "502834014": {
+      "date": "2026-11-22",
+      "artist": "Stacey Kent",
+      "title": "Hushabye Mountain",
+      "source": "Album~Dreamsville",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz",
+        "bossa nova"
+      ],
+      "intensiteit": 0.161,
+      "energy": 0.0804,
+      "tempo": 104,
+      "loudness": -17.866,
+      "acousticness": 0.982
+    },
+    "4859221": {
+      "date": "2026-11-22",
+      "artist": "Charlie Haden",
+      "title": "I've Got A Robe You Got A Robe",
+      "source": "Album~Steal Away",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "free jazz",
+        "cool jazz"
+      ],
+      "intensiteit": 0.181,
+      "energy": 0.125,
+      "tempo": 136,
+      "loudness": -23.377,
+      "acousticness": 0.91
+    },
+    "3853982": {
+      "date": "2026-11-22",
+      "artist": "Johnny Hartman",
+      "title": "A Slow Hot Wind",
+      "source": "Album~The Voice That Is",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "vocal jazz",
+        "jazz ballads"
+      ],
+      "intensiteit": 0.195,
+      "energy": 0.155,
+      "tempo": 93,
+      "loudness": -19.774,
+      "acousticness": 0.809
+    },
+    "416800405": {
+      "date": "2026-11-22",
+      "artist": "Ike Quebec",
+      "title": "Blues for Charlie (Remastered)",
+      "source": "Album~Blue and Sentimental",
+      "kind": "instrumentaal",
+      "genres": [
+        "hard bop",
+        "bossa nova",
+        "jazz",
+        "jazz ballads"
+      ]
+    },
+    "502819402": {
+      "date": "2026-11-22",
+      "artist": "Irene Kral",
+      "title": "Where Is Love?",
+      "source": "Album~Where Is Love",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ],
+      "intensiteit": 0.058,
+      "energy": 0.0141,
+      "tempo": 66,
+      "loudness": -20.114,
+      "acousticness": 0.994
+    },
+    "175014925": {
+      "date": "2026-11-22",
+      "artist": "Chet Baker",
+      "title": "You And The Night And The Music",
+      "source": "Album~Chet",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "vocal jazz",
+        "jazz ballads"
+      ],
+      "intensiteit": 0.151,
+      "energy": 0.0936,
+      "tempo": 70,
+      "loudness": -15.771,
+      "acousticness": 0.949
+    },
+    "111970307": {
+      "date": "2026-11-22",
+      "artist": "Carmen McRae",
+      "title": "If Love Is Good To Me",
+      "source": "Album~Book of Ballads",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "2451016": {
+      "date": "2026-11-22",
+      "artist": "Stanley Turrentine",
+      "title": "Then I'll Be Tired Of You",
+      "source": "Album~Ballads",
+      "kind": "instrumentaal",
+      "genres": [
+        "hard bop",
+        "jazz",
+        "soul jazz",
+        "jazz ballads"
+      ],
+      "intensiteit": 0.331,
+      "energy": 0.283,
+      "tempo": 56,
+      "loudness": -9.311,
+      "acousticness": 0.878
+    },
+    "502834020": {
+      "date": "2026-11-22",
+      "artist": "Stacey Kent",
+      "title": "Thanks For The Memory",
+      "source": "Album~Dreamsville",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz",
+        "bossa nova"
+      ],
+      "intensiteit": 0.222,
+      "energy": 0.17,
+      "tempo": 94,
+      "loudness": -15.427,
+      "acousticness": 0.982
+    },
+    "56221376": {
+      "date": "2026-11-22",
+      "artist": "Duke Jordan",
+      "title": "If I Did - Would You?, Take 2",
+      "source": "Album~Flight to Denmark",
+      "kind": "instrumentaal",
+      "genres": [
+        "hard bop",
+        "jazz",
+        "bebop",
+        "jazz ballads"
+      ],
+      "intensiteit": 0.26,
+      "energy": 0.208,
+      "tempo": 110,
+      "loudness": -16.954,
+      "acousticness": 0.895
+    },
+    "73602684": {
+      "date": "2026-11-22",
+      "artist": "Shirley Horn",
+      "title": "You Stepped Out Of A Dream",
+      "source": "Album~You Won't Forget Me",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "jazz ballads"
+      ],
+      "intensiteit": 0.325,
+      "energy": 0.232,
+      "tempo": 146,
+      "loudness": -17.826,
+      "acousticness": 0.794
+    },
+    "3970986": {
+      "date": "2026-11-22",
+      "artist": "Charlie Haden",
+      "title": "Noche De Ronda",
+      "source": "Album~Nocturne",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "free jazz",
+        "cool jazz"
+      ],
+      "intensiteit": 0.238,
+      "energy": 0.225,
+      "tempo": 89,
+      "loudness": -17.06,
+      "acousticness": 0.929
+    },
+    "134372455": {
+      "date": "2026-11-22",
+      "artist": "Ella Fitzgerald",
+      "title": "I Cried For You",
+      "source": "Album~Let No Man Write My Epitaph",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "swing music",
+        "big band"
+      ]
+    },
+    "158971": {
+      "date": "2026-11-22",
+      "artist": "Chet Baker",
+      "title": "There's A Lull In My Life",
+      "source": "Album~Embraceable You",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "vocal jazz",
+        "jazz ballads"
+      ],
+      "intensiteit": 0.159,
+      "energy": 0.0357,
+      "tempo": 116,
+      "loudness": -17.607,
+      "acousticness": 0.947
+    },
+    "2894490": {
+      "date": "2026-11-22",
+      "artist": "Nat King Cole",
+      "title": "Stardust",
+      "source": "Album~Love Is the Thing",
+      "kind": "zang",
+      "genres": [
+        "christmas",
+        "adult standards",
+        "vocal jazz",
+        "jazz"
+      ],
+      "intensiteit": 0.076,
+      "energy": 0.0767,
+      "tempo": 76,
+      "loudness": -24.695,
+      "acousticness": 0.85
+    },
+    "101524157": {
+      "date": "2026-11-22",
+      "artist": "Gerry Mulligan Sextet",
+      "title": "Prelude In E Minor",
+      "source": "Album~Night Lights",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "jazz ballads"
+      ],
+      "intensiteit": 0.155,
+      "energy": 0.0463,
+      "tempo": 139,
+      "loudness": -21.521,
+      "acousticness": 0.945
+    },
+    "500435017": {
+      "date": "2026-11-22",
+      "artist": "JIMMY SCOTT",
+      "title": "I'm Getting Sentimental Over You",
+      "source": "Album~Falling in Love Is Wonderful",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz"
+      ]
+    },
+    "192088497": {
+      "date": "2026-11-22",
+      "artist": "Bill Evans",
+      "title": "We Will Meet Again",
+      "source": "Album~You Must Believe in Spring",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "jazz ballads",
+        "hard bop"
+      ],
+      "intensiteit": 0.193,
+      "energy": 0.2,
+      "tempo": 79,
+      "loudness": -18.981,
+      "acousticness": 0.924
+    },
+    "3872140": {
+      "date": "2026-11-22",
+      "artist": "Helen Merrill",
+      "title": "By Myself",
+      "source": "Album~Dream of You",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz ballads",
+        "jazz"
+      ],
+      "intensiteit": 0.326,
+      "energy": 0.201,
+      "tempo": 116,
+      "loudness": -9.79,
+      "acousticness": 0.961
+    },
+    "150160719": {
+      "date": "2026-11-22",
+      "artist": "Paul Desmond",
+      "title": "My Funny Valentine",
+      "source": "Album~Desmond Blue",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "bossa nova",
+        "jazz ballads"
+      ]
+    },
+    "502834011": {
+      "date": "2026-11-22",
+      "artist": "Stacey Kent",
+      "title": "Under A Blanket Of Blue",
+      "source": "Album~Dreamsville",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz",
+        "bossa nova"
+      ],
+      "intensiteit": 0.205,
+      "energy": 0.113,
+      "tempo": 87,
+      "loudness": -13.725,
+      "acousticness": 0.942
+    },
+    "1213781": {
+      "date": "2026-11-22",
+      "artist": "Bill Evans",
+      "title": "What Kind Of Fool Am I",
+      "source": "Album~Alone",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "jazz ballads",
+        "hard bop"
+      ],
+      "intensiteit": 0.129,
+      "energy": 0.151,
+      "tempo": 74,
+      "loudness": -20.994,
+      "acousticness": 0.989
+    },
+    "73383385": {
+      "date": "2026-11-22",
+      "artist": "Jeri Southern",
+      "title": "When I Fall In Love",
+      "source": "Album~You Better Go Now",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ],
+      "intensiteit": 0.169,
+      "energy": 0.0971,
+      "tempo": 80,
+      "loudness": -15.807,
+      "acousticness": 0.93
+    },
+    "416800411": {
+      "date": "2026-11-22",
+      "artist": "Ike Quebec",
+      "title": "Lover Man (Remastered)",
+      "source": "Album~Blue and Sentimental",
+      "kind": "instrumentaal",
+      "genres": [
+        "hard bop",
+        "bossa nova",
+        "jazz",
+        "jazz ballads"
+      ]
+    },
+    "2894499": {
+      "date": "2026-11-22",
+      "artist": "Nat King Cole",
+      "title": "Where Can I Go Without You?",
+      "source": "Album~Love Is the Thing",
+      "kind": "zang",
+      "genres": [
+        "christmas",
+        "adult standards",
+        "vocal jazz",
+        "jazz"
+      ],
+      "intensiteit": 0.326,
+      "energy": 0.223,
+      "tempo": 117,
+      "loudness": -15.401,
+      "acousticness": 0.671
+    },
+    "72767": {
+      "date": "2026-11-22",
+      "artist": "Paul Desmond",
+      "title": "Hi-Lili, Hi-Lo",
+      "source": "Album~Glad to Be Unhappy",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "bossa nova",
+        "jazz ballads"
+      ],
+      "intensiteit": 0.121,
+      "energy": 0.0514,
+      "tempo": 140,
+      "loudness": -25.435,
+      "acousticness": 0.966
+    },
+    "502819397": {
+      "date": "2026-11-22",
+      "artist": "Irene Kral",
+      "title": "A Time For Love / Small World",
+      "source": "Album~Where Is Love",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ],
+      "intensiteit": 0.073,
+      "energy": 0.0278,
+      "tempo": 75,
+      "loudness": -19.896,
+      "acousticness": 0.992
+    },
+    "13345163": {
+      "date": "2026-11-22",
+      "artist": "Stan Getz",
+      "title": "Time On My Hands",
+      "source": "Album~Stan Getz Plays",
+      "kind": "instrumentaal",
+      "genres": [
+        "bossa nova",
+        "jazz",
+        "brazilian jazz",
+        "cool jazz"
+      ],
+      "intensiteit": 0.272,
+      "energy": 0.254,
+      "tempo": 83,
+      "loudness": -13.567,
+      "acousticness": 0.985
+    },
+    "77666457": {
+      "date": "2026-11-22",
+      "artist": "Julie London",
+      "title": "Too Good To Be True",
+      "source": "Album~Julie Is Her Name, Vol. 2",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "adult standards"
+      ],
+      "intensiteit": 0.186,
+      "energy": 0.0992,
+      "tempo": 97,
+      "loudness": -16.791,
+      "acousticness": 0.898
+    },
+    "3974252": {
+      "date": "2026-11-22",
+      "artist": "Pat Metheny",
+      "title": "Two For The Road",
+      "source": "Album~Beyond the Missouri Sky",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz fusion",
+        "jazz",
+        "jazz ballads"
+      ],
+      "intensiteit": 0.181,
+      "energy": 0.116,
+      "tempo": 98,
+      "loudness": -17.206,
+      "acousticness": 0.978
+    },
+    "111970312": {
+      "date": "2026-11-22",
+      "artist": "Carmen McRae",
+      "title": "Something I Dreamed Last Night",
+      "source": "Album~Book of Ballads",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ]
+    },
+    "3970992": {
+      "date": "2026-11-22",
+      "artist": "Charlie Haden",
+      "title": "El Ciego (The Blind)",
+      "source": "Album~Nocturne",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "free jazz",
+        "cool jazz"
+      ],
+      "intensiteit": 0.295,
+      "energy": 0.264,
+      "tempo": 102,
+      "loudness": -15.126,
+      "acousticness": 0.923
+    },
+    "1577517": {
+      "date": "2026-11-22",
+      "artist": "Frank Sinatra",
+      "title": "Last Night When We Were Young",
+      "source": "Album~In the Wee Small Hours",
+      "kind": "zang",
+      "genres": [
+        "christmas",
+        "big band",
+        "adult standards",
+        "swing music"
+      ],
+      "intensiteit": 0.193,
+      "energy": 0.097,
+      "tempo": 89,
+      "loudness": -15.808,
+      "acousticness": 0.847
+    },
+    "58993640": {
+      "date": "2026-11-22",
+      "artist": "Gerry Mulligan",
+      "title": "Blues in B Flat",
+      "source": "Album~Gerry Mulligan Meets Ben Webster",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "bebop",
+        "jazz ballads"
+      ]
+    },
+    "3853986": {
+      "date": "2026-11-22",
+      "artist": "Johnny Hartman",
+      "title": "Sunrise, Sunset",
+      "source": "Album~The Voice That Is",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "vocal jazz",
+        "jazz ballads"
+      ],
+      "intensiteit": 0.055,
+      "energy": 0.0343,
+      "tempo": 85,
+      "loudness": -23.599,
+      "acousticness": 0.981
+    },
+    "2987948": {
+      "date": "2026-11-22",
+      "artist": "Paul Desmond",
+      "title": "Curacao Doloroso",
+      "source": "Album~Bossa Antigua",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "bossa nova",
+        "jazz ballads"
+      ],
+      "intensiteit": 0.26,
+      "energy": 0.326,
+      "tempo": 81,
+      "loudness": -20.031,
+      "acousticness": 0.881
+    },
+    "1629788": {
+      "date": "2026-11-22",
+      "artist": "Madeleine Peyroux",
+      "title": "No More",
+      "source": "Album~Careless Love",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz",
+        "jazz pop"
+      ],
+      "intensiteit": 0.268,
+      "energy": 0.236,
+      "tempo": 75,
+      "loudness": -13.477,
+      "acousticness": 0.889
+    },
+    "4859220": {
+      "date": "2026-11-22",
+      "artist": "Charlie Haden",
+      "title": "Danny Boy",
+      "source": "Album~Steal Away",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "free jazz",
+        "cool jazz"
+      ],
+      "intensiteit": 0.048,
+      "energy": 0.0478,
+      "tempo": 82,
+      "loudness": -28.973,
+      "acousticness": 0.96
+    },
+    "3872146": {
+      "date": "2026-11-22",
+      "artist": "Helen Merrill",
+      "title": "Where Flamingos Fly",
+      "source": "Album~Dream of You",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz ballads",
+        "jazz"
+      ],
+      "intensiteit": 0.337,
+      "energy": 0.261,
+      "tempo": 110,
+      "loudness": -11.409,
+      "acousticness": 0.949
+    },
+    "437617036": {
+      "date": "2026-11-22",
+      "artist": "Bill Evans",
+      "title": "It Might As Well Be Spring",
+      "source": "Album~Moon Beams",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "jazz ballads",
+        "hard bop"
+      ]
+    },
+    "3559049": {
+      "date": "2026-11-22",
+      "artist": "Sarah Vaughan",
+      "title": "Deep Purple",
+      "source": "Album~After Hours",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "jazz ballads"
+      ],
+      "intensiteit": 0.309,
+      "energy": 0.187,
+      "tempo": 177,
+      "loudness": -14.51,
+      "acousticness": 0.991
+    },
+    "77701221": {
+      "date": "2026-11-22",
+      "artist": "Coleman Hawkins",
+      "title": "Just A Gigolo",
+      "source": "Album~The Hawk Relaxes",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "bebop",
+        "cool jazz"
+      ],
+      "intensiteit": 0.163,
+      "energy": 0.0908,
+      "tempo": 104,
+      "loudness": -18.121,
+      "acousticness": 0.988
+    },
+    "1286161": {
+      "date": "2026-11-22",
+      "artist": "Bill Evans",
+      "title": "Some Other Time",
+      "source": "Album~The Tony Bennett / Bill Evans Album",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "jazz ballads",
+        "hard bop"
+      ],
+      "intensiteit": 0.145,
+      "energy": 0.0821,
+      "tempo": 79,
+      "loudness": -16.533,
+      "acousticness": 0.972
+    },
+    "150160720": {
+      "date": "2026-11-22",
+      "artist": "Paul Desmond",
+      "title": "Desmond Blue",
+      "source": "Album~Desmond Blue",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "bossa nova",
+        "jazz ballads"
+      ]
+    },
+    "73602674": {
+      "date": "2026-11-22",
+      "artist": "Shirley Horn",
+      "title": "It Had To Be You",
+      "source": "Album~You Won't Forget Me",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "jazz ballads"
+      ],
+      "intensiteit": 0.036,
+      "energy": 0.0122,
+      "tempo": 80,
+      "loudness": -25.911,
+      "acousticness": 0.89
+    },
+    "77611554": {
+      "date": "2026-11-22",
+      "artist": "Ben Webster",
+      "title": "The Touch Of Your Lips",
+      "source": "Album~Ben Webster Meets Oscar Peterson",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "cool jazz",
+        "bebop"
+      ],
+      "intensiteit": 0.245,
+      "energy": 0.134,
+      "tempo": 134,
+      "loudness": -18.077,
+      "acousticness": 0.85
+    },
+    "103014049": {
+      "date": "2026-11-22",
+      "artist": "Helen Merrill",
+      "title": "Just Imagine",
+      "source": "Album~The Nearness of You",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz ballads",
+        "jazz"
+      ],
+      "intensiteit": 0.234,
+      "energy": 0.119,
+      "tempo": 120,
+      "loudness": -15.773,
+      "acousticness": 0.906
+    },
+    "4020921": {
+      "date": "2026-11-22",
+      "artist": "Tommy Flanagan Trio",
+      "title": "You Go To My Head",
+      "source": "Album~Tommy Flanagan Trio",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "hard bop",
+        "cool jazz",
+        "jazz ballads"
+      ],
+      "intensiteit": 0.1,
+      "energy": 0.0927,
+      "tempo": 77,
+      "loudness": -21.289,
+      "acousticness": 0.98
+    },
+    "2873521": {
+      "date": "2026-11-22",
+      "artist": "Nat King Cole",
+      "title": "But Beautiful",
+      "source": "Album~The Very Thought of You",
+      "kind": "zang",
+      "genres": [
+        "christmas",
+        "adult standards",
+        "vocal jazz",
+        "jazz"
+      ],
+      "intensiteit": 0.282,
+      "energy": 0.237,
+      "tempo": 67,
+      "loudness": -12.443,
+      "acousticness": 0.829
+    },
+    "4859218": {
+      "date": "2026-11-22",
+      "artist": "Charlie Haden",
+      "title": "Sometimes I Feel Like A Motherless Child",
+      "source": "Album~Steal Away",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "free jazz",
+        "cool jazz"
+      ],
+      "intensiteit": 0.057,
+      "energy": 0.0212,
+      "tempo": 102,
+      "loudness": -30.885,
+      "acousticness": 0.969
+    },
+    "121091864": {
+      "date": "2026-11-22",
+      "artist": "Stan Getz",
+      "title": "Para Machuchar Meu Coracao",
+      "source": "Album~Getz/Gilberto",
+      "kind": "zang",
+      "genres": [
+        "bossa nova",
+        "jazz",
+        "brazilian jazz",
+        "cool jazz"
+      ],
+      "intensiteit": 0.229,
+      "energy": 0.179,
+      "tempo": 96,
+      "loudness": -15.784,
+      "acousticness": 0.964
+    },
+    "3974254": {
+      "date": "2026-11-22",
+      "artist": "Pat Metheny",
+      "title": "The Moon Is A Harsh Mistress",
+      "source": "Album~Beyond the Missouri Sky",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz fusion",
+        "jazz",
+        "jazz ballads"
+      ],
+      "intensiteit": 0.235,
+      "energy": 0.117,
+      "tempo": 138,
+      "loudness": -18.228,
+      "acousticness": 0.879
+    },
+    "96698609": {
+      "date": "2026-11-22",
+      "artist": "Frank Sinatra",
+      "title": "Only The Lonely",
+      "source": "Album~Only the Lonely",
+      "kind": "zang",
+      "genres": [
+        "christmas",
+        "big band",
+        "adult standards",
+        "swing music"
+      ],
+      "intensiteit": 0.209,
+      "energy": 0.12,
+      "tempo": 82,
+      "loudness": -13.48,
+      "acousticness": 0.917
+    },
+    "108022867": {
+      "date": "2026-11-22",
+      "artist": "The Ben Webster Quintet",
+      "title": "Ill Wind",
+      "source": "Album~Soulville",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "jazz ballads"
+      ],
+      "intensiteit": 0.156,
+      "energy": 0.0314,
+      "tempo": 128,
+      "loudness": -18.64,
+      "acousticness": 0.98
+    },
+    "155719988": {
+      "date": "2026-11-22",
+      "artist": "Stacey Kent",
+      "title": "What a Wonderful World",
+      "source": "Album~Breakfast on the Morning Tram",
+      "kind": "zang",
+      "genres": [
+        "french jazz",
+        "vocal jazz",
+        "jazz",
+        "bossa nova"
+      ],
+      "intensiteit": 0.219,
+      "energy": 0.177,
+      "tempo": 83,
+      "loudness": -15.622,
+      "acousticness": 0.929
+    },
+    "72766": {
+      "date": "2026-11-22",
+      "artist": "Paul Desmond",
+      "title": "Any Other Time",
+      "source": "Album~Glad to Be Unhappy",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "bossa nova",
+        "jazz ballads"
+      ],
+      "intensiteit": 0.154,
+      "energy": 0.0663,
+      "tempo": 123,
+      "loudness": -20.604,
+      "acousticness": 0.954
+    },
+    "2894493": {
+      "date": "2026-11-22",
+      "artist": "Nat King Cole",
+      "title": "Ain't Misbehavin (I'm Savin My Love For You)",
+      "source": "Album~Love Is the Thing",
+      "kind": "zang",
+      "genres": [
+        "christmas",
+        "adult standards",
+        "vocal jazz",
+        "jazz"
+      ],
+      "intensiteit": 0.195,
+      "energy": 0.142,
+      "tempo": 83,
+      "loudness": -16.904,
+      "acousticness": 0.871
+    },
+    "11628115": {
+      "date": "2026-11-22",
+      "artist": "Charlie Haden",
+      "title": "Come Sunday",
+      "source": "Album~Come Sunday",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "free jazz",
+        "cool jazz"
+      ],
+      "intensiteit": 0.139,
+      "energy": 0.0846,
+      "tempo": 119,
+      "loudness": -22.689,
+      "acousticness": 0.948
+    },
+    "40620075": {
+      "date": "2026-11-22",
+      "artist": "Sarah Morrau",
+      "title": "Woodstock",
+      "source": "Album~Here's to Life",
+      "kind": "zang",
+      "genres": [
+        "cdbaby",
+        "all"
+      ]
+    },
+    "49796405": {
+      "date": "2026-11-22",
+      "artist": "Oscar Peterson With Strings",
+      "title": "Stella By Starlight",
+      "source": "Album~In a Romantic Mood",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "piano",
+        "jazz piano",
+        "swing"
+      ],
+      "intensiteit": 0.192,
+      "energy": 0.11,
+      "tempo": 104,
+      "loudness": -16.504,
+      "acousticness": 0.97
+    },
+    "43878944": {
+      "date": "2026-11-22",
+      "artist": "Billie Holiday",
+      "title": "For Heaven's Sake",
+      "source": "Album~Lady in Satin",
+      "kind": "zang",
+      "genres": [
+        "jazz",
+        "vocal jazz",
+        "big band",
+        "swing music"
+      ],
+      "intensiteit": 0.302,
+      "energy": 0.204,
+      "tempo": 120,
+      "loudness": -16.026,
+      "acousticness": 0.751
+    },
+    "158978": {
+      "date": "2026-11-22",
+      "artist": "Chet Baker",
+      "title": "Little Girl Blue",
+      "source": "Album~Embraceable You",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "cool jazz",
+        "vocal jazz",
+        "jazz ballads"
+      ],
+      "intensiteit": 0.096,
+      "energy": 0.0205,
+      "tempo": 113,
+      "loudness": -22.642,
+      "acousticness": 0.948
+    },
+    "73383386": {
+      "date": "2026-11-22",
+      "artist": "Jeri Southern",
+      "title": "Just Got To Have Him Around",
+      "source": "Album~You Better Go Now",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz"
+      ],
+      "intensiteit": 0.234,
+      "energy": 0.0718,
+      "tempo": 138,
+      "loudness": -15.777,
+      "acousticness": 0.889
+    },
+    "49796399": {
+      "date": "2026-11-22",
+      "artist": "Oscar Peterson With Strings",
+      "title": "Laura",
+      "source": "Album~In a Romantic Mood",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "piano",
+        "jazz piano",
+        "swing"
+      ],
+      "intensiteit": 0.257,
+      "energy": 0.226,
+      "tempo": 84,
+      "loudness": -14.717,
+      "acousticness": 0.919
+    },
+    "1398927": {
+      "date": "2026-11-22",
+      "artist": "Frank Sinatra",
+      "title": "Don't Worry 'Bout Me",
+      "source": "Album~Where Are You",
+      "kind": "zang",
+      "genres": [
+        "christmas",
+        "big band",
+        "adult standards",
+        "swing music"
+      ],
+      "intensiteit": 0.243,
+      "energy": 0.14,
+      "tempo": 66,
+      "loudness": -10.123,
+      "acousticness": 0.887
+    },
+    "77611557": {
+      "date": "2026-11-22",
+      "artist": "Ben Webster",
+      "title": "How Deep Is The Ocean (How High Is The Sky)",
+      "source": "Album~Ben Webster Meets Oscar Peterson",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "cool jazz",
+        "bebop"
+      ],
+      "intensiteit": 0.117,
+      "energy": 0.0586,
+      "tempo": 115,
+      "loudness": -23.381,
+      "acousticness": 0.912
+    },
+    "3559041": {
+      "date": "2026-11-22",
+      "artist": "Sarah Vaughan",
+      "title": "You Taught Me to Love Again",
+      "source": "Album~After Hours",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "jazz",
+        "jazz ballads"
+      ],
+      "intensiteit": 0.3,
+      "energy": 0.244,
+      "tempo": 95,
+      "loudness": -11.703,
+      "acousticness": 0.987
+    },
+    "150160727": {
+      "date": "2026-11-22",
+      "artist": "Paul Desmond",
+      "title": "Body And Soul",
+      "source": "Album~Desmond Blue",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "bossa nova",
+        "jazz ballads"
+      ]
+    },
+    "500435014": {
+      "date": "2026-11-22",
+      "artist": "JIMMY SCOTT",
+      "title": "There Is No Greater Love",
+      "source": "Album~Falling in Love Is Wonderful",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz"
+      ]
+    },
+    "58993639": {
+      "date": "2026-11-22",
+      "artist": "Gerry Mulligan",
+      "title": "Fajista",
+      "source": "Album~Gerry Mulligan Meets Ben Webster",
+      "kind": "instrumentaal",
+      "genres": [
+        "cool jazz",
+        "jazz",
+        "bebop",
+        "jazz ballads"
+      ]
+    },
+    "1398918": {
+      "date": "2026-11-22",
+      "artist": "Frank Sinatra",
+      "title": "Autumn Leaves",
+      "source": "Album~Where Are You",
+      "kind": "zang",
+      "genres": [
+        "christmas",
+        "big band",
+        "adult standards",
+        "swing music"
+      ],
+      "intensiteit": 0.164,
+      "energy": 0.105,
+      "tempo": 81,
+      "loudness": -17.766,
+      "acousticness": 0.868
+    },
+    "3970991": {
+      "date": "2026-11-22",
+      "artist": "Charlie Haden",
+      "title": "Transparence",
+      "source": "Album~Nocturne",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "jazz ballads",
+        "free jazz",
+        "cool jazz"
+      ],
+      "intensiteit": 0.153,
+      "energy": 0.121,
+      "tempo": 68,
+      "loudness": -16.585,
+      "acousticness": 0.985
+    },
+    "3491641": {
+      "date": "2026-11-22",
+      "artist": "Peggy Lee",
+      "title": "That's All",
+      "source": "Album~The Man I Love",
+      "kind": "zang",
+      "genres": [
+        "vocal jazz",
+        "swing music",
+        "big band",
+        "jazz"
+      ],
+      "intensiteit": 0.075,
+      "energy": 0.0416,
+      "tempo": 105,
+      "loudness": -24.869,
+      "acousticness": 0.955
+    },
+    "4020924": {
+      "date": "2026-11-22",
+      "artist": "Tommy Flanagan Trio",
+      "title": "Born To Be Blue",
+      "source": "Album~Tommy Flanagan Trio",
+      "kind": "instrumentaal",
+      "genres": [
+        "jazz",
+        "hard bop",
+        "cool jazz",
+        "jazz ballads"
+      ],
+      "intensiteit": 0.126,
+      "energy": 0.0672,
+      "tempo": 115,
+      "loudness": -22.032,
+      "acousticness": 0.981
+    },
+    "1577513": {
+      "date": "2026-11-22",
+      "artist": "Frank Sinatra",
+      "title": "I See Your Face Before Me",
+      "source": "Album~In the Wee Small Hours",
+      "kind": "zang",
+      "genres": [
+        "christmas",
+        "big band",
+        "adult standards",
+        "swing music"
+      ],
+      "intensiteit": 0.157,
+      "energy": 0.0999,
+      "tempo": 69,
+      "loudness": -17.294,
+      "acousticness": 0.833
     }
   },
   "last_run": {
-    "date": "2026-11-15",
-    "added": 55,
+    "date": "2026-11-22",
+    "added": 117,
     "size": 200,
-    "missing": [
-      "Shirley Horn / Here's to Life"
-    ]
+    "missing": []
   }
 }
