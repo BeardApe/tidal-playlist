@@ -2156,7 +2156,10 @@
     "smith & mighty|move you run (featuring tammy": "2026-06-01",
     "explosions in the sky|remember me as a time of day": "2026-06-01",
     "gayance|hellooooo????": "2026-06-01",
-    "smith & mighty|try": "2026-06-01",
+    "smith & mighty|try": {
+      "date": "2026-06-01",
+      "source": "LastFM~Moloko"
+    },
     "proun|coloring pages": "2026-06-01",
     "digitalism|achtung! optimism": "2026-06-01",
     "boygenius|emily i'm sorry": "2026-06-01",
@@ -14128,6 +14131,206 @@
     "jose gonzalez|step out": {
       "date": "2026-11-17",
       "source": "Vuurland"
+    },
+    "royel otis|who's your boyfriend": {
+      "date": "2026-11-24",
+      "source": "TheCurrent"
+    },
+    "jasmine.4.t|guy fawkes tesco dissociation": {
+      "date": "2026-11-24",
+      "source": "TheCurrent"
+    },
+    "blind pilot|things i cannot recall": {
+      "date": "2026-11-24",
+      "source": "LastFM~Iron & Wine"
+    },
+    "remi wolf|hello hello hello": {
+      "date": "2026-11-24",
+      "source": "TheCurrent"
+    },
+    "billie eilish|bad guy": {
+      "date": "2026-11-24",
+      "source": "TheCurrent"
+    },
+    "emilie simon|le vieil amant": {
+      "date": "2026-11-24",
+      "source": "SomaFM-Lush"
+    },
+    "jordie lane|backseat driver": {
+      "date": "2026-11-24",
+      "source": "DoubleJ"
+    },
+    "florist|riding around in the dark": {
+      "date": "2026-11-24",
+      "source": "SomaFM-Lush"
+    },
+    "nicky cairney|golden gates": {
+      "date": "2026-11-24",
+      "source": "SomaFM-Lush"
+    },
+    "flunk|diet of water and love": {
+      "date": "2026-11-24",
+      "source": "SomaFM-Lush"
+    },
+    "sam smith|my guy (with jacob lusk)": {
+      "date": "2026-11-24",
+      "source": "Radio1-Top30"
+    },
+    "phoenix|alpha zulu": {
+      "date": "2026-11-24",
+      "source": "TheCurrent"
+    },
+    "sufjan stevens|chicago": {
+      "date": "2026-11-24",
+      "source": "DoubleJ"
+    },
+    "hot butter|popcorn": {
+      "date": "2026-11-24",
+      "source": "TheCurrent"
+    },
+    "rita payés|rueda eterna": {
+      "date": "2026-11-24",
+      "source": "NPR-AllSongsConsidered"
+    },
+    "wannes cappelle|vleugels": {
+      "date": "2026-11-24",
+      "source": "Radio1-Top30"
+    },
+    "u2|mysterious ways": {
+      "date": "2026-11-24",
+      "source": "TheCurrent"
+    },
+    "mmyykk|it rains": {
+      "date": "2026-11-24",
+      "source": "TheCurrent"
+    },
+    "under|gravity": {
+      "date": "2026-11-24",
+      "source": "SomaFM-Lush"
+    },
+    "jobi riccio|the ridge": {
+      "date": "2026-11-24",
+      "source": "TheCurrent"
+    },
+    "elodieo|motel california - radio edit": {
+      "date": "2026-11-24",
+      "source": "WFUV-NYSlice2026"
+    },
+    "blind pilot|go on, say it": {
+      "date": "2026-11-24",
+      "source": "LastFM~Iron & Wine"
+    },
+    "bon iver|day one feat. dijon and flock of dimes": {
+      "date": "2026-11-24",
+      "source": "TheCurrent"
+    },
+    "sarah mclachlan|world on fire (marius de vries mix)": {
+      "date": "2026-11-24",
+      "source": "SomaFM-Lush"
+    },
+    "greta van fleet|highway tune": {
+      "date": "2026-11-24",
+      "source": "TheCurrent"
+    },
+    "beth orton|when you wake": {
+      "date": "2026-11-24",
+      "source": "SomaFM-Lush"
+    },
+    "metric|victim of luck": {
+      "date": "2026-11-24",
+      "source": "DoubleJ"
+    },
+    "gdrn|hlid vid hlid": {
+      "date": "2026-11-24",
+      "source": "SomaFM-Lush"
+    },
+    "charlotte adigéry|from healer to dealer": {
+      "date": "2026-11-24",
+      "source": "Radio1-Top30"
+    },
+    "ivy|fascinated": {
+      "date": "2026-11-24",
+      "source": "SomaFM-Lush"
+    },
+    "saya gray|thus is why (i don't spring for love)": {
+      "date": "2026-11-24",
+      "source": "DoubleJ"
+    },
+    "goldfrapp|alvar": {
+      "date": "2026-11-24",
+      "source": "SomaFM-Lush"
+    },
+    "yukimi|get it over": {
+      "date": "2026-11-24",
+      "source": "DoubleJ"
+    },
+    "sylvan esso|concrete glen": {
+      "date": "2026-11-24",
+      "source": "TheCurrent"
+    },
+    "trampled by turtles and jeff tweedy|love is everywhere (beware)": {
+      "date": "2026-11-24",
+      "source": "TheCurrent"
+    },
+    "the avalanches|our love is alive [ft. suzanne ciani, barry can't swim]": {
+      "date": "2026-11-24",
+      "source": "DoubleJ"
+    },
+    "raye|worth it": {
+      "date": "2026-11-24",
+      "source": "TheCurrent"
+    },
+    "ween|your party": {
+      "date": "2026-11-24",
+      "source": "DoubleJ"
+    },
+    "cat power|ruin": {
+      "date": "2026-11-24",
+      "source": "TheCurrent"
+    },
+    "ben lee|we're all in this together": {
+      "date": "2026-11-24",
+      "source": "DoubleJ"
+    },
+    "the brown hornet|focaccia": {
+      "date": "2026-11-24",
+      "source": "DoubleJ"
+    },
+    "the middle east|the darkest side": {
+      "date": "2026-11-24",
+      "source": "DoubleJ"
+    },
+    "ella thompson|my weakness": {
+      "date": "2026-11-24",
+      "source": "DoubleJ"
+    },
+    "middle kids|big freak": {
+      "date": "2026-11-24",
+      "source": "TheCurrent"
+    },
+    "todd rundgren|i saw the light": {
+      "date": "2026-11-24",
+      "source": "TheCurrent"
+    },
+    "thundercat|them changes": {
+      "date": "2026-11-24",
+      "source": "DoubleJ"
+    },
+    "shana halligan|if i knew": {
+      "date": "2026-11-24",
+      "source": "SomaFM-Lush"
+    },
+    "rod stewart|gasoline alley": {
+      "date": "2026-11-24",
+      "source": "TheCurrent"
+    },
+    "christine and the queens|rendez-vous avec toi": {
+      "date": "2026-11-24",
+      "source": "Radio1-Top30"
+    },
+    "elephants on tape|caterpillar": {
+      "date": "2026-11-24",
+      "source": "SomaFM-Lush"
     }
   },
   "playlist_log": {
@@ -21027,6 +21230,709 @@
       "isrc": "USFM91300128",
       "intensiteit": 0.709,
       "rust": 4,
+      "rust_bron": "reccobeats"
+    },
+    "454249627": {
+      "date": "2026-11-24",
+      "artist": "Royel Otis",
+      "title": "who's your boyfriend",
+      "source": "TheCurrent",
+      "genres": [
+        "indie"
+      ],
+      "isrc": "USUG12503064",
+      "intensiteit": 0.922,
+      "rust": 5,
+      "rust_bron": "reccobeats"
+    },
+    "370495992": {
+      "date": "2026-11-24",
+      "artist": "jasmine.4.t",
+      "title": "Guy Fawkes Tesco Dissociation",
+      "source": "TheCurrent",
+      "genres": [
+        "singer songwriter",
+        "indie",
+        "female vocalist",
+        "folk"
+      ],
+      "isrc": "USJ5G2402407",
+      "intensiteit": 0.736,
+      "rust": 4,
+      "rust_bron": "reccobeats"
+    },
+    "75789796": {
+      "date": "2026-11-24",
+      "artist": "Blind Pilot",
+      "title": "Things I Cannot Recall",
+      "source": "LastFM~Iron & Wine",
+      "genres": [
+        "indie folk"
+      ],
+      "isrc": "TCADD1752756",
+      "intensiteit": 0.344,
+      "rust": 2,
+      "rust_bron": "reccobeats"
+    },
+    "145898642": {
+      "date": "2026-11-24",
+      "artist": "Remi Wolf",
+      "title": "Hello Hello Hello",
+      "source": "TheCurrent",
+      "genres": [
+        "indie pop",
+        "pop",
+        "soul",
+        "neo soul"
+      ],
+      "isrc": "USUG12002141",
+      "intensiteit": 0.69,
+      "rust": 4,
+      "rust_bron": "reccobeats"
+    },
+    "121069660": {
+      "date": "2026-11-24",
+      "artist": "Billie Eilish",
+      "title": "Bad Guy",
+      "source": "TheCurrent",
+      "genres": [
+        "pop",
+        "indie pop",
+        "electropop",
+        "art pop"
+      ],
+      "isrc": "USUM71900764",
+      "intensiteit": 0.556,
+      "rust": 3,
+      "rust_bron": "reccobeats"
+    },
+    "7239508": {
+      "date": "2026-11-24",
+      "artist": "Emilie Simon",
+      "title": "Le Vieil Amant",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "french pop",
+        "french jazz",
+        "trip hop"
+      ],
+      "isrc": "FRZ010501070",
+      "intensiteit": 0.563,
+      "rust": 3,
+      "rust_bron": "reccobeats"
+    },
+    "563050603": {
+      "date": "2026-11-24",
+      "artist": "Jordie Lane",
+      "title": "Backseat Driver",
+      "source": "DoubleJ",
+      "genres": [
+        "folk",
+        "rock",
+        "singer songwriter",
+        "australian"
+      ],
+      "isrc": "AULJ32600197",
+      "rust": 4,
+      "rust_bron": "schatting"
+    },
+    "541752656": {
+      "date": "2026-11-24",
+      "artist": "Florist",
+      "title": "Riding Around in the Dark",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "indie pop",
+        "lo fi",
+        "folk",
+        "indie folk"
+      ],
+      "isrc": "QMB622402704",
+      "intensiteit": 0.39,
+      "rust": 2,
+      "rust_bron": "reccobeats"
+    },
+    "16513973": {
+      "date": "2026-11-24",
+      "artist": "Nicky Cairney",
+      "title": "Golden Gates",
+      "source": "SomaFM-Lush",
+      "genres": [],
+      "isrc": "USA561168076",
+      "intensiteit": 0.409,
+      "rust": 2,
+      "rust_bron": "reccobeats"
+    },
+    "14214455": {
+      "date": "2026-11-24",
+      "artist": "Flunk",
+      "title": "Diet Of Water And Love",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "trip hop",
+        "downtempo"
+      ],
+      "isrc": "NOMEA0701093",
+      "intensiteit": 0.722,
+      "rust": 4,
+      "rust_bron": "reccobeats"
+    },
+    "570574294": {
+      "date": "2026-11-24",
+      "artist": "Sam Smith",
+      "title": "My Guy (with Jacob Lusk)",
+      "source": "Radio1-Top30",
+      "genres": [
+        "soft pop"
+      ],
+      "isrc": "GBUM72606086",
+      "rust": 4,
+      "rust_bron": "schatting"
+    },
+    "229759889": {
+      "date": "2026-11-24",
+      "artist": "Phoenix",
+      "title": "Alpha Zulu",
+      "source": "TheCurrent",
+      "genres": [
+        "indie"
+      ],
+      "isrc": "FR9W12214138",
+      "intensiteit": 0.781,
+      "rust": 5,
+      "rust_bron": "reccobeats"
+    },
+    "19327284": {
+      "date": "2026-11-24",
+      "artist": "Sufjan Stevens",
+      "title": "Chicago",
+      "source": "DoubleJ",
+      "genres": [
+        "baroque pop"
+      ],
+      "isrc": "US64G0501409",
+      "intensiteit": 0.54,
+      "rust": 3,
+      "rust_bron": "reccobeats"
+    },
+    "13859745": {
+      "date": "2026-11-24",
+      "artist": "Hot Butter",
+      "title": "Popcorn",
+      "source": "TheCurrent",
+      "genres": [
+        "electronic",
+        "synthpop",
+        "70s",
+        "instrumental"
+      ],
+      "isrc": "USA371643648",
+      "intensiteit": 0.785,
+      "rust": 5,
+      "rust_bron": "reccobeats"
+    },
+    "547472747": {
+      "date": "2026-11-24",
+      "artist": "Rita Payés",
+      "title": "Rueda eterna",
+      "source": "NPR-AllSongsConsidered",
+      "genres": [
+        "bolero",
+        "latin folk"
+      ],
+      "isrc": "GX3Q92651825",
+      "rust": 3,
+      "rust_bron": "schatting"
+    },
+    "573545791": {
+      "date": "2026-11-24",
+      "artist": "Wannes Cappelle",
+      "title": "Vleugels",
+      "source": "Radio1-Top30",
+      "genres": [
+        "belgium"
+      ],
+      "isrc": "BEN582600828",
+      "rust": 4,
+      "rust_bron": "schatting"
+    },
+    "8939007": {
+      "date": "2026-11-24",
+      "artist": "U2",
+      "title": "Mysterious Ways",
+      "source": "TheCurrent",
+      "genres": [
+        "rock"
+      ],
+      "isrc": "GBUM71106456",
+      "intensiteit": 0.719,
+      "rust": 4,
+      "rust_bron": "reccobeats"
+    },
+    "574090209": {
+      "date": "2026-11-24",
+      "artist": "MMYYKK",
+      "title": "It Rains",
+      "source": "TheCurrent",
+      "genres": [
+        "neo soul"
+      ],
+      "isrc": "QZNMZ2698556",
+      "rust": 4,
+      "rust_bron": "schatting"
+    },
+    "464778161": {
+      "date": "2026-11-24",
+      "artist": "Under",
+      "title": "Gravity",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "chillout",
+        "female vocalists",
+        "kgrl",
+        "japanese"
+      ],
+      "isrc": "USAT22507933",
+      "rust": 3,
+      "rust_bron": "schatting"
+    },
+    "463528811": {
+      "date": "2026-11-24",
+      "artist": "Jobi Riccio",
+      "title": "The Ridge",
+      "source": "TheCurrent",
+      "genres": [
+        "americana"
+      ],
+      "isrc": "USA2B2513655",
+      "rust": 4,
+      "rust_bron": "schatting"
+    },
+    "525984013": {
+      "date": "2026-11-24",
+      "artist": "elodieO",
+      "title": "Motel California - Radio Edit",
+      "source": "WFUV-NYSlice2026",
+      "genres": [
+        "synthpop",
+        "electronic",
+        "trip hop downtempo",
+        "trip hop"
+      ],
+      "isrc": "QZQAY2644640",
+      "rust": 4,
+      "rust_bron": "schatting"
+    },
+    "2842754": {
+      "date": "2026-11-24",
+      "artist": "Blind Pilot",
+      "title": "Go On, Say It",
+      "source": "LastFM~Iron & Wine",
+      "genres": [
+        "indie folk"
+      ],
+      "isrc": "USLN70811551",
+      "rust": 3,
+      "rust_bron": "schatting"
+    },
+    "41636911": {
+      "date": "2026-11-24",
+      "artist": "Bon Iver",
+      "title": "Day One feat. Dijon and Flock of Dimes",
+      "source": "TheCurrent",
+      "genres": [
+        "folk",
+        "indie",
+        "singer songwriter",
+        "acoustic"
+      ],
+      "isrc": "US38Y1113503",
+      "intensiteit": 0.378,
+      "rust": 2,
+      "rust_bron": "reccobeats"
+    },
+    "372947852": {
+      "date": "2026-11-24",
+      "artist": "Sarah McLachlan",
+      "title": "World On Fire (Marius De Vries Mix)",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "female vocalists",
+        "singer songwriter",
+        "pop",
+        "canadian"
+      ],
+      "isrc": "NLS241401444",
+      "intensiteit": 0.939,
+      "rust": 5,
+      "rust_bron": "reccobeats"
+    },
+    "80796952": {
+      "date": "2026-11-24",
+      "artist": "Greta Van Fleet",
+      "title": "Highway Tune",
+      "source": "TheCurrent",
+      "genres": [
+        "rock"
+      ],
+      "isrc": "USUM71702892",
+      "intensiteit": 0.945,
+      "rust": 5,
+      "rust_bron": "reccobeats"
+    },
+    "553338537": {
+      "date": "2026-11-24",
+      "artist": "Beth Orton",
+      "title": "When You Wake",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "singer-songwriter"
+      ],
+      "isrc": "UPL553338537",
+      "rust": 3,
+      "rust_bron": "schatting"
+    },
+    "482410958": {
+      "date": "2026-11-24",
+      "artist": "Metric",
+      "title": "Victim Of Luck",
+      "source": "DoubleJ",
+      "genres": [
+        "indie",
+        "indie rock",
+        "female vocalists",
+        "canadian"
+      ],
+      "isrc": "QMFMG2532673",
+      "rust": 4,
+      "rust_bron": "schatting"
+    },
+    "227957191": {
+      "date": "2026-11-24",
+      "artist": "GDRN",
+      "title": "Hlid Vid Hlid",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "pop",
+        "icelandic",
+        "icelandic pop",
+        "rnb"
+      ],
+      "isrc": "ISB111802811",
+      "intensiteit": 0.516,
+      "rust": 3,
+      "rust_bron": "reccobeats"
+    },
+    "563138036": {
+      "date": "2026-11-24",
+      "artist": "Charlotte Adigéry",
+      "title": "From Healer to Dealer",
+      "source": "Radio1-Top30",
+      "genres": [
+        "french",
+        "pop",
+        "electronic",
+        "synthpop"
+      ],
+      "isrc": "UKS362600371",
+      "rust": 4,
+      "rust_bron": "schatting"
+    },
+    "214190825": {
+      "date": "2026-11-24",
+      "artist": "Ivy",
+      "title": "Fascinated",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "indie",
+        "female vocalists",
+        "indie pop",
+        "chillout"
+      ],
+      "isrc": "CAN111100319",
+      "intensiteit": 0.865,
+      "rust": 5,
+      "rust_bron": "reccobeats"
+    },
+    "373218698": {
+      "date": "2026-11-24",
+      "artist": "Saya Gray",
+      "title": "THUS IS WHY (I DON'T SPRING FOR LOVE)",
+      "source": "DoubleJ",
+      "genres": [
+        "art pop",
+        "indietronica",
+        "indie folk",
+        "singer songwriter"
+      ],
+      "isrc": "GBK3W2403074",
+      "intensiteit": 0.574,
+      "rust": 3,
+      "rust_bron": "reccobeats"
+    },
+    "21984285": {
+      "date": "2026-11-24",
+      "artist": "Goldfrapp",
+      "title": "Alvar",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "trip hop",
+        "art pop",
+        "electroclash"
+      ],
+      "isrc": "GBR8R1300988",
+      "intensiteit": 0.427,
+      "rust": 2,
+      "rust_bron": "reccobeats"
+    },
+    "455735578": {
+      "date": "2026-11-24",
+      "artist": "Yukimi",
+      "title": "Get It Over",
+      "source": "DoubleJ",
+      "genres": [
+        "indie",
+        "electronic",
+        "swedish",
+        "rnb"
+      ],
+      "isrc": "GBCFB2500424",
+      "rust": 4,
+      "rust_bron": "schatting"
+    },
+    "524392562": {
+      "date": "2026-11-24",
+      "artist": "Sylvan Esso",
+      "title": "Concrete Glen",
+      "source": "TheCurrent",
+      "genres": [
+        "electronic",
+        "electropop",
+        "synthpop",
+        "indietronica"
+      ],
+      "isrc": "QZPKV2606904",
+      "rust": 4,
+      "rust_bron": "schatting"
+    },
+    "528497917": {
+      "date": "2026-11-24",
+      "artist": "Trampled By Turtles and Jeff Tweedy",
+      "title": "Love is Everywhere (Beware)",
+      "source": "TheCurrent",
+      "genres": [],
+      "isrc": "QM7282632585",
+      "rust": 4,
+      "rust_bron": "schatting"
+    },
+    "569683021": {
+      "date": "2026-11-24",
+      "artist": "The Avalanches",
+      "title": "Our Love Is Alive [Ft. Suzanne Ciani, Barry Can't Swim]",
+      "source": "DoubleJ",
+      "genres": [
+        "plunderphonics"
+      ],
+      "isrc": "AUUM72600325",
+      "rust": 4,
+      "rust_bron": "schatting"
+    },
+    "270052057": {
+      "date": "2026-11-24",
+      "artist": "RAYE",
+      "title": "Worth It",
+      "source": "TheCurrent",
+      "genres": [
+        "pop",
+        "rnb",
+        "british",
+        "soul"
+      ],
+      "isrc": "QMDA62229986",
+      "intensiteit": 0.561,
+      "rust": 3,
+      "rust_bron": "reccobeats"
+    },
+    "497612454": {
+      "date": "2026-11-24",
+      "artist": "Ween",
+      "title": "Your Party",
+      "source": "DoubleJ",
+      "genres": [
+        "neo-psychedelic"
+      ],
+      "isrc": "USBA60700018",
+      "intensiteit": 0.686,
+      "rust": 4,
+      "rust_bron": "reccobeats"
+    },
+    "16934730": {
+      "date": "2026-11-24",
+      "artist": "Cat Power",
+      "title": "Ruin",
+      "source": "TheCurrent",
+      "genres": [
+        "slowcore",
+        "singer-songwriter"
+      ],
+      "isrc": "USMTD1202697",
+      "intensiteit": 0.81,
+      "rust": 5,
+      "rust_bron": "reccobeats"
+    },
+    "111698900": {
+      "date": "2026-11-24",
+      "artist": "Ben Lee",
+      "title": "We're All In This Together",
+      "source": "DoubleJ",
+      "genres": [
+        "singer songwriter",
+        "indie",
+        "australian",
+        "indie pop"
+      ],
+      "isrc": "US27Q0460712",
+      "intensiteit": 0.649,
+      "rust": 4,
+      "rust_bron": "reccobeats"
+    },
+    "235711398": {
+      "date": "2026-11-24",
+      "artist": "The Brown Hornet",
+      "title": "Focaccia",
+      "source": "DoubleJ",
+      "genres": [
+        "melbourne",
+        "australia",
+        "under 2000 listeners",
+        "australian"
+      ],
+      "isrc": "QZK6M2229728",
+      "intensiteit": 0.693,
+      "rust": 4,
+      "rust_bron": "reccobeats"
+    },
+    "579000140": {
+      "date": "2026-11-24",
+      "artist": "The Middle East",
+      "title": "The Darkest Side",
+      "source": "DoubleJ",
+      "genres": [
+        "indie folk"
+      ],
+      "isrc": "USTCZ0951490",
+      "intensiteit": 0.343,
+      "rust": 2,
+      "rust_bron": "reccobeats"
+    },
+    "534974847": {
+      "date": "2026-11-24",
+      "artist": "Ella Thompson",
+      "title": "My Weakness",
+      "source": "DoubleJ",
+      "genres": [
+        "retro soul",
+        "indie jazz"
+      ],
+      "isrc": "GBCLQ2600039",
+      "rust": 4,
+      "rust_bron": "schatting"
+    },
+    "568261238": {
+      "date": "2026-11-24",
+      "artist": "Middle Kids",
+      "title": "Big Freak",
+      "source": "TheCurrent",
+      "genres": [
+        "australian",
+        "indie rock",
+        "indie",
+        "rock"
+      ],
+      "isrc": "AULI02569310",
+      "rust": 4,
+      "rust_bron": "schatting"
+    },
+    "68667529": {
+      "date": "2026-11-24",
+      "artist": "Todd Rundgren",
+      "title": "I Saw the Light",
+      "source": "TheCurrent",
+      "genres": [
+        "yacht rock",
+        "power pop",
+        "philly soul"
+      ],
+      "isrc": "USRH11502658",
+      "rust": 4,
+      "rust_bron": "schatting"
+    },
+    "69721928": {
+      "date": "2026-11-24",
+      "artist": "Thundercat",
+      "title": "Them Changes",
+      "source": "DoubleJ",
+      "genres": [
+        "funk",
+        "electronic",
+        "soul",
+        "jazz"
+      ],
+      "isrc": "US25X1090547",
+      "intensiteit": 0.557,
+      "rust": 3,
+      "rust_bron": "reccobeats"
+    },
+    "54140099": {
+      "date": "2026-11-24",
+      "artist": "Shana Halligan",
+      "title": "If I Knew",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "trip hop"
+      ],
+      "isrc": "USPG21500046",
+      "intensiteit": 0.597,
+      "rust": 3,
+      "rust_bron": "reccobeats"
+    },
+    "77632815": {
+      "date": "2026-11-24",
+      "artist": "Rod Stewart",
+      "title": "Gasoline Alley",
+      "source": "TheCurrent",
+      "genres": [
+        "soft rock"
+      ],
+      "isrc": "USPR37006029",
+      "intensiteit": 0.458,
+      "rust": 3,
+      "rust_bron": "reccobeats"
+    },
+    "568594717": {
+      "date": "2026-11-24",
+      "artist": "Christine and the Queens",
+      "title": "Rendez-vous avec toi",
+      "source": "Radio1-Top30",
+      "genres": [
+        "art pop",
+        "french pop"
+      ],
+      "isrc": "FR6P12603260",
+      "rust": 4,
+      "rust_bron": "schatting"
+    },
+    "175193200": {
+      "date": "2026-11-24",
+      "artist": "ELEPHANTS ON TAPE",
+      "title": "Caterpillar",
+      "source": "SomaFM-Lush",
+      "genres": [
+        "german indie"
+      ],
+      "isrc": "DEZC62174743",
+      "intensiteit": 0.543,
+      "rust": 3,
       "rust_bron": "reccobeats"
     }
   },
