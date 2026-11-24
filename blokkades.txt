@@ -62,6 +62,7 @@ afro cuban jazz
 alternative dance
 new rave
 anti folk
+acid jazz
 
 
 [artiesten]
@@ -117,3 +118,4 @@ dizzy gillespie | caravan | 94441288
 lcd soundsystem | movement | 1413354
 amanda palmer | drowning in the sound | 473579141
 portishead | magic doors | 4023
+sweetback | au natural | 1311323
