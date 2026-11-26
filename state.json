@@ -21047,16 +21047,6 @@
       "rust": 3,
       "rust_bron": "reccobeats"
     },
-    "574363929": {
-      "date": "2026-11-17",
-      "artist": "Goldscammer",
-      "title": "It Gets Old",
-      "source": "Duyster",
-      "genres": [],
-      "isrc": "USY282619158",
-      "rust": 3,
-      "rust_bron": "schatting"
-    },
     "527344346": {
       "date": "2026-11-17",
       "artist": "Brandy Clark",
@@ -21321,21 +21311,6 @@
       "rust": 3,
       "rust_bron": "reccobeats"
     },
-    "563050603": {
-      "date": "2026-11-24",
-      "artist": "Jordie Lane",
-      "title": "Backseat Driver",
-      "source": "DoubleJ",
-      "genres": [
-        "folk",
-        "rock",
-        "singer songwriter",
-        "australian"
-      ],
-      "isrc": "AULJ32600197",
-      "rust": 4,
-      "rust_bron": "schatting"
-    },
     "541752656": {
       "date": "2026-11-24",
       "artist": "Florist",
@@ -21456,19 +21431,6 @@
       "rust": 4,
       "rust_bron": "schatting"
     },
-    "8939007": {
-      "date": "2026-11-24",
-      "artist": "U2",
-      "title": "Mysterious Ways",
-      "source": "TheCurrent",
-      "genres": [
-        "rock"
-      ],
-      "isrc": "GBUM71106456",
-      "intensiteit": 0.719,
-      "rust": 4,
-      "rust_bron": "reccobeats"
-    },
     "574090209": {
       "date": "2026-11-24",
       "artist": "MMYYKK",
@@ -21567,19 +21529,6 @@
       "rust": 5,
       "rust_bron": "reccobeats"
     },
-    "80796952": {
-      "date": "2026-11-24",
-      "artist": "Greta Van Fleet",
-      "title": "Highway Tune",
-      "source": "TheCurrent",
-      "genres": [
-        "rock"
-      ],
-      "isrc": "USUM71702892",
-      "intensiteit": 0.945,
-      "rust": 5,
-      "rust_bron": "reccobeats"
-    },
     "553338537": {
       "date": "2026-11-24",
       "artist": "Beth Orton",
@@ -21590,21 +21539,6 @@
       ],
       "isrc": "UPL553338537",
       "rust": 3,
-      "rust_bron": "schatting"
-    },
-    "482410958": {
-      "date": "2026-11-24",
-      "artist": "Metric",
-      "title": "Victim Of Luck",
-      "source": "DoubleJ",
-      "genres": [
-        "indie",
-        "indie rock",
-        "female vocalists",
-        "canadian"
-      ],
-      "isrc": "QMFMG2532673",
-      "rust": 4,
       "rust_bron": "schatting"
     },
     "227957191": {
@@ -21720,9 +21654,14 @@
       "artist": "Trampled By Turtles and Jeff Tweedy",
       "title": "Love is Everywhere (Beware)",
       "source": "TheCurrent",
-      "genres": [],
+      "genres": [
+        "bluegrass",
+        "newgrass",
+        "americana",
+        "folk"
+      ],
       "isrc": "QM7282632585",
-      "rust": 4,
+      "rust": 3,
       "rust_bron": "schatting"
     },
     "569683021": {
@@ -21838,35 +21777,6 @@
       "rust": 4,
       "rust_bron": "schatting"
     },
-    "568261238": {
-      "date": "2026-11-24",
-      "artist": "Middle Kids",
-      "title": "Big Freak",
-      "source": "TheCurrent",
-      "genres": [
-        "australian",
-        "indie rock",
-        "indie",
-        "rock"
-      ],
-      "isrc": "AULI02569310",
-      "rust": 4,
-      "rust_bron": "schatting"
-    },
-    "68667529": {
-      "date": "2026-11-24",
-      "artist": "Todd Rundgren",
-      "title": "I Saw the Light",
-      "source": "TheCurrent",
-      "genres": [
-        "yacht rock",
-        "power pop",
-        "philly soul"
-      ],
-      "isrc": "USRH11502658",
-      "rust": 4,
-      "rust_bron": "schatting"
-    },
     "69721928": {
       "date": "2026-11-24",
       "artist": "Thundercat",
@@ -21893,19 +21803,6 @@
       ],
       "isrc": "USPG21500046",
       "intensiteit": 0.597,
-      "rust": 3,
-      "rust_bron": "reccobeats"
-    },
-    "77632815": {
-      "date": "2026-11-24",
-      "artist": "Rod Stewart",
-      "title": "Gasoline Alley",
-      "source": "TheCurrent",
-      "genres": [
-        "soft rock"
-      ],
-      "isrc": "USPR37006029",
-      "intensiteit": 0.458,
       "rust": 3,
       "rust_bron": "reccobeats"
     },
